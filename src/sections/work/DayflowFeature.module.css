@@ -1,0 +1,557 @@
+.feature {
+  position: relative;
+  z-index: 1;
+  overflow: clip;
+  background: #0d1117;
+  color: #edf1f7;
+}
+
+.motionRoot {
+  position: relative;
+}
+
+.eyebrow,
+.bridgeAxis,
+.projectType,
+.contribution,
+.login figcaption,
+.workspaceHeading,
+.roleRail,
+.nodeNumber,
+.nodeDetail,
+.detailMicro,
+.transaction li span,
+.qualitySignals dt,
+.pending,
+.endcapMeta,
+.projectAction {
+  font-family: var(--font-geist-mono), monospace;
+  letter-spacing: 0.08em;
+}
+
+.eyebrow {
+  color: #a9c6e9;
+  font-size: 0.68rem;
+}
+
+.bridge {
+  padding-block: clamp(3.5rem, 6vw, 5rem);
+  border-top: 1px solid rgb(141 185 130 / 18%);
+  background: linear-gradient(180deg, #0a0d0b, #0d1117);
+}
+
+.bridgeAxis {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 42rem;
+  margin-top: 1.2rem;
+  color: #abb9c9;
+  font-size: 0.61rem;
+  white-space: nowrap;
+}
+
+.bridgeLine {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, #799d80, #86a9d4);
+}
+
+.bridgeTitle {
+  margin-top: 1.5rem;
+  color: #e5ebf2;
+  font-size: clamp(2rem, 4.3vw, 4rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 1.05;
+}
+
+.opening {
+  padding-block: clamp(2.5rem, 4vw, 4rem) clamp(4rem, 6vw, 6rem);
+}
+
+.openingGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  align-items: center;
+  gap: clamp(2rem, 5vw, 5rem);
+}
+
+.openingCopy h2 {
+  margin-top: 0.7rem;
+  color: #f8fafc;
+  font-size: clamp(3.6rem, 6vw, 6rem);
+  font-weight: 600;
+  letter-spacing: -0.07em;
+  line-height: 0.95;
+}
+
+.projectType {
+  margin-top: 0.8rem;
+  color: #bac9dd;
+  font-size: 0.73rem;
+  letter-spacing: 0.03em;
+}
+
+.statement {
+  margin-top: clamp(2rem, 4vw, 3.5rem);
+  color: #f1f5fa;
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  font-weight: 500;
+  letter-spacing: -0.065em;
+  line-height: 1.02;
+}
+
+.statement span {
+  display: block;
+}
+
+.statement span:last-child {
+  color: #a8c5e9;
+}
+
+.summary {
+  max-width: 31rem;
+  margin-top: 1.5rem;
+  color: #bcc7d5;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.contribution {
+  margin-top: 1.7rem;
+  color: #a5b6c9;
+  font-size: 0.62rem;
+  line-height: 1.6;
+}
+
+.login,
+.workspace {
+  min-width: 0;
+  margin: 0;
+}
+
+.imageFrame {
+  overflow: hidden;
+  border: 1px solid rgb(174 195 219 / 28%);
+  background: #f8f9fb;
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 20%);
+}
+
+.productImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.login figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  color: #a6b8ce;
+  font-size: 0.61rem;
+}
+
+.login figcaption span {
+  color: #8799ad;
+}
+
+.workspaces,
+.engineering,
+.verification,
+.endcap {
+  border-top: 1px solid rgb(151 172 196 / 18%);
+}
+
+.workspaces,
+.engineering {
+  padding-block: clamp(4rem, 6vw, 6rem);
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.sectionHeading h3,
+.verification h3 {
+  margin-top: 0.65rem;
+  color: #f0f4f9;
+  font-size: clamp(1.9rem, 3vw, 3rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 1.08;
+}
+
+.sectionHeading > p {
+  max-width: 25rem;
+  color: #aebed0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.roleRail {
+  display: grid;
+  grid-template-columns: auto minmax(1rem, 1fr) auto minmax(1rem, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  margin-block: clamp(2rem, 4vw, 3.5rem) 1.8rem;
+  color: #b9cde5;
+  font-size: 0.64rem;
+}
+
+.roleRail strong {
+  color: #f3f7fc;
+  font-weight: 500;
+}
+
+.roleLine {
+  height: 1px;
+  background: linear-gradient(90deg, #6e8fb9, #adbfda);
+}
+
+.workspaceGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2.5vw, 2.5rem);
+}
+
+.workspace {
+  padding-top: 1rem;
+  border-top: 1px solid rgb(151 186 226 / 40%);
+}
+
+.workspaceHeading {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: #aec2dc;
+  font-size: 0.6rem;
+  line-height: 1.5;
+}
+
+.workspaceHeading strong {
+  color: #d9e5f5;
+  font-weight: 500;
+  text-align: right;
+}
+
+.workspace figcaption {
+  max-width: 33rem;
+  margin-top: 1rem;
+  color: #bac8d8;
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.architecture {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: clamp(2.5rem, 4vw, 4rem);
+  padding: 0;
+  list-style: none;
+}
+
+.architectureNode {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  min-height: 9rem;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.2rem;
+  border: 1px solid rgb(157 182 211 / 24%);
+  background: #141a23;
+}
+
+.nodeNumber {
+  color: #8faed3;
+  font-size: 0.58rem;
+}
+
+.architectureNode strong {
+  margin-top: auto;
+  color: #f0f5fb;
+  font-size: clamp(0.95rem, 1.35vw, 1.25rem);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.nodeDetail {
+  color: #a9bad0;
+  font-size: 0.61rem;
+  line-height: 1.5;
+}
+
+.architectureLine {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: -1rem;
+  width: 1rem;
+  height: 1px;
+  background: #8fb3df;
+}
+
+.engineeringDetails {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(2rem, 5vw, 5rem);
+  margin-top: clamp(3rem, 5vw, 5rem);
+}
+
+.authorization,
+.transaction {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgb(151 186 226 / 40%);
+}
+
+.detailTitle {
+  margin-top: 0.7rem;
+  color: #ecf3fb;
+  font-size: clamp(1.4rem, 2.1vw, 2.2rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.authorization > p:nth-child(3) {
+  max-width: 31rem;
+  margin-top: 1rem;
+  color: #bac8d8;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.detailMicro {
+  margin-top: 1.4rem;
+  color: #94aaca;
+  font-size: 0.59rem;
+  line-height: 1.5;
+}
+
+.transaction ol {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.transaction li {
+  display: flex;
+  min-width: 0;
+  min-height: 5.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding: 0.8rem;
+  border: 1px solid rgb(157 182 211 / 21%);
+  color: #dbe5f1;
+  font-size: 0.78rem;
+  line-height: 1.3;
+}
+
+.transaction li span {
+  color: #8eadd2;
+  font-size: 0.58rem;
+}
+
+.verification {
+  padding-block: clamp(3.5rem, 5vw, 5rem);
+  background: #111720;
+}
+
+.verificationGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(2rem, 6vw, 6rem);
+}
+
+.verificationGrid > div:first-child > p:last-child {
+  max-width: 27rem;
+  margin-top: 1.2rem;
+  color: #b3c3d6;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.qualitySignals {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.qualitySignals > div {
+  padding-top: 1rem;
+  border-top: 1px solid rgb(151 186 226 / 33%);
+}
+
+.qualitySignals dt {
+  color: #9db7d7;
+  font-size: 0.6rem;
+}
+
+.qualitySignals dd {
+  margin: 0.6rem 0 0;
+  color: #f1f6fc;
+  font-size: clamp(1.25rem, 2vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.pending {
+  margin-top: 1.5rem;
+  color: #aabed7;
+  font-size: 0.59rem;
+  line-height: 1.6;
+}
+
+.endcap {
+  padding-block: clamp(3rem, 5vw, 5rem);
+}
+
+.endcapInner {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.endcapTitle {
+  margin-top: 0.7rem;
+  color: #f0f5fb;
+  font-size: clamp(1.3rem, 2.3vw, 2.2rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.endcapMeta {
+  margin-top: 0.9rem;
+  color: #9eb2ca;
+  font-size: 0.61rem;
+  line-height: 1.6;
+}
+
+.projectAction {
+  display: inline-flex;
+  min-height: 3.2rem;
+  flex: none;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgb(156 190 229 / 45%);
+  color: #eff6ff;
+  font-size: 0.68rem;
+  text-decoration: none;
+  transition: background-color 180ms ease;
+}
+
+.projectAction:hover {
+  background: rgb(86 119 159 / 20%);
+}
+
+.projectAction span {
+  font-size: 1rem;
+}
+
+.detailAnchor {
+  padding-block: 2rem 4rem;
+  color: #aebdd0;
+  font-size: 0.875rem;
+  scroll-margin-top: 8rem;
+}
+
+@media (max-width: 900px) {
+  .openingGrid,
+  .workspaceGrid,
+  .engineeringDetails,
+  .verificationGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .openingGrid,
+  .workspaceGrid {
+    gap: 3rem;
+  }
+
+  .architecture {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .architectureNode {
+    min-height: 6rem;
+  }
+
+  .architectureLine {
+    top: auto;
+    right: auto;
+    bottom: -1rem;
+    left: 1.2rem;
+    width: 1px;
+    height: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .bridge {
+    padding-block: 3rem 4rem;
+  }
+
+  .bridgeAxis {
+    gap: 0.5rem;
+    font-size: 0.53rem;
+  }
+
+  .bridgeTitle {
+    font-size: clamp(2rem, 9vw, 3.2rem);
+  }
+
+  .openingCopy h2 {
+    font-size: clamp(3.4rem, 13vw, 4.8rem);
+  }
+
+  .statement {
+    font-size: clamp(2.15rem, 9vw, 3.5rem);
+  }
+
+  .login figcaption,
+  .workspaceHeading {
+    flex-wrap: wrap;
+  }
+
+  .sectionHeading {
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .roleRail {
+    gap: 0.45rem;
+    font-size: 0.51rem;
+  }
+
+  .transaction ol {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .qualitySignals dd {
+    font-size: 1.45rem;
+  }
+
+  .endcapInner {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projectAction {
+    transition: none;
+  }
+}

@@ -1,0 +1,54 @@
+.transition {
+  position: relative;
+  display: flex;
+  min-height: 16rem;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(#080c11, var(--background));
+}
+
+.signal {
+  position: absolute;
+  inset: 16% 0;
+  width: min(100%, 90rem);
+  margin-inline: auto;
+  pointer-events: none;
+  opacity: 0.62;
+}
+
+.transition > :last-child {
+  position: relative;
+  z-index: 1;
+}
+
+.depth {
+  width: fit-content;
+}
+
+.index,
+.title {
+  font-family: var(--font-geist-mono), monospace;
+  letter-spacing: 0.14em;
+}
+
+.index {
+  color: var(--accent);
+  font-size: 0.7rem;
+}
+
+.title {
+  margin-top: 0.85rem;
+  color: var(--foreground);
+  font-size: clamp(1rem, 1.8vw, 1.5rem);
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .transition {
+    min-height: 11rem;
+  }
+
+  .signal {
+    opacity: 0.3;
+  }
+}

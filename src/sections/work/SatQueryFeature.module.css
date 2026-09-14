@@ -1,0 +1,515 @@
+.feature {
+  position: relative;
+  z-index: 1;
+  background:
+    radial-gradient(ellipse at 73% 19%, rgb(30 78 104 / 17%), transparent 38%),
+    linear-gradient(#0a0a0a, #081019 48%, #090c11);
+}
+
+.sequence {
+  position: relative;
+}
+
+.stage {
+  padding-block: clamp(5rem, 9vw, 9rem);
+}
+
+.stageInner {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: clamp(3rem, 6vw, 6rem);
+}
+
+.systemLabel,
+.observationCaption,
+.productHeading,
+.product figcaption,
+.endcapMeta,
+.projectAction,
+.workflow,
+.evidence p {
+  font-family: var(--font-geist-mono), monospace;
+  letter-spacing: 0.12em;
+}
+
+.systemLabel {
+  color: #86bbd1;
+  font-size: 0.68rem;
+}
+
+.identity {
+  grid-column: 1 / -1;
+}
+
+.identity h2 {
+  margin-top: 1rem;
+  color: #f2f8fb;
+  font-size: clamp(3rem, 5.6vw, 5.4rem);
+  font-weight: 600;
+  letter-spacing: -0.065em;
+  line-height: 0.98;
+}
+
+.projectType {
+  margin-top: 0.9rem;
+  color: #bdd0da;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+}
+
+.statement {
+  max-width: 48rem;
+}
+
+.statementMain {
+  color: #f4fbff;
+  font-size: clamp(3.4rem, 7.2vw, 7rem);
+  font-weight: 600;
+  letter-spacing: -0.08em;
+  line-height: 0.94;
+}
+
+.statementMain span {
+  display: block;
+}
+
+.statementSupport {
+  margin-top: 1.8rem;
+  color: #a9c3d1;
+  font-size: clamp(1.2rem, 1.8vw, 1.65rem);
+  line-height: 1.3;
+}
+
+.observation {
+  min-width: 0;
+  margin: 0;
+}
+
+.observationVisual {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.14;
+  overflow: hidden;
+  border: 1px solid rgb(146 202 228 / 14%);
+  background: radial-gradient(circle at 55% 52%, #143548, #081521 63%, #080e16);
+}
+
+.observationVisual::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgb(6 17 27 / 45%), transparent 72%);
+  content: "";
+  pointer-events: none;
+}
+
+.observationImage {
+  object-fit: cover;
+  object-position: right 72%;
+  opacity: 0.26;
+  mask-image: radial-gradient(ellipse at 67% 70%, black 18%, transparent 77%);
+}
+
+.earth {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 57%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 1px solid rgb(150 217 235 / 24%);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 34% 29%, rgb(71 146 170 / 34%), transparent 37%),
+    radial-gradient(circle at 42% 38%, #17465a, #0a2839 48%, #07141e 74%);
+  box-shadow: inset -2rem -1.5rem 3rem rgb(1 8 14 / 62%), 0 0 0 1px rgb(91 162 187 / 6%);
+  transform: translate(-50%, -50%);
+}
+
+.earth svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: rgb(160 226 241 / 18%);
+  stroke-width: 0.8;
+}
+
+.observationOrbit {
+  position: absolute;
+  z-index: 1;
+  top: 49%;
+  left: 50%;
+  width: 85%;
+  height: 39%;
+  border: 1px solid rgb(143 208 231 / 28%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(-23deg);
+}
+
+.observationPoint {
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  right: 17%;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background: #93dcf2;
+  box-shadow: 0 0 0 4px rgb(147 220 242 / 12%);
+}
+
+.observationCaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 0.9rem;
+  color: #91b5c5;
+  font-size: 0.64rem;
+}
+
+.analysis {
+  position: relative;
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.5fr);
+  align-items: center;
+  gap: 3rem;
+  min-height: 20rem;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border-block: 1px solid rgb(149 202 228 / 15%);
+  background: rgb(8 19 28 / 28%);
+}
+
+.routes,
+.evidence {
+  position: relative;
+  z-index: 1;
+}
+
+.workflowList {
+  display: grid;
+  margin-top: 1.3rem;
+  padding: 0;
+  list-style: none;
+}
+
+.workflow {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) 0.5rem;
+  align-items: center;
+  gap: 1rem;
+  min-height: 3.7rem;
+  border-bottom: 1px solid rgb(154 204 226 / 17%);
+  color: #a8c3d1;
+  font-size: 0.69rem;
+}
+
+.workflow strong {
+  color: #e2f1f7;
+  font-size: clamp(0.78rem, 1.1vw, 1rem);
+  font-weight: 500;
+}
+
+.workflowNode {
+  width: 0.35rem;
+  height: 0.35rem;
+  border: 1px solid #8acbe3;
+  border-radius: 50%;
+}
+
+.routeLines {
+  position: absolute;
+  z-index: 0;
+  top: 19%;
+  left: 46%;
+  width: 31%;
+  height: 67%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.routeLines path {
+  fill: none;
+  stroke: rgb(120 191 219 / 42%);
+  stroke-width: 1;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  vector-effect: non-scaling-stroke;
+}
+
+.routeLines circle {
+  fill: #a7e2f1;
+}
+
+.router {
+  position: absolute;
+  z-index: 1;
+  bottom: 14%;
+  left: 52%;
+  color: #88b9cf;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+}
+
+.evidence {
+  justify-self: end;
+  width: min(100%, 17rem);
+  padding-left: 1.5rem;
+  border-left: 1px solid rgb(149 217 237 / 29%);
+}
+
+.evidence h3 {
+  margin-block: 1rem 1.2rem;
+  color: #f2fbff;
+  font-size: clamp(1.8rem, 2.7vw, 2.7rem);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+}
+
+.evidence p:not(.systemLabel) {
+  margin-top: 0.6rem;
+  color: #b0cbd7;
+  font-size: 0.65rem;
+}
+
+.product {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin: 0;
+}
+
+.productHeading {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
+  color: #a8cbdc;
+  font-size: 0.68rem;
+}
+
+.productPlane {
+  padding: 0.45rem;
+  border: 1px solid rgb(151 206 229 / 25%);
+  background: #08131d;
+  box-shadow: 0 2rem 6rem rgb(0 0 0 / 30%);
+}
+
+.productImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product figcaption {
+  margin-top: 0.75rem;
+  color: #8eb1c0;
+  font-size: 0.62rem;
+}
+
+.endcap {
+  position: relative;
+  padding-block: clamp(3rem, 6vw, 5rem);
+  border-top: 1px solid rgb(144 200 224 / 16%);
+  background: #090c11;
+}
+
+.endcapInner {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.endcapTitle {
+  margin-top: 0.8rem;
+  color: #eef8fc;
+  font-size: clamp(1.25rem, 2.4vw, 2.2rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+
+.endcapMeta {
+  margin-top: 1rem;
+  color: #98b5c4;
+  font-size: 0.64rem;
+}
+
+.projectAction {
+  display: inline-flex;
+  min-height: 3.2rem;
+  flex: none;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgb(151 207 230 / 42%);
+  color: #ebf9ff;
+  font-size: 0.68rem;
+  text-decoration: none;
+  transition: background-color 200ms ease, transform 200ms ease;
+}
+
+.projectAction:hover {
+  background: rgb(56 118 145 / 17%);
+  transform: translateY(-2px);
+}
+
+.projectAction span {
+  font-size: 1rem;
+}
+
+.detailAnchor {
+  padding-block: 2.5rem 4rem;
+  color: #9bb5c2;
+  font-size: 0.875rem;
+  scroll-margin-top: 8rem;
+}
+
+.sequence[data-motion="active"] {
+  height: 200svh;
+}
+
+.sequence[data-motion="active"] .stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+  padding: 0;
+}
+
+.sequence[data-motion="active"] .stageInner {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+.sequence[data-motion="active"] .identity,
+.sequence[data-motion="active"] .statement,
+.sequence[data-motion="active"] .observation,
+.sequence[data-motion="active"] .analysis,
+.sequence[data-motion="active"] .product {
+  position: absolute;
+}
+
+.sequence[data-motion="active"] .identity {
+  z-index: 2;
+  top: clamp(7rem, 13vh, 9rem);
+  left: 2rem;
+}
+
+.sequence[data-motion="active"] .statement {
+  z-index: 2;
+  top: 34%;
+  left: 2rem;
+  width: 58%;
+}
+
+.sequence[data-motion="active"] .observation {
+  z-index: 1;
+  top: 18%;
+  right: 2rem;
+  width: 45%;
+}
+
+.sequence[data-motion="active"] .analysis {
+  z-index: 3;
+  top: 29%;
+  right: 2rem;
+  left: 2rem;
+  min-height: 19rem;
+  border-color: rgb(139 199 226 / 16%);
+  background: rgb(7 17 26 / 92%);
+}
+
+.sequence[data-motion="active"] .product {
+  z-index: 4;
+  top: clamp(6.5rem, 11vh, 8rem);
+  right: 2rem;
+  left: 2rem;
+  width: min(calc(100% - 4rem), 68rem, 126svh);
+  margin-inline: auto;
+  padding: 0.6rem;
+  background: #090d13;
+}
+
+.sequence[data-motion="active"] .routeLines circle {
+  opacity: 0;
+}
+
+@media (max-width: 767px) {
+  .stage {
+    padding-block: 4rem 5rem;
+  }
+
+  .stageInner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 3.5rem;
+  }
+
+  .identity h2 {
+    font-size: clamp(2.8rem, 11vw, 4rem);
+  }
+
+  .statementMain {
+    font-size: clamp(3rem, 12vw, 4.8rem);
+  }
+
+  .statementSupport {
+    margin-top: 1.4rem;
+  }
+
+  .observationVisual {
+    aspect-ratio: 1.1;
+  }
+
+  .observationCaption,
+  .productHeading {
+    flex-wrap: wrap;
+  }
+
+  .analysis {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+    padding: 1rem 0;
+    background: transparent;
+  }
+
+  .routeLines {
+    display: none;
+  }
+
+  .router {
+    position: static;
+    padding-left: 1.5rem;
+    border-left: 1px solid rgb(149 217 237 / 29%);
+  }
+
+  .evidence {
+    justify-self: stretch;
+    width: 100%;
+  }
+
+  .productPlane {
+    padding: 0.2rem;
+  }
+
+  .endcapInner {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .endcapMeta {
+    max-width: 18rem;
+    line-height: 1.7;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projectAction {
+    transition: none;
+  }
+
+  .projectAction:hover {
+    transform: none;
+  }
+}
