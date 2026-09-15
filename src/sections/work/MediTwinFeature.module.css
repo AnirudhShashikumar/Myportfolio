@@ -10,7 +10,7 @@
 
 .motionRoot {
   position: relative;
-  padding-block: clamp(3.5rem, 5vw, 5rem);
+  padding-block: clamp(2rem, 2.5vw, 2.5rem);
 }
 
 .eyebrow,
