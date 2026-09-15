@@ -3,6 +3,7 @@ import WorkTransition from "@/sections/WorkTransition";
 import AlgaeOSFeature from "./AlgaeOSFeature";
 import DayflowFeature from "./DayflowFeature";
 import GestureGlobeFeature from "./GestureGlobeFeature";
+import MediTwinFeature from "./MediTwinFeature";
 import SatQueryFeature from "./SatQueryFeature";
 
 export default function Work() {
@@ -19,6 +20,7 @@ export default function Work() {
       <GestureGlobeFeature />
       <AlgaeOSFeature />
       <DayflowFeature />
+      <MediTwinFeature />
     </section>
   );
 }

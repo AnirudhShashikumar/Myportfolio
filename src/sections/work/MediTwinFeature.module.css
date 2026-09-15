@@ -1,0 +1,540 @@
+.feature {
+  position: relative;
+  z-index: 1;
+  overflow: clip;
+  background:
+    radial-gradient(circle at 80% 28%, rgb(120 103 210 / 9%), transparent 27%),
+    linear-gradient(180deg, #0c1118, #0b1017 70%, #0d1118);
+  color: #eef7fb;
+}
+
+.motionRoot {
+  position: relative;
+  padding-block: clamp(3.5rem, 5vw, 5rem);
+}
+
+.eyebrow,
+.bridgeAxis,
+.projectType,
+.role,
+.achievementLead span,
+.executionStrip span,
+.stageIndex,
+.stageDetail,
+.certificate figcaption,
+.teamEvidence figcaption,
+.organizer,
+.projectAction {
+  font-family: var(--font-geist-mono), monospace;
+  letter-spacing: 0.09em;
+}
+
+.eyebrow {
+  color: #9acbd7;
+  font-size: 0.63rem;
+}
+
+.bridge {
+  padding-block: clamp(2.8rem, 4vw, 4rem);
+  border-top: 1px solid rgb(151 172 196 / 18%);
+  background: linear-gradient(180deg, #0d1117, #0c1118);
+}
+
+.bridgeInner {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(1rem, 3vw, 3rem);
+}
+
+.bridgeAxis {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #a9b9cb;
+  font-size: 0.6rem;
+  white-space: nowrap;
+}
+
+.bridgeLine {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, #7794b8, #83ceda 55%, #a893dd);
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: clamp(3rem, 6vw, 6rem);
+}
+
+.storyColumn,
+.evidence {
+  min-width: 0;
+}
+
+.titleRow {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.opening h2 {
+  margin-top: 0.6rem;
+  color: #f6fbff;
+  font-size: clamp(3.5rem, 5.5vw, 5.7rem);
+  font-weight: 600;
+  letter-spacing: -0.07em;
+  line-height: 0.94;
+}
+
+.projectType {
+  margin-top: 0.75rem;
+  color: #b5d8e0;
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+}
+
+.achievementLead {
+  flex: none;
+  padding: 0.85rem 0 0.8rem 1rem;
+  border-left: 1px solid rgb(137 207 222 / 44%);
+}
+
+.achievementLead strong,
+.achievementLead span {
+  display: block;
+}
+
+.achievementLead strong {
+  color: #e9e3ff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.achievementLead span {
+  margin-top: 0.35rem;
+  color: #a7b8ca;
+  font-size: 0.55rem;
+}
+
+.statement {
+  margin-top: clamp(2rem, 3.5vw, 3.4rem);
+  color: #f2f8fb;
+  font-size: clamp(2.2rem, 3.8vw, 3.9rem);
+  font-weight: 500;
+  letter-spacing: -0.06em;
+  line-height: 1;
+}
+
+.statement span {
+  display: block;
+}
+
+.statement span:last-child {
+  color: #9fcddd;
+}
+
+.summary {
+  max-width: 34rem;
+  margin-top: 1.4rem;
+  color: #b9cbd3;
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.role {
+  margin-top: 1.4rem;
+  color: #a8b9ca;
+  font-size: 0.58rem;
+}
+
+.concept {
+  margin-top: clamp(2.8rem, 4vw, 4rem);
+  padding-top: 1.2rem;
+  border-top: 1px solid rgb(137 197 216 / 28%);
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.sectionHeading h3 {
+  color: #eaf5fa;
+  font-size: clamp(1.1rem, 1.8vw, 1.65rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+
+.conceptPath {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin-top: 1.3rem;
+  padding: 0;
+  list-style: none;
+}
+
+.conceptPath li {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  min-height: 7.5rem;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 0.8rem;
+  border: 1px solid rgb(132 198 217 / 23%);
+  background: rgb(15 24 34 / 72%);
+}
+
+.stageIndex {
+  color: #94d0dd;
+  font-size: 0.55rem;
+}
+
+.conceptPath strong {
+  margin-top: auto;
+  color: #edf9fc;
+  font-size: clamp(0.63rem, 0.8vw, 0.76rem);
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.stageDetail {
+  color: #91a9b8;
+  font-size: 0.5rem;
+  line-height: 1.45;
+}
+
+.stageConnector {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: -0.7rem;
+  width: 0.7rem;
+  height: 1px;
+  background: linear-gradient(90deg, #79c4d4, #a38cdb);
+}
+
+.microStory {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: clamp(2rem, 3vw, 3rem);
+}
+
+.microStory > div {
+  padding-top: 0.9rem;
+  border-top: 1px solid rgb(157 139 212 / 29%);
+}
+
+.microStory > div > p:last-child {
+  margin-top: 0.65rem;
+  color: #adbec8;
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+
+.executionStrip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-block: 1px solid rgb(141 207 222 / 27%);
+}
+
+.executionStrip > div {
+  padding: 0.9rem 0.8rem;
+  border-right: 1px solid rgb(141 207 222 / 20%);
+}
+
+.executionStrip > div:last-child {
+  border-right: 0;
+}
+
+.executionStrip span,
+.executionStrip strong {
+  display: block;
+}
+
+.executionStrip span {
+  color: #91aabc;
+  font-size: 0.53rem;
+}
+
+.executionStrip strong {
+  margin-top: 0.35rem;
+  color: #ecf8fb;
+  font-size: clamp(0.84rem, 1.2vw, 1.1rem);
+  font-weight: 500;
+}
+
+.certificate,
+.teamEvidence {
+  min-width: 0;
+  margin: 0;
+}
+
+.certificate {
+  margin-top: 1.2rem;
+}
+
+.certificate a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgb(155 214 226 / 35%);
+  background: #dce8ea;
+}
+
+.evidenceImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.certificate figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.65rem;
+  color: #9db4c4;
+  font-size: 0.54rem;
+}
+
+.awardRow {
+  display: grid;
+  grid-template-columns: minmax(8rem, 0.32fr) minmax(0, 0.68fr);
+  align-items: end;
+  gap: clamp(1.3rem, 3vw, 2.5rem);
+  margin-top: 1.6rem;
+}
+
+.teamEvidence {
+  overflow: hidden;
+}
+
+.teamEvidence .evidenceImage {
+  border: 1px solid rgb(158 143 211 / 32%);
+}
+
+.teamEvidence figcaption {
+  margin-top: 0.55rem;
+  color: #928eae;
+  font-size: 0.51rem;
+  line-height: 1.45;
+}
+
+.awardCopy {
+  padding-top: 1rem;
+  border-top: 1px solid rgb(157 139 212 / 33%);
+}
+
+.awardTitle {
+  margin-top: 0.55rem;
+  color: #edeaff;
+  font-size: clamp(1.4rem, 2.2vw, 2.2rem);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+.awardCopy > p:nth-child(3) {
+  margin-top: 0.9rem;
+  color: #b5c4ce;
+  font-size: 0.81rem;
+  line-height: 1.55;
+}
+
+.organizer {
+  margin-top: 1rem;
+  color: #9cb6c5;
+  font-size: 0.55rem;
+}
+
+.endcap {
+  padding-block: clamp(2.5rem, 4vw, 4rem);
+  border-top: 1px solid rgb(141 205 220 / 21%);
+}
+
+.endcapInner {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.endcapTitle {
+  margin-top: 0.65rem;
+  color: #edf7fb;
+  font-size: clamp(1.2rem, 2vw, 1.9rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+
+.projectAction {
+  display: inline-flex;
+  min-height: 3rem;
+  flex: none;
+  align-items: center;
+  gap: 1.3rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgb(145 207 221 / 45%);
+  color: #effcff;
+  font-size: 0.65rem;
+  text-decoration: none;
+  transition: background-color 180ms ease;
+}
+
+.projectAction:hover {
+  background: rgb(80 142 158 / 16%);
+}
+
+.projectAction span {
+  font-size: 0.95rem;
+}
+
+.detailAnchor {
+  padding-block: 2rem 4rem;
+  color: #aebfc9;
+  font-size: 0.875rem;
+  scroll-margin-top: 8rem;
+}
+
+@media (max-width: 1100px) {
+  .mainGrid {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 2.5rem;
+  }
+
+  .titleRow {
+    display: block;
+  }
+
+  .achievementLead {
+    display: inline-block;
+    margin-top: 1.4rem;
+  }
+
+  .conceptPath {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .conceptPath li:nth-child(2) .stageConnector {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .mainGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .bridge {
+    padding-block: 2.5rem 3rem;
+  }
+
+  .bridgeInner,
+  .mainGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .bridgeInner {
+    gap: 1rem;
+  }
+
+  .bridgeAxis {
+    gap: 0.5rem;
+    font-size: 0.49rem;
+  }
+
+  .motionRoot {
+    padding-block: 3.5rem;
+  }
+
+  .mainGrid {
+    gap: 3.5rem;
+  }
+
+  .opening h2 {
+    font-size: clamp(3.2rem, 14vw, 4.5rem);
+  }
+
+  .statement {
+    font-size: clamp(2.2rem, 10vw, 3.4rem);
+  }
+
+  .sectionHeading {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .conceptPath {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .conceptPath li {
+    min-height: 5.5rem;
+  }
+
+  .stageConnector,
+  .conceptPath li:nth-child(2) .stageConnector {
+    display: block;
+    top: auto;
+    right: auto;
+    bottom: -0.7rem;
+    left: 1rem;
+    width: 1px;
+    height: 0.7rem;
+  }
+
+  .microStory {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .executionStrip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .executionStrip > div {
+    padding-inline: 0.55rem;
+  }
+
+  .executionStrip span {
+    font-size: 0.48rem;
+  }
+
+  .awardRow {
+    grid-template-columns: minmax(7.5rem, 0.4fr) minmax(0, 0.6fr);
+    align-items: start;
+  }
+
+  .endcapInner {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  .certificate figcaption {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .awardRow {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .teamEvidence {
+    width: min(58vw, 13rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projectAction {
+    transition: none;
+  }
+}
