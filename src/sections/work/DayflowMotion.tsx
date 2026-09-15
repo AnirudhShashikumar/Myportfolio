@@ -29,6 +29,14 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
         const routePaths = all("[data-df-route-path]");
 
         if (entry) {
+          gsap.set("[data-df-entry-meta]", { autoAlpha: 0, y: 10 });
+          gsap.set("[data-df-entry-title]", { autoAlpha: 0, y: 18, clipPath: "inset(0 0 100% 0)" });
+          gsap.set("[data-df-entry-type]", { autoAlpha: 0, y: 8 });
+          gsap.set("[data-df-platform], [data-df-workspaces-title]", { autoAlpha: 0, y: 20 });
+          gsap.set("[data-df-entry-copy]", { autoAlpha: 0, y: 12 });
+          gsap.set("[data-df-entry-contribution]", { autoAlpha: 0, y: 8 });
+          gsap.set("[data-df-login]", { autoAlpha: 0, xPercent: 3, clipPath: "inset(0 0 0 12%)" });
+
           const entryTimeline = gsap.timeline({
             defaults: { ease: "power2.out" },
             scrollTrigger: {
@@ -49,6 +57,11 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
             .fromTo("[data-df-login]", { autoAlpha: 0, xPercent: 3, clipPath: "inset(0 0 0 12%)" }, { autoAlpha: 1, xPercent: 0, clipPath: "inset(0 0 0 0%)", duration: 0.68 }, ">-0.12");
 
           if (routing && routePaths.length) {
+            gsap.set(routing, { autoAlpha: 0 });
+            gsap.set("[data-df-route-node]", { autoAlpha: 0, scale: 0.92 });
+            gsap.set(routePaths, { strokeDasharray: 1, strokeDashoffset: 1 });
+            gsap.set("[data-df-route-destination]", { autoAlpha: 0, y: 6 });
+
             entryTimeline
               .fromTo(routing, { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.2 }, ">-0.08")
               .fromTo("[data-df-route-node]", { autoAlpha: 0, scale: 0.92 }, { autoAlpha: 1, scale: 1, duration: 0.25 })
@@ -66,6 +79,13 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
         if (workspaces && employeeFrame && adminFrame) {
           if (roleLines[0]) gsap.set(roleLines[0], { transformOrigin: "right center" });
           if (roleLines[1]) gsap.set(roleLines[1], { transformOrigin: "left center" });
+          gsap.set("[data-df-workspaces-heading]", { autoAlpha: 0, y: 16 });
+          gsap.set("[data-df-role-node]", { autoAlpha: 0, scale: 0.9 });
+          gsap.set(roleLines, { scaleX: 0 });
+          gsap.set("[data-df-role-label]", { autoAlpha: 0 });
+          gsap.set(employeeFrame, { autoAlpha: 0.2, xPercent: 5, clipPath: "inset(0 0 0 12%)" });
+          gsap.set(adminFrame, { autoAlpha: 0.2, xPercent: -5, clipPath: "inset(0 12% 0 0)" });
+          gsap.set("[data-df-workspace-label], [data-df-workspace-copy]", { autoAlpha: 0, y: 8 });
 
           gsap.timeline({
             defaults: { ease: "power2.out" },
@@ -91,6 +111,10 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
         const architectureSignals = all("[data-df-architecture-signal]");
 
         if (architecture && architectureNodes.length) {
+          gsap.set(architectureNodes, { autoAlpha: 0.38, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" });
+          gsap.set(architectureLines, { scaleX: 0, transformOrigin: "left center" });
+          gsap.set(architectureSignals, { autoAlpha: 0, left: "0%" });
+
           const architectureTimeline = gsap.timeline({
             scrollTrigger: {
               trigger: architecture,
@@ -120,6 +144,10 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
 
         const authorization = one("[data-df-authorization]");
         if (authorization) {
+          gsap.set("[data-df-authorization-title] span:first-child", { autoAlpha: 0, x: -16 });
+          gsap.set("[data-df-authorization-title] span:last-child", { autoAlpha: 0, x: 16 });
+          gsap.set("[data-df-authorization-copy]", { autoAlpha: 0, y: 10 });
+
           gsap.timeline({
             defaults: { ease: "power2.out" },
             scrollTrigger: {
@@ -140,6 +168,10 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
         const transactionSignals = all("[data-df-transaction-signal]");
 
         if (transaction && transactionNodes.length) {
+          gsap.set(transactionNodes, { autoAlpha: 0.35, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" });
+          gsap.set(transactionLines, { scaleX: 0, transformOrigin: "left center" });
+          gsap.set(transactionSignals, { autoAlpha: 0, left: "0%" });
+
           const transactionTimeline = gsap.timeline({
             scrollTrigger: {
               trigger: transaction,
@@ -175,6 +207,12 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
 
         const verification = one("[data-df-verification]");
         if (verification) {
+          gsap.set("[data-df-verification-title] span", { autoAlpha: 0, y: 14 });
+          gsap.set("[data-df-verification-copy]", { autoAlpha: 0, y: 8 });
+          gsap.set("[data-df-verification-check]", { autoAlpha: 0, y: 10 });
+          gsap.set(`[data-df-verification-check] .${styles.verificationMark}`, { autoAlpha: 0, scale: 0.55 });
+          gsap.set("[data-df-verification-pending]", { autoAlpha: 0 });
+
           gsap.timeline({
             defaults: { ease: "power2.out" },
             scrollTrigger: {
@@ -187,7 +225,7 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
             .fromTo("[data-df-verification-title] span:last-child", { autoAlpha: 0, y: 14 }, { autoAlpha: 1, y: 0, duration: 0.38 }, ">-0.16")
             .fromTo("[data-df-verification-copy]", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.32 }, ">-0.08")
             .fromTo("[data-df-verification-check]", { autoAlpha: 0, y: 10 }, { autoAlpha: 1, y: 0, stagger: 0.11, duration: 0.3 }, ">-0.04")
-            .fromTo("[data-df-verification-check] .${styles.verificationMark}", { autoAlpha: 0, scale: 0.55 }, { autoAlpha: 1, scale: 1, stagger: 0.11, duration: 0.22 }, "<+0.1")
+            .fromTo(`[data-df-verification-check] .${styles.verificationMark}`, { autoAlpha: 0, scale: 0.55 }, { autoAlpha: 1, scale: 1, stagger: 0.11, duration: 0.22 }, "<+0.1")
             .fromTo("[data-df-verification-pending]", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.3 }, ">-0.02");
         }
 
