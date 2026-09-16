@@ -515,7 +515,7 @@
   grid-template-columns: minmax(8rem, 0.32fr) minmax(0, 0.68fr);
   align-items: end;
   gap: clamp(1.3rem, 3vw, 2.5rem);
-  margin-top: clamp(20rem, 34vw, 36rem);
+  margin-top: clamp(18rem, 29vw, 31rem);
 }
 
 .teamEvidence {
