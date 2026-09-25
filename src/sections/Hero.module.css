@@ -1,3 +1,5 @@
+/* ── Hero section ─────────────────────────────────────────────────────────── */
+
 .hero {
   position: relative;
   isolation: isolate;
@@ -18,6 +20,8 @@
   background: linear-gradient(120deg, #090d12 15%, #080c11 70%);
 }
 
+/* ── Depth atmosphere ─────────────────────────────────────────────────────── */
+
 .atmosphere {
   position: absolute;
   z-index: 0;
@@ -27,6 +31,8 @@
     radial-gradient(ellipse at 42% 105%, rgb(19 44 64 / 15%), transparent 55%);
   pointer-events: none;
 }
+
+/* ── Background graphics layer (TechnicalGrid + SignalLines) ──────────────── */
 
 .graphics,
 .graphicsPointer {
@@ -40,6 +46,8 @@
   overflow: hidden;
   opacity: 0.72;
 }
+
+/* ── Engineering Constellation (Three.js canvas container) ───────────────── */
 
 .field {
   position: absolute;
@@ -61,6 +69,8 @@
   pointer-events: none;
 }
 
+/* ── Content layout ───────────────────────────────────────────────────────── */
+
 .inner {
   position: relative;
   z-index: 2;
@@ -75,6 +85,8 @@
   width: min(100%, 47rem);
 }
 
+/* ── Identity block ───────────────────────────────────────────────────────── */
+
 .intro {
   display: flex;
   flex-wrap: wrap;
@@ -82,9 +94,10 @@
   gap: 0.7rem 1.25rem;
 }
 
+/* Monospace baseline for all metadata elements */
 .name,
 .eyebrow,
-.signals,
+.domains,
 .status,
 .scrollCue {
   font-family: var(--font-geist-mono), monospace;
@@ -99,11 +112,16 @@
   letter-spacing: 0.16em;
 }
 
+/* ── Discipline tag ───────────────────────────────────────────────────────── */
+/* "COMPUTER SCIENCE ENGINEERING" — factual field/study, not an inflated title */
+
 .eyebrow {
   color: #92aebb;
   font-size: 0.65rem;
   letter-spacing: 0.12em;
 }
+
+/* ── Headline ─────────────────────────────────────────────────────────────── */
 
 .titleShell {
   margin-top: 1.75rem;
@@ -119,6 +137,8 @@
   text-wrap: balance;
 }
 
+/* ── Supporting copy ──────────────────────────────────────────────────────── */
+
 .description {
   max-width: 36rem;
   margin-top: 1.5rem;
@@ -127,24 +147,36 @@
   line-height: 1.7;
 }
 
-.signals {
+/* ── Domain signal tags ───────────────────────────────────────────────────── */
+/*
+  Replaces the former "AI Engineer / Full-Stack Developer / Creative Technologist"
+  title list. These five domain tags align with the Engineering Constellation nodes
+  and communicate engineering direction, not seniority claims.
+*/
+
+.domains {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem 1.4rem;
+  align-items: center;
+  gap: 0.5rem 0;
   max-width: 41rem;
   margin-top: 1.5rem;
-  padding-top: 1.15rem;
+  padding-top: 1.1rem;
   border-top: 1px solid rgb(166 207 230 / 17%);
-  color: #a8becb;
-  font-size: 0.7rem;
-  letter-spacing: 0.035em;
+  color: #a0b9c8;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
 }
 
-.signals li + li::before {
-  margin-right: 1.4rem;
-  color: #62879b;
+/* Slash separator between domain tags */
+.domainTag + .domainTag::before {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  color: #4d6e80;
   content: "/";
 }
+
+/* ── Actions ──────────────────────────────────────────────────────────────── */
 
 .actions {
   display: flex;
@@ -205,6 +237,8 @@
   transform: translate(2px, -2px);
 }
 
+/* ── Status metadata + scroll cue ────────────────────────────────────────── */
+
 .status,
 .scrollCue {
   position: absolute;
@@ -232,11 +266,15 @@
   font-size: 1rem;
 }
 
+/* ── Desktop breakpoint: headline spans full lines ────────────────────────── */
+
 @media (min-width: 1024px) {
   .title span {
     display: block;
   }
 }
+
+/* ── Tablet: field recedes slightly ──────────────────────────────────────── */
 
 @media (max-width: 900px) {
   .field {
@@ -245,6 +283,13 @@
     opacity: 0.32;
   }
 }
+
+/* ── Mobile (≤ 640px) ─────────────────────────────────────────────────────── */
+/*
+  Mobile is a composed experience, not a squeezed desktop.
+  Priority: ANIRUDH → headline → direction → primary action → constellation.
+  Domain tags flow naturally. No hover-dependent interaction.
+*/
 
 @media (max-width: 640px) {
   .inner {
@@ -258,7 +303,7 @@
     right: -34%;
     bottom: 11%;
     width: 115vw;
-    opacity: 0.3;
+    opacity: 0.28;
     mask-image: linear-gradient(to bottom, transparent, black 20%, black 65%, transparent);
   }
 
@@ -278,14 +323,9 @@
     line-height: 1.65;
   }
 
-  .signals {
-    display: grid;
-    gap: 0.45rem;
+  /* Mobile domain tags: slightly more compact */
+  .domains {
     margin-top: 1.4rem;
-  }
-
-  .signals li + li::before {
-    display: none;
   }
 
   .actions {
@@ -303,11 +343,23 @@
   }
 }
 
+/* ── Very small screens ───────────────────────────────────────────────────── */
+
 @media (max-width: 410px) {
   .status {
     display: none;
   }
 }
+
+/* ── Reduced motion ───────────────────────────────────────────────────────── */
+/*
+  Users with reduced-motion preference receive:
+  - Immediate, fully-resolved Hero (no animation sequences)
+  - Static or near-static constellation (handled in Three.js)
+  - No hover transforms on buttons
+  - Direct access to Work
+  No meaning depends solely on animation.
+*/
 
 @media (prefers-reduced-motion: reduce) {
   .primaryAction,
