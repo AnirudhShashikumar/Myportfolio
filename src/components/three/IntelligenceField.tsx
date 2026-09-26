@@ -37,7 +37,7 @@ export default function IntelligenceField({
         tabIndex={-1}
         dpr={isMobile ? 1 : [1, 1.5]}
         frameloop={reducedMotion ? "demand" : "always"}
-        camera={{ position: [0, 0, 9], fov: 42, near: 0.1, far: 30 }}
+        camera={{ position: [0, 0, 8], fov: 52, near: 0.1, far: 30 }}
         gl={{ alpha: true, antialias: true, powerPreference: "low-power" }}
         fallback={null}
       >
