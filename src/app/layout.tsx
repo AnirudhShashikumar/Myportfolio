@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Anirudh Shashikumar — AI Engineer & Creative Technologist",
+  title: "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
   description:
-    "Portfolio of Anirudh Shashikumar — exploring artificial intelligence, computer vision, full-stack engineering, IoT, and human-computer interaction.",
+    "I build systems across AI, vision, software, and the physical world. Portfolio of Anirudh Shashikumar — Computer Science Engineering.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

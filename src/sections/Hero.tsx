@@ -106,12 +106,10 @@ export default function Hero() {
   }, [ready, isMobile, prefersReducedMotion]);
 
   // ── Scroll-driven transformation ──────────────────────────────────────────
-  // The Hero section is ~200vh tall. As the visitor scrolls:
-  // Frame 00: Full statement visible
-  // Frame 01: Statement transforms — "BUILD" intensifies, other words recede
-  // Frame 02: Thesis resolves: "ENGINEERING THE / NEXT ERA OF / INTELLIGENCE."
-  // Frame 03: Domains become visible, constellation converges
-  // Frame 04: Hand off to Work
+  // The Hero section is ~200vh tall. Three acts:
+  // Act 1 (0–0.35): Statement recedes. System identity dims.
+  // Act 2 (0.2–0.6): Thesis resolves and lingers. Domains brighten.
+  // Act 3 (0.55–0.85): Everything fades to 0 for clean handoff to Work.
   useEffect(() => {
     if (!ready || prefersReducedMotion || !hero.current) return;
 
@@ -127,7 +125,7 @@ export default function Hero() {
         },
       });
 
-      // ── Phase 1: Statement recedes, BUILD word intensifies ──────────
+      // ── Act 1: Statement departs ───────────────────────────────────
       tl.to("[data-hero-statement]", {
         y: isMobile ? -30 : -60,
         opacity: 0,
@@ -135,75 +133,93 @@ export default function Hero() {
         duration: 0.35,
       }, 0);
 
-      // ── Phase 2: Thesis resolves ───────────────────────────────────
+      // Interaction cues depart early
+      tl.to("[data-hero-interaction]", {
+        y: -12,
+        opacity: 0,
+        ease: "none",
+        duration: 0.12,
+      }, 0.02);
+
+      // Scroll cue disappears immediately
+      tl.to("[data-hero-scroll-cue]", {
+        autoAlpha: 0,
+        y: -8,
+        ease: "none",
+        duration: 0.06,
+      }, 0);
+
+      // System identity dims
+      tl.to("[data-hero-system]", {
+        y: isMobile ? -8 : -16,
+        opacity: 0.3,
+        ease: "none",
+        duration: 0.3,
+      }, 0.1);
+
+      // Status dims
+      tl.to("[data-hero-status]", {
+        opacity: 0,
+        ease: "none",
+        duration: 0.15,
+      }, 0.08);
+
+      // ── Act 2: Thesis resolves ─────────────────────────────────────
       tl.fromTo("[data-hero-thesis]", {
-        y: isMobile ? 20 : 40,
+        y: isMobile ? 16 : 32,
         opacity: 0,
       }, {
         y: 0,
         opacity: 1,
         ease: "none",
-        duration: 0.25,
-      }, 0.2);
+        duration: 0.2,
+      }, 0.22);
 
-      // ── Phase 3: Domain coordinates intensify ──────────────────────
+      // Domain coordinates brighten
       tl.to("[data-hero-coordinates]", {
         opacity: 0.85,
         ease: "none",
-        duration: 0.2,
-      }, 0.25);
+        duration: 0.15,
+      }, 0.28);
 
-      // ── Phase 4: System identity recedes ───────────────────────────
+      // ── Act 3: Everything fades — clean handoff ────────────────────
+      tl.to("[data-hero-thesis]", {
+        y: isMobile ? -20 : -40,
+        opacity: 0,
+        ease: "none",
+        duration: 0.2,
+      }, 0.58);
+
+      tl.to("[data-hero-coordinates]", {
+        opacity: 0,
+        ease: "none",
+        duration: 0.15,
+      }, 0.58);
+
       tl.to("[data-hero-system]", {
-        y: isMobile ? -10 : -20,
-        opacity: 0.3,
+        opacity: 0,
+        ease: "none",
+        duration: 0.12,
+      }, 0.55);
+
+      tl.to("[data-hero-field]", {
+        scale: isMobile ? 0.97 : 0.92,
+        opacity: 0,
         ease: "none",
         duration: 0.3,
-      }, 0.15);
+      }, 0.5);
 
-      // ── Phase 5: Constellation drifts ──────────────────────────────
-      tl.to("[data-hero-field]", {
-        scale: isMobile ? 0.98 : 0.94,
-        opacity: isMobile ? 0.2 : 0.35,
-        ease: "none",
-        duration: 0.35,
-      }, 0.3);
-
-      // ── Phase 6: Background elements recede ────────────────────────
       tl.to("[data-hero-atmosphere]", {
-        opacity: 0.1,
+        opacity: 0,
         ease: "none",
-        duration: 0.4,
-      }, 0.2);
+        duration: 0.3,
+      }, 0.5);
 
       tl.to("[data-hero-graphics]", {
-        opacity: 0.08,
-        ease: "none",
-        duration: 0.4,
-      }, 0.2);
-
-      // ── Phase 7: Interaction cues fade ─────────────────────────────
-      tl.to("[data-hero-interaction]", {
-        y: -12,
         opacity: 0,
         ease: "none",
-        duration: 0.15,
-      }, 0.05);
-
-      // ── Scroll cue disappears immediately ──────────────────────────
-      tl.to("[data-hero-scroll-cue]", {
-        autoAlpha: 0,
-        y: -8,
-        ease: "none",
-        duration: 0.08,
-      }, 0);
-
-      // ── Status metadata ────────────────────────────────────────────
-      tl.to("[data-hero-status]", {
-        opacity: 0,
-        ease: "none",
-        duration: 0.15,
-      }, 0.1);
+        duration: 0.3,
+      }, 0.5);
     }, hero);
 
     return () => context.revert();

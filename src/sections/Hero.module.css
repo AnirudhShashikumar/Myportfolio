@@ -10,6 +10,7 @@
   isolation: isolate;
   min-height: 200svh;          /* tall section for scroll transformation */
   overflow: hidden;
+  clip-path: inset(0);         /* contains fixed children within section */
   background: #060a0e;
 }
 
