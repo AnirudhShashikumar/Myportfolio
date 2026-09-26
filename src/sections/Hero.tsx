@@ -6,7 +6,6 @@ import dynamic from "next/dynamic";
 import { useEffect, useRef, type PointerEvent } from "react";
 import SignalLines from "@/components/graphics/SignalLines";
 import TechnicalGrid from "@/components/graphics/TechnicalGrid";
-import Container from "@/components/ui/Container";
 import { useViewport } from "@/components/system/ViewportProvider";
 import styles from "./Hero.module.css";
 
@@ -14,16 +13,6 @@ const IntelligenceField = dynamic(
   () => import("@/components/three/IntelligenceField"),
   { ssr: false },
 );
-
-// Domain signals that replace inflated title-like labels.
-// These communicate direction, not employment claims.
-const DOMAIN_SIGNALS = [
-  "AI",
-  "VISION",
-  "FULL-STACK",
-  "IoT",
-  "MULTIMODAL",
-] as const;
 
 export default function Hero() {
   const hero = useRef<HTMLElement>(null);
@@ -37,43 +26,43 @@ export default function Hero() {
   const ready = width > 0;
 
   // ── Entrance choreography ─────────────────────────────────────────────────
-  // Near-simultaneous reveal: identity → headline → copy → actions.
-  // Total perceived duration ~1.2 s. No per-character animation.
+  // Frame 00: near-black → identity resolves → statement resolves → domains appear.
+  // Total ~1.6s perceived. Fast. No loading gate.
   useEffect(() => {
     if (prefersReducedMotion || !hero.current) return;
 
     const context = gsap.context(() => {
       gsap
         .timeline({ defaults: { ease: "power2.out" } })
-        // Identity: name + discipline tag
-        .from('[data-reveal="intro"]', {
+        // System identity (SYSTEM/00, ANIRUDH, CSE, BENGALURU)
+        .from('[data-reveal="system"]', {
           opacity: 0,
-          y: 10,
-          duration: 0.45,
-        })
-        // Headline: dominant, comes in fractionally after identity resolves
-        .from('[data-reveal="title"]', {
-          opacity: 0,
-          y: 18,
-          duration: 0.7,
-        }, "-=0.22")
-        // Supporting copy + domain signals
-        .from('[data-reveal="copy"]', {
-          opacity: 0,
-          y: 12,
+          y: 6,
           duration: 0.5,
-        }, "-=0.35")
-        .from('[data-reveal="domains"]', {
+        })
+        // Main statement: I BUILD WHAT I WANT TO EXIST.
+        .from('[data-reveal="statement"]', {
+          opacity: 0,
+          y: 24,
+          duration: 0.8,
+        }, "-=0.25")
+        // Domain coordinates
+        .from('[data-reveal="coordinates"]', {
           opacity: 0,
           y: 8,
-          duration: 0.4,
-        }, "-=0.28")
-        // CTAs
-        .from('[data-reveal="actions"]', {
+          duration: 0.45,
+        }, "-=0.32")
+        // Interaction cues
+        .from('[data-reveal="interaction"]', {
           opacity: 0,
-          y: 8,
+          y: 6,
           duration: 0.4,
-        }, "-=0.22");
+        }, "-=0.2")
+        // Status metadata
+        .from('[data-reveal="status"]', {
+          opacity: 0,
+          duration: 0.35,
+        }, "-=0.3");
     }, hero);
 
     return () => context.revert();
@@ -89,8 +78,8 @@ export default function Hero() {
         { strokeDashoffset: 1 },
         {
           strokeDashoffset: 0,
-          duration: 1.4,
-          stagger: 0.18,
+          duration: 1.6,
+          stagger: 0.22,
           ease: "power1.out",
         },
       );
@@ -116,63 +105,105 @@ export default function Hero() {
     };
   }, [ready, isMobile, prefersReducedMotion]);
 
-  // ── Scroll departure ──────────────────────────────────────────────────────
-  // As the visitor scrolls away, supporting information recedes faster than
-  // the headline (which lingers slightly longer), and the constellation drifts
-  // rightward — suggesting the abstract system is beginning to organise.
+  // ── Scroll-driven transformation ──────────────────────────────────────────
+  // The Hero section is ~200vh tall. As the visitor scrolls:
+  // Frame 00: Full statement visible
+  // Frame 01: Statement transforms — "BUILD" intensifies, other words recede
+  // Frame 02: Thesis resolves: "ENGINEERING THE / NEXT ERA OF / INTELLIGENCE."
+  // Frame 03: Domains become visible, constellation converges
+  // Frame 04: Hand off to Work
   useEffect(() => {
     if (!ready || prefersReducedMotion || !hero.current) return;
 
     gsap.registerPlugin(ScrollTrigger);
     const context = gsap.context(() => {
-      gsap
-        .timeline({
-          scrollTrigger: {
-            trigger: hero.current,
-            start: isMobile ? "top top-=32" : "top top-=64",
-            end: "bottom top",
-            scrub: 0.45,
-          },
-        })
-        // Headline recedes last — remains readable longest
-        .to("[data-hero-title-shell]", {
-          y: isMobile ? -10 : -22,
-          scale: isMobile ? 1 : 0.988,
-          opacity: isMobile ? 0.88 : 0.72,
-          ease: "none",
-          duration: 1,
-        }, 0)
-        // Supporting copy + domains recede first
-        .to("[data-hero-support-shell]", {
-          y: isMobile ? -14 : -34,
-          opacity: isMobile ? 0.72 : 0.45,
-          ease: "none",
-          duration: 1,
-        }, 0)
-        // Constellation drifts outward — suggesting convergence/organisation
-        .to("[data-hero-field]", {
-          x: isMobile ? 12 : 40,
-          scale: isMobile ? 1 : 0.958,
-          opacity: isMobile ? 0.14 : 0.38,
-          ease: "none",
-          duration: 1,
-        }, 0)
-        .to("[data-hero-atmosphere]", {
-          opacity: 0.18,
-          ease: "none",
-          duration: 1,
-        }, 0)
-        .to("[data-hero-graphics]", {
-          opacity: 0.18,
-          ease: "none",
-          duration: 1,
-        }, 0)
-        .to("[data-hero-scroll-cue]", {
-          autoAlpha: 0,
-          y: -8,
-          ease: "none",
-          duration: 0.2,
-        }, 0);
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: hero.current,
+          start: "top top",
+          end: "bottom top",
+          scrub: 0.5,
+          pin: false,
+        },
+      });
+
+      // ── Phase 1: Statement recedes, BUILD word intensifies ──────────
+      tl.to("[data-hero-statement]", {
+        y: isMobile ? -30 : -60,
+        opacity: 0,
+        ease: "none",
+        duration: 0.35,
+      }, 0);
+
+      // ── Phase 2: Thesis resolves ───────────────────────────────────
+      tl.fromTo("[data-hero-thesis]", {
+        y: isMobile ? 20 : 40,
+        opacity: 0,
+      }, {
+        y: 0,
+        opacity: 1,
+        ease: "none",
+        duration: 0.25,
+      }, 0.2);
+
+      // ── Phase 3: Domain coordinates intensify ──────────────────────
+      tl.to("[data-hero-coordinates]", {
+        opacity: 0.85,
+        ease: "none",
+        duration: 0.2,
+      }, 0.25);
+
+      // ── Phase 4: System identity recedes ───────────────────────────
+      tl.to("[data-hero-system]", {
+        y: isMobile ? -10 : -20,
+        opacity: 0.3,
+        ease: "none",
+        duration: 0.3,
+      }, 0.15);
+
+      // ── Phase 5: Constellation drifts ──────────────────────────────
+      tl.to("[data-hero-field]", {
+        scale: isMobile ? 0.98 : 0.94,
+        opacity: isMobile ? 0.2 : 0.35,
+        ease: "none",
+        duration: 0.35,
+      }, 0.3);
+
+      // ── Phase 6: Background elements recede ────────────────────────
+      tl.to("[data-hero-atmosphere]", {
+        opacity: 0.1,
+        ease: "none",
+        duration: 0.4,
+      }, 0.2);
+
+      tl.to("[data-hero-graphics]", {
+        opacity: 0.08,
+        ease: "none",
+        duration: 0.4,
+      }, 0.2);
+
+      // ── Phase 7: Interaction cues fade ─────────────────────────────
+      tl.to("[data-hero-interaction]", {
+        y: -12,
+        opacity: 0,
+        ease: "none",
+        duration: 0.15,
+      }, 0.05);
+
+      // ── Scroll cue disappears immediately ──────────────────────────
+      tl.to("[data-hero-scroll-cue]", {
+        autoAlpha: 0,
+        y: -8,
+        ease: "none",
+        duration: 0.08,
+      }, 0);
+
+      // ── Status metadata ────────────────────────────────────────────
+      tl.to("[data-hero-status]", {
+        opacity: 0,
+        ease: "none",
+        duration: 0.15,
+      }, 0.1);
     }, hero);
 
     return () => context.revert();
@@ -184,9 +215,8 @@ export default function Hero() {
     const bounds = event.currentTarget.getBoundingClientRect();
     pointer.current.x = ((event.clientX - bounds.left) / bounds.width) * 2 - 1;
     pointer.current.y = ((event.clientY - bounds.top) / bounds.height) * 2 - 1;
-    // Restrained parallax — 8px / 6px max offset
-    graphicMovement.current?.x(pointer.current.x * 8);
-    graphicMovement.current?.y(pointer.current.y * 6);
+    graphicMovement.current?.x(pointer.current.x * 10);
+    graphicMovement.current?.y(pointer.current.y * 7);
   }
 
   return (
@@ -204,27 +234,19 @@ export default function Hero() {
         graphicMovement.current?.y(0);
       }}
     >
-      {/* Atmospheric depth gradient */}
+      {/* ── Layer 01: Environment ── */}
       <div
-        className={styles.atmosphere}
+        className={styles.environment}
         aria-hidden="true"
-        data-scroll-depth="-14"
+        data-scroll-depth="-18"
         data-hero-atmosphere
       />
 
-      {/* Technical grid + signal line overlay */}
-      <div className={styles.graphics} data-hero-graphics aria-hidden="true">
-        <div ref={graphicPointer} className={styles.graphicsPointer}>
-          <TechnicalGrid variant="hero" />
-          <SignalLines variant="hero" />
-        </div>
-      </div>
-
-      {/* Engineering Constellation (Three.js) */}
+      {/* ── Layer 02: Engineering Constellation (Three.js) — full viewport ── */}
       <div
-        className={styles.field}
+        className={styles.constellationField}
         aria-hidden="true"
-        data-scroll-depth="-24"
+        data-scroll-depth="-28"
         data-hero-field
       >
         <IntelligenceField
@@ -234,76 +256,102 @@ export default function Hero() {
         />
       </div>
 
-      <Container className={styles.inner}>
-        <div className={styles.content}>
-
-          {/* ── Identity block ── */}
-          <div className={styles.intro} data-reveal="intro">
-            <p className={styles.name}>ANIRUDH SHASHIKUMAR</p>
-            {/*
-              Discipline: domain-based, not title-based.
-              "COMPUTER SCIENCE ENGINEERING" states study/field.
-              This replaces "AI Engineer · Full-Stack Developer · Creative Technologist"
-              which implied unsupported professional seniority.
-            */}
-            <p className={styles.eyebrow}>COMPUTER SCIENCE ENGINEERING</p>
-          </div>
-
-          {/* ── Primary headline ── */}
-          <div className={styles.titleShell} data-hero-title-shell>
-            <h1 id="home-heading" className={styles.title} data-reveal="title">
-              <span>Engineering the</span>{" "}
-              <span>Next Era of</span>{" "}
-              <span>Intelligence.</span>
-            </h1>
-          </div>
-
-          {/* ── Supporting copy + domain signals ── */}
-          <div data-hero-support-shell>
-            <p className={styles.description} data-reveal="copy">
-              I build systems across AI, vision, software, and the physical world.
-            </p>
-
-            {/*
-              Domain signals: communicates direction across five areas.
-              Replaces the former "AI Engineer / Full-Stack Developer / Creative Technologist"
-              title list. These align with the Engineering Constellation in the canvas.
-            */}
-            <div
-              className={styles.domains}
-              aria-label="Engineering domains"
-              data-reveal="domains"
-            >
-              {DOMAIN_SIGNALS.map((domain) => (
-                <span key={domain} className={styles.domainTag}>
-                  {domain}
-                </span>
-              ))}
-            </div>
-
-            {/* ── Primary CTAs ── */}
-            <div className={styles.actions} data-reveal="actions">
-              <a href="#work" className={styles.primaryAction}>
-                Explore Work <span aria-hidden="true">↗</span>
-              </a>
-              <a href="#lab" className={styles.secondaryAction}>
-                Enter Lab <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </div>
+      {/* ── Layer 03: Background graphics ── */}
+      <div className={styles.graphics} data-hero-graphics aria-hidden="true">
+        <div ref={graphicPointer} className={styles.graphicsPointer}>
+          <TechnicalGrid variant="hero" />
+          <SignalLines variant="hero" />
         </div>
+      </div>
 
-        {/* ── Status metadata ── bottom-right corner micro-text */}
-        <div className={styles.status}>
-          <p>STATUS / BUILDING</p>
-          <p>FOCUS / INTELLIGENT SYSTEMS</p>
-        </div>
+      {/* ── Layer 04: System Identity ── */}
+      <div
+        className={styles.systemIdentity}
+        data-reveal="system"
+        data-hero-system
+      >
+        <span className={styles.systemIndex}>SYSTEM / 00</span>
+        <span className={styles.systemName}>ANIRUDH SHASHIKUMAR</span>
+        <span className={styles.systemMeta}>COMPUTER SCIENCE ENGINEERING</span>
+        <span className={styles.systemLocation}>BENGALURU / INDIA</span>
+      </div>
 
-        {/* ── Scroll signal ── */}
-        <a href="#work" className={styles.scrollCue} data-hero-scroll-cue>
-          SCROLL TO EXPLORE <span aria-hidden="true">↓</span>
+      {/* ── Layer 05: Primary Statement — architectural typography ── */}
+      <div
+        className={styles.statementLayer}
+        data-hero-statement
+        data-reveal="statement"
+      >
+        <h1 id="home-heading" className={styles.statement}>
+          <span className={styles.statementLine}>I BUILD</span>
+          <span className={styles.statementLine}>WHAT I WANT</span>
+          <span className={styles.statementLine}>TO EXIST.</span>
+        </h1>
+      </div>
+
+      {/* ── Layer 06: Thesis (scroll-revealed second state) ── */}
+      <div
+        className={styles.thesisLayer}
+        data-hero-thesis
+        aria-hidden="true"
+      >
+        <p className={styles.thesis}>
+          <span>Engineering the</span>{" "}
+          <span>Next Era of</span>{" "}
+          <span>Intelligence.</span>
+        </p>
+      </div>
+
+      {/* ── Layer 07: Domain coordinates ── */}
+      <div
+        className={styles.coordinates}
+        data-reveal="coordinates"
+        data-hero-coordinates
+        aria-label="Engineering domains"
+      >
+        <span className={styles.coord}>AI</span>
+        <span className={styles.coordSep} aria-hidden="true">/</span>
+        <span className={styles.coord}>VISION</span>
+        <span className={styles.coordSep} aria-hidden="true">/</span>
+        <span className={styles.coord}>FULL-STACK</span>
+        <span className={styles.coordSep} aria-hidden="true">/</span>
+        <span className={styles.coord}>IoT</span>
+        <span className={styles.coordSep} aria-hidden="true">/</span>
+        <span className={styles.coord}>MULTIMODAL</span>
+      </div>
+
+      {/* ── Layer 08: Interaction cues — editorial, not buttons ── */}
+      <div
+        className={styles.interaction}
+        data-reveal="interaction"
+        data-hero-interaction
+      >
+        <a href="#work" className={styles.explore}>
+          <span className={styles.exploreLabel}>EXPLORE</span>
+          <span className={styles.exploreTarget}>WORK</span>
+          <span className={styles.exploreArrow} aria-hidden="true">↓</span>
         </a>
-      </Container>
+        <a href="#lab" className={styles.labLink}>
+          LAB <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      {/* ── Status metadata ── */}
+      <div
+        className={styles.status}
+        data-reveal="status"
+        data-hero-status
+        aria-hidden="true"
+      >
+        <p>STATUS / BUILDING</p>
+        <p>FIELD / INTELLIGENT SYSTEMS</p>
+      </div>
+
+      {/* ── Scroll signal ── */}
+      <a href="#work" className={styles.scrollCue} data-hero-scroll-cue>
+        <span className={styles.scrollLine} aria-hidden="true" />
+        SCROLL
+      </a>
     </section>
   );
 }

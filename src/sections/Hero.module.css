@@ -1,380 +1,391 @@
-/* ── Hero section ─────────────────────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════════════════════
+   HERO — Full-viewport composition
+   SYSTEM / 00 — ANIRUDH
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Section ──────────────────────────────────────────────────────────────── */
 
 .hero {
   position: relative;
   isolation: isolate;
-  min-height: 100svh;
+  min-height: 200svh;          /* tall section for scroll transformation */
   overflow: hidden;
-  background: #080c11;
+  background: #060a0e;
 }
 
-.hero::before {
-  position: absolute;
+/* ── Layer 01: Environment ────────────────────────────────────────────────── */
+
+.environment {
+  position: fixed;
+  z-index: 0;
   inset: 0;
-  z-index: 0;
-  content: "";
-  pointer-events: none;
-}
-
-.hero::before {
-  background: linear-gradient(120deg, #090d12 15%, #080c11 70%);
-}
-
-/* ── Depth atmosphere ─────────────────────────────────────────────────────── */
-
-.atmosphere {
-  position: absolute;
-  z-index: 0;
-  inset: -3%;
   background:
-    radial-gradient(ellipse at 80% 44%, rgb(42 87 112 / 17%), transparent 46%),
-    radial-gradient(ellipse at 42% 105%, rgb(19 44 64 / 15%), transparent 55%);
+    radial-gradient(ellipse 120% 80% at 65% 40%, rgb(22 58 82 / 12%), transparent 52%),
+    radial-gradient(ellipse 100% 100% at 30% 110%, rgb(14 38 56 / 10%), transparent 55%),
+    radial-gradient(ellipse 60% 50% at 85% 20%, rgb(32 72 98 / 7%), transparent 48%);
   pointer-events: none;
 }
 
-/* ── Background graphics layer (TechnicalGrid + SignalLines) ──────────────── */
+/* ── Layer 02: Engineering Constellation — full viewport ──────────────────── */
+
+.constellationField {
+  position: fixed;
+  z-index: 1;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+/* ── Layer 03: Background graphics ────────────────────────────────────────── */
 
 .graphics,
 .graphicsPointer {
-  position: absolute;
+  position: fixed;
   inset: 0;
   pointer-events: none;
 }
 
 .graphics {
-  z-index: 0;
-  overflow: hidden;
-  opacity: 0.72;
-}
-
-/* ── Engineering Constellation (Three.js canvas container) ───────────────── */
-
-.field {
-  position: absolute;
   z-index: 1;
-  top: 9%;
-  right: -3%;
-  bottom: 6%;
-  width: min(58vw, 58rem);
-  pointer-events: none;
-  opacity: 0.9;
-  mask-image: linear-gradient(to right, transparent, black 19%, black 75%, transparent);
+  overflow: hidden;
+  opacity: 0.28;
 }
 
-.field::before {
-  position: absolute;
-  inset: 14% 4%;
-  content: "";
-  background: radial-gradient(ellipse, rgb(72 137 171 / 13%), transparent 65%);
-  pointer-events: none;
-}
+/* ── Layer 04: System Identity ────────────────────────────────────────────── */
 
-/* ── Content layout ───────────────────────────────────────────────────────── */
-
-.inner {
-  position: relative;
-  z-index: 2;
+.systemIdentity {
+  position: fixed;
+  z-index: 10;
+  top: 6.5rem;
+  left: clamp(1.5rem, 5vw, 4rem);
   display: flex;
-  align-items: center;
-  min-height: 100svh;
-  padding-top: clamp(7rem, 12vh, 9rem);
-  padding-bottom: 5.5rem;
-}
-
-.content {
-  width: min(100%, 47rem);
-}
-
-/* ── Identity block ───────────────────────────────────────────────────────── */
-
-.intro {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.7rem 1.25rem;
-}
-
-/* Monospace baseline for all metadata elements */
-.name,
-.eyebrow,
-.domains,
-.status,
-.scrollCue {
+  flex-direction: column;
+  gap: 0.35rem;
   font-family: var(--font-geist-mono), monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  line-height: 1.5;
 }
 
-.name {
-  padding-left: 0.8rem;
-  border-left: 2px solid #92bbd2;
-  color: #e2f3fa;
-  font-size: 0.7rem;
+.systemIndex {
+  color: #506878;
+}
+
+.systemName {
+  color: #d8edf6;
   font-weight: 600;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.18em;
 }
 
-/* ── Discipline tag ───────────────────────────────────────────────────────── */
-/* "COMPUTER SCIENCE ENGINEERING" — factual field/study, not an inflated title */
-
-.eyebrow {
-  color: #92aebb;
-  font-size: 0.65rem;
-  letter-spacing: 0.12em;
+.systemMeta {
+  color: #7a9aac;
 }
 
-/* ── Headline ─────────────────────────────────────────────────────────────── */
-
-.titleShell {
-  margin-top: 1.75rem;
+.systemLocation {
+  color: #506878;
 }
 
-.title {
-  max-width: 47rem;
-  color: #f5f9fb;
-  font-size: clamp(3.4rem, 5.8vw, 6.3rem);
+/* ── Layer 05: Primary Statement — architectural typography ───────────────── */
+
+.statementLayer {
+  position: fixed;
+  z-index: 8;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 clamp(1.5rem, 5vw, 6rem);
+  pointer-events: none;
+}
+
+.statement {
+  color: #f0f6f9;
+  font-size: clamp(3.2rem, 8.5vw, 9.5rem);
   font-weight: 600;
-  letter-spacing: -0.07em;
-  line-height: 1.02;
+  letter-spacing: -0.06em;
+  line-height: 0.95;
+  text-align: center;
   text-wrap: balance;
 }
 
-/* ── Supporting copy ──────────────────────────────────────────────────────── */
-
-.description {
-  max-width: 36rem;
-  margin-top: 1.5rem;
-  color: #b7c4ce;
-  font-size: clamp(1rem, 1.2vw, 1.125rem);
-  line-height: 1.7;
+.statementLine {
+  display: block;
 }
 
-/* ── Domain signal tags ───────────────────────────────────────────────────── */
-/*
-  Replaces the former "AI Engineer / Full-Stack Developer / Creative Technologist"
-  title list. These five domain tags align with the Engineering Constellation nodes
-  and communicate engineering direction, not seniority claims.
-*/
+/* ── Layer 06: Thesis (scroll-revealed second state) ─────────────────────── */
 
-.domains {
+.thesisLayer {
+  position: fixed;
+  z-index: 7;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 clamp(1.5rem, 5vw, 6rem);
+  pointer-events: none;
+  opacity: 0;                  /* hidden until scroll reveals */
+}
+
+.thesis {
+  color: #e4eff5;
+  font-size: clamp(2.4rem, 5.5vw, 5.8rem);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  line-height: 1.05;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.thesis span {
+  display: block;
+}
+
+/* ── Layer 07: Domain coordinates ─────────────────────────────────────────── */
+
+.coordinates {
+  position: fixed;
+  z-index: 9;
+  bottom: clamp(6rem, 12vh, 9rem);
+  left: 50%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem 0;
-  max-width: 41rem;
-  margin-top: 1.5rem;
-  padding-top: 1.1rem;
-  border-top: 1px solid rgb(166 207 230 / 17%);
-  color: #a0b9c8;
-  font-size: 0.68rem;
-  letter-spacing: 0.08em;
-}
-
-/* Slash separator between domain tags */
-.domainTag + .domainTag::before {
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
-  color: #4d6e80;
-  content: "/";
-}
-
-/* ── Actions ──────────────────────────────────────────────────────────────── */
-
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: 1.7rem;
-}
-
-.primaryAction,
-.secondaryAction {
-  display: inline-flex;
-  min-height: 3.3rem;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.8rem;
-  padding: 0.85rem 1.3rem;
-  border: 1px solid transparent;
-  border-radius: 2px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  line-height: 1.2;
-  transition: transform 220ms ease, background-color 220ms ease, border-color 220ms ease;
-}
-
-.primaryAction {
-  background: #e4f2f8;
-  color: #0b1820;
-}
-
-.primaryAction:hover {
-  background: #cbe7f3;
-  transform: translateY(-2px);
-}
-
-.secondaryAction {
-  border-color: rgb(186 218 234 / 32%);
-  background: rgb(12 25 34 / 38%);
-  color: #e5f2f8;
-}
-
-.secondaryAction:hover {
-  border-color: rgb(186 218 234 / 62%);
-  background: rgb(25 48 62 / 46%);
-  transform: translateY(-2px);
-}
-
-.primaryAction span,
-.secondaryAction span {
-  font-size: 1.1rem;
-  line-height: 1;
-  transition: transform 220ms ease;
-}
-
-.primaryAction:hover span,
-.primaryAction:focus-visible span,
-.secondaryAction:hover span,
-.secondaryAction:focus-visible span {
-  transform: translate(2px, -2px);
-}
-
-/* ── Status metadata + scroll cue ────────────────────────────────────────── */
-
-.status,
-.scrollCue {
-  position: absolute;
-  bottom: 1.7rem;
-  color: #7896a8;
+  justify-content: center;
+  gap: 0 0.2rem;
+  transform: translateX(-50%);
+  font-family: var(--font-geist-mono), monospace;
   font-size: 0.65rem;
   letter-spacing: 0.1em;
+  opacity: 0.45;
 }
+
+.coord {
+  color: #9cbdd0;
+}
+
+.coordSep {
+  margin: 0 0.4rem;
+  color: #3a5566;
+}
+
+/* ── Layer 08: Interaction cues ───────────────────────────────────────────── */
+
+.interaction {
+  position: fixed;
+  z-index: 10;
+  right: clamp(1.5rem, 5vw, 4rem);
+  bottom: clamp(6rem, 12vh, 9rem);
+  display: flex;
+  align-items: flex-end;
+  gap: 2.2rem;
+  font-family: var(--font-geist-mono), monospace;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  color: #d2e8f3;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  transition: color 200ms ease;
+}
+
+.explore:hover {
+  color: #fff;
+}
+
+.exploreLabel {
+  color: #607a8a;
+  font-size: 0.55rem;
+}
+
+.exploreTarget {
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.exploreArrow {
+  margin-top: 0.3rem;
+  color: #506878;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.labLink {
+  color: #7a9aac;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: color 200ms ease;
+}
+
+.labLink:hover {
+  color: #c8e0ed;
+}
+
+/* ── Status metadata ─────────────────────────────────────────────────────── */
 
 .status {
-  right: 2rem;
+  position: fixed;
+  z-index: 10;
+  right: clamp(1.5rem, 5vw, 4rem);
+  top: 6.5rem;
   display: grid;
-  gap: 0.35rem;
+  gap: 0.3rem;
   text-align: right;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  color: #4a6474;
 }
+
+/* ── Scroll signal ────────────────────────────────────────────────────────── */
 
 .scrollCue {
-  left: 2rem;
-  display: inline-flex;
+  position: fixed;
+  z-index: 10;
+  bottom: clamp(1.5rem, 4vh, 2.5rem);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1.2rem;
+  gap: 0.5rem;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.55rem;
+  letter-spacing: 0.18em;
+  color: #506878;
+  text-decoration: none;
 }
 
-.scrollCue span {
-  font-size: 1rem;
+.scrollLine {
+  display: block;
+  width: 1px;
+  height: 2rem;
+  background: linear-gradient(to bottom, transparent, #506878);
 }
 
-/* ── Desktop breakpoint: headline spans full lines ────────────────────────── */
+/* ═══════════════════════════════════════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Desktop 1024+ ────────────────────────────────────────────────────────── */
 
 @media (min-width: 1024px) {
-  .title span {
-    display: block;
+  .statement {
+    font-size: clamp(6rem, 8.5vw, 9.5rem);
   }
 }
 
-/* ── Tablet: field recedes slightly ──────────────────────────────────────── */
+/* ── Tablet ≤ 900 ──────────────────────────────────────────────────────────── */
 
 @media (max-width: 900px) {
-  .field {
-    right: -24%;
-    width: 72vw;
-    opacity: 0.32;
+  .constellationField {
+    opacity: 0.55;
+  }
+
+  .interaction {
+    right: 1.5rem;
+    bottom: 5rem;
   }
 }
 
-/* ── Mobile (≤ 640px) ─────────────────────────────────────────────────────── */
-/*
-  Mobile is a composed experience, not a squeezed desktop.
-  Priority: ANIRUDH → headline → direction → primary action → constellation.
-  Domain tags flow naturally. No hover-dependent interaction.
-*/
+/* ── Mobile ≤ 640 ──────────────────────────────────────────────────────────── */
 
 @media (max-width: 640px) {
-  .inner {
+  .hero {
+    min-height: 180svh;
+  }
+
+  .systemIdentity {
+    top: 5.5rem;
+    left: 1.2rem;
+    font-size: 0.55rem;
+  }
+
+  .statementLayer {
+    padding: 0 1.2rem;
     align-items: flex-start;
-    padding-top: 9.3rem;
-    padding-bottom: 5.7rem;
+    padding-top: 38svh;
   }
 
-  .field {
-    top: 28%;
-    right: -34%;
-    bottom: 11%;
-    width: 115vw;
-    opacity: 0.28;
-    mask-image: linear-gradient(to bottom, transparent, black 20%, black 65%, transparent);
+  .statement {
+    font-size: clamp(2.8rem, 14vw, 4.2rem);
+    text-align: left;
+    letter-spacing: -0.05em;
   }
 
-  .titleShell {
-    margin-top: 1.7rem;
+  .thesisLayer {
+    padding: 0 1.2rem;
+    align-items: flex-start;
+    padding-top: 38svh;
   }
 
-  .title {
-    font-size: clamp(2.9rem, 12vw, 4.4rem);
-    letter-spacing: -0.065em;
-    line-height: 1.04;
+  .thesis {
+    font-size: clamp(2rem, 9vw, 3rem);
+    text-align: left;
   }
 
-  .description {
-    margin-top: 1.5rem;
-    font-size: 1rem;
-    line-height: 1.65;
+  .constellationField {
+    opacity: 0.4;
   }
 
-  /* Mobile domain tags: slightly more compact */
-  .domains {
-    margin-top: 1.4rem;
+  .coordinates {
+    bottom: 5rem;
+    left: 1.2rem;
+    transform: none;
+    justify-content: flex-start;
+    font-size: 0.58rem;
   }
 
-  .actions {
-    margin-top: 1.5rem;
+  .interaction {
+    right: 1.2rem;
+    bottom: 4.5rem;
+    gap: 1.5rem;
   }
 
-  .status {
-    right: 1rem;
-    bottom: 1.7rem;
-  }
-
-  .scrollCue {
-    left: 1rem;
-    bottom: 1.7rem;
-  }
-}
-
-/* ── Very small screens ───────────────────────────────────────────────────── */
-
-@media (max-width: 410px) {
   .status {
     display: none;
   }
+
+  .graphics {
+    opacity: 0.15;
+  }
 }
 
-/* ── Reduced motion ───────────────────────────────────────────────────────── */
-/*
-  Users with reduced-motion preference receive:
-  - Immediate, fully-resolved Hero (no animation sequences)
-  - Static or near-static constellation (handled in Three.js)
-  - No hover transforms on buttons
-  - Direct access to Work
-  No meaning depends solely on animation.
-*/
+/* ── Very small ≤ 390 ─────────────────────────────────────────────────────── */
+
+@media (max-width: 390px) {
+  .statement {
+    font-size: 2.6rem;
+  }
+
+  .thesis {
+    font-size: 1.9rem;
+  }
+
+  .systemIdentity {
+    font-size: 0.5rem;
+  }
+
+  .coordinates {
+    font-size: 0.52rem;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   REDUCED MOTION
+   ═══════════════════════════════════════════════════════════════════════════ */
 
 @media (prefers-reduced-motion: reduce) {
-  .primaryAction,
-  .secondaryAction,
-  .primaryAction span,
-  .secondaryAction span {
+  .explore,
+  .labLink {
     transition: none;
   }
 
-  .primaryAction:hover,
-  .secondaryAction:hover,
-  .primaryAction:hover span,
-  .primaryAction:focus-visible span,
-  .secondaryAction:hover span,
-  .secondaryAction:focus-visible span {
+  .explore:hover {
     transform: none;
   }
 }
