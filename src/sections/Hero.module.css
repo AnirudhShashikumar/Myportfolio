@@ -1,392 +1,644 @@
-/* ═══════════════════════════════════════════════════════════════════════════
-   HERO — Full-viewport composition
-   SYSTEM / 00 — ANIRUDH
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-/* ── Section ──────────────────────────────────────────────────────────────── */
-
 .hero {
   position: relative;
+  height: 500svh;
   isolation: isolate;
-  min-height: 200svh;          /* tall section for scroll transformation */
-  overflow: hidden;
-  clip-path: inset(0);         /* contains fixed children within section */
-  background: #060a0e;
+  background: #030609;
 }
 
-/* ── Layer 01: Environment ────────────────────────────────────────────────── */
+.stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+  background: #030609;
+}
+
+.environment,
+.constellationField,
+.spatialMarks,
+.intro,
+.philosophyLayer,
+.thesisLayer,
+.nameLayer,
+.evidenceLayer {
+  position: absolute;
+  inset: 0;
+}
 
 .environment {
-  position: fixed;
   z-index: 0;
-  inset: 0;
   background:
-    radial-gradient(ellipse 120% 80% at 65% 40%, rgb(22 58 82 / 12%), transparent 52%),
-    radial-gradient(ellipse 100% 100% at 30% 110%, rgb(14 38 56 / 10%), transparent 55%),
-    radial-gradient(ellipse 60% 50% at 85% 20%, rgb(32 72 98 / 7%), transparent 48%);
-  pointer-events: none;
+    radial-gradient(ellipse 70% 62% at 52% 48%, rgb(30 72 96 / 10%), transparent 66%),
+    radial-gradient(ellipse 42% 56% at 12% 96%, rgb(14 43 62 / 9%), transparent 75%),
+    #030609;
 }
 
-/* ── Layer 02: Engineering Constellation — full viewport ──────────────────── */
+.environment::after {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgb(255 255 255 / 1.5%) 1px, transparent 1px);
+  background-size: 100% 5rem;
+  content: "";
+  mask-image: linear-gradient(90deg, transparent, black 32%, black 68%, transparent);
+  opacity: 0.2;
+}
 
 .constellationField {
-  position: fixed;
   z-index: 1;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.85;
-}
-
-/* ── Layer 03: Background graphics ────────────────────────────────────────── */
-
-.graphics,
-.graphicsPointer {
-  position: fixed;
-  inset: 0;
   pointer-events: none;
 }
 
-.graphics {
-  z-index: 1;
-  overflow: hidden;
-  opacity: 0.28;
-}
-
-/* ── Layer 04: System Identity ────────────────────────────────────────────── */
-
-.systemIdentity {
-  position: fixed;
-  z-index: 10;
-  top: 6.5rem;
-  left: clamp(1.5rem, 5vw, 4rem);
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
+.spatialMarks {
+  z-index: 2;
+  color: rgb(135 176 196 / 38%);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 0.62rem;
-  letter-spacing: 0.14em;
-  line-height: 1.5;
+  font-size: 0.52rem;
+  letter-spacing: 0.15em;
+  pointer-events: none;
 }
 
-.systemIndex {
-  color: #506878;
+.axisX,
+.axisY {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: linear-gradient(90deg, transparent, rgb(133 187 210 / 14%), transparent);
+  transform: translate(-50%, -50%);
 }
 
-.systemName {
-  color: #d8edf6;
-  font-weight: 600;
-  letter-spacing: 0.18em;
+.axisX {
+  width: min(76vw, 72rem);
+  height: 1px;
+}
+
+.axisY {
+  width: 1px;
+  height: 68vh;
+  background: linear-gradient(transparent, rgb(133 187 210 / 12%), transparent);
+}
+
+.markA,
+.markB,
+.markC {
+  position: absolute;
+}
+
+.markA {
+  top: 28%;
+  left: 7vw;
+}
+
+.markB {
+  top: 20%;
+  right: 8vw;
+}
+
+.markC {
+  right: 12vw;
+  bottom: 18%;
+}
+
+.intro {
+  z-index: 20;
+  background: #010203;
+  pointer-events: none;
+}
+
+.introSignal {
+  position: absolute;
+  top: 46%;
+  left: 46%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #d9f4ff;
+  box-shadow: 0 0 0 0.42rem rgb(151 216 239 / 7%), 0 0 2.4rem rgb(132 208 238 / 46%);
+}
+
+.introSignal::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 7rem;
+  height: 7rem;
+  border: 1px solid rgb(141 208 234 / 15%);
+  border-radius: 50%;
+  content: "";
+  transform: translate(-50%, -50%);
+  animation: signal-pulse 2.2s ease-out infinite;
+}
+
+.fragmentA,
+.fragmentB,
+.fragmentC {
+  position: absolute;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgb(141 205 230 / 34%));
+  transform-origin: right;
+}
+
+.fragmentA {
+  top: 34%;
+  left: 18%;
+  width: 18vw;
+  transform: rotate(13deg);
+}
+
+.fragmentB {
+  top: 60%;
+  right: 18%;
+  width: 22vw;
+  transform: rotate(-17deg);
+}
+
+.fragmentC {
+  top: 24%;
+  right: 29%;
+  width: 9vw;
+  transform: rotate(68deg);
+}
+
+.introMessage {
+  position: absolute;
+  bottom: 15vh;
+  left: 50%;
+  color: #88aab9;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.58rem;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .systemMeta {
-  color: #7a9aac;
-}
-
-.systemLocation {
-  color: #506878;
-}
-
-/* ── Layer 05: Primary Statement — architectural typography ───────────────── */
-
-.statementLayer {
-  position: fixed;
-  z-index: 8;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 clamp(1.5rem, 5vw, 6rem);
+  position: absolute;
+  z-index: 7;
+  top: clamp(5.6rem, 12vh, 8rem);
+  left: clamp(1.25rem, 4vw, 4rem);
+  display: grid;
+  gap: 0.45rem;
+  color: #587181;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.16em;
   pointer-events: none;
 }
 
-.statement {
-  color: #f0f6f9;
-  font-size: clamp(3.2rem, 8.5vw, 9.5rem);
-  font-weight: 600;
-  letter-spacing: -0.06em;
-  line-height: 0.95;
+.philosophyLayer,
+.thesisLayer,
+.nameLayer {
+  z-index: 8;
+  display: grid;
+  place-items: center;
+  padding: 5rem clamp(1.25rem, 5vw, 5rem) 3rem;
+  pointer-events: none;
+}
+
+.philosophy {
+  margin: 0;
+  color: #edf3f5;
+  font-size: clamp(4rem, 8.8vw, 9.5rem);
+  font-weight: 580;
+  letter-spacing: -0.072em;
+  line-height: 0.88;
   text-align: center;
   text-wrap: balance;
 }
 
-.statementLine {
+.philosophy span,
+.thesis > span,
+.name > span {
   display: block;
 }
 
-/* ── Layer 06: Thesis (scroll-revealed second state) ─────────────────────── */
-
 .thesisLayer {
-  position: fixed;
-  z-index: 7;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 clamp(1.5rem, 5vw, 6rem);
-  pointer-events: none;
-  opacity: 0;                  /* hidden until scroll reveals */
+  visibility: hidden;
 }
 
 .thesis {
-  color: #e4eff5;
-  font-size: clamp(2.4rem, 5.5vw, 5.8rem);
-  font-weight: 600;
-  letter-spacing: -0.05em;
-  line-height: 1.05;
+  margin: 0;
+  color: #edf4f7;
+  font-size: clamp(3.5rem, 7.2vw, 7.8rem);
+  font-weight: 580;
+  letter-spacing: -0.068em;
+  line-height: 0.91;
   text-align: center;
-  text-wrap: balance;
 }
 
-.thesis span {
+.thesis > span,
+.name > span {
+  overflow: hidden;
+  padding-inline: 0.06em;
+}
+
+.thesis i,
+.name i,
+.projectLockup i {
   display: block;
+  font-style: normal;
 }
-
-/* ── Layer 07: Domain coordinates ─────────────────────────────────────────── */
 
 .coordinates {
-  position: fixed;
+  position: absolute;
   z-index: 9;
-  bottom: clamp(6rem, 12vh, 9rem);
+  bottom: clamp(4.2rem, 8vh, 6.5rem);
   left: 50%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 0 0.2rem;
+  gap: 0.28rem 0.5rem;
+  width: min(90vw, 48rem);
+  color: #87a9b9;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  opacity: 0.38;
   transform: translateX(-50%);
+}
+
+.coordinates i {
+  color: #34505e;
+  font-style: normal;
+}
+
+.nameLayer {
+  visibility: hidden;
+  align-content: center;
+  grid-template-columns: minmax(0, 76rem);
+  perspective: 900px;
+}
+
+.name {
+  position: relative;
+  margin: clamp(1rem, 2.5vh, 2rem) 0;
+  color: #f2f5f6;
+  font-size: clamp(4.5rem, 10.8vw, 11.5rem);
+  font-weight: 620;
+  letter-spacing: -0.085em;
+  line-height: 0.78;
+  text-align: center;
+}
+
+.name i {
+  transform-origin: center bottom;
+}
+
+.nameMeta {
+  margin: 0 0 clamp(1rem, 2.5vh, 2rem);
+  color: #7795a4;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 0.65rem;
-  letter-spacing: 0.1em;
-  opacity: 0.45;
+  font-size: 0.57rem;
+  letter-spacing: 0.17em;
+  text-align: center;
 }
 
-.coord {
-  color: #9cbdd0;
+.nameRule {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgb(163 211 229 / 35%), transparent);
+  transform-origin: center;
 }
 
-.coordSep {
-  margin: 0 0.4rem;
-  color: #3a5566;
+.nameScan {
+  position: absolute;
+  top: 23%;
+  bottom: 20%;
+  left: 50%;
+  width: 1px;
+  background: linear-gradient(transparent, #b5e8f7 28%, #b5e8f7 72%, transparent);
+  box-shadow: 0 0 2rem rgb(164 222 242 / 30%);
 }
 
-/* ── Layer 08: Interaction cues ───────────────────────────────────────────── */
-
-.interaction {
-  position: fixed;
+.evidenceLayer {
   z-index: 10;
-  right: clamp(1.5rem, 5vw, 4rem);
-  bottom: clamp(6rem, 12vh, 9rem);
-  display: flex;
-  align-items: flex-end;
-  gap: 2.2rem;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.evidenceSpace {
+  position: absolute;
+  inset: 0;
+  perspective: 1000px;
+  perspective-origin: 50% 48%;
+  transform-style: preserve-3d;
+}
+
+.evidencePlane {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: min(62vw, 62rem);
+  margin: 0;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+}
+
+.evidencePlane1,
+.evidencePlane2,
+.evidencePlane3 {
+  width: min(27vw, 27rem);
+}
+
+.evidenceFrame {
+  overflow: hidden;
+  border: 1px solid rgb(148 206 228 / 28%);
+  background: #071019;
+  box-shadow: 0 2rem 8rem rgb(0 0 0 / 52%);
+}
+
+.evidenceFrame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.evidencePlane figcaption {
+  margin-top: 0.6rem;
+  color: #7694a2;
   font-family: var(--font-geist-mono), monospace;
+  font-size: 0.52rem;
+  letter-spacing: 0.13em;
 }
 
-.explore {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  color: #d2e8f3;
-  font-size: 0.65rem;
-  letter-spacing: 0.12em;
-  text-decoration: none;
-  transition: color 200ms ease;
+.projectLockup {
+  position: absolute;
+  z-index: 4;
+  right: clamp(1.25rem, 4vw, 4rem);
+  bottom: clamp(2rem, 5vh, 4rem);
+  padding-left: 1rem;
+  border-left: 1px solid rgb(148 210 233 / 45%);
+  text-align: right;
 }
 
-.explore:hover {
-  color: #fff;
-}
-
-.exploreLabel {
-  color: #607a8a;
+.projectLockup span,
+.projectLockup i {
+  color: #82aaba;
+  font-family: var(--font-geist-mono), monospace;
   font-size: 0.55rem;
+  letter-spacing: 0.14em;
 }
 
-.exploreTarget {
-  font-weight: 600;
-  font-size: 0.75rem;
-}
-
-.exploreArrow {
-  margin-top: 0.3rem;
-  color: #506878;
-  font-size: 0.9rem;
+.projectLockup p {
+  margin: 0.28rem 0 0.38rem;
+  color: #f0f6f8;
+  font-size: clamp(1.8rem, 3.2vw, 3.4rem);
+  font-weight: 580;
+  letter-spacing: -0.055em;
   line-height: 1;
 }
 
-.labLink {
-  color: #7a9aac;
-  font-size: 0.62rem;
-  letter-spacing: 0.1em;
-  text-decoration: none;
-  transition: color 200ms ease;
-}
-
-.labLink:hover {
-  color: #c8e0ed;
-}
-
-/* ── Status metadata ─────────────────────────────────────────────────────── */
-
-.status {
-  position: fixed;
-  z-index: 10;
-  right: clamp(1.5rem, 5vw, 4rem);
-  top: 6.5rem;
-  display: grid;
-  gap: 0.3rem;
-  text-align: right;
-  font-family: var(--font-geist-mono), monospace;
-  font-size: 0.58rem;
-  letter-spacing: 0.1em;
-  color: #4a6474;
-}
-
-/* ── Scroll signal ────────────────────────────────────────────────────────── */
-
 .scrollCue {
-  position: fixed;
-  z-index: 10;
-  bottom: clamp(1.5rem, 4vh, 2.5rem);
+  position: absolute;
+  z-index: 9;
+  bottom: clamp(1rem, 2.4vh, 1.8rem);
   left: 50%;
-  transform: translateX(-50%);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.65rem;
+  color: #4f6976;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 0.55rem;
-  letter-spacing: 0.18em;
-  color: #506878;
-  text-decoration: none;
+  font-size: 0.5rem;
+  letter-spacing: 0.14em;
+  transform: translateX(-50%);
 }
 
-.scrollLine {
-  display: block;
-  width: 1px;
-  height: 2rem;
-  background: linear-gradient(to bottom, transparent, #506878);
+.scrollCue span {
+  width: 1.8rem;
+  height: 1px;
+  background: #4f6976;
 }
 
-/* ═══════════════════════════════════════════════════════════════════════════
-   RESPONSIVE
-   ═══════════════════════════════════════════════════════════════════════════ */
+.reducedSequence {
+  display: none;
+}
 
-/* ── Desktop 1024+ ────────────────────────────────────────────────────────── */
-
-@media (min-width: 1024px) {
-  .statement {
-    font-size: clamp(6rem, 8.5vw, 9.5rem);
+@keyframes signal-pulse {
+  0% {
+    opacity: 0.9;
+    transform: translate(-50%, -50%) scale(0.05);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
   }
 }
-
-/* ── Tablet ≤ 900 ──────────────────────────────────────────────────────────── */
 
 @media (max-width: 900px) {
-  .constellationField {
-    opacity: 0.55;
+  .hero {
+    height: 440svh;
   }
 
-  .interaction {
-    right: 1.5rem;
-    bottom: 5rem;
+  .philosophy,
+  .thesis {
+    font-size: clamp(3.5rem, 10vw, 6.5rem);
+  }
+
+  .name {
+    font-size: clamp(4.4rem, 12.4vw, 7.2rem);
+  }
+
+  .evidencePlane {
+    width: min(76vw, 44rem);
+  }
+
+  .evidencePlane1,
+  .evidencePlane2,
+  .evidencePlane3 {
+    width: min(34vw, 19rem);
   }
 }
 
-/* ── Mobile ≤ 640 ──────────────────────────────────────────────────────────── */
-
-@media (max-width: 640px) {
+@media (max-width: 767px) {
   .hero {
-    min-height: 180svh;
+    height: 400svh;
   }
 
-  .systemIdentity {
-    top: 5.5rem;
-    left: 1.2rem;
-    font-size: 0.55rem;
-  }
-
-  .statementLayer {
-    padding: 0 1.2rem;
-    align-items: flex-start;
-    padding-top: 38svh;
-  }
-
-  .statement {
-    font-size: clamp(2.8rem, 14vw, 4.2rem);
-    text-align: left;
-    letter-spacing: -0.05em;
-  }
-
-  .thesisLayer {
-    padding: 0 1.2rem;
-    align-items: flex-start;
-    padding-top: 38svh;
-  }
-
-  .thesis {
-    font-size: clamp(2rem, 9vw, 3rem);
-    text-align: left;
-  }
-
-  .constellationField {
-    opacity: 0.4;
-  }
-
-  .coordinates {
-    bottom: 5rem;
-    left: 1.2rem;
-    transform: none;
-    justify-content: flex-start;
-    font-size: 0.58rem;
-  }
-
-  .interaction {
-    right: 1.2rem;
-    bottom: 4.5rem;
-    gap: 1.5rem;
-  }
-
-  .status {
+  .environment::after,
+  .markB,
+  .markC,
+  .evidencePlane2,
+  .evidencePlane3 {
     display: none;
   }
 
-  .graphics {
-    opacity: 0.15;
+  .systemMeta {
+    top: 5.6rem;
+    left: 1rem;
+    font-size: 0.48rem;
   }
-}
 
-/* ── Very small ≤ 390 ─────────────────────────────────────────────────────── */
+  .markA {
+    top: 25%;
+    left: 1rem;
+  }
 
-@media (max-width: 390px) {
-  .statement {
-    font-size: 2.6rem;
+  .philosophyLayer,
+  .thesisLayer {
+    place-items: center start;
+    padding-inline: 1rem;
+  }
+
+  .philosophy,
+  .thesis {
+    font-size: clamp(3.15rem, 14.2vw, 5rem);
+    line-height: 0.91;
+    text-align: left;
   }
 
   .thesis {
-    font-size: 1.9rem;
-  }
-
-  .systemIdentity {
-    font-size: 0.5rem;
+    font-size: clamp(2.65rem, 12.5vw, 4.3rem);
   }
 
   .coordinates {
-    font-size: 0.52rem;
+    bottom: 4.4rem;
+    left: 1rem;
+    justify-content: flex-start;
+    width: calc(100% - 2rem);
+    font-size: 0.5rem;
+    transform: none;
+  }
+
+  .nameLayer {
+    padding-inline: 0.6rem;
+  }
+
+  .name {
+    font-size: clamp(3.2rem, 15.5vw, 5.4rem);
+    letter-spacing: -0.078em;
+    line-height: 0.84;
+  }
+
+  .nameMeta {
+    max-width: 19rem;
+    margin-inline: auto;
+    font-size: 0.46rem;
+    line-height: 1.7;
+  }
+
+  .evidencePlane {
+    width: 88vw;
+  }
+
+  .evidencePlane1 {
+    width: 52vw;
+  }
+
+  .projectLockup {
+    right: 1rem;
+    bottom: 2.1rem;
+    max-width: 82vw;
+  }
+
+  .projectLockup i {
+    font-size: 0.46rem;
+  }
+
+  .introSignal {
+    top: 44%;
+    left: 50%;
+  }
+
+  .fragmentA {
+    left: 4%;
+    width: 30vw;
+  }
+
+  .fragmentB {
+    right: 5%;
+    width: 34vw;
+  }
+
+  .scrollCue {
+    white-space: nowrap;
   }
 }
 
-/* ═══════════════════════════════════════════════════════════════════════════
-   REDUCED MOTION
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-@media (prefers-reduced-motion: reduce) {
-  .explore,
-  .labLink {
-    transition: none;
+@media (max-width: 390px) {
+  .philosophy {
+    font-size: 3rem;
   }
 
-  .explore:hover {
-    transform: none;
+  .thesis {
+    font-size: 2.5rem;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+}
+
+@media (min-aspect-ratio: 2 / 1) and (min-width: 900px) {
+  .philosophy {
+    font-size: min(8.4vw, 17vh);
+  }
+
+  .name {
+    font-size: min(10vw, 20vh);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero {
+    height: auto;
+  }
+
+  .stage {
+    position: relative;
+    min-height: 100svh;
+  }
+
+  .intro,
+  .thesisLayer,
+  .nameLayer,
+  .evidenceLayer,
+  .coordinates,
+  .scrollCue {
+    display: none;
+  }
+
+  .philosophyLayer {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+  }
+
+  .introSignal::after {
+    animation: none;
+  }
+
+  .reducedSequence {
+    display: grid;
+    background: #030609;
+  }
+
+  .reducedSequence section {
+    display: grid;
+    min-height: 72svh;
+    align-content: center;
+    padding: 5rem clamp(1rem, 6vw, 6rem);
+    border-top: 1px solid rgb(148 206 228 / 10%);
+  }
+
+  .reducedSequence p {
+    margin: 0;
+    color: #edf4f7;
+    font-size: clamp(2.8rem, 8vw, 7.5rem);
+    font-weight: 580;
+    letter-spacing: -0.07em;
+    line-height: 0.92;
+  }
+
+  .reducedSequence span {
+    margin-bottom: 1rem;
+    color: #82aaba;
+    font-family: var(--font-geist-mono), monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.14em;
+  }
+
+  .reducedSequence p + span {
+    margin-top: 1.4rem;
+    margin-bottom: 0;
   }
 }

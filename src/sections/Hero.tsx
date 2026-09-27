@@ -2,10 +2,16 @@
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 import dynamic from "next/dynamic";
-import { useEffect, useRef, type PointerEvent } from "react";
-import SignalLines from "@/components/graphics/SignalLines";
-import TechnicalGrid from "@/components/graphics/TechnicalGrid";
+import {
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type PointerEvent,
+} from "react";
+import type { OpeningMotion } from "@/components/three/IntelligenceField";
 import { useViewport } from "@/components/system/ViewportProvider";
 import styles from "./Hero.module.css";
 
@@ -14,225 +20,288 @@ const IntelligenceField = dynamic(
   { ssr: false },
 );
 
+const INTRO_SESSION_KEY = "anirudh-opening-seen";
+
+const evidence = [
+  {
+    src: "/projects/satquery-ai/satquery-main-interface-dark.jpg",
+    alt: "SatQuery AI evidence-first geospatial intelligence interface",
+    label: "SATQUERY AI / GEOSPATIAL INTELLIGENCE",
+    width: 2940,
+    height: 1736,
+  },
+  {
+    src: "/projects/gesture-globe/gesture-globe-pinch-control.jpg",
+    alt: "Gesture Globe responding to a live pinch gesture",
+    label: "GESTURE GLOBE / COMPUTER VISION",
+    width: 2834,
+    height: 1556,
+  },
+  {
+    src: "/projects/algaeos/algaeos-dashboard.jpg",
+    alt: "AlgaeOS environmental telemetry dashboard",
+    label: "ALGAEOS / PHYSICAL + DIGITAL",
+    width: 2048,
+    height: 1154,
+  },
+  {
+    src: "/projects/dayflow/dayflow-admin-dashboard.jpg",
+    alt: "Dayflow HR and admin operations dashboard",
+    label: "DAYFLOW / FULL-STACK SYSTEMS",
+    width: 2048,
+    height: 1115,
+  },
+] as const;
+
 export default function Hero() {
   const hero = useRef<HTMLElement>(null);
-  const graphicPointer = useRef<HTMLDivElement>(null);
-  const graphicMovement = useRef<{
-    x: (value: number) => void;
-    y: (value: number) => void;
-  } | null>(null);
+  const motion = useRef<OpeningMotion>({ intro: 0, scroll: 0 });
   const pointer = useRef({ x: 0, y: 0 });
+  const introTimeline = useRef<gsap.core.Timeline | null>(null);
+  const [sceneActive, setSceneActive] = useState(true);
   const { width, isMobile, prefersReducedMotion } = useViewport();
   const ready = width > 0;
 
-  // ── Entrance choreography ─────────────────────────────────────────────────
-  // Frame 00: near-black → identity resolves → statement resolves → domains appear.
-  // Total ~1.6s perceived. Fast. No loading gate.
   useEffect(() => {
-    if (prefersReducedMotion || !hero.current) return;
+    const root = hero.current;
+    if (!root) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setSceneActive(entry.isIntersecting),
+      { rootMargin: "15% 0px" },
+    );
+    observer.observe(root);
+    return () => observer.disconnect();
+  }, []);
+
+  // Time-directed domain: a short, interruptible first-signal formation.
+  useLayoutEffect(() => {
+    const root = hero.current;
+    if (!root || !ready) return;
+
+    let seen = false;
+    try {
+      seen = sessionStorage.getItem(INTRO_SESSION_KEY) === "1";
+    } catch {
+      // Storage may be unavailable in hardened browsing modes.
+    }
+
+    const directAnchor = window.location.hash.length > 1 && window.location.hash !== "#home";
+    const philosophy = root.querySelector<HTMLElement>("[data-philosophy]");
+    const intro = root.querySelector<HTMLElement>("[data-intro]");
+    const signal = root.querySelector<HTMLElement>("[data-intro-signal]");
+    const fragments = root.querySelectorAll<HTMLElement>("[data-intro-fragment]");
+    const message = root.querySelector<HTMLElement>("[data-intro-message]");
+
+    if (!philosophy || !intro || !signal || !message) return;
 
     const context = gsap.context(() => {
-      gsap
-        .timeline({ defaults: { ease: "power2.out" } })
-        // System identity (SYSTEM/00, ANIRUDH, CSE, BENGALURU)
-        .from('[data-reveal="system"]', {
-          opacity: 0,
-          y: 6,
-          duration: 0.5,
-        })
-        // Main statement: I BUILD WHAT I WANT TO EXIST.
-        .from('[data-reveal="statement"]', {
-          opacity: 0,
-          y: 24,
-          duration: 0.8,
-        }, "-=0.25")
-        // Domain coordinates
-        .from('[data-reveal="coordinates"]', {
-          opacity: 0,
-          y: 8,
-          duration: 0.45,
-        }, "-=0.32")
-        // Interaction cues
-        .from('[data-reveal="interaction"]', {
-          opacity: 0,
-          y: 6,
-          duration: 0.4,
-        }, "-=0.2")
-        // Status metadata
-        .from('[data-reveal="status"]', {
-          opacity: 0,
-          duration: 0.35,
-        }, "-=0.3");
-    }, hero);
+      if (prefersReducedMotion || directAnchor) {
+        motion.current.intro = 1;
+        root.dataset.introState = "resolved";
+        gsap.set(intro, { autoAlpha: 0 });
+        gsap.set(philosophy, { autoAlpha: 1, y: 0, clipPath: "inset(0% 0% 0% 0%)" });
+        return;
+      }
 
-    return () => context.revert();
-  }, [prefersReducedMotion]);
+      root.dataset.introState = "playing";
+      gsap.set(philosophy, {
+        autoAlpha: 0,
+        y: 26,
+        clipPath: "inset(0% 0% 100% 0%)",
+      });
+      gsap.set(signal, { autoAlpha: 0, scale: 0.35 });
+      gsap.set(fragments, { autoAlpha: 0 });
+      gsap.set(message, { autoAlpha: 0, letterSpacing: "0.28em" });
 
-  // ── Signal line entrance ──────────────────────────────────────────────────
-  useEffect(() => {
-    if (!ready || isMobile || prefersReducedMotion || !hero.current) return;
+      const start = seen ? 0.62 : 0;
+      motion.current.intro = start;
 
-    const context = gsap.context(() => {
-      gsap.fromTo(
-        "[data-hero-graphics] [data-signal-path]",
-        { strokeDashoffset: 1 },
-        {
-          strokeDashoffset: 0,
-          duration: 1.6,
-          stagger: 0.22,
-          ease: "power1.out",
+      const timeline = gsap.timeline({
+        defaults: { ease: "power2.out" },
+        onComplete: () => {
+          motion.current.intro = 1;
+          root.dataset.introState = "resolved";
+          try {
+            sessionStorage.setItem(INTRO_SESSION_KEY, "1");
+          } catch {
+            // The intro remains fully functional without persistence.
+          }
         },
-      );
-    }, hero);
+      });
+      introTimeline.current = timeline;
 
-    return () => context.revert();
-  }, [ready, isMobile, prefersReducedMotion]);
+      timeline
+        .to(motion.current, {
+          intro: 1,
+          duration: seen ? 0.72 : 2.35,
+          ease: seen ? "power2.out" : "power1.inOut",
+        }, 0)
+        .to(signal, { autoAlpha: 1, scale: 1, duration: seen ? 0.2 : 0.42 }, seen ? 0 : 0.18)
+        .to(fragments, {
+          autoAlpha: 1,
+          duration: seen ? 0.2 : 0.7,
+          stagger: seen ? 0.025 : 0.075,
+        }, seen ? 0.04 : 0.45)
+        .to(message, {
+          autoAlpha: 1,
+          letterSpacing: "0.16em",
+          duration: seen ? 0.25 : 0.55,
+        }, seen ? 0.08 : 0.78)
+        .to([message, fragments, signal], {
+          autoAlpha: 0,
+          duration: seen ? 0.22 : 0.46,
+        }, seen ? 0.36 : 1.55)
+        .to(philosophy, {
+          autoAlpha: 1,
+          y: 0,
+          clipPath: "inset(0% 0% 0% 0%)",
+          duration: seen ? 0.42 : 0.72,
+        }, seen ? 0.27 : 1.58)
+        .to(intro, { autoAlpha: 0, duration: seen ? 0.3 : 0.55 }, seen ? 0.38 : 1.72);
+    }, root);
 
-  // ── Pointer-driven graphic parallax ──────────────────────────────────────
-  useEffect(() => {
-    if (!ready || isMobile || prefersReducedMotion || !graphicPointer.current) return;
+    const finishIntro = () => {
+      const timeline = introTimeline.current;
+      if (!timeline || timeline.progress() >= 0.995) return;
+      timeline.tweenTo(timeline.duration(), { duration: 0.36, ease: "power2.out" });
+    };
+    const handleKey = (event: KeyboardEvent) => {
+      if (["ArrowDown", "PageDown", "End", " "].includes(event.key)) finishIntro();
+    };
+    const handleScroll = () => {
+      if (window.scrollY > 6) finishIntro();
+    };
 
-    const graphic = graphicPointer.current;
-    const x = gsap.quickTo(graphic, "x", { duration: 0.9, ease: "power2.out" });
-    const y = gsap.quickTo(graphic, "y", { duration: 0.9, ease: "power2.out" });
-    graphicMovement.current = { x, y };
+    window.addEventListener("wheel", finishIntro, { passive: true });
+    window.addEventListener("touchstart", finishIntro, { passive: true });
+    window.addEventListener("keydown", handleKey);
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
-      graphicMovement.current = null;
-      x.tween.kill();
-      y.tween.kill();
-      gsap.set(graphic, { x: 0, y: 0 });
+      window.removeEventListener("wheel", finishIntro);
+      window.removeEventListener("touchstart", finishIntro);
+      window.removeEventListener("keydown", handleKey);
+      window.removeEventListener("scroll", handleScroll);
+      introTimeline.current = null;
+      context.revert();
     };
-  }, [ready, isMobile, prefersReducedMotion]);
+  }, [ready, prefersReducedMotion]);
 
-  // ── Scroll-driven transformation ──────────────────────────────────────────
-  // The Hero section is ~200vh tall. Three acts:
-  // Act 1 (0–0.35): Statement recedes. System identity dims.
-  // Act 2 (0.2–0.6): Thesis resolves and lingers. Domains brighten.
-  // Act 3 (0.55–0.85): Everything fades to 0 for clean handoff to Work.
-  useEffect(() => {
-    if (!ready || prefersReducedMotion || !hero.current) return;
+  // Scroll-directed domain: one normalized timeline owns every major Hero state.
+  useLayoutEffect(() => {
+    const root = hero.current;
+    if (!root || !ready || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
     const context = gsap.context(() => {
-      const tl = gsap.timeline({
+      const philosophy = root.querySelector<HTMLElement>("[data-philosophy]");
+      const thesis = root.querySelector<HTMLElement>("[data-thesis]");
+      const thesisLines = root.querySelectorAll<HTMLElement>("[data-thesis-line]");
+      const coordinates = root.querySelector<HTMLElement>("[data-coordinates]");
+      const name = root.querySelector<HTMLElement>("[data-name]");
+      const nameWords = root.querySelectorAll<HTMLElement>("[data-name-word]");
+      const nameRules = root.querySelectorAll<HTMLElement>("[data-name-rule]");
+      const scan = root.querySelector<HTMLElement>("[data-name-scan]");
+      const evidenceLayer = root.querySelector<HTMLElement>("[data-evidence]");
+      const evidencePlanes = root.querySelectorAll<HTMLElement>("[data-evidence-plane]");
+      const projectLockup = root.querySelector<HTMLElement>("[data-project-lockup]");
+      const interfaceNodes = root.querySelectorAll<HTMLElement>("[data-interface]");
+
+      if (!philosophy || !thesis || !coordinates || !name || !scan || !evidenceLayer || !projectLockup) return;
+
+      gsap.set(thesis, { autoAlpha: 0 });
+      gsap.set(thesisLines, { yPercent: 115 });
+      gsap.set(name, { autoAlpha: 0 });
+      gsap.set(nameWords, { yPercent: 120, rotateX: -20 });
+      gsap.set(nameRules, { scaleX: 0 });
+      gsap.set(scan, { xPercent: -130, autoAlpha: 0 });
+      gsap.set(evidenceLayer, { autoAlpha: 0 });
+      gsap.set(projectLockup, { autoAlpha: 0, y: 18 });
+      gsap.set(evidencePlanes, { autoAlpha: 0 });
+
+      const timelineClock = { value: 0 };
+      const timeline = gsap.timeline({
+        defaults: { ease: "none" },
         scrollTrigger: {
-          trigger: hero.current,
+          trigger: root,
           start: "top top",
-          end: "bottom top",
-          scrub: 0.5,
-          pin: false,
+          end: "bottom bottom",
+          scrub: true,
+          invalidateOnRefresh: true,
+          onUpdate: (self) => {
+            motion.current.scroll = self.progress;
+          },
+          onRefresh: (self) => {
+            motion.current.scroll = self.progress;
+          },
         },
       });
 
-      // ── Act 1: Statement departs ───────────────────────────────────
-      tl.to("[data-hero-statement]", {
-        y: isMobile ? -30 : -60,
-        opacity: 0,
-        ease: "none",
-        duration: 0.35,
-      }, 0);
-
-      // Interaction cues depart early
-      tl.to("[data-hero-interaction]", {
-        y: -12,
-        opacity: 0,
-        ease: "none",
-        duration: 0.12,
-      }, 0.02);
-
-      // Scroll cue disappears immediately
-      tl.to("[data-hero-scroll-cue]", {
-        autoAlpha: 0,
-        y: -8,
-        ease: "none",
-        duration: 0.06,
-      }, 0);
-
-      // System identity dims
-      tl.to("[data-hero-system]", {
-        y: isMobile ? -8 : -16,
-        opacity: 0.3,
-        ease: "none",
-        duration: 0.3,
-      }, 0.1);
-
-      // Status dims
-      tl.to("[data-hero-status]", {
-        opacity: 0,
-        ease: "none",
-        duration: 0.15,
-      }, 0.08);
-
-      // ── Act 2: Thesis resolves ─────────────────────────────────────
-      tl.fromTo("[data-hero-thesis]", {
-        y: isMobile ? 16 : 32,
-        opacity: 0,
-      }, {
-        y: 0,
-        opacity: 1,
-        ease: "none",
-        duration: 0.2,
-      }, 0.22);
-
-      // Domain coordinates brighten
-      tl.to("[data-hero-coordinates]", {
-        opacity: 0.85,
-        ease: "none",
-        duration: 0.15,
-      }, 0.28);
-
-      // ── Act 3: Everything fades — clean handoff ────────────────────
-      tl.to("[data-hero-thesis]", {
-        y: isMobile ? -20 : -40,
-        opacity: 0,
-        ease: "none",
-        duration: 0.2,
-      }, 0.58);
-
-      tl.to("[data-hero-coordinates]", {
-        opacity: 0,
-        ease: "none",
-        duration: 0.15,
-      }, 0.58);
-
-      tl.to("[data-hero-system]", {
-        opacity: 0,
-        ease: "none",
-        duration: 0.12,
-      }, 0.55);
-
-      tl.to("[data-hero-field]", {
-        scale: isMobile ? 0.97 : 0.92,
-        opacity: 0,
-        ease: "none",
-        duration: 0.3,
-      }, 0.5);
-
-      tl.to("[data-hero-atmosphere]", {
-        opacity: 0,
-        ease: "none",
-        duration: 0.3,
-      }, 0.5);
-
-      tl.to("[data-hero-graphics]", {
-        opacity: 0,
-        ease: "none",
-        duration: 0.3,
-      }, 0.5);
-    }, hero);
+      timeline
+        .to(timelineClock, { value: 1, duration: 1 }, 0)
+        .to(interfaceNodes, { autoAlpha: 0, duration: 0.09 }, 0.015)
+        .to(philosophy, {
+          yPercent: -9,
+          scale: 0.97,
+          clipPath: "inset(0% 0% 100% 0%)",
+          autoAlpha: 0,
+          duration: 0.16,
+        }, 0.055)
+        .set(thesis, { autoAlpha: 1 }, 0.14)
+        .to(thesisLines, { yPercent: 0, stagger: 0.025, duration: 0.14 }, 0.14)
+        .to(coordinates, { autoAlpha: 0.82, duration: 0.12 }, 0.18)
+        .to(thesisLines, { yPercent: -112, stagger: 0.018, duration: 0.12 }, 0.405)
+        .to(thesis, { autoAlpha: 0, duration: 0.08 }, 0.48)
+        .to(coordinates, { autoAlpha: 0, duration: 0.09 }, 0.43)
+        .set(name, { autoAlpha: 1 }, 0.535)
+        .to(nameRules, { scaleX: 1, stagger: 0.03, duration: 0.11 }, 0.535)
+        .to(scan, { xPercent: 130, autoAlpha: 0.55, duration: 0.16 }, 0.55)
+        .to(nameWords, {
+          yPercent: 0,
+          rotateX: 0,
+          stagger: 0.035,
+          duration: 0.15,
+        }, 0.565)
+        .to(scan, { autoAlpha: 0, duration: 0.025 }, 0.71)
+        .to(name, { scale: 0.965, autoAlpha: 0.16, duration: 0.13 }, 0.765)
+        .set(evidenceLayer, { autoAlpha: 1 }, 0.75)
+        .fromTo(evidencePlanes[3],
+          { xPercent: 85, yPercent: -38, z: -720, rotateY: -18, autoAlpha: 0 },
+          { xPercent: 28, yPercent: -22, z: -210, rotateY: -9, autoAlpha: 0.48, duration: 0.15 },
+          0.755,
+        )
+        .fromTo(evidencePlanes[2],
+          { xPercent: -82, yPercent: 35, z: -780, rotateY: 18, autoAlpha: 0 },
+          { xPercent: -30, yPercent: 22, z: -250, rotateY: 10, autoAlpha: 0.42, duration: 0.16 },
+          0.77,
+        )
+        .fromTo(evidencePlanes[1],
+          { xPercent: 72, yPercent: 52, z: -880, rotateY: -15, autoAlpha: 0 },
+          { xPercent: 23, yPercent: 27, z: -310, rotateY: -7, autoAlpha: 0.34, duration: 0.16 },
+          0.79,
+        )
+        .fromTo(evidencePlanes[0],
+          { xPercent: -18, yPercent: 12, z: -980, scale: 0.42, autoAlpha: 0 },
+          { xPercent: 0, yPercent: 0, z: 0, scale: 1, autoAlpha: 1, duration: 0.2 },
+          0.79,
+        )
+        .to([evidencePlanes[1], evidencePlanes[2], evidencePlanes[3]], {
+          autoAlpha: 0,
+          z: -560,
+          duration: 0.1,
+        }, 0.89)
+        .to(projectLockup, { autoAlpha: 1, y: 0, duration: 0.09 }, 0.89);
+    }, root);
 
     return () => context.revert();
-  }, [ready, isMobile, prefersReducedMotion]);
+  }, [ready, prefersReducedMotion, isMobile]);
 
   function handlePointerMove(event: PointerEvent<HTMLElement>) {
     if (prefersReducedMotion || isMobile || event.pointerType !== "mouse") return;
-
     const bounds = event.currentTarget.getBoundingClientRect();
     pointer.current.x = ((event.clientX - bounds.left) / bounds.width) * 2 - 1;
     pointer.current.y = ((event.clientY - bounds.top) / bounds.height) * 2 - 1;
-    graphicMovement.current?.x(pointer.current.x * 10);
-    graphicMovement.current?.y(pointer.current.y * 7);
   }
 
   return (
@@ -241,133 +310,126 @@ export default function Hero() {
       id="home"
       aria-labelledby="home-heading"
       className={styles.hero}
-      data-scroll-region
+      data-intro-state="pending"
       onPointerMove={handlePointerMove}
       onPointerLeave={() => {
         pointer.current.x = 0;
         pointer.current.y = 0;
-        graphicMovement.current?.x(0);
-        graphicMovement.current?.y(0);
       }}
     >
-      {/* ── Layer 01: Environment ── */}
-      <div
-        className={styles.environment}
-        aria-hidden="true"
-        data-scroll-depth="-18"
-        data-hero-atmosphere
-      />
+      <div className={styles.stage}>
+        <div className={styles.environment} aria-hidden="true" />
 
-      {/* ── Layer 02: Engineering Constellation (Three.js) — full viewport ── */}
-      <div
-        className={styles.constellationField}
-        aria-hidden="true"
-        data-scroll-depth="-28"
-        data-hero-field
-      >
-        <IntelligenceField
-          pointer={pointer}
-          reducedMotion={prefersReducedMotion}
-          isMobile={isMobile}
-        />
-      </div>
+        <div className={styles.constellationField} aria-hidden="true">
+          <IntelligenceField
+            pointer={pointer}
+            motion={motion}
+            reducedMotion={prefersReducedMotion}
+            isMobile={isMobile}
+            active={sceneActive}
+          />
+        </div>
 
-      {/* ── Layer 03: Background graphics ── */}
-      <div className={styles.graphics} data-hero-graphics aria-hidden="true">
-        <div ref={graphicPointer} className={styles.graphicsPointer}>
-          <TechnicalGrid variant="hero" />
-          <SignalLines variant="hero" />
+        <div className={styles.spatialMarks} aria-hidden="true" data-interface>
+          <span className={styles.axisX} />
+          <span className={styles.axisY} />
+          <span className={styles.markA}>X / 04.18</span>
+          <span className={styles.markB}>VECTOR / RELATION</span>
+          <span className={styles.markC}>Z / −08.24</span>
+        </div>
+
+        <div className={styles.intro} data-intro aria-hidden="true">
+          <span className={styles.introSignal} data-intro-signal />
+          <span className={styles.fragmentA} data-intro-fragment />
+          <span className={styles.fragmentB} data-intro-fragment />
+          <span className={styles.fragmentC} data-intro-fragment />
+          <p className={styles.introMessage} data-intro-message>BUILD SPACE / FORMING</p>
+        </div>
+
+        <div className={styles.systemMeta} data-interface aria-hidden="true">
+          <span>SIGNAL / 00</span>
+          <span>RELATIONS / EMERGING</span>
+        </div>
+
+        <div className={styles.philosophyLayer} data-philosophy>
+          <h1 id="home-heading" className={styles.philosophy}>
+            <span>I BUILD</span>
+            <span>WHAT I WANT</span>
+            <span>TO EXIST.</span>
+          </h1>
+        </div>
+
+        <div className={styles.thesisLayer} data-thesis>
+          <p className={styles.thesis}>
+            <span><i data-thesis-line>ENGINEERING THE</i></span>
+            <span><i data-thesis-line>NEXT ERA OF</i></span>
+            <span><i data-thesis-line>INTELLIGENCE.</i></span>
+          </p>
+        </div>
+
+        <div className={styles.coordinates} data-coordinates data-interface aria-label="Engineering domains">
+          <span>AI</span><i>/</i><span>VISION</span><i>/</i><span>FULL-STACK</span>
+          <i>/</i><span>IoT</span><i>/</i><span>MULTIMODAL</span>
+        </div>
+
+        <div className={styles.nameLayer} data-name>
+          <span className={styles.nameRule} data-name-rule aria-hidden="true" />
+          <p className={styles.name} aria-label="Anirudh Shashikumar">
+            <span><i data-name-word>ANIRUDH</i></span>
+            <span><i data-name-word>SHASHIKUMAR</i></span>
+          </p>
+          <p className={styles.nameMeta}>COMPUTER SCIENCE ENGINEERING&nbsp;&nbsp; / &nbsp;&nbsp;BENGALURU, INDIA</p>
+          <span className={styles.nameRule} data-name-rule aria-hidden="true" />
+          <span className={styles.nameScan} data-name-scan aria-hidden="true" />
+        </div>
+
+        <div className={styles.evidenceLayer} data-evidence aria-label="Project evidence">
+          <div className={styles.evidenceSpace}>
+            {evidence.map((item, index) => (
+              <figure
+                className={`${styles.evidencePlane} ${styles[`evidencePlane${index}`]}`}
+                data-evidence-plane
+                key={item.src}
+              >
+                <div className={styles.evidenceFrame}>
+                  <Image
+                    src={item.src}
+                    alt={item.alt}
+                    width={item.width}
+                    height={item.height}
+                    sizes={index === 0 ? "(max-width: 767px) 88vw, 62vw" : "(max-width: 767px) 52vw, 27vw"}
+                  />
+                </div>
+                <figcaption>{item.label}</figcaption>
+              </figure>
+            ))}
+          </div>
+          <div className={styles.projectLockup} data-project-lockup>
+            <span>01 / FLAGSHIP</span>
+            <p>SATQUERY AI</p>
+            <i>EVIDENCE-FIRST GEOSPATIAL INTELLIGENCE</i>
+          </div>
+        </div>
+
+        <div className={styles.scrollCue} data-interface aria-hidden="true">
+          <span />
+          SCROLL / ENTER SYSTEM
         </div>
       </div>
 
-      {/* ── Layer 04: System Identity ── */}
-      <div
-        className={styles.systemIdentity}
-        data-reveal="system"
-        data-hero-system
-      >
-        <span className={styles.systemIndex}>SYSTEM / 00</span>
-        <span className={styles.systemName}>ANIRUDH SHASHIKUMAR</span>
-        <span className={styles.systemMeta}>COMPUTER SCIENCE ENGINEERING</span>
-        <span className={styles.systemLocation}>BENGALURU / INDIA</span>
+      <div className={styles.reducedSequence}>
+        <section aria-label="Engineering direction">
+          <p>ENGINEERING THE<br />NEXT ERA OF<br />INTELLIGENCE.</p>
+        </section>
+        <section aria-label="Identity">
+          <p>ANIRUDH<br />SHASHIKUMAR</p>
+          <span>COMPUTER SCIENCE ENGINEERING / BENGALURU, INDIA</span>
+        </section>
+        <section aria-label="Featured project">
+          <span>01 / FLAGSHIP</span>
+          <p>SATQUERY AI</p>
+        </section>
       </div>
-
-      {/* ── Layer 05: Primary Statement — architectural typography ── */}
-      <div
-        className={styles.statementLayer}
-        data-hero-statement
-        data-reveal="statement"
-      >
-        <h1 id="home-heading" className={styles.statement}>
-          <span className={styles.statementLine}>I BUILD</span>
-          <span className={styles.statementLine}>WHAT I WANT</span>
-          <span className={styles.statementLine}>TO EXIST.</span>
-        </h1>
-      </div>
-
-      {/* ── Layer 06: Thesis (scroll-revealed second state) ── */}
-      <div
-        className={styles.thesisLayer}
-        data-hero-thesis
-        aria-hidden="true"
-      >
-        <p className={styles.thesis}>
-          <span>Engineering the</span>{" "}
-          <span>Next Era of</span>{" "}
-          <span>Intelligence.</span>
-        </p>
-      </div>
-
-      {/* ── Layer 07: Domain coordinates ── */}
-      <div
-        className={styles.coordinates}
-        data-reveal="coordinates"
-        data-hero-coordinates
-        aria-label="Engineering domains"
-      >
-        <span className={styles.coord}>AI</span>
-        <span className={styles.coordSep} aria-hidden="true">/</span>
-        <span className={styles.coord}>VISION</span>
-        <span className={styles.coordSep} aria-hidden="true">/</span>
-        <span className={styles.coord}>FULL-STACK</span>
-        <span className={styles.coordSep} aria-hidden="true">/</span>
-        <span className={styles.coord}>IoT</span>
-        <span className={styles.coordSep} aria-hidden="true">/</span>
-        <span className={styles.coord}>MULTIMODAL</span>
-      </div>
-
-      {/* ── Layer 08: Interaction cues — editorial, not buttons ── */}
-      <div
-        className={styles.interaction}
-        data-reveal="interaction"
-        data-hero-interaction
-      >
-        <a href="#work" className={styles.explore}>
-          <span className={styles.exploreLabel}>EXPLORE</span>
-          <span className={styles.exploreTarget}>WORK</span>
-          <span className={styles.exploreArrow} aria-hidden="true">↓</span>
-        </a>
-        <a href="#lab" className={styles.labLink}>
-          LAB <span aria-hidden="true">↗</span>
-        </a>
-      </div>
-
-      {/* ── Status metadata ── */}
-      <div
-        className={styles.status}
-        data-reveal="status"
-        data-hero-status
-        aria-hidden="true"
-      >
-        <p>STATUS / BUILDING</p>
-        <p>FIELD / INTELLIGENT SYSTEMS</p>
-      </div>
-
-      {/* ── Scroll signal ── */}
-      <a href="#work" className={styles.scrollCue} data-hero-scroll-cue>
-        <span className={styles.scrollLine} aria-hidden="true" />
-        SCROLL
-      </a>
     </section>
   );
 }

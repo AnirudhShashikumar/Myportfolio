@@ -1,5 +1,4 @@
 import SectionField from "@/components/graphics/SectionField";
-import WorkTransition from "@/sections/WorkTransition";
 import AlgaeOSFeature from "./AlgaeOSFeature";
 import DayflowFeature from "./DayflowFeature";
 import GestureGlobeFeature from "./GestureGlobeFeature";
@@ -16,7 +15,6 @@ export default function Work() {
       data-visual-tone="work"
     >
       <SectionField tone="work" />
-      <WorkTransition />
       <SatQueryFeature />
       <GestureGlobeFeature />
       <AlgaeOSFeature />

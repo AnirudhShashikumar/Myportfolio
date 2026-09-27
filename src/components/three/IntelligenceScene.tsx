@@ -1,50 +1,29 @@
-/**
- * IntelligenceScene V2 — Engineering Constellation
- *
- * Full-viewport spatial environment. Not a contained graphic.
- * The constellation extends across and beyond the screen.
- *
- * Architecture:
- * - 6 domain anchor nodes with intentional positions and semantic connections
- * - 14 structural connective nodes — anonymous, mid-tier
- * - 32 peripheral atmosphere nodes — golden-angle distributed, fine signals
- * - Connection graph encodes real domain relationships:
- *   AI↔VISION, AI↔MULTIMODAL, VISION↔REMOTE SENSING,
- *   FULL-STACK↔AI, IoT↔SOFTWARE, MULTIMODAL↔REMOTE SENSING
- * - Idle: multi-frequency drift + breathing (no obvious loop)
- * - Pointer: damped tilt, restrained
- * - Reduced motion: immediate static resolve
- */
-
 "use client";
 
 import { useFrame } from "@react-three/fiber";
-import { useRef, type RefObject } from "react";
+import { useMemo, useRef, type RefObject } from "react";
 import {
+  BufferAttribute,
   Group,
-  MathUtils,
-  PointsMaterial,
   LineBasicMaterial,
+  MathUtils,
+  MeshBasicMaterial,
+  PointsMaterial,
 } from "three";
-
-// ─── Types ──────────────────────────────────────────────────────────────────
+import type { OpeningMotion } from "./IntelligenceField";
 
 type NodeDef = {
   position: [number, number, number];
-  /** 0 = peripheral, 1 = structural, 2 = domain anchor */
   tier: 0 | 1 | 2;
   domain?: string;
 };
 
 type IntelligenceSceneProps = {
   pointer: RefObject<{ x: number; y: number }>;
+  motion: RefObject<OpeningMotion>;
   reducedMotion: boolean;
+  isMobile: boolean;
 };
-
-// ─── Domain anchor nodes ─────────────────────────────────────────────────────
-// Wider distribution for full-viewport composition.
-// Positions chosen so the network reads as a spatial environment, not a diagram.
-// Z-depth creates parallax feel even in orthographic-like view.
 
 const DOMAIN_NODES: NodeDef[] = [
   { position: [-1.6, 2.1, 0.4], tier: 2, domain: "AI" },
@@ -55,9 +34,6 @@ const DOMAIN_NODES: NodeDef[] = [
   { position: [-0.8, -2.2, 0.5], tier: 2, domain: "MULTIMODAL" },
 ];
 
-// ─── Structural nodes ────────────────────────────────────────────────────────
-// Connective tissue between domain anchors. Anonymous but visible.
-
 const STRUCTURAL_NODES: NodeDef[] = [
   { position: [0.3, 1.7, 0.15], tier: 1 },
   { position: [-0.9, 1.1, -0.2], tier: 1 },
@@ -67,27 +43,23 @@ const STRUCTURAL_NODES: NodeDef[] = [
   { position: [-0.5, -0.8, -0.15], tier: 1 },
   { position: [1.1, -1.1, 0.25], tier: 1 },
   { position: [-1.8, -1.4, 0.1], tier: 1 },
-  { position: [0.0, 0.3, 0.55], tier: 1 },
-  { position: [2.0, -0.2, -0.35], tier: 1 },
-  { position: [-0.3, 2.0, 0.2], tier: 1 },
+  { position: [0, 0.3, 0.55], tier: 1 },
+  { position: [2, -0.2, -0.35], tier: 1 },
+  { position: [-0.3, 2, 0.2], tier: 1 },
   { position: [0.8, 1.2, -0.6], tier: 1 },
   { position: [-1.2, -0.5, 0.45], tier: 1 },
   { position: [0.5, -1.5, -0.2], tier: 1 },
 ];
 
-// ─── Peripheral atmosphere nodes ─────────────────────────────────────────────
-// Fine background signals spread widely. Golden angle for even coverage.
-
-const PERIPHERAL_COUNT = 32;
 const peripheralPositions: [number, number, number][] = Array.from(
-  { length: PERIPHERAL_COUNT },
-  (_, i) => {
-    const phi = i * 2.39996; // golden angle
-    const r = 2.6 + (i % 7) * 0.35;
+  { length: 32 },
+  (_, index) => {
+    const phi = index * 2.39996;
+    const radius = 2.6 + (index % 7) * 0.35;
     return [
-      Math.cos(phi) * r * 1.2,
-      Math.sin(phi) * r * 0.95,
-      (((i * 13) % 17) - 8) * 0.15,
+      Math.cos(phi) * radius * 1.2,
+      Math.sin(phi) * radius * 0.95,
+      (((index * 13) % 17) - 8) * 0.15,
     ];
   },
 );
@@ -97,38 +69,26 @@ const PERIPHERAL_NODES: NodeDef[] = peripheralPositions.map((position) => ({
   tier: 0,
 }));
 
-// ─── Connection graph ────────────────────────────────────────────────────────
-// Two kinds of connections:
-// 1. Semantic: intentional domain↔domain links reflecting real relationships
-// 2. Structural: proximity-based bridging through structural nodes
-
-function dist(a: [number, number, number], b: [number, number, number]) {
-  return Math.sqrt(
-    (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2 + (a[2] - b[2]) ** 2,
-  );
+function distance(a: [number, number, number], b: [number, number, number]) {
+  return Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
 }
 
 function nearestOf(
   source: [number, number, number],
   candidates: NodeDef[],
   maxCount: number,
-  maxDist: number,
-): NodeDef[] {
+  maxDistance: number,
+) {
   return candidates
-    .filter((c) => dist(source, c.position) < maxDist)
-    .sort((a, b) => dist(source, a.position) - dist(source, b.position))
+    .filter((candidate) => distance(source, candidate.position) < maxDistance)
+    .sort((a, b) => distance(source, a.position) - distance(source, b.position))
     .slice(0, maxCount);
 }
 
-const edgeList: number[] = [];
-
-// ── Semantic domain↔domain connections ───────────────────────────────────────
-// These encode real relationships, not random proximity.
-const DOMAIN_MAP = Object.fromEntries(
-  DOMAIN_NODES.map((n) => [n.domain!, n.position]),
+const domainMap = Object.fromEntries(
+  DOMAIN_NODES.map((node) => [node.domain!, node.position]),
 );
-
-const SEMANTIC_LINKS: [string, string][] = [
+const semanticLinks: [string, string][] = [
   ["AI", "VISION"],
   ["AI", "MULTIMODAL"],
   ["VISION", "REMOTE SENSING"],
@@ -136,187 +96,202 @@ const SEMANTIC_LINKS: [string, string][] = [
   ["IoT", "FULL-STACK"],
   ["MULTIMODAL", "REMOTE SENSING"],
 ];
+const edges: number[] = [];
 
-for (const [a, b] of SEMANTIC_LINKS) {
-  edgeList.push(...DOMAIN_MAP[a], ...DOMAIN_MAP[b]);
+for (const [from, to] of semanticLinks) {
+  edges.push(...domainMap[from], ...domainMap[to]);
 }
-
-// ── Domain → 2 nearest structural nodes ──────────────────────────────────────
-for (const dn of DOMAIN_NODES) {
-  for (const sn of nearestOf(dn.position, STRUCTURAL_NODES, 2, 3.0)) {
-    edgeList.push(...dn.position, ...sn.position);
+for (const domain of DOMAIN_NODES) {
+  for (const structural of nearestOf(domain.position, STRUCTURAL_NODES, 2, 3)) {
+    edges.push(...domain.position, ...structural.position);
+  }
+}
+for (let index = 0; index < STRUCTURAL_NODES.length; index += 1) {
+  const source = STRUCTURAL_NODES[index];
+  for (const target of nearestOf(source.position, STRUCTURAL_NODES.slice(index + 1), 1, 1.6)) {
+    edges.push(...source.position, ...target.position);
+  }
+}
+for (const peripheral of PERIPHERAL_NODES) {
+  for (const structural of nearestOf(peripheral.position, STRUCTURAL_NODES, 1, 3.5)) {
+    edges.push(...peripheral.position, ...structural.position);
   }
 }
 
-// ── Structural cross-links ───────────────────────────────────────────────────
-for (let i = 0; i < STRUCTURAL_NODES.length; i++) {
-  const a = STRUCTURAL_NODES[i];
-  for (const b of nearestOf(a.position, STRUCTURAL_NODES.slice(i + 1), 1, 1.6)) {
-    edgeList.push(...a.position, ...b.position);
+function toFloat32(nodes: NodeDef[]) {
+  return new Float32Array(nodes.flatMap((node) => node.position));
+}
+
+function scatterFrom(finalPositions: Float32Array, salt: number) {
+  const scattered = new Float32Array(finalPositions.length);
+  for (let index = 0; index < finalPositions.length; index += 3) {
+    const seed = index / 3 + salt;
+    scattered[index] = Math.sin(seed * 12.9898) * 5.8;
+    scattered[index + 1] = Math.cos(seed * 7.113) * 3.8;
+    scattered[index + 2] = -5.5 + ((seed * 17.17) % 6.5);
   }
+  return scattered;
 }
 
-// ── Peripheral → nearest structural ──────────────────────────────────────────
-for (const pn of PERIPHERAL_NODES) {
-  for (const sn of nearestOf(pn.position, STRUCTURAL_NODES, 1, 3.5)) {
-    edgeList.push(...pn.position, ...sn.position);
+const DOMAIN_FINAL = toFloat32(DOMAIN_NODES);
+const STRUCTURAL_FINAL = toFloat32(STRUCTURAL_NODES);
+const PERIPHERAL_FINAL = toFloat32(PERIPHERAL_NODES);
+const LINE_FINAL = new Float32Array(edges);
+const DOMAIN_SCATTER = scatterFrom(DOMAIN_FINAL, 2);
+const STRUCTURAL_SCATTER = scatterFrom(STRUCTURAL_FINAL, 17);
+const PERIPHERAL_SCATTER = scatterFrom(PERIPHERAL_FINAL, 31);
+const LINE_SCATTER = scatterFrom(LINE_FINAL, 47);
+
+function smoothstep(start: number, end: number, value: number) {
+  const progress = MathUtils.clamp((value - start) / (end - start), 0, 1);
+  return progress * progress * (3 - 2 * progress);
+}
+
+function updatePositions(
+  attribute: BufferAttribute | null,
+  finalPositions: Float32Array,
+  scatteredPositions: Float32Array,
+  intro: number,
+  scroll: number,
+) {
+  if (!attribute) return;
+
+  const formation = smoothstep(0.08, 0.9, intro);
+  const collapseIn = smoothstep(0.39, 0.61, scroll);
+  const collapseOut = smoothstep(0.75, 0.94, scroll);
+  const collapse = collapseIn * (1 - collapseOut);
+  const evidenceExpansion = smoothstep(0.77, 1, scroll);
+  const positions = attribute.array as Float32Array;
+
+  for (let index = 0; index < positions.length; index += 3) {
+    const baseX = MathUtils.lerp(scatteredPositions[index], finalPositions[index], formation);
+    const baseY = MathUtils.lerp(scatteredPositions[index + 1], finalPositions[index + 1], formation);
+    const baseZ = MathUtils.lerp(scatteredPositions[index + 2], finalPositions[index + 2], formation);
+    const axisX = baseX * 0.055;
+    const axisY = baseY * 0.58;
+    const axisZ = baseZ * 1.9;
+    const expandedX = baseX * 1.34;
+    const expandedY = baseY * 1.08;
+    const expandedZ = baseZ - evidenceExpansion * 1.25;
+
+    positions[index] = MathUtils.lerp(MathUtils.lerp(baseX, axisX, collapse), expandedX, evidenceExpansion);
+    positions[index + 1] = MathUtils.lerp(MathUtils.lerp(baseY, axisY, collapse), expandedY, evidenceExpansion);
+    positions[index + 2] = MathUtils.lerp(MathUtils.lerp(baseZ, axisZ, collapse), expandedZ, evidenceExpansion);
   }
+  attribute.needsUpdate = true;
 }
-
-// ─── Buffer arrays (static, module level) ────────────────────────────────────
-
-function toFloat32(nodes: NodeDef[]): Float32Array {
-  return new Float32Array(nodes.flatMap((n) => n.position));
-}
-
-const DOMAIN_POSITIONS = toFloat32(DOMAIN_NODES);
-const STRUCTURAL_POSITIONS = toFloat32(STRUCTURAL_NODES);
-const PERIPHERAL_POSITIONS = toFloat32(PERIPHERAL_NODES);
-const LINE_POSITIONS = new Float32Array(edgeList);
-
-// ─── Component ──────────────────────────────────────────────────────────────
 
 export default function IntelligenceScene({
   pointer,
+  motion,
   reducedMotion,
+  isMobile,
 }: IntelligenceSceneProps) {
   const group = useRef<Group>(null);
-  const domainMat = useRef<PointsMaterial>(null);
-  const structuralMat = useRef<PointsMaterial>(null);
-  const peripheralMat = useRef<PointsMaterial>(null);
-  const lineMat = useRef<LineBasicMaterial>(null);
+  const signal = useRef<Group>(null);
+  const signalMaterial = useRef<MeshBasicMaterial>(null);
+  const ringMaterial = useRef<MeshBasicMaterial>(null);
+  const domainMaterial = useRef<PointsMaterial>(null);
+  const structuralMaterial = useRef<PointsMaterial>(null);
+  const peripheralMaterial = useRef<PointsMaterial>(null);
+  const lineMaterial = useRef<LineBasicMaterial>(null);
+  const domainAttribute = useRef<BufferAttribute>(null);
+  const structuralAttribute = useRef<BufferAttribute>(null);
+  const peripheralAttribute = useRef<BufferAttribute>(null);
+  const lineAttribute = useRef<BufferAttribute>(null);
+
+  const domainPositions = useMemo(() => new Float32Array(DOMAIN_FINAL), []);
+  const structuralPositions = useMemo(() => new Float32Array(STRUCTURAL_FINAL), []);
+  const peripheralPositionsBuffer = useMemo(() => new Float32Array(PERIPHERAL_FINAL), []);
+  const linePositions = useMemo(() => new Float32Array(LINE_FINAL), []);
 
   useFrame(({ clock }, delta) => {
     if (!group.current) return;
 
-    const t = clock.getElapsedTime();
-    const px = pointer.current.x;
-    const py = pointer.current.y;
+    const elapsed = clock.getElapsedTime();
+    const intro = reducedMotion ? 1 : motion.current.intro;
+    const scroll = reducedMotion ? 0 : motion.current.scroll;
+    const formation = smoothstep(0.08, 0.9, intro);
+    const collapse = smoothstep(0.4, 0.62, scroll) * (1 - smoothstep(0.74, 0.92, scroll));
+    const evidence = smoothstep(0.76, 1, scroll);
 
-    if (reducedMotion) {
-      group.current.rotation.x = 0;
-      group.current.rotation.y = 0;
-      group.current.position.y = 0;
-      return;
+    updatePositions(domainAttribute.current, DOMAIN_FINAL, DOMAIN_SCATTER, intro, scroll);
+    updatePositions(structuralAttribute.current, STRUCTURAL_FINAL, STRUCTURAL_SCATTER, intro, scroll);
+    updatePositions(peripheralAttribute.current, PERIPHERAL_FINAL, PERIPHERAL_SCATTER, intro, scroll);
+    updatePositions(lineAttribute.current, LINE_FINAL, LINE_SCATTER, intro, scroll);
+
+    const pointerScale = isMobile || reducedMotion ? 0 : 1;
+    const targetX = pointer.current.y * -0.045 * pointerScale;
+    const targetY = pointer.current.x * 0.07 * pointerScale;
+    group.current.rotation.x = MathUtils.damp(group.current.rotation.x, targetX, 1.5, delta);
+    group.current.rotation.y = MathUtils.damp(group.current.rotation.y, targetY + scroll * 0.08, 1.5, delta);
+    group.current.position.x = reducedMotion ? 0 : Math.sin(elapsed * 0.07) * 0.012;
+    group.current.position.y = reducedMotion ? 0 : Math.sin(elapsed * 0.1) * 0.022;
+    group.current.position.z = MathUtils.lerp(0, -0.8, evidence);
+    const scale = 1 - collapse * 0.08 + evidence * 0.1;
+    group.current.scale.setScalar(scale);
+
+    if (signal.current && signalMaterial.current && ringMaterial.current) {
+      const firstSignal = smoothstep(0.03, 0.2, intro) * (1 - smoothstep(0.42, 0.63, intro));
+      signal.current.visible = firstSignal > 0.001;
+      signal.current.scale.setScalar(0.7 + smoothstep(0.05, 0.42, intro) * 2.1);
+      signalMaterial.current.opacity = firstSignal;
+      ringMaterial.current.opacity = firstSignal * 0.32;
     }
 
-    // ── Damped pointer tilt ──────────────────────────────────────────────────
-    const targetRx = py * -0.055 + Math.sin(t * 0.08) * 0.015;
-    const targetRy = px * 0.085 + Math.sin(t * 0.06) * 0.018;
-
-    group.current.rotation.x = MathUtils.damp(
-      group.current.rotation.x,
-      targetRx,
-      1.2,
-      delta,
-    );
-    group.current.rotation.y = MathUtils.damp(
-      group.current.rotation.y,
-      targetRy,
-      1.2,
-      delta,
-    );
-
-    // ── Slow spatial drift ───────────────────────────────────────────────────
-    group.current.position.y = Math.sin(t * 0.11) * 0.03;
-    group.current.position.x = Math.sin(t * 0.07) * 0.015;
-
-    // ── Domain node breathing ────────────────────────────────────────────────
-    if (domainMat.current) {
-      domainMat.current.opacity =
-        0.82 + Math.sin(t * 0.38) * 0.04 + Math.sin(t * 0.15) * 0.025;
+    if (domainMaterial.current) {
+      domainMaterial.current.opacity = formation * (0.8 - collapse * 0.3 - evidence * 0.28);
     }
-
-    // ── Structural node breathing ────────────────────────────────────────────
-    if (structuralMat.current) {
-      structuralMat.current.opacity =
-        0.55 + Math.sin(t * 0.24) * 0.04 + Math.sin(t * 0.43) * 0.02;
+    if (structuralMaterial.current) {
+      structuralMaterial.current.opacity = formation * (0.5 - collapse * 0.28 - evidence * 0.2);
     }
-
-    // ── Line intensity ───────────────────────────────────────────────────────
-    if (lineMat.current) {
-      lineMat.current.opacity =
-        0.12 + Math.sin(t * 0.22) * 0.02 + Math.sin(t * 0.09) * 0.01;
+    if (peripheralMaterial.current) {
+      peripheralMaterial.current.opacity = formation * (0.3 - collapse * 0.23 - evidence * 0.12);
     }
-
-    // ── Peripheral breathing ─────────────────────────────────────────────────
-    if (peripheralMat.current) {
-      peripheralMat.current.opacity =
-        0.38 + Math.sin(t * 0.18) * 0.05 + Math.sin(t * 0.31) * 0.025;
+    if (lineMaterial.current) {
+      lineMaterial.current.opacity = formation * (0.13 - collapse * 0.1 - evidence * 0.08);
     }
   });
 
   return (
     <group ref={group}>
-      {/* ── Connection lines ── sparse, structural, semantic */}
+      <group ref={signal} position={DOMAIN_NODES[0].position}>
+        <mesh>
+          <sphereGeometry args={[0.045, 12, 12]} />
+          <meshBasicMaterial ref={signalMaterial} color="#def7ff" transparent depthWrite={false} />
+        </mesh>
+        <mesh>
+          <ringGeometry args={[0.11, 0.12, 32]} />
+          <meshBasicMaterial ref={ringMaterial} color="#8fd9ef" transparent depthWrite={false} />
+        </mesh>
+      </group>
+
       <lineSegments>
         <bufferGeometry>
-          <bufferAttribute attach="attributes-position" args={[LINE_POSITIONS, 3]} />
+          <bufferAttribute ref={lineAttribute} attach="attributes-position" args={[linePositions, 3]} />
         </bufferGeometry>
-        <lineBasicMaterial
-          ref={lineMat}
-          color="#5a94b2"
-          transparent
-          opacity={0.12}
-          depthWrite={false}
-        />
+        <lineBasicMaterial ref={lineMaterial} color="#5a94b2" transparent opacity={0} depthWrite={false} />
       </lineSegments>
 
-      {/* ── Peripheral nodes ── fine atmospheric signals */}
       <points>
         <bufferGeometry>
-          <bufferAttribute
-            attach="attributes-position"
-            args={[PERIPHERAL_POSITIONS, 3]}
-          />
+          <bufferAttribute ref={peripheralAttribute} attach="attributes-position" args={[peripheralPositionsBuffer, 3]} />
         </bufferGeometry>
-        <pointsMaterial
-          ref={peripheralMat}
-          color="#6a9bb2"
-          size={0.03}
-          sizeAttenuation
-          transparent
-          opacity={0.38}
-          depthWrite={false}
-        />
+        <pointsMaterial ref={peripheralMaterial} color="#6a9bb2" size={isMobile ? 0.026 : 0.03} sizeAttenuation transparent opacity={0} depthWrite={false} />
       </points>
 
-      {/* ── Structural nodes ── visible connective tissue */}
       <points>
         <bufferGeometry>
-          <bufferAttribute
-            attach="attributes-position"
-            args={[STRUCTURAL_POSITIONS, 3]}
-          />
+          <bufferAttribute ref={structuralAttribute} attach="attributes-position" args={[structuralPositions, 3]} />
         </bufferGeometry>
-        <pointsMaterial
-          ref={structuralMat}
-          color="#9fc8de"
-          size={0.05}
-          sizeAttenuation
-          transparent
-          opacity={0.55}
-          depthWrite={false}
-        />
+        <pointsMaterial ref={structuralMaterial} color="#9fc8de" size={isMobile ? 0.042 : 0.05} sizeAttenuation transparent opacity={0} depthWrite={false} />
       </points>
 
-      {/* ── Domain anchor nodes ── major signals */}
       <points>
         <bufferGeometry>
-          <bufferAttribute
-            attach="attributes-position"
-            args={[DOMAIN_POSITIONS, 3]}
-          />
+          <bufferAttribute ref={domainAttribute} attach="attributes-position" args={[domainPositions, 3]} />
         </bufferGeometry>
-        <pointsMaterial
-          ref={domainMat}
-          color="#d4eaf5"
-          size={0.085}
-          sizeAttenuation
-          transparent
-          opacity={0.82}
-          depthWrite={false}
-        />
+        <pointsMaterial ref={domainMaterial} color="#d4eaf5" size={isMobile ? 0.07 : 0.085} sizeAttenuation transparent opacity={0} depthWrite={false} />
       </points>
     </group>
   );

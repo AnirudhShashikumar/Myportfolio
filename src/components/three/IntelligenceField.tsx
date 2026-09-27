@@ -6,8 +6,15 @@ import IntelligenceScene from "./IntelligenceScene";
 
 type IntelligenceFieldProps = {
   pointer: RefObject<{ x: number; y: number }>;
+  motion: RefObject<OpeningMotion>;
   reducedMotion: boolean;
   isMobile: boolean;
+  active: boolean;
+};
+
+export type OpeningMotion = {
+  intro: number;
+  scroll: number;
 };
 
 class FieldErrorBoundary extends Component<
@@ -27,8 +34,10 @@ class FieldErrorBoundary extends Component<
 
 export default function IntelligenceField({
   pointer,
+  motion,
   reducedMotion,
   isMobile,
+  active,
 }: IntelligenceFieldProps) {
   return (
     <FieldErrorBoundary>
@@ -36,12 +45,17 @@ export default function IntelligenceField({
         aria-hidden="true"
         tabIndex={-1}
         dpr={isMobile ? 1 : [1, 1.5]}
-        frameloop={reducedMotion ? "demand" : "always"}
+        frameloop={reducedMotion || !active ? "demand" : "always"}
         camera={{ position: [0, 0, 8], fov: 52, near: 0.1, far: 30 }}
         gl={{ alpha: true, antialias: true, powerPreference: "low-power" }}
         fallback={null}
       >
-        <IntelligenceScene pointer={pointer} reducedMotion={reducedMotion} />
+        <IntelligenceScene
+          pointer={pointer}
+          motion={motion}
+          reducedMotion={reducedMotion}
+          isMobile={isMobile}
+        />
       </Canvas>
     </FieldErrorBoundary>
   );
