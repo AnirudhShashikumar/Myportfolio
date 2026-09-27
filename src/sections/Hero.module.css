@@ -48,6 +48,24 @@
   pointer-events: none;
 }
 
+.constellationField::before {
+  position: absolute;
+  inset: 12% 8%;
+  background:
+    radial-gradient(circle at 18% 31%, rgb(199 233 245 / 70%) 0 1px, transparent 2px),
+    radial-gradient(circle at 38% 19%, rgb(148 198 219 / 58%) 0 1px, transparent 2px),
+    radial-gradient(circle at 62% 34%, rgb(196 230 242 / 66%) 0 1px, transparent 2px),
+    radial-gradient(circle at 79% 23%, rgb(126 181 204 / 54%) 0 1px, transparent 2px),
+    radial-gradient(circle at 28% 68%, rgb(147 199 219 / 58%) 0 1px, transparent 2px),
+    radial-gradient(circle at 54% 58%, rgb(205 237 247 / 72%) 0 1px, transparent 2px),
+    radial-gradient(circle at 73% 72%, rgb(147 199 219 / 58%) 0 1px, transparent 2px),
+    linear-gradient(24deg, transparent 47%, rgb(125 183 207 / 7%) 47.1% 47.2%, transparent 47.3%),
+    linear-gradient(-19deg, transparent 52%, rgb(125 183 207 / 7%) 52.1% 52.2%, transparent 52.3%);
+  content: "";
+  mask-image: radial-gradient(ellipse at center, black 10%, transparent 76%);
+  opacity: 0.12;
+}
+
 .spatialMarks {
   z-index: 2;
   color: rgb(135 176 196 / 38%);
@@ -601,6 +619,14 @@
     opacity: 1 !important;
     transform: none !important;
     clip-path: none !important;
+  }
+
+  .philosophy {
+    font-size: clamp(2.75rem, 11.4vw, 8rem);
+  }
+
+  .constellationField::before {
+    opacity: 0.62;
   }
 
   .introSignal::after {

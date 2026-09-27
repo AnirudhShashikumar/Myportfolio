@@ -68,6 +68,10 @@ section[id] {
   scroll-margin-top: 8rem;
 }
 
+#work {
+  scroll-margin-top: 0;
+}
+
 .visual-section {
   position: relative;
   isolation: isolate;

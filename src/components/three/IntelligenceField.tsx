@@ -1,7 +1,12 @@
 "use client";
 
 import { Canvas } from "@react-three/fiber";
-import { Component, type ReactNode, type RefObject } from "react";
+import {
+  Component,
+  useState,
+  type ReactNode,
+  type RefObject,
+} from "react";
 import IntelligenceScene from "./IntelligenceScene";
 
 type IntelligenceFieldProps = {
@@ -39,6 +44,18 @@ export default function IntelligenceField({
   isMobile,
   active,
 }: IntelligenceFieldProps) {
+  const [webglAvailable] = useState(() => {
+    try {
+      const canvas = document.createElement("canvas");
+      const context = canvas.getContext("webgl2") ?? canvas.getContext("webgl");
+      return Boolean(context);
+    } catch {
+      return false;
+    }
+  });
+
+  if (!webglAvailable) return null;
+
   return (
     <FieldErrorBoundary>
       <Canvas
