@@ -267,23 +267,23 @@ export default function Hero() {
           yPercent: -16,
           scaleX: 0.84,
           autoAlpha: 0,
-          duration: 0.13,
+          duration: 0.075,
         }, 0.14)
         .to(philosophyLines[1], {
           scaleX: 0.64,
           letterSpacing: "-0.105em",
           autoAlpha: 0,
-          duration: 0.13,
-        }, 0.15)
+          duration: 0.075,
+        }, 0.145)
         .to(philosophyLines[2], {
           xPercent: 6,
           yPercent: 16,
           scaleX: 0.84,
           autoAlpha: 0,
-          duration: 0.13,
+          duration: 0.075,
         }, 0.14)
-        .to(philosophy, { scale: 0.97, duration: 0.13 }, 0.14)
-        .set(thesis, { autoAlpha: 1 }, 0.205)
+        .to(philosophy, { scale: 0.97, duration: 0.08 }, 0.14)
+        .set(thesis, { autoAlpha: 1 }, 0.22)
         .to(thesisLines, {
           opacity: 1,
           y: 0,
@@ -291,8 +291,8 @@ export default function Hero() {
           letterSpacing: "-0.068em",
           stagger: 0.018,
           duration: 0.125,
-        }, 0.205)
-        .to(coordinates, { autoAlpha: 0.72, duration: 0.1 }, 0.25)
+        }, 0.22)
+        .to(coordinates, { autoAlpha: 0.72, duration: 0.1 }, 0.265)
         // THESIS → SILENCE: compression, never sliced typography.
         .to(thesisLines, {
           opacity: 0,
@@ -323,37 +323,43 @@ export default function Hero() {
         .to(silence, { autoAlpha: 0, duration: 0.025 }, 0.655)
         .to(scan, { autoAlpha: 0, duration: 0.035 }, 0.715)
         // IDENTITY → EVIDENCE: the name becomes architecture first.
-        .to(name, { scale: 1.045, autoAlpha: 0.08, duration: 0.1 }, 0.82)
-        .to(nameMeta, { autoAlpha: 0, y: -4, duration: 0.06 }, 0.82)
-        .to(nameRules, { autoAlpha: 0.16, scaleX: 0.72, duration: 0.08 }, 0.82)
-        .set(evidenceLayer, { autoAlpha: 1 }, 0.82)
+        .to(name, { scale: 1.035, autoAlpha: 0.03, duration: 0.065 }, 0.8)
+        .to(nameMeta, { autoAlpha: 0, y: -4, duration: 0.04 }, 0.8)
+        .to(nameRules, { autoAlpha: 0.1, scaleX: 0.72, duration: 0.06 }, 0.8)
+        .set(evidenceLayer, { autoAlpha: 1 }, 0.8)
         .fromTo(evidencePlanes[3],
           { xPercent: 92, yPercent: -42, z: -1050, rotateY: -18, autoAlpha: 0 },
-          { xPercent: 38, yPercent: -26, z: -520, rotateY: -10, autoAlpha: 0.1, duration: 0.12 },
-          0.83,
+          { xPercent: 38, yPercent: -26, z: -520, rotateY: -10, autoAlpha: 0.06, duration: 0.115 },
+          0.81,
         )
         .fromTo(evidencePlanes[2],
           { xPercent: -90, yPercent: 38, z: -980, rotateY: 18, autoAlpha: 0 },
-          { xPercent: -38, yPercent: 24, z: -450, rotateY: 10, autoAlpha: 0.14, duration: 0.12 },
-          0.84,
+          { xPercent: -38, yPercent: 24, z: -450, rotateY: 10, autoAlpha: 0.08, duration: 0.115 },
+          0.82,
         )
         .fromTo(evidencePlanes[1],
           { xPercent: 76, yPercent: 54, z: -820, rotateY: -15, autoAlpha: 0 },
-          { xPercent: 26, yPercent: 30, z: -340, rotateY: -7, autoAlpha: 0.22, duration: 0.12 },
-          0.85,
+          { xPercent: 26, yPercent: 30, z: -340, rotateY: -7, autoAlpha: 0.12, duration: 0.115 },
+          0.83,
         )
         .fromTo(evidencePlanes[0],
-          { xPercent: -12, yPercent: 15, z: -1100, scale: 0.34, autoAlpha: 0 },
-          { xPercent: 0, yPercent: -6, z: 0, scale: 1, autoAlpha: 1, duration: 0.14 },
-          0.86,
+          {
+            xPercent: isMobile ? -8 : -12,
+            yPercent: 15,
+            z: isMobile ? -520 : -1100,
+            scale: isMobile ? 0.58 : 0.34,
+            autoAlpha: 0,
+          },
+          { xPercent: 0, yPercent: -6, z: 0, scale: 1, autoAlpha: 1, duration: 0.135 },
+          0.825,
         )
         .to([evidencePlanes[1], evidencePlanes[2], evidencePlanes[3]], {
           autoAlpha: 0,
           z: -720,
           duration: 0.055,
         }, 0.935)
-        .to(name, { autoAlpha: 0, duration: 0.05 }, 0.92)
-        .to(projectLockup, { autoAlpha: 1, y: 0, duration: 0.065 }, 0.925);
+        .to(name, { autoAlpha: 0, duration: 0.04 }, 0.9)
+        .to(projectLockup, { autoAlpha: 1, y: 0, duration: 0.065 }, 0.915);
     }, root);
 
     return () => context.revert();
