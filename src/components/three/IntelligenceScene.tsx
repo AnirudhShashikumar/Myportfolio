@@ -157,10 +157,10 @@ function updatePositions(
   if (!attribute) return;
 
   const formation = smoothstep(0.08, 0.9, intro);
-  const collapseIn = smoothstep(0.39, 0.61, scroll);
-  const collapseOut = smoothstep(0.75, 0.94, scroll);
+  const collapseIn = smoothstep(0.46, 0.59, scroll);
+  const collapseOut = smoothstep(0.82, 0.95, scroll);
   const collapse = collapseIn * (1 - collapseOut);
-  const evidenceExpansion = smoothstep(0.77, 1, scroll);
+  const evidenceExpansion = smoothstep(0.82, 1, scroll);
   const positions = attribute.array as Float32Array;
 
   for (let index = 0; index < positions.length; index += 3) {
@@ -212,8 +212,8 @@ export default function IntelligenceScene({
     const intro = reducedMotion ? 1 : motion.current.intro;
     const scroll = reducedMotion ? 0 : motion.current.scroll;
     const formation = smoothstep(0.08, 0.9, intro);
-    const collapse = smoothstep(0.4, 0.62, scroll) * (1 - smoothstep(0.74, 0.92, scroll));
-    const evidence = smoothstep(0.76, 1, scroll);
+    const collapse = smoothstep(0.46, 0.59, scroll) * (1 - smoothstep(0.82, 0.95, scroll));
+    const evidence = smoothstep(0.82, 1, scroll);
 
     updatePositions(domainAttribute.current, DOMAIN_FINAL, DOMAIN_SCATTER, intro, scroll);
     updatePositions(structuralAttribute.current, STRUCTURAL_FINAL, STRUCTURAL_SCATTER, intro, scroll);
@@ -240,16 +240,16 @@ export default function IntelligenceScene({
     }
 
     if (domainMaterial.current) {
-      domainMaterial.current.opacity = formation * (0.8 - collapse * 0.3 - evidence * 0.28);
+      domainMaterial.current.opacity = formation * (0.8 - collapse * 0.5 - evidence * 0.22);
     }
     if (structuralMaterial.current) {
-      structuralMaterial.current.opacity = formation * (0.5 - collapse * 0.28 - evidence * 0.2);
+      structuralMaterial.current.opacity = formation * (0.5 - collapse * 0.38 - evidence * 0.17);
     }
     if (peripheralMaterial.current) {
-      peripheralMaterial.current.opacity = formation * (0.3 - collapse * 0.23 - evidence * 0.12);
+      peripheralMaterial.current.opacity = formation * (0.3 - collapse * 0.26 - evidence * 0.12);
     }
     if (lineMaterial.current) {
-      lineMaterial.current.opacity = formation * (0.13 - collapse * 0.1 - evidence * 0.08);
+      lineMaterial.current.opacity = formation * (0.13 - collapse * 0.105 - evidence * 0.075);
     }
   });
 

@@ -196,11 +196,17 @@ export default function Hero() {
     gsap.registerPlugin(ScrollTrigger);
     const context = gsap.context(() => {
       const philosophy = root.querySelector<HTMLElement>("[data-philosophy]");
+      const philosophyLines = root.querySelectorAll<HTMLElement>("[data-philosophy-line]");
       const thesis = root.querySelector<HTMLElement>("[data-thesis]");
       const thesisLines = root.querySelectorAll<HTMLElement>("[data-thesis-line]");
       const coordinates = root.querySelector<HTMLElement>("[data-coordinates]");
+      const silence = root.querySelector<HTMLElement>("[data-silence]");
+      const silenceAxis = root.querySelector<HTMLElement>("[data-silence-axis]");
+      const silenceDot = root.querySelector<HTMLElement>("[data-silence-dot]");
+      const silenceMeta = root.querySelector<HTMLElement>("[data-silence-meta]");
       const name = root.querySelector<HTMLElement>("[data-name]");
       const nameWords = root.querySelectorAll<HTMLElement>("[data-name-word]");
+      const nameMeta = root.querySelector<HTMLElement>("[data-name-meta]");
       const nameRules = root.querySelectorAll<HTMLElement>("[data-name-rule]");
       const scan = root.querySelector<HTMLElement>("[data-name-scan]");
       const evidenceLayer = root.querySelector<HTMLElement>("[data-evidence]");
@@ -208,14 +214,30 @@ export default function Hero() {
       const projectLockup = root.querySelector<HTMLElement>("[data-project-lockup]");
       const interfaceNodes = root.querySelectorAll<HTMLElement>("[data-interface]");
 
-      if (!philosophy || !thesis || !coordinates || !name || !scan || !evidenceLayer || !projectLockup) return;
+      if (!philosophy || !thesis || !coordinates || !silence || !silenceAxis || !silenceDot || !silenceMeta || !name || !nameMeta || !scan || !evidenceLayer || !projectLockup) return;
 
       gsap.set(thesis, { autoAlpha: 0 });
-      gsap.set(thesisLines, { yPercent: 115 });
+      gsap.set(thesisLines, {
+        opacity: 0,
+        y: 12,
+        scaleX: 0.72,
+        letterSpacing: "-0.11em",
+        transformOrigin: "center center",
+      });
+      gsap.set(silence, { autoAlpha: 0 });
+      gsap.set(silenceAxis, { scaleY: 0, transformOrigin: "center center" });
+      gsap.set(silenceDot, { scale: 0, autoAlpha: 0 });
+      gsap.set(silenceMeta, { autoAlpha: 0, y: 8 });
       gsap.set(name, { autoAlpha: 0 });
-      gsap.set(nameWords, { yPercent: 120, rotateX: -20 });
+      gsap.set(nameWords, {
+        clipPath: "inset(0% 50% 0% 50%)",
+        scaleX: 0.12,
+        letterSpacing: "0.08em",
+        transformOrigin: "center center",
+      });
+      gsap.set(nameMeta, { autoAlpha: 0, y: 6 });
       gsap.set(nameRules, { scaleX: 0 });
-      gsap.set(scan, { xPercent: -130, autoAlpha: 0 });
+      gsap.set(scan, { scaleY: 0, autoAlpha: 0, transformOrigin: "center center" });
       gsap.set(evidenceLayer, { autoAlpha: 0 });
       gsap.set(projectLockup, { autoAlpha: 0, y: 18 });
       gsap.set(evidencePlanes, { autoAlpha: 0 });
@@ -240,58 +262,102 @@ export default function Hero() {
 
       timeline
         .to(timelineClock, { value: 1, duration: 1 }, 0)
-        .to(interfaceNodes, { autoAlpha: 0, duration: 0.09 }, 0.015)
-        .to(philosophy, {
-          yPercent: -9,
-          scale: 0.97,
-          clipPath: "inset(0% 0% 100% 0%)",
+        // MANIFESTO → THESIS: full letterforms compress and reorganize.
+        .to(interfaceNodes, { autoAlpha: 0, duration: 0.1 }, 0.12)
+        .to(philosophyLines[0], {
+          xPercent: -6,
+          yPercent: -16,
+          scaleX: 0.84,
           autoAlpha: 0,
-          duration: 0.16,
-        }, 0.055)
-        .set(thesis, { autoAlpha: 1 }, 0.14)
-        .to(thesisLines, { yPercent: 0, stagger: 0.025, duration: 0.14 }, 0.14)
-        .to(coordinates, { autoAlpha: 0.82, duration: 0.12 }, 0.18)
-        .to(thesisLines, { yPercent: -112, stagger: 0.018, duration: 0.12 }, 0.405)
-        .to(thesis, { autoAlpha: 0, duration: 0.08 }, 0.48)
-        .to(coordinates, { autoAlpha: 0, duration: 0.09 }, 0.43)
-        .set(name, { autoAlpha: 1 }, 0.535)
-        .to(nameRules, { scaleX: 1, stagger: 0.03, duration: 0.11 }, 0.535)
-        .to(scan, { xPercent: 130, autoAlpha: 0.55, duration: 0.16 }, 0.55)
+          duration: 0.13,
+        }, 0.14)
+        .to(philosophyLines[1], {
+          scaleX: 0.64,
+          letterSpacing: "-0.105em",
+          autoAlpha: 0,
+          duration: 0.13,
+        }, 0.15)
+        .to(philosophyLines[2], {
+          xPercent: 6,
+          yPercent: 16,
+          scaleX: 0.84,
+          autoAlpha: 0,
+          duration: 0.13,
+        }, 0.14)
+        .to(philosophy, { scale: 0.97, duration: 0.13 }, 0.14)
+        .set(thesis, { autoAlpha: 1 }, 0.205)
+        .to(thesisLines, {
+          opacity: 1,
+          y: 0,
+          scaleX: 1,
+          letterSpacing: "-0.068em",
+          stagger: 0.018,
+          duration: 0.125,
+        }, 0.205)
+        .to(coordinates, { autoAlpha: 0.72, duration: 0.1 }, 0.25)
+        // THESIS → SILENCE: compression, never sliced typography.
+        .to(thesisLines, {
+          opacity: 0,
+          y: -6,
+          scaleX: 0.76,
+          letterSpacing: "-0.12em",
+          stagger: 0.012,
+          duration: 0.09,
+        }, 0.48)
+        .to(thesis, { autoAlpha: 0, duration: 0.05 }, 0.545)
+        .to(coordinates, { autoAlpha: 0, duration: 0.07 }, 0.48)
+        .set(silence, { autoAlpha: 1 }, 0.525)
+        .to(silenceAxis, { scaleY: 1, duration: 0.075 }, 0.53)
+        .to(silenceDot, { scale: 1, autoAlpha: 1, duration: 0.055 }, 0.55)
+        .to(silenceMeta, { y: 0, autoAlpha: 1, duration: 0.07 }, 0.55)
+        // SILENCE → IDENTITY: the central signal opens horizontally.
+        .set(name, { autoAlpha: 1 }, 0.625)
+        .to(scan, { scaleY: 1, autoAlpha: 0.62, duration: 0.06 }, 0.625)
+        .to(nameRules, { scaleX: 1, stagger: 0.025, duration: 0.105 }, 0.63)
         .to(nameWords, {
-          yPercent: 0,
-          rotateX: 0,
-          stagger: 0.035,
-          duration: 0.15,
-        }, 0.565)
-        .to(scan, { autoAlpha: 0, duration: 0.025 }, 0.71)
-        .to(name, { scale: 0.965, autoAlpha: 0.16, duration: 0.13 }, 0.765)
-        .set(evidenceLayer, { autoAlpha: 1 }, 0.75)
+          clipPath: "inset(0% 0% 0% 0%)",
+          scaleX: 1,
+          letterSpacing: "-0.085em",
+          stagger: 0.025,
+          duration: 0.115,
+        }, 0.64)
+        .to(nameMeta, { y: 0, autoAlpha: 1, duration: 0.06 }, 0.69)
+        .to([silenceMeta, silenceDot], { autoAlpha: 0, duration: 0.045 }, 0.66)
+        .to(silenceAxis, { scaleY: 0.22, autoAlpha: 0.28, duration: 0.07 }, 0.67)
+        .to(silence, { autoAlpha: 0, duration: 0.035 }, 0.73)
+        .to(scan, { autoAlpha: 0, duration: 0.04 }, 0.735)
+        // IDENTITY → EVIDENCE: the name becomes architecture first.
+        .to(name, { scale: 1.045, autoAlpha: 0.08, duration: 0.1 }, 0.82)
+        .to(nameMeta, { autoAlpha: 0, y: -4, duration: 0.06 }, 0.82)
+        .to(nameRules, { autoAlpha: 0.16, scaleX: 0.72, duration: 0.08 }, 0.82)
+        .set(evidenceLayer, { autoAlpha: 1 }, 0.82)
         .fromTo(evidencePlanes[3],
-          { xPercent: 85, yPercent: -38, z: -720, rotateY: -18, autoAlpha: 0 },
-          { xPercent: 28, yPercent: -22, z: -210, rotateY: -9, autoAlpha: 0.48, duration: 0.15 },
-          0.755,
+          { xPercent: 92, yPercent: -42, z: -1050, rotateY: -18, autoAlpha: 0 },
+          { xPercent: 38, yPercent: -26, z: -520, rotateY: -10, autoAlpha: 0.1, duration: 0.12 },
+          0.83,
         )
         .fromTo(evidencePlanes[2],
-          { xPercent: -82, yPercent: 35, z: -780, rotateY: 18, autoAlpha: 0 },
-          { xPercent: -30, yPercent: 22, z: -250, rotateY: 10, autoAlpha: 0.42, duration: 0.16 },
-          0.77,
+          { xPercent: -90, yPercent: 38, z: -980, rotateY: 18, autoAlpha: 0 },
+          { xPercent: -38, yPercent: 24, z: -450, rotateY: 10, autoAlpha: 0.14, duration: 0.12 },
+          0.84,
         )
         .fromTo(evidencePlanes[1],
-          { xPercent: 72, yPercent: 52, z: -880, rotateY: -15, autoAlpha: 0 },
-          { xPercent: 23, yPercent: 27, z: -310, rotateY: -7, autoAlpha: 0.34, duration: 0.16 },
-          0.79,
+          { xPercent: 76, yPercent: 54, z: -820, rotateY: -15, autoAlpha: 0 },
+          { xPercent: 26, yPercent: 30, z: -340, rotateY: -7, autoAlpha: 0.22, duration: 0.12 },
+          0.85,
         )
         .fromTo(evidencePlanes[0],
-          { xPercent: -18, yPercent: 12, z: -980, scale: 0.42, autoAlpha: 0 },
-          { xPercent: 0, yPercent: 0, z: 0, scale: 1, autoAlpha: 1, duration: 0.2 },
-          0.79,
+          { xPercent: -12, yPercent: 15, z: -1100, scale: 0.34, autoAlpha: 0 },
+          { xPercent: 0, yPercent: -6, z: 0, scale: 1, autoAlpha: 1, duration: 0.14 },
+          0.86,
         )
         .to([evidencePlanes[1], evidencePlanes[2], evidencePlanes[3]], {
           autoAlpha: 0,
-          z: -560,
-          duration: 0.1,
-        }, 0.89)
-        .to(projectLockup, { autoAlpha: 1, y: 0, duration: 0.09 }, 0.89);
+          z: -720,
+          duration: 0.055,
+        }, 0.935)
+        .to(name, { autoAlpha: 0, duration: 0.05 }, 0.92)
+        .to(projectLockup, { autoAlpha: 1, y: 0, duration: 0.065 }, 0.925);
     }, root);
 
     return () => context.revert();
@@ -353,9 +419,9 @@ export default function Hero() {
 
         <div className={styles.philosophyLayer} data-philosophy>
           <h1 id="home-heading" className={styles.philosophy}>
-            <span>I BUILD</span>
-            <span>WHAT I WANT</span>
-            <span>TO EXIST.</span>
+            <span data-philosophy-line>I BUILD</span>
+            <span data-philosophy-line>WHAT I WANT</span>
+            <span data-philosophy-line>TO EXIST.</span>
           </h1>
         </div>
 
@@ -364,6 +430,14 @@ export default function Hero() {
             <span><i data-thesis-line>ENGINEERING THE</i></span>
             <span><i data-thesis-line>NEXT ERA OF</i></span>
             <span><i data-thesis-line>INTELLIGENCE.</i></span>
+          </p>
+        </div>
+
+        <div className={styles.silenceLayer} data-silence aria-hidden="true">
+          <span className={styles.silenceDot} data-silence-dot />
+          <span className={styles.silenceAxis} data-silence-axis />
+          <p className={styles.silenceMeta} data-silence-meta>
+            COMPUTER SCIENCE ENGINEERING&nbsp;&nbsp; / &nbsp;&nbsp;BENGALURU, INDIA
           </p>
         </div>
 
@@ -378,7 +452,7 @@ export default function Hero() {
             <span><i data-name-word>ANIRUDH</i></span>
             <span><i data-name-word>SHASHIKUMAR</i></span>
           </p>
-          <p className={styles.nameMeta}>COMPUTER SCIENCE ENGINEERING&nbsp;&nbsp; / &nbsp;&nbsp;BENGALURU, INDIA</p>
+          <p className={styles.nameMeta} data-name-meta>COMPUTER SCIENCE ENGINEERING&nbsp;&nbsp; / &nbsp;&nbsp;BENGALURU, INDIA</p>
           <span className={styles.nameRule} data-name-rule aria-hidden="true" />
           <span className={styles.nameScan} data-name-scan aria-hidden="true" />
         </div>
