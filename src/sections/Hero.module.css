@@ -283,20 +283,6 @@
   box-shadow: 0 0 0 0.35rem rgb(146 210 232 / 7%);
 }
 
-.silenceMeta {
-  position: absolute;
-  top: calc(50% + 4.5rem);
-  left: 50%;
-  margin: 0;
-  color: #7895a3;
-  font-family: var(--font-geist-mono), monospace;
-  font-size: 0.57rem;
-  letter-spacing: 0.17em;
-  text-align: center;
-  transform: translateX(-50%);
-  white-space: nowrap;
-}
-
 .coordinates {
   position: absolute;
   z-index: 9;
@@ -341,7 +327,7 @@
 
 .name i {
   transform-origin: center bottom;
-  will-change: clip-path, transform;
+  will-change: opacity, transform;
 }
 
 .nameMeta {
@@ -566,14 +552,6 @@
   .silenceAxis {
     top: 28%;
     bottom: 28%;
-  }
-
-  .silenceMeta {
-    top: calc(50% + 4rem);
-    width: min(86vw, 21rem);
-    font-size: 0.46rem;
-    line-height: 1.7;
-    white-space: normal;
   }
 
   .name {

@@ -203,7 +203,6 @@ export default function Hero() {
       const silence = root.querySelector<HTMLElement>("[data-silence]");
       const silenceAxis = root.querySelector<HTMLElement>("[data-silence-axis]");
       const silenceDot = root.querySelector<HTMLElement>("[data-silence-dot]");
-      const silenceMeta = root.querySelector<HTMLElement>("[data-silence-meta]");
       const name = root.querySelector<HTMLElement>("[data-name]");
       const nameWords = root.querySelectorAll<HTMLElement>("[data-name-word]");
       const nameMeta = root.querySelector<HTMLElement>("[data-name-meta]");
@@ -214,7 +213,7 @@ export default function Hero() {
       const projectLockup = root.querySelector<HTMLElement>("[data-project-lockup]");
       const interfaceNodes = root.querySelectorAll<HTMLElement>("[data-interface]");
 
-      if (!philosophy || !thesis || !coordinates || !silence || !silenceAxis || !silenceDot || !silenceMeta || !name || !nameMeta || !scan || !evidenceLayer || !projectLockup) return;
+      if (!philosophy || !thesis || !coordinates || !silence || !silenceAxis || !silenceDot || !name || !nameMeta || !scan || !evidenceLayer || !projectLockup) return;
 
       gsap.set(thesis, { autoAlpha: 0 });
       gsap.set(thesisLines, {
@@ -227,11 +226,10 @@ export default function Hero() {
       gsap.set(silence, { autoAlpha: 0 });
       gsap.set(silenceAxis, { scaleY: 0, transformOrigin: "center center" });
       gsap.set(silenceDot, { scale: 0, autoAlpha: 0 });
-      gsap.set(silenceMeta, { autoAlpha: 0, y: 8 });
       gsap.set(name, { autoAlpha: 0 });
       gsap.set(nameWords, {
-        clipPath: "inset(0% 50% 0% 50%)",
-        scaleX: 0.12,
+        opacity: 0,
+        scaleX: 0.02,
         letterSpacing: "0.08em",
         transformOrigin: "center center",
       });
@@ -309,23 +307,21 @@ export default function Hero() {
         .set(silence, { autoAlpha: 1 }, 0.525)
         .to(silenceAxis, { scaleY: 1, duration: 0.075 }, 0.53)
         .to(silenceDot, { scale: 1, autoAlpha: 1, duration: 0.055 }, 0.55)
-        .to(silenceMeta, { y: 0, autoAlpha: 1, duration: 0.07 }, 0.55)
         // SILENCE → IDENTITY: the central signal opens horizontally.
-        .set(name, { autoAlpha: 1 }, 0.625)
-        .to(scan, { scaleY: 1, autoAlpha: 0.62, duration: 0.06 }, 0.625)
-        .to(nameRules, { scaleX: 1, stagger: 0.025, duration: 0.105 }, 0.63)
+        .set(name, { autoAlpha: 1 }, 0.62)
+        .to([silenceDot, silenceAxis], { autoAlpha: 0, duration: 0.035 }, 0.62)
+        .to(scan, { scaleY: 1, autoAlpha: 0.62, duration: 0.045 }, 0.62)
+        .to(nameRules, { scaleX: 1, stagger: 0.018, duration: 0.075 }, 0.625)
         .to(nameWords, {
-          clipPath: "inset(0% 0% 0% 0%)",
+          opacity: 1,
           scaleX: 1,
           letterSpacing: "-0.085em",
-          stagger: 0.025,
-          duration: 0.115,
-        }, 0.64)
-        .to(nameMeta, { y: 0, autoAlpha: 1, duration: 0.06 }, 0.69)
-        .to([silenceMeta, silenceDot], { autoAlpha: 0, duration: 0.045 }, 0.66)
-        .to(silenceAxis, { scaleY: 0.22, autoAlpha: 0.28, duration: 0.07 }, 0.67)
-        .to(silence, { autoAlpha: 0, duration: 0.035 }, 0.73)
-        .to(scan, { autoAlpha: 0, duration: 0.04 }, 0.735)
+          stagger: 0.012,
+          duration: 0.062,
+        }, 0.635)
+        .to(nameMeta, { y: 0, autoAlpha: 1, duration: 0.05 }, 0.705)
+        .to(silence, { autoAlpha: 0, duration: 0.025 }, 0.655)
+        .to(scan, { autoAlpha: 0, duration: 0.035 }, 0.715)
         // IDENTITY → EVIDENCE: the name becomes architecture first.
         .to(name, { scale: 1.045, autoAlpha: 0.08, duration: 0.1 }, 0.82)
         .to(nameMeta, { autoAlpha: 0, y: -4, duration: 0.06 }, 0.82)
@@ -436,9 +432,6 @@ export default function Hero() {
         <div className={styles.silenceLayer} data-silence aria-hidden="true">
           <span className={styles.silenceDot} data-silence-dot />
           <span className={styles.silenceAxis} data-silence-axis />
-          <p className={styles.silenceMeta} data-silence-meta>
-            COMPUTER SCIENCE ENGINEERING&nbsp;&nbsp; / &nbsp;&nbsp;BENGALURU, INDIA
-          </p>
         </div>
 
         <div className={styles.coordinates} data-coordinates data-interface aria-label="Engineering domains">
