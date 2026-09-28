@@ -1,16 +1,14 @@
 import Container from "@/components/ui/Container";
+import styles from "./SiteFooter.module.css";
 
 export default function SiteFooter() {
   return (
-    <footer className="border-t border-[var(--border)] py-10">
-      <Container>
-        <p>Anirudh Shashikumar</p>
-        <p className="mt-2 text-sm text-[var(--muted)]">
-          Engineering the Next Era of Intelligence.
-        </p>
-        <small className="mt-6 block text-[var(--muted)]">
-          © {new Date().getFullYear()} Anirudh Shashikumar
-        </small>
+    <footer className={styles.footer}>
+      <Container className={styles.inner}>
+        <p>ANIRUDH SHASHIKUMAR</p>
+        <p>© 2026</p>
+        <p>BUILT + ITERATED WITH INTENTION</p>
+        <a href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a>
       </Container>
     </footer>
   );

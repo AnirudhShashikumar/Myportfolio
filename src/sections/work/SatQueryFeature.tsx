@@ -64,8 +64,8 @@ export default function SatQueryFeature() {
             <p className={styles.endcapTitle}>EARTH OBSERVATION → INTELLIGENCE</p>
             <p className={styles.endcapMeta}>SPACE TECHNOLOGY · MULTIMODAL AI · REMOTE SENSING</p>
           </div>
-          <a href="#satquery-detail" className={styles.projectAction}>
-            EXPLORE SATQUERY AI <span aria-hidden="true">↗</span>
+          <a href="https://sat-query-ai-phi.vercel.app/" target="_blank" rel="noreferrer" className={styles.projectAction} aria-label="Open the live SatQuery AI system in a new tab">
+            LIVE SYSTEM <span aria-hidden="true">↗</span>
           </a>
         </Container>
       </div>

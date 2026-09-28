@@ -251,8 +251,8 @@ export default function MediFitFeature() {
               <p className={styles.eyebrow}>AI HEALTHCARE · DIGITAL TWIN · PERSONALIZED FITNESS</p>
               <p className={styles.endcapTitle}>HEALTH CONTEXT, MADE ACTIONABLE.</p>
             </div>
-            <a href="#medifit-detail" className={styles.projectAction} data-mf-cta>
-              VIEW MEDIFIT <span aria-hidden="true">↗</span>
+            <a href="https://medi-fit-navy.vercel.app/" target="_blank" rel="noreferrer" className={styles.projectAction} data-mf-cta aria-label="Open the live MediFit application in a new tab">
+              LIVE APP <span aria-hidden="true">↗</span>
             </a>
           </Container>
         </div>

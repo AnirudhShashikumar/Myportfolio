@@ -98,8 +98,8 @@ export default function GestureGlobeFeature() {
             <p className={styles.endcapTitle}>THE HUMAN BECOMES THE CONTROLLER.</p>
             <p className={styles.endcapMeta}>COMPUTER VISION · HUMAN-COMPUTER INTERACTION · REAL-TIME GESTURES</p>
           </div>
-          <a href="#gesture-globe-detail" className={styles.projectAction}>
-            EXPLORE GESTURE GLOBE <span aria-hidden="true">↗</span>
+          <a href="https://gestureglobe.vercel.app/" target="_blank" rel="noreferrer" className={styles.projectAction} aria-label="Open the live Gesture Globe experience in a new tab">
+            LIVE EXPERIENCE <span aria-hidden="true">↗</span>
           </a>
         </Container>
       </div>

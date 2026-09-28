@@ -214,7 +214,7 @@ export default function DayflowFeature() {
             <p className={styles.endcapTitle}>ONE PLATFORM. TWO PURPOSE-BUILT EXPERIENCES.</p>
             <p className={styles.endcapMeta}>NEXT.JS 16 · TYPESCRIPT · SUPABASE · POSTGRESQL · RLS</p>
           </div>
-          <a href="#dayflow-detail" className={styles.projectAction}>EXPLORE DAYFLOW <span aria-hidden="true">↗</span></a>
+          <a href="https://dayflow-anirudh6.vercel.app" target="_blank" rel="noreferrer" className={styles.projectAction} aria-label="Open the live Dayflow application in a new tab">LIVE APP <span aria-hidden="true">↗</span></a>
         </Container>
       </div>
 

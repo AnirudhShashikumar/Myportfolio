@@ -72,6 +72,11 @@ section[id] {
   scroll-margin-top: 0;
 }
 
+#about,
+#contact {
+  scroll-margin-top: 0;
+}
+
 .visual-section {
   position: relative;
   isolation: isolate;

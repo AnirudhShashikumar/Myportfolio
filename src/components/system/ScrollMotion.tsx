@@ -14,6 +14,42 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
   const ready = width > 0;
 
   useEffect(() => {
+    if (!ready || !window.location.hash) return;
+
+    const hash = decodeURIComponent(window.location.hash);
+    const target = document.querySelector<HTMLElement>(hash);
+    if (!target) return;
+
+    let interrupted = false;
+    const timers: number[] = [];
+
+    const interrupt = () => {
+      interrupted = true;
+      timers.forEach((timer) => window.clearTimeout(timer));
+    };
+
+    const settle = () => {
+      if (interrupted) return;
+      ScrollTrigger.refresh();
+      const top = target.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({ top, behavior: "auto" });
+      ScrollTrigger.update();
+    };
+
+    [80, 320, 900].forEach((delay) => timers.push(window.setTimeout(settle, delay)));
+    window.addEventListener("wheel", interrupt, { passive: true, once: true });
+    window.addEventListener("touchstart", interrupt, { passive: true, once: true });
+    window.addEventListener("keydown", interrupt, { once: true });
+
+    return () => {
+      timers.forEach((timer) => window.clearTimeout(timer));
+      window.removeEventListener("wheel", interrupt);
+      window.removeEventListener("touchstart", interrupt);
+      window.removeEventListener("keydown", interrupt);
+    };
+  }, [pathname, ready]);
+
+  useEffect(() => {
     const header = document.querySelector<HTMLElement>("[data-site-header]");
     if (!header) return;
 
