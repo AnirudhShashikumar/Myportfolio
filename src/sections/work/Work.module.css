@@ -1,0 +1,9 @@
+.work {
+  --work-coordinate-accent: #b8dded;
+}
+
+.projectSlot {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+}
