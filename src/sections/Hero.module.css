@@ -14,6 +14,7 @@
 }
 
 .environment,
+.kineticGrid,
 .constellationField,
 .spatialMarks,
 .intro,
@@ -24,6 +25,11 @@
 .evidenceLayer {
   position: absolute;
   inset: 0;
+}
+
+.kineticGrid {
+  z-index: 1;
+  pointer-events: none;
 }
 
 .environment {
@@ -45,7 +51,7 @@
 }
 
 .constellationField {
-  z-index: 1;
+  z-index: 2;
   pointer-events: none;
 }
 
@@ -68,7 +74,7 @@
 }
 
 .spatialMarks {
-  z-index: 2;
+  z-index: 3;
   color: rgb(135 176 196 / 38%);
   font-family: var(--font-geist-mono), monospace;
   font-size: 0.52rem;

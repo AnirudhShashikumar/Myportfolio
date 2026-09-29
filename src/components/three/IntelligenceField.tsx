@@ -65,6 +65,7 @@ export default function IntelligenceField({
         frameloop={reducedMotion || !active ? "demand" : "always"}
         camera={{ position: [0, 0, 8], fov: 52, near: 0.1, far: 30 }}
         gl={{ alpha: true, antialias: true, powerPreference: "low-power" }}
+        onCreated={({ gl }) => gl.setClearColor(0x030609, 0)}
         fallback={null}
       >
         <IntelligenceScene

@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import {
+  useCallback,
   useEffect,
   useLayoutEffect,
   useRef,
@@ -13,6 +14,7 @@ import {
 } from "react";
 import type { OpeningMotion } from "@/components/three/IntelligenceField";
 import { useViewport } from "@/components/system/ViewportProvider";
+import HeroKineticGrid, { type HeroPointer } from "./HeroKineticGrid";
 import styles from "./Hero.module.css";
 
 const IntelligenceField = dynamic(
@@ -21,6 +23,9 @@ const IntelligenceField = dynamic(
 );
 
 const INTRO_SESSION_KEY = "anirudh-opening-seen";
+
+const clamp = (value: number, min: number, max: number) =>
+  Math.min(max, Math.max(min, value));
 
 const evidence = [
   {
@@ -55,12 +60,35 @@ const evidence = [
 
 export default function Hero() {
   const hero = useRef<HTMLElement>(null);
+  const stage = useRef<HTMLDivElement>(null);
   const motion = useRef<OpeningMotion>({ intro: 0, scroll: 0 });
-  const pointer = useRef({ x: 0, y: 0 });
+  const pointer = useRef<HeroPointer>({
+    x: 0,
+    y: 0,
+    px: -10_000,
+    py: -10_000,
+    velocityX: 0,
+    velocityY: 0,
+    lastTime: 0,
+    active: false,
+  });
+  const gridWake = useRef<(() => void) | null>(null);
   const introTimeline = useRef<gsap.core.Timeline | null>(null);
   const [sceneActive, setSceneActive] = useState(true);
   const { width, isMobile, prefersReducedMotion } = useViewport();
   const ready = width > 0;
+
+  const deactivatePointer = useCallback(() => {
+    pointer.current.x = 0;
+    pointer.current.y = 0;
+    pointer.current.px = -10_000;
+    pointer.current.py = -10_000;
+    pointer.current.velocityX = 0;
+    pointer.current.velocityY = 0;
+    pointer.current.lastTime = performance.now();
+    pointer.current.active = false;
+    gridWake.current?.();
+  }, []);
 
   useEffect(() => {
     const root = hero.current;
@@ -73,6 +101,22 @@ export default function Hero() {
     observer.observe(root);
     return () => observer.disconnect();
   }, []);
+
+  useEffect(() => {
+    window.addEventListener("blur", deactivatePointer);
+    document.documentElement.addEventListener("mouseleave", deactivatePointer);
+
+    return () => {
+      window.removeEventListener("blur", deactivatePointer);
+      document.documentElement.removeEventListener("mouseleave", deactivatePointer);
+    };
+  }, [deactivatePointer]);
+
+  useEffect(() => {
+    if (isMobile || prefersReducedMotion || !sceneActive) {
+      deactivatePointer();
+    }
+  }, [deactivatePointer, isMobile, prefersReducedMotion, sceneActive]);
 
   // Time-directed domain: a short, interruptible first-signal formation.
   useLayoutEffect(() => {
@@ -119,6 +163,7 @@ export default function Hero() {
 
       const timeline = gsap.timeline({
         defaults: { ease: "power2.out" },
+        onUpdate: () => gridWake.current?.(),
         onComplete: () => {
           motion.current.intro = 1;
           root.dataset.introState = "resolved";
@@ -251,9 +296,11 @@ export default function Hero() {
           invalidateOnRefresh: true,
           onUpdate: (self) => {
             motion.current.scroll = self.progress;
+            gridWake.current?.();
           },
           onRefresh: (self) => {
             motion.current.scroll = self.progress;
+            gridWake.current?.();
           },
         },
       });
@@ -367,9 +414,26 @@ export default function Hero() {
 
   function handlePointerMove(event: PointerEvent<HTMLElement>) {
     if (prefersReducedMotion || isMobile || event.pointerType !== "mouse") return;
-    const bounds = event.currentTarget.getBoundingClientRect();
-    pointer.current.x = ((event.clientX - bounds.left) / bounds.width) * 2 - 1;
-    pointer.current.y = ((event.clientY - bounds.top) / bounds.height) * 2 - 1;
+    const bounds = stage.current?.getBoundingClientRect();
+    if (!bounds) return;
+
+    const nextX = clamp(event.clientX - bounds.left, 0, bounds.width);
+    const nextY = clamp(event.clientY - bounds.top, 0, bounds.height);
+    const now = performance.now();
+    const previous = pointer.current;
+    const elapsed = Math.max(16, Math.min(80, now - previous.lastTime));
+    const rawVelocityX = previous.active ? ((nextX - previous.px) / elapsed) * 1000 : 0;
+    const rawVelocityY = previous.active ? ((nextY - previous.py) / elapsed) * 1000 : 0;
+
+    previous.x = (nextX / bounds.width) * 2 - 1;
+    previous.y = (nextY / bounds.height) * 2 - 1;
+    previous.px = nextX;
+    previous.py = nextY;
+    previous.velocityX = clamp(previous.velocityX * 0.5 + rawVelocityX * 0.5, -1400, 1400);
+    previous.velocityY = clamp(previous.velocityY * 0.5 + rawVelocityY * 0.5, -1400, 1400);
+    previous.lastTime = now;
+    previous.active = true;
+    gridWake.current?.();
   }
 
   return (
@@ -380,13 +444,22 @@ export default function Hero() {
       className={styles.hero}
       data-intro-state="pending"
       onPointerMove={handlePointerMove}
-      onPointerLeave={() => {
-        pointer.current.x = 0;
-        pointer.current.y = 0;
-      }}
+      onPointerLeave={deactivatePointer}
+      onPointerCancel={deactivatePointer}
     >
-      <div className={styles.stage}>
+      <div ref={stage} className={styles.stage}>
         <div className={styles.environment} aria-hidden="true" />
+
+        <div className={styles.kineticGrid} aria-hidden="true">
+          <HeroKineticGrid
+            active={sceneActive && ready}
+            isMobile={isMobile}
+            motion={motion}
+            pointer={pointer}
+            reducedMotion={prefersReducedMotion}
+            wakeRef={gridWake}
+          />
+        </div>
 
         <div className={styles.constellationField} aria-hidden="true">
           <IntelligenceField
