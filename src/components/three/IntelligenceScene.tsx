@@ -1,21 +1,43 @@
 "use client";
 
 import { useFrame } from "@react-three/fiber";
-import { useMemo, useRef, type RefObject } from "react";
+import { useRef, type RefObject } from "react";
 import {
   BufferAttribute,
+  BufferGeometry,
+  DoubleSide,
   Group,
   LineBasicMaterial,
   MathUtils,
   MeshBasicMaterial,
   PointsMaterial,
 } from "three";
+
 import type { OpeningMotion } from "./IntelligenceField";
 
-type NodeDef = {
-  position: [number, number, number];
-  tier: 0 | 1 | 2;
-  domain?: string;
+type Vec3 = [number, number, number];
+
+type ArcDefinition = {
+  radii: [number, number];
+  ranges: Array<[number, number]>;
+  rotation: Vec3;
+  offset: Vec3;
+  segments: number;
+};
+
+type IntelligenceCoreData = {
+  rings: Float32Array;
+  orbits: Float32Array;
+  farFrames: Float32Array;
+  frames: Float32Array;
+  nearFrames: Float32Array;
+  connections: Float32Array;
+  axis: Float32Array;
+  nodes: Float32Array;
+  anchors: Float32Array;
+  surfaces: Float32Array;
+  signalPath: Vec3[];
+  signalSegments: Float32Array;
 };
 
 type IntelligenceSceneProps = {
@@ -25,160 +47,307 @@ type IntelligenceSceneProps = {
   isMobile: boolean;
 };
 
-const DOMAIN_NODES: NodeDef[] = [
-  { position: [-1.6, 2.1, 0.4], tier: 2, domain: "AI" },
-  { position: [2.2, 1.4, -0.5], tier: 2, domain: "VISION" },
-  { position: [-2.4, -0.3, -0.3], tier: 2, domain: "FULL-STACK" },
-  { position: [1.8, -1.8, 0.6], tier: 2, domain: "IoT" },
-  { position: [0.2, 2.6, -0.9], tier: 2, domain: "REMOTE SENSING" },
-  { position: [-0.8, -2.2, 0.5], tier: 2, domain: "MULTIMODAL" },
-];
-
-const STRUCTURAL_NODES: NodeDef[] = [
-  { position: [0.3, 1.7, 0.15], tier: 1 },
-  { position: [-0.9, 1.1, -0.2], tier: 1 },
-  { position: [1.4, 0.5, 0.3], tier: 1 },
-  { position: [-1.5, 0.6, 0.35], tier: 1 },
-  { position: [0.7, -0.4, -0.45], tier: 1 },
-  { position: [-0.5, -0.8, -0.15], tier: 1 },
-  { position: [1.1, -1.1, 0.25], tier: 1 },
-  { position: [-1.8, -1.4, 0.1], tier: 1 },
-  { position: [0, 0.3, 0.55], tier: 1 },
-  { position: [2, -0.2, -0.35], tier: 1 },
-  { position: [-0.3, 2, 0.2], tier: 1 },
-  { position: [0.8, 1.2, -0.6], tier: 1 },
-  { position: [-1.2, -0.5, 0.45], tier: 1 },
-  { position: [0.5, -1.5, -0.2], tier: 1 },
-];
-
-const peripheralPositions: [number, number, number][] = Array.from(
-  { length: 32 },
-  (_, index) => {
-    const phi = index * 2.39996;
-    const radius = 2.6 + (index % 7) * 0.35;
-    return [
-      Math.cos(phi) * radius * 1.2,
-      Math.sin(phi) * radius * 0.95,
-      (((index * 13) % 17) - 8) * 0.15,
-    ];
-  },
-);
-
-const PERIPHERAL_NODES: NodeDef[] = peripheralPositions.map((position) => ({
-  position,
-  tier: 0,
-}));
-
-function distance(a: [number, number, number], b: [number, number, number]) {
-  return Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
-}
-
-function nearestOf(
-  source: [number, number, number],
-  candidates: NodeDef[],
-  maxCount: number,
-  maxDistance: number,
-) {
-  return candidates
-    .filter((candidate) => distance(source, candidate.position) < maxDistance)
-    .sort((a, b) => distance(source, a.position) - distance(source, b.position))
-    .slice(0, maxCount);
-}
-
-const domainMap = Object.fromEntries(
-  DOMAIN_NODES.map((node) => [node.domain!, node.position]),
-);
-const semanticLinks: [string, string][] = [
-  ["AI", "VISION"],
-  ["AI", "MULTIMODAL"],
-  ["VISION", "REMOTE SENSING"],
-  ["FULL-STACK", "AI"],
-  ["IoT", "FULL-STACK"],
-  ["MULTIMODAL", "REMOTE SENSING"],
-];
-const edges: number[] = [];
-
-for (const [from, to] of semanticLinks) {
-  edges.push(...domainMap[from], ...domainMap[to]);
-}
-for (const domain of DOMAIN_NODES) {
-  for (const structural of nearestOf(domain.position, STRUCTURAL_NODES, 2, 3)) {
-    edges.push(...domain.position, ...structural.position);
-  }
-}
-for (let index = 0; index < STRUCTURAL_NODES.length; index += 1) {
-  const source = STRUCTURAL_NODES[index];
-  for (const target of nearestOf(source.position, STRUCTURAL_NODES.slice(index + 1), 1, 1.6)) {
-    edges.push(...source.position, ...target.position);
-  }
-}
-for (const peripheral of PERIPHERAL_NODES) {
-  for (const structural of nearestOf(peripheral.position, STRUCTURAL_NODES, 1, 3.5)) {
-    edges.push(...peripheral.position, ...structural.position);
-  }
-}
-
-function toFloat32(nodes: NodeDef[]) {
-  return new Float32Array(nodes.flatMap((node) => node.position));
-}
-
-function scatterFrom(finalPositions: Float32Array, salt: number) {
-  const scattered = new Float32Array(finalPositions.length);
-  for (let index = 0; index < finalPositions.length; index += 3) {
-    const seed = index / 3 + salt;
-    scattered[index] = Math.sin(seed * 12.9898) * 5.8;
-    scattered[index + 1] = Math.cos(seed * 7.113) * 3.8;
-    scattered[index + 2] = -5.5 + ((seed * 17.17) % 6.5);
-  }
-  return scattered;
-}
-
-const DOMAIN_FINAL = toFloat32(DOMAIN_NODES);
-const STRUCTURAL_FINAL = toFloat32(STRUCTURAL_NODES);
-const PERIPHERAL_FINAL = toFloat32(PERIPHERAL_NODES);
-const LINE_FINAL = new Float32Array(edges);
-const DOMAIN_SCATTER = scatterFrom(DOMAIN_FINAL, 2);
-const STRUCTURAL_SCATTER = scatterFrom(STRUCTURAL_FINAL, 17);
-const PERIPHERAL_SCATTER = scatterFrom(PERIPHERAL_FINAL, 31);
-const LINE_SCATTER = scatterFrom(LINE_FINAL, 47);
+const clamp = (value: number, min: number, max: number) =>
+  Math.min(max, Math.max(min, value));
 
 function smoothstep(start: number, end: number, value: number) {
-  const progress = MathUtils.clamp((value - start) / (end - start), 0, 1);
+  const progress = clamp((value - start) / (end - start), 0, 1);
   return progress * progress * (3 - 2 * progress);
 }
 
-function updatePositions(
-  attribute: BufferAttribute | null,
-  finalPositions: Float32Array,
-  scatteredPositions: Float32Array,
-  intro: number,
-  scroll: number,
-) {
-  if (!attribute) return;
+function rotatePoint(
+  [sourceX, sourceY, sourceZ]: Vec3,
+  [rotationX, rotationY, rotationZ]: Vec3,
+  [offsetX, offsetY, offsetZ]: Vec3,
+): Vec3 {
+  const cosX = Math.cos(rotationX);
+  const sinX = Math.sin(rotationX);
+  const cosY = Math.cos(rotationY);
+  const sinY = Math.sin(rotationY);
+  const cosZ = Math.cos(rotationZ);
+  const sinZ = Math.sin(rotationZ);
 
-  const formation = smoothstep(0.08, 0.9, intro);
-  const collapseIn = smoothstep(0.46, 0.59, scroll);
-  const collapseOut = smoothstep(0.82, 0.95, scroll);
-  const collapse = collapseIn * (1 - collapseOut);
-  const evidenceExpansion = smoothstep(0.82, 1, scroll);
-  const positions = attribute.array as Float32Array;
+  const xAfterX = sourceX;
+  const yAfterX = sourceY * cosX - sourceZ * sinX;
+  const zAfterX = sourceY * sinX + sourceZ * cosX;
+  const xAfterY = xAfterX * cosY + zAfterX * sinY;
+  const yAfterY = yAfterX;
+  const zAfterY = -xAfterX * sinY + zAfterX * cosY;
 
-  for (let index = 0; index < positions.length; index += 3) {
-    const baseX = MathUtils.lerp(scatteredPositions[index], finalPositions[index], formation);
-    const baseY = MathUtils.lerp(scatteredPositions[index + 1], finalPositions[index + 1], formation);
-    const baseZ = MathUtils.lerp(scatteredPositions[index + 2], finalPositions[index + 2], formation);
-    const axisX = baseX * 0.055;
-    const axisY = baseY * 0.58;
-    const axisZ = baseZ * 1.9;
-    const expandedX = baseX * 1.34;
-    const expandedY = baseY * 1.08;
-    const expandedZ = baseZ - evidenceExpansion * 1.25;
+  return [
+    xAfterY * cosZ - yAfterY * sinZ + offsetX,
+    xAfterY * sinZ + yAfterY * cosZ + offsetY,
+    zAfterY + offsetZ,
+  ];
+}
 
-    positions[index] = MathUtils.lerp(MathUtils.lerp(baseX, axisX, collapse), expandedX, evidenceExpansion);
-    positions[index + 1] = MathUtils.lerp(MathUtils.lerp(baseY, axisY, collapse), expandedY, evidenceExpansion);
-    positions[index + 2] = MathUtils.lerp(MathUtils.lerp(baseZ, axisZ, collapse), expandedZ, evidenceExpansion);
+function addSegment(target: number[], from: Vec3, to: Vec3) {
+  target.push(...from, ...to);
+}
+
+function buildArcSegments(definitions: ArcDefinition[]) {
+  const positions: number[] = [];
+
+  for (const definition of definitions) {
+    for (const [start, end] of definition.ranges) {
+      for (let index = 0; index < definition.segments; index += 1) {
+        const fromAngle = MathUtils.lerp(start, end, index / definition.segments);
+        const toAngle = MathUtils.lerp(start, end, (index + 1) / definition.segments);
+        const from = rotatePoint(
+          [
+            Math.cos(fromAngle) * definition.radii[0],
+            Math.sin(fromAngle) * definition.radii[1],
+            0,
+          ],
+          definition.rotation,
+          definition.offset,
+        );
+        const to = rotatePoint(
+          [
+            Math.cos(toAngle) * definition.radii[0],
+            Math.sin(toAngle) * definition.radii[1],
+            0,
+          ],
+          definition.rotation,
+          definition.offset,
+        );
+        addSegment(positions, from, to);
+      }
+    }
   }
-  attribute.needsUpdate = true;
+
+  return new Float32Array(positions);
+}
+
+function buildFrameSegments(frames: Vec3[][]) {
+  const positions: number[] = [];
+
+  for (const frame of frames) {
+    for (let index = 0; index < frame.length; index += 1) {
+      addSegment(positions, frame[index], frame[(index + 1) % frame.length]);
+    }
+  }
+
+  return new Float32Array(positions);
+}
+
+function buildConnections(nodes: Vec3[], pairs: Array<[number, number]>) {
+  const positions: number[] = [];
+  for (const [from, to] of pairs) addSegment(positions, nodes[from], nodes[to]);
+  return new Float32Array(positions);
+}
+
+function selectPoints(nodes: Vec3[], indices: number[]) {
+  return new Float32Array(indices.flatMap((index) => nodes[index]));
+}
+
+function toFloat32(points: Vec3[]) {
+  return new Float32Array(points.flatMap((point) => point));
+}
+
+const RINGS: ArcDefinition[] = [
+  {
+    radii: [1.12, 0.94],
+    ranges: [[-0.08 * Math.PI, 0.54 * Math.PI], [0.72 * Math.PI, 1.3 * Math.PI], [1.48 * Math.PI, 1.84 * Math.PI]],
+    rotation: [0.28, -0.46, 0.18],
+    offset: [0.04, 0.02, 0.38],
+    segments: 11,
+  },
+  {
+    radii: [1.72, 1.42],
+    ranges: [[0.08 * Math.PI, 0.62 * Math.PI], [0.79 * Math.PI, 1.22 * Math.PI], [1.4 * Math.PI, 1.94 * Math.PI]],
+    rotation: [-0.58, 0.34, -0.2],
+    offset: [0.12, 0.08, -0.42],
+    segments: 13,
+  },
+  {
+    radii: [2.34, 1.84],
+    ranges: [[-0.02 * Math.PI, 0.42 * Math.PI], [0.58 * Math.PI, 1.08 * Math.PI], [1.27 * Math.PI, 1.72 * Math.PI]],
+    rotation: [0.7, 0.18, 0.38],
+    offset: [-0.08, 0.12, -1.02],
+    segments: 15,
+  },
+];
+
+const ORBITS: ArcDefinition[] = [
+  {
+    radii: [2.68, 0.7],
+    ranges: [[0.08 * Math.PI, 0.84 * Math.PI], [1.02 * Math.PI, 1.84 * Math.PI]],
+    rotation: [0.34, 0.14, 0.72],
+    offset: [0.08, 0.06, -0.18],
+    segments: 17,
+  },
+  {
+    radii: [2.46, 0.82],
+    ranges: [[-0.12 * Math.PI, 0.72 * Math.PI], [0.94 * Math.PI, 1.72 * Math.PI]],
+    rotation: [-0.26, 0.82, -0.34],
+    offset: [0.16, -0.04, -0.64],
+    segments: 16,
+  },
+  {
+    radii: [2.08, 0.58],
+    ranges: [[0.02 * Math.PI, 0.68 * Math.PI], [0.86 * Math.PI, 1.58 * Math.PI]],
+    rotation: [1.02, 0.08, 0.12],
+    offset: [-0.2, 0.12, 0.2],
+    segments: 14,
+  },
+];
+
+const PRIMARY_FRAME: Vec3[] = [
+  [-1.18, 0.38, 0.28],
+  [-0.78, -0.92, 0.82],
+  [0.68, -1.16, 1.14],
+  [1.46, -0.34, 0.66],
+  [1.08, 1.08, 0.94],
+  [-0.24, 1.5, 0.54],
+];
+
+const FAR_FRAME: Vec3[] = [
+  [-1.62, -1.38, -1.42],
+  [0.08, -1.9, -0.92],
+  [1.54, -0.82, -1.34],
+  [1.82, 0.74, -1.68],
+  [0.34, 1.76, -1.22],
+  [-1.22, 1.04, -1.58],
+];
+
+const RIGHT_FRAME: Vec3[] = [
+  [0.42, -1.22, 0.08],
+  [1.9, -0.74, 0.3],
+  [2.24, 0.64, -0.02],
+  [1.1, 1.54, -0.22],
+  [0.18, 0.76, 0.16],
+];
+
+const INNER_FRAME: Vec3[] = [
+  [-0.74, -0.54, 0.22],
+  [0.38, -0.8, 0.42],
+  [0.96, 0.14, 0.26],
+  [0.34, 0.9, 0.56],
+  [-0.62, 0.66, 0.34],
+];
+
+const DESKTOP_NODES: Vec3[] = [
+  ...PRIMARY_FRAME,
+  ...FAR_FRAME,
+  [0.38, -0.8, 0.42],
+  [0.96, 0.14, 0.26],
+  [0.34, 0.9, 0.56],
+  [-0.62, 0.66, 0.34],
+  [0, 0, 0.06],
+  [1.9, -0.74, 0.3],
+  [2.24, 0.64, -0.02],
+  [0.18, 0.76, 0.16],
+];
+
+const DESKTOP_CONNECTIONS: Array<[number, number]> = [
+  [0, 16], [1, 12], [1, 16], [2, 12], [2, 17], [3, 13], [3, 17],
+  [4, 14], [4, 18], [5, 14], [5, 16], [6, 12], [7, 12], [7, 16],
+  [8, 17], [9, 18], [10, 14], [10, 18], [11, 15], [11, 16], [12, 13],
+  [13, 14], [14, 15], [15, 16], [16, 17], [17, 18], [18, 19], [4, 10],
+];
+
+const SURFACES: Vec3[] = [
+  [-0.74, -0.54, 0.2], [0.38, -0.8, 0.4], [0.96, 0.14, 0.24],
+  [-0.62, 0.66, 0.32], [0.96, 0.14, 0.24], [0.34, 0.9, 0.54],
+  [1.02, -0.5, -0.92], [1.66, 0.54, -1.3], [0.3, 1.2, -1.06],
+];
+
+const AXIS: Vec3[] = [
+  [-0.34, -2.46, -1.56], [0.42, 2.5, 1.18],
+  [-0.31, -1.36, -0.94], [-0.02, -1.41, -0.83],
+  [0.02, 0.02, -0.08], [0.34, -0.04, 0.02],
+  [0.26, 1.36, 0.62], [0.57, 1.31, 0.72],
+];
+
+const DESKTOP_SIGNAL_PATH: Vec3[] = [
+  DESKTOP_NODES[7],
+  DESKTOP_NODES[12],
+  DESKTOP_NODES[13],
+  DESKTOP_NODES[4],
+  DESKTOP_NODES[10],
+];
+
+const MOBILE_NODES: Vec3[] = [
+  [-1.02, 0.34, 0.24],
+  [-0.66, -0.86, 0.68],
+  [0.54, -1.02, 0.84],
+  [1.2, -0.24, 0.48],
+  [0.92, 0.94, 0.68],
+  [-0.18, 1.24, 0.42],
+  [-0.54, -0.44, 0.18],
+  [0.3, -0.64, 0.34],
+  [0.78, 0.1, 0.2],
+  [0.26, 0.72, 0.42],
+  [-0.46, 0.54, 0.28],
+  [0, 0, 0.04],
+];
+
+const MOBILE_PRIMARY_FRAME = MOBILE_NODES.slice(0, 6);
+const MOBILE_INNER_FRAME = MOBILE_NODES.slice(6, 11);
+
+const MOBILE_CONNECTIONS: Array<[number, number]> = [
+  [0, 11], [1, 6], [1, 11], [2, 7], [3, 8], [4, 9], [5, 9], [5, 11],
+  [6, 7], [7, 8], [8, 9], [9, 10], [10, 11], [7, 11], [8, 11],
+];
+
+const MOBILE_SIGNAL_PATH: Vec3[] = [
+  MOBILE_NODES[1],
+  MOBILE_NODES[7],
+  MOBILE_NODES[8],
+  MOBILE_NODES[4],
+];
+
+const DESKTOP_DATA: IntelligenceCoreData = {
+  rings: buildArcSegments(RINGS),
+  orbits: buildArcSegments(ORBITS),
+  farFrames: buildFrameSegments([FAR_FRAME]),
+  frames: buildFrameSegments([PRIMARY_FRAME, RIGHT_FRAME]),
+  nearFrames: buildFrameSegments([INNER_FRAME]),
+  connections: buildConnections(DESKTOP_NODES, DESKTOP_CONNECTIONS),
+  axis: toFloat32(AXIS),
+  nodes: toFloat32(DESKTOP_NODES),
+  anchors: selectPoints(DESKTOP_NODES, [1, 3, 4, 7, 9, 10, 13, 18]),
+  surfaces: toFloat32(SURFACES),
+  signalPath: DESKTOP_SIGNAL_PATH,
+  signalSegments: buildConnections(DESKTOP_SIGNAL_PATH, [[0, 1], [1, 2], [2, 3], [3, 4]]),
+};
+
+const MOBILE_DATA: IntelligenceCoreData = {
+  rings: buildArcSegments(RINGS.slice(0, 2)),
+  orbits: buildArcSegments(ORBITS.slice(0, 2)),
+  farFrames: buildFrameSegments([]),
+  frames: buildFrameSegments([MOBILE_PRIMARY_FRAME]),
+  nearFrames: buildFrameSegments([MOBILE_INNER_FRAME]),
+  connections: buildConnections(MOBILE_NODES, MOBILE_CONNECTIONS),
+  axis: toFloat32(AXIS.slice(0, 4)),
+  nodes: toFloat32(MOBILE_NODES),
+  anchors: selectPoints(MOBILE_NODES, [1, 3, 4, 7, 9]),
+  surfaces: toFloat32(SURFACES.slice(0, 6)),
+  signalPath: MOBILE_SIGNAL_PATH,
+  signalSegments: buildConnections(MOBILE_SIGNAL_PATH, [[0, 1], [1, 2], [2, 3]]),
+};
+
+const FIRST_SIGNAL = new Float32Array([-0.24, 1.5, 0.54]);
+
+function setSegmentProgress(
+  geometry: BufferGeometry | null,
+  positions: Float32Array,
+  progress: number,
+) {
+  if (!geometry) return;
+  const segmentCount = positions.length / 6;
+  geometry.setDrawRange(0, Math.floor(segmentCount * clamp(progress, 0, 1)) * 2);
+}
+
+function setPointProgress(
+  geometry: BufferGeometry | null,
+  positions: Float32Array,
+  progress: number,
+) {
+  if (!geometry) return;
+  const pointCount = positions.length / 3;
+  geometry.setDrawRange(0, Math.ceil(pointCount * clamp(progress, 0, 1)));
 }
 
 export default function IntelligenceScene({
@@ -187,111 +356,346 @@ export default function IntelligenceScene({
   reducedMotion,
   isMobile,
 }: IntelligenceSceneProps) {
-  const group = useRef<Group>(null);
-  const signal = useRef<Group>(null);
-  const signalMaterial = useRef<MeshBasicMaterial>(null);
-  const ringMaterial = useRef<MeshBasicMaterial>(null);
-  const domainMaterial = useRef<PointsMaterial>(null);
-  const structuralMaterial = useRef<PointsMaterial>(null);
-  const peripheralMaterial = useRef<PointsMaterial>(null);
-  const lineMaterial = useRef<LineBasicMaterial>(null);
-  const domainAttribute = useRef<BufferAttribute>(null);
-  const structuralAttribute = useRef<BufferAttribute>(null);
-  const peripheralAttribute = useRef<BufferAttribute>(null);
-  const lineAttribute = useRef<BufferAttribute>(null);
+  const data = isMobile ? MOBILE_DATA : DESKTOP_DATA;
+  const core = useRef<Group>(null);
+  const farAssembly = useRef<Group>(null);
+  const ringAssembly = useRef<Group>(null);
+  const midAssembly = useRef<Group>(null);
+  const nearAssembly = useRef<Group>(null);
 
-  const domainPositions = useMemo(() => new Float32Array(DOMAIN_FINAL), []);
-  const structuralPositions = useMemo(() => new Float32Array(STRUCTURAL_FINAL), []);
-  const peripheralPositionsBuffer = useMemo(() => new Float32Array(PERIPHERAL_FINAL), []);
-  const linePositions = useMemo(() => new Float32Array(LINE_FINAL), []);
+  const ringGeometry = useRef<BufferGeometry>(null);
+  const orbitGeometry = useRef<BufferGeometry>(null);
+  const farFrameGeometry = useRef<BufferGeometry>(null);
+  const frameGeometry = useRef<BufferGeometry>(null);
+  const nearFrameGeometry = useRef<BufferGeometry>(null);
+  const connectionGeometry = useRef<BufferGeometry>(null);
+  const axisGeometry = useRef<BufferGeometry>(null);
+  const nodeGeometry = useRef<BufferGeometry>(null);
+  const anchorGeometry = useRef<BufferGeometry>(null);
+  const signalGeometry = useRef<BufferGeometry>(null);
+  const signalPointAttribute = useRef<BufferAttribute>(null);
+
+  const ringMaterial = useRef<LineBasicMaterial>(null);
+  const orbitMaterial = useRef<LineBasicMaterial>(null);
+  const farFrameMaterial = useRef<LineBasicMaterial>(null);
+  const frameMaterial = useRef<LineBasicMaterial>(null);
+  const nearFrameMaterial = useRef<LineBasicMaterial>(null);
+  const connectionMaterial = useRef<LineBasicMaterial>(null);
+  const axisMaterial = useRef<LineBasicMaterial>(null);
+  const nodeMaterial = useRef<PointsMaterial>(null);
+  const anchorMaterial = useRef<PointsMaterial>(null);
+  const firstSignalMaterial = useRef<PointsMaterial>(null);
+  const surfaceMaterial = useRef<MeshBasicMaterial>(null);
+  const signalLineMaterial = useRef<LineBasicMaterial>(null);
+  const signalPointMaterial = useRef<PointsMaterial>(null);
 
   useFrame(({ clock }, delta) => {
-    if (!group.current) return;
+    if (!core.current) return;
 
-    const elapsed = clock.getElapsedTime();
+    const elapsed = clock.elapsedTime;
     const intro = reducedMotion ? 1 : motion.current.intro;
     const scroll = reducedMotion ? 0 : motion.current.scroll;
-    const formation = smoothstep(0.08, 0.9, intro);
-    const collapse = smoothstep(0.46, 0.59, scroll) * (1 - smoothstep(0.82, 0.95, scroll));
-    const evidence = smoothstep(0.82, 1, scroll);
+    const formation = smoothstep(0.04, 0.96, intro);
+    const axisFormation = smoothstep(0.025, 0.24, intro);
+    const nodeFormation = smoothstep(0.11, 0.68, intro);
+    const frameFormation = smoothstep(0.28, 0.88, intro);
+    const orbitFormation = smoothstep(0.46, 0.98, intro);
+    const ringFormation = smoothstep(0.62, 1, intro);
+    const organization = reducedMotion ? 1 : smoothstep(0.16, 0.48, scroll);
+    const identity = reducedMotion
+      ? 0
+      : smoothstep(0.62, 0.72, scroll) * (1 - smoothstep(0.82, 0.91, scroll));
+    const evidence = reducedMotion ? 0 : smoothstep(0.82, 1, scroll);
+    const contrast = 1 - identity * 0.3 - evidence * 0.58;
+    const pointerScale = reducedMotion || isMobile ? 0 : 1;
+    const baseX = isMobile ? 0.36 : 1.24;
+    const baseY = isMobile ? 0.08 : 0.1;
+    const baseScale = isMobile ? 0.82 : 1.25;
 
-    updatePositions(domainAttribute.current, DOMAIN_FINAL, DOMAIN_SCATTER, intro, scroll);
-    updatePositions(structuralAttribute.current, STRUCTURAL_FINAL, STRUCTURAL_SCATTER, intro, scroll);
-    updatePositions(peripheralAttribute.current, PERIPHERAL_FINAL, PERIPHERAL_SCATTER, intro, scroll);
-    updatePositions(lineAttribute.current, LINE_FINAL, LINE_SCATTER, intro, scroll);
+    core.current.position.x = MathUtils.damp(
+      core.current.position.x,
+      baseX + evidence * 0.16,
+      2.4,
+      delta,
+    );
+    core.current.position.y = MathUtils.damp(
+      core.current.position.y,
+      baseY + evidence * 0.08,
+      2.4,
+      delta,
+    );
+    core.current.position.z = MathUtils.damp(core.current.position.z, -evidence * 0.58, 2.2, delta);
+    core.current.scale.setScalar(
+      baseScale * (0.92 + formation * 0.08) * (1 + evidence * 0.07),
+    );
 
-    const pointerScale = isMobile || reducedMotion ? 0 : 1;
-    const targetX = pointer.current.y * -0.045 * pointerScale;
-    const targetY = pointer.current.x * 0.07 * pointerScale;
-    group.current.rotation.x = MathUtils.damp(group.current.rotation.x, targetX, 1.5, delta);
-    group.current.rotation.y = MathUtils.damp(group.current.rotation.y, targetY + scroll * 0.08, 1.5, delta);
-    group.current.position.x = reducedMotion ? 0 : Math.sin(elapsed * 0.07) * 0.012;
-    group.current.position.y = reducedMotion ? 0 : Math.sin(elapsed * 0.1) * 0.022;
-    group.current.position.z = MathUtils.lerp(0, -0.8, evidence);
-    const scale = 1 - collapse * 0.08 + evidence * 0.1;
-    group.current.scale.setScalar(scale);
-
-    if (signal.current && signalMaterial.current && ringMaterial.current) {
-      const firstSignal = smoothstep(0.03, 0.2, intro) * (1 - smoothstep(0.42, 0.63, intro));
-      signal.current.visible = firstSignal > 0.001;
-      signal.current.scale.setScalar(0.7 + smoothstep(0.05, 0.42, intro) * 2.1);
-      signalMaterial.current.opacity = firstSignal;
-      ringMaterial.current.opacity = firstSignal * 0.32;
+    if (farAssembly.current) {
+      farAssembly.current.position.x = MathUtils.damp(farAssembly.current.position.x, -evidence * 0.42, 2, delta);
+      farAssembly.current.position.y = MathUtils.damp(farAssembly.current.position.y, evidence * 0.16, 2, delta);
+      farAssembly.current.rotation.z = MathUtils.damp(
+        farAssembly.current.rotation.z,
+        (1 - organization) * 0.16 + pointer.current.x * 0.006 * pointerScale,
+        1.35,
+        delta,
+      );
+      farAssembly.current.rotation.x = MathUtils.damp(
+        farAssembly.current.rotation.x,
+        pointer.current.y * -0.005 * pointerScale,
+        1.2,
+        delta,
+      );
     }
 
-    if (domainMaterial.current) {
-      domainMaterial.current.opacity = formation * (0.8 - collapse * 0.5 - evidence * 0.22);
+    if (ringAssembly.current) {
+      const ringDrift = reducedMotion ? 0 : Math.sin(elapsed * 0.075) * 0.009;
+      ringAssembly.current.rotation.x = MathUtils.damp(
+        ringAssembly.current.rotation.x,
+        (1 - organization) * -0.075 + pointer.current.y * -0.011 * pointerScale,
+        1.15,
+        delta,
+      );
+      ringAssembly.current.rotation.y = MathUtils.damp(
+        ringAssembly.current.rotation.y,
+        (1 - organization) * 0.1 + pointer.current.x * 0.014 * pointerScale,
+        1.15,
+        delta,
+      );
+      ringAssembly.current.rotation.z = ringDrift;
     }
-    if (structuralMaterial.current) {
-      structuralMaterial.current.opacity = formation * (0.5 - collapse * 0.38 - evidence * 0.17);
+
+    if (midAssembly.current) {
+      midAssembly.current.position.x = MathUtils.damp(midAssembly.current.position.x, evidence * 0.18, 2, delta);
+      midAssembly.current.rotation.z = MathUtils.damp(
+        midAssembly.current.rotation.z,
+        (1 - organization) * -0.1 + pointer.current.x * 0.012 * pointerScale,
+        1.25,
+        delta,
+      );
+      midAssembly.current.rotation.x = MathUtils.damp(
+        midAssembly.current.rotation.x,
+        pointer.current.y * -0.014 * pointerScale,
+        1.2,
+        delta,
+      );
     }
-    if (peripheralMaterial.current) {
-      peripheralMaterial.current.opacity = formation * (0.3 - collapse * 0.26 - evidence * 0.12);
+
+    if (nearAssembly.current) {
+      nearAssembly.current.position.x = MathUtils.damp(
+        nearAssembly.current.position.x,
+        evidence * 0.48 + pointer.current.x * 0.035 * pointerScale,
+        1.7,
+        delta,
+      );
+      nearAssembly.current.position.y = MathUtils.damp(
+        nearAssembly.current.position.y,
+        -evidence * 0.2 + pointer.current.y * 0.022 * pointerScale,
+        1.7,
+        delta,
+      );
+      nearAssembly.current.rotation.y = MathUtils.damp(
+        nearAssembly.current.rotation.y,
+        (1 - organization) * -0.12 + pointer.current.x * 0.026 * pointerScale,
+        1.05,
+        delta,
+      );
+      nearAssembly.current.rotation.x = MathUtils.damp(
+        nearAssembly.current.rotation.x,
+        pointer.current.y * -0.02 * pointerScale,
+        1.05,
+        delta,
+      );
     }
-    if (lineMaterial.current) {
-      lineMaterial.current.opacity = formation * (0.13 - collapse * 0.105 - evidence * 0.075);
+
+    setSegmentProgress(axisGeometry.current, data.axis, axisFormation);
+    setPointProgress(nodeGeometry.current, data.nodes, nodeFormation);
+    setPointProgress(anchorGeometry.current, data.anchors, smoothstep(0.22, 0.78, intro));
+    setSegmentProgress(farFrameGeometry.current, data.farFrames, frameFormation * 0.9);
+    setSegmentProgress(frameGeometry.current, data.frames, frameFormation);
+    setSegmentProgress(nearFrameGeometry.current, data.nearFrames, smoothstep(0.38, 0.94, intro));
+    setSegmentProgress(
+      connectionGeometry.current,
+      data.connections,
+      smoothstep(0.34, 0.92, intro) * (0.64 + organization * 0.36),
+    );
+    setSegmentProgress(orbitGeometry.current, data.orbits, orbitFormation * (0.72 + organization * 0.28));
+    setSegmentProgress(ringGeometry.current, data.rings, ringFormation * (0.7 + organization * 0.3));
+
+    if (axisMaterial.current) axisMaterial.current.opacity = axisFormation * 0.2 * contrast;
+    if (farFrameMaterial.current) farFrameMaterial.current.opacity = frameFormation * (0.11 + organization * 0.04) * contrast;
+    if (frameMaterial.current) frameMaterial.current.opacity = frameFormation * (0.22 + organization * 0.06) * contrast;
+    if (nearFrameMaterial.current) nearFrameMaterial.current.opacity = frameFormation * (0.24 + organization * 0.08) * contrast;
+    if (connectionMaterial.current) connectionMaterial.current.opacity = frameFormation * (0.095 + organization * 0.05) * contrast;
+    if (orbitMaterial.current) orbitMaterial.current.opacity = orbitFormation * (0.105 + organization * 0.06) * contrast;
+    if (ringMaterial.current) ringMaterial.current.opacity = ringFormation * (0.18 + organization * 0.08) * contrast;
+    if (nodeMaterial.current) nodeMaterial.current.opacity = nodeFormation * 0.4 * contrast;
+    if (anchorMaterial.current) anchorMaterial.current.opacity = smoothstep(0.22, 0.78, intro) * 0.76 * contrast;
+    if (surfaceMaterial.current) surfaceMaterial.current.opacity = frameFormation * (0.028 + organization * 0.026) * contrast;
+    if (firstSignalMaterial.current) {
+      firstSignalMaterial.current.opacity = reducedMotion
+        ? 0
+        : smoothstep(0.025, 0.15, intro) * (1 - smoothstep(0.46, 0.7, intro));
+    }
+
+    const signalCycle = (elapsed % 10.5) / 10.5;
+    const signalWindow = reducedMotion || isMobile
+      ? 0
+      : smoothstep(0.54, 0.61, signalCycle) * (1 - smoothstep(0.82, 0.9, signalCycle));
+    const signalTravel = clamp((signalCycle - 0.56) / 0.27, 0, 1);
+    const signalReadiness = smoothstep(0.94, 1, intro) * (1 - evidence);
+    const signalStrength = signalWindow * signalReadiness * contrast;
+
+    if (signalLineMaterial.current) signalLineMaterial.current.opacity = signalStrength * 0.52;
+    if (signalPointMaterial.current) signalPointMaterial.current.opacity = signalStrength * 0.88;
+    setSegmentProgress(signalGeometry.current, data.signalSegments, signalTravel);
+
+    if (signalPointAttribute.current && data.signalPath.length > 1) {
+      const scaledTravel = signalTravel * (data.signalPath.length - 1);
+      const fromIndex = Math.min(Math.floor(scaledTravel), data.signalPath.length - 2);
+      const localProgress = scaledTravel - fromIndex;
+      const from = data.signalPath[fromIndex];
+      const to = data.signalPath[fromIndex + 1];
+      const positions = signalPointAttribute.current.array as Float32Array;
+      positions[0] = MathUtils.lerp(from[0], to[0], localProgress);
+      positions[1] = MathUtils.lerp(from[1], to[1], localProgress);
+      positions[2] = MathUtils.lerp(from[2], to[2], localProgress);
+      signalPointAttribute.current.needsUpdate = true;
     }
   });
 
   return (
-    <group ref={group}>
-      <group ref={signal} position={DOMAIN_NODES[0].position}>
+    <group ref={core} key={isMobile ? "mobile-core" : "desktop-core"}>
+      <group ref={farAssembly}>
+        <lineSegments>
+          <bufferGeometry ref={farFrameGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.farFrames, 3]} />
+          </bufferGeometry>
+          <lineBasicMaterial ref={farFrameMaterial} color="#55717d" transparent opacity={0} depthWrite={false} />
+        </lineSegments>
+      </group>
+
+      <group ref={ringAssembly}>
+        <lineSegments>
+          <bufferGeometry ref={ringGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.rings, 3]} />
+          </bufferGeometry>
+          <lineBasicMaterial ref={ringMaterial} color="#91a9b3" transparent opacity={0} depthWrite={false} />
+        </lineSegments>
+        <lineSegments>
+          <bufferGeometry ref={orbitGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.orbits, 3]} />
+          </bufferGeometry>
+          <lineBasicMaterial ref={orbitMaterial} color="#708d99" transparent opacity={0} depthWrite={false} />
+        </lineSegments>
+      </group>
+
+      <group ref={midAssembly}>
+        <lineSegments>
+          <bufferGeometry ref={axisGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.axis, 3]} />
+          </bufferGeometry>
+          <lineBasicMaterial ref={axisMaterial} color="#b5c8cf" transparent opacity={0} depthWrite={false} />
+        </lineSegments>
+        <lineSegments>
+          <bufferGeometry ref={frameGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.frames, 3]} />
+          </bufferGeometry>
+          <lineBasicMaterial ref={frameMaterial} color="#91a9b3" transparent opacity={0} depthWrite={false} />
+        </lineSegments>
+        <lineSegments>
+          <bufferGeometry ref={connectionGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.connections, 3]} />
+          </bufferGeometry>
+          <lineBasicMaterial ref={connectionMaterial} color="#607f8c" transparent opacity={0} depthWrite={false} />
+        </lineSegments>
+        <points>
+          <bufferGeometry ref={nodeGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.nodes, 3]} />
+          </bufferGeometry>
+          <pointsMaterial
+            ref={nodeMaterial}
+            color="#a9c3cd"
+            size={isMobile ? 0.05 : 0.058}
+            sizeAttenuation
+            transparent
+            opacity={0}
+            depthWrite={false}
+          />
+        </points>
         <mesh>
-          <sphereGeometry args={[0.045, 12, 12]} />
-          <meshBasicMaterial ref={signalMaterial} color="#def7ff" transparent depthWrite={false} />
-        </mesh>
-        <mesh>
-          <ringGeometry args={[0.11, 0.12, 32]} />
-          <meshBasicMaterial ref={ringMaterial} color="#8fd9ef" transparent depthWrite={false} />
+          <bufferGeometry>
+            <bufferAttribute attach="attributes-position" args={[data.surfaces, 3]} />
+          </bufferGeometry>
+          <meshBasicMaterial
+            ref={surfaceMaterial}
+            color="#78939e"
+            side={DoubleSide}
+            transparent
+            opacity={0}
+            depthWrite={false}
+          />
         </mesh>
       </group>
 
-      <lineSegments>
-        <bufferGeometry>
-          <bufferAttribute ref={lineAttribute} attach="attributes-position" args={[linePositions, 3]} />
-        </bufferGeometry>
-        <lineBasicMaterial ref={lineMaterial} color="#5a94b2" transparent opacity={0} depthWrite={false} />
-      </lineSegments>
+      <group ref={nearAssembly}>
+        <lineSegments>
+          <bufferGeometry ref={nearFrameGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.nearFrames, 3]} />
+          </bufferGeometry>
+          <lineBasicMaterial ref={nearFrameMaterial} color="#a5bbc3" transparent opacity={0} depthWrite={false} />
+        </lineSegments>
+        <points>
+          <bufferGeometry ref={anchorGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.anchors, 3]} />
+          </bufferGeometry>
+          <pointsMaterial
+            ref={anchorMaterial}
+            color="#d0e1e6"
+            size={isMobile ? 0.065 : 0.082}
+            sizeAttenuation
+            transparent
+            opacity={0}
+            depthWrite={false}
+          />
+        </points>
+        <lineSegments>
+          <bufferGeometry ref={signalGeometry}>
+            <bufferAttribute attach="attributes-position" args={[data.signalSegments, 3]} />
+          </bufferGeometry>
+          <lineBasicMaterial ref={signalLineMaterial} color="#a8d8e8" transparent opacity={0} depthWrite={false} />
+        </lineSegments>
+        <points>
+          <bufferGeometry>
+            <bufferAttribute
+              ref={signalPointAttribute}
+              attach="attributes-position"
+              args={[new Float32Array(data.signalPath[0]), 3]}
+            />
+          </bufferGeometry>
+          <pointsMaterial
+            ref={signalPointMaterial}
+            color="#c8edf7"
+            size={0.092}
+            sizeAttenuation
+            transparent
+            opacity={0}
+            depthWrite={false}
+          />
+        </points>
+      </group>
 
       <points>
         <bufferGeometry>
-          <bufferAttribute ref={peripheralAttribute} attach="attributes-position" args={[peripheralPositionsBuffer, 3]} />
+          <bufferAttribute attach="attributes-position" args={[FIRST_SIGNAL, 3]} />
         </bufferGeometry>
-        <pointsMaterial ref={peripheralMaterial} color="#6a9bb2" size={isMobile ? 0.026 : 0.03} sizeAttenuation transparent opacity={0} depthWrite={false} />
-      </points>
-
-      <points>
-        <bufferGeometry>
-          <bufferAttribute ref={structuralAttribute} attach="attributes-position" args={[structuralPositions, 3]} />
-        </bufferGeometry>
-        <pointsMaterial ref={structuralMaterial} color="#9fc8de" size={isMobile ? 0.042 : 0.05} sizeAttenuation transparent opacity={0} depthWrite={false} />
-      </points>
-
-      <points>
-        <bufferGeometry>
-          <bufferAttribute ref={domainAttribute} attach="attributes-position" args={[domainPositions, 3]} />
-        </bufferGeometry>
-        <pointsMaterial ref={domainMaterial} color="#d4eaf5" size={isMobile ? 0.07 : 0.085} sizeAttenuation transparent opacity={0} depthWrite={false} />
+        <pointsMaterial
+          ref={firstSignalMaterial}
+          color="#d6f3fa"
+          size={0.105}
+          sizeAttenuation
+          transparent
+          opacity={0}
+          depthWrite={false}
+        />
       </points>
     </group>
   );
