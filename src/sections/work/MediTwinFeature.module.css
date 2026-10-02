@@ -12,14 +12,6 @@
   position: relative;
 }
 
-.motionRoot[data-mt-motion="active"] [data-mt-context-signal],
-.motionRoot[data-mt-motion="active"] [data-mt-concept-stage],
-.motionRoot[data-mt-motion="active"] [data-mt-transformation-stage],
-.motionRoot[data-mt-motion="active"] [data-mt-certificate],
-.motionRoot[data-mt-motion="active"] [data-mt-team-evidence] {
-  will-change: transform, opacity, clip-path;
-}
-
 .eyebrow,
 .bridgeAxis,
 .projectType,

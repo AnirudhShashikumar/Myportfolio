@@ -2,6 +2,7 @@
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import { useEffect, useRef, type MouseEvent as ReactMouseEvent } from "react";
 import { useViewport } from "@/components/system/ViewportProvider";
 import styles from "./Contact.module.css";
@@ -46,11 +47,26 @@ function ContactActions() {
 export default function Contact() {
   const sequence = useRef<HTMLDivElement>(null);
   const stage = useRef<HTMLDivElement>(null);
-  const { width, isMobile, prefersReducedMotion } = useViewport();
+  const { width, isShort, hasFinePointer, prefersReducedMotion: reducedMotion } = useViewport();
+  const ready = width > 0;
+  const prefersReducedMotion = reducedMotion || isShort;
+  const signalBounds = useRef<DOMRect | null>(null);
+  const signalFrame = useRef(0);
+  const signalPosition = useRef({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const element = stage.current;
+    if (!element) return;
+    const measure = () => { signalBounds.current = element.getBoundingClientRect(); };
+    const observer = new ResizeObserver(measure);
+    observer.observe(element);
+    measure();
+    return () => { observer.disconnect(); cancelAnimationFrame(signalFrame.current); };
+  }, []);
 
   useEffect(() => {
     const root = sequence.current;
-    if (!root || width === 0 || prefersReducedMotion) return;
+    if (!root || !ready || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
     root.dataset.motion = "active";
@@ -82,8 +98,8 @@ export default function Contact() {
           scrollTrigger: {
             trigger: root,
             start: "top top",
-            end: "bottom bottom",
-            scrub: isMobile ? 0.25 : 0.5,
+            end: () => `+=${Math.max(1, root.offsetHeight - (stage.current?.offsetHeight ?? window.innerHeight))}`,
+            scrub: true,
             invalidateOnRefresh: true,
           },
         })
@@ -101,22 +117,30 @@ export default function Contact() {
         .to(finalMeta, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.79);
     }, root);
 
-    ScrollTrigger.refresh();
+    scheduleScrollRefresh();
 
     return () => {
       context.revert();
       delete root.dataset.motion;
     };
-  }, [width, isMobile, prefersReducedMotion]);
+  }, [ready, prefersReducedMotion]);
 
   function updateSignal(event: ReactMouseEvent<HTMLDivElement>) {
-    if (isMobile || prefersReducedMotion || !stage.current) return;
-    const bounds = stage.current.getBoundingClientRect();
-    stage.current.style.setProperty("--signal-x", `${event.clientX - bounds.left}px`);
-    stage.current.style.setProperty("--signal-y", `${event.clientY - bounds.top}px`);
+    const bounds = signalBounds.current;
+    if (!hasFinePointer || prefersReducedMotion || !stage.current || !bounds) return;
+    signalPosition.current.x = event.clientX - bounds.left;
+    signalPosition.current.y = event.clientY - bounds.top;
+    if (signalFrame.current) return;
+    signalFrame.current = requestAnimationFrame(() => {
+      signalFrame.current = 0;
+      stage.current?.style.setProperty("--signal-x", `${signalPosition.current.x}px`);
+      stage.current?.style.setProperty("--signal-y", `${signalPosition.current.y}px`);
+    });
   }
 
   function resetSignal() {
+    cancelAnimationFrame(signalFrame.current);
+    signalFrame.current = 0;
     if (!stage.current) return;
     stage.current.style.setProperty("--signal-x", "50%");
     stage.current.style.setProperty("--signal-y", "70%");
@@ -127,7 +151,7 @@ export default function Contact() {
       <h2 id="contact-heading" className="sr-only">Contact Anirudh Shashikumar</h2>
 
       <div ref={sequence} className={styles.sequence}>
-        <div ref={stage} className={styles.stage} onMouseMove={updateSignal} onMouseLeave={resetSignal}>
+        <div ref={stage} className={styles.stage} onMouseEnter={() => { signalBounds.current = stage.current?.getBoundingClientRect() ?? null; }} onMouseMove={updateSignal} onMouseLeave={resetSignal}>
           <SignalField />
 
           <div className={`${styles.layer} ${styles.opening}`} data-contact-opening>

@@ -74,9 +74,13 @@ export default function Hero() {
   });
   const gridWake = useRef<(() => void) | null>(null);
   const introTimeline = useRef<gsap.core.Timeline | null>(null);
+  const pointerBounds = useRef<DOMRect | null>(null);
   const [sceneActive, setSceneActive] = useState(true);
-  const { width, isMobile, prefersReducedMotion } = useViewport();
+  const { width, isMobile: narrowViewport, hasFinePointer, isShort, isDocumentVisible, prefersReducedMotion: reducedMotion } = useViewport();
+  const isMobile = narrowViewport || !hasFinePointer;
+  const prefersReducedMotion = reducedMotion || isShort;
   const ready = width > 0;
+  const graphicsActive = sceneActive && isDocumentVisible;
 
   const deactivatePointer = useCallback(() => {
     pointer.current.x = 0;
@@ -91,14 +95,24 @@ export default function Hero() {
   }, []);
 
   useEffect(() => {
-    const root = hero.current;
+    const root = stage.current;
     if (!root) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => setSceneActive(entry.isIntersecting),
-      { rootMargin: "15% 0px" },
+      { rootMargin: "0px" },
     );
     observer.observe(root);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const target = stage.current;
+    if (!target) return;
+    const measure = () => { pointerBounds.current = target.getBoundingClientRect(); };
+    const observer = new ResizeObserver(measure);
+    observer.observe(target);
+    measure();
     return () => observer.disconnect();
   }, []);
 
@@ -113,10 +127,10 @@ export default function Hero() {
   }, [deactivatePointer]);
 
   useEffect(() => {
-    if (isMobile || prefersReducedMotion || !sceneActive) {
+    if (isMobile || prefersReducedMotion || !graphicsActive) {
       deactivatePointer();
     }
-  }, [deactivatePointer, isMobile, prefersReducedMotion, sceneActive]);
+  }, [deactivatePointer, isMobile, prefersReducedMotion, graphicsActive]);
 
   // Time-directed domain: a short, interruptible first-signal formation.
   useLayoutEffect(() => {
@@ -209,7 +223,7 @@ export default function Hero() {
     const finishIntro = () => {
       const timeline = introTimeline.current;
       if (!timeline || timeline.progress() >= 0.995) return;
-      timeline.tweenTo(timeline.duration(), { duration: 0.36, ease: "power2.out" });
+      timeline.progress(1).pause();
     };
     const handleKey = (event: KeyboardEvent) => {
       if (["ArrowDown", "PageDown", "End", " "].includes(event.key)) finishIntro();
@@ -217,17 +231,23 @@ export default function Hero() {
     const handleScroll = () => {
       if (window.scrollY > 6) finishIntro();
     };
+    const handleVisibility = () => {
+      if (document.visibilityState === "hidden") introTimeline.current?.pause();
+      else if (introTimeline.current && introTimeline.current.progress() < 1) introTimeline.current.resume();
+    };
 
     window.addEventListener("wheel", finishIntro, { passive: true });
     window.addEventListener("touchstart", finishIntro, { passive: true });
     window.addEventListener("keydown", handleKey);
     window.addEventListener("scroll", handleScroll, { passive: true });
+    document.addEventListener("visibilitychange", handleVisibility);
 
     return () => {
       window.removeEventListener("wheel", finishIntro);
       window.removeEventListener("touchstart", finishIntro);
       window.removeEventListener("keydown", handleKey);
       window.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("visibilitychange", handleVisibility);
       introTimeline.current = null;
       context.revert();
     };
@@ -291,7 +311,7 @@ export default function Hero() {
         scrollTrigger: {
           trigger: root,
           start: "top top",
-          end: "bottom bottom",
+          end: () => `+=${Math.max(1, root.offsetHeight - (stage.current?.offsetHeight ?? window.innerHeight))}`,
           scrub: true,
           invalidateOnRefresh: true,
           onUpdate: (self) => {
@@ -413,8 +433,8 @@ export default function Hero() {
   }, [ready, prefersReducedMotion, isMobile]);
 
   function handlePointerMove(event: PointerEvent<HTMLElement>) {
-    if (prefersReducedMotion || isMobile || event.pointerType !== "mouse") return;
-    const bounds = stage.current?.getBoundingClientRect();
+    if (prefersReducedMotion || isMobile || !graphicsActive || event.pointerType !== "mouse") return;
+    const bounds = pointerBounds.current;
     if (!bounds) return;
 
     const nextX = clamp(event.clientX - bounds.left, 0, bounds.width);
@@ -443,6 +463,8 @@ export default function Hero() {
       aria-labelledby="home-heading"
       className={styles.hero}
       data-intro-state="pending"
+      data-scene-active={graphicsActive ? "true" : "false"}
+      onPointerEnter={() => { pointerBounds.current = stage.current?.getBoundingClientRect() ?? null; }}
       onPointerMove={handlePointerMove}
       onPointerLeave={deactivatePointer}
       onPointerCancel={deactivatePointer}
@@ -452,7 +474,7 @@ export default function Hero() {
 
         <div className={styles.kineticGrid} aria-hidden="true">
           <HeroKineticGrid
-            active={sceneActive && ready}
+            active={graphicsActive && ready}
             isMobile={isMobile}
             motion={motion}
             pointer={pointer}
@@ -467,7 +489,7 @@ export default function Hero() {
             motion={motion}
             reducedMotion={prefersReducedMotion}
             isMobile={isMobile}
-            active={sceneActive}
+            active={graphicsActive}
           />
         </div>
 

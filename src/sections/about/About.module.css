@@ -512,8 +512,8 @@
   .sequence { height: 610svh; }
   .stage { min-height: 31rem; }
   .stage::after { background-size: 4rem 4rem; }
-  .layer { padding: 5.5rem 1.15rem 1.5rem; }
-  .opening .micro { top: 5.7rem; left: 1.15rem; }
+  .layer { padding: 8rem 1.15rem 1.5rem; }
+  .opening .micro, .identity .micro { top: 8rem; left: 1.15rem; }
   .openingStatement { width: calc(100vw - 2.3rem); font-size: clamp(2.45rem, 13.5vw, 4.3rem); line-height: 0.88; }
   .openingStatement span:last-child { margin: 0.25rem 0 0; }
   .identity { justify-content: center; }
@@ -552,7 +552,7 @@
   .question { bottom: 8vh; font-size: min(74vw, 19rem); }
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce), (max-height: 600px) {
   .sequence { display: none; }
   .editorial {
     display: block;
@@ -590,7 +590,7 @@
   .editorialQuestion { display: block; margin-top: 2rem; color: transparent; font-size: clamp(8rem, 30vw, 20rem); line-height: 0.8; -webkit-text-stroke: 1px rgb(207 232 242 / 55%); }
 }
 
-@media (prefers-reduced-motion: reduce) and (max-width: 600px) {
+@media (prefers-reduced-motion: reduce) and (max-width: 600px), (max-height: 600px) and (max-width: 600px) {
   .editorialArtifacts { grid-template-columns: 1fr; }
   .processEditorial { display: grid; grid-template-columns: 1fr 1fr; }
   .processEditorial li:not(:last-child)::after { display: none; }

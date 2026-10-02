@@ -6,6 +6,7 @@ import MediFitFeature from "./MediFitFeature";
 import MediTwinFeature from "./MediTwinFeature";
 import ProjectHandoff, { WorkCoordinate, WorkExit } from "./WorkNavigation";
 import SatQueryFeature from "./SatQueryFeature";
+import WorkAssets from "./WorkAssets";
 import styles from "./Work.module.css";
 
 const projects = [
@@ -26,6 +27,7 @@ export default function Work() {
       data-visual-tone="work"
     >
       <SectionField tone="work" />
+      <WorkAssets />
       <WorkCoordinate projects={projects} />
 
       <div className={styles.projectSlot} data-work-project="0">

@@ -12,6 +12,9 @@ type ViewportState = {
   width: number;
   height: number;
   isMobile: boolean;
+  hasFinePointer: boolean;
+  isShort: boolean;
+  isDocumentVisible: boolean;
   prefersReducedMotion: boolean;
 };
 
@@ -21,6 +24,9 @@ const initialViewport: ViewportState = {
   width: 0,
   height: 0,
   isMobile: false,
+  hasFinePointer: false,
+  isShort: false,
+  isDocumentVisible: true,
   prefersReducedMotion: true,
 };
 
@@ -41,12 +47,17 @@ export default function ViewportProvider({ children }: { children: ReactNode }) 
 
   useEffect(() => {
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
+    let resizeFrame = 0;
 
     function update() {
       const nextViewport = {
         width: window.innerWidth,
         height: window.innerHeight,
         isMobile: window.innerWidth < MOBILE_BREAKPOINT,
+        hasFinePointer: finePointer.matches,
+        isShort: window.innerHeight <= 600,
+        isDocumentVisible: document.visibilityState === "visible",
         prefersReducedMotion: reducedMotion.matches,
       };
 
@@ -54,6 +65,9 @@ export default function ViewportProvider({ children }: { children: ReactNode }) 
         current.width === nextViewport.width &&
         current.height === nextViewport.height &&
         current.isMobile === nextViewport.isMobile &&
+        current.hasFinePointer === nextViewport.hasFinePointer &&
+        current.isShort === nextViewport.isShort &&
+        current.isDocumentVisible === nextViewport.isDocumentVisible &&
         current.prefersReducedMotion === nextViewport.prefersReducedMotion
           ? current
           : nextViewport,
@@ -61,12 +75,21 @@ export default function ViewportProvider({ children }: { children: ReactNode }) 
     }
 
     update();
-    window.addEventListener("resize", update);
+    const onResize = () => {
+      cancelAnimationFrame(resizeFrame);
+      resizeFrame = requestAnimationFrame(update);
+    };
+    window.addEventListener("resize", onResize, { passive: true });
     reducedMotion.addEventListener("change", update);
+    finePointer.addEventListener("change", update);
+    document.addEventListener("visibilitychange", update);
 
     return () => {
-      window.removeEventListener("resize", update);
+      cancelAnimationFrame(resizeFrame);
+      window.removeEventListener("resize", onResize);
       reducedMotion.removeEventListener("change", update);
+      finePointer.removeEventListener("change", update);
+      document.removeEventListener("visibilitychange", update);
     };
   }, []);
 

@@ -206,6 +206,7 @@
 .secondaryActions a {
   display: flex;
   min-width: 10rem;
+  min-height: 44px;
   flex: 1;
   align-items: center;
   justify-content: space-between;
@@ -286,11 +287,11 @@
 @media (max-width: 767px) {
   .sequence { height: 360svh; }
   .stage { min-height: 31rem; }
-  .layer { padding: 5.5rem 1.15rem 1.5rem; }
-  .opening .micro { top: 5.7rem; left: 1.15rem; }
+  .layer { padding: 8rem 1.15rem 1.5rem; }
+  .opening .micro { top: 8rem; left: 1.15rem; }
   .opening > p:last-child { bottom: 12vh; }
   .question { align-items: center; }
-  .question .micro { top: 5.8rem; }
+  .question .micro { top: 8rem; }
   .questionType p { font-size: clamp(3.7rem, 18vw, 5.4rem); line-height: 0.72; }
   .invitation { padding-bottom: 8.5rem; }
   .invitation > p { font-size: clamp(1.15rem, 5.4vw, 1.55rem); }
@@ -298,7 +299,7 @@
   .actions { width: 100%; flex-direction: column; }
   .emailAction { width: 100%; min-width: 0; min-height: 3.8rem; }
   .secondaryActions { flex-direction: row; }
-  .secondaryActions a { min-width: 0; min-height: 2.7rem; }
+  .secondaryActions a { min-width: 0; min-height: 44px; }
   .secondaryActions a + a { border-top: 0; border-left: 1px solid rgb(164 208 226 / 12%); }
   .monument { right: -0.65em; bottom: 19vh; left: -0.08em; font-size: clamp(7.8rem, 39vw, 12rem); letter-spacing: -0.12em; }
   .monumentLit { mask-image: none; opacity: 0.4; }
@@ -311,7 +312,7 @@
   .monumentLit { mask-image: none; opacity: 0.32; }
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce), (max-height: 600px) {
   .sequence { display: none; }
   .editorial {
     display: block;
@@ -355,7 +356,7 @@
   }
 }
 
-@media (prefers-reduced-motion: reduce) and (max-width: 600px) {
+@media (prefers-reduced-motion: reduce) and (max-width: 600px), (max-height: 600px) and (max-width: 600px) {
   .editorial .actions { flex-direction: column; }
   .editorial .emailAction { width: 100%; min-width: 0; }
   .editorial .secondaryActions { flex-direction: row; }

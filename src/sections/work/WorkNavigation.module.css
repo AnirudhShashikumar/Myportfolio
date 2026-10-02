@@ -91,6 +91,9 @@
   padding: clamp(6.5rem, 12vh, 9rem) clamp(2rem, 6vw, 7rem) clamp(5rem, 8vh, 7rem);
   isolation: isolate;
   pointer-events: none;
+}
+
+.handoff[data-handoff-active] .world {
   will-change: transform, opacity;
 }
 
@@ -143,7 +146,6 @@
 .worldGeometry {
   position: relative;
   z-index: 1;
-  will-change: transform;
 }
 
 .worldCopy {
@@ -212,7 +214,6 @@
   justify-self: end;
   color: var(--world-accent);
   opacity: 0.78;
-  filter: drop-shadow(0 0 2.4rem color-mix(in srgb, var(--world-accent) 14%, transparent));
 }
 
 .worldGeometry svg {
@@ -278,7 +279,6 @@
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  backdrop-filter: blur(10px);
 }
 
 .midpoint > span,
@@ -318,7 +318,6 @@
   font-size: 0.58rem;
   letter-spacing: 0.12em;
   pointer-events: none;
-  will-change: transform;
 }
 
 .foregroundRail i {
@@ -371,12 +370,11 @@
   gap: 1.4rem;
   padding: 0.72rem 0.9rem;
   border: 1px solid rgb(174 214 231 / 15%);
-  background: rgb(6 10 14 / 82%);
+  background: rgb(6 10 14 / 94%);
   box-shadow: 0 0.8rem 2.8rem rgb(0 0 0 / 22%);
   opacity: 0;
   pointer-events: none;
   transform: translateX(50%);
-  backdrop-filter: blur(9px);
 }
 
 .coordinateIdentity {
@@ -423,14 +421,13 @@
   position: absolute;
   z-index: 2;
   top: 50%;
-  left: 0;
+  left: 0.74rem;
   width: 0.34rem;
   height: 0.34rem;
   border-radius: 50%;
   background: #d9f3fb;
   box-shadow: 0 0 1rem rgb(145 218 242 / 84%);
   transform: translate3d(var(--work-coordinate-x), -50%, 0) translateX(-50%);
-  will-change: transform;
 }
 
 .coordinateNode {
@@ -586,7 +583,7 @@
   }
 
   .workCoordinate {
-    bottom: 0.7rem;
+    bottom: max(0.7rem, env(safe-area-inset-bottom));
     width: min(22rem, calc(100vw - 1.25rem));
     grid-template-columns: minmax(0, 1fr);
     gap: 0.5rem;
@@ -609,12 +606,29 @@
     font-size: 0.42rem;
   }
 
+  .coordinateTraveler { left: 0.625rem; }
+
   .workExit {
     min-height: 36svh;
     grid-template-columns: auto minmax(3rem, 1fr) auto;
     padding-inline: 1.25rem;
     font-size: 0.49rem;
   }
+}
+
+@media (max-height: 600px) {
+  .world {
+    padding-block: 5rem 2rem;
+    gap: 1.5rem;
+  }
+  .worldTitle { font-size: clamp(2.2rem, 6vw, 4rem); }
+  .worldGeometry { width: min(40vw, 28rem); }
+  .nextSignal, .arrivalSignal { margin-top: 1rem; }
+  .foregroundRail { bottom: 4%; }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .midpoint { background: rgb(5 9 13 / 96%); }
 }
 
 @media (prefers-reduced-motion: reduce) {

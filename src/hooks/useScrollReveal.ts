@@ -7,12 +7,11 @@ import { useViewport } from "@/components/system/ViewportProvider";
 
 export default function useScrollReveal() {
   const element = useRef<HTMLDivElement>(null);
-  const revealed = useRef(false);
   const { width, isMobile, prefersReducedMotion } = useViewport();
   const ready = width > 0;
 
   useEffect(() => {
-    if (!ready || prefersReducedMotion || revealed.current || !element.current) return;
+    if (!ready || prefersReducedMotion || !element.current) return;
 
     gsap.registerPlugin(ScrollTrigger);
     const target = element.current;
@@ -26,10 +25,8 @@ export default function useScrollReveal() {
         scrollTrigger: {
           trigger: target,
           start: "top 85%",
-          once: true,
-          onEnter: () => {
-            revealed.current = true;
-          },
+          end: "top 60%",
+          scrub: true,
         },
       });
     }, target);

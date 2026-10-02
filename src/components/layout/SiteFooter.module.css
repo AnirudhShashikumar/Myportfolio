@@ -21,6 +21,9 @@
 .inner p { margin: 0; }
 
 .inner a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
   color: #b5cbd4;
   text-decoration: none;
   transition: color 180ms ease;

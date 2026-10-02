@@ -17,13 +17,6 @@
   position: relative;
 }
 
-.motionRoot[data-mf-motion="active"] [data-mf-context-node],
-.motionRoot[data-mf-motion="active"] [data-mf-story-block],
-.motionRoot[data-mf-motion="active"] [data-mf-certificate],
-.motionRoot[data-mf-motion="active"] [data-mf-team-evidence] {
-  will-change: transform, opacity, clip-path;
-}
-
 /* ---- Typography tokens ---- */
 .eyebrow,
 .bridgeAxis,

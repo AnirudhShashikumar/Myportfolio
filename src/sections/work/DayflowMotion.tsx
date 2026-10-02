@@ -2,10 +2,11 @@
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import { useEffect, useRef, type ReactNode } from "react";
 import styles from "./DayflowFeature.module.css";
 
-const DESKTOP_MOTION = "(min-width: 901px) and (prefers-reduced-motion: no-preference)";
+const DESKTOP_MOTION = "(min-width: 901px) and (min-height: 601px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)";
 
 export default function DayflowMotion({ children }: { children: ReactNode }) {
   const rootRef = useRef<HTMLDivElement>(null);
@@ -42,7 +43,9 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
             scrollTrigger: {
               trigger: entry,
               start: "top 76%",
-              toggleActions: "play none none reverse",
+              end: "top 24%",
+              scrub: true,
+              invalidateOnRefresh: true,
             },
           });
 
@@ -92,7 +95,9 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
             scrollTrigger: {
               trigger: workspaces,
               start: "top 72%",
-              toggleActions: "play none none reverse",
+              end: "top 24%",
+              scrub: true,
+              invalidateOnRefresh: true,
             },
           })
             .fromTo("[data-df-workspaces-heading]", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.44 })
@@ -113,13 +118,15 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
         if (architecture && architectureNodes.length) {
           gsap.set(architectureNodes, { autoAlpha: 0.38, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" });
           gsap.set(architectureLines, { scaleX: 0, transformOrigin: "left center" });
-          gsap.set(architectureSignals, { autoAlpha: 0, left: "0%" });
+          gsap.set(architectureSignals, { autoAlpha: 0, x: 0 });
 
           const architectureTimeline = gsap.timeline({
             scrollTrigger: {
               trigger: architecture,
               start: "top 78%",
-              toggleActions: "play none none reverse",
+              end: "top 24%",
+              scrub: true,
+              invalidateOnRefresh: true,
             },
           });
 
@@ -137,7 +144,7 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
               architectureTimeline.fromTo(line, { scaleX: 0, transformOrigin: "left center" }, { scaleX: 1, duration: 0.28, ease: "power1.inOut" }, ">-0.05");
             }
             if (signal) {
-              architectureTimeline.fromTo(signal, { autoAlpha: 0, left: "0%" }, { autoAlpha: 1, left: "100%", duration: 0.28, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.08 });
+              architectureTimeline.fromTo(signal, { autoAlpha: 0, x: 0 }, { autoAlpha: 1, x: (_index: number, element: HTMLElement) => element.parentElement?.clientWidth ?? 0, duration: 0.28, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.08 });
             }
           });
         }
@@ -153,7 +160,9 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
             scrollTrigger: {
               trigger: authorization,
               start: "top 80%",
-              toggleActions: "play none none reverse",
+              end: "top 24%",
+              scrub: true,
+              invalidateOnRefresh: true,
             },
           })
             .fromTo("[data-df-authorization-title] span:first-child", { autoAlpha: 0, x: -16 }, { autoAlpha: 1, x: 0, duration: 0.34 })
@@ -170,13 +179,15 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
         if (transaction && transactionNodes.length) {
           gsap.set(transactionNodes, { autoAlpha: 0.35, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" });
           gsap.set(transactionLines, { scaleX: 0, transformOrigin: "left center" });
-          gsap.set(transactionSignals, { autoAlpha: 0, left: "0%" });
+          gsap.set(transactionSignals, { autoAlpha: 0, x: 0 });
 
           const transactionTimeline = gsap.timeline({
             scrollTrigger: {
               trigger: transaction,
               start: "top 80%",
-              toggleActions: "play none none reverse",
+              end: "top 24%",
+              scrub: true,
+              invalidateOnRefresh: true,
             },
           });
 
@@ -194,7 +205,7 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
               transactionTimeline.fromTo(line, { scaleX: 0, transformOrigin: "left center" }, { scaleX: 1, duration: 0.22, ease: "power1.inOut" }, ">-0.04");
             }
             if (signal) {
-              transactionTimeline.fromTo(signal, { autoAlpha: 0, left: "0%" }, { autoAlpha: 1, left: "100%", duration: 0.22, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.06 });
+              transactionTimeline.fromTo(signal, { autoAlpha: 0, x: 0 }, { autoAlpha: 1, x: (_index: number, element: HTMLElement) => element.parentElement?.clientWidth ?? 0, duration: 0.22, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.06 });
             }
           });
 
@@ -218,7 +229,9 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
             scrollTrigger: {
               trigger: verification,
               start: "top 78%",
-              toggleActions: "play none none reverse",
+              end: "top 24%",
+              scrub: true,
+              invalidateOnRefresh: true,
             },
           })
             .fromTo("[data-df-verification-title] span:first-child", { autoAlpha: 0, y: 14 }, { autoAlpha: 1, y: 0, duration: 0.38 })
@@ -229,7 +242,7 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
             .fromTo("[data-df-verification-pending]", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.3 }, ">-0.02");
         }
 
-        ScrollTrigger.refresh();
+        scheduleScrollRefresh();
 
         return () => {
           delete root.dataset.dfMotion;

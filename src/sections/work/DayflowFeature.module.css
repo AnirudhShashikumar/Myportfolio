@@ -10,12 +10,6 @@
   position: relative;
 }
 
-.motionRoot[data-df-motion="active"] [data-df-workspace-frame],
-.motionRoot[data-df-motion="active"] [data-df-architecture-node],
-.motionRoot[data-df-motion="active"] [data-df-transaction-node] {
-  will-change: transform, opacity;
-}
-
 .eyebrow,
 .bridgeAxis,
 .projectType,

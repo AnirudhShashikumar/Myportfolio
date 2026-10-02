@@ -29,7 +29,7 @@ body {
 
 body {
   margin: 0;
-  min-height: 100vh;
+  min-height: 100svh;
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
@@ -130,7 +130,7 @@ section[id] {
 
 .site-header {
   background: transparent;
-  transition: background-color 250ms ease, border-color 250ms ease, backdrop-filter 250ms ease;
+  transition: background-color 250ms ease, border-color 250ms ease;
 }
 
 .site-header[data-scrolled] {
@@ -142,13 +142,15 @@ section[id] {
 .site-nav-link {
   position: relative;
   display: inline-block;
+  min-height: 44px;
+  align-content: center;
   transition: color 200ms ease, transform 200ms ease;
 }
 
 .site-nav-link::after {
   position: absolute;
   right: 0;
-  bottom: -0.35rem;
+  bottom: 0.2rem;
   left: 0;
   height: 1px;
   background: var(--accent);

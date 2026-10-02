@@ -29,7 +29,7 @@ export default function WorkTransition() {
             trigger: transition.current,
             start: "top 88%",
             end: "top 35%",
-            scrub: 0.45,
+            scrub: true,
           },
         },
       );

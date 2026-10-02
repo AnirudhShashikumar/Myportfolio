@@ -362,6 +362,7 @@ export default function IntelligenceScene({
   const ringAssembly = useRef<Group>(null);
   const midAssembly = useRef<Group>(null);
   const nearAssembly = useRef<Group>(null);
+  const parallax = useRef({ farZ: 0, ringX: 0, ringY: 0, midZ: 0, nearX: 0, nearY: 0, nearRotationY: 0 });
 
   const ringGeometry = useRef<BufferGeometry>(null);
   const orbitGeometry = useRef<BufferGeometry>(null);
@@ -391,6 +392,7 @@ export default function IntelligenceScene({
 
   useFrame(({ clock }, delta) => {
     if (!core.current) return;
+    delta = reducedMotion ? 1 : Math.min(delta, 1 / 30);
 
     const elapsed = clock.elapsedTime;
     const intro = reducedMotion ? 1 : motion.current.intro;
@@ -412,32 +414,21 @@ export default function IntelligenceScene({
     const baseY = isMobile ? 0.08 : 0.1;
     const baseScale = isMobile ? 0.82 : 1.25;
 
-    core.current.position.x = MathUtils.damp(
-      core.current.position.x,
-      baseX + evidence * 0.16,
-      2.4,
-      delta,
-    );
-    core.current.position.y = MathUtils.damp(
-      core.current.position.y,
-      baseY + evidence * 0.08,
-      2.4,
-      delta,
-    );
-    core.current.position.z = MathUtils.damp(core.current.position.z, -evidence * 0.58, 2.2, delta);
+    core.current.position.set(baseX + evidence * 0.16, baseY + evidence * 0.08, -evidence * 0.58);
     core.current.scale.setScalar(
       baseScale * (0.92 + formation * 0.08) * (1 + evidence * 0.07),
     );
 
     if (farAssembly.current) {
-      farAssembly.current.position.x = MathUtils.damp(farAssembly.current.position.x, -evidence * 0.42, 2, delta);
-      farAssembly.current.position.y = MathUtils.damp(farAssembly.current.position.y, evidence * 0.16, 2, delta);
-      farAssembly.current.rotation.z = MathUtils.damp(
-        farAssembly.current.rotation.z,
-        (1 - organization) * 0.16 + pointer.current.x * 0.006 * pointerScale,
+      farAssembly.current.position.x = -evidence * 0.42;
+      farAssembly.current.position.y = evidence * 0.16;
+      parallax.current.farZ = MathUtils.damp(
+        parallax.current.farZ,
+        pointer.current.x * 0.006 * pointerScale,
         1.35,
         delta,
       );
+      farAssembly.current.rotation.z = (1 - organization) * 0.16 + parallax.current.farZ;
       farAssembly.current.rotation.x = MathUtils.damp(
         farAssembly.current.rotation.x,
         pointer.current.y * -0.005 * pointerScale,
@@ -448,29 +439,32 @@ export default function IntelligenceScene({
 
     if (ringAssembly.current) {
       const ringDrift = reducedMotion ? 0 : Math.sin(elapsed * 0.075) * 0.009;
-      ringAssembly.current.rotation.x = MathUtils.damp(
-        ringAssembly.current.rotation.x,
-        (1 - organization) * -0.075 + pointer.current.y * -0.011 * pointerScale,
+      parallax.current.ringX = MathUtils.damp(
+        parallax.current.ringX,
+        pointer.current.y * -0.011 * pointerScale,
         1.15,
         delta,
       );
-      ringAssembly.current.rotation.y = MathUtils.damp(
-        ringAssembly.current.rotation.y,
-        (1 - organization) * 0.1 + pointer.current.x * 0.014 * pointerScale,
+      ringAssembly.current.rotation.x = (1 - organization) * -0.075 + parallax.current.ringX;
+      parallax.current.ringY = MathUtils.damp(
+        parallax.current.ringY,
+        pointer.current.x * 0.014 * pointerScale,
         1.15,
         delta,
       );
+      ringAssembly.current.rotation.y = (1 - organization) * 0.1 + parallax.current.ringY;
       ringAssembly.current.rotation.z = ringDrift;
     }
 
     if (midAssembly.current) {
-      midAssembly.current.position.x = MathUtils.damp(midAssembly.current.position.x, evidence * 0.18, 2, delta);
-      midAssembly.current.rotation.z = MathUtils.damp(
-        midAssembly.current.rotation.z,
-        (1 - organization) * -0.1 + pointer.current.x * 0.012 * pointerScale,
+      midAssembly.current.position.x = evidence * 0.18;
+      parallax.current.midZ = MathUtils.damp(
+        parallax.current.midZ,
+        pointer.current.x * 0.012 * pointerScale,
         1.25,
         delta,
       );
+      midAssembly.current.rotation.z = (1 - organization) * -0.1 + parallax.current.midZ;
       midAssembly.current.rotation.x = MathUtils.damp(
         midAssembly.current.rotation.x,
         pointer.current.y * -0.014 * pointerScale,
@@ -480,24 +474,27 @@ export default function IntelligenceScene({
     }
 
     if (nearAssembly.current) {
-      nearAssembly.current.position.x = MathUtils.damp(
-        nearAssembly.current.position.x,
-        evidence * 0.48 + pointer.current.x * 0.035 * pointerScale,
+      parallax.current.nearX = MathUtils.damp(
+        parallax.current.nearX,
+        pointer.current.x * 0.035 * pointerScale,
         1.7,
         delta,
       );
-      nearAssembly.current.position.y = MathUtils.damp(
-        nearAssembly.current.position.y,
-        -evidence * 0.2 + pointer.current.y * 0.022 * pointerScale,
+      nearAssembly.current.position.x = evidence * 0.48 + parallax.current.nearX;
+      parallax.current.nearY = MathUtils.damp(
+        parallax.current.nearY,
+        pointer.current.y * 0.022 * pointerScale,
         1.7,
         delta,
       );
-      nearAssembly.current.rotation.y = MathUtils.damp(
-        nearAssembly.current.rotation.y,
-        (1 - organization) * -0.12 + pointer.current.x * 0.026 * pointerScale,
+      nearAssembly.current.position.y = -evidence * 0.2 + parallax.current.nearY;
+      parallax.current.nearRotationY = MathUtils.damp(
+        parallax.current.nearRotationY,
+        pointer.current.x * 0.026 * pointerScale,
         1.05,
         delta,
       );
+      nearAssembly.current.rotation.y = (1 - organization) * -0.12 + parallax.current.nearRotationY;
       nearAssembly.current.rotation.x = MathUtils.damp(
         nearAssembly.current.rotation.x,
         pointer.current.y * -0.02 * pointerScale,

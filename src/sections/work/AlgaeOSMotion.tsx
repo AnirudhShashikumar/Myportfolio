@@ -4,16 +4,17 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, type ReactNode } from "react";
 import { useViewport } from "@/components/system/ViewportProvider";
+import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import styles from "./AlgaeOSFeature.module.css";
 
 export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
   const feature = useRef<HTMLDivElement>(null);
-  const { width, isMobile, prefersReducedMotion } = useViewport();
+  const { width, isMobile, hasFinePointer, isShort, prefersReducedMotion } = useViewport();
   const ready = width > 0;
 
   useEffect(() => {
     const root = feature.current;
-    if (!root || !ready || isMobile || prefersReducedMotion) return;
+    if (!root || !ready || isMobile || !hasFinePointer || isShort || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -37,7 +38,7 @@ export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
               trigger: flow,
               start: "top 85%",
               end: "bottom 35%",
-              scrub: 0.45,
+              scrub: true,
               invalidateOnRefresh: true,
             },
           },
@@ -55,7 +56,7 @@ export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
             repeat: 1,
             yoyo: true,
             ease: "sine.inOut",
-            scrollTrigger: { trigger: flow, start: "top 70%", once: true },
+            scrollTrigger: { trigger: flow, start: "top 80%", end: "top 20%", scrub: true },
           },
         );
       }
@@ -71,7 +72,7 @@ export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
               trigger: telemetry,
               start: "top 90%",
               end: "top 60%",
-              scrub: 0.45,
+              scrub: true,
             },
           },
         );
@@ -87,7 +88,7 @@ export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
             duration: 0.65,
             stagger: 0.09,
             ease: "power1.out",
-            scrollTrigger: { trigger: statement, start: "top 87%", once: true },
+            scrollTrigger: { trigger: statement, start: "top 87%", end: "top 60%", scrub: true },
           },
         );
       }
@@ -104,7 +105,7 @@ export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
               trigger: prototypeImage,
               start: "top bottom",
               end: "bottom top",
-              scrub: 0.6,
+              scrub: true,
             },
           },
         );
@@ -113,17 +114,16 @@ export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
       reveals.forEach((item) => {
         gsap.fromTo(
           item,
-          { opacity: 0.72, y: 20, clipPath: "inset(0 0 7% 0)" },
+          { opacity: 0.72, y: 20 },
           {
             opacity: 1,
             y: 0,
-            clipPath: "inset(0 0 0 0)",
             ease: "none",
             scrollTrigger: {
               trigger: item,
               start: "top 90%",
               end: "top 57%",
-              scrub: 0.4,
+              scrub: true,
               invalidateOnRefresh: true,
             },
           },
@@ -131,10 +131,10 @@ export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
       });
     }, root);
 
-    ScrollTrigger.refresh();
+    scheduleScrollRefresh();
 
     return () => context.revert();
-  }, [ready, isMobile, prefersReducedMotion]);
+  }, [ready, isMobile, hasFinePointer, isShort, prefersReducedMotion]);
 
   return <div ref={feature} className={styles.motionRoot}>{children}</div>;
 }

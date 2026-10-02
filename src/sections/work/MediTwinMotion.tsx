@@ -2,10 +2,11 @@
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import { useEffect, useRef, type ReactNode } from "react";
 import styles from "./MediTwinFeature.module.css";
 
-const DESKTOP_MOTION = "(min-width: 901px) and (prefers-reduced-motion: no-preference)";
+const DESKTOP_MOTION = "(min-width: 901px) and (min-height: 601px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)";
 
 export default function MediTwinMotion({ children }: { children: ReactNode }) {
   const rootRef = useRef<HTMLDivElement>(null);
@@ -24,7 +25,8 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
         const one = <T extends Element>(selector: string) => root.querySelector<T>(selector);
         const all = <T extends Element>(selector: string) => gsap.utils.toArray<T>(selector, root);
         const triggerDefaults = {
-          toggleActions: "play none none reverse",
+          end: "top 24%",
+          scrub: true,
           invalidateOnRefresh: true,
         } as const;
 
@@ -35,7 +37,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
         if (bridge && bridgeLine && bridgeSignal) {
           gsap.set("[data-mt-bridge-label], [data-mt-bridge-from], [data-mt-bridge-to]", { autoAlpha: 0 });
           gsap.set(bridgeLine, { scaleX: 0, transformOrigin: "left center" });
-          gsap.set(bridgeSignal, { autoAlpha: 0, left: "0%" });
+          gsap.set(bridgeSignal, { autoAlpha: 0, x: 0 });
 
           gsap.timeline({
             defaults: { ease: "power2.out" },
@@ -44,7 +46,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
             .fromTo("[data-mt-bridge-label]", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.3 })
             .fromTo("[data-mt-bridge-from]", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.3 }, ">-0.08")
             .fromTo(bridgeLine, { scaleX: 0 }, { scaleX: 1, duration: 0.62, ease: "power1.inOut" })
-            .fromTo(bridgeSignal, { autoAlpha: 0, left: "0%" }, { autoAlpha: 1, left: "100%", duration: 0.58, ease: "none" }, "<")
+            .fromTo(bridgeSignal, { autoAlpha: 0, x: 0 }, { autoAlpha: 1, x: (_index: number, element: HTMLElement) => element.parentElement?.clientWidth ?? 0, duration: 0.58, ease: "none" }, "<")
             .to(bridgeSignal, { autoAlpha: 0, duration: 0.08 })
             .fromTo("[data-mt-bridge-to]", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.34 }, ">-0.12");
         }
@@ -132,7 +134,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
           gsap.set("[data-mt-personal-context]", { autoAlpha: 0, x: -10 });
           gsap.set("[data-mt-digital-twin]", { autoAlpha: 0, x: 10 });
           gsap.set(syncLine, { scaleX: 0, transformOrigin: "left center" });
-          gsap.set(syncSignal, { autoAlpha: 0, left: "0%" });
+          gsap.set(syncSignal, { autoAlpha: 0, x: 0 });
 
           gsap.timeline({
             defaults: { ease: "power2.out" },
@@ -148,7 +150,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
             .fromTo("[data-mt-personal-context]", { autoAlpha: 0, x: -10 }, { autoAlpha: 1, x: 0, duration: 0.32 })
             .fromTo("[data-mt-digital-twin]", { autoAlpha: 0, x: 10 }, { autoAlpha: 1, x: 0, duration: 0.36 }, ">-0.08")
             .fromTo(syncLine, { scaleX: 0 }, { scaleX: 1, duration: 0.44, ease: "power1.inOut" }, ">-0.08")
-            .fromTo(syncSignal, { autoAlpha: 0, left: "0%" }, { autoAlpha: 1, left: "100%", duration: 0.48, ease: "none" }, "<")
+            .fromTo(syncSignal, { autoAlpha: 0, x: 0 }, { autoAlpha: 1, x: (_index: number, element: HTMLElement) => element.parentElement?.clientWidth ?? 0, duration: 0.48, ease: "none" }, "<")
             .to(syncSignal, { autoAlpha: 0, duration: 0.08 });
         }
 
@@ -161,7 +163,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
           gsap.set("[data-mt-concept-heading]", { autoAlpha: 0, clipPath: "inset(0 100% 0 0)" });
           gsap.set(conceptStages, { autoAlpha: 0.3, y: 10, borderColor: "rgba(132, 198, 217, 0.12)" });
           gsap.set(conceptConnectors, { scaleX: 0, transformOrigin: "left center" });
-          gsap.set(conceptSignals, { autoAlpha: 0, left: "0%" });
+          gsap.set(conceptSignals, { autoAlpha: 0, x: 0 });
 
           const conceptTimeline = gsap.timeline({
             scrollTrigger: { trigger: concept, start: "top 80%", ...triggerDefaults },
@@ -183,7 +185,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
               conceptTimeline.fromTo(connector, { scaleX: 0 }, { scaleX: 1, duration: 0.3, ease: "power1.inOut" }, ">-0.05");
             }
             if (signal) {
-              conceptTimeline.fromTo(signal, { autoAlpha: 0, left: "0%" }, { autoAlpha: 1, left: "100%", duration: 0.3, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.06 });
+              conceptTimeline.fromTo(signal, { autoAlpha: 0, x: 0 }, { autoAlpha: 1, x: (_index: number, element: HTMLElement) => element.parentElement?.clientWidth ?? 0, duration: 0.3, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.06 });
             }
           });
         }
@@ -196,7 +198,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
         if (transformation && transformationStages.length) {
           gsap.set(transformationStages, { autoAlpha: 0.28, y: 9 });
           gsap.set(storyConnectors, { scaleX: 0, transformOrigin: "left center" });
-          gsap.set(storySignals, { autoAlpha: 0, left: "0%" });
+          gsap.set(storySignals, { autoAlpha: 0, x: 0 });
 
           const storyTimeline = gsap.timeline({
             scrollTrigger: { trigger: transformation, start: "top 82%", ...triggerDefaults },
@@ -211,7 +213,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
               storyTimeline.fromTo(connector, { scaleX: 0 }, { scaleX: 1, duration: 0.34, ease: "power1.inOut" }, ">-0.04");
             }
             if (signal) {
-              storyTimeline.fromTo(signal, { autoAlpha: 0, left: "0%" }, { autoAlpha: 1, left: "100%", duration: 0.34, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.06 });
+              storyTimeline.fromTo(signal, { autoAlpha: 0, x: 0 }, { autoAlpha: 1, x: (_index: number, element: HTMLElement) => element.parentElement?.clientWidth ?? 0, duration: 0.34, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.06 });
             }
           });
         }
@@ -227,7 +229,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
           gsap.set("[data-mt-team-caption], [data-mt-execution-label], [data-mt-execution-title], [data-mt-execution-copy], [data-mt-execution-organizer]", { autoAlpha: 0, y: 8 });
           gsap.set("[data-mt-time]", { autoAlpha: 0 });
           gsap.set(timeLine, { scaleX: 0 });
-          gsap.set(timeSignal, { autoAlpha: 0, left: "0%" });
+          gsap.set(timeSignal, { autoAlpha: 0, x: 0 });
 
           gsap.timeline({
             defaults: { ease: "power2.out" },
@@ -240,7 +242,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
             .fromTo("[data-mt-execution-title]", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, stagger: 0.12, duration: 0.36 }, ">-0.08")
             .fromTo("[data-mt-time]", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.28 }, ">-0.04")
             .fromTo(timeLine, { scaleX: 0 }, { scaleX: 1, duration: 0.58, ease: "power1.inOut" }, "<+0.08")
-            .fromTo(timeSignal, { autoAlpha: 0, left: "0%" }, { autoAlpha: 1, left: "100%", duration: 0.58, ease: "none" }, "<")
+            .fromTo(timeSignal, { autoAlpha: 0, x: 0 }, { autoAlpha: 1, x: (_index: number, element: HTMLElement) => element.parentElement?.clientWidth ?? 0, duration: 0.58, ease: "none" }, "<")
             .to(timeSignal, { autoAlpha: 0, duration: 0.08 })
             .fromTo("[data-mt-execution-copy]", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.34 }, ">-0.08")
             .fromTo("[data-mt-execution-organizer]", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.28 }, ">-0.1");
@@ -259,7 +261,7 @@ export default function MediTwinMotion({ children }: { children: ReactNode }) {
             .fromTo("[data-mt-cta]", { autoAlpha: 0, x: -8 }, { autoAlpha: 1, x: 0, duration: 0.34 }, ">-0.12");
         }
 
-        ScrollTrigger.refresh();
+        scheduleScrollRefresh();
 
         return () => {
           delete root.dataset.mtMotion;

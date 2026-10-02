@@ -2,10 +2,11 @@
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import { useEffect, useRef, type ReactNode } from "react";
 import styles from "./MediFitFeature.module.css";
 
-const DESKTOP_MOTION = "(min-width: 901px) and (prefers-reduced-motion: no-preference)";
+const DESKTOP_MOTION = "(min-width: 901px) and (min-height: 601px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)";
 
 export default function MediFitMotion({ children }: { children: ReactNode }) {
   const rootRef = useRef<HTMLDivElement>(null);
@@ -24,7 +25,8 @@ export default function MediFitMotion({ children }: { children: ReactNode }) {
         const one = <T extends Element>(selector: string) => root.querySelector<T>(selector);
         const all = <T extends Element>(selector: string) => gsap.utils.toArray<T>(selector, root);
         const triggerDefaults = {
-          toggleActions: "play none none reverse",
+          end: "top 24%",
+          scrub: true,
           invalidateOnRefresh: true,
         } as const;
 
@@ -35,7 +37,7 @@ export default function MediFitMotion({ children }: { children: ReactNode }) {
         if (bridge && bridgeLine && bridgeSignal) {
           gsap.set("[data-mf-bridge-label], [data-mf-bridge-from], [data-mf-bridge-to]", { autoAlpha: 0 });
           gsap.set(bridgeLine, { scaleX: 0, transformOrigin: "left center" });
-          gsap.set(bridgeSignal, { autoAlpha: 0, left: "0%" });
+          gsap.set(bridgeSignal, { autoAlpha: 0, x: 0 });
 
           gsap.timeline({
             defaults: { ease: "power2.out" },
@@ -44,7 +46,7 @@ export default function MediFitMotion({ children }: { children: ReactNode }) {
             .fromTo("[data-mf-bridge-label]", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.28 })
             .fromTo("[data-mf-bridge-from]", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.28 }, ">-0.06")
             .fromTo(bridgeLine, { scaleX: 0 }, { scaleX: 1, duration: 0.56, ease: "power1.inOut" })
-            .fromTo(bridgeSignal, { autoAlpha: 0, left: "0%" }, { autoAlpha: 1, left: "100%", duration: 0.54, ease: "none" }, "<")
+            .fromTo(bridgeSignal, { autoAlpha: 0, x: 0 }, { autoAlpha: 1, x: (_index: number, element: HTMLElement) => element.parentElement?.clientWidth ?? 0, duration: 0.54, ease: "none" }, "<")
             .to(bridgeSignal, { autoAlpha: 0, duration: 0.06 })
             .fromTo("[data-mf-bridge-to]", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.3 }, ">-0.1");
         }
@@ -126,7 +128,7 @@ export default function MediFitMotion({ children }: { children: ReactNode }) {
         if (storyGrid && storyBlocks.length && certificate && teamFrame) {
           gsap.set(storyBlocks, { autoAlpha: 0.25, x: -12, borderColor: "rgba(196, 169, 94, 0.1)" });
           gsap.set(storyConnectors, { scaleY: 0, transformOrigin: "top center" });
-          gsap.set(storySignals, { autoAlpha: 0, top: "0%" });
+          gsap.set(storySignals, { autoAlpha: 0, y: 0 });
           gsap.set("[data-mf-fullstack-title], [data-mf-fullstack-copy]", { autoAlpha: 0, y: 8 });
           gsap.set("[data-mf-fullstack-rule]", { scaleX: 0 });
           gsap.set(buildSegments, { borderColor: "rgba(196, 169, 94, 0.14)", backgroundColor: "rgba(196, 169, 94, 0.03)" });
@@ -159,7 +161,7 @@ export default function MediFitMotion({ children }: { children: ReactNode }) {
               storyTimeline.fromTo(connector, { scaleY: 0 }, { scaleY: 1, duration: 0.2, ease: "power1.inOut" }, ">-0.04");
             }
             if (signal) {
-              storyTimeline.fromTo(signal, { autoAlpha: 0, top: "0%" }, { autoAlpha: 1, top: "100%", duration: 0.2, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.05 });
+              storyTimeline.fromTo(signal, { autoAlpha: 0, y: 0 }, { autoAlpha: 1, y: (_index: number, element: HTMLElement) => element.parentElement?.clientHeight ?? 0, duration: 0.2, ease: "none" }, "<").to(signal, { autoAlpha: 0, duration: 0.05 });
             }
           });
 
@@ -209,7 +211,7 @@ export default function MediFitMotion({ children }: { children: ReactNode }) {
             .fromTo("[data-mf-closing-sub]", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.3 }, ">-0.1");
         }
 
-        ScrollTrigger.refresh();
+        scheduleScrollRefresh();
 
         return () => {
           delete root.dataset.mfMotion;

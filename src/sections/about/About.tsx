@@ -2,6 +2,7 @@
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { useViewport } from "@/components/system/ViewportProvider";
@@ -65,11 +66,13 @@ function ProcessLine({ compact = false }: { compact?: boolean }) {
 
 export default function About() {
   const sequence = useRef<HTMLDivElement>(null);
-  const { width, isMobile, prefersReducedMotion } = useViewport();
+  const { width, isShort, prefersReducedMotion: reducedMotion } = useViewport();
+  const ready = width > 0;
+  const prefersReducedMotion = reducedMotion || isShort;
 
   useEffect(() => {
     const root = sequence.current;
-    if (!root || width === 0 || prefersReducedMotion) return;
+    if (!root || !ready || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
     root.dataset.motion = "active";
@@ -115,8 +118,8 @@ export default function About() {
           scrollTrigger: {
             trigger: root,
             start: "top top",
-            end: "bottom bottom",
-            scrub: isMobile ? 0.25 : 0.55,
+            end: () => `+=${Math.max(1, root.offsetHeight - (root.firstElementChild as HTMLElement).offsetHeight)}`,
+            scrub: true,
             invalidateOnRefresh: true,
           },
         })
@@ -149,13 +152,13 @@ export default function About() {
         .to(question, { autoAlpha: 1, scale: 1, duration: 0.075 }, 0.925);
     }, root);
 
-    ScrollTrigger.refresh();
+    scheduleScrollRefresh();
 
     return () => {
       context.revert();
       delete root.dataset.motion;
     };
-  }, [width, isMobile, prefersReducedMotion]);
+  }, [ready, prefersReducedMotion]);
 
   return (
     <section id="about" className={styles.about} aria-labelledby="about-heading" data-visual-tone="about">
@@ -278,8 +281,8 @@ export default function About() {
           <p className={styles.micro}>TRAJECTORY / 2020 → NEXT</p>
           <p>{journey.map(([year, label]) => `${year} ${label}`).join("  →  ")}</p>
           <div className={styles.editorialArtifacts}>
-            <figure><Image src="/achievements/presidency-html-competition-first-place-2020.jpg" alt="Presidency School first-place HTML competition certificate from 2020" width={9961} height={7068} /><figcaption>ORIGIN / 2020 · FIRST HTML WEBSITE · FIRST PLACE</figcaption></figure>
-            <figure><Image src="/achievements/google-ai-professional-certificate-2026.jpg" alt="Google AI Professional Certificate completed in 2026" width={2338} height={1802} /><figcaption>LEARNING / 2026 · GOOGLE AI PROFESSIONAL CERTIFICATE · 7 COURSES</figcaption></figure>
+            <figure><Image src="/achievements/presidency-html-competition-first-place-2020.jpg" alt="Presidency School first-place HTML competition certificate from 2020" width={9961} height={7068} sizes="(max-width: 767px) 100vw, 45vw" /><figcaption>ORIGIN / 2020 · FIRST HTML WEBSITE · FIRST PLACE</figcaption></figure>
+            <figure><Image src="/achievements/google-ai-professional-certificate-2026.jpg" alt="Google AI Professional Certificate completed in 2026" width={2338} height={1802} sizes="(max-width: 767px) 100vw, 45vw" /><figcaption>LEARNING / 2026 · GOOGLE AI PROFESSIONAL CERTIFICATE · 7 COURSES</figcaption></figure>
           </div>
         </section>
         <section><h3>I LEARN<br />BY BUILDING.</h3><p>I like taking ideas that feel slightly too ambitious — and making them real enough to test.</p></section>

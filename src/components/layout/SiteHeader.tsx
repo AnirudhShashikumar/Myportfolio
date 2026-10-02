@@ -18,8 +18,8 @@ export default function SiteHeader() {
         Skip to content
       </a>
       <header data-site-header className="site-header fixed inset-x-0 top-0 z-40 border-b border-white/10">
-        <Container className="flex flex-wrap items-center justify-between gap-x-8 gap-y-3 py-4">
-          <a href="#home" className="text-xs font-semibold tracking-widest">
+        <Container className="flex flex-wrap items-center justify-between gap-x-8 gap-y-1 py-2">
+          <a href="#home" className="inline-flex min-h-11 items-center text-xs font-semibold tracking-widest">
             ANIRUDH SHASHIKUMAR
           </a>
           <nav aria-label="Primary navigation">

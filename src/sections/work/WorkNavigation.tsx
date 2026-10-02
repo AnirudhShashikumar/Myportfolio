@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
 import { useViewport } from "@/components/system/ViewportProvider";
+import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import styles from "./WorkNavigation.module.css";
 
 type Project = {
@@ -172,7 +173,7 @@ export default function ProjectHandoff({
   restrained = false,
 }: ProjectHandoffProps) {
   const sequenceRef = useRef<HTMLDivElement>(null);
-  const { width, isMobile, prefersReducedMotion } = useViewport();
+  const { width, isMobile, hasFinePointer, prefersReducedMotion } = useViewport();
   const ready = width > 0;
 
   useEffect(() => {
@@ -194,16 +195,18 @@ export default function ProjectHandoff({
 
     if (!outgoing || !incoming || !midpoint) return;
 
-    const distance = restrained ? (isMobile ? 82 : 90) : (isMobile ? 90 : 100);
+    const simplified = isMobile || !hasFinePointer;
+    const distance = restrained ? (simplified ? 82 : 90) : (simplified ? 90 : 100);
     const context = gsap.context(() => {
       const timeline = gsap.timeline({
         defaults: { ease: "none" },
         scrollTrigger: {
           trigger: root,
           start: "top top",
-          end: "bottom bottom",
+          end: () => `+=${Math.max(1, root.offsetHeight - (root.firstElementChild as HTMLElement).offsetHeight)}`,
           scrub: true,
           invalidateOnRefresh: true,
+          onToggle: (self) => root.toggleAttribute("data-handoff-active", self.isActive),
         },
       });
 
@@ -220,25 +223,25 @@ export default function ProjectHandoff({
           { xPercent: 0, opacity: 1, duration: 0.84, ease: "power1.inOut" },
           0,
         )
-        .fromTo(outgoingCopy, { xPercent: 0 }, { xPercent: restrained ? -8 : -16, duration: 0.78, ease: "power1.inOut" }, 0)
-        .fromTo(incomingCopy, { xPercent: restrained ? 8 : 16 }, { xPercent: 0, duration: 0.78, ease: "power1.inOut" }, 0.05)
-        .fromTo(outgoingGeometry, { xPercent: 0 }, { xPercent: restrained ? -4 : -9, duration: 0.84, ease: "power1.inOut" }, 0)
-        .fromTo(incomingGeometry, { xPercent: restrained ? 4 : 9 }, { xPercent: 0, duration: 0.84, ease: "power1.inOut" }, 0)
-        .fromTo(field, { xPercent: 3 }, { xPercent: -8, duration: 1 }, 0)
-        .fromTo(foreground, { xPercent: 10 }, { xPercent: -120, duration: 1, ease: "power1.inOut" }, 0)
+        .fromTo(outgoingCopy, { xPercent: 0 }, { xPercent: simplified ? 0 : restrained ? -8 : -16, duration: 0.78, ease: "power1.inOut" }, 0)
+        .fromTo(incomingCopy, { xPercent: simplified ? 0 : restrained ? 8 : 16 }, { xPercent: 0, duration: 0.78, ease: "power1.inOut" }, 0.05)
+        .fromTo(outgoingGeometry, { xPercent: 0 }, { xPercent: simplified ? 0 : restrained ? -4 : -9, duration: 0.84, ease: "power1.inOut" }, 0)
+        .fromTo(incomingGeometry, { xPercent: simplified ? 0 : restrained ? 4 : 9 }, { xPercent: 0, duration: 0.84, ease: "power1.inOut" }, 0)
+        .fromTo(field, { xPercent: simplified ? 0 : 3 }, { xPercent: simplified ? 0 : -8, duration: 1 }, 0)
+        .fromTo(foreground, { xPercent: 10 }, { xPercent: simplified ? -60 : -120, duration: 1, ease: "power1.inOut" }, 0)
         .fromTo(midpoint, { autoAlpha: 0, scale: 0.96 }, { autoAlpha: 1, scale: 1, duration: 0.14, ease: "power1.out" }, 0.36)
         .to(midpoint, { autoAlpha: 0, scale: 1.025, duration: 0.16, ease: "power1.in" }, 0.56)
         .to({}, { duration: 0.16 }, 0.84);
     }, root);
 
-    const refreshFrame = requestAnimationFrame(() => ScrollTrigger.refresh());
+    scheduleScrollRefresh();
 
     return () => {
-      cancelAnimationFrame(refreshFrame);
       context.revert();
       delete root.dataset.motion;
+      delete root.dataset.handoffActive;
     };
-  }, [isMobile, prefersReducedMotion, ready, restrained]);
+  }, [isMobile, hasFinePointer, prefersReducedMotion, ready, restrained]);
 
   return (
     <div
@@ -317,14 +320,17 @@ export function WorkCoordinate({ projects }: { projects: readonly Project[] }) {
     let ranges: Array<{ start: number; end: number }> = [];
     let railSegment = 0;
     let currentIndex = -1;
+    let currentValue = -1;
 
     const measure = () => {
-      const viewportHeight = window.innerHeight;
       ranges = handoffs.map((handoff) => {
+        const trigger = ScrollTrigger.getAll().find((item) => item.trigger === handoff);
+        if (trigger) return { start: trigger.start, end: trigger.end };
         const start = handoff.getBoundingClientRect().top + window.scrollY;
-        return { start, end: Math.max(start + 1, start + handoff.offsetHeight - viewportHeight) };
+        const stageHeight = (handoff.firstElementChild as HTMLElement).offsetHeight;
+        return { start, end: Math.max(start + 1, start + handoff.offsetHeight - stageHeight) };
       });
-      railSegment = (rail?.clientWidth ?? 0) / Math.max(1, projects.length - 1);
+      railSegment = Math.max(0, (rail?.clientWidth ?? 0) - (nodes[0]?.clientWidth ?? 0)) / Math.max(1, projects.length - 1);
     };
 
     const update = (scroll: number) => {
@@ -338,14 +344,15 @@ export function WorkCoordinate({ projects }: { projects: readonly Project[] }) {
         }
       });
 
-      coordinate.style.setProperty("--work-coordinate", value.toFixed(4));
+      if (Math.abs(value - currentValue) < 0.0001) return;
+      currentValue = value;
       coordinate.style.setProperty("--work-coordinate-x", `${(value * railSegment).toFixed(2)}px`);
       const nextIndex = gsap.utils.clamp(0, projects.length - 1, Math.round(value));
 
       nodes.forEach((node, index) => {
         const proximity = Math.max(0, 1 - Math.abs(value - index));
         node.style.setProperty("--node-strength", proximity.toFixed(3));
-        node.toggleAttribute("data-current", index === nextIndex);
+        if (nextIndex !== currentIndex) node.toggleAttribute("data-current", index === nextIndex);
       });
 
       if (nextIndex !== currentIndex && activeLabel) {
@@ -362,6 +369,7 @@ export function WorkCoordinate({ projects }: { projects: readonly Project[] }) {
         invalidateOnRefresh: true,
         onRefresh: (self) => {
           measure();
+          currentValue = -1;
           update(self.scroll());
         },
         onUpdate: (self) => update(self.scroll()),
@@ -376,10 +384,9 @@ export function WorkCoordinate({ projects }: { projects: readonly Project[] }) {
       gsap.set(coordinate, { autoAlpha: trigger.isActive ? 1 : 0 });
     }, work);
 
-    const refreshFrame = requestAnimationFrame(() => ScrollTrigger.refresh());
+    scheduleScrollRefresh();
 
     return () => {
-      cancelAnimationFrame(refreshFrame);
       context.revert();
     };
   }, [prefersReducedMotion, projects, ready]);

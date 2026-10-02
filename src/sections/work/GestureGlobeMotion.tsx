@@ -4,16 +4,17 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, type ReactNode } from "react";
 import { useViewport } from "@/components/system/ViewportProvider";
+import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import styles from "./GestureGlobeFeature.module.css";
 
 export default function GestureGlobeMotion({ children }: { children: ReactNode }) {
   const sequence = useRef<HTMLDivElement>(null);
-  const { width, isMobile, prefersReducedMotion } = useViewport();
+  const { width, isMobile, hasFinePointer, isShort, prefersReducedMotion } = useViewport();
   const ready = width > 0;
 
   useEffect(() => {
     const root = sequence.current;
-    if (!root || !ready || isMobile || prefersReducedMotion) return;
+    if (!root || !ready || isMobile || !hasFinePointer || isShort || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
     root.dataset.motion = "active";
@@ -39,8 +40,8 @@ export default function GestureGlobeMotion({ children }: { children: ReactNode }
           scrollTrigger: {
             trigger: root,
             start: "top top",
-            end: "bottom bottom",
-            scrub: 0.45,
+            end: () => `+=${Math.max(1, root.offsetHeight - (root.firstElementChild as HTMLElement).offsetHeight)}`,
+            scrub: true,
             invalidateOnRefresh: true,
           },
         })
@@ -61,13 +62,13 @@ export default function GestureGlobeMotion({ children }: { children: ReactNode }
         .fromTo(reveal, { opacity: 0, y: 34, scale: 0.97 }, { opacity: 1, y: 0, scale: 1, duration: 0.2 }, 0.78);
     }, root);
 
-    ScrollTrigger.refresh();
+    scheduleScrollRefresh();
 
     return () => {
       context.revert();
       delete root.dataset.motion;
     };
-  }, [ready, isMobile, prefersReducedMotion]);
+  }, [ready, isMobile, hasFinePointer, isShort, prefersReducedMotion]);
 
   return <div ref={sequence} className={styles.sequence}>{children}</div>;
 }

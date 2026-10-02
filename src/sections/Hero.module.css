@@ -5,6 +5,11 @@
   background: #030609;
 }
 
+.hero[data-scene-active="false"] .introSignal::after,
+.hero[data-intro-state="resolved"] .introSignal::after {
+  animation-play-state: paused;
+}
+
 .stage {
   position: sticky;
   top: 0;
@@ -333,7 +338,6 @@
 
 .name i {
   transform-origin: center bottom;
-  will-change: opacity, transform;
 }
 
 .nameMeta {
@@ -515,9 +519,9 @@
   }
 
   .systemMeta {
-    top: 5.6rem;
+    top: 8rem;
     left: 1rem;
-    font-size: 0.48rem;
+    font-size: 0.55rem;
   }
 
   .markA {
@@ -638,7 +642,7 @@
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce), (max-height: 600px) {
   .hero {
     height: auto;
   }

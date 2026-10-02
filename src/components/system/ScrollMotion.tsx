@@ -5,44 +5,49 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, type ReactNode } from "react";
 import { useViewport } from "./ViewportProvider";
+import { scheduleScrollRefresh } from "./scrollRefresh";
 import styles from "./ScrollMotion.module.css";
 
 export default function ScrollMotion({ children }: { children: ReactNode }) {
   const progress = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
-  const { width, isMobile, prefersReducedMotion } = useViewport();
+  const { width, isMobile, hasFinePointer, prefersReducedMotion } = useViewport();
   const ready = width > 0;
 
   useEffect(() => {
     if (!ready || !window.location.hash) return;
 
-    const hash = decodeURIComponent(window.location.hash);
-    const target = document.querySelector<HTMLElement>(hash);
+    let id: string;
+    try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+    const target = document.getElementById(id);
     if (!target) return;
 
     let interrupted = false;
-    const timers: number[] = [];
 
     const interrupt = () => {
       interrupted = true;
-      timers.forEach((timer) => window.clearTimeout(timer));
+      ScrollTrigger.removeEventListener("refresh", settle);
     };
 
     const settle = () => {
       if (interrupted) return;
-      ScrollTrigger.refresh();
-      const top = target.getBoundingClientRect().top + window.scrollY;
+      const margin = Number.parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+      const top = Math.max(0, target.getBoundingClientRect().top + window.scrollY - margin);
       window.scrollTo({ top, behavior: "auto" });
       ScrollTrigger.update();
     };
 
-    [80, 320, 900].forEach((delay) => timers.push(window.setTimeout(settle, delay)));
+    ScrollTrigger.addEventListener("refresh", settle);
+    void document.fonts.ready.then(() => { if (!interrupted) scheduleScrollRefresh(); });
+    const settleTimer = window.setTimeout(interrupt, 1200);
     window.addEventListener("wheel", interrupt, { passive: true, once: true });
     window.addEventListener("touchstart", interrupt, { passive: true, once: true });
     window.addEventListener("keydown", interrupt, { once: true });
 
     return () => {
-      timers.forEach((timer) => window.clearTimeout(timer));
+      interrupted = true;
+      clearTimeout(settleTimer);
+      ScrollTrigger.removeEventListener("refresh", settle);
       window.removeEventListener("wheel", interrupt);
       window.removeEventListener("touchstart", interrupt);
       window.removeEventListener("keydown", interrupt);
@@ -54,7 +59,8 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
     if (!header) return;
 
     function updateHeader() {
-      header?.toggleAttribute("data-scrolled", window.scrollY > 72);
+      const scrolled = window.scrollY > 72;
+      if (header?.hasAttribute("data-scrolled") !== scrolled) header?.toggleAttribute("data-scrolled", scrolled);
     }
 
     updateHeader();
@@ -69,11 +75,12 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
     const context = gsap.context(() => {
       if (progress.current) {
         gsap.set(progress.current, { scaleX: 0 });
+        const setProgress = gsap.quickSetter(progress.current, "scaleX");
         ScrollTrigger.create({
           start: 0,
           end: "max",
-          onUpdate: (self) => gsap.set(progress.current, { scaleX: self.progress }),
-          onRefresh: (self) => gsap.set(progress.current, { scaleX: self.progress }),
+          onUpdate: (self) => setProgress(self.progress),
+          onRefresh: (self) => setProgress(self.progress),
         });
       }
 
@@ -82,7 +89,8 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
         const depth = Number(element.dataset.scrollDepth);
         if (!region || !Number.isFinite(depth)) return;
 
-        const distance = depth * (isMobile ? 0.35 : 1);
+        if (!hasFinePointer || isMobile) return;
+        const distance = depth;
         gsap.fromTo(
           element,
           { y: -distance / 2 },
@@ -93,13 +101,13 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
               trigger: region,
               start: "top bottom",
               end: "bottom top",
-              scrub: 0.4,
+              scrub: true,
             },
           },
         );
       });
 
-      if (!isMobile) {
+      if (hasFinePointer && !isMobile) {
         gsap.utils.toArray<HTMLElement>("[data-section-field]").forEach((field) => {
           const section = field.closest("section");
           if (!section) return;
@@ -115,7 +123,7 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
                 trigger: section,
                 start: "top 90%",
                 end: "top 40%",
-                scrub: 0.55,
+                scrub: true,
               },
             },
           );
@@ -133,7 +141,7 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
                 trigger: boundary,
                 start: "top 92%",
                 end: "bottom 35%",
-                scrub: 0.55,
+                scrub: true,
               },
             })
             .fromTo(paths, { strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: "none", duration: 1 }, 0)
@@ -144,25 +152,34 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
     });
 
     const main = document.querySelector("main");
-    let refreshFrame = 0;
     let disposed = false;
-    const scheduleRefresh = () => {
-      cancelAnimationFrame(refreshFrame);
-      refreshFrame = requestAnimationFrame(() => ScrollTrigger.refresh());
+    let previousWidth = 0;
+    let previousHeight = 0;
+    const scheduleRefresh: ResizeObserverCallback = (entries) => {
+      const { width, height } = entries[0].contentRect;
+      if (Math.abs(width - previousWidth) < 1 && Math.abs(height - previousHeight) < 1) return;
+      previousWidth = width;
+      previousHeight = height;
+      scheduleScrollRefresh();
     };
     const observer = main ? new ResizeObserver(scheduleRefresh) : null;
     if (main) observer?.observe(main);
     void document.fonts.ready.then(() => {
-      if (!disposed) scheduleRefresh();
+      if (!disposed) scheduleScrollRefresh();
     });
+    const onVisibility = () => {
+      if (document.visibilityState === "visible") scheduleScrollRefresh();
+    };
+    document.addEventListener("visibilitychange", onVisibility);
+    ScrollTrigger.config({ ignoreMobileResize: true });
 
     return () => {
       disposed = true;
       observer?.disconnect();
-      cancelAnimationFrame(refreshFrame);
+      document.removeEventListener("visibilitychange", onVisibility);
       context.revert();
     };
-  }, [pathname, ready, isMobile, prefersReducedMotion]);
+  }, [pathname, ready, isMobile, hasFinePointer, prefersReducedMotion]);
 
   return (
     <>
