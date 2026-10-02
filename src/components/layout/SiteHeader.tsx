@@ -3,7 +3,6 @@ import Container from "@/components/ui/Container";
 const navigation = [
   { label: "Home", href: "#home" },
   { label: "Work", href: "#work" },
-  { label: "Lab", href: "#lab" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ] as const;

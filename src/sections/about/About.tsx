@@ -167,7 +167,7 @@ export default function About() {
       <div ref={sequence} className={styles.sequence}>
         <div className={styles.stage}>
           <div className={`${styles.layer} ${styles.opening}`} data-about-opening>
-            <p className={styles.micro}>03 / ABOUT · SYSTEM / IDENTITY</p>
+            <p className={styles.micro}>02 / ABOUT · SYSTEM / IDENTITY</p>
             <p className={styles.openingStatement} data-about-opening-a>
               <span>THE SYSTEMS TELL</span><span>PART OF THE STORY.</span>
             </p>
@@ -273,7 +273,7 @@ export default function About() {
       </div>
 
       <div className={styles.editorial}>
-        <p className={styles.micro}>03 / ABOUT · SYSTEM / IDENTITY</p>
+        <p className={styles.micro}>02 / ABOUT · SYSTEM / IDENTITY</p>
         <section><h3>THE SYSTEMS TELL<br />PART OF THE STORY.</h3><p>NOW MEET THE PERSON BUILDING THEM.</p></section>
         <section><h3>ANIRUDH<br />SHASHIKUMAR</h3><p>Computer Science Engineering · Bengaluru, India</p></section>
         <section><h3>BUILDING ACROSS INTELLIGENCE, SOFTWARE, VISION &amp; THE PHYSICAL WORLD.</h3><p>{domains.map((domain) => domain.name).join(" · ")}</p></section>

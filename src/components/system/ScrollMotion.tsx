@@ -15,6 +15,33 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
   const ready = width > 0;
 
   useEffect(() => {
+    if (!ready) return;
+
+    const resolveLegacyHash = () => {
+      let id: string;
+      try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+      if (id !== "lab") return;
+      const target = document.getElementById("about");
+      if (!target) return;
+
+      const url = new URL(window.location.href);
+      url.hash = "about";
+      // Replace the legacy entry, preserving Next's history state and query.
+      window.history.replaceState(window.history.state, "", url);
+      target.scrollIntoView({ behavior: "instant", block: "start" });
+      ScrollTrigger.update();
+    };
+
+    resolveLegacyHash();
+    window.addEventListener("hashchange", resolveLegacyHash);
+    window.addEventListener("popstate", resolveLegacyHash);
+    return () => {
+      window.removeEventListener("hashchange", resolveLegacyHash);
+      window.removeEventListener("popstate", resolveLegacyHash);
+    };
+  }, [pathname, ready]);
+
+  useEffect(() => {
     if (!ready || !window.location.hash) return;
 
     let id: string;

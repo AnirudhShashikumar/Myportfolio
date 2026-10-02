@@ -155,7 +155,7 @@ export default function Contact() {
           <SignalField />
 
           <div className={`${styles.layer} ${styles.opening}`} data-contact-opening>
-            <p className={styles.micro}>04 / CONTACT · SIGNAL / OPEN</p>
+            <p className={styles.micro}>03 / CONTACT · SIGNAL / OPEN</p>
             <span className={styles.dot} data-contact-dot aria-hidden="true" />
             <p>ONE SIGNAL.<br />WAITING FOR ANOTHER CONNECTION.</p>
           </div>
@@ -191,7 +191,7 @@ export default function Contact() {
       </div>
 
       <div className={styles.editorial}>
-        <p className={styles.micro}>04 / CONTACT · THE NEXT SIGNAL</p>
+        <p className={styles.micro}>03 / CONTACT · THE NEXT SIGNAL</p>
         <h3>WHAT SHOULD<br />WE BUILD<br />NEXT?</h3>
         <p>Have an idea, opportunity, collaboration, experiment, or something interesting to talk about?</p>
         <strong>SEND A SIGNAL.</strong>

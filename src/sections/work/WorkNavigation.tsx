@@ -453,7 +453,7 @@ export function WorkExit() {
       <span className={styles.exitLabel} data-exit-peripheral>WORK ARCHIVE / COMPLETE</span>
       <span className={styles.exitVertical} data-exit-vertical />
       <strong>RETURN TO VERTICAL</strong>
-      <small>NEXT / LAB</small>
+      <small>NEXT / ABOUT</small>
     </div>
   );
 }

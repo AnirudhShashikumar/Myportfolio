@@ -1,0 +1,2776 @@
+[
+  {
+    "size": {
+      "width": 1280,
+      "height": 800
+    },
+    "exit": {
+      "viewport": [
+        1280,
+        800
+      ],
+      "order": [
+        "home",
+        "work",
+        "about",
+        "contact"
+      ],
+      "adjacent": true,
+      "labNodes": 0,
+      "labCopy": false,
+      "exitCopy": "06 / 06WORK ARCHIVE / COMPLETERETURN TO VERTICALNEXT / ABOUT",
+      "samples": [
+        {
+          "y": 24830,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 24950,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 25272,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 25594,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 26034,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 26194,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 25272,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 26034,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        }
+      ]
+    },
+    "sections": [
+      {
+        "section": "0",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      }
+    ]
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "exit": {
+      "viewport": [
+        1440,
+        900
+      ],
+      "order": [
+        "home",
+        "work",
+        "about",
+        "contact"
+      ],
+      "adjacent": true,
+      "labNodes": 0,
+      "labCopy": false,
+      "exitCopy": "06 / 06WORK ARCHIVE / COMPLETERETURN TO VERTICALNEXT / ABOUT",
+      "samples": [
+        {
+          "y": 27177.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 27312,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 27664,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 28016,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 28511,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 28691,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 27664,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 28511,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        }
+      ]
+    },
+    "sections": [
+      {
+        "section": "0",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      }
+    ]
+  },
+  {
+    "size": {
+      "width": 360,
+      "height": 800
+    },
+    "coarse": true,
+    "exit": {
+      "viewport": [
+        360,
+        800
+      ],
+      "order": [
+        "home",
+        "work",
+        "about",
+        "contact"
+      ],
+      "adjacent": true,
+      "labNodes": 0,
+      "labCopy": false,
+      "exitCopy": "06 / 06WORK ARCHIVE / COMPLETERETURN TO VERTICALNEXT / ABOUT",
+      "samples": [
+        {
+          "y": 29294,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 29414,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 29682,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 29950,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 30390.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 30550.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 29682,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 30390.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        }
+      ]
+    },
+    "sections": [
+      {
+        "section": "0",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      }
+    ]
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "coarse": true,
+    "exit": {
+      "viewport": [
+        390,
+        844
+      ],
+      "order": [
+        "home",
+        "work",
+        "about",
+        "contact"
+      ],
+      "adjacent": true,
+      "labNodes": 0,
+      "labCopy": false,
+      "exitCopy": "06 / 06WORK ARCHIVE / COMPLETERETURN TO VERTICALNEXT / ABOUT",
+      "samples": [
+        {
+          "y": 29589.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 29716,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 29994.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 30273,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 30737.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 30906.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 29994.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 30737.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        }
+      ]
+    },
+    "sections": [
+      {
+        "section": "0",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      }
+    ]
+  },
+  {
+    "size": {
+      "width": 430,
+      "height": 932
+    },
+    "coarse": true,
+    "exit": {
+      "viewport": [
+        430,
+        932
+      ],
+      "order": [
+        "home",
+        "work",
+        "about",
+        "contact"
+      ],
+      "adjacent": true,
+      "labNodes": 0,
+      "labCopy": false,
+      "exitCopy": "06 / 06WORK ARCHIVE / COMPLETERETURN TO VERTICALNEXT / ABOUT",
+      "samples": [
+        {
+          "y": 30198.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 30338,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 30646,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 30954,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 31466,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 31652.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 30646,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 31466,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        }
+      ]
+    },
+    "sections": [
+      {
+        "section": "0",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      }
+    ]
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "coarse": true,
+    "exit": {
+      "viewport": [
+        768,
+        1024
+      ],
+      "order": [
+        "home",
+        "work",
+        "about",
+        "contact"
+      ],
+      "adjacent": true,
+      "labNodes": 0,
+      "labCopy": false,
+      "exitCopy": "06 / 06WORK ARCHIVE / COMPLETERETURN TO VERTICALNEXT / ABOUT",
+      "samples": [
+        {
+          "y": 29222.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 29376,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0,
+          "visualProgress": 0,
+          "horizontalScale": 1,
+          "verticalScale": 0
+        },
+        {
+          "y": 29765,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 30154,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 30717.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 30922,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 29765,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 0.5,
+          "visualProgress": 0.5,
+          "horizontalScale": 0.5125,
+          "verticalScale": 0.038
+        },
+        {
+          "y": 30717.5,
+          "overflow": 0,
+          "gap": 0,
+          "progress": 1,
+          "visualProgress": 1,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        }
+      ]
+    },
+    "sections": [
+      {
+        "section": "0",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      }
+    ]
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "reduced": true,
+    "exit": {
+      "viewport": [
+        390,
+        844
+      ],
+      "order": [
+        "home",
+        "work",
+        "about",
+        "contact"
+      ],
+      "adjacent": true,
+      "labNodes": 0,
+      "labCopy": false,
+      "exitCopy": "06 / 06WORK ARCHIVE / COMPLETERETURN TO VERTICALNEXT / ABOUT",
+      "samples": [
+        {
+          "y": 24133.5,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 24386.5,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 24661.5,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 24936.5,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 25274,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 25443,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 24661.5,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 25274,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        }
+      ]
+    },
+    "sections": [
+      {
+        "section": "0",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      }
+    ]
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 900
+    },
+    "reduced": true,
+    "exit": {
+      "viewport": [
+        1440,
+        900
+      ],
+      "order": [
+        "home",
+        "work",
+        "about",
+        "contact"
+      ],
+      "adjacent": true,
+      "labNodes": 0,
+      "labCopy": false,
+      "exitCopy": "06 / 06WORK ARCHIVE / COMPLETERETURN TO VERTICALNEXT / ABOUT",
+      "samples": [
+        {
+          "y": 19519.5,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 19789.5,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 20141,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 20493,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 20853,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 21033,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 20141,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        },
+        {
+          "y": 20853,
+          "overflow": 0,
+          "gap": 0,
+          "horizontalScale": 0.025,
+          "verticalScale": 1
+        }
+      ]
+    },
+    "sections": [
+      {
+        "section": "0",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "0",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "1",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "2",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "3",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "4",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "5",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "home",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "about",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.3,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.7,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "contact",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.1,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.5,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      },
+      {
+        "section": "footer",
+        "progress": 0.9,
+        "overflow": 0,
+        "triggerMismatch": 0,
+        "invisibleLinks": []
+      }
+    ]
+  }
+]
