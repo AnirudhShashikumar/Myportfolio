@@ -8,6 +8,23 @@ const page = String.raw`<!doctype html><meta charset="utf-8"><title>Portfolio mo
 <script>
 const frame=document.querySelector('#site'), output=document.querySelector('#result');
 for(const [id,label] of [['sweep','Boundary regression'],['graphics','Count graphics'],['sections','Section regression'],['exit','Work → About regression']]){const button=document.createElement('button');button.id=id;button.textContent=label;output.before(button);}
+const aboutInput=document.createElement('input');aboutInput.id='about-progress';aboutInput.type='number';aboutInput.step='.001';aboutInput.value='.1';aboutInput.setAttribute('aria-label','About progress');output.before(aboutInput);
+for(const [id,label] of [['about-jump','About state'],['about-sweep','About regression'],['about-layout','About layout']]){const button=document.createElement('button');button.id=id;button.textContent=label;output.before(button);}
+const aboutSnapshot=()=>{const win=w(),root=win.document.querySelector('#about'),story=root.querySelector('[data-motion="active"]'),trigger=win.__motionAudit?.ScrollTrigger.getAll().find(t=>t.vars.id==='about-story');return {viewport:[win.innerWidth,win.innerHeight],cinematic:root.dataset.cinematic,movement:story?.dataset.movement,plate:story?.dataset.plate,progress:trigger?.progress,visualProgress:trigger?.animation.progress(),triggers:win.__motionAudit?.ScrollTrigger.getAll().filter(t=>root.contains(t.trigger)).length,elements:root.querySelectorAll('*').length,canvases:root.querySelectorAll('canvas').length,promotions:root.querySelectorAll('[style*="will-change"]').length,hiddenFocusable:root.querySelectorAll('[aria-hidden="true"] a,[aria-hidden="true"] button').length,visiblePlates:Array.from(root.querySelectorAll('[data-about-plate]')).filter(el=>win.getComputedStyle(el).visibility!=='hidden'&&Number(win.getComputedStyle(el).opacity)>.05).map(el=>({plate:el.dataset.aboutPlate,movement:el.dataset.aboutMovement,title:el.querySelector('[data-about-title]').textContent,opacity:Number(win.getComputedStyle(el).opacity)})),traceOpacity:story?win.getComputedStyle(story.querySelector('[data-about-trace]')).opacity:null,overflow:win.document.documentElement.scrollWidth-win.innerWidth};};
+const aboutJump=progress=>{const win=w(),root=win.document.querySelector('#about'),trigger=win.__motionAudit?.ScrollTrigger.getAll().find(t=>t.vars.id==='about-story');const y=trigger?trigger.start+(trigger.end-trigger.start)*progress:root.getBoundingClientRect().top+win.scrollY;win.scrollTo({top:y,behavior:'instant'});win.__motionAudit?.ScrollTrigger.update();};
+document.querySelector('#about-jump').onclick=()=>{aboutJump(Number(aboutInput.value));output.textContent=JSON.stringify(aboutSnapshot(),null,2);};
+document.querySelector('#about-sweep').onclick=async()=>{const win=w(),samples=[];for(const progress of [0,.02,.055,.10,.14,.19,.235,.27,.315,.375,.44,.50,.54,.58,.63,.68,.72,.79,.885,.95,.98,1,.8,.2,.99,.01,.6,.4,.99]){aboutJump(progress);await new Promise(r=>win.requestAnimationFrame(r));samples.push(aboutSnapshot());}output.textContent=JSON.stringify(samples,null,2);};
+document.querySelector('#about-layout').onclick=()=>{
+  const win=w(),root=win.document.querySelector('#about'),cinematic=root.dataset.cinematic==='true';
+  const scope=cinematic?Array.from(root.querySelectorAll('[data-about-plate]')).filter(el=>win.getComputedStyle(el).visibility!=='hidden'):[root.querySelector('[data-about-editorial]')];
+  const issues=[];
+  for(const region of scope)for(const el of region.querySelectorAll('p,h3,h4,li,img,figcaption')){
+    const r=el.getBoundingClientRect(),range=win.document.createRange();range.selectNodeContents(el);
+    const text=el.tagName==='IMG'?r:range.getBoundingClientRect();
+    if(r.width>1&&(text.right>win.innerWidth-10||text.left<10||r.right>win.innerWidth+1||(cinematic&&(text.top<70||text.bottom>win.innerHeight-20))))issues.push({text:el.textContent.slice(0,100),x:text.x,right:text.right,top:text.top,bottom:text.bottom,width:r.width});
+  }
+  output.textContent=JSON.stringify({...aboutSnapshot(),layoutIssues:issues,chapterCount:root.querySelectorAll('[data-about-chapter]').length,readingCount:root.querySelectorAll('[data-about-reading]').length,imageResources:win.performance.getEntriesByType('resource').filter(e=>e.name.includes('achievements')).map(e=>({name:e.name,transferSize:e.transferSize,encodedBodySize:e.encodedBodySize})),images:Array.from(root.querySelectorAll('img')).map(img=>({src:img.currentSrc,width:img.width,naturalWidth:img.naturalWidth,complete:img.complete}))},null,2);
+};
 let reduced=false,touch=false,hidden=false,lastResults=[];
 const w=()=>{const win=frame.contentWindow;if(win.__motionAudit)win.gsap=win.__motionAudit.gsap;return win;};
 frame.onload=()=>{w().gsap=w().__motionAudit?.gsap;};
@@ -58,7 +75,8 @@ http.createServer((request, response) => {
     response.end(page);
     return;
   }
-  const upstream = http.request({ hostname: "127.0.0.1", port: 3000, path: request.url, method: request.method, headers: { ...request.headers, host: "127.0.0.1:3000", "accept-encoding": "identity" } }, (incoming) => {
+  const previewPort = Number(process.env.PORTFOLIO_PREVIEW_PORT || 3000);
+  const upstream = http.request({ hostname: "127.0.0.1", port: previewPort, path: request.url, method: request.method, headers: { ...request.headers, host: `127.0.0.1:${previewPort}`, "accept-encoding": "identity" } }, (incoming) => {
     if (request.url.includes("motion-audit=1") && incoming.headers["content-type"]?.includes("text/html")) {
       const chunks = [];
       incoming.on("data", (chunk) => chunks.push(chunk));
@@ -75,4 +93,4 @@ http.createServer((request, response) => {
   });
   upstream.on("error", () => { response.writeHead(502); response.end("Start the production preview on port 3000 first."); });
   request.pipe(upstream);
-}).listen(3001, "127.0.0.1", () => console.log("Local QA: http://127.0.0.1:3001/__motion-audit"));
+}).listen(Number(process.env.PORTFOLIO_AUDIT_PORT || 3001), "127.0.0.1", () => console.log("Local About/motion QA ready."));

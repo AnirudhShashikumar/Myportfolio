@@ -1,0 +1,3725 @@
+{
+  "desktop": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "2",
+      "progress": 0.1,
+      "visualProgress": 0.1,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "2",
+          "movement": "M01",
+          "title": "ANIRUDH\nSHASHIKUMAR",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M02",
+      "plate": "4",
+      "progress": 0.19,
+      "visualProgress": 0.19,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "4",
+          "movement": "M02",
+          "title": "2020.\nFIRST WEBSITE.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M03",
+      "plate": "5",
+      "progress": 0.235,
+      "visualProgress": 0.235,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "5",
+          "movement": "M03",
+          "title": "ONE LAYER\nOPENED ANOTHER.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M04",
+      "plate": "8",
+      "progress": 0.375,
+      "visualProgress": 0.375,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "8",
+          "movement": "M04",
+          "title": "IMAGE → DATA\nMOVEMENT → INTERACTION\nSPACE → INTERFACE",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M05",
+      "plate": "9",
+      "progress": 0.44,
+      "visualProgress": 0.44,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "9",
+          "movement": "M05",
+          "title": "THE PART I LIKE\nIS CONNECTING\nTHE LAYERS.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M06",
+      "plate": "11",
+      "progress": 0.54,
+      "visualProgress": 0.54,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "11",
+          "movement": "M06",
+          "title": "ARCHITECTURE FIRST.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M07",
+      "plate": "13",
+      "progress": 0.63,
+      "visualProgress": 0.63,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "13",
+          "movement": "M07",
+          "title": "THE SAME PROCESS.\nLESS TIME.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M08",
+      "plate": "15",
+      "progress": 0.72,
+      "visualProgress": 0.72,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "15",
+          "movement": "M08",
+          "title": "UNDERSTANDING\nWHAT'S UNDERNEATH.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M09",
+      "plate": "16",
+      "progress": 0.79,
+      "visualProgress": 0.79,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "16",
+          "movement": "M09",
+          "title": "NOT EVERYTHING\nIS A PROJECT.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M10",
+      "plate": "17",
+      "progress": 0.885,
+      "visualProgress": 0.885,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "17",
+          "movement": "M10",
+          "title": "I WANT TO BUILD\nSYSTEMS THAT\nDON'T JUST LIVE\nON A SCREEN.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M11",
+      "plate": "19",
+      "progress": 0.98,
+      "visualProgress": 0.98,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "19",
+          "movement": "M11",
+          "title": "STILL LEARNING.\nSTILL BUILDING.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "responsive": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "cinematic": "false",
+      "triggers": 0,
+      "elements": 135,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [],
+      "traceOpacity": null,
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 320,
+          "naturalWidth": 320,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 320,
+          "naturalWidth": 320,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "cinematic": "false",
+      "triggers": 0,
+      "elements": 135,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [],
+      "traceOpacity": null,
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 350,
+          "naturalWidth": 350,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 350,
+          "naturalWidth": 350,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "cinematic": "false",
+      "triggers": 0,
+      "elements": 135,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [],
+      "traceOpacity": null,
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 390,
+          "naturalWidth": 390,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 390,
+          "naturalWidth": 390,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "cinematic": "false",
+      "triggers": 0,
+      "elements": 135,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [],
+      "traceOpacity": null,
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 270,
+          "naturalWidth": 345,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 351,
+          "naturalWidth": 345,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        720
+      ],
+      "cinematic": "false",
+      "triggers": 0,
+      "elements": 135,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [],
+      "traceOpacity": null,
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 451,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 464,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "2",
+      "progress": 0.1,
+      "visualProgress": 0.1,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "2",
+          "movement": "M01",
+          "title": "ANIRUDH\nSHASHIKUMAR",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "2",
+      "progress": 0.1,
+      "visualProgress": 0.1,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "2",
+          "movement": "M01",
+          "title": "ANIRUDH\nSHASHIKUMAR",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 421,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 432,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 432,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1728,
+        1117
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "2",
+      "progress": 0.1,
+      "visualProgress": 0.1,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "2",
+          "movement": "M01",
+          "title": "ANIRUDH\nSHASHIKUMAR",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 505,
+          "naturalWidth": 518,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 505,
+          "naturalWidth": 518,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 518,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 518,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "motion": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "0",
+      "progress": 0,
+      "visualProgress": 0,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "0",
+          "movement": "M01",
+          "title": "THE SYSTEMS TELL\nPART OF THE STORY.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.35",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "0",
+      "progress": 0.02,
+      "visualProgress": 0.02,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "0",
+          "movement": "M01",
+          "title": "THE SYSTEMS TELL\nPART OF THE STORY.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.35",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "1",
+      "progress": 0.055,
+      "visualProgress": 0.055,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "1",
+          "movement": "M01",
+          "title": "NOW MEET\nTHE PERSON\nBUILDING THEM.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.35",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "2",
+      "progress": 0.1,
+      "visualProgress": 0.1,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "2",
+          "movement": "M01",
+          "title": "ANIRUDH\nSHASHIKUMAR",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M02",
+      "plate": "3",
+      "progress": 0.14,
+      "visualProgress": 0.14,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "3",
+          "movement": "M02",
+          "title": "IT STARTED\nWITH CURIOSITY.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M02",
+      "plate": "4",
+      "progress": 0.19,
+      "visualProgress": 0.19,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "4",
+          "movement": "M02",
+          "title": "2020.\nFIRST WEBSITE.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M03",
+      "plate": "5",
+      "progress": 0.235,
+      "visualProgress": 0.235,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "5",
+          "movement": "M03",
+          "title": "ONE LAYER\nOPENED ANOTHER.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M03",
+      "plate": "6",
+      "progress": 0.27,
+      "visualProgress": 0.27,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "6",
+          "movement": "M03",
+          "title": "I WANTED TO KNOW\nHOW THEY CONNECT.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M04",
+      "plate": "7",
+      "progress": 0.315,
+      "visualProgress": 0.315,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "7",
+          "movement": "M04",
+          "title": "SOME PROBLEMS\nDON'T FIT\nINSIDE RULES.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M04",
+      "plate": "8",
+      "progress": 0.375,
+      "visualProgress": 0.375,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "8",
+          "movement": "M04",
+          "title": "IMAGE → DATA\nMOVEMENT → INTERACTION\nSPACE → INTERFACE",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M05",
+      "plate": "9",
+      "progress": 0.44,
+      "visualProgress": 0.44,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "9",
+          "movement": "M05",
+          "title": "THE PART I LIKE\nIS CONNECTING\nTHE LAYERS.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M06",
+      "plate": "10",
+      "progress": 0.5,
+      "visualProgress": 0.5,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "10",
+          "movement": "M06",
+          "title": "ARCHITECTURE FIRST.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M06",
+      "plate": "11",
+      "progress": 0.54,
+      "visualProgress": 0.54,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "11",
+          "movement": "M06",
+          "title": "ARCHITECTURE FIRST.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M06",
+      "plate": "12",
+      "progress": 0.58,
+      "visualProgress": 0.58,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "12",
+          "movement": "M06",
+          "title": "LOCALLY CORRECT\nCAN STILL BE\nGLOBALLY FRAGILE.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M07",
+      "plate": "13",
+      "progress": 0.63,
+      "visualProgress": 0.63,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "13",
+          "movement": "M07",
+          "title": "THE SAME PROCESS.\nLESS TIME.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M08",
+      "plate": "14",
+      "progress": 0.68,
+      "visualProgress": 0.68,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "14",
+          "movement": "M08",
+          "title": "CURRENT STATE:\nLEARNING.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M08",
+      "plate": "15",
+      "progress": 0.72,
+      "visualProgress": 0.72,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "15",
+          "movement": "M08",
+          "title": "UNDERSTANDING\nWHAT'S UNDERNEATH.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M09",
+      "plate": "16",
+      "progress": 0.79,
+      "visualProgress": 0.79,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "16",
+          "movement": "M09",
+          "title": "NOT EVERYTHING\nIS A PROJECT.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M10",
+      "plate": "17",
+      "progress": 0.885,
+      "visualProgress": 0.885,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "17",
+          "movement": "M10",
+          "title": "I WANT TO BUILD\nSYSTEMS THAT\nDON'T JUST LIVE\nON A SCREEN.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M11",
+      "plate": "18",
+      "progress": 0.95,
+      "visualProgress": 0.95,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "18",
+          "movement": "M11",
+          "title": "PLACES TO BUILD.\nROOM TO LEARN.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M11",
+      "plate": "19",
+      "progress": 0.98,
+      "visualProgress": 0.98,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "19",
+          "movement": "M11",
+          "title": "STILL LEARNING.\nSTILL BUILDING.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M11",
+      "plate": "19",
+      "progress": 1,
+      "visualProgress": 1,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "19",
+          "movement": "M11",
+          "title": "STILL LEARNING.\nSTILL BUILDING.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M09",
+      "plate": "16",
+      "progress": 0.8,
+      "visualProgress": 0.8,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "16",
+          "movement": "M09",
+          "title": "NOT EVERYTHING\nIS A PROJECT.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M02",
+      "plate": "4",
+      "progress": 0.2,
+      "visualProgress": 0.2,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "4",
+          "movement": "M02",
+          "title": "2020.\nFIRST WEBSITE.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M11",
+      "plate": "19",
+      "progress": 0.99,
+      "visualProgress": 0.99,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "19",
+          "movement": "M11",
+          "title": "STILL LEARNING.\nSTILL BUILDING.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "0",
+      "progress": 0.01,
+      "visualProgress": 0.01,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "0",
+          "movement": "M01",
+          "title": "THE SYSTEMS TELL\nPART OF THE STORY.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.35",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M07",
+      "plate": "13",
+      "progress": 0.6,
+      "visualProgress": 0.6,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "13",
+          "movement": "M07",
+          "title": "THE SAME PROCESS.\nLESS TIME.",
+          "opacity": 0.82
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M05",
+      "plate": "9",
+      "progress": 0.4,
+      "visualProgress": 0.4,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "9",
+          "movement": "M05",
+          "title": "THE PART I LIKE\nIS CONNECTING\nTHE LAYERS.",
+          "opacity": 0.82
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "cinematic": "true",
+      "movement": "M11",
+      "plate": "19",
+      "progress": 0.99,
+      "visualProgress": 0.99,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "19",
+          "movement": "M11",
+          "title": "STILL LEARNING.\nSTILL BUILDING.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0
+    }
+  ],
+  "compactDesktop": [
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "0",
+      "progress": 0.02,
+      "visualProgress": 0.02,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "0",
+          "movement": "M01",
+          "title": "THE SYSTEMS TELL\nPART OF THE STORY.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.35",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "1",
+      "progress": 0.055,
+      "visualProgress": 0.055,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "1",
+          "movement": "M01",
+          "title": "NOW MEET\nTHE PERSON\nBUILDING THEM.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.35",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M01",
+      "plate": "2",
+      "progress": 0.1,
+      "visualProgress": 0.1,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "2",
+          "movement": "M01",
+          "title": "ANIRUDH\nSHASHIKUMAR",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M02",
+      "plate": "3",
+      "progress": 0.14,
+      "visualProgress": 0.14,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "3",
+          "movement": "M02",
+          "title": "IT STARTED\nWITH CURIOSITY.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M02",
+      "plate": "4",
+      "progress": 0.19,
+      "visualProgress": 0.19,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "4",
+          "movement": "M02",
+          "title": "2020.\nFIRST WEBSITE.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M03",
+      "plate": "5",
+      "progress": 0.235,
+      "visualProgress": 0.235,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "5",
+          "movement": "M03",
+          "title": "ONE LAYER\nOPENED ANOTHER.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M03",
+      "plate": "6",
+      "progress": 0.27,
+      "visualProgress": 0.27,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "6",
+          "movement": "M03",
+          "title": "I WANTED TO KNOW\nHOW THEY CONNECT.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M04",
+      "plate": "7",
+      "progress": 0.315,
+      "visualProgress": 0.315,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "7",
+          "movement": "M04",
+          "title": "SOME PROBLEMS\nDON'T FIT\nINSIDE RULES.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M04",
+      "plate": "8",
+      "progress": 0.375,
+      "visualProgress": 0.375,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "8",
+          "movement": "M04",
+          "title": "IMAGE → DATA\nMOVEMENT → INTERACTION\nSPACE → INTERFACE",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M05",
+      "plate": "9",
+      "progress": 0.44,
+      "visualProgress": 0.44,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "9",
+          "movement": "M05",
+          "title": "THE PART I LIKE\nIS CONNECTING\nTHE LAYERS.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M06",
+      "plate": "10",
+      "progress": 0.5,
+      "visualProgress": 0.5,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "10",
+          "movement": "M06",
+          "title": "ARCHITECTURE FIRST.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M06",
+      "plate": "11",
+      "progress": 0.54,
+      "visualProgress": 0.54,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "11",
+          "movement": "M06",
+          "title": "ARCHITECTURE FIRST.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M06",
+      "plate": "12",
+      "progress": 0.58,
+      "visualProgress": 0.58,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "12",
+          "movement": "M06",
+          "title": "LOCALLY CORRECT\nCAN STILL BE\nGLOBALLY FRAGILE.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M07",
+      "plate": "13",
+      "progress": 0.63,
+      "visualProgress": 0.63,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "13",
+          "movement": "M07",
+          "title": "THE SAME PROCESS.\nLESS TIME.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M08",
+      "plate": "14",
+      "progress": 0.68,
+      "visualProgress": 0.68,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "14",
+          "movement": "M08",
+          "title": "CURRENT STATE:\nLEARNING.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M08",
+      "plate": "15",
+      "progress": 0.72,
+      "visualProgress": 0.72,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "15",
+          "movement": "M08",
+          "title": "UNDERSTANDING\nWHAT'S UNDERNEATH.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0.5",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M09",
+      "plate": "16",
+      "progress": 0.79,
+      "visualProgress": 0.79,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "16",
+          "movement": "M09",
+          "title": "NOT EVERYTHING\nIS A PROJECT.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M10",
+      "plate": "17",
+      "progress": 0.885,
+      "visualProgress": 0.885,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "17",
+          "movement": "M10",
+          "title": "I WANT TO BUILD\nSYSTEMS THAT\nDON'T JUST LIVE\nON A SCREEN.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M11",
+      "plate": "18",
+      "progress": 0.95,
+      "visualProgress": 0.95,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "18",
+          "movement": "M11",
+          "title": "PLACES TO BUILD.\nROOM TO LEARN.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "cinematic": "true",
+      "movement": "M11",
+      "plate": "19",
+      "progress": 0.98,
+      "visualProgress": 0.98,
+      "triggers": 1,
+      "elements": 310,
+      "canvases": 0,
+      "promotions": 0,
+      "hiddenFocusable": 0,
+      "visiblePlates": [
+        {
+          "plate": "19",
+          "movement": "M11",
+          "title": "STILL LEARNING.\nSTILL BUILDING.",
+          "opacity": 1
+        }
+      ],
+      "traceOpacity": "0",
+      "overflow": 0,
+      "layoutIssues": [],
+      "chapterCount": 6,
+      "readingCount": 11,
+      "imageResources": [
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 32182
+        },
+        {
+          "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "transferSize": 0,
+          "encodedBodySize": 20206
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 374,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+          "width": 79,
+          "naturalWidth": 384,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+          "width": 86,
+          "naturalWidth": 384,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "reader": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "cinematic": "false",
+    "triggers": 0,
+    "elements": 137,
+    "canvases": 0,
+    "promotions": 0,
+    "hiddenFocusable": 0,
+    "visiblePlates": [],
+    "traceOpacity": null,
+    "overflow": 0,
+    "layoutIssues": [],
+    "chapterCount": 6,
+    "readingCount": 11,
+    "imageResources": [
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 32182
+      },
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 20206
+      }
+    ],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "width": 464,
+        "naturalWidth": 432,
+        "complete": true
+      },
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "width": 464,
+        "naturalWidth": 432,
+        "complete": true
+      }
+    ]
+  },
+  "returnToMotion": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "cinematic": "true",
+    "movement": "M01",
+    "plate": "0",
+    "progress": 0,
+    "visualProgress": 0,
+    "triggers": 1,
+    "elements": 310,
+    "canvases": 0,
+    "promotions": 0,
+    "hiddenFocusable": 0,
+    "visiblePlates": [
+      {
+        "plate": "0",
+        "movement": "M01",
+        "title": "THE SYSTEMS TELL\nPART OF THE STORY.",
+        "opacity": 1
+      }
+    ],
+    "traceOpacity": "0.35",
+    "overflow": 0,
+    "layoutIssues": [],
+    "chapterCount": 6,
+    "readingCount": 11,
+    "imageResources": [
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 32182
+      },
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 20206
+      }
+    ],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "width": 421,
+        "naturalWidth": 432,
+        "complete": true
+      },
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "width": 421,
+        "naturalWidth": 432,
+        "complete": true
+      },
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "width": 79,
+        "naturalWidth": 432,
+        "complete": true
+      },
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "width": 86,
+        "naturalWidth": 432,
+        "complete": true
+      }
+    ]
+  },
+  "reduced": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "cinematic": "false",
+    "triggers": 0,
+    "elements": 135,
+    "canvases": 0,
+    "promotions": 0,
+    "hiddenFocusable": 0,
+    "visiblePlates": [],
+    "traceOpacity": null,
+    "overflow": 0,
+    "layoutIssues": [],
+    "chapterCount": 6,
+    "readingCount": 11,
+    "imageResources": [
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 32182
+      },
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 20206
+      }
+    ],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "width": 464,
+        "naturalWidth": 432,
+        "complete": true
+      },
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "width": 464,
+        "naturalWidth": 432,
+        "complete": true
+      }
+    ]
+  },
+  "coarse": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "cinematic": "false",
+    "triggers": 0,
+    "elements": 135,
+    "canvases": 0,
+    "promotions": 0,
+    "hiddenFocusable": 0,
+    "visiblePlates": [],
+    "traceOpacity": null,
+    "overflow": 0,
+    "layoutIssues": [],
+    "chapterCount": 6,
+    "readingCount": 11,
+    "imageResources": [
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 32182
+      },
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 20206
+      }
+    ],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "width": 464,
+        "naturalWidth": 432,
+        "complete": true
+      },
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "width": 464,
+        "naturalWidth": 432,
+        "complete": true
+      }
+    ]
+  },
+  "nativeWheel": [
+    {
+      "gesture": {
+        "direction": "down",
+        "pages": 0.2
+      },
+      "progress": 0.22383333333333333,
+      "visualProgress": 0.2238333,
+      "visible": [
+        "5"
+      ],
+      "overflow": 0,
+      "issues": []
+    },
+    {
+      "gesture": {
+        "direction": "down",
+        "pages": 0.2
+      },
+      "progress": 0.2633333333333333,
+      "visualProgress": 0.2633333,
+      "visible": [
+        "6"
+      ],
+      "overflow": 0,
+      "issues": []
+    },
+    {
+      "gesture": {
+        "direction": "down",
+        "pages": 0.2
+      },
+      "progress": 0.3032222222222222,
+      "visualProgress": 0.3032222,
+      "visible": [
+        "7"
+      ],
+      "overflow": 0,
+      "issues": []
+    },
+    {
+      "gesture": {
+        "direction": "down",
+        "pages": 3
+      },
+      "progress": 0.6747222222222222,
+      "visualProgress": 0.6747222,
+      "visible": [
+        "14"
+      ],
+      "overflow": 0,
+      "issues": []
+    },
+    {
+      "gesture": {
+        "direction": "up",
+        "pages": 2
+      },
+      "progress": 0.6776111111111112,
+      "visualProgress": 0.6776111,
+      "visible": [
+        "14"
+      ],
+      "overflow": 0,
+      "issues": []
+    },
+    {
+      "gesture": {
+        "direction": "down",
+        "pages": 2
+      },
+      "progress": 0.7628333333333334,
+      "visualProgress": 0.7628333,
+      "visible": [
+        "16"
+      ],
+      "overflow": 0,
+      "issues": []
+    },
+    {
+      "gesture": {
+        "direction": "up",
+        "pages": 3
+      },
+      "progress": 0.5605,
+      "visualProgress": 0.5605,
+      "visible": [
+        "12"
+      ],
+      "overflow": 0,
+      "issues": []
+    }
+  ],
+  "workExit": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "order": [
+      "home",
+      "work",
+      "about",
+      "contact"
+    ],
+    "adjacent": true,
+    "labNodes": 0,
+    "labCopy": false,
+    "exitCopy": "06 / 06WORK ARCHIVE / COMPLETERETURN TO VERTICALNEXT / ABOUT",
+    "samples": [
+      {
+        "y": 27177.5,
+        "overflow": 0,
+        "gap": 0,
+        "progress": 0,
+        "visualProgress": 0,
+        "horizontalScale": 1,
+        "verticalScale": 0
+      },
+      {
+        "y": 27312,
+        "overflow": 0,
+        "gap": 0,
+        "progress": 0,
+        "visualProgress": 0,
+        "horizontalScale": 1,
+        "verticalScale": 0
+      },
+      {
+        "y": 27664,
+        "overflow": 0,
+        "gap": 0,
+        "progress": 0.5,
+        "visualProgress": 0.5,
+        "horizontalScale": 0.5125,
+        "verticalScale": 0.038
+      },
+      {
+        "y": 28016,
+        "overflow": 0,
+        "gap": 0,
+        "progress": 1,
+        "visualProgress": 1,
+        "horizontalScale": 0.025,
+        "verticalScale": 1
+      },
+      {
+        "y": 28511,
+        "overflow": 0,
+        "gap": 0,
+        "progress": 1,
+        "visualProgress": 1,
+        "horizontalScale": 0.025,
+        "verticalScale": 1
+      },
+      {
+        "y": 28691,
+        "overflow": 0,
+        "gap": 0,
+        "progress": 1,
+        "visualProgress": 1,
+        "horizontalScale": 0.025,
+        "verticalScale": 1
+      },
+      {
+        "y": 27664,
+        "overflow": 0,
+        "gap": 0,
+        "progress": 0.5,
+        "visualProgress": 0.5,
+        "horizontalScale": 0.5125,
+        "verticalScale": 0.038
+      },
+      {
+        "y": 28511,
+        "overflow": 0,
+        "gap": 0,
+        "progress": 1,
+        "visualProgress": 1,
+        "horizontalScale": 0.025,
+        "verticalScale": 1
+      }
+    ]
+  },
+  "offscreenGraphics": {
+    "scrollY": 35621,
+    "visibility": "visible",
+    "heroDraws": 0,
+    "gridClears": 0,
+    "heroActive": "false",
+    "ms": 600
+  },
+  "contactReverse": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "cinematic": "true",
+    "movement": "M11",
+    "plate": "19",
+    "progress": 0.98,
+    "visualProgress": 0.98,
+    "triggers": 1,
+    "elements": 310,
+    "canvases": 0,
+    "promotions": 0,
+    "hiddenFocusable": 0,
+    "visiblePlates": [
+      {
+        "plate": "19",
+        "movement": "M11",
+        "title": "STILL LEARNING.\nSTILL BUILDING.",
+        "opacity": 1
+      }
+    ],
+    "traceOpacity": "0",
+    "overflow": 0,
+    "layoutIssues": [],
+    "chapterCount": 6,
+    "readingCount": 11,
+    "imageResources": [
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 32182
+      },
+      {
+        "name": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "transferSize": 0,
+        "encodedBodySize": 20206
+      }
+    ],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "width": 421,
+        "naturalWidth": 432,
+        "complete": true
+      },
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "width": 421,
+        "naturalWidth": 432,
+        "complete": true
+      },
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "width": 79,
+        "naturalWidth": 432,
+        "complete": true
+      },
+      {
+        "src": "http://127.0.0.1:3003/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "width": 86,
+        "naturalWidth": 432,
+        "complete": true
+      }
+    ]
+  },
+  "keyboardReader": {
+    "activation": "Enter",
+    "focus": [
+      "The focused UI element is 358 heading THE SYSTEMS TELL PART OF THE STORY., Value: 3, ID: about-M01"
+    ]
+  }
+}
