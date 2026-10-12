@@ -8,6 +8,8 @@ import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import { chapters, movements, plates } from "./aboutContent";
 import { AboutEditorial, AboutVisualPlate } from "./AboutStory";
 import styles from "./About.module.css";
+import AboutGeometry from "./AboutGeometry";
+import { buildAboutTimeline, observeAboutEditorial } from "./aboutMotion";
 
 export default function About() {
   const section = useRef<HTMLElement>(null);
@@ -32,15 +34,10 @@ export default function About() {
     root.dataset.motion = "active";
     let disposed = false;
     const context = gsap.context(() => {
-      const visualPlates = Array.from(root.querySelectorAll<HTMLElement>("[data-about-plate]"));
-      const trace = root.querySelector<SVGElement>("[data-about-trace]");
-      const inherited = root.querySelector<SVGGElement>("[data-about-inherited]");
       const label = root.querySelector<HTMLElement>("[data-about-chapter-label]");
-      const stem = root.querySelector<HTMLElement>("[data-about-question-stem]");
-      const dot = root.querySelector<HTMLElement>("[data-about-question-dot]");
-      const stage = root.firstElementChild as HTMLElement;
       let previous = -1;
-      function syncState(progress: number) {
+      function syncState(progress: number, active: boolean) {
+        stageWasActive.current = active;
         const found = plates.findIndex(plate => progress < plate.end);
         const index = found < 0 ? plates.length - 1 : found;
         if (index === previous) return;
@@ -51,41 +48,34 @@ export default function About() {
         root!.dataset.plate = String(index);
         if (label) { label.textContent = `02 / ABOUT · ${chapters[movement.chapter]}`; label.hidden = movement.chapter >= 4; }
       }
-      gsap.set(visualPlates, { autoAlpha: 0, y: 0 });
-      gsap.set(visualPlates[0], { autoAlpha: 1 });
-      gsap.set([stem, dot], { autoAlpha: 0 });
-      const timeline = gsap.timeline({ defaults: { ease: "none" }, scrollTrigger: {
-        id: "about-story", trigger: root, start: "top top",
-        end: () => `+=${Math.max(1, root.offsetHeight - stage.offsetHeight)}`,
-        scrub: true, invalidateOnRefresh: true,
-        onUpdate: self => { stageWasActive.current = self.isActive; syncState(self.progress); },
-        onRefresh: self => { stageWasActive.current = self.isActive; syncState(self.progress); },
-      } });
-      plates.forEach((plate, index) => {
-        // One dominant thought at every boundary. Sets resolve arbitrary jumps;
-        // short scroll-mapped settling gives way to long, fully readable holds.
-        if (index) timeline.set(visualPlates[index], { autoAlpha: .82, y: 12 }, plate.start)
-          .to(visualPlates[index], { autoAlpha: 1, y: 0, duration: .004 }, plate.start);
-        if (index < plates.length - 1) timeline.to(visualPlates[index], { autoAlpha: .82, y: -8, duration: .003 }, plate.end - .003)
-          .set(visualPlates[index], { autoAlpha: 0 }, plate.end);
-      });
-      timeline.to(inherited, { autoAlpha: 0, duration: .025 }, .05)
-        .to(trace, { autoAlpha: 0, duration: .012 }, .063)
-        .set(trace, { rotation: -90, scale: .5, autoAlpha: 0 }, .12)
-        .to(trace, { autoAlpha: .5, duration: .006 }, .12)
-        .to(trace, { scale: .78, duration: .008 }, .22)
-        .to(trace, { scale: .58, duration: .008 }, .40)
-        .to(trace, { scale: .82, duration: .008 }, .48)
-        .to(trace, { scale: .42, duration: .008 }, .60)
-        .to(trace, { scale: .6, duration: .008 }, .66)
-        .to(trace, { autoAlpha: 0, duration: .006 }, .734)
-        .to([stem, dot], { autoAlpha: 1, duration: .004 }, .969)
-        .to(stem, { autoAlpha: 0, y: -6, duration: .01 }, .99);
-      syncState(timeline.scrollTrigger?.progress ?? 0);
+      const timeline = buildAboutTimeline(root, syncState);
+      syncState(timeline.scrollTrigger?.progress ?? 0, timeline.scrollTrigger?.isActive ?? false);
     }, root);
     scheduleScrollRefresh();
     void document.fonts.ready.then(() => { if (!disposed) scheduleScrollRefresh(); });
     return () => { disposed = true; context.revert(); delete root.dataset.motion; };
+  }, [cinematic]);
+
+  useLayoutEffect(() => {
+    if (!section.current || width === 0 || cinematic || reader || prefersReducedMotion) return;
+    return observeAboutEditorial(section.current);
+  }, [cinematic, reader, prefersReducedMotion, width]);
+
+  useLayoutEffect(() => {
+    const root = sequence.current;
+    if (!root || !cinematic) return;
+    // Decode the two real archives near entry, not on the certificate's reveal.
+    // Intrinsic dimensions reserve their space; this does not trigger a refresh.
+    const observer = new IntersectionObserver(entries => {
+      if (!entries.some(entry => entry.isIntersecting)) return;
+      root.querySelectorAll<HTMLImageElement>("img").forEach(img => {
+        img.loading = "eager";
+        void img.decode().catch(() => { /* Native image/alt fallback remains. */ });
+      });
+      observer.disconnect();
+    }, { rootMargin: "150% 0px" });
+    observer.observe(root);
+    return () => observer.disconnect();
   }, [cinematic]);
 
   useLayoutEffect(() => {
@@ -97,7 +87,7 @@ export default function About() {
       const plate = plates.find(item => movements[item.movement].id === movement);
       if (root && plate) {
         const stage = root.firstElementChild as HTMLElement;
-        window.scrollTo({ top: root.getBoundingClientRect().top + window.scrollY + (root.offsetHeight - stage.offsetHeight) * plate.start, behavior: "instant" });
+        window.scrollTo({ top: root.getBoundingClientRect().top + window.scrollY + (root.offsetHeight - stage.offsetHeight) * (plate.start + (plate.end - plate.start) * .25), behavior: "instant" });
         ScrollTrigger.update();
         root.querySelector<HTMLButtonElement>("button")?.focus({ preventScroll: true });
       }
@@ -121,7 +111,7 @@ export default function About() {
         <button className={styles.readerControl} type="button" onClick={toggleReader}>Read without motion <span aria-hidden="true">↗</span></button>
         <div className={styles.presentation} aria-hidden="true">
           <p className={styles.chapterLabel} data-about-chapter-label>02 / ABOUT · PERSON / ORIGIN</p>
-          <svg className={styles.trace} data-about-trace viewBox="0 0 200 600" aria-hidden="true"><path d="M100 0 V600" /><g data-about-inherited><path d="M30 170 H170 M30 430 H170 M30 170 V430" /><circle cx="30" cy="170" r="2" /><circle cx="30" cy="430" r="2" /><circle cx="170" cy="170" r="2" /></g></svg>
+          <AboutGeometry />
           {plates.map((plate, index) => <AboutVisualPlate key={index} plate={plate} index={index} />)}
           <div className={styles.question} aria-hidden="true"><span data-about-question-stem>?</span><i data-about-question-dot /></div>
         </div>

@@ -132,3 +132,73 @@
   .about[data-cinematic="true"] .sequence { display: none; }
   .about[data-cinematic="true"] .editorial { position: static; width: auto; height: auto; margin: 0 auto; padding: 9rem var(--gutter) 5rem; overflow: visible; clip-path: none; }
 }
+
+/* Motion material lives once, independently of the reading plates. */
+.about[data-cinematic="true"] .sequence { height: 1600svh; }
+.lineMask { display: block; overflow: hidden; padding-block: .065em; margin-block: -.065em; }
+.lineMask > span { display: block; }
+.sharedGeometry { position: absolute; inset: 10rem var(--gutter) 5.5rem; pointer-events: none; }
+.sharedGeometry .trace { inset: 0; width: 100%; height: 100%; opacity: 1; transform: none; }
+.trace path { stroke: #526c7b; stroke-width: 1; }
+.trace .activeTrace { stroke: #b8d9ed; stroke-width: 1.5; }
+.webMarks { opacity: 0; visibility: hidden; }
+.sharedGeometry > [data-about-shared] { position: absolute; opacity: 0; visibility: hidden; }
+.sharedLearning, .sharedLayers ol, .sharedProcess, .sharedCompressed, .sharedTemporal {
+  font: 12px/1.7 var(--font-geist-mono), monospace; letter-spacing: .065em; color: #b0c2cc;
+}
+.sharedLearning { inset: 64% 0 0; }
+.sharedLearning > .caption:first-child { position: absolute; top: -2rem; left: 0; margin: 0; }
+.sharedLearning > .caption:last-child { position: absolute; bottom: -1.5rem; left: 0; margin: 0; }
+.sharedLearning ol { list-style: none; margin: 0; padding: 0; }
+.sharedLearning li { position: absolute; width: 25%; padding-top: 1.4rem; }
+.sharedLearning li:nth-child(1) { left: 2%; top: 19%; }
+.sharedLearning li:nth-child(2) { left: 34%; top: 19%; }
+.sharedLearning li:nth-child(3) { left: 66%; top: 19%; }
+.sharedLearning li:nth-child(4) { right: 2%; top: 19%; text-align: right; }
+.sharedLearning li:nth-child(5) { right: 2%; top: 62%; text-align: right; }
+.sharedLearning li:nth-child(6) { left: 53%; top: 62%; }
+.sharedLearning li:nth-child(7) { left: 20%; top: 62%; }
+.sharedLayers { top: 9%; right: 0; width: 26%; padding-left: 2rem; }
+.sharedLayers > p { margin: 0; font-size: clamp(42px, 4.7vw, 82px); font-weight: 540; letter-spacing: -.065em; line-height: 1; }
+.sharedLayers ol { list-style: none; margin: 1.8rem 0; padding: 0; display: grid; gap: .6rem; }
+.sharedProcess { top: 73.3%; left: 0; width: 100%; display: flex; justify-content: space-between; gap: 1rem; list-style: none; margin: 0; padding: 1.4rem 0 0; }
+.sharedProcess li { position: relative; }
+.sharedProcess li[data-about-workflow="ARCHITECTURE"] { font-weight: 600; }
+.sharedProcess small { display: block; max-width: 8rem; margin-top: .5rem; font-size: 11px; color: var(--quiet); }
+.sharedCompressed { top: 73.3%; left: 20%; width: 60%; display: flex; justify-content: space-between; list-style: none; margin: 0; padding: 1.4rem 0 0; color: var(--ink); font-size: clamp(18px, 2vw, 32px); letter-spacing: -.04em; }
+.sharedTemporal { top: 85%; left: 0; width: 100%; display: flex; justify-content: space-between; padding-top: 1rem; }
+.sharedTemporal p { margin: 0; }
+.plate[data-detail="path"].poster, .plate[data-detail="process"].poster, .plate[data-detail="evidence"].poster { justify-content: flex-start; padding-top: calc(10rem + 4vh); }
+.plate[data-detail="path"] .body { max-width: 40rem; }
+.plate[data-detail="layers"].poster { display: flex; justify-content: center; }
+.plate[data-detail="layers"] .thought { max-width: 64%; }
+.plate[data-detail="evidence"] .compressedProcess { margin-top: auto; margin-bottom: 0; }
+.plate[data-detail="evidence"] .evidence { font-size: 11px; }
+.plate[data-detail="learning"] .archiveColumn { padding-bottom: 4rem; }
+.plate[data-detail="closing"] .nextSystem { margin-top: 8vh; }
+
+/* No essential text is hidden. One observer adds a restrained entrance only
+   after actual visibility; human/purpose chapters keep their quiet composition. */
+@keyframes editorialSettle { from { transform: translateY(12px); } to { transform: translateY(0); } }
+@keyframes editorialLine { from { transform: scaleX(.25); } to { transform: scaleX(1); } }
+.about[data-cinematic="false"] .reading[data-about-seen="true"] > .display { animation: editorialSettle 550ms cubic-bezier(.2,.7,.2,1) both; }
+.about[data-cinematic="false"] .reading[data-about-seen="true"] .process { position: relative; border-top-color: transparent; }
+.about[data-cinematic="false"] .reading[data-about-seen="true"] .process::before {
+  content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 1px; background: #536b79; transform-origin: left; animation: editorialLine 650ms ease-out both;
+}
+.about[data-cinematic="false"] .reading[data-about-seen="true"] .learningPath li { animation: editorialSettle 450ms ease-out both; }
+.reading[data-about-seen="true"] .learningPath li:nth-child(2n) { animation-delay: 80ms; }
+@media (prefers-reduced-motion: reduce) {
+  .about .reading[data-about-seen="true"] > .display,
+  .about .reading[data-about-seen="true"] .learningPath li,
+  .about .reading[data-about-seen="true"] .process::before { animation: none; }
+}
+.plate[data-detail="layers"].poster { align-items: flex-start; }
+.plate[data-detail="layers"] .thought { width: 64%; }
+.sharedLearning li:nth-child(6) { left: auto; right: 34%; text-align: right; }
+.sharedLearning li:nth-child(7) { left: auto; right: 66%; text-align: right; }
+/* Keep the fragile-system conclusion above the retained, quiet workflow. */
+.plate[data-about-movement="M06"]:not([data-detail]).poster { justify-content: flex-start; padding-top: calc(10rem + 4vh); }
+/* The reading utility stays available at the current chapter, so returning to
+   motion does not require scrolling back to the beginning of the biography. */
+.returnControl { position: sticky; top: 5.7rem; right: auto; z-index: 4; display: flex; width: max-content; margin-left: auto; margin-right: var(--gutter); }

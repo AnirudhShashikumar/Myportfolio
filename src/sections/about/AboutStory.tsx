@@ -4,7 +4,7 @@ import styles from "./About.module.css";
 
 export function AboutArchive({ kind, interactive = false }: { kind: keyof typeof archives; interactive?: boolean }) {
   const archive = archives[kind];
-  return <figure className={styles.archive}>
+  return <figure className={styles.archive} data-about-archive>
     <Image src={archive.src} alt={archive.alt} width={archive.width} height={archive.height} sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 45vw, 30vw" decoding="async" />
     <figcaption><span>{archive.year}</span>{archive.caption}</figcaption>
     {interactive && <a href={archive.src} target="_blank" rel="noreferrer">Inspect the original <span aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span></a>}
@@ -31,16 +31,13 @@ export function AboutVisualPlate({ plate, index }: { plate: Plate; index: number
   const hasArchive = plate.detail === "origin" || plate.detail === "learning";
   return <div className={`${styles.plate} ${styles.poster}`} data-about-plate={index} data-about-movement={movement.id} data-kind={plate.kind} data-detail={plate.detail}>
       <div className={styles.thought}>
-        <p className={styles.display} data-about-title>{plate.title}</p>
+        <p className={styles.display} data-about-title>{plate.title.split("\n").map((line, lineIndex) => <span className={styles.lineMask} key={lineIndex}><span data-about-line>{line}</span></span>)}</p>
         {plate.body && <Body text={plate.body} human={plate.kind === "human"} />}
         {plate.kind === "name" && <p className={styles.caption}>{movement.meta.join(" · ")}</p>}
         {plate.micro && <p className={styles.micro}>{plate.micro}</p>}
       </div>
-      {hasArchive && <div className={styles.archiveColumn}>{plate.detail === "learning" && <p className={styles.caption}>2020 / FIRST WEBSITE<br /><span className={styles.temporalArrow}>↓</span></p>}<AboutArchive kind={plate.detail as "origin" | "learning"} /></div>}
-      {plate.detail === "path" && <LearningPath />}
-      {plate.detail === "layers" && <ModelProduct />}
-      {plate.detail === "process" && <Process />}
-      {plate.detail === "evidence" && <div className={styles.compressedProcess}><p className={styles.relationship}>{movement.headline[0]}</p><Evidence lines={movement.meta} /></div>}
+      {hasArchive && <div className={styles.archiveColumn}><AboutArchive kind={plate.detail as "origin" | "learning"} /></div>}
+      {plate.detail === "evidence" && <div className={styles.compressedProcess}><Evidence lines={movement.meta} /></div>}
       {plate.detail === "human" && <div className={styles.humanAside}><p className={styles.humanHeadline}>{movement.headline[0]}</p><Evidence lines={movement.meta} /></div>}
       {plate.detail === "closing" && <p className={styles.nextSystem}>{movement.headline[0]}</p>}
   </div>;
