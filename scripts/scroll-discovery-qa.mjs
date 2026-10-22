@@ -6,6 +6,7 @@ const require = createRequire(import.meta.url);
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || "playwright");
 const base = process.env.PORTFOLIO_QA_URL || "http://127.0.0.1:3000";
 const directory = "docs/qa/scroll-discovery";
+const caseFilter = process.env.PORTFOLIO_QA_FILTER ? new RegExp(process.env.PORTFOLIO_QA_FILTER) : null;
 mkdirSync(directory, { recursive: true });
 const browser = await chromium.launch({
   headless: true,
@@ -42,13 +43,14 @@ async function visible(page) {
 }
 
 async function check(name, run) {
+  if (caseFilter && !caseFilter.test(name)) return;
   await run();
   results.cases.push(name);
   console.log(`PASS ${name}`);
 }
 
 try {
-  for (const [width, height] of [[360, 800], [390, 844], [430, 932], [768, 1024], [1280, 800], [1440, 900], [1728, 1117]]) {
+  for (const [width, height] of caseFilter ? [] : [[360, 800], [390, 844], [430, 932], [768, 1024], [1280, 800], [1440, 900], [1728, 1117]]) {
     const { context, page } = await open({ viewport: { width, height }, isMobile: width < 768, hasTouch: width < 768 });
     await visible(page);
     const metrics = await page.locator(selector).evaluate(cue => {
@@ -131,7 +133,9 @@ try {
   });
 
   await check("small trackpad deltas accumulate without intercepting input", async () => {
-    const { context, page } = await open();
+    // Disable the existing Lenis controller for this cancellation assertion;
+    // Lenis intentionally cancels wheel events when smooth scrolling is active.
+    const { context, page } = await open({ reducedMotion: "reduce" });
     await page.evaluate(() => {
       window.__wheelResults = [1, 1, 2].map(deltaY => {
         const event = new WheelEvent("wheel", { deltaY, bubbles: true, cancelable: true });
@@ -177,7 +181,7 @@ try {
   await check("refresh in Work without a hash respects native scroll restoration", async () => {
     const { context, page } = await open();
     await page.evaluate(() => scrollTo({ top: document.querySelector("#work").offsetTop + 1000, behavior: "instant" }));
-    await state(page, "dismissed");
+    await page.waitForFunction(() => ["dismissed", "disabled"].includes(document.querySelector("[data-scroll-discovery]").dataset.state));
     await page.reload();
     await page.waitForTimeout(3400);
     assert.ok(await page.evaluate(() => scrollY > 1000));
@@ -205,6 +209,18 @@ try {
     await state(page, "dismissed");
     await page.keyboard.press("Enter");
     await page.waitForURL("**/#about");
+    await context.close();
+  });
+
+  await check("document back/forward navigation does not restart Hero guidance", async () => {
+    const { context, page } = await open();
+    await page.goto(`${base}/?history-check=1`);
+    await page.goBack();
+    await page.waitForTimeout(3200);
+    assert.equal(await page.locator(selector).getAttribute("data-state"), "disabled");
+    await page.goForward();
+    await page.waitForTimeout(3200);
+    assert.equal(await page.locator(selector).getAttribute("data-state"), "disabled");
     await context.close();
   });
 
@@ -294,6 +310,9 @@ try {
     await visible(page);
     const rect = await page.locator(selector).boundingBox();
     assert.ok(rect.x >= 16 && rect.x + rect.width <= 828 && rect.y > 120 && rect.y + rect.height < 366);
+    const title = await page.locator("#home h1").boundingBox();
+    assert.ok(rect.x >= title.x + title.width || rect.y >= title.y + title.height);
+    await page.screenshot({ path: `${directory}/landscape-safe-area.jpg`, type: "jpeg", quality: 85 });
     await context.close();
   });
 
