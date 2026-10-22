@@ -1,0 +1,71 @@
+.discovery {
+  position: fixed;
+  z-index: 30;
+  bottom: calc(clamp(1.5rem, 3svh, 2.5rem) + env(safe-area-inset-bottom, 0px));
+  left: 50%;
+  display: grid;
+  justify-items: center;
+  gap: 0.85rem;
+  width: max-content;
+  max-width: calc(100% - 2rem);
+  color: var(--muted);
+  font: 400 0.625rem/1.4 var(--font-geist-mono), monospace;
+  letter-spacing: 0.14em;
+  text-align: center;
+  pointer-events: none;
+  user-select: none;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 6px);
+  transition: opacity 160ms ease, visibility 0s 160ms;
+}
+
+.discovery[data-state="visible"] {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+  transition: opacity 450ms ease, transform 450ms ease, visibility 0s;
+}
+
+.discovery[data-state="dismissed"],
+.discovery[data-state="disabled"] {
+  transform: translate(-50%, 0);
+}
+
+.direction {
+  position: relative;
+  width: 1px;
+  height: 1.75rem;
+  background: var(--border);
+}
+
+.direction::after {
+  position: absolute;
+  bottom: 0;
+  left: -2px;
+  width: 5px;
+  height: 5px;
+  border-right: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  content: "";
+  transform: rotate(45deg);
+}
+
+@media (max-width: 767px), (max-height: 600px) {
+  .discovery {
+    gap: 0.625rem;
+    font-size: 0.5625rem;
+  }
+
+  .direction {
+    height: 1.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .discovery,
+  .discovery[data-state] {
+    transform: translateX(-50%);
+    transition: none;
+  }
+}

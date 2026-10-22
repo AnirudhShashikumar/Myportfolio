@@ -1,5 +1,6 @@
 import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
+import ScrollDiscovery from "@/components/system/ScrollDiscovery";
 import Hero from "@/sections/Hero";
 import About from "@/sections/about/About";
 import Contact from "@/sections/contact/Contact";
@@ -17,6 +18,7 @@ export default function Home() {
         <About />
         <Contact />
       </main>
+      <ScrollDiscovery />
       <SiteFooter />
     </>
   );

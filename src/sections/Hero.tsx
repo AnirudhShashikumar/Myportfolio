@@ -579,10 +579,6 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className={styles.scrollCue} data-interface aria-hidden="true">
-          <span />
-          SCROLL / ENTER SYSTEM
-        </div>
       </div>
 
       <div className={styles.reducedSequence}>
