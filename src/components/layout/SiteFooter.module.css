@@ -3,7 +3,7 @@
   z-index: 4;
   border-top: 1px solid rgb(169 209 226 / 12%);
   background: #070a0c;
-  color: #60757e;
+  color: #687d86;
 }
 
 .inner {
@@ -12,7 +12,7 @@
   align-items: center;
   padding-block: 1.25rem;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 0.55rem;
+  font-size: 0.6875rem;
   grid-template-columns: 1.2fr 0.5fr 1.4fr auto;
   gap: 1rem;
   letter-spacing: 0.1em;

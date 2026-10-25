@@ -28,7 +28,7 @@
 .certificate figcaption,
 .teamEvidence figcaption,
 .organizer,
-.projectAction {
+.demoStatus {
   font-family: var(--font-geist-mono), monospace;
   letter-spacing: 0.09em;
 }
@@ -694,41 +694,14 @@
   letter-spacing: -0.035em;
 }
 
-.projectAction {
+.demoStatus {
   display: inline-flex;
   min-height: 3rem;
   flex: none;
   align-items: center;
-  gap: 1.3rem;
-  padding: 0.85rem 1rem;
-  border: 1px solid rgb(196 169 94 / 40%);
-  color: #f0ead5;
-  font-family: var(--font-geist-mono), monospace;
+  margin: 0;
+  color: #c4b88c;
   font-size: 0.65rem;
-  letter-spacing: 0.09em;
-  text-decoration: none;
-  transition: border-color 180ms ease, background-color 180ms ease, color 180ms ease;
-}
-
-.projectAction:hover {
-  border-color: rgb(210 185 100 / 72%);
-  background: rgb(160 140 60 / 14%);
-}
-
-.projectAction:focus-visible {
-  border-color: #c4a95e;
-  outline: 2px solid #c4a95e;
-  outline-offset: 4px;
-}
-
-.projectAction span {
-  font-size: 0.95rem;
-  transition: transform 180ms ease;
-}
-
-.projectAction:hover span,
-.projectAction:focus-visible span {
-  transform: translate(0.14rem, -0.14rem);
 }
 
 /* ================================================================
@@ -983,8 +956,6 @@
   .certificate .evidenceImage,
   .teamImageFrame,
   .teamEvidence .evidenceImage,
-  .projectAction,
-  .projectAction span,
   .buildSegment {
     transition: none;
   }
