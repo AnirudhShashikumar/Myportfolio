@@ -1,0 +1,4202 @@
+[
+  {
+    "key": "architecture.1.number",
+    "text": "01  / SYSTEM LAYER",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(1) > .DayflowFeature_nodeNumber__Z2lmW"
+    ],
+    "before": {
+      "fgColor": "#404f62",
+      "bgColor": "#10141c",
+      "contrastRatio": 2.2,
+      "fontSize": "7.0pt (9.28px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.1.title",
+    "text": "USER",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(1) > strong"
+    ],
+    "before": {
+      "fgColor": "#656a71",
+      "bgColor": "#10141c",
+      "contrastRatio": 3.38,
+      "fontSize": "14.6pt (19.44px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.1.detail",
+    "text": "Login and session",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(1) > .DayflowFeature_nodeDetail__eJH6t"
+    ],
+    "before": {
+      "fgColor": "#4a5360",
+      "bgColor": "#10141c",
+      "contrastRatio": 2.36,
+      "fontSize": "7.3pt (9.76px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.2.number",
+    "text": "02  / SYSTEM LAYER",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(2) > .DayflowFeature_nodeNumber__Z2lmW"
+    ],
+    "before": {
+      "fgColor": "#404f62",
+      "bgColor": "#10141c",
+      "contrastRatio": 2.2,
+      "fontSize": "7.0pt (9.28px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.2.title",
+    "text": "NEXT.JS 16",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(2) > strong"
+    ],
+    "before": {
+      "fgColor": "#656a71",
+      "bgColor": "#10141c",
+      "contrastRatio": 3.38,
+      "fontSize": "14.6pt (19.44px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.2.detail",
+    "text": "Server checks \u00b7 API \u00b7 validation",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(2) > .DayflowFeature_nodeDetail__eJH6t"
+    ],
+    "before": {
+      "fgColor": "#4a5360",
+      "bgColor": "#10141c",
+      "contrastRatio": 2.36,
+      "fontSize": "7.3pt (9.76px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.3.number",
+    "text": "03  / SYSTEM LAYER",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(3) > .DayflowFeature_nodeNumber__Z2lmW"
+    ],
+    "before": {
+      "fgColor": "#404f62",
+      "bgColor": "#10141c",
+      "contrastRatio": 2.2,
+      "fontSize": "7.0pt (9.28px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#8eadd1",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.52,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.3.title",
+    "text": "SUPABASE",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(3) > strong"
+    ],
+    "before": {
+      "fgColor": "#656a71",
+      "bgColor": "#10141c",
+      "contrastRatio": 3.38,
+      "fontSize": "14.6pt (19.44px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#eef3f9",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.66,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.3.detail",
+    "text": "Auth \u00b7 Storage \u00b7 signed URLs",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(3) > .DayflowFeature_nodeDetail__eJH6t"
+    ],
+    "before": {
+      "fgColor": "#4a5360",
+      "bgColor": "#10141c",
+      "contrastRatio": 2.36,
+      "fontSize": "7.3pt (9.76px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a8b9ce",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.73,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.4.number",
+    "text": "04  / SYSTEM LAYER",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(4) > .DayflowFeature_nodeNumber__Z2lmW"
+    ],
+    "before": {
+      "fgColor": "#404f62",
+      "bgColor": "#10141c",
+      "contrastRatio": 2.2,
+      "fontSize": "7.0pt (9.28px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8caacf",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.29,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8caacf",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.29,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#7089a6",
+          "bgColor": "#121820",
+          "contrastRatio": 4.94,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#8faed3",
+          "bgColor": "#141a23",
+          "contrastRatio": 7.62,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.4.title",
+    "text": "POSTGRESQL",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(4) > strong"
+    ],
+    "before": {
+      "fgColor": "#656a71",
+      "bgColor": "#10141c",
+      "contrastRatio": 3.38,
+      "fontSize": "14.6pt (19.44px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#ebf0f6",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.25,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#ebf0f6",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.25,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#b9bec4",
+          "bgColor": "#121820",
+          "contrastRatio": 9.53,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#f0f5fb",
+          "bgColor": "#141a23",
+          "contrastRatio": 15.94,
+          "fontSize": "14.6pt (19.44px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "architecture.4.detail",
+    "text": "Profile roles \u00b7 RLS \u00b7 RPC",
+    "target": [
+      ".DayflowFeature_architectureNode__2eZsa[data-df-architecture-node=\"true\"]:nth-child(4) > .DayflowFeature_nodeDetail__eJH6t"
+    ],
+    "before": {
+      "fgColor": "#4a5360",
+      "bgColor": "#10141c",
+      "contrastRatio": 2.36,
+      "fontSize": "7.3pt (9.76px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a5b6cc",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.45,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a5b6cc",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.45,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#8392a4",
+          "bgColor": "#121820",
+          "contrastRatio": 5.61,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#a9bad0",
+          "bgColor": "#141a23",
+          "contrastRatio": 8.83,
+          "fontSize": "7.3pt (9.76px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "transaction.1.label",
+    "text": "Request update",
+    "target": [
+      "li[data-df-transaction-node=\"true\"]:nth-child(1)"
+    ],
+    "before": {
+      "fgColor": "#555b63",
+      "bgColor": "#0d1117",
+      "contrastRatio": 2.76,
+      "fontSize": "9.4pt (12.48px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#d9e3ee",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.57,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#d9e3ee",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.57,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "transaction.1.number",
+    "text": "01",
+    "target": [
+      "li[data-df-transaction-node=\"true\"]:nth-child(1) > span:nth-child(1)"
+    ],
+    "before": {
+      "fgColor": "#3a4858",
+      "bgColor": "#0d1117",
+      "contrastRatio": 2.02,
+      "fontSize": "7.0pt (9.28px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8cabd0",
+          "bgColor": "#0d1117",
+          "contrastRatio": 7.97,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8cabd0",
+          "bgColor": "#0d1117",
+          "contrastRatio": 7.97,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "transaction.2.label",
+    "text": "Leave balance",
+    "target": [
+      "li[data-df-transaction-node=\"true\"]:nth-child(2)"
+    ],
+    "before": {
+      "fgColor": "#555b63",
+      "bgColor": "#0d1117",
+      "contrastRatio": 2.76,
+      "fontSize": "9.4pt (12.48px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#d9e3ef",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.58,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#b4bdc8",
+          "bgColor": "#0d1117",
+          "contrastRatio": 9.96,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "transaction.2.number",
+    "text": "02",
+    "target": [
+      "li[data-df-transaction-node=\"true\"]:nth-child(2) > span:nth-child(1)"
+    ],
+    "before": {
+      "fgColor": "#3a4858",
+      "bgColor": "#0d1117",
+      "contrastRatio": 2.02,
+      "fontSize": "7.0pt (9.28px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8dacd0",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.06,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#7690af",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.74,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "transaction.3.label",
+    "text": "Notification",
+    "target": [
+      "li[data-df-transaction-node=\"true\"]:nth-child(3)"
+    ],
+    "before": {
+      "fgColor": "#555b63",
+      "bgColor": "#0d1117",
+      "contrastRatio": 2.76,
+      "fontSize": "9.4pt (12.48px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#dae3ef",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.61,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#bfc8d3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 11.19,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#bfc8d3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 11.19,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "transaction.3.number",
+    "text": "03",
+    "target": [
+      "li[data-df-transaction-node=\"true\"]:nth-child(3) > span:nth-child(1)"
+    ],
+    "before": {
+      "fgColor": "#3a4858",
+      "bgColor": "#0d1117",
+      "contrastRatio": 2.02,
+      "fontSize": "7.0pt (9.28px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8dacd1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.06,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#7c98b9",
+          "bgColor": "#0d1117",
+          "contrastRatio": 6.35,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#7c98b9",
+          "bgColor": "#0d1117",
+          "contrastRatio": 6.35,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "transaction.4.label",
+    "text": "Audit event",
+    "target": [
+      "li[data-df-transaction-node=\"true\"]:nth-child(4)"
+    ],
+    "before": {
+      "fgColor": "#555b63",
+      "bgColor": "#0d1117",
+      "contrastRatio": 2.76,
+      "fontSize": "9.4pt (12.48px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#c7d1dc",
+          "bgColor": "#0d1117",
+          "contrastRatio": 12.23,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#192431",
+          "contrastRatio": 12.32,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#a8b0bb",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.64,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#dbe5f1",
+          "bgColor": "#0d1117",
+          "contrastRatio": 14.86,
+          "fontSize": "9.4pt (12.48px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "transaction.4.number",
+    "text": "04",
+    "target": [
+      "li[data-df-transaction-node=\"true\"]:nth-child(4) > span"
+    ],
+    "before": {
+      "fgColor": "#3a4858",
+      "bgColor": "#0d1117",
+      "contrastRatio": 2.02,
+      "fontSize": "7.0pt (9.28px)",
+      "fontWeight": "normal",
+      "messageKey": null,
+      "expectedContrastRatio": "4.5:1"
+    },
+    "states": [
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "architecture",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.25,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.75,
+        "measurement": {
+          "fgColor": "#829ec0",
+          "bgColor": "#0d1117",
+          "contrastRatio": 6.84,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 1,
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#192431",
+          "contrastRatio": 6.76,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0.5,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "transaction",
+        "state": 0,
+        "measurement": {
+          "fgColor": "#6e86a3",
+          "bgColor": "#0d1117",
+          "contrastRatio": 5.04,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reading",
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      },
+      {
+        "section": "all",
+        "state": "reduced",
+        "measurement": {
+          "fgColor": "#8eadd2",
+          "bgColor": "#0d1117",
+          "contrastRatio": 8.16,
+          "fontSize": "7.0pt (9.28px)",
+          "fontWeight": "normal",
+          "expectedContrastRatio": "4.5:1"
+        }
+      }
+    ]
+  }
+]

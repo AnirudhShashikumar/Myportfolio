@@ -1,0 +1,100 @@
+--- before/src/sections/Hero.module.css
++++ after/src/sections/Hero.module.css
+@@ -545,7 +545,7 @@
+   }
+ 
+   .name {
+-    font-size: clamp(3.2rem, 15.5vw, 5.4rem);
++    font-size: clamp(3.2rem, 14vw, 5.4rem);
+     letter-spacing: -0.078em;
+     line-height: 0.84;
+   }
+@@ -563,6 +563,12 @@
+ 
+   .evidencePlane1 {
+     width: 52vw;
++  }
++
++  .evidencePlane figcaption {
++    /* The image may crop past the right edge; its label must still fit. */
++    max-width: calc(50vw - 1rem);
++    overflow-wrap: anywhere;
+   }
+ 
+   .projectLockup {
+--- before/src/sections/contact/Contact.module.css
++++ after/src/sections/contact/Contact.module.css
+@@ -76,7 +76,8 @@
+ .opening > p:last-child {
+   position: absolute;
+   bottom: 11vh;
+-  color: #536872;
++  background: #070a0c;
++  color: #728a95;
+   font-family: var(--font-geist-mono), monospace;
+   font-size: 0.58rem;
+   letter-spacing: 0.12em;
+@@ -268,12 +269,15 @@
+   justify-content: space-between;
+   border-top: 1px solid rgb(169 208 225 / 14%);
+   padding-top: 0.75rem;
+-  color: #5f747e;
++  color: #728a95;
+   font-family: var(--font-geist-mono), monospace;
+   font-size: 0.52rem;
+   letter-spacing: 0.12em;
+   opacity: 0;
+ }
++
++/* Keep readable metadata independent of the decorative signal paths. */
++.finalMeta span { align-self: flex-start; background: #070a0c; }
+ 
+ .editorial, .editorialMonument { display: none; }
+ 
+--- before/src/sections/work/DayflowMotion.tsx
++++ after/src/sections/work/DayflowMotion.tsx
+@@ -8,6 +8,8 @@
+ import styles from "./DayflowFeature.module.css";
+ 
+ const DESKTOP_MOTION = "(min-width: 901px) and (min-height: 601px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)";
++// Scrubbing can pause on these labels before their individual reveal completes.
++const READABLE_NODE_OPACITY = 0.75;
+ 
+ export default function DayflowMotion({ children }: { children: ReactNode }) {
+   const rootRef = useRef<HTMLDivElement>(null);
+@@ -119,7 +121,7 @@
+         const architectureSignals = all("[data-df-architecture-signal]");
+ 
+         if (architecture && architectureNodes.length) {
+-          gsap.set(architectureNodes, { autoAlpha: 0.38, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" });
++          gsap.set(architectureNodes, { autoAlpha: READABLE_NODE_OPACITY, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" });
+           gsap.set(architectureLines, { scaleX: 0, transformOrigin: "left center" });
+           gsap.set(architectureSignals, { autoAlpha: 0, x: 0 });
+ 
+@@ -136,7 +138,7 @@
+           architectureNodes.forEach((node, index) => {
+             architectureTimeline.fromTo(
+               node,
+-              { autoAlpha: 0.38, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" },
++              { autoAlpha: READABLE_NODE_OPACITY, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" },
+               { autoAlpha: 1, y: 0, borderColor: "rgba(157, 196, 239, 0.52)", duration: 0.36, ease: "power2.out" },
+               index === 0 ? 0 : ">-0.04",
+             );
+@@ -180,7 +182,7 @@
+         const transactionSignals = all("[data-df-transaction-signal]");
+ 
+         if (transaction && transactionNodes.length) {
+-          gsap.set(transactionNodes, { autoAlpha: 0.35, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" });
++          gsap.set(transactionNodes, { autoAlpha: READABLE_NODE_OPACITY, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" });
+           gsap.set(transactionLines, { scaleX: 0, transformOrigin: "left center" });
+           gsap.set(transactionSignals, { autoAlpha: 0, x: 0 });
+ 
+@@ -197,7 +199,7 @@
+           transactionNodes.forEach((node, index) => {
+             transactionTimeline.fromTo(
+               node,
+-              { autoAlpha: 0.35, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" },
++              { autoAlpha: READABLE_NODE_OPACITY, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" },
+               { autoAlpha: 1, y: 0, borderColor: "rgba(157, 196, 239, 0.48)", duration: 0.3, ease: "power2.out" },
+               index === 0 ? 0 : ">-0.03",
+             );

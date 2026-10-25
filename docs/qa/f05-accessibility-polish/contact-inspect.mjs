@@ -9,7 +9,7 @@ try {
   const page=await browser.newPage({viewport:{width,height},hasTouch:width<768,isMobile:width<768});
   await page.goto('http://127.0.0.1:3000/?motion-audit=1');await page.waitForFunction(()=>window.__motionAudit);await page.waitForTimeout(1700);
   const range=await page.evaluate(()=>{const e=document.querySelector('[data-contact-opening]').closest('[data-motion="active"]');const t=window.__motionAudit.ScrollTrigger.getAll().find(t=>t.trigger===e);return {start:t.start,end:t.end}});
-  for(const p of [.05,.95]){
+  for(const p of [.05,.95,1]){
    await page.evaluate(({p,range})=>{scrollTo({top:range.start+(range.end-range.start)*p,behavior:'instant'});window.__motionAudit.ScrollTrigger.update()},{p,range});await page.waitForTimeout(80);
    const text=await page.evaluate(()=>{
     const lum=a=>a.map(v=>v/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4).reduce((s,v,i)=>s+v*[.2126,.7152,.0722][i],0);

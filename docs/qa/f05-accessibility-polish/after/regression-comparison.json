@@ -1,0 +1,330 @@
+{
+  "hero": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 0,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 6,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 6,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 0,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        1280,
+        720
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 0,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 0,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 0,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        1728,
+        1117
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 0,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        391,
+        844
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 9,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        600,
+        932
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 0,
+      "clippedStatesAfter": 0
+    },
+    {
+      "viewport": [
+        767,
+        1024
+      ],
+      "samples": 29,
+      "clippedStatesBefore": 0,
+      "clippedStatesAfter": 0
+    }
+  ],
+  "desktopHeroGeometryDifferences": [],
+  "matrices": {
+    "chrome": {
+      "samples": 802,
+      "geometryDifferences": [
+        {
+          "size": [
+            768,
+            1024
+          ],
+          "region": "[data-work-project=\"5\"]",
+          "key": "height",
+          "before": 44259,
+          "after": 44258
+        }
+      ],
+      "overflow": 0,
+      "mismatches": 0,
+      "errors": [],
+      "failed": [],
+      "brokenImages": [],
+      "horizontalBefore": 3,
+      "horizontalAfter": 0,
+      "axe": [
+        {
+          "viewport": [
+            360,
+            800
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 329
+            }
+          ]
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 329
+            }
+          ]
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 329
+            }
+          ]
+        },
+        {
+          "viewport": [
+            768,
+            1024
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 286
+            }
+          ]
+        },
+        {
+          "viewport": [
+            1280,
+            720
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 195
+            }
+          ]
+        },
+        {
+          "viewport": [
+            1280,
+            800
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 190
+            }
+          ]
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 190
+            }
+          ]
+        },
+        {
+          "viewport": [
+            1728,
+            1117
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 190
+            }
+          ]
+        }
+      ]
+    },
+    "webkit": {
+      "samples": 318,
+      "geometryDifferences": [],
+      "overflow": 0,
+      "mismatches": 0,
+      "errors": [],
+      "failed": [],
+      "brokenImages": [],
+      "horizontalBefore": 2,
+      "horizontalAfter": 0,
+      "axe": [
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 329
+            }
+          ]
+        },
+        {
+          "viewport": [
+            1280,
+            720
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 195
+            }
+          ]
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "aria-prohibited-attr",
+              "count": 3
+            },
+            {
+              "id": "color-contrast",
+              "count": 190
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

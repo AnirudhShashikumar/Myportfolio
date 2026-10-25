@@ -1,0 +1,113 @@
+[
+  {
+    "mode": "cinematic",
+    "monuments": [
+      {
+        "selector": "[data-contact-monument]",
+        "ignored": true,
+        "reasons": [
+          {
+            "name": "ariaHiddenElement",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "selector": "#contact [class*=\"editorialMonument\"]",
+        "ignored": true,
+        "reasons": [
+          {
+            "name": "ariaHiddenElement",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        ]
+      }
+    ],
+    "identity": {
+      "text": "ANIRUDH SHASHIKUMAR",
+      "visible": true
+    },
+    "contactHeading": "Contact Anirudh Shashikumar",
+    "emailLink": "Email Anirudh Shashikumar"
+  },
+  {
+    "mode": "reduced",
+    "monuments": [
+      {
+        "selector": "[data-contact-monument]",
+        "ignored": true,
+        "reasons": [
+          {
+            "name": "ariaHiddenElement",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "selector": "#contact [class*=\"editorialMonument\"]",
+        "ignored": true,
+        "reasons": [
+          {
+            "name": "ariaHiddenElement",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        ]
+      }
+    ],
+    "identity": {
+      "text": "ANIRUDH SHASHIKUMAR",
+      "visible": true
+    },
+    "contactHeading": "Contact Anirudh Shashikumar",
+    "emailLink": "Email Anirudh Shashikumar"
+  },
+  {
+    "mode": "no-javascript",
+    "monuments": [
+      {
+        "selector": "[data-contact-monument]",
+        "ignored": true,
+        "reasons": [
+          {
+            "name": "ariaHiddenElement",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        ]
+      },
+      {
+        "selector": "#contact [class*=\"editorialMonument\"]",
+        "ignored": true,
+        "reasons": [
+          {
+            "name": "ariaHiddenElement",
+            "value": {
+              "type": "boolean",
+              "value": true
+            }
+          }
+        ]
+      }
+    ],
+    "identity": {
+      "text": "ANIRUDH SHASHIKUMAR",
+      "visible": true
+    },
+    "contactHeading": "Contact Anirudh Shashikumar",
+    "emailLink": "Email Anirudh Shashikumar"
+  }
+]

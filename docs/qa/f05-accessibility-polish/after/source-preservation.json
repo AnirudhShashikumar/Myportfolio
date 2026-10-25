@@ -1,0 +1,12 @@
+{
+  "changedFiles": [
+    "src/sections/Hero.module.css",
+    "src/sections/contact/Contact.module.css",
+    "src/sections/work/DayflowMotion.tsx"
+  ],
+  "fontsUnchanged": true,
+  "fontCount": 11,
+  "startingHead": "9aa1a41a1f2e5f24646aaa61f57ea7befe08726a",
+  "finalHead": "945917b32166868b6d351eaa38972711384feffa",
+  "gitHeadUnchanged": false
+}

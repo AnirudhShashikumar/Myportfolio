@@ -1,0 +1,3 @@
+PASS decorative monument + meaningful full name in cinematic
+PASS decorative monument + meaningful full name in reduced
+PASS decorative monument + meaningful full name in no-javascript

@@ -1,0 +1,11 @@
+Hero 360x800: 0 clipped states
+Hero 390x844: 0 clipped states
+Hero 430x932: 0 clipped states
+Hero 768x1024: 0 clipped states
+Hero 1280x720: 0 clipped states
+Hero 1280x800: 0 clipped states
+Hero 1440x900: 0 clipped states
+Hero 1728x1117: 0 clipped states
+Hero 391x844: 0 clipped states
+Hero 600x932: 0 clipped states
+Hero 767x1024: 0 clipped states

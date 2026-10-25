@@ -150,6 +150,81 @@
     ]
   },
   {
+    "width": 390,
+    "height": 844,
+    "p": 1,
+    "text": [
+      {
+        "text": "ONE SIGNAL.WAITING FOR ANOTHER CONNECTION.",
+        "color": "rgb(83, 104, 114)",
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": 0,
+        "bestCaseRatioOnBase": 3.3948233208535856,
+        "rect": {
+          "x": 91.421875,
+          "y": 709.328125,
+          "width": 207.140625,
+          "height": 33.40625,
+          "top": 709.328125,
+          "right": 298.5625,
+          "bottom": 742.734375,
+          "left": 91.421875
+        }
+      },
+      {
+        "text": "BASE / BENGALURU, INDIA",
+        "color": "rgb(95, 116, 126)",
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": 1,
+        "bestCaseRatioOnBase": 4.051967479705868,
+        "rect": {
+          "x": 18.390625,
+          "y": 760.21875,
+          "width": 353.21875,
+          "height": 12.46875,
+          "top": 760.21875,
+          "right": 371.609375,
+          "bottom": 772.6875,
+          "left": 18.390625
+        }
+      },
+      {
+        "text": "FIELD / COMPUTER SCIENCE",
+        "color": "rgb(95, 116, 126)",
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": 1,
+        "bestCaseRatioOnBase": 4.051967479705868,
+        "rect": {
+          "x": 18.390625,
+          "y": 779.875,
+          "width": 353.21875,
+          "height": 12.46875,
+          "top": 779.875,
+          "right": 371.609375,
+          "bottom": 792.34375,
+          "left": 18.390625
+        }
+      },
+      {
+        "text": "SIGNAL / OPEN",
+        "color": "rgb(95, 116, 126)",
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": 1,
+        "bestCaseRatioOnBase": 4.051967479705868,
+        "rect": {
+          "x": 18.390625,
+          "y": 799.53125,
+          "width": 353.21875,
+          "height": 12.46875,
+          "top": 799.53125,
+          "right": 371.609375,
+          "bottom": 812,
+          "left": 18.390625
+        }
+      }
+    ]
+  },
+  {
     "width": 1440,
     "height": 900,
     "p": 0.05,
@@ -294,6 +369,81 @@
           "top": 136.50299072265625,
           "right": 1368,
           "bottom": 148.97174072265625,
+          "left": 1290.125
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "p": 1,
+    "text": [
+      {
+        "text": "ONE SIGNAL.WAITING FOR ANOTHER CONNECTION.",
+        "color": "rgb(83, 104, 114)",
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": 0,
+        "bestCaseRatioOnBase": 3.3948233208535856,
+        "rect": {
+          "x": 616.421875,
+          "y": 767.421875,
+          "width": 207.140625,
+          "height": 33.40625,
+          "top": 767.421875,
+          "right": 823.5625,
+          "bottom": 800.828125,
+          "left": 616.421875
+        }
+      },
+      {
+        "text": "BASE / BENGALURU, INDIA",
+        "color": "rgb(95, 116, 126)",
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": 1,
+        "bestCaseRatioOnBase": 4.051967479705868,
+        "rect": {
+          "x": 72,
+          "y": 129.828125,
+          "width": 137.78125,
+          "height": 12.46875,
+          "top": 129.828125,
+          "right": 209.78125,
+          "bottom": 142.296875,
+          "left": 72
+        }
+      },
+      {
+        "text": "FIELD / COMPUTER SCIENCE",
+        "color": "rgb(95, 116, 126)",
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": 1,
+        "bestCaseRatioOnBase": 4.051967479705868,
+        "rect": {
+          "x": 678.0625,
+          "y": 129.828125,
+          "width": 143.78125,
+          "height": 12.46875,
+          "top": 129.828125,
+          "right": 821.84375,
+          "bottom": 142.296875,
+          "left": 678.0625
+        }
+      },
+      {
+        "text": "SIGNAL / OPEN",
+        "color": "rgb(95, 116, 126)",
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": 1,
+        "bestCaseRatioOnBase": 4.051967479705868,
+        "rect": {
+          "x": 1290.125,
+          "y": 129.828125,
+          "width": 77.875,
+          "height": 12.46875,
+          "top": 129.828125,
+          "right": 1368,
+          "bottom": 142.296875,
           "left": 1290.125
         }
       }

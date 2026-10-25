@@ -1,0 +1,1326 @@
+{
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "shots": [
+        {
+          "fraction": 0.8,
+          "screenshot": "target-390x844-hero-0.8.jpg",
+          "y": 2026,
+          "height": 42933,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "ANIRUDHSHASHIKUMAR",
+            "COMPUTER SCIENCE ENGINEERING / BENGALURU, INDIA"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 10,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "false"
+        },
+        {
+          "fraction": 0.95,
+          "screenshot": "target-390x844-hero-0.95.jpg",
+          "y": 2405,
+          "height": 42933,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "SATQUERY AI / GEOSPATIAL INTELLIGENCE"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 10,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "false"
+        },
+        {
+          "fraction": 1,
+          "screenshot": "target-390x844-hero-1.jpg",
+          "y": 2532,
+          "height": 42933,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "SATQUERY AI / GEOSPATIAL INTELLIGENCE",
+            "SATQUERY AI"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 10,
+          "activeTriggers": 1,
+          "cue": "disabled",
+          "aboutMode": "false"
+        },
+        {
+          "region": "algae-artifact",
+          "y": 14446,
+          "height": 42933,
+          "overflow": 0,
+          "visibleText": [
+            "REPORTED TEST DIRECTION",
+            "<900 PPM",
+            "PROTOTYPE COST",
+            "<₹2,500",
+            "The reported CO₂ change was observed over the prototype test period, within hours.",
+            "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+            "PROJECT DOCUMENTATION / CLAIMS SHOWN ARE PROJECT-REPORTED",
+            "BMSIT · 1 SEMESTER · TEAM OF 4",
+            "SOFTWARE, SENSORS, AND A LIVING SYSTEM."
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "DT",
+              "text": "REPORTED TEST DIRECTION",
+              "top": 24.640625,
+              "bottom": 37.640625
+            },
+            {
+              "tag": "DD",
+              "text": "<900 PPM",
+              "top": 41.21875,
+              "bottom": 81.21875
+            },
+            {
+              "tag": "DT",
+              "text": "PROTOTYPE COST",
+              "top": 24.640625,
+              "bottom": 37.640625
+            },
+            {
+              "tag": "DD",
+              "text": "<₹2,500",
+              "top": 41.21875,
+              "bottom": 81.21875
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 10,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "false"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "shots": [
+        {
+          "fraction": 0.8,
+          "screenshot": "target-430x932-hero-0.8.jpg",
+          "y": 2237,
+          "height": 43872,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "ANIRUDHSHASHIKUMAR",
+            "COMPUTER SCIENCE ENGINEERING / BENGALURU, INDIA"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 10,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "false"
+        },
+        {
+          "fraction": 0.95,
+          "screenshot": "target-430x932-hero-0.95.jpg",
+          "y": 2656,
+          "height": 43872,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "SATQUERY AI / GEOSPATIAL INTELLIGENCE"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 10,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "false"
+        },
+        {
+          "fraction": 1,
+          "screenshot": "target-430x932-hero-1.jpg",
+          "y": 2796,
+          "height": 43872,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "SATQUERY AI / GEOSPATIAL INTELLIGENCE",
+            "SATQUERY AI"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 10,
+          "activeTriggers": 1,
+          "cue": "disabled",
+          "aboutMode": "false"
+        },
+        {
+          "region": "algae-artifact",
+          "y": 15214,
+          "height": 43873,
+          "overflow": 0,
+          "visibleText": [
+            ">40%",
+            "~1500 PPM",
+            "REPORTED TEST DIRECTION",
+            "<900 PPM",
+            "PROTOTYPE COST",
+            "<₹2,500",
+            "The reported CO₂ change was observed over the prototype test period, within hours.",
+            "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+            "PROJECT DOCUMENTATION / CLAIMS SHOWN ARE PROJECT-REPORTED",
+            "BMSIT · 1 SEMESTER · TEAM OF 4",
+            "SOFTWARE, SENSORS, AND A LIVING SYSTEM."
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "DT",
+              "text": "REPORTED TEST DIRECTION",
+              "top": 64.578125,
+              "bottom": 77.578125
+            },
+            {
+              "tag": "DD",
+              "text": "<900 PPM",
+              "top": 80.15625,
+              "bottom": 125.15625
+            },
+            {
+              "tag": "DT",
+              "text": "PROTOTYPE COST",
+              "top": 64.578125,
+              "bottom": 77.578125
+            },
+            {
+              "tag": "DD",
+              "text": "<₹2,500",
+              "top": 80.15625,
+              "bottom": 125.15625
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 10,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "false"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "shots": [
+        {
+          "fraction": 0.8,
+          "screenshot": "target-768x1024-hero-0.8.jpg",
+          "y": 2786,
+          "height": 44260,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "ANIRUDHSHASHIKUMAR",
+            "COMPUTER SCIENCE ENGINEERING / BENGALURU, INDIA"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 21,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "false"
+        },
+        {
+          "fraction": 0.95,
+          "screenshot": "target-768x1024-hero-0.95.jpg",
+          "y": 3308,
+          "height": 44260,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "SATQUERY AI / GEOSPATIAL INTELLIGENCE"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 21,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "false"
+        },
+        {
+          "fraction": 1,
+          "screenshot": "target-768x1024-hero-1.jpg",
+          "y": 3482,
+          "height": 44260,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "SATQUERY AI / GEOSPATIAL INTELLIGENCE",
+            "SATQUERY AI"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 21,
+          "activeTriggers": 1,
+          "cue": "disabled",
+          "aboutMode": "false"
+        },
+        {
+          "region": "algae-artifact",
+          "y": 14793,
+          "height": 44260,
+          "overflow": 0,
+          "visibleText": [
+            "01 / PHYSICAL INSTRUMENTATIONDocumented system: Arduino UNO · MQ-135 · DHT22",
+            "02 / DIGITAL OBSERVATIONCaptured interface; the source screenshot shows Arduino offline.",
+            "The dashboard presents inlet and outlet readings, filtration status, and environmental telemetry.",
+            "PROTOTYPE OBSERVATIONS",
+            "MEASURED IN THE BUILD.",
+            "Reported during prototype testing; these are project observations, not independently certified results.",
+            "REPORTED CO₂ REDUCTION",
+            ">40%",
+            "REPORTED INITIAL READING",
+            "~1500 PPM",
+            "REPORTED TEST DIRECTION",
+            "<900 PPM",
+            "PROTOTYPE COST",
+            "<₹2,500",
+            "The reported CO₂ change was observed over the prototype test period, within hours.",
+            "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+            "PROJECT DOCUMENTATION / CLAIMS SHOWN ARE PROJECT-REPORTED",
+            "BMSIT · 1 SEMESTER · TEAM OF 4",
+            "SOFTWARE, SENSORS, AND A LIVING SYSTEM."
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 21,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "false"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "shots": [
+        {
+          "fraction": 0.8,
+          "screenshot": "target-1280x800-hero-0.8.jpg",
+          "y": 2560,
+          "height": 42370,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "ANIRUDHSHASHIKUMAR",
+            "COMPUTER SCIENCE ENGINEERING / BENGALURU, INDIA"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 41,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "true"
+        },
+        {
+          "fraction": 0.95,
+          "screenshot": "target-1280x800-hero-0.95.jpg",
+          "y": 3040,
+          "height": 42370,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST."
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 41,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "true"
+        },
+        {
+          "fraction": 1,
+          "screenshot": "target-1280x800-hero-1.jpg",
+          "y": 3200,
+          "height": 42370,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "SATQUERY AI"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 41,
+          "activeTriggers": 1,
+          "cue": "disabled",
+          "aboutMode": "true"
+        },
+        {
+          "region": "algae-artifact",
+          "y": 14065,
+          "height": 42371,
+          "overflow": 0,
+          "visibleText": [
+            "PROTOTYPE OBSERVATIONS",
+            "MEASURED IN THE BUILD.",
+            "Reported during prototype testing; these are project observations, not independently certified results.",
+            "REPORTED CO₂ REDUCTION",
+            ">40%",
+            "REPORTED INITIAL READING",
+            "~1500 PPM",
+            "REPORTED TEST DIRECTION",
+            "<900 PPM",
+            "PROTOTYPE COST",
+            "<₹2,500",
+            "The reported CO₂ change was observed over the prototype test period, within hours.",
+            "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+            "PROJECT DOCUMENTATION / CLAIMS SHOWN ARE PROJECT-REPORTED"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 41,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "true"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "shots": [
+        {
+          "fraction": 0.8,
+          "screenshot": "target-1440x900-hero-0.8.jpg",
+          "y": 2880,
+          "height": 46877,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "ANIRUDHSHASHIKUMAR",
+            "COMPUTER SCIENCE ENGINEERING / BENGALURU, INDIA"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 41,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "true"
+        },
+        {
+          "fraction": 0.95,
+          "screenshot": "target-1440x900-hero-0.95.jpg",
+          "y": 3420,
+          "height": 46877,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST."
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 41,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "true"
+        },
+        {
+          "fraction": 1,
+          "screenshot": "target-1440x900-hero-1.jpg",
+          "y": 3600,
+          "height": 46877,
+          "overflow": 0,
+          "visibleText": [
+            "I BUILDWHAT I WANTTO EXIST.",
+            "SATQUERY AI"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 41,
+          "activeTriggers": 1,
+          "cue": "disabled",
+          "aboutMode": "true"
+        },
+        {
+          "region": "algae-artifact",
+          "y": 15448,
+          "height": 46878,
+          "overflow": 0,
+          "visibleText": [
+            "The dashboard presents inlet and outlet readings, filtration status, and environmental telemetry.",
+            "PROTOTYPE OBSERVATIONS",
+            "MEASURED IN THE BUILD.",
+            "Reported during prototype testing; these are project observations, not independently certified results.",
+            "REPORTED CO₂ REDUCTION",
+            ">40%",
+            "REPORTED INITIAL READING",
+            "~1500 PPM",
+            "REPORTED TEST DIRECTION",
+            "<900 PPM",
+            "PROTOTYPE COST",
+            "<₹2,500",
+            "The reported CO₂ change was observed over the prototype test period, within hours.",
+            "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+            "PROJECT DOCUMENTATION / CLAIMS SHOWN ARE PROJECT-REPORTED"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 41,
+          "activeTriggers": 2,
+          "cue": "disabled",
+          "aboutMode": "true"
+        }
+      ]
+    }
+  ],
+  "contrast": [
+    {
+      "width": 390,
+      "region": "#home",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 320
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='0']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 325
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='1']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 321
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='2']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 317
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='3']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 310
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='4']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 309
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='5']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.0pt (6.72px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 305
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 390,
+      "region": "#contact",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 305
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 1440,
+      "region": "#home",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 179
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='0']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 177
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='1']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 180
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='2']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 174
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='3']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 166
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='4']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">06</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 212
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='5']",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">04</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+              ],
+              "html": "<span class=\"WorkNavigation_coordinateNode__2Q_Hm\" data-work-coordinate-node=\"true\" style=\"--node-strength: 0.000;\">05</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #3a464c, background color: #080d12, font size: 5.6pt (7.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 256
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "width": 1440,
+      "region": "#contact",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 258
+        }
+      ],
+      "passes": 27
+    }
+  ],
+  "errors": [],
+  "contactFocus": [
+    {
+      "text": "EMAIL ME↗",
+      "href": "mailto:Anirudh.shashikumar@gmail.com",
+      "y": 44907
+    },
+    {
+      "text": "LINKEDIN ↗",
+      "href": "https://www.linkedin.com/in/anirudh-shashikumar",
+      "y": 44907
+    },
+    {
+      "text": "GITHUB ↗",
+      "href": "https://github.com/AnirudhShashikumar",
+      "y": 44907
+    },
+    {
+      "text": "BACK TO TOP ↑",
+      "href": "#home",
+      "y": 45978
+    }
+  ],
+  "contactInitialLinks": [
+    {
+      "href": "mailto:Anirudh.shashikumar@gmail.com",
+      "visibility": "visible"
+    },
+    {
+      "href": "https://www.linkedin.com/in/anirudh-shashikumar",
+      "visibility": "visible"
+    },
+    {
+      "href": "https://github.com/AnirudhShashikumar",
+      "visibility": "visible"
+    }
+  ]
+}

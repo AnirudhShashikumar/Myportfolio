@@ -46,11 +46,12 @@ try {
      return {text:e.textContent,opacity,visible,font:getComputedStyle(e).fontSize,rect:{left:box.left,right:box.right,top:box.top,bottom:box.bottom},textRects:[...range.getClientRects()].filter(r=>r.width>.1).map(r=>({left:r.left,right:r.right,top:r.top,bottom:r.bottom})),parent:e.parentElement.getBoundingClientRect().toJSON()};
     });
     const clips=elements.filter(e=>e.visible&&e.opacity>.05&&e.textRects.some(r=>r.left<-.5||r.right>innerWidth+.5));
-    return {p,y:scrollY,overflow:document.documentElement.scrollWidth-innerWidth,elements,clips};
+    const nameMasks=elements.filter(e=>['ANIRUDH','SHASHIKUMAR'].includes(e.text)&&e.visible&&e.opacity>.05&&e.textRects.some(r=>r.left<e.parent.left-.5||r.right>e.parent.right+.5));
+    return {p,y:scrollY,overflow:document.documentElement.scrollWidth-innerWidth,elements,clips,nameMasks};
    },p);
    states.push(state);
    if([.8,.95].includes(p) && states.filter(s=>s.p===p).length===1)await page.screenshot({path:`${out}/hero-${width}x${height}-${p}.jpg`,type:'jpeg',quality:90});
-   if(phase==='after'){assert.equal(state.overflow,0);assert.equal(state.clips.length,0,`${width}x${height} Hero ${p}: ${state.clips.map(x=>x.text)}`)}
+   if(phase==='after'){assert.equal(state.overflow,0);assert.equal(state.clips.length,0,`${width}x${height} Hero ${p}: ${state.clips.map(x=>x.text)}`);assert.equal(state.nameMasks.length,0,'name glyphs fit their reveal masks')}
   }
   result.hero.push({width,height,states});
   await context.close();console.log(`Hero ${width}x${height}: ${states.filter(s=>s.clips.length).length} clipped states`);
@@ -62,6 +63,7 @@ try {
   for(const p of [0,.25,.5,.75,1,.5,0]){
    await jump(page,range.start+(range.end-range.start)*p);
    const state={section,p,nodes:await affected(page),contrast:await contrast(page,'[data-work-project="3"]')};
+   if(phase==='after'){assert.equal(state.nodes.length,20);assert.ok(state.nodes.every(n=>n.opacity>=.75),'all twenty labels retain their readable opacity floor')}
    result.dayflow.push(state);
    if([0,.5,1].includes(p)&&result.dayflow.filter(s=>s.section===section&&s.p===p).length===1)await page.screenshot({path:`${out}/dayflow-${section}-${p}.jpg`,type:'jpeg',quality:90});
   }

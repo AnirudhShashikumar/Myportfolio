@@ -277,7 +277,7 @@
 }
 
 /* Keep readable metadata independent of the decorative signal paths. */
-.finalMeta span { background: #070a0c; }
+.finalMeta span { align-self: flex-start; background: #070a0c; }
 
 .editorial, .editorialMonument { display: none; }
 
