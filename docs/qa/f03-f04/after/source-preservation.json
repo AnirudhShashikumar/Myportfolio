@@ -1,0 +1,9 @@
+{
+  "changedApplicationAndDependencyFiles": [
+    "src/sections/work/MediFitFeature.module.css",
+    "src/sections/work/MediFitFeature.tsx",
+    "src/components/layout/SiteFooter.module.css"
+  ],
+  "fontFiles": 11,
+  "fontsUnchanged": true
+}

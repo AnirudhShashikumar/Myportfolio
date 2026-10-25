@@ -1,0 +1,9 @@
+PASS isolated slow/fast/reverse wheel input at #home
+PASS isolated slow/fast/reverse wheel input at [data-work-project="0"]
+PASS isolated slow/fast/reverse wheel input at [data-work-project="1"]
+PASS isolated slow/fast/reverse wheel input at [data-work-project="2"]
+PASS isolated slow/fast/reverse wheel input at [data-work-project="3"]
+PASS isolated slow/fast/reverse wheel input at [data-work-project="4"]
+PASS isolated slow/fast/reverse wheel input at [data-work-project="5"]
+PASS isolated slow/fast/reverse wheel input at #about
+PASS isolated slow/fast/reverse wheel input at #contact

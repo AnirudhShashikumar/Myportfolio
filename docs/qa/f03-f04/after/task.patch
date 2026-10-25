@@ -1,0 +1,109 @@
+--- before/src/sections/work/MediFitFeature.tsx
++++ after/src/sections/work/MediFitFeature.tsx
+@@ -252,9 +252,7 @@
+               <p className={styles.eyebrow}>AI HEALTHCARE · DIGITAL TWIN · PERSONALIZED FITNESS</p>
+               <p className={styles.endcapTitle}>HEALTH CONTEXT, MADE ACTIONABLE.</p>
+             </div>
+-            <a href="https://medi-fit-navy.vercel.app/" target="_blank" rel="noreferrer" className={styles.projectAction} data-mf-cta aria-label="Open the live MediFit application in a new tab">
+-              LIVE APP <span aria-hidden="true">↗</span>
+-            </a>
++            <p className={styles.demoStatus} data-mf-cta>LIVE DEMO UNVERIFIED</p>
+           </Container>
+         </div>
+ 
+--- before/src/sections/work/MediFitFeature.module.css
++++ after/src/sections/work/MediFitFeature.module.css
+@@ -28,7 +28,7 @@
+ .certificate figcaption,
+ .teamEvidence figcaption,
+ .organizer,
+-.projectAction {
++.demoStatus {
+   font-family: var(--font-geist-mono), monospace;
+   letter-spacing: 0.09em;
+ }
+@@ -694,41 +694,14 @@
+   letter-spacing: -0.035em;
+ }
+ 
+-.projectAction {
++.demoStatus {
+   display: inline-flex;
+   min-height: 3rem;
+   flex: none;
+   align-items: center;
+-  gap: 1.3rem;
+-  padding: 0.85rem 1rem;
+-  border: 1px solid rgb(196 169 94 / 40%);
+-  color: #f0ead5;
+-  font-family: var(--font-geist-mono), monospace;
++  margin: 0;
++  color: #c4b88c;
+   font-size: 0.65rem;
+-  letter-spacing: 0.09em;
+-  text-decoration: none;
+-  transition: border-color 180ms ease, background-color 180ms ease, color 180ms ease;
+-}
+-
+-.projectAction:hover {
+-  border-color: rgb(210 185 100 / 72%);
+-  background: rgb(160 140 60 / 14%);
+-}
+-
+-.projectAction:focus-visible {
+-  border-color: #c4a95e;
+-  outline: 2px solid #c4a95e;
+-  outline-offset: 4px;
+-}
+-
+-.projectAction span {
+-  font-size: 0.95rem;
+-  transition: transform 180ms ease;
+-}
+-
+-.projectAction:hover span,
+-.projectAction:focus-visible span {
+-  transform: translate(0.14rem, -0.14rem);
+ }
+ 
+ /* ================================================================
+@@ -983,8 +956,6 @@
+   .certificate .evidenceImage,
+   .teamImageFrame,
+   .teamEvidence .evidenceImage,
+-  .projectAction,
+-  .projectAction span,
+   .buildSegment {
+     transition: none;
+   }
+--- before/src/components/layout/SiteFooter.module.css
++++ after/src/components/layout/SiteFooter.module.css
+@@ -3,7 +3,7 @@
+   z-index: 4;
+   border-top: 1px solid rgb(169 209 226 / 12%);
+   background: #070a0c;
+-  color: #60757e;
++  color: #687d86;
+ }
+ 
+ .inner {
+@@ -12,7 +12,7 @@
+   align-items: center;
+   padding-block: 1.25rem;
+   font-family: var(--font-geist-mono), monospace;
+-  font-size: 0.55rem;
++  font-size: 0.6875rem;
+   grid-template-columns: 1.2fr 0.5fr 1.4fr auto;
+   gap: 1rem;
+   letter-spacing: 0.1em;
+--- before/scripts/accessibility-f02-qa.mjs
++++ after/scripts/accessibility-f02-qa.mjs
+@@ -98,7 +98,7 @@
+     for (const phrase of ["specialist models", "role-aware HR platform", "personalized fitness"]) {
+       assert.ok(results.initialAX.some(node => node.role === "StaticText" && node.name?.toLowerCase().includes(phrase.toLowerCase())), `description exposed: ${phrase}`);
+     }
+-    for (const phrase of ["live SatQuery", "live Gesture Globe", "EXPLORE ALGAEOS", "live Dayflow", "VIEW MEDITWIN", "live MediFit"]) {
++    for (const phrase of ["live SatQuery", "live Gesture Globe", "EXPLORE ALGAEOS", "live Dayflow", "VIEW MEDITWIN", "MediFit third-place certificate"]) {
+       assert.ok(results.initialAX.some(node => node.role === "link" && node.name?.includes(phrase)), `project action exposed: ${phrase}`);
+     }
+     for (const name of ["Email Anirudh Shashikumar", "Anirudh Shashikumar on LinkedIn (opens in a new tab)", "Anirudh Shashikumar on GitHub (opens in a new tab)"]) {

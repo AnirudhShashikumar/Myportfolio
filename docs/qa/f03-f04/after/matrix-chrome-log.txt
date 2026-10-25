@@ -1,0 +1,8 @@
+chrome 360x800: 82 samples; 0 horizontal candidates; 0 axe rule failures; 0 errors
+chrome 390x844: 81 samples; 2 horizontal candidates; 0 axe rule failures; 0 errors
+chrome 430x932: 80 samples; 1 horizontal candidates; 0 axe rule failures; 0 errors
+chrome 768x1024: 90 samples; 0 horizontal candidates; 0 axe rule failures; 0 errors
+chrome 1280x720: 122 samples; 0 horizontal candidates; 1 axe rule failures; 0 errors
+chrome 1280x800: 116 samples; 0 horizontal candidates; 1 axe rule failures; 0 errors
+chrome 1440x900: 117 samples; 0 horizontal candidates; 1 axe rule failures; 0 errors
+chrome 1728x1117: 114 samples; 0 horizontal candidates; 1 axe rule failures; 0 errors

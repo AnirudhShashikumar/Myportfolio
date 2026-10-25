@@ -1,0 +1,12 @@
+{
+  "chrome": {
+    "version": "155.0.8059.85",
+    "viewports": 8,
+    "samples": 802
+  },
+  "webkit": {
+    "version": "26.5",
+    "viewports": 3,
+    "samples": 318
+  }
+}

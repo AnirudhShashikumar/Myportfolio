@@ -1,0 +1,28 @@
+commit 926046327d1f6ea55bf09a51f76e70a8fe6cd250
+Author:     Anirudh Shashikumar <Anirudh.shashikumar@gmail.com>
+AuthorDate: Mon Sep 28 20:42:18 2026 +0530
+Commit:     Anirudh Shashikumar <Anirudh.shashikumar@gmail.com>
+CommitDate: Mon Sep 28 20:42:18 2026 +0530
+
+    feat: add About and Contact sections with animations and styling
+    
+    - Implemented About section with dynamic domain fields, journey timeline, and animated transitions using GSAP.
+    - Created Contact section featuring signal interactions, email, LinkedIn, and GitHub links with animations.
+    - Updated styles for both sections to enhance visual presentation and responsiveness.
+    - Changed project action links in work features to direct to live applications instead of internal anchors.
+
+diff --git a/src/sections/work/MediFitFeature.tsx b/src/sections/work/MediFitFeature.tsx
+index 977f078..fe17e4a 100644
+--- a/src/sections/work/MediFitFeature.tsx
++++ b/src/sections/work/MediFitFeature.tsx
+@@ -251,8 +251,8 @@ export default function MediFitFeature() {
+               <p className={styles.eyebrow}>AI HEALTHCARE · DIGITAL TWIN · PERSONALIZED FITNESS</p>
+               <p className={styles.endcapTitle}>HEALTH CONTEXT, MADE ACTIONABLE.</p>
+             </div>
+-            <a href="#medifit-detail" className={styles.projectAction} data-mf-cta>
+-              VIEW MEDIFIT <span aria-hidden="true">↗</span>
++            <a href="https://medi-fit-navy.vercel.app/" target="_blank" rel="noreferrer" className={styles.projectAction} data-mf-cta aria-label="Open the live MediFit application in a new tab">
++              LIVE APP <span aria-hidden="true">↗</span>
+             </a>
+           </Container>
+         </div>
