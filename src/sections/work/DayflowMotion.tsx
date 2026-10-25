@@ -8,6 +8,8 @@ import { useEffect, useRef, type ReactNode } from "react";
 import styles from "./DayflowFeature.module.css";
 
 const DESKTOP_MOTION = "(min-width: 901px) and (min-height: 601px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)";
+// Scrubbing can pause on these labels before their individual reveal completes.
+const READABLE_NODE_OPACITY = 0.75;
 
 export default function DayflowMotion({ children }: { children: ReactNode }) {
   const rootRef = useRef<HTMLDivElement>(null);
@@ -119,7 +121,7 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
         const architectureSignals = all("[data-df-architecture-signal]");
 
         if (architecture && architectureNodes.length) {
-          gsap.set(architectureNodes, { autoAlpha: 0.38, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" });
+          gsap.set(architectureNodes, { autoAlpha: READABLE_NODE_OPACITY, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" });
           gsap.set(architectureLines, { scaleX: 0, transformOrigin: "left center" });
           gsap.set(architectureSignals, { autoAlpha: 0, x: 0 });
 
@@ -136,7 +138,7 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
           architectureNodes.forEach((node, index) => {
             architectureTimeline.fromTo(
               node,
-              { autoAlpha: 0.38, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" },
+              { autoAlpha: READABLE_NODE_OPACITY, y: 12, borderColor: "rgba(157, 182, 211, 0.12)" },
               { autoAlpha: 1, y: 0, borderColor: "rgba(157, 196, 239, 0.52)", duration: 0.36, ease: "power2.out" },
               index === 0 ? 0 : ">-0.04",
             );
@@ -180,7 +182,7 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
         const transactionSignals = all("[data-df-transaction-signal]");
 
         if (transaction && transactionNodes.length) {
-          gsap.set(transactionNodes, { autoAlpha: 0.35, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" });
+          gsap.set(transactionNodes, { autoAlpha: READABLE_NODE_OPACITY, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" });
           gsap.set(transactionLines, { scaleX: 0, transformOrigin: "left center" });
           gsap.set(transactionSignals, { autoAlpha: 0, x: 0 });
 
@@ -197,7 +199,7 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
           transactionNodes.forEach((node, index) => {
             transactionTimeline.fromTo(
               node,
-              { autoAlpha: 0.35, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" },
+              { autoAlpha: READABLE_NODE_OPACITY, y: 8, borderColor: "rgba(157, 182, 211, 0.1)" },
               { autoAlpha: 1, y: 0, borderColor: "rgba(157, 196, 239, 0.48)", duration: 0.3, ease: "power2.out" },
               index === 0 ? 0 : ">-0.03",
             );

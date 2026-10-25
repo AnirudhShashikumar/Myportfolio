@@ -545,7 +545,7 @@
   }
 
   .name {
-    font-size: clamp(3.2rem, 15.5vw, 5.4rem);
+    font-size: clamp(3.2rem, 14vw, 5.4rem);
     letter-spacing: -0.078em;
     line-height: 0.84;
   }
@@ -563,6 +563,12 @@
 
   .evidencePlane1 {
     width: 52vw;
+  }
+
+  .evidencePlane figcaption {
+    /* The image may crop past the right edge; its label must still fit. */
+    max-width: calc(50vw - 1rem);
+    overflow-wrap: anywhere;
   }
 
   .projectLockup {

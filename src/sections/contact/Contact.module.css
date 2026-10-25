@@ -76,7 +76,8 @@
 .opening > p:last-child {
   position: absolute;
   bottom: 11vh;
-  color: #536872;
+  background: #070a0c;
+  color: #728a95;
   font-family: var(--font-geist-mono), monospace;
   font-size: 0.58rem;
   letter-spacing: 0.12em;
@@ -268,12 +269,15 @@
   justify-content: space-between;
   border-top: 1px solid rgb(169 208 225 / 14%);
   padding-top: 0.75rem;
-  color: #5f747e;
+  color: #728a95;
   font-family: var(--font-geist-mono), monospace;
   font-size: 0.52rem;
   letter-spacing: 0.12em;
   opacity: 0;
 }
+
+/* Keep readable metadata independent of the decorative signal paths. */
+.finalMeta span { background: #070a0c; }
 
 .editorial, .editorialMonument { display: none; }
 
