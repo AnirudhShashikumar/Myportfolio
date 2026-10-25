@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-25T15:40:51.334Z",
+  "before-npm-audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 4,
+    "critical": 1,
+    "total": 5
+  },
+  "before-npm-audit-production": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 2,
+    "critical": 1,
+    "total": 3
+  },
+  "after-npm-audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "after-npm-audit-production": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "lockfileSha256": "a4845907ac91ba8b41eaca3d06bb84a2253cad6630d8bc31d0ae287c7d56391d",
+  "originalSuitesUnchanged": true,
+  "evidenceLinksExist": true
+}

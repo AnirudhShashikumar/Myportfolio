@@ -1,0 +1,133 @@
+{
+  "initial": [
+    {
+      "url": "/_next/static/chunks/4bd1b696-92152b0f5947070d.js",
+      "bytes": 201054,
+      "gzipBytes": 63299
+    },
+    {
+      "url": "/_next/static/chunks/794-fa85041d1eeb8167.js",
+      "bytes": 240795,
+      "gzipBytes": 65603
+    },
+    {
+      "url": "/_next/static/chunks/main-app-6954a6653158385a.js",
+      "bytes": 513,
+      "gzipBytes": 221
+    },
+    {
+      "url": "/_next/static/chunks/c15bf2b0-0b7ccb01d0221f08.js",
+      "bytes": 51577,
+      "gzipBytes": 19779
+    },
+    {
+      "url": "/_next/static/chunks/50-d904d14977fc9b15.js",
+      "bytes": 62258,
+      "gzipBytes": 24875
+    },
+    {
+      "url": "/_next/static/chunks/app/layout-0c38043663c29cc3.js",
+      "bytes": 25893,
+      "gzipBytes": 7715
+    },
+    {
+      "url": "/_next/static/chunks/209-c8dacd0b7a6e1e23.js",
+      "bytes": 18578,
+      "gzipBytes": 6470
+    },
+    {
+      "url": "/_next/static/chunks/app/page-484213aa562e49b7.js",
+      "bytes": 127264,
+      "gzipBytes": 34588
+    },
+    {
+      "url": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "gzipBytes": 39627
+    },
+    {
+      "url": "/_next/static/chunks/webpack-4824988a03a36cd6.js",
+      "bytes": 3549,
+      "gzipBytes": 1850
+    }
+  ],
+  "initialBytes": 844075,
+  "initialGzipBytes": 264027,
+  "allChunks": [
+    {
+      "file": "bd904a5c.c73a00c7d46f8d71.js",
+      "bytes": 379908,
+      "gzipBytes": 101106
+    },
+    {
+      "file": "b536a0f1.4357ad16972f68f4.js",
+      "bytes": 368049,
+      "gzipBytes": 88748
+    },
+    {
+      "file": "794-fa85041d1eeb8167.js",
+      "bytes": 240795,
+      "gzipBytes": 65603
+    },
+    {
+      "file": "4bd1b696-92152b0f5947070d.js",
+      "bytes": 201054,
+      "gzipBytes": 63299
+    },
+    {
+      "file": "framework-6860ebc283a60d07.js",
+      "bytes": 189664,
+      "gzipBytes": 59811
+    },
+    {
+      "file": "72c373f8.e056c33f8b8d6ede.js",
+      "bytes": 146757,
+      "gzipBytes": 46230
+    },
+    {
+      "file": "main-ee0262d93f1247de.js",
+      "bytes": 138980,
+      "gzipBytes": 40012
+    },
+    {
+      "file": "polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "gzipBytes": 39627
+    },
+    {
+      "file": "50-d904d14977fc9b15.js",
+      "bytes": 62258,
+      "gzipBytes": 24875
+    },
+    {
+      "file": "c15bf2b0-0b7ccb01d0221f08.js",
+      "bytes": 51577,
+      "gzipBytes": 19779
+    },
+    {
+      "file": "209-c8dacd0b7a6e1e23.js",
+      "bytes": 18578,
+      "gzipBytes": 6470
+    },
+    {
+      "file": "857.ecdb3aac69b80487.js",
+      "bytes": 13128,
+      "gzipBytes": 5181
+    },
+    {
+      "file": "844.9405b6f7111713b8.js",
+      "bytes": 12478,
+      "gzipBytes": 3853
+    },
+    {
+      "file": "webpack-4824988a03a36cd6.js",
+      "bytes": 3549,
+      "gzipBytes": 1850
+    },
+    {
+      "file": "main-app-6954a6653158385a.js",
+      "bytes": 513,
+      "gzipBytes": 221
+    }
+  ]
+}

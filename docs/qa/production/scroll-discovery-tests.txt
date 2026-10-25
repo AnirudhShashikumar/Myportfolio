@@ -1,0 +1,33 @@
+PASS viewport 360x800
+PASS viewport 390x844
+PASS viewport 430x932
+PASS viewport 768x1024
+PASS viewport 1280x800
+PASS viewport 1440x900
+PASS viewport 1728x1117
+PASS wheel immediately dismisses; reverse/rapid travel and 9s idle never repeat
+PASS keyboard ArrowDown cancels pending guidance
+PASS keyboard PageDown cancels pending guidance
+PASS keyboard Space cancels pending guidance
+PASS keyboard End cancels pending guidance
+PASS keyboard Home cancels pending guidance
+PASS native document scroll / scrollbar-equivalent seek dismisses
+PASS small trackpad deltas accumulate without intercepting input
+PASS touch swipe dismisses and native touch scrolling still advances
+PASS direct #work never arms Hero guidance
+PASS direct #about never arms Hero guidance
+PASS direct #contact never arms Hero guidance
+PASS direct #lab never arms Hero guidance
+PASS direct #home remains eligible
+PASS refresh in Work without a hash respects native scroll restoration
+PASS hash back/forward navigation never re-arms guidance
+PASS keyboard focus hides guidance and preserves primary navigation
+PASS document back/forward navigation does not restart Hero guidance
+PASS dialog open suppresses; closing starts a fresh 2.8s wait
+PASS menu open suppresses; closing starts a fresh 2.8s wait
+PASS tab visibility lifecycle resets inactivity (simulated visibility state)
+PASS BFCache pageshow disables a pending prompt (synthetic persisted event)
+PASS live reduced motion keeps guidance static; cold reduced motion still guides
+PASS mobile orientation and safe-area spacing remain clear
+PASS About reader mode remains usable and never prompts
+PASS 7 viewports; 25 behavior cases; no page errors

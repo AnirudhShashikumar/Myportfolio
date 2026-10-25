@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-25T15:26:55.505Z",
+  "node": "v24.14.1",
+  "npm": "11.11.0",
+  "sourceHashes": [
+    {
+      "path": "scripts/production-audit.mjs",
+      "sha256": "c0314d12e300daf9582be78e94d5e6348de275c13996e6e0b3bb29cf25dc9072"
+    },
+    {
+      "path": "scripts/about-motion-qa.mjs",
+      "sha256": "0b9b64f60bf0781de776b118b39f2ffb17b95f4423eb40ddaa63f01b91a6de43"
+    },
+    {
+      "path": "scripts/scroll-discovery-qa.mjs",
+      "sha256": "5dbd80a224c6857853cf34f6d12025a02d7ddf7b845165da9df780ab3a952b81"
+    },
+    {
+      "path": "scripts/about-content.test.mjs",
+      "sha256": "b7a30cb519f862b86ab01ce31383b7b2de9b8f75ec6624a971e606d9792b6709"
+    }
+  ],
+  "lockfileSha256": "a4845907ac91ba8b41eaca3d06bb84a2253cad6630d8bc31d0ae287c7d56391d",
+  "outputRedirection": "Temporary copies of existing suites changed only the output directory constant. Application source and original suites were not edited."
+}

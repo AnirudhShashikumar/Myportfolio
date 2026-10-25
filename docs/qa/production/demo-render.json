@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://sat-query-ai-phi.vercel.app/",
+    "status": 200,
+    "finalUrl": "https://sat-query-ai-phi.vercel.app/",
+    "title": "SatQuery AI",
+    "text": "SatQuery\nAI\nBenchmarks\nAbout\nLaunch Assistant\nMULTIMODAL GEOSPATIAL INTELLIGENCE\nAsk Earth Anything.\n\nInteractive Vision-Language Assistant for Multimodal Remote Sensing Intelligence\n\nTurn satellite imagery into grounded answers, comparisons, change evidence, and decision-ready reports through one spatial reasoning interface.\n\nAsk SatQuery\nAGENT ONLINE\nDescribe this satellite image\nWhat changed between these two dates?\nCompare the optical and SAR observations\nCount the buildings in this scene\nHighlight every visible water body\nIs this area urban or rural?\nLIVE\nSAR\nStructural signal\nOptical\nSpectral context\nSatQuery\nGrounded synthesis\n\nCONTINUE EXPLORING\n\nRecent conversations\nView history\nYour Earth questions will live here.\n\nStart a conversation to quickly return to imagery, evidence, and ",
+    "errors": [],
+    "failed": []
+  },
+  {
+    "url": "https://gestureglobe.vercel.app/",
+    "status": 200,
+    "finalUrl": "https://gestureglobe.vercel.app/",
+    "title": "Gesture Globe — Hand-Controlled Holographic Mesh",
+    "text": "INITIALIZING\n0 FPS\nCOLOR\n⚠\nCamera Access Required\n\nPermission denied\n\nTry this:\n\nAllow camera access in your browser permissions.\nReload the page after granting access.\nIf it still fails, close apps that may already be using the webcam.\nRETRY",
+    "errors": [],
+    "failed": []
+  },
+  {
+    "url": "https://dayflow-anirudh6.vercel.app",
+    "status": 200,
+    "finalUrl": "https://dayflow-anirudh6.vercel.app/login",
+    "title": "Sign in · Dayflow",
+    "text": "Dayflow\nEvery workday, perfectly aligned.\nHuman operations, in rhythm\nYour people.\nOne clear flow.\n\nAttendance, leave, payroll and people operations—perfectly aligned in one workspace.\n\nDaily clarity\n\nPeople-first\n\nUseful insights\n\nSecure by design with role-based access and audit history\n\nWelcome back\n\nEmployee sign in\n\nAccess your attendance, leave, payroll and profile.\n\nChoose your workspace\nEmployee Portal\nSelected\nHR / Admin Portal\nWork email\nPassword\nForgot password?\nSign in to Employee Portal\n\nFor employees accessing their personal workspace.\n\nNew employee? Create an account",
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://dayflow-anirudh6.vercel.app/?_rsc=sW2A7HEmFQnSVIMx",
+        "error": "net::ERR_ABORTED"
+      }
+    ]
+  },
+  {
+    "url": "https://medi-fit-navy.vercel.app/",
+    "status": 200,
+    "finalUrl": "https://medi-fit-navy.vercel.app/",
+    "title": "MediFit",
+    "text": "MediFit\n\nAI-powered medication safety & health analysis\n\nConnect your AI\n\nEnter your Google Gemini API key to get started\n\nGEMINI API KEY\n\nYour key is stored locally in your browser. It is never sent to our servers.Get a free key →\n\nLight mode\nNo data stored on servers · For informational use only",
+    "errors": [],
+    "failed": []
+  }
+]

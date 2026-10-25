@@ -1,0 +1,326 @@
+[
+  {
+    "engine": "chrome",
+    "browser": "155.0.8059.85",
+    "viewports": [
+      {
+        "width": 360,
+        "height": 800,
+        "samples": 82,
+        "beforeSamples": 82,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 0,
+        "afterHorizontalTextCandidates": 0,
+        "geometryDifferences": [
+          {
+            "i": 12,
+            "before": {
+              "y": 10125,
+              "height": 42594,
+              "triggers": 10,
+              "about": "false"
+            },
+            "after": {
+              "y": 10125,
+              "height": 42593,
+              "triggers": 10,
+              "about": "false"
+            }
+          },
+          {
+            "i": 18,
+            "before": {
+              "y": 16392,
+              "height": 42593,
+              "triggers": 10,
+              "about": "false"
+            },
+            "after": {
+              "y": 16392,
+              "height": 42592,
+              "triggers": 10,
+              "about": "false"
+            }
+          },
+          {
+            "i": 24,
+            "before": {
+              "y": 21857,
+              "height": 42592,
+              "triggers": 10,
+              "about": "false"
+            },
+            "after": {
+              "y": 21857,
+              "height": 42593,
+              "triggers": 10,
+              "about": "false"
+            }
+          },
+          {
+            "i": 29,
+            "before": {
+              "y": 26348,
+              "height": 42593,
+              "triggers": 10,
+              "about": "false"
+            },
+            "after": {
+              "y": 26348,
+              "height": 42592,
+              "triggers": 10,
+              "about": "false"
+            }
+          }
+        ],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "samples": 81,
+        "beforeSamples": 81,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 2,
+        "afterHorizontalTextCandidates": 2,
+        "geometryDifferences": [
+          {
+            "i": 12,
+            "before": {
+              "y": 10422,
+              "height": 42933,
+              "triggers": 10,
+              "about": "false"
+            },
+            "after": {
+              "y": 10422,
+              "height": 42934,
+              "triggers": 10,
+              "about": "false"
+            }
+          },
+          {
+            "i": 13,
+            "before": {
+              "y": 11803,
+              "height": 42933,
+              "triggers": 10,
+              "about": "false"
+            },
+            "after": {
+              "y": 11803,
+              "height": 42934,
+              "triggers": 10,
+              "about": "false"
+            }
+          }
+        ],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "samples": 80,
+        "beforeSamples": 80,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 2,
+        "afterHorizontalTextCandidates": 1,
+        "geometryDifferences": [],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      },
+      {
+        "width": 768,
+        "height": 1024,
+        "samples": 90,
+        "beforeSamples": 90,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 2,
+        "afterHorizontalTextCandidates": 0,
+        "geometryDifferences": [],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "samples": 122,
+        "beforeSamples": 122,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 2,
+        "afterHorizontalTextCandidates": 0,
+        "geometryDifferences": [],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      },
+      {
+        "width": 1280,
+        "height": 800,
+        "samples": 116,
+        "beforeSamples": 116,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 2,
+        "afterHorizontalTextCandidates": 0,
+        "geometryDifferences": [],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "samples": 117,
+        "beforeSamples": 117,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 0,
+        "afterHorizontalTextCandidates": 0,
+        "geometryDifferences": [],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      },
+      {
+        "width": 1728,
+        "height": 1117,
+        "samples": 114,
+        "beforeSamples": 114,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 0,
+        "afterHorizontalTextCandidates": 0,
+        "geometryDifferences": [],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "browser": "26.5",
+    "viewports": [
+      {
+        "width": 390,
+        "height": 844,
+        "samples": 81,
+        "beforeSamples": 81,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 2,
+        "afterHorizontalTextCandidates": 2,
+        "geometryDifferences": [],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "samples": 121,
+        "beforeSamples": 121,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 2,
+        "afterHorizontalTextCandidates": 0,
+        "geometryDifferences": [],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "samples": 116,
+        "beforeSamples": 116,
+        "pageErrors": [],
+        "failedRequests": [],
+        "overflowSamples": 0,
+        "timelineMismatches": 0,
+        "brokenImageRecords": 0,
+        "beforeHorizontalTextCandidates": 0,
+        "afterHorizontalTextCandidates": 0,
+        "geometryDifferences": [],
+        "beforeAxeRules": [
+          "color-contrast"
+        ],
+        "afterAxeRules": [
+          "color-contrast"
+        ]
+      }
+    ]
+  }
+]

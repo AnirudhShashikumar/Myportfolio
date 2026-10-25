@@ -1,0 +1,110 @@
+[
+  {
+    "file": "public/achievements/google-ai-professional-certificate-2026.jpg",
+    "width": 1800,
+    "height": 1387,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/achievements/presidency-html-competition-first-place-2020.jpg",
+    "width": 1800,
+    "height": 1277,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/algaeos/algaeos-prototype-hero.jpg",
+    "width": 1280,
+    "height": 1347,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/algaeos/algaeos-dashboard.jpg",
+    "width": 2048,
+    "height": 1154,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/algaeos/algaeos-iot-hardware.jpg",
+    "width": 1280,
+    "height": 1389,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/algaeos/algaeos-system-infographic.jpg",
+    "width": 572,
+    "height": 1024,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/medifit/push-pull-commit-team-event.jpg",
+    "width": 4032,
+    "height": 3024,
+    "hasGpsMetadata": true
+  },
+  {
+    "file": "public/projects/medifit/push-pull-commit-certificate.jpg",
+    "width": 1458,
+    "height": 1031,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/satquery-ai/satquery-landing-hero.jpg",
+    "width": 2940,
+    "height": 1734,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/satquery-ai/satquery-main-interface-dark.jpg",
+    "width": 2940,
+    "height": 1736,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/meditwin/incseption-2-team-award.jpg",
+    "width": 899,
+    "height": 1599,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/meditwin/incseption-2-certificate.jpg",
+    "width": 3128,
+    "height": 2173,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/gesture-globe/gesture-globe-pinch-control.jpg",
+    "width": 2834,
+    "height": 1556,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/gesture-globe/globe-globe-scale.jpg",
+    "width": 2838,
+    "height": 1558,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/gesture-globe/globe-two-hand-tracking.jpg",
+    "width": 2838,
+    "height": 1546,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/dayflow/dayflow-role-based-login.jpg",
+    "width": 2048,
+    "height": 1054,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/dayflow/dayflow-employee-dashboard.jpg",
+    "width": 2048,
+    "height": 1115,
+    "hasGpsMetadata": false
+  },
+  {
+    "file": "public/projects/dayflow/dayflow-admin-dashboard.jpg",
+    "width": 2048,
+    "height": 1115,
+    "hasGpsMetadata": false
+  }
+]

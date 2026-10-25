@@ -1,0 +1,50 @@
+{
+  "note": "Summary retained from the first measured 900-frame sweep, before the repeated sweep stored in performance.json. Values transcribed from its actual tool output; no inferred root cause.",
+  "regions": [
+    {
+      "region": "Hero",
+      "frames": 180,
+      "medianMs": 16.7,
+      "p95Ms": 16.7,
+      "maxMs": 133.4,
+      "over33Ms": 2,
+      "longTasks": 0
+    },
+    {
+      "region": "SatQuery",
+      "frames": 180,
+      "medianMs": 16.7,
+      "p95Ms": 16.7,
+      "maxMs": 16.8,
+      "over33Ms": 0,
+      "longTasks": 0
+    },
+    {
+      "region": "AlgaeOS",
+      "frames": 180,
+      "medianMs": 16.7,
+      "p95Ms": 16.8,
+      "maxMs": 16.8,
+      "over33Ms": 0,
+      "longTasks": 0
+    },
+    {
+      "region": "About",
+      "frames": 180,
+      "medianMs": 16.7,
+      "p95Ms": 16.8,
+      "maxMs": 16.8,
+      "over33Ms": 0,
+      "longTasks": 0
+    },
+    {
+      "region": "Contact",
+      "frames": 180,
+      "medianMs": 16.7,
+      "p95Ms": 16.8,
+      "maxMs": 100.1,
+      "over33Ms": 1,
+      "longTasks": 0
+    }
+  ]
+}

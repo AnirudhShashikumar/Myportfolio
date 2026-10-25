@@ -1,0 +1,306 @@
+{
+  "external": [
+    {
+      "url": "https://sat-query-ai-phi.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://sat-query-ai-phi.vercel.app/",
+      "type": "text/html; charset=utf-8",
+      "title": "SatQuery AI",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": null,
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "br"
+      }
+    },
+    {
+      "url": "https://gestureglobe.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://gestureglobe.vercel.app/",
+      "type": "text/html; charset=utf-8",
+      "title": "Gesture Globe — Hand-Controlled Holographic Mesh",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": null,
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "br"
+      }
+    },
+    {
+      "url": "https://dayflow-anirudh6.vercel.app",
+      "status": 200,
+      "finalUrl": "https://dayflow-anirudh6.vercel.app/login",
+      "type": "text/html; charset=utf-8",
+      "title": "Sign in · Dayflow",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": "Next.js",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "content-encoding": "br"
+      }
+    },
+    {
+      "url": "https://medi-fit-navy.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://medi-fit-navy.vercel.app/",
+      "type": "text/html; charset=utf-8",
+      "title": "MediFit",
+      "bytes": "775",
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": null,
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": null
+      }
+    },
+    {
+      "url": "https://www.linkedin.com/in/anirudh-shashikumar",
+      "status": 429,
+      "finalUrl": "https://www.linkedin.com/in/anirudh-shashikumar",
+      "type": null,
+      "bytes": "0",
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": null,
+        "cache-control": "no-cache, no-store, no-transform",
+        "content-encoding": null
+      }
+    },
+    {
+      "url": "https://github.com/AnirudhShashikumar",
+      "status": 200,
+      "finalUrl": "https://github.com/AnirudhShashikumar",
+      "type": "text/html; charset=utf-8",
+      "title": "AnirudhShashikumar (Anirudh Shashikumar) · GitHub",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com wss://production-copilot-host.webpubsub.azure.com wss://production-copilot-host-centralus.webpubsub.azure.com wss://production-copilot-host-centralus-02.webpubsub.azure.com wss://production-copilot-host-westus.webpubsub.azure.com api.github.com/cmc_internal/api/; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com repository-images.githubusercontent.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com explore-feed.github.com *.googleusercontent.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com 'sha256-6AKuI+cDd1MoUL1u4eqrA9PXmnPAkOB4h7421hPUUm0='; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+        "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+        "x-frame-options": "deny",
+        "x-powered-by": null,
+        "cache-control": "max-age=0, private, must-revalidate",
+        "content-encoding": "gzip"
+      }
+    }
+  ],
+  "local": [
+    {
+      "url": "http://127.0.0.1:3000/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3000/",
+      "type": "text/html; charset=utf-8",
+      "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": "Next.js",
+        "cache-control": "s-maxage=31536000",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/favicon.ico",
+      "status": 404,
+      "finalUrl": "http://127.0.0.1:3000/favicon.ico",
+      "type": "text/html; charset=utf-8",
+      "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": "Next.js",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/apple-touch-icon.png",
+      "status": 404,
+      "finalUrl": "http://127.0.0.1:3000/apple-touch-icon.png",
+      "type": "text/html; charset=utf-8",
+      "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": "Next.js",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/robots.txt",
+      "status": 404,
+      "finalUrl": "http://127.0.0.1:3000/robots.txt",
+      "type": "text/html; charset=utf-8",
+      "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": "Next.js",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/sitemap.xml",
+      "status": 404,
+      "finalUrl": "http://127.0.0.1:3000/sitemap.xml",
+      "type": "text/html; charset=utf-8",
+      "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": "Next.js",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/does-not-exist-production-audit",
+      "status": 404,
+      "finalUrl": "http://127.0.0.1:3000/does-not-exist-production-audit",
+      "type": "text/html; charset=utf-8",
+      "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+      "bytes": null,
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": "Next.js",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/projects/algaeos/algaeos-system-infographic.jpg",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3000/projects/algaeos/algaeos-system-infographic.jpg",
+      "type": "image/jpeg",
+      "bytes": "125324",
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": null,
+        "cache-control": "public, max-age=0",
+        "content-encoding": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/projects/meditwin/incseption-2-certificate.jpg",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3000/projects/meditwin/incseption-2-certificate.jpg",
+      "type": "image/jpeg",
+      "bytes": "1369880",
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": null,
+        "cache-control": "public, max-age=0",
+        "content-encoding": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/projects/medifit/push-pull-commit-certificate.jpg",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3000/projects/medifit/push-pull-commit-certificate.jpg",
+      "type": "image/jpeg",
+      "bytes": "83872",
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": null,
+        "cache-control": "public, max-age=0",
+        "content-encoding": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/achievements/presidency-html-competition-first-place-2020.jpg",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3000/achievements/presidency-html-competition-first-place-2020.jpg",
+      "type": "image/jpeg",
+      "bytes": "391857",
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": null,
+        "cache-control": "public, max-age=0",
+        "content-encoding": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3000/achievements/google-ai-professional-certificate-2026.jpg",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3000/achievements/google-ai-professional-certificate-2026.jpg",
+      "type": "image/jpeg",
+      "bytes": "378428",
+      "headers": {
+        "content-security-policy": null,
+        "strict-transport-security": null,
+        "x-content-type-options": null,
+        "referrer-policy": null,
+        "x-frame-options": null,
+        "x-powered-by": null,
+        "cache-control": "public, max-age=0",
+        "content-encoding": null
+      }
+    }
+  ]
+}

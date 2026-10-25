@@ -1,0 +1,2838 @@
+{
+  "environment": {
+    "browser": "155.0.8059.85",
+    "platform": "darwin",
+    "arch": "arm64",
+    "node": "v24.14.1",
+    "cpu": "Apple M5"
+  },
+  "loads": [
+    {
+      "profile": "desktop-local",
+      "iteration": 0,
+      "metrics": {
+        "lcp": [
+          {
+            "time": 72,
+            "size": 119556,
+            "tag": "SPAN",
+            "text": "WHAT I WANT",
+            "url": ""
+          }
+        ],
+        "shifts": [],
+        "tasks": [],
+        "events": [],
+        "draws": 2394,
+        "clears": 72
+      },
+      "navigation": {
+        "name": "http://127.0.0.1:3000/?motion-audit=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 80.19999999552965,
+        "navigationId": 5745,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "gzip",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.3999999985098839,
+        "domainLookupStart": 0.3999999985098839,
+        "domainLookupEnd": 0.3999999985098839,
+        "connectStart": 0.3999999985098839,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.3999999985098839,
+        "requestStart": 0.8999999985098839,
+        "responseStart": 4.699999995529652,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 4.699999995529652,
+        "responseEnd": 7.600000001490116,
+        "transferSize": 49920,
+        "encodedBodySize": 49620,
+        "decodedBodySize": 263266,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 15.100000001490116,
+        "domContentLoadedEventStart": 15.100000001490116,
+        "domContentLoadedEventEnd": 15.100000001490116,
+        "domComplete": 80.19999999552965,
+        "loadEventStart": 80.19999999552965,
+        "loadEventEnd": 80.19999999552965,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+          "type": "link",
+          "duration": 2.2000000029802322,
+          "encoded": 29288,
+          "decoded": 29288,
+          "transfer": 29588
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/974021b5953866a7.css",
+          "type": "link",
+          "duration": 2.899999998509884,
+          "encoded": 4916,
+          "decoded": 17926,
+          "transfer": 5216
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/3b51c1a5b2dff3ff.css",
+          "type": "link",
+          "duration": 4.399999998509884,
+          "encoded": 11621,
+          "decoded": 58822,
+          "transfer": 11921
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+          "type": "link",
+          "duration": 3.100000001490116,
+          "encoded": 23108,
+          "decoded": 23108,
+          "transfer": 23408
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/689a9cfa1bb95583.css",
+          "type": "link",
+          "duration": 5.799999997019768,
+          "encoded": 17238,
+          "decoded": 81216,
+          "transfer": 17538
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/webpack-fe75a27bd7604a9c.js",
+          "type": "link",
+          "duration": 4.799999997019768,
+          "encoded": 1850,
+          "decoded": 3549,
+          "transfer": 2150
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/main-app-6954a6653158385a.js",
+          "type": "script",
+          "duration": 5.299999997019768,
+          "encoded": 513,
+          "decoded": 513,
+          "transfer": 813
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+          "type": "script",
+          "duration": 13.399999998509884,
+          "encoded": 64057,
+          "decoded": 203721,
+          "transfer": 64357
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/794-216401842b802bd7.js",
+          "type": "script",
+          "duration": 13.599999994039536,
+          "encoded": 67415,
+          "decoded": 242566,
+          "transfer": 67715
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+          "type": "script",
+          "duration": 8.5,
+          "encoded": 7713,
+          "decoded": 25879,
+          "transfer": 8013
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/209-44beca00da938c1b.js",
+          "type": "script",
+          "duration": 8.100000001490116,
+          "encoded": 6643,
+          "decoded": 19083,
+          "transfer": 6943
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+          "type": "script",
+          "duration": 8.900000005960464,
+          "encoded": 19771,
+          "decoded": 51569,
+          "transfer": 20071
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/50-d904d14977fc9b15.js",
+          "type": "script",
+          "duration": 9.100000001490116,
+          "encoded": 24875,
+          "decoded": 62258,
+          "transfer": 25175
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/page-76eaa056f13b0083.js",
+          "type": "script",
+          "duration": 13,
+          "encoded": 34570,
+          "decoded": 127252,
+          "transfer": 34870
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/aa016aab0e6d1295-s.woff2",
+          "type": "css",
+          "duration": 1,
+          "encoded": 16540,
+          "decoded": 16540,
+          "transfer": 16840
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 2.899999998509884,
+          "encoded": 12154,
+          "decoded": 12154,
+          "transfer": 12454
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 3.0999999940395355,
+          "encoded": 11988,
+          "decoded": 11988,
+          "transfer": 12288
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+          "type": "img",
+          "duration": 3.1999999955296516,
+          "encoded": 34162,
+          "decoded": 34162,
+          "transfer": 34462
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 3.100000001490116,
+          "encoded": 8974,
+          "decoded": 8974,
+          "transfer": 9274
+        },
+        {
+          "name": "http://127.0.0.1:3000/favicon.ico",
+          "type": "other",
+          "duration": 0.7000000029802322,
+          "encoded": 9,
+          "decoded": 9,
+          "transfer": 309
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+          "type": "script",
+          "duration": 8.699999995529652,
+          "encoded": 88711,
+          "decoded": 367908,
+          "transfer": 89011
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+          "type": "script",
+          "duration": 10.199999995529652,
+          "encoded": 100978,
+          "decoded": 379578,
+          "transfer": 101278
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/857.ecdb3aac69b80487.js",
+          "type": "script",
+          "duration": 1.7000000029802322,
+          "encoded": 5181,
+          "decoded": 13128,
+          "transfer": 5481
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+          "type": "script",
+          "duration": 4.700000002980232,
+          "encoded": 46230,
+          "decoded": 146757,
+          "transfer": 46530
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/844.9405b6f7111713b8.js",
+          "type": "script",
+          "duration": 1.7000000029802322,
+          "encoded": 3853,
+          "decoded": 12478,
+          "transfer": 4153
+        }
+      ],
+      "fonts": "loaded",
+      "images": [
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+          "complete": true,
+          "width": 892
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+          "complete": true,
+          "width": 388
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+          "complete": true,
+          "width": 388
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+          "complete": true,
+          "width": 388
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+          "complete": false,
+          "width": 620
+        }
+      ]
+    },
+    {
+      "profile": "desktop-local",
+      "iteration": 1,
+      "metrics": {
+        "lcp": [
+          {
+            "time": 60,
+            "size": 119556,
+            "tag": "SPAN",
+            "text": "WHAT I WANT",
+            "url": ""
+          }
+        ],
+        "shifts": [],
+        "tasks": [],
+        "events": [],
+        "draws": 2380,
+        "clears": 72
+      },
+      "navigation": {
+        "name": "http://127.0.0.1:3000/?motion-audit=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 82.29999999701977,
+        "navigationId": 5678,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "gzip",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.20000000298023224,
+        "domainLookupStart": 0.20000000298023224,
+        "domainLookupEnd": 0.20000000298023224,
+        "connectStart": 0.20000000298023224,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.20000000298023224,
+        "requestStart": 0.6000000014901161,
+        "responseStart": 4,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 4,
+        "responseEnd": 5.5,
+        "transferSize": 49920,
+        "encodedBodySize": 49620,
+        "decodedBodySize": 263266,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 16.299999997019768,
+        "domContentLoadedEventStart": 16.299999997019768,
+        "domContentLoadedEventEnd": 16.299999997019768,
+        "domComplete": 82.20000000298023,
+        "loadEventStart": 82.29999999701977,
+        "loadEventEnd": 82.29999999701977,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+          "type": "link",
+          "duration": 2,
+          "encoded": 29288,
+          "decoded": 29288,
+          "transfer": 29588
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/974021b5953866a7.css",
+          "type": "link",
+          "duration": 2.3000000044703484,
+          "encoded": 4916,
+          "decoded": 17926,
+          "transfer": 5216
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/3b51c1a5b2dff3ff.css",
+          "type": "link",
+          "duration": 3.4000000059604645,
+          "encoded": 11621,
+          "decoded": 58822,
+          "transfer": 11921
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/689a9cfa1bb95583.css",
+          "type": "link",
+          "duration": 4.600000001490116,
+          "encoded": 17238,
+          "decoded": 81216,
+          "transfer": 17538
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+          "type": "link",
+          "duration": 2.600000001490116,
+          "encoded": 23108,
+          "decoded": 23108,
+          "transfer": 23408
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/webpack-fe75a27bd7604a9c.js",
+          "type": "link",
+          "duration": 4.700000002980232,
+          "encoded": 1850,
+          "decoded": 3549,
+          "transfer": 2150
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+          "type": "script",
+          "duration": 13.600000001490116,
+          "encoded": 64057,
+          "decoded": 203721,
+          "transfer": 64357
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/794-216401842b802bd7.js",
+          "type": "script",
+          "duration": 13.800000004470348,
+          "encoded": 67415,
+          "decoded": 242566,
+          "transfer": 67715
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/main-app-6954a6653158385a.js",
+          "type": "script",
+          "duration": 4.899999998509884,
+          "encoded": 513,
+          "decoded": 513,
+          "transfer": 813
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+          "type": "script",
+          "duration": 6.5,
+          "encoded": 7713,
+          "decoded": 25879,
+          "transfer": 8013
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/209-44beca00da938c1b.js",
+          "type": "script",
+          "duration": 6.600000001490116,
+          "encoded": 6643,
+          "decoded": 19083,
+          "transfer": 6943
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/50-d904d14977fc9b15.js",
+          "type": "script",
+          "duration": 8.200000002980232,
+          "encoded": 24875,
+          "decoded": 62258,
+          "transfer": 25175
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+          "type": "script",
+          "duration": 6.799999997019768,
+          "encoded": 19771,
+          "decoded": 51569,
+          "transfer": 20071
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/page-76eaa056f13b0083.js",
+          "type": "script",
+          "duration": 12.399999998509884,
+          "encoded": 34570,
+          "decoded": 127252,
+          "transfer": 34870
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/aa016aab0e6d1295-s.woff2",
+          "type": "css",
+          "duration": 1,
+          "encoded": 16540,
+          "decoded": 16540,
+          "transfer": 16840
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+          "type": "img",
+          "duration": 3.5,
+          "encoded": 34162,
+          "decoded": 34162,
+          "transfer": 34462
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 3.5,
+          "encoded": 11988,
+          "decoded": 11988,
+          "transfer": 12288
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 3.5,
+          "encoded": 12154,
+          "decoded": 12154,
+          "transfer": 12454
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 3.5,
+          "encoded": 8974,
+          "decoded": 8974,
+          "transfer": 9274
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+          "type": "script",
+          "duration": 7.5,
+          "encoded": 88711,
+          "decoded": 367908,
+          "transfer": 89011
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+          "type": "script",
+          "duration": 8.399999998509884,
+          "encoded": 100978,
+          "decoded": 379578,
+          "transfer": 101278
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/857.ecdb3aac69b80487.js",
+          "type": "script",
+          "duration": 1.5,
+          "encoded": 5181,
+          "decoded": 13128,
+          "transfer": 5481
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+          "type": "script",
+          "duration": 4.899999998509884,
+          "encoded": 46230,
+          "decoded": 146757,
+          "transfer": 46530
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/844.9405b6f7111713b8.js",
+          "type": "script",
+          "duration": 1.2999999970197678,
+          "encoded": 3853,
+          "decoded": 12478,
+          "transfer": 4153
+        }
+      ],
+      "fonts": "loaded",
+      "images": [
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+          "complete": true,
+          "width": 892
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+          "complete": true,
+          "width": 388
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+          "complete": true,
+          "width": 388
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+          "complete": true,
+          "width": 388
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+          "complete": false,
+          "width": 620
+        }
+      ]
+    },
+    {
+      "profile": "desktop-local",
+      "iteration": 2,
+      "metrics": {
+        "lcp": [
+          {
+            "time": 72,
+            "size": 119556,
+            "tag": "SPAN",
+            "text": "WHAT I WANT",
+            "url": ""
+          }
+        ],
+        "shifts": [],
+        "tasks": [],
+        "events": [],
+        "draws": 2394,
+        "clears": 72
+      },
+      "navigation": {
+        "name": "http://127.0.0.1:3000/?motion-audit=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 86.10000000149012,
+        "navigationId": 1918,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "gzip",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.19999999552965164,
+        "domainLookupStart": 0.19999999552965164,
+        "domainLookupEnd": 0.19999999552965164,
+        "connectStart": 0.19999999552965164,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.19999999552965164,
+        "requestStart": 0.6000000014901161,
+        "responseStart": 3.6999999955296516,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 3.6999999955296516,
+        "responseEnd": 5.399999998509884,
+        "transferSize": 49920,
+        "encodedBodySize": 49620,
+        "decodedBodySize": 263266,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 16.399999998509884,
+        "domContentLoadedEventStart": 16.399999998509884,
+        "domContentLoadedEventEnd": 16.5,
+        "domComplete": 86.10000000149012,
+        "loadEventStart": 86.10000000149012,
+        "loadEventEnd": 86.10000000149012,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+          "type": "link",
+          "duration": 2.100000001490116,
+          "encoded": 29288,
+          "decoded": 29288,
+          "transfer": 29588
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/974021b5953866a7.css",
+          "type": "link",
+          "duration": 3.5,
+          "encoded": 4916,
+          "decoded": 17926,
+          "transfer": 5216
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+          "type": "link",
+          "duration": 2.399999998509884,
+          "encoded": 23108,
+          "decoded": 23108,
+          "transfer": 23408
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/3b51c1a5b2dff3ff.css",
+          "type": "link",
+          "duration": 5.700000002980232,
+          "encoded": 11621,
+          "decoded": 58822,
+          "transfer": 11921
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/689a9cfa1bb95583.css",
+          "type": "link",
+          "duration": 6.700000002980232,
+          "encoded": 17238,
+          "decoded": 81216,
+          "transfer": 17538
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/webpack-fe75a27bd7604a9c.js",
+          "type": "link",
+          "duration": 7.9000000059604645,
+          "encoded": 1850,
+          "decoded": 3549,
+          "transfer": 2150
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/main-app-6954a6653158385a.js",
+          "type": "script",
+          "duration": 7.300000004470348,
+          "encoded": 513,
+          "decoded": 513,
+          "transfer": 813
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+          "type": "script",
+          "duration": 13.600000001490116,
+          "encoded": 19771,
+          "decoded": 51569,
+          "transfer": 20071
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+          "type": "script",
+          "duration": 14.600000001490116,
+          "encoded": 7713,
+          "decoded": 25879,
+          "transfer": 8013
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/209-44beca00da938c1b.js",
+          "type": "script",
+          "duration": 15.100000001490116,
+          "encoded": 6643,
+          "decoded": 19083,
+          "transfer": 6943
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/50-d904d14977fc9b15.js",
+          "type": "script",
+          "duration": 15.300000004470348,
+          "encoded": 24875,
+          "decoded": 62258,
+          "transfer": 25175
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/794-216401842b802bd7.js",
+          "type": "script",
+          "duration": 17.80000000447035,
+          "encoded": 67415,
+          "decoded": 242566,
+          "transfer": 67715
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+          "type": "script",
+          "duration": 18.700000002980232,
+          "encoded": 64057,
+          "decoded": 203721,
+          "transfer": 64357
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/page-76eaa056f13b0083.js",
+          "type": "script",
+          "duration": 19,
+          "encoded": 34570,
+          "decoded": 127252,
+          "transfer": 34870
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/aa016aab0e6d1295-s.woff2",
+          "type": "css",
+          "duration": 1,
+          "encoded": 16540,
+          "decoded": 16540,
+          "transfer": 16840
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+          "type": "img",
+          "duration": 3.1999999955296516,
+          "encoded": 34162,
+          "decoded": 34162,
+          "transfer": 34462
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 3.100000001490116,
+          "encoded": 11988,
+          "decoded": 11988,
+          "transfer": 12288
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 3.2000000029802322,
+          "encoded": 12154,
+          "decoded": 12154,
+          "transfer": 12454
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 3.3000000044703484,
+          "encoded": 8974,
+          "decoded": 8974,
+          "transfer": 9274
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+          "type": "script",
+          "duration": 8.299999997019768,
+          "encoded": 88711,
+          "decoded": 367908,
+          "transfer": 89011
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+          "type": "script",
+          "duration": 4.399999998509884,
+          "encoded": 46230,
+          "decoded": 146757,
+          "transfer": 46530
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+          "type": "script",
+          "duration": 9.5,
+          "encoded": 100978,
+          "decoded": 379578,
+          "transfer": 101278
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/857.ecdb3aac69b80487.js",
+          "type": "script",
+          "duration": 1.5,
+          "encoded": 5181,
+          "decoded": 13128,
+          "transfer": 5481
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/844.9405b6f7111713b8.js",
+          "type": "script",
+          "duration": 1.5,
+          "encoded": 3853,
+          "decoded": 12478,
+          "transfer": 4153
+        }
+      ],
+      "fonts": "loaded",
+      "images": [
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+          "complete": true,
+          "width": 892
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+          "complete": true,
+          "width": 388
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+          "complete": true,
+          "width": 388
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+          "complete": true,
+          "width": 388
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+          "complete": false,
+          "width": 620
+        }
+      ]
+    },
+    {
+      "profile": "mobile-throttled",
+      "iteration": 0,
+      "metrics": {
+        "lcp": [
+          {
+            "time": 1020,
+            "size": 18352,
+            "tag": "SPAN",
+            "text": "WHAT I WANT",
+            "url": ""
+          }
+        ],
+        "shifts": [],
+        "tasks": [
+          {
+            "time": 2186.9000000059605,
+            "duration": 69
+          },
+          {
+            "time": 3733.10000000149,
+            "duration": 63
+          }
+        ],
+        "events": [],
+        "draws": 1834,
+        "clears": 71
+      },
+      "navigation": {
+        "name": "http://127.0.0.1:3000/?motion-audit=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 2279.3000000044703,
+        "navigationId": 751,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "gzip",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.4000000059604645,
+        "domainLookupStart": 0.4000000059604645,
+        "domainLookupEnd": 0.4000000059604645,
+        "connectStart": 0.4000000059604645,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.4000000059604645,
+        "requestStart": 1.3000000044703484,
+        "responseStart": 6,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 6,
+        "responseEnd": 761.1000000014901,
+        "transferSize": 49920,
+        "encodedBodySize": 49620,
+        "decodedBodySize": 263266,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 789.3000000044703,
+        "domContentLoadedEventStart": 789.3000000044703,
+        "domContentLoadedEventEnd": 789.3000000044703,
+        "domComplete": 2279.3000000044703,
+        "loadEventStart": 2279.3000000044703,
+        "loadEventEnd": 2279.3000000044703,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+          "type": "link",
+          "duration": 777.1000000014901,
+          "encoded": 29288,
+          "decoded": 29288,
+          "transfer": 29588
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+          "type": "link",
+          "duration": 693,
+          "encoded": 23108,
+          "decoded": 23108,
+          "transfer": 23408
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/974021b5953866a7.css",
+          "type": "link",
+          "duration": 310,
+          "encoded": 4916,
+          "decoded": 17926,
+          "transfer": 5216
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/3b51c1a5b2dff3ff.css",
+          "type": "link",
+          "duration": 465.5,
+          "encoded": 11621,
+          "decoded": 58822,
+          "transfer": 11921
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/webpack-fe75a27bd7604a9c.js",
+          "type": "link",
+          "duration": 543,
+          "encoded": 1850,
+          "decoded": 3549,
+          "transfer": 2150
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/689a9cfa1bb95583.css",
+          "type": "link",
+          "duration": 610.1000000014901,
+          "encoded": 17238,
+          "decoded": 81216,
+          "transfer": 17538
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/main-app-6954a6653158385a.js",
+          "type": "script",
+          "duration": 760.1000000014901,
+          "encoded": 513,
+          "decoded": 513,
+          "transfer": 813
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+          "type": "script",
+          "duration": 1253.3999999985099,
+          "encoded": 19771,
+          "decoded": 51569,
+          "transfer": 20071
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+          "type": "script",
+          "duration": 1906.3000000044703,
+          "encoded": 64057,
+          "decoded": 203721,
+          "transfer": 64357
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/794-216401842b802bd7.js",
+          "type": "script",
+          "duration": 2010.1000000014901,
+          "encoded": 67415,
+          "decoded": 242566,
+          "transfer": 67715
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+          "type": "script",
+          "duration": 1171.3999999985099,
+          "encoded": 7713,
+          "decoded": 25879,
+          "transfer": 8013
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/50-d904d14977fc9b15.js",
+          "type": "script",
+          "duration": 1485.5,
+          "encoded": 24875,
+          "decoded": 62258,
+          "transfer": 25175
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/209-44beca00da938c1b.js",
+          "type": "script",
+          "duration": 1711.2000000029802,
+          "encoded": 6643,
+          "decoded": 19083,
+          "transfer": 6943
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/page-76eaa056f13b0083.js",
+          "type": "script",
+          "duration": 2062.7000000029802,
+          "encoded": 34570,
+          "decoded": 127252,
+          "transfer": 34870
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/aa016aab0e6d1295-s.woff2",
+          "type": "css",
+          "duration": 634.7000000029802,
+          "encoded": 16540,
+          "decoded": 16540,
+          "transfer": 16840
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=256&q=75",
+          "type": "img",
+          "duration": 691,
+          "encoded": 3544,
+          "decoded": 3544,
+          "transfer": 3844
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 866.6999999955297,
+          "encoded": 14586,
+          "decoded": 14586,
+          "transfer": 14886
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+          "type": "script",
+          "duration": 1339.3000000044703,
+          "encoded": 88711,
+          "decoded": 367908,
+          "transfer": 89011
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+          "type": "script",
+          "duration": 1406.8000000044703,
+          "encoded": 100978,
+          "decoded": 379578,
+          "transfer": 101278
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+          "type": "script",
+          "duration": 927.6000000014901,
+          "encoded": 46230,
+          "decoded": 146757,
+          "transfer": 46530
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/857.ecdb3aac69b80487.js",
+          "type": "script",
+          "duration": 282.69999999552965,
+          "encoded": 5181,
+          "decoded": 13128,
+          "transfer": 5481
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/844.9405b6f7111713b8.js",
+          "type": "script",
+          "duration": 260.6000000014901,
+          "encoded": 3853,
+          "decoded": 12478,
+          "transfer": 4153
+        }
+      ],
+      "fonts": "loaded",
+      "images": [
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+          "complete": true,
+          "width": 343
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=256&q=75",
+          "complete": true,
+          "width": 202
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+          "complete": false,
+          "width": 390
+        }
+      ]
+    },
+    {
+      "profile": "mobile-throttled",
+      "iteration": 1,
+      "metrics": {
+        "lcp": [
+          {
+            "time": 1000,
+            "size": 18352,
+            "tag": "SPAN",
+            "text": "WHAT I WANT",
+            "url": ""
+          }
+        ],
+        "shifts": [],
+        "tasks": [
+          {
+            "time": 2188.5,
+            "duration": 70
+          },
+          {
+            "time": 3734.10000000149,
+            "duration": 66
+          }
+        ],
+        "events": [],
+        "draws": 1834,
+        "clears": 73
+      },
+      "navigation": {
+        "name": "http://127.0.0.1:3000/?motion-audit=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 2283.5,
+        "navigationId": 2432,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "gzip",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.19999999552965164,
+        "domainLookupStart": 0.19999999552965164,
+        "domainLookupEnd": 0.19999999552965164,
+        "connectStart": 0.19999999552965164,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.19999999552965164,
+        "requestStart": 0.5,
+        "responseStart": 3.100000001490116,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 3.100000001490116,
+        "responseEnd": 761.7999999970198,
+        "transferSize": 49920,
+        "encodedBodySize": 49620,
+        "decodedBodySize": 263266,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 789.1999999955297,
+        "domContentLoadedEventStart": 789.1999999955297,
+        "domContentLoadedEventEnd": 789.1999999955297,
+        "domComplete": 2283.5,
+        "loadEventStart": 2283.5,
+        "loadEventEnd": 2283.5,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+          "type": "link",
+          "duration": 776.5,
+          "encoded": 29288,
+          "decoded": 29288,
+          "transfer": 29588
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/974021b5953866a7.css",
+          "type": "link",
+          "duration": 311.8999999985099,
+          "encoded": 4916,
+          "decoded": 17926,
+          "transfer": 5216
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+          "type": "link",
+          "duration": 694.7000000029802,
+          "encoded": 23108,
+          "decoded": 23108,
+          "transfer": 23408
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/3b51c1a5b2dff3ff.css",
+          "type": "link",
+          "duration": 469.1000000014901,
+          "encoded": 11621,
+          "decoded": 58822,
+          "transfer": 11921
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/689a9cfa1bb95583.css",
+          "type": "link",
+          "duration": 611.6000000014901,
+          "encoded": 17238,
+          "decoded": 81216,
+          "transfer": 17538
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/webpack-fe75a27bd7604a9c.js",
+          "type": "link",
+          "duration": 544.2999999970198,
+          "encoded": 1850,
+          "decoded": 3549,
+          "transfer": 2150
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/main-app-6954a6653158385a.js",
+          "type": "script",
+          "duration": 768.8999999985099,
+          "encoded": 513,
+          "decoded": 513,
+          "transfer": 813
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+          "type": "script",
+          "duration": 1173.5,
+          "encoded": 7713,
+          "decoded": 25879,
+          "transfer": 8013
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+          "type": "script",
+          "duration": 1265,
+          "encoded": 19771,
+          "decoded": 51569,
+          "transfer": 20071
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/50-d904d14977fc9b15.js",
+          "type": "script",
+          "duration": 1481.3999999985099,
+          "encoded": 24875,
+          "decoded": 62258,
+          "transfer": 25175
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/209-44beca00da938c1b.js",
+          "type": "script",
+          "duration": 1711.6000000014901,
+          "encoded": 6643,
+          "decoded": 19083,
+          "transfer": 6943
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+          "type": "script",
+          "duration": 1907.1000000014901,
+          "encoded": 64057,
+          "decoded": 203721,
+          "transfer": 64357
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/794-216401842b802bd7.js",
+          "type": "script",
+          "duration": 2013.3999999985099,
+          "encoded": 67415,
+          "decoded": 242566,
+          "transfer": 67715
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/page-76eaa056f13b0083.js",
+          "type": "script",
+          "duration": 2067.2999999970198,
+          "encoded": 34570,
+          "decoded": 127252,
+          "transfer": 34870
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/aa016aab0e6d1295-s.woff2",
+          "type": "css",
+          "duration": 633.0999999940395,
+          "encoded": 16540,
+          "decoded": 16540,
+          "transfer": 16840
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 858.8999999985099,
+          "encoded": 14586,
+          "decoded": 14586,
+          "transfer": 14886
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=256&q=75",
+          "type": "img",
+          "duration": 696.2999999970198,
+          "encoded": 3544,
+          "decoded": 3544,
+          "transfer": 3844
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+          "type": "script",
+          "duration": 1343.3999999985099,
+          "encoded": 88711,
+          "decoded": 367908,
+          "transfer": 89011
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+          "type": "script",
+          "duration": 1404.9000000059605,
+          "encoded": 100978,
+          "decoded": 379578,
+          "transfer": 101278
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+          "type": "script",
+          "duration": 923.8999999985099,
+          "encoded": 46230,
+          "decoded": 146757,
+          "transfer": 46530
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/844.9405b6f7111713b8.js",
+          "type": "script",
+          "duration": 247.79999999701977,
+          "encoded": 3853,
+          "decoded": 12478,
+          "transfer": 4153
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/857.ecdb3aac69b80487.js",
+          "type": "script",
+          "duration": 285,
+          "encoded": 5181,
+          "decoded": 13128,
+          "transfer": 5481
+        }
+      ],
+      "fonts": "loaded",
+      "images": [
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+          "complete": true,
+          "width": 343
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=256&q=75",
+          "complete": true,
+          "width": 202
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+          "complete": false,
+          "width": 390
+        }
+      ]
+    },
+    {
+      "profile": "mobile-throttled",
+      "iteration": 2,
+      "metrics": {
+        "lcp": [
+          {
+            "time": 1004,
+            "size": 18352,
+            "tag": "SPAN",
+            "text": "WHAT I WANT",
+            "url": ""
+          }
+        ],
+        "shifts": [],
+        "tasks": [
+          {
+            "time": 2189,
+            "duration": 70
+          },
+          {
+            "time": 3739.7000000029802,
+            "duration": 65
+          }
+        ],
+        "events": [],
+        "draws": 1834,
+        "clears": 72
+      },
+      "navigation": {
+        "name": "http://127.0.0.1:3000/?motion-audit=1",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 2284.89999999851,
+        "navigationId": 7061,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "gzip",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.3999999985098839,
+        "domainLookupStart": 0.3999999985098839,
+        "domainLookupEnd": 0.3999999985098839,
+        "connectStart": 0.3999999985098839,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.3999999985098839,
+        "requestStart": 0.7000000029802322,
+        "responseStart": 4,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 4,
+        "responseEnd": 762.5,
+        "transferSize": 49920,
+        "encodedBodySize": 49620,
+        "decodedBodySize": 263266,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 787.8000000044703,
+        "domContentLoadedEventStart": 787.8000000044703,
+        "domContentLoadedEventEnd": 787.8000000044703,
+        "domComplete": 2284.89999999851,
+        "loadEventStart": 2284.89999999851,
+        "loadEventEnd": 2284.89999999851,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+          "type": "link",
+          "duration": 784,
+          "encoded": 29288,
+          "decoded": 29288,
+          "transfer": 29588
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/974021b5953866a7.css",
+          "type": "link",
+          "duration": 310.19999999552965,
+          "encoded": 4916,
+          "decoded": 17926,
+          "transfer": 5216
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/3b51c1a5b2dff3ff.css",
+          "type": "link",
+          "duration": 465.19999999552965,
+          "encoded": 11621,
+          "decoded": 58822,
+          "transfer": 11921
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/webpack-fe75a27bd7604a9c.js",
+          "type": "link",
+          "duration": 540.3999999985099,
+          "encoded": 1850,
+          "decoded": 3549,
+          "transfer": 2150
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/css/689a9cfa1bb95583.css",
+          "type": "link",
+          "duration": 608.2999999970198,
+          "encoded": 17238,
+          "decoded": 81216,
+          "transfer": 17538
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+          "type": "link",
+          "duration": 693.5,
+          "encoded": 23108,
+          "decoded": 23108,
+          "transfer": 23408
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/main-app-6954a6653158385a.js",
+          "type": "script",
+          "duration": 767.1000000014901,
+          "encoded": 513,
+          "decoded": 513,
+          "transfer": 813
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+          "type": "script",
+          "duration": 1253.1000000014901,
+          "encoded": 19771,
+          "decoded": 51569,
+          "transfer": 20071
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+          "type": "script",
+          "duration": 1913.5,
+          "encoded": 64057,
+          "decoded": 203721,
+          "transfer": 64357
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/794-216401842b802bd7.js",
+          "type": "script",
+          "duration": 2012,
+          "encoded": 67415,
+          "decoded": 242566,
+          "transfer": 67715
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+          "type": "script",
+          "duration": 1178.6000000014901,
+          "encoded": 7713,
+          "decoded": 25879,
+          "transfer": 8013
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/50-d904d14977fc9b15.js",
+          "type": "script",
+          "duration": 1461.8999999985099,
+          "encoded": 24875,
+          "decoded": 62258,
+          "transfer": 25175
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/209-44beca00da938c1b.js",
+          "type": "script",
+          "duration": 1724.3999999985099,
+          "encoded": 6643,
+          "decoded": 19083,
+          "transfer": 6943
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/app/page-76eaa056f13b0083.js",
+          "type": "script",
+          "duration": 2062.2999999970198,
+          "encoded": 34570,
+          "decoded": 127252,
+          "transfer": 34870
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/media/aa016aab0e6d1295-s.woff2",
+          "type": "css",
+          "duration": 643.2999999970198,
+          "encoded": 16540,
+          "decoded": 16540,
+          "transfer": 16840
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=256&q=75",
+          "type": "img",
+          "duration": 693.3999999985099,
+          "encoded": 3544,
+          "decoded": 3544,
+          "transfer": 3844
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+          "type": "img",
+          "duration": 860.5999999940395,
+          "encoded": 14586,
+          "decoded": 14586,
+          "transfer": 14886
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+          "type": "script",
+          "duration": 1343.1999999955297,
+          "encoded": 88711,
+          "decoded": 367908,
+          "transfer": 89011
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+          "type": "script",
+          "duration": 1407.2999999970198,
+          "encoded": 100978,
+          "decoded": 379578,
+          "transfer": 101278
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+          "type": "script",
+          "duration": 926.6000000014901,
+          "encoded": 46230,
+          "decoded": 146757,
+          "transfer": 46530
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/857.ecdb3aac69b80487.js",
+          "type": "script",
+          "duration": 282.79999999701977,
+          "encoded": 5181,
+          "decoded": 13128,
+          "transfer": 5481
+        },
+        {
+          "name": "http://127.0.0.1:3000/_next/static/chunks/844.9405b6f7111713b8.js",
+          "type": "script",
+          "duration": 266.80000000447035,
+          "encoded": 3853,
+          "decoded": 12478,
+          "transfer": 4153
+        }
+      ],
+      "fonts": "loaded",
+      "images": [
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+          "complete": true,
+          "width": 343
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=256&q=75",
+          "complete": true,
+          "width": 202
+        },
+        {
+          "src": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+          "complete": false,
+          "width": 390
+        }
+      ]
+    }
+  ],
+  "scroll": [
+    {
+      "region": "#home",
+      "count": 180,
+      "median": 33.30000000000018,
+      "p95": 33.400000000000546,
+      "max": 33.400000000001455,
+      "over33": 67,
+      "tasks": []
+    },
+    {
+      "region": "[data-work-project='0']",
+      "count": 180,
+      "median": 33.30000000000109,
+      "p95": 33.400000000001455,
+      "max": 33.5,
+      "over33": 74,
+      "tasks": []
+    },
+    {
+      "region": "[data-work-project='2']",
+      "count": 180,
+      "median": 33.29999999999927,
+      "p95": 33.400000000001455,
+      "max": 33.400000000001455,
+      "over33": 68,
+      "tasks": []
+    },
+    {
+      "region": "#about",
+      "count": 180,
+      "median": 33.29999999999927,
+      "p95": 33.400000000001455,
+      "max": 33.5,
+      "over33": 62,
+      "tasks": []
+    },
+    {
+      "region": "#contact",
+      "count": 180,
+      "median": 33.30000000000291,
+      "p95": 33.400000000001455,
+      "max": 33.5,
+      "over33": 68,
+      "tasks": []
+    }
+  ],
+  "activity": [
+    {
+      "region": "#home",
+      "milliseconds": 1000,
+      "draws": 420,
+      "gridClears": 0,
+      "heroActive": "true"
+    },
+    {
+      "region": "#work",
+      "milliseconds": 1000,
+      "draws": 0,
+      "gridClears": 0,
+      "heroActive": "false"
+    },
+    {
+      "region": "#about",
+      "milliseconds": 1000,
+      "draws": 0,
+      "gridClears": 0,
+      "heroActive": "false"
+    },
+    {
+      "region": "#contact",
+      "milliseconds": 1000,
+      "draws": 0,
+      "gridClears": 0,
+      "heroActive": "false"
+    }
+  ],
+  "extended": {
+    "shifts": [
+      {
+        "time": 5548.30000000447,
+        "value": 0.0005329356084962277,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 5580.89999999851,
+        "value": 0.0005065375434027777,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 5614.89999999851,
+        "value": 0.000503441679526749,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 5647.89999999851,
+        "value": 0.0005078595866555213,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 5681.5,
+        "value": 0.0004921424897119341,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 5715,
+        "value": 0.0004852754736796982,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 5748.39999999851,
+        "value": 0.0005003600823045267,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 5782.5,
+        "value": 0.000477076903292181,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 5813.5,
+        "value": 0.0004720550411522633,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 6147.30000000447,
+        "value": 0.0036135105211548353,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 6180.5,
+        "value": 0.003397338364840535,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 6213.39999999851,
+        "value": 0.003286192826217421,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 6247.5,
+        "value": 0.0032769860789609055,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 6280.70000000298,
+        "value": 0.0030565225734632204,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 6312.30000000447,
+        "value": 0.002945121742112483,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 6346.89999999851,
+        "value": 0.0016594391999421297,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 8115.20000000298,
+        "value": 0.004452953532235939,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 8147.5,
+        "value": 0.004718356662326389,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 8180.89999999851,
+        "value": 0.004983403193051269,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 8214.30000000447,
+        "value": 0.0052279938874421296,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 8247.20000000298,
+        "value": 0.002227271010159465,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ANIRUDHSHASHIKUMAR"
+          }
+        ]
+      },
+      {
+        "time": 8413.70000000298,
+        "value": 0.00013039833233680255,
+        "recentInput": false,
+        "sources": [
+          {
+            "text": "INTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 8447,
+        "value": 0.0007116587362825788,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 8480.5,
+        "value": 0.0007320980956361454,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 8513.39999999851,
+        "value": 0.0007343712491426612,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 8547,
+        "value": 0.0007476202149777093,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 8580.70000000298,
+        "value": 0.0007608834474665638,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 8613.60000000149,
+        "value": 0.0007800102746699245,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          },
+          {
+            "text": "INTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 8915.5,
+        "value": 0.00011893623233332065,
+        "recentInput": false,
+        "sources": [
+          {
+            "text": "INTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 8981.20000000298,
+        "value": 0.00037825654792524006,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 9014.5,
+        "value": 0.0004529091917438271,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 9048.10000000149,
+        "value": 0.00044845799575617286,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 9081.20000000298,
+        "value": 0.0004345194749871399,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 9112.20000000298,
+        "value": 0.0004406684027777778,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 9148.10000000149,
+        "value": 0.00043621720679012346,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 9179.89999999851,
+        "value": 0.0004236292625814471,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 9212.39999999851,
+        "value": 0.0004284276138117284,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 9246.89999999851,
+        "value": 0.00042216455279063785,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "P",
+            "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          }
+        ]
+      },
+      {
+        "time": 9280.39999999851,
+        "value": 0.0004008656024278764,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "H1",
+            "text": "I BUILDWHAT I WANTTO EXIST."
+          }
+        ]
+      },
+      {
+        "time": 9313.60000000149,
+        "value": 0.0005958597568491032,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "H1",
+            "text": "I BUILDWHAT I WANTTO EXIST."
+          },
+          {
+            "text": "I BUILD"
+          },
+          {
+            "text": "TO EXIST."
+          }
+        ]
+      },
+      {
+        "time": 9347.30000000447,
+        "value": 0.0006188832241811869,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "H1",
+            "text": "I BUILDWHAT I WANTTO EXIST."
+          },
+          {
+            "text": "I BUILD"
+          },
+          {
+            "text": "TO EXIST."
+          }
+        ]
+      },
+      {
+        "time": 9380.60000000149,
+        "value": 0.0006190187950193146,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "H1",
+            "text": "I BUILDWHAT I WANTTO EXIST."
+          },
+          {
+            "text": "I BUILD"
+          },
+          {
+            "text": "TO EXIST."
+          }
+        ]
+      },
+      {
+        "time": 9412.89999999851,
+        "value": 0.0007190846468359028,
+        "recentInput": false,
+        "sources": [
+          {
+            "tag": "H1",
+            "text": "I BUILDWHAT I WANTTO EXIST."
+          },
+          {
+            "text": "I BUILD"
+          },
+          {
+            "text": "TO EXIST."
+          }
+        ]
+      }
+    ],
+    "tasks": []
+  },
+  "interactions": [
+    {
+      "name": "pointerdown",
+      "duration": 64,
+      "inputDelay": 1.5,
+      "interactionId": 3071
+    },
+    {
+      "name": "pointerup",
+      "duration": 64,
+      "inputDelay": 2.3000000044703484,
+      "interactionId": 3071
+    },
+    {
+      "name": "click",
+      "duration": 64,
+      "inputDelay": 2.5,
+      "interactionId": 3071
+    }
+  ],
+  "interactionPageShifts": [
+    {
+      "time": 5548.30000000447,
+      "value": 0.0005329356084962277,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 5580.89999999851,
+      "value": 0.0005065375434027777,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 5614.89999999851,
+      "value": 0.000503441679526749,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 5647.89999999851,
+      "value": 0.0005078595866555213,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 5681.5,
+      "value": 0.0004921424897119341,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 5715,
+      "value": 0.0004852754736796982,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 5748.39999999851,
+      "value": 0.0005003600823045267,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 5782.5,
+      "value": 0.000477076903292181,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 5813.5,
+      "value": 0.0004720550411522633,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 6147.30000000447,
+      "value": 0.0036135105211548353,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 6180.5,
+      "value": 0.003397338364840535,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 6213.39999999851,
+      "value": 0.003286192826217421,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 6247.5,
+      "value": 0.0032769860789609055,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 6280.70000000298,
+      "value": 0.0030565225734632204,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 6312.30000000447,
+      "value": 0.002945121742112483,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 6346.89999999851,
+      "value": 0.0016594391999421297,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 8115.20000000298,
+      "value": 0.004452953532235939,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 8147.5,
+      "value": 0.004718356662326389,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 8180.89999999851,
+      "value": 0.004983403193051269,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 8214.30000000447,
+      "value": 0.0052279938874421296,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 8247.20000000298,
+      "value": 0.002227271010159465,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ANIRUDHSHASHIKUMAR"
+        }
+      ]
+    },
+    {
+      "time": 8413.70000000298,
+      "value": 0.00013039833233680255,
+      "recentInput": false,
+      "sources": [
+        {
+          "text": "INTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 8447,
+      "value": 0.0007116587362825788,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 8480.5,
+      "value": 0.0007320980956361454,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 8513.39999999851,
+      "value": 0.0007343712491426612,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 8547,
+      "value": 0.0007476202149777093,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 8580.70000000298,
+      "value": 0.0007608834474665638,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 8613.60000000149,
+      "value": 0.0007800102746699245,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        },
+        {
+          "text": "INTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 8915.5,
+      "value": 0.00011893623233332065,
+      "recentInput": false,
+      "sources": [
+        {
+          "text": "INTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 8981.20000000298,
+      "value": 0.00037825654792524006,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 9014.5,
+      "value": 0.0004529091917438271,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 9048.10000000149,
+      "value": 0.00044845799575617286,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 9081.20000000298,
+      "value": 0.0004345194749871399,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 9112.20000000298,
+      "value": 0.0004406684027777778,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 9148.10000000149,
+      "value": 0.00043621720679012346,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 9179.89999999851,
+      "value": 0.0004236292625814471,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 9212.39999999851,
+      "value": 0.0004284276138117284,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 9246.89999999851,
+      "value": 0.00042216455279063785,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "P",
+          "text": "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+        }
+      ]
+    },
+    {
+      "time": 9280.39999999851,
+      "value": 0.0004008656024278764,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "H1",
+          "text": "I BUILDWHAT I WANTTO EXIST."
+        }
+      ]
+    },
+    {
+      "time": 9313.60000000149,
+      "value": 0.0005958597568491032,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "H1",
+          "text": "I BUILDWHAT I WANTTO EXIST."
+        },
+        {
+          "text": "I BUILD"
+        },
+        {
+          "text": "TO EXIST."
+        }
+      ]
+    },
+    {
+      "time": 9347.30000000447,
+      "value": 0.0006188832241811869,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "H1",
+          "text": "I BUILDWHAT I WANTTO EXIST."
+        },
+        {
+          "text": "I BUILD"
+        },
+        {
+          "text": "TO EXIST."
+        }
+      ]
+    },
+    {
+      "time": 9380.60000000149,
+      "value": 0.0006190187950193146,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "H1",
+          "text": "I BUILDWHAT I WANTTO EXIST."
+        },
+        {
+          "text": "I BUILD"
+        },
+        {
+          "text": "TO EXIST."
+        }
+      ]
+    },
+    {
+      "time": 9412.89999999851,
+      "value": 0.0007190846468359028,
+      "recentInput": false,
+      "sources": [
+        {
+          "tag": "H1",
+          "text": "I BUILDWHAT I WANTTO EXIST."
+        },
+        {
+          "text": "I BUILD"
+        },
+        {
+          "text": "TO EXIST."
+        }
+      ]
+    }
+  ]
+}

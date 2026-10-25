@@ -1,0 +1,3 @@
+webkit 390x844: 81 samples; 2 horizontal candidates; 1 axe rule failures; 0 errors
+webkit 1280x720: 121 samples; 2 horizontal candidates; 1 axe rule failures; 0 errors
+webkit 1440x900: 116 samples; 0 horizontal candidates; 1 axe rule failures; 0 errors

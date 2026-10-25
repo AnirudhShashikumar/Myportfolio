@@ -1,0 +1,475 @@
+{
+  "sharp": {
+    "aom": "3.15.0",
+    "archive": "3.8.9",
+    "cairo": "1.18.4",
+    "cgif": "0.5.3",
+    "exif": "0.6.26",
+    "expat": "2.8.3",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.16",
+    "glib": "2.89.4",
+    "harfbuzz": "14.3.1",
+    "heif": "1.23.2",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.62.91",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.6",
+    "webp": "1.6.0",
+    "xml2": "2.15.3",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.4"
+  },
+  "images": [
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 14586,
+      "sha256": "636938ef9829958c33d25fb6a45ba3700b9a53ba5e04254a569db8592dcae60e",
+      "format": "webp",
+      "width": 640,
+      "height": 378
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=256&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 3544,
+      "sha256": "ec5e26dd9647cc574f3b2aa61bf73d57035a00325c64200829023c560a8bf3f2",
+      "format": "webp",
+      "width": 256,
+      "height": 141
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 4670,
+      "sha256": "fd32ea29b62c10c5149d570bfca7303d0633fb36754f498028cbd00c45c6af68",
+      "format": "webp",
+      "width": 384,
+      "height": 226
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 12154,
+      "sha256": "29a82a3efdfdff04db6c698c6675d1830c356164bfbf46f375b74506c8b70a9b",
+      "format": "webp",
+      "width": 640,
+      "height": 351
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-two-hand-tracking.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 6078,
+      "sha256": "af044347486807a99dc1dca5d0025c5345c600d8405d1b71beea30f056b6d420",
+      "format": "webp",
+      "width": 384,
+      "height": 209
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-globe-scale.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 6808,
+      "sha256": "0edc90cca57ee71fb43dcb9e563cc2d2e8e42c9a8c26fb460a9641fa1f46d166",
+      "format": "webp",
+      "width": 384,
+      "height": 211
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-prototype-hero.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 11216,
+      "sha256": "1948289718e82bddfdd50932df066f3d506f8e17f1a694d2896c9a6246568dc8",
+      "format": "webp",
+      "width": 384,
+      "height": 404
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-iot-hardware.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 17692,
+      "sha256": "726f042ce27d813cc256c9d65309f6f0bdd15a5c478632582c46c4eaf761a283",
+      "format": "webp",
+      "width": 384,
+      "height": 416
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 11988,
+      "sha256": "127c97392fa4f9154d2f7c51e4eecf7e38a70a506f6e474f46ff68660f1a457f",
+      "format": "webp",
+      "width": 640,
+      "height": 361
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-system-infographic.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 47684,
+      "sha256": "285e3d039f46b45fd4a0aa63b9d1a2c55bffa8a7dd2e71e11a0f0e1c271d419e",
+      "format": "webp",
+      "width": 384,
+      "height": 687
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-role-based-login.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 4208,
+      "sha256": "34c8b490d44f47829d550d8f7bdd87d2eb12fc5fcbc689a677eb4d880b838590",
+      "format": "webp",
+      "width": 384,
+      "height": 197
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-employee-dashboard.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 4218,
+      "sha256": "cb9334a6e9537c6fbc280c83c11acf36eebc5a24b08a5e84f8d5a24650f1c649",
+      "format": "webp",
+      "width": 384,
+      "height": 209
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 4264,
+      "sha256": "26f977f598a7c1ddde8e3cae911ee7ca10f2a783794829c4a066bb2f0d01fffa",
+      "format": "webp",
+      "width": 384,
+      "height": 209
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fmeditwin%2Fincseption-2-certificate.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 12368,
+      "sha256": "077adcde96d50a2f125c8f7329175f0f5e550ae8fdcfcf1d77c7b73fbeafe585",
+      "format": "webp",
+      "width": 384,
+      "height": 267
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fmeditwin%2Fincseption-2-team-award.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 32960,
+      "sha256": "7fc5f8d3c1b80da58331395a569350e8ff07354e477fe0c910632dd4eb8fdcbd",
+      "format": "webp",
+      "width": 384,
+      "height": 683
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 6718,
+      "sha256": "7472a1b7f89669f3507087edf3210ee166bedf5608fd96bbda11b9b964a7df2e",
+      "format": "webp",
+      "width": 384,
+      "height": 271
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 13450,
+      "sha256": "dc223c0a8e6522b353ed8edc7d96bcac2dfc30f80647a7886e0747e201cf3a24",
+      "format": "webp",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 15956,
+      "sha256": "31db0566f87002e544cbab18f01dc742fd677677fdc70e45dd7f632c8f58c505",
+      "format": "webp",
+      "width": 384,
+      "height": 272
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 8492,
+      "sha256": "880e4e0dad0c95d3a037a19ba118860b69bda2b5eb50b766d8512174136e8c15",
+      "format": "webp",
+      "width": 384,
+      "height": 296
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 9910,
+      "sha256": "b49d632bac2d1132c33db19eddef2a234e7d472cdb2e3ed8f2ad39e738f367c7",
+      "format": "webp",
+      "width": 640,
+      "height": 377
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-prototype-hero.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 23912,
+      "sha256": "79ce7f0fb8c1c42a610bda8f0a1048b62218b8229739015cab38eb36b5174c2e",
+      "format": "webp",
+      "width": 640,
+      "height": 674
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-iot-hardware.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 39068,
+      "sha256": "152bed8be7895517e0ad78537bb6ff1d980fcb193a2947e141a8aa85320f1108",
+      "format": "webp",
+      "width": 640,
+      "height": 695
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-role-based-login.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 8890,
+      "sha256": "a02a89aa7403a8a92db8de2f8af89e2d351a8c7596bfa83e7868a1f2492f6927",
+      "format": "webp",
+      "width": 640,
+      "height": 329
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-employee-dashboard.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 9102,
+      "sha256": "1d8714892a2836d7e3252f0bb7c2b71b76c7b7cda9ef60a5aa54f9b7d439cd71",
+      "format": "webp",
+      "width": 640,
+      "height": 348
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 8974,
+      "sha256": "bf763e57107bca7657321cf65ec3a47b3701bc5949a75da79596935dce40bc9a",
+      "format": "webp",
+      "width": 640,
+      "height": 348
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fmeditwin%2Fincseption-2-certificate.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 26700,
+      "sha256": "1b433bad4bb6c4bc0aab615049ea4f2e02b4f305d7fc3b95f4da56f9687b38cd",
+      "format": "webp",
+      "width": 640,
+      "height": 444
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 14976,
+      "sha256": "10256d42d3bdd997d7d8253c65d1012055530fcb15a8c4d124de7684cb748923",
+      "format": "webp",
+      "width": 640,
+      "height": 453
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 29648,
+      "sha256": "3591e4587cb09b29725611dc40f69a676a632cfd541788662d90437c564342fd",
+      "format": "webp",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 32182,
+      "sha256": "bc4c3616582405d4e6f804d517a4e2371dd1311fd8c1e2e367814dd745d4cb0d",
+      "format": "webp",
+      "width": 640,
+      "height": 454
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 20206,
+      "sha256": "d9d77063497d186f98fae30fe7024f0681bbed455dd95ce1e7be75406d553f2f",
+      "format": "webp",
+      "width": 640,
+      "height": 493
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=256&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 2832,
+      "sha256": "109a527957e9490137f091536d7cbb39eff468c88c5d0516678072b0a1be3732",
+      "format": "webp",
+      "width": 256,
+      "height": 144
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=256&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 2254,
+      "sha256": "647807ce1bb24d8f7ef8fbb36b3f2f1aaee82beddfb28cbd095883f7a332f6a6",
+      "format": "webp",
+      "width": 256,
+      "height": 139
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=750&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 19674,
+      "sha256": "2c9f7691e5a13fb1a8604992ac3c8c0b91098cdd9e8b3afa5e1febd41046893c",
+      "format": "webp",
+      "width": 750,
+      "height": 443
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=828&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 23290,
+      "sha256": "e01d11c1a30d9898b603aef8eb2219a8a2d1a3ab851fd74e1b1db6a328add483",
+      "format": "webp",
+      "width": 828,
+      "height": 489
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 6060,
+      "sha256": "6e837ed54b2c54873ab72988dbdfd3a342a9934103cf9cff42b7e5e4c7a8d08f",
+      "format": "webp",
+      "width": 384,
+      "height": 211
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=384&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 5268,
+      "sha256": "1ed7f07cbaad82443b521bcd97fd66e58694ba79266b340a61db67b4f2eab0ed",
+      "format": "webp",
+      "width": 384,
+      "height": 216
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 39974,
+      "sha256": "355853af627d1629d84fbda039d2631a6c1213775eb90990bdf5e95984db8cab",
+      "format": "webp",
+      "width": 1200,
+      "height": 709
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=1080&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 30062,
+      "sha256": "f6c98af04cadbd361e24ba32477e118897599b6314405cfe8148f73e91064f52",
+      "format": "webp",
+      "width": 1080,
+      "height": 593
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=1080&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 26618,
+      "sha256": "0cf5aa3492b57e16d2f7449aa4bd6e1f10f9a2735aabb7bed9c946b5bc2a1b08",
+      "format": "webp",
+      "width": 1080,
+      "height": 609
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-role-based-login.jpg&w=828&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 13698,
+      "sha256": "223d9f36b459367cabbf0ca418d0188e3544941cab877f827f734dc2947a0189",
+      "format": "webp",
+      "width": 828,
+      "height": 426
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fmeditwin%2Fincseption-2-certificate.jpg&w=750&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 32848,
+      "sha256": "38b12abfe4e29506d7dd2d8f5bb02e918cf8da5ce199744914b5520e14494c30",
+      "format": "webp",
+      "width": 750,
+      "height": 521
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 34162,
+      "sha256": "497ba8ab6be0b5a6fb8308424c9401604117bf55493165530a5af7c1d5376a73",
+      "format": "webp",
+      "width": 1080,
+      "height": 638
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 12368,
+      "sha256": "9e00e87796338ce94868516f6ebbbd3e55ffec58b8ca95096bdfebaeeb48fc1f",
+      "format": "webp",
+      "width": 750,
+      "height": 442
+    },
+    {
+      "url": "http://127.0.0.1:3000/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=828&q=75",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 14440,
+      "sha256": "81e50d4f041a7557445a7c712f4af838b12ffabef82ef6dac783593ce56799d7",
+      "format": "webp",
+      "width": 828,
+      "height": 488
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "before": {
+    "environment": {
+      "browser": "155.0.8059.85",
+      "platform": "darwin",
+      "arch": "arm64",
+      "node": "v24.14.1",
+      "cpu": "Apple M5"
+    },
+    "bundle": {
+      "raw": 844075,
+      "gzip": 264027
+    },
+    "loads": [
+      {
+        "profile": "desktop-local",
+        "lcp": 80,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 467960,
+        "fontBytes": 68936,
+        "imageBytes": 67278,
+        "fontStatus": "loaded",
+        "longTasks": [],
+        "webGLDraws": 4802
+      },
+      {
+        "profile": "desktop-local",
+        "lcp": 60,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 467960,
+        "fontBytes": 68936,
+        "imageBytes": 67278,
+        "fontStatus": "loaded",
+        "longTasks": [],
+        "webGLDraws": 4802
+      },
+      {
+        "profile": "desktop-local",
+        "lcp": 68,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 467960,
+        "fontBytes": 68936,
+        "imageBytes": 67278,
+        "fontStatus": "loaded",
+        "longTasks": [],
+        "webGLDraws": 4802
+      },
+      {
+        "profile": "mobile-throttled",
+        "lcp": 1000,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 467960,
+        "fontBytes": 68936,
+        "imageBytes": 18130,
+        "fontStatus": "loaded",
+        "longTasks": [
+          71,
+          65
+        ],
+        "webGLDraws": 3668
+      },
+      {
+        "profile": "mobile-throttled",
+        "lcp": 1008,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 467960,
+        "fontBytes": 68936,
+        "imageBytes": 18130,
+        "fontStatus": "loaded",
+        "longTasks": [
+          67,
+          67
+        ],
+        "webGLDraws": 3668
+      },
+      {
+        "profile": "mobile-throttled",
+        "lcp": 1000,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 467960,
+        "fontBytes": 68936,
+        "imageBytes": 18130,
+        "fontStatus": "loaded",
+        "longTasks": [
+          67,
+          65
+        ],
+        "webGLDraws": 3668
+      }
+    ],
+    "scroll": [
+      {
+        "region": "#home",
+        "count": 180,
+        "median": 16.699999999999818,
+        "p95": 16.800000000000182,
+        "max": 16.800000000000182,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "[data-work-project='0']",
+        "count": 180,
+        "median": 16.69999999999891,
+        "p95": 16.799999999999272,
+        "max": 16.80000000000109,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "[data-work-project='2']",
+        "count": 180,
+        "median": 16.69999999999891,
+        "p95": 16.700000000000728,
+        "max": 16.80000000000109,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "#about",
+        "count": 180,
+        "median": 33.29999999999927,
+        "p95": 33.400000000001455,
+        "max": 33.5,
+        "over33": 45,
+        "tasks": []
+      },
+      {
+        "region": "#contact",
+        "count": 180,
+        "median": 33.29999999999927,
+        "p95": 33.400000000001455,
+        "max": 33.400000000001455,
+        "over33": 68,
+        "tasks": []
+      }
+    ],
+    "activity": [
+      {
+        "region": "#home",
+        "milliseconds": 1000,
+        "draws": 420,
+        "gridClears": 0,
+        "heroActive": "true"
+      },
+      {
+        "region": "#work",
+        "milliseconds": 1000,
+        "draws": 0,
+        "gridClears": 0,
+        "heroActive": "false"
+      },
+      {
+        "region": "#about",
+        "milliseconds": 1000,
+        "draws": 0,
+        "gridClears": 0,
+        "heroActive": "false"
+      },
+      {
+        "region": "#contact",
+        "milliseconds": 1000,
+        "draws": 0,
+        "gridClears": 0,
+        "heroActive": "false"
+      }
+    ],
+    "interaction": [
+      {
+        "name": "pointerdown",
+        "duration": 56,
+        "inputDelay": 1.0999999940395355,
+        "interactionId": 3252
+      },
+      {
+        "name": "pointerup",
+        "duration": 56,
+        "inputDelay": 1.6000000014901161,
+        "interactionId": 3252
+      },
+      {
+        "name": "click",
+        "duration": 56,
+        "inputDelay": 1.7000000029802322,
+        "interactionId": 3252
+      }
+    ]
+  },
+  "after": {
+    "environment": {
+      "browser": "155.0.8059.85",
+      "platform": "darwin",
+      "arch": "arm64",
+      "node": "v24.14.1",
+      "cpu": "Apple M5"
+    },
+    "bundle": {
+      "raw": 848984,
+      "gzip": 266742
+    },
+    "loads": [
+      {
+        "profile": "desktop-local",
+        "lcp": 72,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 470510,
+        "fontBytes": 68936,
+        "imageBytes": 67278,
+        "fontStatus": "loaded",
+        "longTasks": [],
+        "webGLDraws": 2394
+      },
+      {
+        "profile": "desktop-local",
+        "lcp": 60,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 470510,
+        "fontBytes": 68936,
+        "imageBytes": 67278,
+        "fontStatus": "loaded",
+        "longTasks": [],
+        "webGLDraws": 2380
+      },
+      {
+        "profile": "desktop-local",
+        "lcp": 72,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 470510,
+        "fontBytes": 68936,
+        "imageBytes": 67278,
+        "fontStatus": "loaded",
+        "longTasks": [],
+        "webGLDraws": 2394
+      },
+      {
+        "profile": "mobile-throttled",
+        "lcp": 1020,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 470510,
+        "fontBytes": 68936,
+        "imageBytes": 18130,
+        "fontStatus": "loaded",
+        "longTasks": [
+          69,
+          63
+        ],
+        "webGLDraws": 1834
+      },
+      {
+        "profile": "mobile-throttled",
+        "lcp": 1000,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 470510,
+        "fontBytes": 68936,
+        "imageBytes": 18130,
+        "fontStatus": "loaded",
+        "longTasks": [
+          70,
+          66
+        ],
+        "webGLDraws": 1834
+      },
+      {
+        "profile": "mobile-throttled",
+        "lcp": 1004,
+        "lcpCandidate": "WHAT I WANT",
+        "cls": 0,
+        "jsBytes": 470510,
+        "fontBytes": 68936,
+        "imageBytes": 18130,
+        "fontStatus": "loaded",
+        "longTasks": [
+          70,
+          65
+        ],
+        "webGLDraws": 1834
+      }
+    ],
+    "scroll": [
+      {
+        "region": "#home",
+        "count": 180,
+        "median": 33.30000000000018,
+        "p95": 33.400000000000546,
+        "max": 33.400000000001455,
+        "over33": 67,
+        "tasks": []
+      },
+      {
+        "region": "[data-work-project='0']",
+        "count": 180,
+        "median": 33.30000000000109,
+        "p95": 33.400000000001455,
+        "max": 33.5,
+        "over33": 74,
+        "tasks": []
+      },
+      {
+        "region": "[data-work-project='2']",
+        "count": 180,
+        "median": 33.29999999999927,
+        "p95": 33.400000000001455,
+        "max": 33.400000000001455,
+        "over33": 68,
+        "tasks": []
+      },
+      {
+        "region": "#about",
+        "count": 180,
+        "median": 33.29999999999927,
+        "p95": 33.400000000001455,
+        "max": 33.5,
+        "over33": 62,
+        "tasks": []
+      },
+      {
+        "region": "#contact",
+        "count": 180,
+        "median": 33.30000000000291,
+        "p95": 33.400000000001455,
+        "max": 33.5,
+        "over33": 68,
+        "tasks": []
+      }
+    ],
+    "activity": [
+      {
+        "region": "#home",
+        "milliseconds": 1000,
+        "draws": 420,
+        "gridClears": 0,
+        "heroActive": "true"
+      },
+      {
+        "region": "#work",
+        "milliseconds": 1000,
+        "draws": 0,
+        "gridClears": 0,
+        "heroActive": "false"
+      },
+      {
+        "region": "#about",
+        "milliseconds": 1000,
+        "draws": 0,
+        "gridClears": 0,
+        "heroActive": "false"
+      },
+      {
+        "region": "#contact",
+        "milliseconds": 1000,
+        "draws": 0,
+        "gridClears": 0,
+        "heroActive": "false"
+      }
+    ],
+    "interaction": [
+      {
+        "name": "pointerdown",
+        "duration": 64,
+        "inputDelay": 1.5,
+        "interactionId": 3071
+      },
+      {
+        "name": "pointerup",
+        "duration": 64,
+        "inputDelay": 2.3000000044703484,
+        "interactionId": 3071
+      },
+      {
+        "name": "click",
+        "duration": 64,
+        "inputDelay": 2.5,
+        "interactionId": 3071
+      }
+    ]
+  },
+  "change": {
+    "initialRaw": 4909,
+    "initialGzip": 2715
+  }
+}

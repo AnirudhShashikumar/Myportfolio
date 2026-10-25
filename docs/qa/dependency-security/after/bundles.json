@@ -1,0 +1,67 @@
+{
+  "next": "16.4.3",
+  "scripts": [
+    {
+      "url": "/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+      "raw": 203721,
+      "gzip": 64057,
+      "sha256": "7d5ccf185a6f85ab38ce400a7f10aa0a3496eb4e9aee1e500a85e01c4222fcec"
+    },
+    {
+      "url": "/_next/static/chunks/794-216401842b802bd7.js",
+      "raw": 242566,
+      "gzip": 67415,
+      "sha256": "d865c90697d8de39a2108c21cb922a03f7810c3e0dbcf88cd584786f6c3234c6"
+    },
+    {
+      "url": "/_next/static/chunks/main-app-6954a6653158385a.js",
+      "raw": 513,
+      "gzip": 221,
+      "sha256": "98bebe75d5b247b32cb65b3c547fd9c6a6bd382d9bd1541daf0317a738983ae2"
+    },
+    {
+      "url": "/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+      "raw": 51569,
+      "gzip": 19771,
+      "sha256": "c7e182337a998726b81ad7230e535ab270ca06dc8590438e14de291ed9939a1d"
+    },
+    {
+      "url": "/_next/static/chunks/50-d904d14977fc9b15.js",
+      "raw": 62258,
+      "gzip": 24875,
+      "sha256": "2730570b5756cae1557657a3c063b24e7d3518404ccc3937b2acd7b42877f768"
+    },
+    {
+      "url": "/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+      "raw": 25879,
+      "gzip": 7713,
+      "sha256": "f60a7d8be6eec4b020167d2224b6c6689c5c4234495c6a65cf776c8214da35af"
+    },
+    {
+      "url": "/_next/static/chunks/209-44beca00da938c1b.js",
+      "raw": 19083,
+      "gzip": 6643,
+      "sha256": "9ef902c429425794e5d5dc98c768230aaf02f78e6a31985591631a2d7b69798b"
+    },
+    {
+      "url": "/_next/static/chunks/app/page-76eaa056f13b0083.js",
+      "raw": 127252,
+      "gzip": 34570,
+      "sha256": "ccb6cf1a79394fe0f0f0b4bde3d2b1be9b235f3a8b055d6da0dba950cf92d71e"
+    },
+    {
+      "url": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "raw": 112594,
+      "gzip": 39627,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "url": "/_next/static/chunks/webpack-fe75a27bd7604a9c.js",
+      "raw": 3549,
+      "gzip": 1850,
+      "sha256": "077c798fef728715ce235e23675bb18d334c8bec4a27a519365048d480bc0405"
+    }
+  ],
+  "raw": 848984,
+  "gzip": 266742
+}

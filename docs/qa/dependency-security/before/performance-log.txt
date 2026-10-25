@@ -1,0 +1,6 @@
+desktop-local 0: LCP 80ms; CLS 0.0000
+desktop-local 1: LCP 60ms; CLS 0.0000
+desktop-local 2: LCP 68ms; CLS 0.0000
+mobile-throttled 0: LCP 1000ms; CLS 0.0000
+mobile-throttled 1: LCP 1008ms; CLS 0.0000
+mobile-throttled 2: LCP 1000ms; CLS 0.0000

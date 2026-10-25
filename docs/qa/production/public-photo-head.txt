@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Sat, 03 Oct 2026 12:11:33 GMT
+ETag: W/"33908f-1a101ad3f8e"
+Content-Type: image/jpeg
+Content-Length: 3379343
+Date: Sun, 25 Oct 2026 15:15:34 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

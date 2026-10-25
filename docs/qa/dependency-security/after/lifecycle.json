@@ -1,0 +1,1157 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    }
+  ],
+  "initial": {
+    "y": 0,
+    "height": 46877,
+    "overflow": 0,
+    "visibleText": [
+      "I BUILDWHAT I WANTTO EXIST."
+    ],
+    "horizontal": [],
+    "headerOverlap": [],
+    "mismatches": [],
+    "triggerCount": 41,
+    "activeTriggers": 0,
+    "cue": "visible",
+    "aboutMode": "true"
+  },
+  "inventory": {
+    "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+    "meta": [
+      "<meta charset=\"utf-8\">",
+      "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+      "<link rel=\"preload\" href=\"/_next/static/media/22a5144ee8d83bca-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">",
+      "<link rel=\"preload\" href=\"/_next/static/media/7d4881bb7e1bf84d-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">",
+      "<link rel=\"stylesheet\" href=\"/_next/static/css/974021b5953866a7.css\" data-precedence=\"next\">",
+      "<link rel=\"stylesheet\" href=\"/_next/static/css/689a9cfa1bb95583.css\" data-precedence=\"next\">",
+      "<link rel=\"stylesheet\" href=\"/_next/static/css/3b51c1a5b2dff3ff.css\" data-precedence=\"next\">",
+      "<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-fe75a27bd7604a9c.js\">",
+      "<meta name=\"description\" content=\"I build systems across AI, vision, software, and the physical world. Portfolio of Anirudh Shashikumar — Computer Science Engineering.\">",
+      "<meta name=\"next-size-adjust\" content=\"\">"
+    ],
+    "headings": [
+      {
+        "level": "H1",
+        "text": "I BUILDWHAT I WANTTO EXIST.",
+        "hidden": false
+      },
+      {
+        "level": "H2",
+        "text": "SATQUERY AI",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "EVIDENCE",
+        "hidden": false
+      },
+      {
+        "level": "H2",
+        "text": "GESTURE GLOBE",
+        "hidden": false
+      },
+      {
+        "level": "H2",
+        "text": "ALGAEOS",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "AIR MOVES. DATA FOLLOWS.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "REACTOR → SENSOR → READOUT.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "MEASURED IN THE BUILD.",
+        "hidden": false
+      },
+      {
+        "level": "H2",
+        "text": "DAYFLOW",
+        "hidden": true
+      },
+      {
+        "level": "H3",
+        "text": "SAME SYSTEM. DIFFERENT RESPONSIBILITIES.",
+        "hidden": true
+      },
+      {
+        "level": "H3",
+        "text": "ACCESS FOLLOWS THE ROLE.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "VERIFIED. STILL EVOLVING.",
+        "hidden": false
+      },
+      {
+        "level": "H2",
+        "text": "MEDITWIN",
+        "hidden": true
+      },
+      {
+        "level": "H3",
+        "text": "PERSONAL MODEL FORMATION.",
+        "hidden": true
+      },
+      {
+        "level": "H3",
+        "text": "HEALTH CONTEXT, MADE PERSONAL.",
+        "hidden": true
+      },
+      {
+        "level": "H2",
+        "text": "MEDIFIT",
+        "hidden": true
+      },
+      {
+        "level": "H3",
+        "text": "PERSONALIZATION ENGINE.",
+        "hidden": true
+      },
+      {
+        "level": "H2",
+        "text": "About Anirudh Shashikumar",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "THE SYSTEMS TELL\nPART OF THE STORY.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "IT STARTED\nWITH CURIOSITY.",
+        "hidden": false
+      },
+      {
+        "level": "H4",
+        "text": "2020.\nFIRST WEBSITE.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "ONE LAYER\nOPENED ANOTHER.",
+        "hidden": false
+      },
+      {
+        "level": "H4",
+        "text": "I WANTED TO KNOW\nHOW THEY CONNECT.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "SOME PROBLEMS\nDON'T FIT\nINSIDE RULES.",
+        "hidden": false
+      },
+      {
+        "level": "H4",
+        "text": "IMAGE → DATA\nMOVEMENT → INTERACTION\nSPACE → INTERFACE",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "MODEL ↔ PRODUCT",
+        "hidden": false
+      },
+      {
+        "level": "H4",
+        "text": "THE PART I LIKE\nIS CONNECTING\nTHE LAYERS.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "ARCHITECTURE FIRST.",
+        "hidden": false
+      },
+      {
+        "level": "H4",
+        "text": "LOCALLY CORRECT\nCAN STILL BE\nGLOBALLY FRAGILE.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "THE SAME PROCESS.\nLESS TIME.",
+        "hidden": false
+      },
+      {
+        "level": "H4",
+        "text": "PROBLEM → BUILD → PITCH",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "CURRENT STATE:\nLEARNING.",
+        "hidden": false
+      },
+      {
+        "level": "H4",
+        "text": "UNDERSTANDING\nWHAT'S UNDERNEATH.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "NOT EVERYTHING\nIS A PROJECT.",
+        "hidden": false
+      },
+      {
+        "level": "H4",
+        "text": "Movement. Music. People.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "I WANT TO BUILD\nSYSTEMS THAT\nDON'T JUST LIVE\nON A SCREEN.",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "PLACES TO BUILD.\nROOM TO LEARN.",
+        "hidden": false
+      },
+      {
+        "level": "H4",
+        "text": "STILL LEARNING.\nSTILL BUILDING.",
+        "hidden": false
+      },
+      {
+        "level": "H2",
+        "text": "Contact Anirudh Shashikumar",
+        "hidden": false
+      },
+      {
+        "level": "H3",
+        "text": "WHAT SHOULDWE BUILDNEXT?",
+        "hidden": false
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to content",
+        "label": null,
+        "href": "#main-content",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "ANIRUDH SHASHIKUMAR",
+        "label": null,
+        "href": "#home",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Home",
+        "label": null,
+        "href": "#home",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Work",
+        "label": null,
+        "href": "#work",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "About",
+        "label": null,
+        "href": "#about",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "Contact",
+        "label": null,
+        "href": "#contact",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "LIVE SYSTEM ↗",
+        "label": "Open the live SatQuery AI system in a new tab",
+        "href": "https://sat-query-ai-phi.vercel.app/",
+        "target": "_blank",
+        "rel": "noreferrer"
+      },
+      {
+        "text": "LIVE EXPERIENCE ↗",
+        "label": "Open the live Gesture Globe experience in a new tab",
+        "href": "https://gestureglobe.vercel.app/",
+        "target": "_blank",
+        "rel": "noreferrer"
+      },
+      {
+        "text": "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+        "label": null,
+        "href": "/projects/algaeos/algaeos-system-infographic.jpg",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "text": "EXPLORE ALGAEOS ↗",
+        "label": null,
+        "href": "#algaeos-detail",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "LIVE APP ↗",
+        "label": "Open the live Dayflow application in a new tab",
+        "href": "https://dayflow-anirudh6.vercel.app",
+        "target": "_blank",
+        "rel": "noreferrer"
+      },
+      {
+        "text": "",
+        "label": "View the full MediTwin first-place certificate in a new tab",
+        "href": "/projects/meditwin/incseption-2-certificate.jpg",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "text": "VIEW MEDITWIN ↗",
+        "label": null,
+        "href": "#meditwin-detail",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "",
+        "label": "View the full MediFit third-place certificate in a new tab",
+        "href": "/projects/medifit/push-pull-commit-certificate.jpg",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "text": "LIVE APP ↗",
+        "label": "Open the live MediFit application in a new tab",
+        "href": "https://medi-fit-navy.vercel.app/",
+        "target": "_blank",
+        "rel": "noreferrer"
+      },
+      {
+        "text": "EMAIL ME↗",
+        "label": "Email Anirudh Shashikumar",
+        "href": "mailto:Anirudh.shashikumar@gmail.com",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "LINKEDIN ↗",
+        "label": "Anirudh Shashikumar on LinkedIn (opens in a new tab)",
+        "href": "https://www.linkedin.com/in/anirudh-shashikumar",
+        "target": "_blank",
+        "rel": "noreferrer"
+      },
+      {
+        "text": "GITHUB ↗",
+        "label": "Anirudh Shashikumar on GitHub (opens in a new tab)",
+        "href": "https://github.com/AnirudhShashikumar",
+        "target": "_blank",
+        "rel": "noreferrer"
+      },
+      {
+        "text": "EMAIL ME↗",
+        "label": "Email Anirudh Shashikumar",
+        "href": "mailto:Anirudh.shashikumar@gmail.com",
+        "target": "",
+        "rel": ""
+      },
+      {
+        "text": "LINKEDIN ↗",
+        "label": "Anirudh Shashikumar on LinkedIn (opens in a new tab)",
+        "href": "https://www.linkedin.com/in/anirudh-shashikumar",
+        "target": "_blank",
+        "rel": "noreferrer"
+      },
+      {
+        "text": "GITHUB ↗",
+        "label": "Anirudh Shashikumar on GitHub (opens in a new tab)",
+        "href": "https://github.com/AnirudhShashikumar",
+        "target": "_blank",
+        "rel": "noreferrer"
+      },
+      {
+        "text": "BACK TO TOP ↑",
+        "label": null,
+        "href": "#home",
+        "target": "",
+        "rel": ""
+      }
+    ],
+    "missingAlt": 0,
+    "duplicateIds": []
+  },
+  "initialAXHeadings": [
+    "About Anirudh Shashikumar",
+    "Contact Anirudh Shashikumar",
+    "I BUILD WHAT I WANT TO EXIST.",
+    "THE SYSTEMS TELL PART OF THE STORY.",
+    "IT STARTED WITH CURIOSITY.",
+    "2020. FIRST WEBSITE.",
+    "ONE LAYER OPENED ANOTHER.",
+    "I WANTED TO KNOW HOW THEY CONNECT.",
+    "SOME PROBLEMS DON'T FIT INSIDE RULES.",
+    "IMAGE → DATA MOVEMENT → INTERACTION SPACE → INTERFACE",
+    "MODEL ↔ PRODUCT",
+    "THE PART I LIKE IS CONNECTING THE LAYERS.",
+    "ARCHITECTURE FIRST.",
+    "LOCALLY CORRECT CAN STILL BE GLOBALLY FRAGILE.",
+    "THE SAME PROCESS. LESS TIME.",
+    "PROBLEM → BUILD → PITCH",
+    "CURRENT STATE: LEARNING.",
+    "UNDERSTANDING WHAT'S UNDERNEATH.",
+    "NOT EVERYTHING IS A PROJECT.",
+    "Movement. Music. People.",
+    "I WANT TO BUILD SYSTEMS THAT DON'T JUST LIVE ON A SCREEN.",
+    "PLACES TO BUILD. ROOM TO LEARN.",
+    "STILL LEARNING. STILL BUILDING.",
+    "ALGAEOS",
+    "AIR MOVES. DATA FOLLOWS.",
+    "REACTOR → SENSOR → READOUT.",
+    "MEASURED IN THE BUILD.",
+    "ACCESS FOLLOWS THE ROLE.",
+    "  ",
+    "SATQUERY AI",
+    "GESTURE GLOBE",
+    "EVIDENCE"
+  ],
+  "keyboard": [
+    {
+      "tag": "A",
+      "text": "Skip to content",
+      "href": "#main-content",
+      "y": 0,
+      "rect": {
+        "top": 16,
+        "bottom": 64,
+        "left": 16,
+        "right": 159.78125
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "ANIRUDH SHASHIKUMAR",
+      "href": "#home",
+      "y": 0,
+      "rect": {
+        "top": 8,
+        "bottom": 52,
+        "left": 112,
+        "right": 280.28125
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "Home",
+      "href": "#home",
+      "y": 0,
+      "rect": {
+        "top": 8,
+        "bottom": 52,
+        "left": 1095.40625,
+        "right": 1133.109375
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "Work",
+      "href": "#work",
+      "y": 0,
+      "rect": {
+        "top": 7.779113292694092,
+        "bottom": 51.77911329269409,
+        "left": 1157.109375,
+        "right": 1190.8125
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "About",
+      "href": "#about",
+      "y": 0,
+      "rect": {
+        "top": 8,
+        "bottom": 52,
+        "left": 1214.8125,
+        "right": 1253.109375
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "Contact",
+      "href": "#contact",
+      "y": 0,
+      "rect": {
+        "top": 7.779763221740723,
+        "bottom": 51.77976322174072,
+        "left": 1277.109375,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "LIVE SYSTEM ↗",
+      "href": "https://sat-query-ai-phi.vercel.app/",
+      "y": 6016,
+      "rect": {
+        "top": 422.515625,
+        "bottom": 477.296875,
+        "left": 1164.875,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "LIVE EXPERIENCE ↗",
+      "href": "https://gestureglobe.vercel.app/",
+      "y": 10280,
+      "rect": {
+        "top": 422.890625,
+        "bottom": 477.671875,
+        "left": 1141.703125,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+      "href": "/projects/algaeos/algaeos-system-infographic.jpg",
+      "y": 15448,
+      "rect": {
+        "top": 209.65625,
+        "bottom": 689.703125,
+        "left": 1070.640625,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "EXPLORE ALGAEOS ↗",
+      "href": "#algaeos-detail",
+      "y": 16034,
+      "rect": {
+        "top": 422.71875,
+        "bottom": 477.5,
+        "left": 1141.6875,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "LIVE APP ↗",
+      "href": "https://dayflow-anirudh6.vercel.app",
+      "y": 20797,
+      "rect": {
+        "top": 423.4375,
+        "bottom": 478.21875,
+        "left": 1200.296875,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(194, 221, 251) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Read without motion ↗",
+      "href": null,
+      "y": 28173,
+      "rect": {
+        "top": 428.6875,
+        "bottom": 472.6875,
+        "left": 1189.5625,
+        "right": 1353.609375
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "BACK TO TOP ↑",
+      "href": "#home",
+      "y": 45978,
+      "rect": {
+        "top": 829.5,
+        "bottom": 873.5,
+        "left": 1254.0625,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "BODY",
+      "text": "Skip to contentANIRUDH SHASHIKUMARHomeWorkAboutContactX / 04.18VECTOR / RELATIONZ / −08.24BUILD SPAC",
+      "href": null,
+      "y": 45978,
+      "rect": {
+        "top": -45978,
+        "bottom": 899.5,
+        "left": 0,
+        "right": 1440
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(245, 245, 245) none 3px",
+      "hit": false
+    },
+    {
+      "tag": "A",
+      "text": "Skip to content",
+      "href": "#main-content",
+      "y": 45978,
+      "rect": {
+        "top": 16,
+        "bottom": 64,
+        "left": 16,
+        "right": 159.78125
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "ANIRUDH SHASHIKUMAR",
+      "href": "#home",
+      "y": 45978,
+      "rect": {
+        "top": 8,
+        "bottom": 52,
+        "left": 112,
+        "right": 280.28125
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "Home",
+      "href": "#home",
+      "y": 45978,
+      "rect": {
+        "top": 7.423582553863525,
+        "bottom": 51.423582553863525,
+        "left": 1095.40625,
+        "right": 1133.109375
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "Work",
+      "href": "#work",
+      "y": 45978,
+      "rect": {
+        "top": 7.42354679107666,
+        "bottom": 51.42354679107666,
+        "left": 1157.109375,
+        "right": 1190.8125
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "About",
+      "href": "#about",
+      "y": 45978,
+      "rect": {
+        "top": 7.7792863845825195,
+        "bottom": 51.77928638458252,
+        "left": 1214.8125,
+        "right": 1253.109375
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "Contact",
+      "href": "#contact",
+      "y": 45978,
+      "rect": {
+        "top": 7.424081325531006,
+        "bottom": 51.424081325531006,
+        "left": 1277.109375,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "LIVE SYSTEM ↗",
+      "href": "https://sat-query-ai-phi.vercel.app/",
+      "y": 6016,
+      "rect": {
+        "top": 422.515625,
+        "bottom": 477.296875,
+        "left": 1164.875,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    },
+    {
+      "tag": "A",
+      "text": "LIVE EXPERIENCE ↗",
+      "href": "https://gestureglobe.vercel.app/",
+      "y": 10280,
+      "rect": {
+        "top": 422.890625,
+        "bottom": 477.671875,
+        "left": 1141.703125,
+        "right": 1328
+      },
+      "opacity": 1,
+      "visibility": "visible",
+      "outline": "rgb(169, 214, 255) solid 2px",
+      "hit": true
+    }
+  ],
+  "reader": {
+    "mode": "false",
+    "focus": "about-M01",
+    "accessibility": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".SiteFooter_inner__JWAo_ > p:nth-child(1)"
+              ],
+              "html": "<p>ANIRUDH SHASHIKUMAR</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".SiteFooter_inner__JWAo_ > p:nth-child(2)"
+              ],
+              "html": "<p>© 2026</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".SiteFooter_inner__JWAo_ > p:nth-child(3)"
+              ],
+              "html": "<p>BUILT + ITERATED WITH INTENTION</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 250
+        }
+      ],
+      "passes": 27
+    },
+    "returnMode": "true"
+  },
+  "reduced": {
+    "snapshot": {
+      "y": 22626,
+      "height": 32475,
+      "overflow": 0,
+      "visibleText": [
+        "2020 / FIRST WEBSITEPRESIDENCY SCHOOL / HTML WEBSITE COMPETITION / FIRST POSITION",
+        "Inspect the original ↗ (opens in a new tab)",
+        "In 2020, I entered my first proper Computer Science competition with a personal HTML/CSS website—login interface, forms ",
+        "THE FIRST PORTFOLIO, BEFORE THIS PORTFOLIO.",
+        "EVOLUTION / WHY INTELLIGENCE",
+        "ONE LAYER OPENED ANOTHER.",
+        "What began as making a website expanded into an interest in how software, AI, data, vision, hardware and interfaces work",
+        "I WANTED TO KNOW HOW THEY CONNECT."
+      ],
+      "horizontal": [],
+      "headerOverlap": [],
+      "mismatches": [],
+      "triggerCount": 0,
+      "activeTriggers": 0,
+      "cue": "dismissed",
+      "aboutMode": "false"
+    },
+    "headings": [
+      "About Anirudh Shashikumar",
+      "Contact Anirudh Shashikumar",
+      "WHAT SHOULD WE BUILD NEXT?",
+      "I BUILD WHAT I WANT TO EXIST.",
+      "THE SYSTEMS TELL PART OF THE STORY.",
+      "IT STARTED WITH CURIOSITY.",
+      "2020. FIRST WEBSITE.",
+      "ONE LAYER OPENED ANOTHER.",
+      "I WANTED TO KNOW HOW THEY CONNECT.",
+      "SOME PROBLEMS DON'T FIT INSIDE RULES.",
+      "IMAGE → DATA MOVEMENT → INTERACTION SPACE → INTERFACE",
+      "MODEL ↔ PRODUCT",
+      "THE PART I LIKE IS CONNECTING THE LAYERS.",
+      "ARCHITECTURE FIRST.",
+      "LOCALLY CORRECT CAN STILL BE GLOBALLY FRAGILE.",
+      "THE SAME PROCESS. LESS TIME.",
+      "PROBLEM → BUILD → PITCH",
+      "CURRENT STATE: LEARNING.",
+      "UNDERSTANDING WHAT'S UNDERNEATH.",
+      "NOT EVERYTHING IS A PROJECT.",
+      "Movement. Music. People.",
+      "I WANT TO BUILD SYSTEMS THAT DON'T JUST LIVE ON A SCREEN.",
+      "PLACES TO BUILD. ROOM TO LEARN.",
+      "STILL LEARNING. STILL BUILDING.",
+      "SATQUERY AI",
+      "GESTURE GLOBE",
+      "ALGAEOS",
+      "DAYFLOW",
+      "AIR MOVES. DATA FOLLOWS.",
+      "REACTOR → SENSOR → READOUT.",
+      "MEASURED IN THE BUILD.",
+      "SAME SYSTEM. DIFFERENT RESPONSIBILITIES.",
+      "ACCESS FOLLOWS THE ROLE.",
+      "VERIFIED. STILL EVOLVING.",
+      "MEDITWIN",
+      "PERSONAL MODEL FORMATION.",
+      "HEALTH CONTEXT, MADE PERSONAL.",
+      "MEDIFIT",
+      "PERSONALIZATION ENGINE.",
+      "EVIDENCE"
+    ],
+    "accessibility": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".Contact_editorialMonument__kYVw8"
+              ],
+              "html": "<div class=\"Contact_editorialMonument__kYVw8\" aria-hidden=\"true\">ANIRUDH</div>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #0d1012, background color: #070a0c, font size: 248.4pt (331.2px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".SiteFooter_inner__JWAo_ > p:nth-child(1)"
+              ],
+              "html": "<p>ANIRUDH SHASHIKUMAR</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".SiteFooter_inner__JWAo_ > p:nth-child(2)"
+              ],
+              "html": "<p>© 2026</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".SiteFooter_inner__JWAo_ > p:nth-child(3)"
+              ],
+              "html": "<p>BUILT + ITERATED WITH INTENTION</p>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 2
+        },
+        {
+          "id": "color-contrast",
+          "count": 275
+        }
+      ],
+      "passes": 26
+    },
+    "animations": 0
+  },
+  "resizeCounts": [
+    41,
+    41,
+    41,
+    41,
+    41
+  ],
+  "nativeInput": [
+    {
+      "delta": 24,
+      "before": 0,
+      "after": 23
+    },
+    {
+      "delta": 24,
+      "before": 23,
+      "after": 47
+    },
+    {
+      "delta": 120,
+      "before": 47,
+      "after": 165
+    },
+    {
+      "delta": 600,
+      "before": 165,
+      "after": 752
+    },
+    {
+      "delta": -120,
+      "before": 752,
+      "after": 651
+    },
+    {
+      "delta": -600,
+      "before": 651,
+      "after": 64
+    }
+  ],
+  "direct": [
+    {
+      "hash": "work",
+      "url": "http://127.0.0.1:3000/?motion-audit=1#work",
+      "snapshot": {
+        "y": 48,
+        "height": 46878,
+        "overflow": 0,
+        "visibleText": [
+          "I BUILDWHAT I WANTTO EXIST."
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 2,
+        "cue": "dismissed",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "hash": "about",
+      "url": "http://127.0.0.1:3000/?motion-audit=1#about",
+      "snapshot": {
+        "y": 28511,
+        "height": 46878,
+        "overflow": 0,
+        "visibleText": [
+          "Read without motion ↗",
+          "02 / ABOUT · PERSON / ORIGIN",
+          "THE SYSTEMS TELLPART OF THE STORY."
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 1,
+        "cue": "dismissed",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "hash": "contact",
+      "url": "http://127.0.0.1:3000/?motion-audit=1#contact",
+      "snapshot": {
+        "y": 42911,
+        "height": 46878,
+        "overflow": 0,
+        "visibleText": [
+          "03 / CONTACT · SIGNAL / OPEN",
+          "ONE SIGNAL.WAITING FOR ANOTHER CONNECTION."
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 1,
+        "cue": "dismissed",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "hash": "lab",
+      "url": "http://127.0.0.1:3000/?motion-audit=1#about",
+      "snapshot": {
+        "y": 28511,
+        "height": 46878,
+        "overflow": 0,
+        "visibleText": [
+          "Read without motion ↗",
+          "02 / ABOUT · PERSON / ORIGIN",
+          "THE SYSTEMS TELLPART OF THE STORY."
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 1,
+        "cue": "dismissed",
+        "aboutMode": "true"
+      }
+    }
+  ],
+  "memory": [
+    {
+      "cycle": 0,
+      "heap": {
+        "usedSize": 18256020,
+        "totalSize": 20316160,
+        "embedderHeapUsedSize": 16171512,
+        "backingStorageSize": 2392598
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 7226,
+        "jsEventListeners": 447
+      },
+      "triggers": 41
+    },
+    {
+      "cycle": 1,
+      "heap": {
+        "usedSize": 18312688,
+        "totalSize": 19529728,
+        "embedderHeapUsedSize": 15975008,
+        "backingStorageSize": 2392598
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 7226,
+        "jsEventListeners": 447
+      },
+      "triggers": 41
+    },
+    {
+      "cycle": 2,
+      "heap": {
+        "usedSize": 18330860,
+        "totalSize": 19529728,
+        "embedderHeapUsedSize": 16083904,
+        "backingStorageSize": 2392598
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 7226,
+        "jsEventListeners": 447
+      },
+      "triggers": 41
+    },
+    {
+      "cycle": 3,
+      "heap": {
+        "usedSize": 18346884,
+        "totalSize": 19529728,
+        "embedderHeapUsedSize": 16346416,
+        "backingStorageSize": 2392598
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 7226,
+        "jsEventListeners": 447
+      },
+      "triggers": 41
+    },
+    {
+      "cycle": 4,
+      "heap": {
+        "usedSize": 18387276,
+        "totalSize": 19529728,
+        "embedderHeapUsedSize": 16445840,
+        "backingStorageSize": 2392598
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 7226,
+        "jsEventListeners": 447
+      },
+      "triggers": 41
+    }
+  ]
+}

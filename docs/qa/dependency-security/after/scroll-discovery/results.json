@@ -1,0 +1,270 @@
+{
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "label": "SWIPE UP TO EXPLORE",
+      "rect": {
+        "left": 116.7265625,
+        "right": 243.2734375,
+        "top": 733.40625,
+        "bottom": 776
+      },
+      "text": {
+        "left": 116.7265625,
+        "right": 243.2734375
+      },
+      "overlaps": [],
+      "overflow": 0,
+      "pointerEvents": "none",
+      "font": "\"Geist Mono\", \"Geist Mono Fallback\", monospace",
+      "count": 1,
+      "history": [
+        {
+          "state": "hidden",
+          "time": 41.5
+        },
+        {
+          "state": "waiting",
+          "time": 176.10000000149012
+        },
+        {
+          "state": "visible",
+          "time": 2977.60000000149
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "label": "SWIPE UP TO EXPLORE",
+      "rect": {
+        "left": 131.7265625,
+        "right": 258.2734375,
+        "top": 776.09375,
+        "bottom": 818.6875
+      },
+      "text": {
+        "left": 131.7265625,
+        "right": 258.2734375
+      },
+      "overlaps": [],
+      "overflow": 0,
+      "pointerEvents": "none",
+      "font": "\"Geist Mono\", \"Geist Mono Fallback\", monospace",
+      "count": 1,
+      "history": [
+        {
+          "state": "hidden",
+          "time": 14.300000004470348
+        },
+        {
+          "state": "waiting",
+          "time": 123.70000000298023
+        },
+        {
+          "state": "visible",
+          "time": 2925.3000000044703
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "label": "SWIPE UP TO EXPLORE",
+      "rect": {
+        "left": 151.7265625,
+        "right": 278.2734375,
+        "top": 861.453125,
+        "bottom": 904.046875
+      },
+      "text": {
+        "left": 151.7265625,
+        "right": 278.2734375
+      },
+      "overlaps": [],
+      "overflow": 0,
+      "pointerEvents": "none",
+      "font": "\"Geist Mono\", \"Geist Mono Fallback\", monospace",
+      "count": 1,
+      "history": [
+        {
+          "state": "hidden",
+          "time": 10
+        },
+        {
+          "state": "waiting",
+          "time": 112.69999999552965
+        },
+        {
+          "state": "visible",
+          "time": 2914.5999999940395
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "label": "SCROLL TO EXPLORE",
+      "rect": {
+        "left": 321.09375,
+        "right": 446.90625,
+        "top": 937.6875,
+        "bottom": 993.28125
+      },
+      "text": {
+        "left": 321.09375,
+        "right": 446.90625
+      },
+      "overlaps": [],
+      "overflow": 0,
+      "pointerEvents": "none",
+      "font": "\"Geist Mono\", \"Geist Mono Fallback\", monospace",
+      "count": 1,
+      "history": [
+        {
+          "state": "hidden",
+          "time": 12.600000001490116
+        },
+        {
+          "state": "waiting",
+          "time": 127.80000000447035
+        },
+        {
+          "state": "visible",
+          "time": 2927.3000000044703
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "label": "SCROLL TO EXPLORE",
+      "rect": {
+        "left": 577.09375,
+        "right": 702.90625,
+        "top": 720.40625,
+        "bottom": 776
+      },
+      "text": {
+        "left": 577.09375,
+        "right": 702.90625
+      },
+      "overlaps": [],
+      "overflow": 0,
+      "pointerEvents": "none",
+      "font": "\"Geist Mono\", \"Geist Mono Fallback\", monospace",
+      "count": 1,
+      "history": [
+        {
+          "state": "hidden",
+          "time": 17.100000001490116
+        },
+        {
+          "state": "waiting",
+          "time": 167.20000000298023
+        },
+        {
+          "state": "visible",
+          "time": 2966.3000000044703
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "label": "SCROLL TO EXPLORE",
+      "rect": {
+        "left": 657.09375,
+        "right": 782.90625,
+        "top": 817.40625,
+        "bottom": 873
+      },
+      "text": {
+        "left": 657.09375,
+        "right": 782.90625
+      },
+      "overlaps": [],
+      "overflow": 0,
+      "pointerEvents": "none",
+      "font": "\"Geist Mono\", \"Geist Mono Fallback\", monospace",
+      "count": 1,
+      "history": [
+        {
+          "state": "hidden",
+          "time": 9
+        },
+        {
+          "state": "waiting",
+          "time": 153.79999999701977
+        },
+        {
+          "state": "visible",
+          "time": 2954.10000000149
+        }
+      ]
+    },
+    {
+      "width": 1728,
+      "height": 1117,
+      "label": "SCROLL TO EXPLORE",
+      "rect": {
+        "left": 801.09375,
+        "right": 926.90625,
+        "top": 1027.90625,
+        "bottom": 1083.5
+      },
+      "text": {
+        "left": 801.09375,
+        "right": 926.90625
+      },
+      "overlaps": [],
+      "overflow": 0,
+      "pointerEvents": "none",
+      "font": "\"Geist Mono\", \"Geist Mono Fallback\", monospace",
+      "count": 1,
+      "history": [
+        {
+          "state": "hidden",
+          "time": 9.699999995529652
+        },
+        {
+          "state": "waiting",
+          "time": 151.29999999701977
+        },
+        {
+          "state": "visible",
+          "time": 2950.6999999955297
+        }
+      ]
+    }
+  ],
+  "cases": [
+    "wheel immediately dismisses; reverse/rapid travel and 9s idle never repeat",
+    "keyboard ArrowDown cancels pending guidance",
+    "keyboard PageDown cancels pending guidance",
+    "keyboard Space cancels pending guidance",
+    "keyboard End cancels pending guidance",
+    "keyboard Home cancels pending guidance",
+    "native document scroll / scrollbar-equivalent seek dismisses",
+    "small trackpad deltas accumulate without intercepting input",
+    "touch swipe dismisses and native touch scrolling still advances",
+    "direct #work never arms Hero guidance",
+    "direct #about never arms Hero guidance",
+    "direct #contact never arms Hero guidance",
+    "direct #lab never arms Hero guidance",
+    "direct #home remains eligible",
+    "refresh in Work without a hash respects native scroll restoration",
+    "hash back/forward navigation never re-arms guidance",
+    "keyboard focus hides guidance and preserves primary navigation",
+    "document back/forward navigation does not restart Hero guidance",
+    "dialog open suppresses; closing starts a fresh 2.8s wait",
+    "menu open suppresses; closing starts a fresh 2.8s wait",
+    "tab visibility lifecycle resets inactivity (simulated visibility state)",
+    "BFCache pageshow disables a pending prompt (synthetic persisted event)",
+    "live reduced motion keeps guidance static; cold reduced motion still guides",
+    "mobile orientation and safe-area spacing remain clear",
+    "About reader mode remains usable and never prompts"
+  ],
+  "errors": []
+}

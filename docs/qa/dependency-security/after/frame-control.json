@@ -1,0 +1,26 @@
+[
+  {
+    "url": "about:blank",
+    "visibility": "visible",
+    "median": 33.30000000000018,
+    "p95": 33.400000000000546,
+    "max": 33.400000000000546,
+    "count": 120
+  },
+  {
+    "url": "http://127.0.0.1:3000/?motion-audit=1",
+    "visibility": "visible",
+    "median": 33.30000000000018,
+    "p95": 33.400000000000546,
+    "max": 33.5,
+    "count": 120
+  },
+  {
+    "url": "about:blank",
+    "visibility": "visible",
+    "median": 33.30000000000018,
+    "p95": 33.400000000000546,
+    "max": 33.400000000000546,
+    "count": 120
+  }
+]

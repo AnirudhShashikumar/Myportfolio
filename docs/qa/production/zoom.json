@@ -1,0 +1,697 @@
+{
+  "results": [
+    {
+      "label": "200%-equivalent",
+      "method": "CSS viewport reduction from a 1440x900 browser; not browser UI zoom",
+      "width": 720,
+      "height": 450,
+      "samples": [
+        {
+          "region": "#home",
+          "y": 389,
+          "height": 38080,
+          "overflow": 0,
+          "visibleText": [
+            "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 1,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='0']",
+          "y": 2337,
+          "height": 38080,
+          "overflow": 0,
+          "visibleText": [
+            "EARTH OBSERVATIONOPTICAL / SAR / TIME",
+            "OBSERVATIONS / ANALYSIS CHANNELS",
+            "01SINGLE IMAGE"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='1']",
+          "y": 5974,
+          "height": 38080,
+          "overflow": 0,
+          "visibleText": [
+            "01 / ACQUIRE OPEN HAND + FACE LANDMARKS"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='2']",
+          "y": 11114,
+          "height": 38080,
+          "overflow": 0,
+          "visibleText": [
+            "01AMBIENT AIRInput to the system",
+            "02CO₂ SENSINGInlet observation",
+            "03STAGE 01Algae bioreactor",
+            "04STAGE 02Algae bioreactor",
+            "05TELEMETRYEnvironmental data",
+            "06DASHBOARDMonitored response"
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "LI",
+              "text": "02CO₂ SENSINGInlet observation",
+              "top": 42.078125,
+              "bottom": 104.765625
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='3']",
+          "y": 17208,
+          "height": 38080,
+          "overflow": 0,
+          "visibleText": [
+            "Check in, request leave, view payroll, open private documents, and follow updates."
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='4']",
+          "y": 22002,
+          "height": 38080,
+          "overflow": 0,
+          "visibleText": [
+            "CONCEPT PATH",
+            "HEALTH CONTEXT, MADE PERSONAL.",
+            "01PATIENT STATEIndividual health context",
+            "02DIGITAL TWINPatient representation",
+            "03HEALTH MONITORINGPersonalized context",
+            "04FITNESS PLANCondition-aware recommendations"
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "P",
+              "text": "CONCEPT PATH",
+              "top": 33.671875,
+              "bottom": 46.671875
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='5']",
+          "y": 26220,
+          "height": 38079,
+          "overflow": 0,
+          "visibleText": [
+            "02 / SYSTEM",
+            "Use digital-twin-inspired personalization to organize individual health context into structured recommendations.",
+            "03 / OUTPUT",
+            "Personalized monitoring context and fitness-plan recommendations adapted to the individual.",
+            "PRIMARY CONTRIBUTION",
+            "FULL STACK",
+            "Worked across the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept ",
+            "BUILD CONSTRAINT"
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "P",
+              "text": "02 / SYSTEM",
+              "top": 11.265625,
+              "bottom": 24.265625
+            },
+            {
+              "tag": "P",
+              "text": "Use digital-twin-inspired personalization to organize individual health context into structured recommendations.",
+              "top": 26.375,
+              "bottom": 71.375
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "#about",
+          "y": 32057,
+          "height": 38079,
+          "overflow": 0,
+          "visibleText": [
+            "MODEL ↔ PRODUCT / HOW I BUILD",
+            "MODEL ↔ PRODUCT",
+            "MODEL",
+            "DATA",
+            "API",
+            "LOGIC",
+            "INTERFACE",
+            "DEPLOYMENT",
+            "VALIDATION"
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "P",
+              "text": "MODEL ↔ PRODUCT / HOW I BUILD",
+              "top": 35.484375,
+              "bottom": 51.484375
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 1,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "#contact",
+          "y": 37255,
+          "height": 38079,
+          "overflow": 0,
+          "visibleText": [
+            "WHAT SHOULDWE BUILDNEXT?",
+            "Have an idea, opportunity, collaboration, experiment, or something interesting to talk about?",
+            "EMAIL ME↗",
+            "LINKEDIN ↗",
+            "GITHUB ↗"
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 1,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        }
+      ],
+      "accessibility": {
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+            "nodes": [
+              {
+                "target": [
+                  ".Contact_editorialMonument__kYVw8"
+                ],
+                "html": "<div class=\"Contact_editorialMonument__kYVw8\" aria-hidden=\"true\">ANIRUDH</div>",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #0d1012, background color: #070a0c, font size: 124.2pt (165.6px), font weight: normal). Expected contrast ratio of 3:1"
+              },
+              {
+                "target": [
+                  ".SiteFooter_inner__JWAo_ > p:nth-child(1)"
+                ],
+                "html": "<p>ANIRUDH SHASHIKUMAR</p>",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".SiteFooter_inner__JWAo_ > p:nth-child(2)"
+                ],
+                "html": "<p>© 2026</p>",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".SiteFooter_inner__JWAo_ > p:nth-child(3)"
+                ],
+                "html": "<p>BUILT + ITERATED WITH INTENTION</p>",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "count": 2
+          },
+          {
+            "id": "color-contrast",
+            "count": 297
+          }
+        ],
+        "passes": 26
+      },
+      "errors": []
+    },
+    {
+      "label": "400%-equivalent",
+      "method": "CSS viewport reduction from a 1440x900 browser; not browser UI zoom",
+      "width": 360,
+      "height": 225,
+      "samples": [
+        {
+          "region": "#home",
+          "y": 341,
+          "height": 34799,
+          "overflow": 0,
+          "visibleText": [
+            "ENGINEERING THENEXT ERA OFINTELLIGENCE."
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 1,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='0']",
+          "y": 1864,
+          "height": 34799,
+          "overflow": 0,
+          "visibleText": [
+            "EARTH OBSERVATIONOPTICAL / SAR / TIME",
+            "OBSERVATIONS / ANALYSIS CHANNELS",
+            "01SINGLE IMAGE",
+            "02OPTICAL + SAR"
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "FIGCAPTION",
+              "text": "EARTH OBSERVATIONOPTICAL / SAR / TIME",
+              "top": 26.25,
+              "bottom": 41.59375
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='1']",
+          "y": 4550,
+          "height": 34799,
+          "overflow": 0,
+          "visibleText": [],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='2']",
+          "y": 8566,
+          "height": 34798,
+          "overflow": 0,
+          "visibleText": [
+            "03STAGE 01Algae bioreactor",
+            "04STAGE 02Algae bioreactor",
+            "05TELEMETRYEnvironmental data",
+            "06DASHBOARDMonitored response"
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "LI",
+              "text": "04STAGE 02Algae bioreactor",
+              "top": 36.390625,
+              "bottom": 99.078125
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='3']",
+          "y": 13788,
+          "height": 34798,
+          "overflow": 0,
+          "visibleText": [
+            "Manage people, approve leave, run payroll, report on operations, and review activity."
+          ],
+          "horizontal": [],
+          "headerOverlap": [],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='4']",
+          "y": 18139,
+          "height": 34798,
+          "overflow": 0,
+          "visibleText": [
+            "01PATIENT STATEIndividual health context",
+            "02DIGITAL TWINPatient representation",
+            "03HEALTH MONITORINGPersonalized context",
+            "04FITNESS PLANCondition-aware recommendations"
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "LI",
+              "text": "02DIGITAL TWINPatient representation",
+              "top": 31.96875,
+              "bottom": 116.359375
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "[data-work-project='5']",
+          "y": 22009,
+          "height": 34797,
+          "overflow": 0,
+          "visibleText": [
+            "Generic health and fitness guidance does not necessarily reflect individual health conditions.",
+            "02 / SYSTEM",
+            "Use digital-twin-inspired personalization to organize individual health context into structured recommendations."
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "P",
+              "text": "02 / SYSTEM",
+              "top": 88.296875,
+              "bottom": 101.296875
+            },
+            {
+              "tag": "P",
+              "text": "Use digital-twin-inspired personalization to organize individual health context into structured recommendations.",
+              "top": 103.40625,
+              "bottom": 196.40625
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 2,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "#about",
+          "y": 28234,
+          "height": 34797,
+          "overflow": 0,
+          "visibleText": [
+            "CAMERA AS INPUT.",
+            "MODEL ↔ PRODUCT / HOW I BUILD",
+            "MODEL ↔ PRODUCT"
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "P",
+              "text": "CAMERA AS INPUT.",
+              "top": 1.6875,
+              "bottom": 17.6875
+            },
+            {
+              "tag": "P",
+              "text": "MODEL ↔ PRODUCT / HOW I BUILD",
+              "top": 103.078125,
+              "bottom": 119.078125
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 1,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        },
+        {
+          "region": "#contact",
+          "y": 34090,
+          "height": 34797,
+          "overflow": 0,
+          "visibleText": [
+            "WHAT SHOULDWE BUILDNEXT?",
+            "Have an idea, opportunity, collaboration, experiment, or something interesting to talk about?"
+          ],
+          "horizontal": [],
+          "headerOverlap": [
+            {
+              "tag": "P",
+              "text": "Have an idea, opportunity, collaboration, experiment, or something interesting to talk about?",
+              "top": 91.9375,
+              "bottom": 159.3125
+            }
+          ],
+          "mismatches": [],
+          "triggerCount": 8,
+          "activeTriggers": 1,
+          "cue": "dismissed",
+          "aboutMode": "false"
+        }
+      ],
+      "accessibility": {
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+            "nodes": [
+              {
+                "target": [
+                  ".Contact_editorialMonument__kYVw8"
+                ],
+                "html": "<div class=\"Contact_editorialMonument__kYVw8\" aria-hidden=\"true\">ANIRUDH</div>",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #0d1012, background color: #070a0c, font size: 84.0pt (112px), font weight: normal). Expected contrast ratio of 3:1"
+              },
+              {
+                "target": [
+                  ".SiteFooter_inner__JWAo_ > p:nth-child(1)"
+                ],
+                "html": "<p>ANIRUDH SHASHIKUMAR</p>",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".SiteFooter_inner__JWAo_ > p:nth-child(2)"
+                ],
+                "html": "<p>© 2026</p>",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".SiteFooter_inner__JWAo_ > p:nth-child(3)"
+                ],
+                "html": "<p>BUILT + ITERATED WITH INTENTION</p>",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #60757e, background color: #070a0c, font size: 6.6pt (8.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "aria-prohibited-attr",
+            "count": 2
+          },
+          {
+            "id": "color-contrast",
+            "count": 296
+          }
+        ],
+        "passes": 26
+      },
+      "errors": []
+    }
+  ],
+  "noJavaScript": {
+    "headings": [
+      {
+        "text": "I BUILDWHAT I WANTTO EXIST.",
+        "visibility": "visible"
+      },
+      {
+        "text": "SATQUERY AI",
+        "visibility": "visible"
+      },
+      {
+        "text": "EVIDENCE",
+        "visibility": "visible"
+      },
+      {
+        "text": "GESTURE GLOBE",
+        "visibility": "visible"
+      },
+      {
+        "text": "ALGAEOS",
+        "visibility": "visible"
+      },
+      {
+        "text": "AIR MOVES. DATA FOLLOWS.",
+        "visibility": "visible"
+      },
+      {
+        "text": "REACTOR → SENSOR → READOUT.",
+        "visibility": "visible"
+      },
+      {
+        "text": "MEASURED IN THE BUILD.",
+        "visibility": "visible"
+      },
+      {
+        "text": "DAYFLOW",
+        "visibility": "visible"
+      },
+      {
+        "text": "SAME SYSTEM. DIFFERENT RESPONSIBILITIES.",
+        "visibility": "visible"
+      },
+      {
+        "text": "ACCESS FOLLOWS THE ROLE.",
+        "visibility": "visible"
+      },
+      {
+        "text": "VERIFIED. STILL EVOLVING.",
+        "visibility": "visible"
+      },
+      {
+        "text": "MEDITWIN",
+        "visibility": "visible"
+      },
+      {
+        "text": "PERSONAL MODEL FORMATION.",
+        "visibility": "visible"
+      },
+      {
+        "text": "HEALTH CONTEXT, MADE PERSONAL.",
+        "visibility": "visible"
+      },
+      {
+        "text": "MEDIFIT",
+        "visibility": "visible"
+      },
+      {
+        "text": "PERSONALIZATION ENGINE.",
+        "visibility": "visible"
+      },
+      {
+        "text": "About Anirudh Shashikumar",
+        "visibility": "visible"
+      },
+      {
+        "text": "THE SYSTEMS TELL\nPART OF THE STORY.",
+        "visibility": "visible"
+      },
+      {
+        "text": "IT STARTED\nWITH CURIOSITY.",
+        "visibility": "visible"
+      },
+      {
+        "text": "ONE LAYER\nOPENED ANOTHER.",
+        "visibility": "visible"
+      },
+      {
+        "text": "SOME PROBLEMS\nDON'T FIT\nINSIDE RULES.",
+        "visibility": "visible"
+      },
+      {
+        "text": "MODEL ↔ PRODUCT",
+        "visibility": "visible"
+      },
+      {
+        "text": "ARCHITECTURE FIRST.",
+        "visibility": "visible"
+      },
+      {
+        "text": "THE SAME PROCESS.\nLESS TIME.",
+        "visibility": "visible"
+      },
+      {
+        "text": "CURRENT STATE:\nLEARNING.",
+        "visibility": "visible"
+      },
+      {
+        "text": "NOT EVERYTHING\nIS A PROJECT.",
+        "visibility": "visible"
+      },
+      {
+        "text": "I WANT TO BUILD\nSYSTEMS THAT\nDON'T JUST LIVE\nON A SCREEN.",
+        "visibility": "visible"
+      },
+      {
+        "text": "PLACES TO BUILD.\nROOM TO LEARN.",
+        "visibility": "visible"
+      },
+      {
+        "text": "Contact Anirudh Shashikumar",
+        "visibility": "visible"
+      },
+      {
+        "text": "WHAT SHOULDWE BUILDNEXT?",
+        "visibility": "visible"
+      }
+    ],
+    "contactLinks": [
+      {
+        "href": "mailto:Anirudh.shashikumar@gmail.com",
+        "visible": false
+      },
+      {
+        "href": "https://www.linkedin.com/in/anirudh-shashikumar",
+        "visible": false
+      },
+      {
+        "href": "https://github.com/AnirudhShashikumar",
+        "visible": false
+      },
+      {
+        "href": "mailto:Anirudh.shashikumar@gmail.com",
+        "visible": false
+      },
+      {
+        "href": "https://www.linkedin.com/in/anirudh-shashikumar",
+        "visible": false
+      },
+      {
+        "href": "https://github.com/AnirudhShashikumar",
+        "visible": false
+      }
+    ]
+  }
+}
