@@ -1,3 +1,4 @@
+import { AccessibleProject } from "./WorkAccessibility";
 import Image from "next/image";
 import Container from "@/components/ui/Container";
 import DayflowMotion from "./DayflowMotion";
@@ -19,7 +20,7 @@ const leaveSteps = [
 
 export default function DayflowFeature() {
   return (
-    <article className={styles.feature} aria-labelledby="dayflow-heading">
+    <AccessibleProject className={styles.feature} labelledBy="dayflow-heading">
       <div className={styles.bridge}>
         <Container className={styles.bridgeInner}>
           <p className={styles.eyebrow}>04 / PRODUCT ENGINEERING</p>
@@ -221,6 +222,6 @@ export default function DayflowFeature() {
       <div id="dayflow-detail" className={styles.detailAnchor} tabIndex={-1}>
         <Container><p>Full Dayflow case study coming soon.</p></Container>
       </div>
-    </article>
+    </AccessibleProject>
   );
 }

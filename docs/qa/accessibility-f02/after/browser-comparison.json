@@ -1,0 +1,179 @@
+[
+  {
+    "engine": "chrome",
+    "version": "155.0.8059.85",
+    "viewports": [
+      {
+        "size": [
+          360,
+          800
+        ],
+        "beforeSamples": 82,
+        "afterSamples": 82,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 3
+      },
+      {
+        "size": [
+          390,
+          844
+        ],
+        "beforeSamples": 81,
+        "afterSamples": 81,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 3
+      },
+      {
+        "size": [
+          430,
+          932
+        ],
+        "beforeSamples": 80,
+        "afterSamples": 80,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 3
+      },
+      {
+        "size": [
+          768,
+          1024
+        ],
+        "beforeSamples": 90,
+        "afterSamples": 90,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 3
+      },
+      {
+        "size": [
+          1280,
+          720
+        ],
+        "beforeSamples": 122,
+        "afterSamples": 122,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 23
+      },
+      {
+        "size": [
+          1280,
+          800
+        ],
+        "beforeSamples": 116,
+        "afterSamples": 116,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 23
+      },
+      {
+        "size": [
+          1440,
+          900
+        ],
+        "beforeSamples": 117,
+        "afterSamples": 117,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 23
+      },
+      {
+        "size": [
+          1728,
+          1117
+        ],
+        "beforeSamples": 114,
+        "afterSamples": 114,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 23
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "version": "26.5",
+    "viewports": [
+      {
+        "size": [
+          390,
+          844
+        ],
+        "beforeSamples": 81,
+        "afterSamples": 81,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 3
+      },
+      {
+        "size": [
+          1280,
+          720
+        ],
+        "beforeSamples": 121,
+        "afterSamples": 121,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 23
+      },
+      {
+        "size": [
+          1440,
+          900
+        ],
+        "beforeSamples": 116,
+        "afterSamples": 116,
+        "errors": [],
+        "failed": [],
+        "overflow": 0,
+        "mismatches": 0,
+        "brokenImageRecords": 0,
+        "geometryDifferences": [],
+        "contrastNodes": 23
+      }
+    ]
+  }
+]

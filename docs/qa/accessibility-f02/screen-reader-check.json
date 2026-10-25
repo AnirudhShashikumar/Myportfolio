@@ -1,0 +1,9 @@
+{
+  "attemptedAt": "2026-10-25T17:27:45.325Z",
+  "tool": "cua.getApp",
+  "application": "VoiceOver",
+  "result": "Computer Use was not approved to use VoiceOver",
+  "actualScreenReaderSession": false,
+  "speechOutputTested": false,
+  "alternative": "Chrome CDP Accessibility.getFullAXTree plus actual keyboard input; not equivalent to VoiceOver testing"
+}

@@ -1,3 +1,4 @@
+import { AccessibleProject } from "./WorkAccessibility";
 import Image from "next/image";
 import Container from "@/components/ui/Container";
 import GestureGlobeMotion from "./GestureGlobeMotion";
@@ -6,7 +7,7 @@ import styles from "./GestureGlobeFeature.module.css";
 
 export default function GestureGlobeFeature() {
   return (
-    <article className={styles.feature} aria-labelledby="gesture-globe-heading">
+    <AccessibleProject className={styles.feature} labelledBy="gesture-globe-heading">
       <div className={styles.bridge}>
         <Container className={styles.bridgeInner}>
           <p className={styles.eyebrow}>02 / INTERACTION</p>
@@ -109,6 +110,6 @@ export default function GestureGlobeFeature() {
           <p>Full Gesture Globe case study coming soon.</p>
         </Container>
       </div>
-    </article>
+    </AccessibleProject>
   );
 }

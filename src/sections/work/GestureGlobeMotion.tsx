@@ -1,6 +1,7 @@
 "use client";
 
 import gsap from "gsap";
+import { useWorkReading } from "./WorkAccessibility";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, type ReactNode } from "react";
 import { useViewport } from "@/components/system/ViewportProvider";
@@ -12,9 +13,11 @@ export default function GestureGlobeMotion({ children }: { children: ReactNode }
   const { width, isMobile, hasFinePointer, isShort, prefersReducedMotion } = useViewport();
   const ready = width > 0;
 
+  const reading = useWorkReading();
+
   useEffect(() => {
     const root = sequence.current;
-    if (!root || !ready || isMobile || !hasFinePointer || isShort || prefersReducedMotion) return;
+    if (!root || reading || !ready || isMobile || !hasFinePointer || isShort || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
     root.dataset.motion = "active";
@@ -68,7 +71,7 @@ export default function GestureGlobeMotion({ children }: { children: ReactNode }
       context.revert();
       delete root.dataset.motion;
     };
-  }, [ready, isMobile, hasFinePointer, isShort, prefersReducedMotion]);
+  }, [reading, ready, isMobile, hasFinePointer, isShort, prefersReducedMotion]);
 
   return <div ref={sequence} className={styles.sequence}>{children}</div>;
 }

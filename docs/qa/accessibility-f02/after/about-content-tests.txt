@@ -1,0 +1,16 @@
+(node:34999) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio/src/sections/about/aboutContent.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ eleven ordered movements form six broader chapters (0.560958ms)
+✔ unequal normalized plates cover the full story without gaps (0.107792ms)
+✔ process, personal interests and claim qualifiers are preserved (0.146167ms)
+✔ production HTML contains the complete no-JS biography (1.296541ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 61.95425

@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-25T17:36:50.720Z",
+  "evidenceLinksExist": true,
+  "originalSourcesUnchanged": true,
+  "sourceHashes": [
+    {
+      "path": "scripts/about-motion-qa.mjs",
+      "sha256": "0b9b64f60bf0781de776b118b39f2ffb17b95f4423eb40ddaa63f01b91a6de43"
+    },
+    {
+      "path": "scripts/scroll-discovery-qa.mjs",
+      "sha256": "5dbd80a224c6857853cf34f6d12025a02d7ddf7b845165da9df780ab3a952b81"
+    },
+    {
+      "path": "scripts/production-audit.mjs",
+      "sha256": "c0314d12e300daf9582be78e94d5e6348de275c13996e6e0b3bb29cf25dc9072"
+    },
+    {
+      "path": "src/components/system/SmoothScroll.tsx",
+      "sha256": "588904c1cb5818979f48820c8842c1f8c85b1145d0e1cb509c2bb991e1ae51cd"
+    },
+    {
+      "path": "src/sections/Hero.tsx",
+      "sha256": "1e915733b3b18c6f3d9bfe4c0b6b94a6329ec0a020934f8b11f03da3e59227d8"
+    }
+  ],
+  "focusedCases": 7
+}

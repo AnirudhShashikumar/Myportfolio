@@ -1,0 +1,23 @@
+PASS all six projects and Contact links exist once in the initial browser AX tree
+PASS Tab and Shift+Tab reach every project action and all Contact actions visibly
+PASS primary Contact Enter then Tab reaches email; reverse scrolling cannot fade focused actions
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+1 !== 0
+
+    at file:///Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio/scripts/accessibility-f02-qa.mjs:148:12
+    at async check (file:///Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio/scripts/accessibility-f02-qa.mjs:66:3)
+    at async file:///Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio/scripts/accessibility-f02-qa.mjs:138:3 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.14.1

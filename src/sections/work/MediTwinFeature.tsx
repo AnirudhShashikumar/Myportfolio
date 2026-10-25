@@ -1,3 +1,4 @@
+import { AccessibleProject } from "./WorkAccessibility";
 import Image from "next/image";
 import Container from "@/components/ui/Container";
 import MediTwinMotion from "./MediTwinMotion";
@@ -20,7 +21,7 @@ const formationSignals = ["ACTIVITY", "CONTEXT", "ROUTINE", "FITNESS"] as const;
 
 export default function MediTwinFeature() {
   return (
-    <article className={styles.feature} aria-labelledby="meditwin-heading">
+    <AccessibleProject className={styles.feature} labelledBy="meditwin-heading">
       <MediTwinMotion>
         <div className={styles.bridge} data-mt-bridge>
           <Container className={styles.bridgeInner}>
@@ -236,6 +237,6 @@ export default function MediTwinFeature() {
       <div id="meditwin-detail" className={styles.detailAnchor} tabIndex={-1}>
         <Container><p>Full MediTwin case study coming soon.</p></Container>
       </div>
-    </article>
+    </AccessibleProject>
   );
 }

@@ -1,3 +1,4 @@
+import { AccessibleProject } from "./WorkAccessibility";
 import Image from "next/image";
 import Container from "@/components/ui/Container";
 import MediFitMotion from "./MediFitMotion";
@@ -13,7 +14,7 @@ const story = [
 
 export default function MediFitFeature() {
   return (
-    <article className={styles.feature} aria-labelledby="medifit-heading">
+    <AccessibleProject className={styles.feature} labelledBy="medifit-heading">
       <MediFitMotion>
         <div className={styles.bridge} data-mf-bridge>
           <Container className={styles.bridgeInner}>
@@ -274,6 +275,6 @@ export default function MediFitFeature() {
       <div id="medifit-detail" className={styles.detailAnchor} tabIndex={-1}>
         <Container><p>Full MediFit case study coming soon.</p></Container>
       </div>
-    </article>
+    </AccessibleProject>
   );
 }

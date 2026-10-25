@@ -1,0 +1,2 @@
+PASS Work reading option uses Enter and Space, preserves content, restores cinematic ownership
+PASS 1 F02 cases; no page errors

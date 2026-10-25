@@ -1,0 +1,23 @@
+/* Visual staging owns opacity, never semantic visibility. This keeps the
+   original document in the AX tree without a second copy or extra links. */
+.semantic,
+.semantic * { visibility: visible !important; }
+
+/* Keep the original pointer behavior of autoAlpha's visually absent states.
+   This does not remove links from native keyboard or AX navigation. */
+.semantic [style*="visibility: hidden"] { pointer-events: none; }
+
+/* Applied synchronously on focus, before paint; released when focus leaves.
+   Only this ancestor chain is affected, not other plates or timelines. */
+.semantic [data-focus-reveal] {
+  opacity: 1 !important;
+  visibility: visible !important;
+  clip-path: none !important;
+  transform: none !important;
+  pointer-events: auto !important;
+}
+
+.semantic a:focus-visible {
+  outline: 2px solid #d0ecfa;
+  outline-offset: 5px;
+}

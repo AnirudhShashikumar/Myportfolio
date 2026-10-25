@@ -275,7 +275,7 @@
   opacity: 0;
 }
 
-.editorial { display: none; }
+.editorial, .editorialMonument { display: none; }
 
 @media (max-width: 900px) {
   .sequence { height: 400svh; }
@@ -312,29 +312,44 @@
   .monumentLit { mask-image: none; opacity: 0.32; }
 }
 
-@media (prefers-reduced-motion: reduce), (max-height: 600px) {
-  .sequence { display: none; }
-  .editorial {
+/* The static document is the default, including when JavaScript is absent.
+   GSAP adds data-motion only after the cinematic timeline is established. */
+.sequence:not([data-motion="active"]) { height: auto; }
+.sequence:not([data-motion="active"]) .stage {
+  position: relative;
+  width: 100%;
+  max-width: 76rem;
+  height: auto;
+  min-height: 0;
+  margin: 0 auto;
+  padding: 7rem clamp(1.2rem, 5vw, 4rem) 3rem;
+  background: none;
+}
+.sequence:not([data-motion="active"]) :is(.layer, .signalField, .monument, .finalMeta) { display: none; }
+.sequence:not([data-motion="active"]) .actionLayer {
+  position: static; max-width: 76rem; margin: 3rem auto 0; visibility: visible; opacity: 1;
+}
+.sequence:not([data-motion="active"]) .editorial {
     display: block;
     max-width: 76rem;
     margin: 0 auto;
-    padding: 7rem clamp(1.2rem, 5vw, 4rem) 3rem;
+    padding: 0;
   }
-  .editorial h3 {
+.sequence:not([data-motion="active"]) .editorial h3 {
     margin: clamp(4rem, 9vw, 8rem) 0 0;
     font-size: clamp(3.2rem, 11vw, 10rem);
     font-weight: 580;
     letter-spacing: -0.085em;
     line-height: 0.72;
   }
-  .editorial > p:not(.micro) {
+.sequence:not([data-motion="active"]) .editorial > p:not(.micro) {
     max-width: 38rem;
     margin: 2rem 0 0;
     color: #91a5ae;
     font-size: clamp(1rem, 1.8vw, 1.4rem);
     line-height: 1.45;
   }
-  .editorial > strong {
+.sequence:not([data-motion="active"]) .editorial > strong {
     display: block;
     margin-top: 1rem;
     color: #dce9ed;
@@ -342,8 +357,9 @@
     font-size: 0.72rem;
     letter-spacing: 0.15em;
   }
-  .editorial .actions { margin-top: 3rem; }
-  .editorialMonument {
+
+.sequence:not([data-motion="active"]) .editorialMonument {
+    display: block;
     margin: clamp(6rem, 14vw, 11rem) -0.08em 0;
     overflow: hidden;
     color: rgb(197 219 227 / 3%);
@@ -354,10 +370,9 @@
     white-space: nowrap;
     -webkit-text-stroke: 1px rgb(195 220 231 / 27%);
   }
-}
 
 @media (prefers-reduced-motion: reduce) and (max-width: 600px), (max-height: 600px) and (max-width: 600px) {
-  .editorial .actions { flex-direction: column; }
-  .editorial .emailAction { width: 100%; min-width: 0; }
-  .editorial .secondaryActions { flex-direction: row; }
+  .actions { flex-direction: column; }
+  .emailAction { width: 100%; min-width: 0; }
+  .secondaryActions { flex-direction: row; }
 }

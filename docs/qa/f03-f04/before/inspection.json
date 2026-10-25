@@ -1,0 +1,711 @@
+{
+  "date": "2026-10-25T18:11:14.733Z",
+  "footer": [
+    {
+      "width": 1440,
+      "height": 900,
+      "trials": [
+        {
+          "size": 8.8,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 97,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "8.8px",
+              "width": 423.5,
+              "height": 13.1875,
+              "left": 112,
+              "right": 535.5
+            },
+            {
+              "text": "© 2026",
+              "font": "8.8px",
+              "width": 176.46875,
+              "height": 13.1875,
+              "left": 551.5,
+              "right": 727.96875
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "8.8px",
+              "width": 494.09375,
+              "height": 13.1875,
+              "left": 743.96875,
+              "right": 1238.0625
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "8.8px",
+              "width": 73.9375,
+              "height": 44,
+              "left": 1254.0625,
+              "right": 1328
+            }
+          ]
+        },
+        {
+          "size": 10,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 97,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "10px",
+              "width": 419.609375,
+              "height": 15,
+              "left": 112,
+              "right": 531.609375
+            },
+            {
+              "text": "© 2026",
+              "font": "10px",
+              "width": 174.828125,
+              "height": 15,
+              "left": 547.609375,
+              "right": 722.4375
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "10px",
+              "width": 489.5625,
+              "height": 15,
+              "left": 738.4375,
+              "right": 1228
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "10px",
+              "width": 84,
+              "height": 44,
+              "left": 1244,
+              "right": 1328
+            }
+          ]
+        },
+        {
+          "size": 11,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 97,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "11px",
+              "width": 416.34375,
+              "height": 16.5,
+              "left": 112,
+              "right": 528.34375
+            },
+            {
+              "text": "© 2026",
+              "font": "11px",
+              "width": 173.484375,
+              "height": 16.5,
+              "left": 544.34375,
+              "right": 717.828125
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "11px",
+              "width": 485.765625,
+              "height": 16.5,
+              "left": 733.828125,
+              "right": 1219.59375
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "11px",
+              "width": 92.40625,
+              "height": 44,
+              "left": 1235.59375,
+              "right": 1328
+            }
+          ]
+        },
+        {
+          "size": 12,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 97,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "12px",
+              "width": 413.09375,
+              "height": 18,
+              "left": 112,
+              "right": 525.09375
+            },
+            {
+              "text": "© 2026",
+              "font": "12px",
+              "width": 172.125,
+              "height": 18,
+              "left": 541.09375,
+              "right": 713.21875
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "12px",
+              "width": 481.96875,
+              "height": 18,
+              "left": 729.21875,
+              "right": 1211.1875
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "12px",
+              "width": 100.8125,
+              "height": 44,
+              "left": 1227.1875,
+              "right": 1328
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "trials": [
+        {
+          "size": 8.8,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 97,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "8.8px",
+              "width": 231.5,
+              "height": 13.1875,
+              "left": 24,
+              "right": 255.5
+            },
+            {
+              "text": "© 2026",
+              "font": "8.8px",
+              "width": 96.46875,
+              "height": 13.1875,
+              "left": 271.5,
+              "right": 367.96875
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "8.8px",
+              "width": 270.09375,
+              "height": 13.1875,
+              "left": 383.96875,
+              "right": 654.0625
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "8.8px",
+              "width": 73.9375,
+              "height": 44,
+              "left": 670.0625,
+              "right": 744
+            }
+          ]
+        },
+        {
+          "size": 10,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 97,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "10px",
+              "width": 227.609375,
+              "height": 15,
+              "left": 24,
+              "right": 251.609375
+            },
+            {
+              "text": "© 2026",
+              "font": "10px",
+              "width": 94.828125,
+              "height": 15,
+              "left": 267.609375,
+              "right": 362.4375
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "10px",
+              "width": 265.5625,
+              "height": 15,
+              "left": 378.4375,
+              "right": 644
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "10px",
+              "width": 84,
+              "height": 44,
+              "left": 660,
+              "right": 744
+            }
+          ]
+        },
+        {
+          "size": 11,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 97,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "11px",
+              "width": 224.34375,
+              "height": 16.5,
+              "left": 24,
+              "right": 248.34375
+            },
+            {
+              "text": "© 2026",
+              "font": "11px",
+              "width": 93.484375,
+              "height": 16.5,
+              "left": 264.34375,
+              "right": 357.828125
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "11px",
+              "width": 261.765625,
+              "height": 16.5,
+              "left": 373.828125,
+              "right": 635.59375
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "11px",
+              "width": 92.40625,
+              "height": 44,
+              "left": 651.59375,
+              "right": 744
+            }
+          ]
+        },
+        {
+          "size": 12,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 97,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "12px",
+              "width": 221.09375,
+              "height": 18,
+              "left": 24,
+              "right": 245.09375
+            },
+            {
+              "text": "© 2026",
+              "font": "12px",
+              "width": 92.125,
+              "height": 18,
+              "left": 261.09375,
+              "right": 353.21875
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "12px",
+              "width": 257.96875,
+              "height": 36,
+              "left": 369.21875,
+              "right": 627.1875
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "12px",
+              "width": 100.8125,
+              "height": 44,
+              "left": 643.1875,
+              "right": 744
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "trials": [
+        {
+          "size": 8.8,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 118.1875,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "8.8px",
+              "width": 268.0625,
+              "height": 13.1875,
+              "left": 16,
+              "right": 284.0625
+            },
+            {
+              "text": "© 2026",
+              "font": "8.8px",
+              "width": 73.9375,
+              "height": 13.1875,
+              "left": 300.0625,
+              "right": 374
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "8.8px",
+              "width": 268.0625,
+              "height": 13.1875,
+              "left": 16,
+              "right": 284.0625
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "8.8px",
+              "width": 73.9375,
+              "height": 44,
+              "left": 300.0625,
+              "right": 374
+            }
+          ]
+        },
+        {
+          "size": 10,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 120,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "10px",
+              "width": 258,
+              "height": 15,
+              "left": 16,
+              "right": 274
+            },
+            {
+              "text": "© 2026",
+              "font": "10px",
+              "width": 84,
+              "height": 15,
+              "left": 290,
+              "right": 374
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "10px",
+              "width": 258,
+              "height": 15,
+              "left": 16,
+              "right": 274
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "10px",
+              "width": 84,
+              "height": 44,
+              "left": 290,
+              "right": 374
+            }
+          ]
+        },
+        {
+          "size": 11,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 121.5,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "11px",
+              "width": 249.59375,
+              "height": 16.5,
+              "left": 16,
+              "right": 265.59375
+            },
+            {
+              "text": "© 2026",
+              "font": "11px",
+              "width": 92.40625,
+              "height": 16.5,
+              "left": 281.59375,
+              "right": 374
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "11px",
+              "width": 249.59375,
+              "height": 16.5,
+              "left": 16,
+              "right": 265.59375
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "11px",
+              "width": 92.40625,
+              "height": 44,
+              "left": 281.59375,
+              "right": 374
+            }
+          ]
+        },
+        {
+          "size": 12,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 123,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "12px",
+              "width": 241.1875,
+              "height": 18,
+              "left": 16,
+              "right": 257.1875
+            },
+            {
+              "text": "© 2026",
+              "font": "12px",
+              "width": 100.8125,
+              "height": 18,
+              "left": 273.1875,
+              "right": 374
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "12px",
+              "width": 241.1875,
+              "height": 36,
+              "left": 16,
+              "right": 257.1875
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "12px",
+              "width": 100.8125,
+              "height": 44,
+              "left": 273.1875,
+              "right": 374
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "trials": [
+        {
+          "size": 8.8,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 118.1875,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "8.8px",
+              "width": 238.0625,
+              "height": 13.1875,
+              "left": 16,
+              "right": 254.0625
+            },
+            {
+              "text": "© 2026",
+              "font": "8.8px",
+              "width": 73.9375,
+              "height": 13.1875,
+              "left": 270.0625,
+              "right": 344
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "8.8px",
+              "width": 238.0625,
+              "height": 13.1875,
+              "left": 16,
+              "right": 254.0625
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "8.8px",
+              "width": 73.9375,
+              "height": 44,
+              "left": 270.0625,
+              "right": 344
+            }
+          ]
+        },
+        {
+          "size": 10,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 120,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "10px",
+              "width": 228,
+              "height": 15,
+              "left": 16,
+              "right": 244
+            },
+            {
+              "text": "© 2026",
+              "font": "10px",
+              "width": 84,
+              "height": 15,
+              "left": 260,
+              "right": 344
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "10px",
+              "width": 228,
+              "height": 15,
+              "left": 16,
+              "right": 244
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "10px",
+              "width": 84,
+              "height": 44,
+              "left": 260,
+              "right": 344
+            }
+          ]
+        },
+        {
+          "size": 11,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 121.5,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "11px",
+              "width": 219.59375,
+              "height": 16.5,
+              "left": 16,
+              "right": 235.59375
+            },
+            {
+              "text": "© 2026",
+              "font": "11px",
+              "width": 92.40625,
+              "height": 16.5,
+              "left": 251.59375,
+              "right": 344
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "11px",
+              "width": 219.59375,
+              "height": 33,
+              "left": 16,
+              "right": 235.59375
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "11px",
+              "width": 92.40625,
+              "height": 44,
+              "left": 251.59375,
+              "right": 344
+            }
+          ]
+        },
+        {
+          "size": 12,
+          "color": "rgb(96, 117, 126)",
+          "bg": "rgb(7, 10, 12)",
+          "height": 123,
+          "overflow": 0,
+          "children": [
+            {
+              "text": "ANIRUDH SHASHIKUMAR",
+              "font": "12px",
+              "width": 211.1875,
+              "height": 18,
+              "left": 16,
+              "right": 227.1875
+            },
+            {
+              "text": "© 2026",
+              "font": "12px",
+              "width": 100.8125,
+              "height": 18,
+              "left": 243.1875,
+              "right": 344
+            },
+            {
+              "text": "BUILT + ITERATED WITH INTENTION",
+              "font": "12px",
+              "width": 211.1875,
+              "height": 36,
+              "left": 16,
+              "right": 227.1875
+            },
+            {
+              "text": "BACK TO TOP ↑",
+              "font": "12px",
+              "width": 100.8125,
+              "height": 44,
+              "left": 243.1875,
+              "right": 344
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "demo": {
+    "status": 200,
+    "url": "https://medi-fit-navy.vercel.app/",
+    "title": "MediFit",
+    "text": "MediFit\n\nAI-powered medication safety & health analysis\n\nConnect your AI\n\nEnter your Google Gemini API key to get started\n\nGEMINI API KEY\n\nYour key is stored locally in your browser. It is never sent to our servers.Get a free key →\n\nLight mode\nNo data stored on servers · For informational use only",
+    "links": [
+      {
+        "text": "Get a free key →",
+        "href": "https://aistudio.google.com/apikey"
+      }
+    ]
+  },
+  "errors": [],
+  "medifit": {
+    "text": "06 / PERSONALIZED DIRECTIONREPRESENTATIONRECOMMENDATION06 / FEATUREDMEDIFITAI Healthcare / Digital Twin / FitnessFROM HEALTHCONTEXT TOPERSONAL ACTION.MediFit explored digital-twin-driven personalization for health monitoring and fitness-plan recommendations adapted to individual health conditions.TEAM PROJECT · 4 MEMBERS · PRIMARY CONTRIBUTION / FULL STACKRESULT3RD PLACEBUILD WINDOW8 HOURSFIELD50+ TEAMSTEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACKCONCEPT MODELPERSONALIZATION ENGINE.INDIVIDUALHEALTHCONTEXTCONDITIONSFITNESS PLANPERSONALIZEFITNESS PLANCONCEPT / INDIVIDUAL CONTEXT → PERSONALIZATION → STRUCTURED DIRECTION01 / PROBLEMGeneric health and fitness guidance does not necessarily reflect individual health conditions.02 / SYSTEMUse digital-twin-inspired personalization to organize individual health context into structured recommendations.03 / OUTPUTPersonalized monitoring context and fitness-plan recommendations adapted to the individual.PRIMARY CONTRIBUTIONFULL STACKWorked across the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.BUILD CONSTRAINT00H CONCEPT08H DEMODELIVEREDOUTCOMEBUILDPRESENTRESULT3RD PLACEPUSH, PULL, COMMIT50+ TEAMS4-PERSON TEAM8-HOUR HACKATHONIEEE COMPUTER SOCIETY BMSIT&MOFFICIAL ACHIEVEMENT CERTIFICATEVIEW FULL EVIDENCE ↗PUSH PULL COMMIT / TEAM + EVENT EVIDENCE / 2026EXECUTION UNDER CONSTRAINTA four-person team shaped the concept, full-stack application, and personalized recommendation direction during the eight-hour hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.AI HEALTHCARE · DIGITAL TWIN · PERSONALIZED FITNESSHEALTH CONTEXT, MADE ACTIONABLE.LIVE APP ↗06 FEATURED SYSTEMSAI · VISION · IoT · FULL-STACK · HEALTHCARESix systems across multiple domains. One engineering practice.Full MediFit case study coming soon.",
+    "links": [
+      {
+        "name": "View the full MediFit third-place certificate in a new tab",
+        "href": "/projects/medifit/push-pull-commit-certificate.jpg"
+      },
+      {
+        "name": "Open the live MediFit application in a new tab",
+        "href": "https://medi-fit-navy.vercel.app/"
+      }
+    ]
+  }
+}

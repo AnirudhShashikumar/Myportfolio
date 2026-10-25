@@ -7,3 +7,10 @@
   z-index: 1;
   min-width: 0;
 }
+
+/* The global section-field trigger keeps its ownership; the reading surface
+   freezes its decorative fade without changing that shared scroll system. */
+.work[data-work-reading="true"] > [data-section-field] {
+  opacity: 1 !important;
+  transform: none !important;
+}

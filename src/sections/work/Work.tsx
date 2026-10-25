@@ -8,6 +8,7 @@ import ProjectHandoff, { WorkCoordinate, WorkExit } from "./WorkNavigation";
 import SatQueryFeature from "./SatQueryFeature";
 import WorkAssets from "./WorkAssets";
 import styles from "./Work.module.css";
+import WorkAccessibility from "./WorkAccessibility";
 
 const projects = [
   { number: "01", name: "SATQUERY AI" },
@@ -20,11 +21,8 @@ const projects = [
 
 export default function Work() {
   return (
-    <section
-      id="work"
-      aria-labelledby="work-heading"
+    <WorkAccessibility
       className={`visual-section ${styles.work}`}
-      data-visual-tone="work"
     >
       <SectionField tone="work" />
       <WorkAssets />
@@ -111,6 +109,6 @@ export default function Work() {
       </div>
 
       <WorkExit />
-    </section>
+    </WorkAccessibility>
   );
 }

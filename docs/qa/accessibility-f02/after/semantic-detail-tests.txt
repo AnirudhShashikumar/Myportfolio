@@ -1,0 +1,2 @@
+PASS all six projects and Contact links exist once in the initial browser AX tree
+PASS 1 F02 cases; no page errors

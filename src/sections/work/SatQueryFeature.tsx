@@ -1,3 +1,4 @@
+import { AccessibleProject } from "./WorkAccessibility";
 import Image from "next/image";
 import Container from "@/components/ui/Container";
 import ObservationGraphic from "./ObservationGraphic";
@@ -7,7 +8,7 @@ import styles from "./SatQueryFeature.module.css";
 
 export default function SatQueryFeature() {
   return (
-    <div className={styles.feature}>
+    <AccessibleProject className={styles.feature} labelledBy="work-heading">
       <p className="sr-only">
         SatQuery AI routes single-image, optical and SAR, and bi-temporal Earth
         observations to specialist models, then brings their outputs together as
@@ -75,6 +76,6 @@ export default function SatQueryFeature() {
           <p>Full SatQuery AI case study coming soon.</p>
         </Container>
       </div>
-    </div>
+    </AccessibleProject>
   );
 }

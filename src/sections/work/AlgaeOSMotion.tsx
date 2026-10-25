@@ -1,6 +1,7 @@
 "use client";
 
 import gsap from "gsap";
+import { useWorkReading } from "./WorkAccessibility";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, type ReactNode } from "react";
 import { useViewport } from "@/components/system/ViewportProvider";
@@ -12,9 +13,11 @@ export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
   const { width, isMobile, hasFinePointer, isShort, prefersReducedMotion } = useViewport();
   const ready = width > 0;
 
+  const reading = useWorkReading();
+
   useEffect(() => {
     const root = feature.current;
-    if (!root || !ready || isMobile || !hasFinePointer || isShort || prefersReducedMotion) return;
+    if (!root || reading || !ready || isMobile || !hasFinePointer || isShort || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -134,7 +137,7 @@ export default function AlgaeOSMotion({ children }: { children: ReactNode }) {
     scheduleScrollRefresh();
 
     return () => context.revert();
-  }, [ready, isMobile, hasFinePointer, isShort, prefersReducedMotion]);
+  }, [reading, ready, isMobile, hasFinePointer, isShort, prefersReducedMotion]);
 
   return <div ref={feature} className={styles.motionRoot}>{children}</div>;
 }

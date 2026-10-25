@@ -1,6 +1,7 @@
 "use client";
 
 import gsap from "gsap";
+import { useWorkReading } from "./WorkAccessibility";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
 import { useEffect, useRef, type ReactNode } from "react";
@@ -11,9 +12,11 @@ const DESKTOP_MOTION = "(min-width: 901px) and (min-height: 601px) and (hover: h
 export default function DayflowMotion({ children }: { children: ReactNode }) {
   const rootRef = useRef<HTMLDivElement>(null);
 
+  const reading = useWorkReading();
+
   useEffect(() => {
     const root = rootRef.current;
-    if (!root) return;
+    if (!root || reading) return;
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -255,7 +258,7 @@ export default function DayflowMotion({ children }: { children: ReactNode }) {
       context.revert();
       delete root.dataset.dfMotion;
     };
-  }, []);
+  }, [reading]);
 
   return <div ref={rootRef} className={styles.motionRoot}>{children}</div>;
 }

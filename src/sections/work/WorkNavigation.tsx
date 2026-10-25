@@ -1,6 +1,7 @@
 "use client";
 
 import gsap from "gsap";
+import { useWorkReading } from "./WorkAccessibility";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
 import { useViewport } from "@/components/system/ViewportProvider";
@@ -175,10 +176,11 @@ export default function ProjectHandoff({
   const sequenceRef = useRef<HTMLDivElement>(null);
   const { width, isMobile, hasFinePointer, prefersReducedMotion } = useViewport();
   const ready = width > 0;
+  const reading = useWorkReading();
 
   useEffect(() => {
     const root = sequenceRef.current;
-    if (!root || !ready || prefersReducedMotion) return;
+    if (!root || !ready || reading || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
     root.dataset.motion = "active";
@@ -241,7 +243,7 @@ export default function ProjectHandoff({
       delete root.dataset.motion;
       delete root.dataset.handoffActive;
     };
-  }, [isMobile, hasFinePointer, prefersReducedMotion, ready, restrained]);
+  }, [isMobile, hasFinePointer, prefersReducedMotion, ready, restrained, reading]);
 
   return (
     <div
@@ -305,11 +307,12 @@ export function WorkCoordinate({ projects }: { projects: readonly Project[] }) {
   const coordinateRef = useRef<HTMLDivElement>(null);
   const { width, prefersReducedMotion } = useViewport();
   const ready = width > 0;
+  const reading = useWorkReading();
 
   useEffect(() => {
     const coordinate = coordinateRef.current;
     const work = coordinate?.closest<HTMLElement>("#work");
-    if (!coordinate || !work || !ready || prefersReducedMotion) return;
+    if (!coordinate || !work || !ready || reading || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -389,7 +392,7 @@ export function WorkCoordinate({ projects }: { projects: readonly Project[] }) {
     return () => {
       context.revert();
     };
-  }, [prefersReducedMotion, projects, ready]);
+  }, [prefersReducedMotion, projects, ready, reading]);
 
   return (
     <div ref={coordinateRef} className={styles.workCoordinate} aria-hidden="true">
@@ -414,10 +417,11 @@ export function WorkExit() {
   const exitRef = useRef<HTMLDivElement>(null);
   const { width, prefersReducedMotion } = useViewport();
   const ready = width > 0;
+  const reading = useWorkReading();
 
   useEffect(() => {
     const root = exitRef.current;
-    if (!root || !ready || prefersReducedMotion) return;
+    if (!root || !ready || reading || prefersReducedMotion) return;
 
     gsap.registerPlugin(ScrollTrigger);
     root.dataset.motion = "active";
@@ -444,7 +448,7 @@ export function WorkExit() {
       context.revert();
       delete root.dataset.motion;
     };
-  }, [prefersReducedMotion, ready]);
+  }, [prefersReducedMotion, ready, reading]);
 
   return (
     <div ref={exitRef} className={styles.workExit} aria-hidden="true">

@@ -3,8 +3,10 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { scheduleScrollRefresh } from "@/components/system/scrollRefresh";
-import { useEffect, useRef, type MouseEvent as ReactMouseEvent } from "react";
+import { useEffect, useRef, type FocusEvent, type MouseEvent as ReactMouseEvent } from "react";
 import { useViewport } from "@/components/system/ViewportProvider";
+import { clearFocusReveal, keepFocusInView, revealFocusPath } from "@/components/system/focusReveal";
+import focusStyles from "@/components/system/FocusReveal.module.css";
 import styles from "./Contact.module.css";
 
 const EMAIL = "mailto:Anirudh.shashikumar@gmail.com";
@@ -47,6 +49,7 @@ function ContactActions() {
 export default function Contact() {
   const sequence = useRef<HTMLDivElement>(null);
   const stage = useRef<HTMLDivElement>(null);
+  const actionTimeline = useRef<gsap.core.Timeline | null>(null);
   const { width, isShort, hasFinePointer, prefersReducedMotion: reducedMotion } = useViewport();
   const ready = width > 0;
   const prefersReducedMotion = reducedMotion || isShort;
@@ -92,8 +95,7 @@ export default function Contact() {
       gsap.set(monument, { yPercent: 18, scaleX: 0.98 });
       gsap.set(finalMeta, { y: 12 });
 
-      gsap
-        .timeline({
+      const timeline = gsap.timeline({
           defaults: { ease: "none" },
           scrollTrigger: {
             trigger: root,
@@ -102,7 +104,9 @@ export default function Contact() {
             scrub: true,
             invalidateOnRefresh: true,
           },
-        })
+        });
+      actionTimeline.current = timeline;
+      timeline
         .to(dot, { scale: 0.3, boxShadow: "0 0 0 0 rgba(174, 224, 246, 0)", duration: 0.08 }, 0.015)
         .to(opening, { autoAlpha: 0, duration: 0.035 }, 0.095)
         .to(question, { autoAlpha: 1, duration: 0.035 }, 0.11)
@@ -114,16 +118,35 @@ export default function Contact() {
         .to(question, { yPercent: -28, scale: 0.7, autoAlpha: 0.38, duration: 0.12 }, 0.57)
         .to(actions, { yPercent: -188, duration: 0.15 }, 0.6)
         .to(monument, { autoAlpha: 1, yPercent: 0, scaleX: 1, duration: 0.16 }, 0.64)
-        .to(finalMeta, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.79);
+        .to(finalMeta, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.79)
+        .addLabel("actions-ready", 0.585);
     }, root);
 
     scheduleScrollRefresh();
 
     return () => {
       context.revert();
+      actionTimeline.current = null;
       delete root.dataset.motion;
     };
   }, [ready, prefersReducedMotion]);
+
+  function focusAction(event: FocusEvent<HTMLElement>) {
+    const target = event.target.closest<HTMLElement>("a");
+    if (!target) return;
+    revealFocusPath(target, event.currentTarget);
+    if (!target.matches(":focus-visible")) return;
+    const timeline = actionTimeline.current;
+    const trigger = timeline?.scrollTrigger;
+    if (timeline && trigger) {
+      // Use the timeline's resolved action hold, not a viewport-dependent
+      // pixel guess. Native focus stays on the actual selected link.
+      const progress = timeline.labels["actions-ready"] / timeline.duration();
+      window.scrollTo({ top: trigger.start + (trigger.end - trigger.start) * progress, behavior: "instant" });
+      ScrollTrigger.update();
+    }
+    keepFocusInView(target);
+  }
 
   function updateSignal(event: ReactMouseEvent<HTMLDivElement>) {
     const bounds = signalBounds.current;
@@ -147,12 +170,20 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className={styles.contact} aria-labelledby="contact-heading" data-visual-tone="contact">
+    <section id="contact" className={`${styles.contact} ${focusStyles.semantic}`} aria-labelledby="contact-heading" data-visual-tone="contact"
+      onFocusCapture={focusAction} onBlurCapture={event => clearFocusReveal(event.currentTarget)}>
       <h2 id="contact-heading" className="sr-only">Contact Anirudh Shashikumar</h2>
 
       <div ref={sequence} className={styles.sequence}>
         <div ref={stage} className={styles.stage} onMouseEnter={() => { signalBounds.current = stage.current?.getBoundingClientRect() ?? null; }} onMouseMove={updateSignal} onMouseLeave={resetSignal}>
           <SignalField />
+
+          <div className={styles.editorial}>
+            <p className={styles.micro}>03 / CONTACT · THE NEXT SIGNAL</p>
+            <h3>WHAT SHOULD<br />WE BUILD<br />NEXT?</h3>
+            <p>Have an idea, opportunity, collaboration, experiment, or something interesting to talk about?</p>
+            <strong>SEND A SIGNAL.</strong>
+          </div>
 
           <div className={`${styles.layer} ${styles.opening}`} data-contact-opening>
             <p className={styles.micro}>03 / CONTACT · SIGNAL / OPEN</p>
@@ -162,7 +193,7 @@ export default function Contact() {
 
           <div className={`${styles.layer} ${styles.question}`} data-contact-question>
             <p className={styles.micro}>THE NEXT SIGNAL / 001</p>
-            <div className={styles.questionType} aria-label="What should we build next?">
+            <div className={styles.questionType}>
               <p className={styles.questionOutline} data-contact-question-outline aria-hidden="true">WHAT SHOULD<br />WE BUILD<br />NEXT?</p>
               <p className={styles.questionFill} data-contact-question-fill>WHAT SHOULD<br />WE BUILD<br />NEXT?</p>
             </div>
@@ -187,17 +218,10 @@ export default function Contact() {
             <span>FIELD / COMPUTER SCIENCE</span>
             <span>SIGNAL / OPEN</span>
           </div>
+          <div className={styles.editorialMonument} aria-hidden="true">ANIRUDH</div>
         </div>
       </div>
 
-      <div className={styles.editorial}>
-        <p className={styles.micro}>03 / CONTACT · THE NEXT SIGNAL</p>
-        <h3>WHAT SHOULD<br />WE BUILD<br />NEXT?</h3>
-        <p>Have an idea, opportunity, collaboration, experiment, or something interesting to talk about?</p>
-        <strong>SEND A SIGNAL.</strong>
-        <ContactActions />
-        <div className={styles.editorialMonument} aria-hidden="true">ANIRUDH</div>
-      </div>
     </section>
   );
 }

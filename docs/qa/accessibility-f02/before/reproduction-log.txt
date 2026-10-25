@@ -1,0 +1,307 @@
+{
+  "errors": [],
+  "tabs": [
+    {
+      "text": "Skip to content",
+      "href": "#main-content",
+      "y": 0
+    },
+    {
+      "text": "ANIRUDH SHASHIKUMAR",
+      "href": "#home",
+      "y": 0
+    },
+    {
+      "text": "Home",
+      "href": "#home",
+      "y": 0
+    },
+    {
+      "text": "Work",
+      "href": "#work",
+      "y": 0
+    },
+    {
+      "text": "About",
+      "href": "#about",
+      "y": 0
+    },
+    {
+      "text": "Contact",
+      "href": "#contact",
+      "y": 0
+    },
+    {
+      "text": "LIVE SYSTEM ↗",
+      "href": "https://sat-query-ai-phi.vercel.app/",
+      "y": 6016
+    },
+    {
+      "text": "LIVE EXPERIENCE ↗",
+      "href": "https://gestureglobe.vercel.app/",
+      "y": 10280
+    },
+    {
+      "text": "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+      "href": "/projects/algaeos/algaeos-system-infographic.jpg",
+      "y": 15448
+    },
+    {
+      "text": "EXPLORE ALGAEOS ↗",
+      "href": "#algaeos-detail",
+      "y": 16034
+    },
+    {
+      "text": "LIVE APP ↗",
+      "href": "https://dayflow-anirudh6.vercel.app",
+      "y": 20797
+    },
+    {
+      "text": "Read without motion ↗",
+      "href": null,
+      "y": 28173
+    },
+    {
+      "text": "BACK TO TOP ↑",
+      "href": "#home",
+      "y": 45978
+    },
+    {
+      "text": "Skip to contentANIRUDH SHASHIKUMARHomeWorkAboutContactX / 04.18VECTOR / RELATIONZ / −08.24BUILD SPAC",
+      "href": null,
+      "y": 45978
+    },
+    {
+      "text": "Skip to content",
+      "href": "#main-content",
+      "y": 45978
+    },
+    {
+      "text": "ANIRUDH SHASHIKUMAR",
+      "href": "#home",
+      "y": 45978
+    },
+    {
+      "text": "Home",
+      "href": "#home",
+      "y": 45978
+    },
+    {
+      "text": "Work",
+      "href": "#work",
+      "y": 45978
+    },
+    {
+      "text": "About",
+      "href": "#about",
+      "y": 45978
+    },
+    {
+      "text": "Contact",
+      "href": "#contact",
+      "y": 45978
+    },
+    {
+      "text": "LIVE SYSTEM ↗",
+      "href": "https://sat-query-ai-phi.vercel.app/",
+      "y": 6016
+    },
+    {
+      "text": "LIVE EXPERIENCE ↗",
+      "href": "https://gestureglobe.vercel.app/",
+      "y": 10280
+    },
+    {
+      "text": "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+      "href": "/projects/algaeos/algaeos-system-infographic.jpg",
+      "y": 15448
+    },
+    {
+      "text": "EXPLORE ALGAEOS ↗",
+      "href": "#algaeos-detail",
+      "y": 16034
+    }
+  ],
+  "initialAX": [
+    {
+      "role": "link",
+      "name": "Skip to content"
+    },
+    {
+      "role": "link",
+      "name": "ANIRUDH SHASHIKUMAR"
+    },
+    {
+      "role": "link",
+      "name": "BACK TO TOP"
+    },
+    {
+      "role": "heading",
+      "name": "About Anirudh Shashikumar"
+    },
+    {
+      "role": "heading",
+      "name": "Contact Anirudh Shashikumar"
+    },
+    {
+      "role": "link",
+      "name": "Home"
+    },
+    {
+      "role": "link",
+      "name": "Work"
+    },
+    {
+      "role": "link",
+      "name": "About"
+    },
+    {
+      "role": "link",
+      "name": "Contact"
+    },
+    {
+      "role": "heading",
+      "name": "I BUILD WHAT I WANT TO EXIST."
+    },
+    {
+      "role": "link",
+      "name": "Open the live Gesture Globe experience in a new tab"
+    },
+    {
+      "role": "link",
+      "name": "EXPLORE ALGAEOS"
+    },
+    {
+      "role": "link",
+      "name": "Open the live Dayflow application in a new tab"
+    },
+    {
+      "role": "heading",
+      "name": "THE SYSTEMS TELL PART OF THE STORY."
+    },
+    {
+      "role": "heading",
+      "name": "IT STARTED WITH CURIOSITY."
+    },
+    {
+      "role": "heading",
+      "name": "2020. FIRST WEBSITE."
+    },
+    {
+      "role": "heading",
+      "name": "ONE LAYER OPENED ANOTHER."
+    },
+    {
+      "role": "heading",
+      "name": "I WANTED TO KNOW HOW THEY CONNECT."
+    },
+    {
+      "role": "heading",
+      "name": "SOME PROBLEMS DON'T FIT INSIDE RULES."
+    },
+    {
+      "role": "heading",
+      "name": "IMAGE → DATA MOVEMENT → INTERACTION SPACE → INTERFACE"
+    },
+    {
+      "role": "heading",
+      "name": "MODEL ↔ PRODUCT"
+    },
+    {
+      "role": "heading",
+      "name": "THE PART I LIKE IS CONNECTING THE LAYERS."
+    },
+    {
+      "role": "heading",
+      "name": "ARCHITECTURE FIRST."
+    },
+    {
+      "role": "heading",
+      "name": "LOCALLY CORRECT CAN STILL BE GLOBALLY FRAGILE."
+    },
+    {
+      "role": "heading",
+      "name": "THE SAME PROCESS. LESS TIME."
+    },
+    {
+      "role": "heading",
+      "name": "PROBLEM → BUILD → PITCH"
+    },
+    {
+      "role": "heading",
+      "name": "CURRENT STATE: LEARNING."
+    },
+    {
+      "role": "heading",
+      "name": "UNDERSTANDING WHAT'S UNDERNEATH."
+    },
+    {
+      "role": "heading",
+      "name": "NOT EVERYTHING IS A PROJECT."
+    },
+    {
+      "role": "heading",
+      "name": "Movement. Music. People."
+    },
+    {
+      "role": "heading",
+      "name": "I WANT TO BUILD SYSTEMS THAT DON'T JUST LIVE ON A SCREEN."
+    },
+    {
+      "role": "heading",
+      "name": "PLACES TO BUILD. ROOM TO LEARN."
+    },
+    {
+      "role": "heading",
+      "name": "STILL LEARNING. STILL BUILDING."
+    },
+    {
+      "role": "link",
+      "name": "Open the live SatQuery AI system in a new tab"
+    },
+    {
+      "role": "heading",
+      "name": "ALGAEOS"
+    },
+    {
+      "role": "heading",
+      "name": "AIR MOVES. DATA FOLLOWS."
+    },
+    {
+      "role": "heading",
+      "name": "REACTOR → SENSOR → READOUT."
+    },
+    {
+      "role": "heading",
+      "name": "MEASURED IN THE BUILD."
+    },
+    {
+      "role": "heading",
+      "name": "ACCESS FOLLOWS THE ROLE."
+    },
+    {
+      "role": "heading",
+      "name": "  "
+    },
+    {
+      "role": "link",
+      "name": "AlgaeOS project infographic depicting the dual-stage algae reactor and the team's reported prototype observations VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)"
+    },
+    {
+      "role": "heading",
+      "name": "SATQUERY AI"
+    },
+    {
+      "role": "heading",
+      "name": "GESTURE GLOBE"
+    },
+    {
+      "role": "heading",
+      "name": "EVIDENCE"
+    }
+  ],
+  "contactNext": {
+    "text": "BACK TO TOP ↑",
+    "href": "#home"
+  }
+}

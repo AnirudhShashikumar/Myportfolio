@@ -1,0 +1,8 @@
+PASS all six projects and Contact links exist once in the initial browser AX tree
+PASS Tab and Shift+Tab reach every project action and all Contact actions visibly
+PASS primary Contact Enter then Tab reaches email; reverse scrolling cannot fade focused actions
+PASS Work reading option uses Enter and Space, preserves content, restores cinematic ownership
+PASS cold reduced motion exposes all projects and three visible Contact links without timelines
+PASS no-JavaScript desktop, phone and short-height baselines contain all projects and usable Contact
+PASS automated accessibility scan introduces no new rule failure
+PASS 7 F02 cases; no page errors

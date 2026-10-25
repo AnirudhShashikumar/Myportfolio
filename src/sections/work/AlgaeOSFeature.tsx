@@ -1,3 +1,4 @@
+import { AccessibleProject } from "./WorkAccessibility";
 import Image from "next/image";
 import Container from "@/components/ui/Container";
 import AlgaeOSFlow from "./AlgaeOSFlow";
@@ -6,7 +7,7 @@ import styles from "./AlgaeOSFeature.module.css";
 
 export default function AlgaeOSFeature() {
   return (
-    <article className={styles.feature} aria-labelledby="algaeos-heading">
+    <AccessibleProject className={styles.feature} labelledBy="algaeos-heading">
       <div className={styles.bridge}>
         <Container className={styles.bridgeInner}>
           <p className={styles.eyebrow}>03 / PHYSICAL SYSTEMS</p>
@@ -188,6 +189,6 @@ export default function AlgaeOSFeature() {
           <p>Full AlgaeOS case study coming soon.</p>
         </Container>
       </div>
-    </article>
+    </AccessibleProject>
   );
 }
