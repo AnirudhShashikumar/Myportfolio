@@ -5,3 +5,5 @@ PASS chrome/no-js: 24 rapid traversals / 288 first-frame samples
 PASS chrome/no-webgl: 24 rapid traversals / 288 first-frame samples
 PASS webkit/desktop: 24 rapid traversals / 288 first-frame samples
 PASS webkit/mobile: 24 rapid traversals / 288 first-frame samples
+PASS webkit/reduced: 24 rapid traversals / 288 first-frame samples
+PASS webkit/no-js: 24 rapid traversals / 288 first-frame samples
