@@ -4614,5 +4614,4500 @@
       }
     ],
     "phase": "forward"
+  },
+  {
+    "engine": "chrome",
+    "destination": "work",
+    "run": 2,
+    "frames": [
+      {
+        "time": 6328.9000000059605,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 12,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6345.29999999702,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 12,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6362,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 12,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6379.4000000059605,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6395.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6412.0999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6428.70000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6445.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6462.4000000059605,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6478.5999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6495.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6512,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6529.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6545.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6561.9000000059605,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6579,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6595.9000000059605,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6612.0999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6633.70000000298,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6645.29999999702,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6662.0999999940395,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6678.9000000059605,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6695.79999999702,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6712.29999999702,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6729,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6745.29999999702,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6762.0999999940395,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6778.79999999702,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6795.5999999940395,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6812,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6828.70000000298,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6845.29999999702,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6862.20000000298,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 6878.5,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": "native",
+          "destination": 0
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 6365.70000000298,
+        "phase": "prepare",
+        "hash": "#work",
+        "y": 0,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": -4500,
+        "focus": "A",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 4500
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 6365.70000000298,
+        "phase": "prepare",
+        "hash": "#work",
+        "y": 0,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": -4500,
+        "focus": "A",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 4500
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 6373.0999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 4500,
+        "target": 0,
+        "bottom": 4500,
+        "error": 4500,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 6373.0999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 4500,
+        "target": 0,
+        "bottom": 4500,
+        "error": 4500,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 6373.0999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 6373.0999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 6373.4000000059605,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 6373.4000000059605,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 6629.5,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 0,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": -4500,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 6629.5,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 0,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": -4500,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 6631.4000000059605,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 6631.4000000059605,
+        "phase": "forward",
+        "hash": "#work",
+        "y": 4500,
+        "target": 4500,
+        "bottom": 28520.109375,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 13,
+        "lenis": {
+          "instance": 2,
+          "animated": 4500,
+          "target": 4500,
+          "actual": 4500,
+          "scrolling": false,
+          "destination": 0
+        }
+      }
+    ],
+    "commands": [],
+    "phase": "forward"
+  },
+  {
+    "engine": "chrome",
+    "destination": "about",
+    "run": 0,
+    "frames": [
+      {
+        "time": 7444.79999999702,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 14,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7461.4000000059605,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 14,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7479.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7495.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7512,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7529,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7545.79999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7562.5,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7579.0999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7595.70000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7612.70000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7629.0999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7645.79999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7662.70000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7678.9000000059605,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7695.70000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7712.0999999940395,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7739.9000000059605,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7745.79999999702,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7762.20000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7779.29999999702,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7795.4000000059605,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7811.9000000059605,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7828.5999999940395,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7845.5999999940395,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7861.9000000059605,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7878.79999999702,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7895.70000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7911.9000000059605,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7929,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7945.9000000059605,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 7961.9000000059605,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 7463.9000000059605,
+        "phase": "prepare",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "A",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 28520.109375
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 7463.9000000059605,
+        "phase": "prepare",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "A",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 28520.109375
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 7469.70000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 28520,
+        "target": 0,
+        "bottom": 4500,
+        "error": 28520,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 7469.70000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 28520,
+        "target": 0,
+        "bottom": 4500,
+        "error": 28520,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 7469.79999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 7469.79999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 7469.9000000059605,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 7469.9000000059605,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 7724.5999999940395,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 7724.5999999940395,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 7737.20000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 7737.20000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 15,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      }
+    ],
+    "commands": [],
+    "phase": "forward"
+  },
+  {
+    "engine": "chrome",
+    "destination": "about",
+    "run": 1,
+    "frames": [
+      {
+        "time": 8545.5,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 16,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8562.09999999404,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 16,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8579.40000000596,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 16,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8596.5,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8611.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8628.70000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8645.40000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8661.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8678.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8695.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8712.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8729.40000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8745.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8762.40000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8778.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8795.40000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8812.40000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8829.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8848.40000000596,
+        "phase": "forward",
+        "hash": "#home",
+        "y": 7199,
+        "target": 0,
+        "bottom": 4500,
+        "error": 7199,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 7199.048114580451,
+          "target": 7199.048114580451,
+          "actual": 7199,
+          "scrolling": "smooth",
+          "destination": 42920.109375
+        }
+      },
+      {
+        "time": 8865.09999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8878.5,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8895.29999999702,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8912.59999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8929.09999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8945.70000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8962.20000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8978.59999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 8995.70000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9012.59999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9028.70000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9046,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9062.29999999702,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9078.90000000596,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9095.5,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 8583.5,
+        "phase": "prepare",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "A",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 28520.109375
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 8583.5,
+        "phase": "prepare",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "A",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 28520.109375
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 8590,
+        "phase": "back",
+        "hash": "#home",
+        "y": 28520,
+        "target": 0,
+        "bottom": 4500,
+        "error": 28520,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 8590,
+        "phase": "back",
+        "hash": "#home",
+        "y": 28520,
+        "target": 0,
+        "bottom": 4500,
+        "error": 28520,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 8590.09999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 8590.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 8590.5,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 8590.5,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 8851.09999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 7199,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -21321.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 7199,
+          "target": 7199,
+          "actual": 7199,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 8851.09999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 7199,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -21321.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 7199,
+          "target": 7199,
+          "actual": 7199,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 8857.09999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 8857.09999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      }
+    ],
+    "commands": [
+      {
+        "time": 8846,
+        "phase": "forward",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 17,
+        "lenis": {
+          "instance": 1,
+          "animated": 7199.048114580451,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 42920.109375
+        },
+        "args": [
+          {
+            "top": 7199.048114580451,
+            "behavior": "instant"
+          }
+        ]
+      }
+    ],
+    "phase": "forward"
+  },
+  {
+    "engine": "chrome",
+    "destination": "about",
+    "run": 2,
+    "frames": [
+      {
+        "time": 9679.29999999702,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 18,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9695.90000000596,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 18,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9715,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9729,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9745.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9762.09999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9778.79999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9795.5,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9812.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9828.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9846.5,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9862.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9879.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9895.5,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9912.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9929.09999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9945.59999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9962.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9984.40000000596,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 9996,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10012.09999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10029.40000000596,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10046,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10062.70000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10079.59999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10096,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10112.59999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10129.90000000596,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10146,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10162.79999999702,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10179.79999999702,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10196,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10212.59999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": "native",
+          "destination": 0
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 9702.09999999404,
+        "phase": "prepare",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "A",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 28520.109375
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 9702.09999999404,
+        "phase": "prepare",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "A",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 28520.109375
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 9713.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 28520,
+        "target": 0,
+        "bottom": 4500,
+        "error": 28520,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 9713.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 28520,
+        "target": 0,
+        "bottom": 4500,
+        "error": 28520,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 9715.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 9715.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 9716.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 9716.20000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 9970.09999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 9970.09999999404,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 0,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -28520.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 9979.70000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 9979.70000000298,
+        "phase": "forward",
+        "hash": "#about",
+        "y": 28520,
+        "target": 28520.109375,
+        "bottom": 42920.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 19,
+        "lenis": {
+          "instance": 2,
+          "animated": 28520,
+          "target": 28520,
+          "actual": 28520,
+          "scrolling": false,
+          "destination": 0
+        }
+      }
+    ],
+    "commands": [],
+    "phase": "forward"
+  },
+  {
+    "engine": "chrome",
+    "destination": "contact",
+    "run": 0,
+    "frames": [
+      {
+        "time": 10795.29999999702,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 20,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10812.09999999404,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 20,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10828.79999999702,
+        "phase": "prepare",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 20,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10845.70000000298,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10861.59999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10878.59999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10895.40000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10911.79999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10928.59999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10945.09999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10961.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10978.79999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 10995.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11012,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11028.59999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11045.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11061.90000000596,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11079,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11107.5,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11112,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11128.79999999702,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11145.59999999404,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11161.70000000298,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11178.90000000596,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11195.59999999404,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11212.20000000298,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11228.79999999702,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11245.40000000596,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11261.90000000596,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11278.5,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11295.20000000298,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11311.79999999702,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      },
+      {
+        "time": 11328.5,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": "native",
+          "destination": 0
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 10831.5,
+        "phase": "prepare",
+        "hash": "#contact",
+        "y": 0,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -42920.109375,
+        "focus": "A",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 42920.109375
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 10831.5,
+        "phase": "prepare",
+        "hash": "#contact",
+        "y": 0,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -42920.109375,
+        "focus": "A",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 0,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": "smooth",
+          "destination": 42920.109375
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 10836,
+        "phase": "back",
+        "hash": "#home",
+        "y": 42920,
+        "target": 0,
+        "bottom": 4500,
+        "error": 42920,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 10836,
+        "phase": "back",
+        "hash": "#home",
+        "y": 42920,
+        "target": 0,
+        "bottom": 4500,
+        "error": 42920,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 10836.09999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 10836.09999999404,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 10836.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 10836.29999999702,
+        "phase": "back",
+        "hash": "#home",
+        "y": 0,
+        "target": 0,
+        "bottom": 4500,
+        "error": 0,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 1,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "before-owner",
+        "time": 11089.90000000596,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 0,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -42920.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "popstate",
+        "when": "after-owner",
+        "time": 11089.90000000596,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 0,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -42920.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 0,
+          "target": 0,
+          "actual": 0,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "before-owner",
+        "time": 11104.90000000596,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": false,
+          "destination": 0
+        }
+      },
+      {
+        "name": "hashchange",
+        "when": "after-owner",
+        "time": 11104.90000000596,
+        "phase": "forward",
+        "hash": "#contact",
+        "y": 42920,
+        "target": 42920.109375,
+        "bottom": 46790.109375,
+        "error": -0.109375,
+        "focus": "BODY",
+        "historyLength": 21,
+        "lenis": {
+          "instance": 2,
+          "animated": 42920,
+          "target": 42920,
+          "actual": 42920,
+          "scrolling": false,
+          "destination": 0
+        }
+      }
+    ],
+    "commands": [],
+    "phase": "forward"
   }
 ]
