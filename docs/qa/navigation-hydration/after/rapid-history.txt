@@ -1,0 +1,17 @@
+[
+  {
+    run: 0,
+    accurate: true,
+    final: { hash: '#work', y: 4500, target: 4500 }
+  },
+  {
+    run: 1,
+    accurate: true,
+    final: { hash: '#work', y: 4500, target: 4500 }
+  },
+  {
+    run: 2,
+    accurate: true,
+    final: { hash: '#work', y: 4500, target: 4500 }
+  }
+]
