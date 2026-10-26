@@ -4,9 +4,7 @@
     "Tab and Shift+Tab reach every project action and all Contact actions visibly",
     "primary Contact Enter then Tab reaches email; reverse scrolling cannot fade focused actions",
     "Work reading option uses Enter and Space, preserves content, restores cinematic ownership",
-    "cold reduced motion exposes all projects and three visible Contact links without timelines",
-    "no-JavaScript desktop, phone and short-height baselines contain all projects and usable Contact",
-    "automated scan records remaining contrast findings and no other rule failure"
+    "cold reduced motion exposes all projects and three visible Contact links without timelines"
   ],
   "errors": [],
   "console": [
@@ -17,11 +15,6 @@
     "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
     "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
     "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
-    "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
-    "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
-    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
-    "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
-    "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
     "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
     "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
     "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
@@ -9590,8 +9583,8 @@
       "focusVisible": true,
       "outline": "solid",
       "hit": true,
-      "top": 7.424973011016846,
-      "bottom": 51.424973011016846,
+      "top": 7.424696445465088,
+      "bottom": 51.42469644546509,
       "width": 37.703125,
       "height": 44,
       "y": 0,
@@ -9606,8 +9599,8 @@
       "focusVisible": true,
       "outline": "solid",
       "hit": true,
-      "top": 7.294095516204834,
-      "bottom": 51.294095516204834,
+      "top": 7.423769474029541,
+      "bottom": 51.42376947402954,
       "width": 33.703125,
       "height": 44,
       "y": 0,
@@ -9622,8 +9615,8 @@
       "focusVisible": true,
       "outline": "solid",
       "hit": true,
-      "top": 7.423707008361816,
-      "bottom": 51.423707008361816,
+      "top": 7.424322128295898,
+      "bottom": 51.4243221282959,
       "width": 38.296875,
       "height": 44,
       "y": 0,
@@ -9638,8 +9631,8 @@
       "focusVisible": true,
       "outline": "solid",
       "hit": true,
-      "top": 7.424259662628174,
-      "bottom": 51.424259662628174,
+      "top": 7.424286365509033,
+      "bottom": 51.42428636550903,
       "width": 50.890625,
       "height": 44,
       "y": 0,
@@ -9705,11 +9698,11 @@
       "focusVisible": true,
       "outline": "solid",
       "hit": true,
-      "top": 209.65625,
-      "bottom": 689.703125,
+      "top": 208.65625,
+      "bottom": 688.703125,
       "width": 257.359375,
       "height": 480.046875,
-      "y": 15448,
+      "y": 15449,
       "overflow": 0
     },
     {
@@ -10036,8 +10029,8 @@
       "focusVisible": true,
       "outline": "solid",
       "hit": true,
-      "top": 7.294619560241699,
-      "bottom": 51.2946195602417,
+      "top": 7.197785377502441,
+      "bottom": 51.19778537750244,
       "width": 50.890625,
       "height": 44,
       "y": 6016,
@@ -10052,8 +10045,8 @@
       "focusVisible": true,
       "outline": "solid",
       "hit": true,
-      "top": 7.294363975524902,
-      "bottom": 51.2943639755249,
+      "top": 7.293941020965576,
+      "bottom": 51.293941020965576,
       "width": 38.296875,
       "height": 44,
       "y": 6016,
@@ -10068,8 +10061,8 @@
       "focusVisible": true,
       "outline": "solid",
       "hit": true,
-      "top": 7.197890281677246,
-      "bottom": 51.197890281677246,
+      "top": 7.197576522827148,
+      "bottom": 51.19757652282715,
       "width": 33.703125,
       "height": 44,
       "y": 6016,
@@ -10084,8 +10077,8 @@
       "focusVisible": true,
       "outline": "solid",
       "hit": true,
-      "top": 7.294082164764404,
-      "bottom": 51.294082164764404,
+      "top": 7.197885036468506,
+      "bottom": 51.197885036468506,
       "width": 37.703125,
       "height": 44,
       "y": 6016,
@@ -10152,94 +10145,11 @@
     },
     {
       "key": "End",
-      "y": 45987
+      "y": 45986
     }
   ],
   "readingCycles": [
     41,
     41
-  ],
-  "noJS": [
-    {
-      "viewport": {
-        "width": 1440,
-        "height": 900
-      },
-      "links": [
-        {
-          "href": "mailto:Anirudh.shashikumar@gmail.com",
-          "visible": true
-        },
-        {
-          "href": "https://www.linkedin.com/in/anirudh-shashikumar",
-          "visible": true
-        },
-        {
-          "href": "https://github.com/AnirudhShashikumar",
-          "visible": true
-        }
-      ],
-      "overflow": 0,
-      "heading": "Contact Anirudh Shashikumar"
-    },
-    {
-      "viewport": {
-        "width": 390,
-        "height": 844
-      },
-      "links": [
-        {
-          "href": "mailto:Anirudh.shashikumar@gmail.com",
-          "visible": true
-        },
-        {
-          "href": "https://www.linkedin.com/in/anirudh-shashikumar",
-          "visible": true
-        },
-        {
-          "href": "https://github.com/AnirudhShashikumar",
-          "visible": true
-        }
-      ],
-      "overflow": 0,
-      "heading": "Contact Anirudh Shashikumar"
-    },
-    {
-      "viewport": {
-        "width": 1280,
-        "height": 550
-      },
-      "links": [
-        {
-          "href": "mailto:Anirudh.shashikumar@gmail.com",
-          "visible": true
-        },
-        {
-          "href": "https://www.linkedin.com/in/anirudh-shashikumar",
-          "visible": true
-        },
-        {
-          "href": "https://github.com/AnirudhShashikumar",
-          "visible": true
-        }
-      ],
-      "overflow": 0,
-      "heading": "Contact Anirudh Shashikumar"
-    }
-  ],
-  "axe": [],
-  "axeReading": [],
-  "axeStaticContact": [
-    {
-      "id": "color-contrast",
-      "nodes": [
-        {
-          "target": [
-            ".Contact_editorialMonument__kYVw8"
-          ],
-          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #0d1012, background color: #070a0c, font size: 248.4pt (331.2px), font weight: normal). Expected contrast ratio of 3:1"
-        }
-      ]
-    }
   ]
 }

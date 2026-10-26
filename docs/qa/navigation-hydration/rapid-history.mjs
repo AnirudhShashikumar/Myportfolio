@@ -7,7 +7,9 @@ try{
  for(let run=0;run<3;run++){
   const c=await b.newContext({viewport:{width:1440,height:900}}),p=await c.newPage();
   await p.goto(`${process.env.PORTFOLIO_QA_URL||'http://127.0.0.1:3001'}/?motion-audit=1#about`);await p.waitForTimeout(1600);
-  for(const name of ['Work','Contact']){await p.locator('header').getByRole('link',{name,exact:true}).click();await p.waitForFunction(id=>Math.abs(document.getElementById(id).getBoundingClientRect().top)<2,name.toLowerCase())}
+  // Native fragment scrolling can briefly land at the target before Lenis has
+  // advanced. Require its animated position to be near the destination too.
+  for(const name of ['Work','Contact']){await p.locator('header').getByRole('link',{name,exact:true}).click();await p.waitForFunction(id=>{const l=window.__motionAudit.lenis,top=document.getElementById(id).getBoundingClientRect().top+scrollY;return Math.abs(scrollY-top)<2&&Math.abs(l.animatedScroll-top)<2&&l.isScrolling==='smooth'},name.toLowerCase())}
   const before=await p.evaluate(()=>({time:performance.now(),hash:location.hash,y:scrollY,classes:document.documentElement.className,lenis:(()=>{const l=window.__motionAudit?.lenis;return l?{animated:l.animatedScroll,target:l.targetScroll,actual:l.actualScroll,scrolling:l.isScrolling}:null})()}));
   await p.evaluate(()=>{window.__historyEvents=[];for(const name of ['popstate','hashchange','scroll'])addEventListener(name,()=>{const l=window.__motionAudit?.lenis;window.__historyEvents.push({name,t:performance.now(),hash:location.hash,y:scrollY,lenis:l?{animated:l.animatedScroll,target:l.targetScroll,actual:l.actualScroll,scrolling:l.isScrolling}:null})},true)});await p.goBack();
   const frames=await p.evaluate(async()=>{const rows=[];await new Promise(resolve=>{let i=0;function tick(){rows.push({time:performance.now(),y:scrollY,hash:location.hash,classes:document.documentElement.className,lenis:(()=>{const l=window.__motionAudit?.lenis;return l?{animated:l.animatedScroll,target:l.targetScroll,actual:l.actualScroll,scrolling:l.isScrolling}:null})()});if(++i<120)requestAnimationFrame(tick);else resolve()}requestAnimationFrame(tick)});return rows});
