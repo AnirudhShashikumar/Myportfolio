@@ -1,0 +1,3101 @@
+[
+  {
+    "profile": "desktop",
+    "hash": "#about",
+    "iteration": 0,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 210.29999999701977,
+        "value": 1,
+        "recentInput": false,
+        "y": 28520,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0.109375,
+              "width": 1440,
+              "height": 899.890625,
+              "top": 0.109375,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 96,
+        "size": 141765,
+        "node": "P.About_editorialName__g_Clu"
+      }
+    ],
+    "events": [
+      {
+        "name": "DOMContentLoaded",
+        "time": 40,
+        "y": 0,
+        "height": 34220,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 10197,
+            "cinematic": "false"
+          },
+          {
+            "id": "contact",
+            "top": 32794.328125,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "name": "scroll",
+        "time": 102.3999999910593,
+        "y": 22597,
+        "height": 34220,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 10197,
+            "cinematic": "false"
+          },
+          {
+            "id": "contact",
+            "top": 32794.296875,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "name": "load",
+        "time": 109,
+        "y": 22597,
+        "height": 34220,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 10197,
+            "cinematic": "false"
+          },
+          {
+            "id": "contact",
+            "top": 32794.296875,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "name": "motion-layout-commit",
+        "time": 163.79999999701977,
+        "y": 22597,
+        "height": 38423,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 36997.296875,
+            "height": 1329
+          }
+        ],
+        "pins": 0,
+        "changes": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "attribute": "data-cinematic",
+            "value": "true"
+          },
+          {
+            "node": "DIV.About_sequence__Iac7V",
+            "attribute": "data-motion",
+            "value": "active"
+          }
+        ]
+      },
+      {
+        "name": "motion-audit-ready",
+        "time": 206.20000000298023,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "name": "motion-layout-commit",
+        "time": 206.70000000298023,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0,
+        "changes": [
+          {
+            "node": "DIV.SatQueryFeature_sequence__oFXIY",
+            "attribute": "data-motion",
+            "value": "active"
+          },
+          {
+            "node": "DIV.WorkNavigation_handoff__msfuB ",
+            "attribute": "data-motion",
+            "value": "active"
+          },
+          {
+            "node": "DIV.GestureGlobeFeature_sequence__NxI9D",
+            "attribute": "data-motion",
+            "value": "active"
+          },
+          {
+            "node": "DIV.WorkNavigation_handoff__msfuB ",
+            "attribute": "data-motion",
+            "value": "active"
+          },
+          {
+            "node": "DIV.WorkNavigation_handoff__msfuB ",
+            "attribute": "data-motion",
+            "value": "active"
+          },
+          {
+            "node": "DIV.WorkNavigation_handoff__msfuB ",
+            "attribute": "data-motion",
+            "value": "active"
+          },
+          {
+            "node": "DIV.WorkNavigation_handoff__msfuB WorkNavigation_restrained__Ds4lZ",
+            "attribute": "data-motion",
+            "value": "active"
+          },
+          {
+            "node": "DIV.WorkNavigation_workExit__NGUby",
+            "attribute": "data-motion",
+            "value": "active"
+          },
+          {
+            "node": "DIV.Contact_sequence__6Xn6W",
+            "attribute": "data-motion",
+            "value": "active"
+          }
+        ]
+      },
+      {
+        "name": "scroll",
+        "time": 207.20000000298023,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "name": "refreshInit",
+        "time": 332.59999999403954,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "name": "refresh",
+        "time": 350.59999999403954,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "name": "scroll",
+        "time": 350.79999999701977,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      }
+    ],
+    "frames": [
+      {
+        "time": 70.29999999701977,
+        "y": 22597,
+        "height": 34220,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 10197,
+            "cinematic": "false"
+          },
+          {
+            "id": "contact",
+            "top": 32794.328125,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 102.70000000298023,
+        "y": 22597,
+        "height": 34220,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 10197,
+            "cinematic": "false"
+          },
+          {
+            "id": "contact",
+            "top": 32794.296875,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 109.29999999701977,
+        "y": 22597,
+        "height": 34220,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 10197,
+            "cinematic": "false"
+          },
+          {
+            "id": "contact",
+            "top": 32794.296875,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 113.3999999910593,
+        "y": 22597,
+        "height": 34220,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 10197,
+            "cinematic": "false"
+          },
+          {
+            "id": "contact",
+            "top": 32794.296875,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 130.3999999910593,
+        "y": 22597,
+        "height": 34220,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 10197,
+            "cinematic": "false"
+          },
+          {
+            "id": "contact",
+            "top": 32794.296875,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 153.09999999403954,
+        "y": 22597,
+        "height": 34220,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 10197,
+            "cinematic": "false"
+          },
+          {
+            "id": "contact",
+            "top": 32794.296875,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 164.29999999701977,
+        "y": 22597,
+        "height": 38423,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 18097
+          },
+          {
+            "id": "about",
+            "top": 22597.296875,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 36997.296875,
+            "height": 1329
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 208.59999999403954,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 228.59999999403954,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 230.5,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 239.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 256,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 272.8999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 289.59999999403954,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 306.29999999701977,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 322.79999999701977,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 352,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 356.09999999403954,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 372.8999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 389.70000000298023,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 412.8999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 422.20000000298023,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 439.59999999403954,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 456.20000000298023,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 472.79999999701977,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 489.5,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 506.09999999403954,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 522.7999999970198,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 539.5999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 556.0999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 572.8999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 589.5,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 606.2999999970198,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 623.0999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 639.5999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 656.2000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 672.7999999970198,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 689.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 706.0999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 722.7000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 739.5,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 755.5,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 772.7999999970198,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 789.0999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 806.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 822.7000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 839.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 856.0999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 872.7999999970198,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 888.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 906.0999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 922.8999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 939.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 956.0999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 972.7000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 989.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1005.2000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1022.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1039.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1055.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1072.7000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1089.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1106,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1122.7000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1139.2999999970198,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1156.0999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1172.7999999970198,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1189.5,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1206,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1222.5999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1239.5,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1256.2000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1272,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1288.8999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1305.2000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1322.7999999970198,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1339.5,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1356.2000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1372.7000000029802,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1389.5999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1406.3999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1422.8999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1439.5,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1456.0999999940395,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      },
+      {
+        "time": 1472.8999999910593,
+        "y": 28520,
+        "height": 46887,
+        "sections": [
+          {
+            "id": "home",
+            "top": 0,
+            "height": 4500
+          },
+          {
+            "id": "work",
+            "top": 4500,
+            "height": 24020
+          },
+          {
+            "id": "about",
+            "top": 28520.109375,
+            "height": 14400,
+            "cinematic": "true"
+          },
+          {
+            "id": "contact",
+            "top": 42920.109375,
+            "height": 3870
+          }
+        ],
+        "pins": 0
+      }
+    ],
+    "draw": 428,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 96,
+        "duration": 0,
+        "navigationId": 4731,
+        "paintTime": 79.09999999403954,
+        "presentationTime": 96
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 96,
+        "duration": 0,
+        "navigationId": 4731,
+        "paintTime": 79.09999999403954,
+        "presentationTime": 96
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#about",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 109,
+      "navigationId": 4731,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.3999999910593033,
+      "domainLookupStart": 0.3999999910593033,
+      "domainLookupEnd": 0.3999999910593033,
+      "connectStart": 0.3999999910593033,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.3999999910593033,
+      "requestStart": 0.8999999910593033,
+      "responseStart": 23.599999994039536,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 23.599999994039536,
+      "responseEnd": 26.700000002980232,
+      "transferSize": 51197,
+      "encodedBodySize": 50897,
+      "decodedBodySize": 268530,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 39.8999999910593,
+      "domContentLoadedEventStart": 39.8999999910593,
+      "domContentLoadedEventEnd": 69.3999999910593,
+      "domComplete": 108.8999999910593,
+      "loadEventStart": 108.8999999910593,
+      "loadEventEnd": 109,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-9eafb4b6fc88a654.js",
+        "type": "script",
+        "encodedBody": 7713
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 14976
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+        "type": "img",
+        "encodedBody": 13450
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 28520,
+      "height": 46887,
+      "target": "about",
+      "targetTop": 28520.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  }
+]

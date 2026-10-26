@@ -1,0 +1,2912 @@
+{
+  "before": {
+    "startup": {
+      "desktop:/:navigate": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            72,
+            60,
+            56
+          ],
+          "median": 60,
+          "min": 56,
+          "max": 72
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            397.79999999701977,
+            382.29999999701977,
+            375.3999999910593
+          ],
+          "median": 382.29999999701977,
+          "min": 375.3999999910593,
+          "max": 397.79999999701977
+        },
+        "ttfbMs": {
+          "values": [
+            5.4000000059604645,
+            3.4000000059604645,
+            2.7999999970197678
+          ],
+          "median": 3.4000000059604645,
+          "min": 2.7999999970197678,
+          "max": 5.4000000059604645
+        }
+      },
+      "desktop:/:reload": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            60,
+            68,
+            56
+          ],
+          "median": 60,
+          "min": 56,
+          "max": 68
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            384.79999999701977,
+            389,
+            376
+          ],
+          "median": 384.79999999701977,
+          "min": 376,
+          "max": 389
+        },
+        "ttfbMs": {
+          "values": [
+            5.0,
+            8.299999997019768,
+            4.399999991059303
+          ],
+          "median": 5.0,
+          "min": 4.399999991059303,
+          "max": 8.299999997019768
+        }
+      },
+      "desktop:#work:navigate": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            92,
+            92,
+            92
+          ],
+          "median": 92,
+          "min": 92,
+          "max": 92
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            398.5,
+            398.80000001192093,
+            380.90000000596046
+          ],
+          "median": 398.5,
+          "min": 380.90000000596046,
+          "max": 398.80000001192093
+        },
+        "ttfbMs": {
+          "values": [
+            3.2000000029802322,
+            2.5,
+            2.7000000029802322
+          ],
+          "median": 2.7000000029802322,
+          "min": 2.5,
+          "max": 3.2000000029802322
+        }
+      },
+      "desktop:#work:reload": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            68,
+            80,
+            56
+          ],
+          "median": 68,
+          "min": 56,
+          "max": 80
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            383.6000000089407,
+            381.20000000298023,
+            372.90000000596046
+          ],
+          "median": 381.20000000298023,
+          "min": 372.90000000596046,
+          "max": 383.6000000089407
+        },
+        "ttfbMs": {
+          "values": [
+            6.799999997019768,
+            5.799999997019768,
+            3.9000000059604645
+          ],
+          "median": 5.799999997019768,
+          "min": 3.9000000059604645,
+          "max": 6.799999997019768
+        }
+      },
+      "desktop:#about:navigate": {
+        "cls": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "shiftEntries": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "landingErrorPx": {
+          "values": [
+            0.109375,
+            0.109375,
+            0.109375
+          ],
+          "median": 0.109375,
+          "min": 0.109375,
+          "max": 0.109375
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            60,
+            60,
+            72
+          ],
+          "median": 60,
+          "min": 60,
+          "max": 72
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            415.80000001192093,
+            399.09999999403954,
+            398.20000000298023
+          ],
+          "median": 399.09999999403954,
+          "min": 398.20000000298023,
+          "max": 415.80000001192093
+        },
+        "ttfbMs": {
+          "values": [
+            2.7000000029802322,
+            2.7000000029802322,
+            2.3999999910593033
+          ],
+          "median": 2.7000000029802322,
+          "min": 2.3999999910593033,
+          "max": 2.7000000029802322
+        }
+      },
+      "desktop:#about:reload": {
+        "cls": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "shiftEntries": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "landingErrorPx": {
+          "values": [
+            0.109375,
+            0.109375,
+            0.109375
+          ],
+          "median": 0.109375,
+          "min": 0.109375,
+          "max": 0.109375
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            104,
+            100,
+            100
+          ],
+          "median": 100,
+          "min": 100,
+          "max": 104
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            379,
+            378.8999999910593,
+            378.40000000596046
+          ],
+          "median": 378.8999999910593,
+          "min": 378.40000000596046,
+          "max": 379
+        },
+        "ttfbMs": {
+          "values": [
+            6.399999991059303,
+            5.799999997019768,
+            6.299999997019768
+          ],
+          "median": 6.299999997019768,
+          "min": 5.799999997019768,
+          "max": 6.399999991059303
+        }
+      },
+      "desktop:#contact:navigate": {
+        "cls": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "shiftEntries": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "landingErrorPx": {
+          "values": [
+            0.109375,
+            0.109375,
+            0.109375
+          ],
+          "median": 0.109375,
+          "min": 0.109375,
+          "max": 0.109375
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            64,
+            64,
+            60
+          ],
+          "median": 64,
+          "min": 60,
+          "max": 64
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            417.29999999701977,
+            422.20000000298023,
+            416.6000000089407
+          ],
+          "median": 417.29999999701977,
+          "min": 416.6000000089407,
+          "max": 422.20000000298023
+        },
+        "ttfbMs": {
+          "values": [
+            2.5,
+            3.4000000059604645,
+            2.5
+          ],
+          "median": 2.5,
+          "min": 2.5,
+          "max": 3.4000000059604645
+        }
+      },
+      "desktop:#contact:reload": {
+        "cls": {
+          "values": [
+            2,
+            2,
+            2
+          ],
+          "median": 2,
+          "min": 2,
+          "max": 2
+        },
+        "shiftEntries": {
+          "values": [
+            2,
+            2,
+            2
+          ],
+          "median": 2,
+          "min": 2,
+          "max": 2
+        },
+        "landingErrorPx": {
+          "values": [
+            0.109375,
+            0.109375,
+            0.109375
+          ],
+          "median": 0.109375,
+          "min": 0.109375,
+          "max": 0.109375
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            60,
+            72,
+            68
+          ],
+          "median": 68,
+          "min": 60,
+          "max": 72
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            212.20000000298023,
+            374.79999999701977,
+            217.59999999403954
+          ],
+          "median": 217.59999999403954,
+          "min": 212.20000000298023,
+          "max": 374.79999999701977
+        },
+        "ttfbMs": {
+          "values": [
+            3.5,
+            6.0,
+            5.699999988079071
+          ],
+          "median": 5.699999988079071,
+          "min": 3.5,
+          "max": 6.0
+        }
+      },
+      "mobile:/:navigate": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            43058,
+            43058,
+            43058
+          ],
+          "median": 43058,
+          "min": 43058,
+          "max": 43058
+        },
+        "longTasks": {
+          "values": [
+            2,
+            2,
+            2
+          ],
+          "median": 2,
+          "min": 2,
+          "max": 2
+        },
+        "maximumTaskMs": {
+          "values": [
+            72,
+            72,
+            71
+          ],
+          "median": 72,
+          "min": 71,
+          "max": 72
+        },
+        "totalLongTaskMs": {
+          "values": [
+            137,
+            137,
+            138
+          ],
+          "median": 137,
+          "min": 137,
+          "max": 138
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            1012,
+            1012,
+            1028
+          ],
+          "median": 1012,
+          "min": 1012,
+          "max": 1028
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            3965.0999999940395,
+            3962.5,
+            3968.199999988079
+          ],
+          "median": 3965.0999999940395,
+          "min": 3962.5,
+          "max": 3968.199999988079
+        },
+        "ttfbMs": {
+          "values": [
+            3.2000000029802322,
+            3.800000011920929,
+            3.199999988079071
+          ],
+          "median": 3.2000000029802322,
+          "min": 3.199999988079071,
+          "max": 3.800000011920929
+        }
+      },
+      "mobile:/:reload": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            43058,
+            43058,
+            43058
+          ],
+          "median": 43058,
+          "min": 43058,
+          "max": 43058
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            960,
+            968,
+            968
+          ],
+          "median": 968,
+          "min": 960,
+          "max": 968
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            3833.3999999910593,
+            3837.3999999910593,
+            3835.5
+          ],
+          "median": 3835.5,
+          "min": 3833.3999999910593,
+          "max": 3837.3999999910593
+        },
+        "ttfbMs": {
+          "values": [
+            2.7000000029802322,
+            2.8999999910593033,
+            2.5999999940395355
+          ],
+          "median": 2.7000000029802322,
+          "min": 2.5999999940395355,
+          "max": 2.8999999910593033
+        }
+      }
+    },
+    "frameSweeps": [
+      {
+        "region": "#home",
+        "count": 180,
+        "median": 16.69999999999891,
+        "p95": 16.799999999999272,
+        "max": 16.80000000000109,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "[data-work-project='0']",
+        "count": 180,
+        "median": 16.69999999999709,
+        "p95": 16.799999999999272,
+        "max": 16.799999999999272,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "[data-work-project='2']",
+        "count": 180,
+        "median": 16.69999999999709,
+        "p95": 16.799999999999272,
+        "max": 16.799999999999272,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "#about",
+        "count": 180,
+        "median": 16.69999999999709,
+        "p95": 16.700000000000728,
+        "max": 16.80000000000291,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "#contact",
+        "count": 180,
+        "median": 16.700000000000728,
+        "p95": 16.700000000000728,
+        "max": 16.799999999999272,
+        "over33": 0,
+        "tasks": []
+      }
+    ],
+    "graphicsActivity": [
+      {
+        "region": "#home",
+        "windowMs": 1000,
+        "draws": 840,
+        "clears": 0,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "region": "#work",
+        "windowMs": 1000,
+        "draws": 0,
+        "clears": 0,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "region": "#about",
+        "windowMs": 1000,
+        "draws": 0,
+        "clears": 0,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "region": "#contact",
+        "windowMs": 1000,
+        "draws": 0,
+        "clears": 0,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      }
+    ],
+    "memoryCycles": [
+      {
+        "cycle": 0,
+        "heap": {
+          "usedSize": 13981416,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8450416,
+          "backingStorageSize": 1714913
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "cycle": 1,
+        "heap": {
+          "usedSize": 14071124,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8467296,
+          "backingStorageSize": 1714913
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "cycle": 2,
+        "heap": {
+          "usedSize": 14103008,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8389056,
+          "backingStorageSize": 1714913
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "cycle": 3,
+        "heap": {
+          "usedSize": 14114228,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8388400,
+          "backingStorageSize": 1714913
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "cycle": 4,
+        "heap": {
+          "usedSize": 14135168,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8468024,
+          "backingStorageSize": 1714913
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      }
+    ]
+  },
+  "after": {
+    "startup": {
+      "desktop:/:navigate": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            104,
+            64,
+            60
+          ],
+          "median": 64,
+          "min": 60,
+          "max": 104
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            393.6000000089407,
+            386.90000000596046,
+            381.70000000298023
+          ],
+          "median": 386.90000000596046,
+          "min": 381.70000000298023,
+          "max": 393.6000000089407
+        },
+        "ttfbMs": {
+          "values": [
+            22.400000005960464,
+            3.699999988079071,
+            3.1000000089406967
+          ],
+          "median": 3.699999988079071,
+          "min": 3.1000000089406967,
+          "max": 22.400000005960464
+        }
+      },
+      "desktop:/:reload": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            68,
+            76,
+            76
+          ],
+          "median": 76,
+          "min": 68,
+          "max": 76
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            386.5,
+            378,
+            376.40000000596046
+          ],
+          "median": 378,
+          "min": 376.40000000596046,
+          "max": 386.5
+        },
+        "ttfbMs": {
+          "values": [
+            9.099999994039536,
+            6.799999997019768,
+            7.200000002980232
+          ],
+          "median": 7.200000002980232,
+          "min": 6.799999997019768,
+          "max": 9.099999994039536
+        }
+      },
+      "desktop:#work:navigate": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            72,
+            104,
+            92
+          ],
+          "median": 92,
+          "min": 72,
+          "max": 104
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            393.80000001192093,
+            392.5,
+            379.8999999910593
+          ],
+          "median": 392.5,
+          "min": 379.8999999910593,
+          "max": 393.80000001192093
+        },
+        "ttfbMs": {
+          "values": [
+            2.800000011920929,
+            4.0999999940395355,
+            2.3999999910593033
+          ],
+          "median": 2.800000011920929,
+          "min": 2.3999999910593033,
+          "max": 4.0999999940395355
+        }
+      },
+      "desktop:#work:reload": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            64,
+            72,
+            64
+          ],
+          "median": 64,
+          "min": 64,
+          "max": 72
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            380.5,
+            375.1000000089407,
+            381.59999999403954
+          ],
+          "median": 380.5,
+          "min": 375.1000000089407,
+          "max": 381.59999999403954
+        },
+        "ttfbMs": {
+          "values": [
+            7.0,
+            7.200000002980232,
+            5.5
+          ],
+          "median": 7.0,
+          "min": 5.5,
+          "max": 7.200000002980232
+        }
+      },
+      "desktop:#about:navigate": {
+        "cls": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "shiftEntries": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "landingErrorPx": {
+          "values": [
+            0.109375,
+            0.109375,
+            0.109375
+          ],
+          "median": 0.109375,
+          "min": 0.109375,
+          "max": 0.109375
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            60,
+            60,
+            60
+          ],
+          "median": 60,
+          "min": 60,
+          "max": 60
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            401,
+            418.5,
+            416.20000000298023
+          ],
+          "median": 416.20000000298023,
+          "min": 401,
+          "max": 418.5
+        },
+        "ttfbMs": {
+          "values": [
+            4.0,
+            2.5999999940395355,
+            3.9000000059604645
+          ],
+          "median": 3.9000000059604645,
+          "min": 2.5999999940395355,
+          "max": 4.0
+        }
+      },
+      "desktop:#about:reload": {
+        "cls": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "shiftEntries": {
+          "values": [
+            1,
+            1,
+            1
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 1
+        },
+        "landingErrorPx": {
+          "values": [
+            0.109375,
+            0.109375,
+            0.109375
+          ],
+          "median": 0.109375,
+          "min": 0.109375,
+          "max": 0.109375
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            84,
+            88,
+            64
+          ],
+          "median": 84,
+          "min": 64,
+          "max": 88
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            217.5,
+            376,
+            382.29999999701977
+          ],
+          "median": 376,
+          "min": 217.5,
+          "max": 382.29999999701977
+        },
+        "ttfbMs": {
+          "values": [
+            5.0999999940395355,
+            4.299999997019768,
+            5.700000002980232
+          ],
+          "median": 5.0999999940395355,
+          "min": 4.299999997019768,
+          "max": 5.700000002980232
+        }
+      },
+      "desktop:#contact:navigate": {
+        "cls": {
+          "values": [
+            2,
+            2,
+            1
+          ],
+          "median": 2,
+          "min": 1,
+          "max": 2
+        },
+        "shiftEntries": {
+          "values": [
+            2,
+            2,
+            1
+          ],
+          "median": 2,
+          "min": 1,
+          "max": 2
+        },
+        "landingErrorPx": {
+          "values": [
+            0.109375,
+            0.109375,
+            0.109375
+          ],
+          "median": 0.109375,
+          "min": 0.109375,
+          "max": 0.109375
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            60,
+            72,
+            76
+          ],
+          "median": 72,
+          "min": 60,
+          "max": 76
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            414.5,
+            393.09999999403954,
+            413.30000001192093
+          ],
+          "median": 413.30000001192093,
+          "min": 393.09999999403954,
+          "max": 414.5
+        },
+        "ttfbMs": {
+          "values": [
+            3.199999988079071,
+            3.5,
+            2.5999999940395355
+          ],
+          "median": 3.199999988079071,
+          "min": 2.5999999940395355,
+          "max": 3.5
+        }
+      },
+      "desktop:#contact:reload": {
+        "cls": {
+          "values": [
+            1,
+            1,
+            2
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 2
+        },
+        "shiftEntries": {
+          "values": [
+            1,
+            1,
+            2
+          ],
+          "median": 1,
+          "min": 1,
+          "max": 2
+        },
+        "landingErrorPx": {
+          "values": [
+            0.109375,
+            0.109375,
+            0.109375
+          ],
+          "median": 0.109375,
+          "min": 0.109375,
+          "max": 0.109375
+        },
+        "documentHeightPx": {
+          "values": [
+            46887,
+            46887,
+            46887
+          ],
+          "median": 46887,
+          "min": 46887,
+          "max": 46887
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            84,
+            76,
+            72
+          ],
+          "median": 76,
+          "min": 72,
+          "max": 84
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            387.3999999910593,
+            375.5,
+            375.90000000596046
+          ],
+          "median": 375.90000000596046,
+          "min": 375.5,
+          "max": 387.3999999910593
+        },
+        "ttfbMs": {
+          "values": [
+            6.200000002980232,
+            6.700000002980232,
+            7.4000000059604645
+          ],
+          "median": 6.700000002980232,
+          "min": 6.200000002980232,
+          "max": 7.4000000059604645
+        }
+      },
+      "mobile:/:navigate": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            43058,
+            43058,
+            43058
+          ],
+          "median": 43058,
+          "min": 43058,
+          "max": 43058
+        },
+        "longTasks": {
+          "values": [
+            2,
+            2,
+            2
+          ],
+          "median": 2,
+          "min": 2,
+          "max": 2
+        },
+        "maximumTaskMs": {
+          "values": [
+            73,
+            74,
+            72
+          ],
+          "median": 73,
+          "min": 72,
+          "max": 74
+        },
+        "totalLongTaskMs": {
+          "values": [
+            140,
+            139,
+            141
+          ],
+          "median": 140,
+          "min": 139,
+          "max": 141
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            1024,
+            1020,
+            1024
+          ],
+          "median": 1024,
+          "min": 1020,
+          "max": 1024
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            3964,
+            3963.5,
+            3967.5999999940395
+          ],
+          "median": 3964,
+          "min": 3963.5,
+          "max": 3967.5999999940395
+        },
+        "ttfbMs": {
+          "values": [
+            2.6000000089406967,
+            3.5,
+            2.9000000059604645
+          ],
+          "median": 2.9000000059604645,
+          "min": 2.6000000089406967,
+          "max": 3.5
+        }
+      },
+      "mobile:/:reload": {
+        "cls": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "shiftEntries": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "landingErrorPx": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "documentHeightPx": {
+          "values": [
+            43058,
+            43058,
+            43058
+          ],
+          "median": 43058,
+          "min": 43058,
+          "max": 43058
+        },
+        "longTasks": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "maximumTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalLongTaskMs": {
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "jsEncodedBodyBytes": {
+          "values": [
+            476945,
+            476945,
+            476945
+          ],
+          "median": 476945,
+          "min": 476945,
+          "max": 476945
+        },
+        "jsRequests": {
+          "values": [
+            15,
+            15,
+            15
+          ],
+          "median": 15,
+          "min": 15,
+          "max": 15
+        },
+        "lcpCandidateMs": {
+          "values": [
+            972,
+            972,
+            976
+          ],
+          "median": 972,
+          "min": 972,
+          "max": 976
+        },
+        "firstWebGLDrawMs": {
+          "values": [
+            3847.2999999970198,
+            3854.7000000029802,
+            3837.1000000089407
+          ],
+          "median": 3847.2999999970198,
+          "min": 3837.1000000089407,
+          "max": 3854.7000000029802
+        },
+        "ttfbMs": {
+          "values": [
+            3.199999988079071,
+            3.300000011920929,
+            2.6000000089406967
+          ],
+          "median": 3.199999988079071,
+          "min": 2.6000000089406967,
+          "max": 3.300000011920929
+        }
+      }
+    },
+    "frameSweeps": [
+      {
+        "region": "#home",
+        "count": 180,
+        "median": 16.69999999999891,
+        "p95": 16.799999999999272,
+        "max": 16.80000000000109,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "[data-work-project='0']",
+        "count": 180,
+        "median": 16.700000000000728,
+        "p95": 16.700000000000728,
+        "max": 16.80000000000291,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "[data-work-project='2']",
+        "count": 180,
+        "median": 16.700000000000728,
+        "p95": 16.799999999999272,
+        "max": 16.80000000000291,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "#about",
+        "count": 180,
+        "median": 16.700000000000728,
+        "p95": 16.700000000000728,
+        "max": 16.80000000000291,
+        "over33": 0,
+        "tasks": []
+      },
+      {
+        "region": "#contact",
+        "count": 180,
+        "median": 16.700000000000728,
+        "p95": 16.799999999999272,
+        "max": 16.80000000000291,
+        "over33": 0,
+        "tasks": []
+      }
+    ],
+    "graphicsActivity": [
+      {
+        "region": "#home",
+        "windowMs": 1000,
+        "draws": 840,
+        "clears": 0,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "region": "#work",
+        "windowMs": 1000,
+        "draws": 0,
+        "clears": 0,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "region": "#about",
+        "windowMs": 1000,
+        "draws": 0,
+        "clears": 0,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "region": "#contact",
+        "windowMs": 1000,
+        "draws": 0,
+        "clears": 0,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      }
+    ],
+    "memoryCycles": [
+      {
+        "cycle": 0,
+        "heap": {
+          "usedSize": 13975880,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8387392,
+          "backingStorageSize": 1714843
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "cycle": 1,
+        "heap": {
+          "usedSize": 14065644,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8385064,
+          "backingStorageSize": 1714843
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "cycle": 2,
+        "heap": {
+          "usedSize": 14099116,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8463664,
+          "backingStorageSize": 1714843
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "cycle": 3,
+        "heap": {
+          "usedSize": 14110812,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8384384,
+          "backingStorageSize": 1714843
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      },
+      {
+        "cycle": 4,
+        "heap": {
+          "usedSize": 14130756,
+          "totalSize": 15597568,
+          "embedderHeapUsedSize": 8384840,
+          "backingStorageSize": 1714843
+        },
+        "dom": {
+          "documents": 1,
+          "nodes": 3317,
+          "jsEventListeners": 439
+        },
+        "triggers": 41,
+        "allocations": {
+          "createTexture": 4,
+          "createBuffer": 13,
+          "bufferData": 13,
+          "bufferUploadBytes": 6924,
+          "createProgram": 4,
+          "createShader": 8,
+          "deleteShader": 8
+        }
+      }
+    ]
+  }
+}

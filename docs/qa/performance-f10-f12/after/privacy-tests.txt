@@ -1,0 +1,3 @@
+after: inspected 21 public images; 0 contain location fields. No location values logged.
+Both production-served local originals return 200, match the sanitized files and contain no location fields.
+Prior sanitized asset hashes, decoded pixels, profiles and orientations are preserved exactly.

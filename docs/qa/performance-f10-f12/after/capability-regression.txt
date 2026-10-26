@@ -1,0 +1,9 @@
+PASS normal 1440x900
+PASS unavailable 1440x900
+PASS webgl1-only 1440x900
+PASS throws 1440x900
+PASS reduced 1440x900
+PASS anchor 1440x900
+PASS normal 390x844
+PASS unavailable 390x844
+PASS reduced 390x844

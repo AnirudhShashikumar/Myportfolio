@@ -1,0 +1,110 @@
+{
+  "profile": "mobile-home",
+  "units": "V8 UTF-16 source offsets; covered ranges are not CPU time, transferred bytes or a removal budget",
+  "scripts": [
+    {
+      "url": "http://127.0.0.1:3001/?motion-audit=1",
+      "kind": "inline document",
+      "parsedUTF16Units": 43,
+      "coveredUTF16Units": 43
+    },
+    {
+      "url": "http://127.0.0.1:3001/?motion-audit=1",
+      "kind": "inline document",
+      "parsedUTF16Units": 124143,
+      "coveredUTF16Units": 124143
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-13a300b74e33ad48.js",
+      "kind": "static",
+      "parsedUTF16Units": 3559,
+      "coveredUTF16Units": 3126
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+      "kind": "static",
+      "parsedUTF16Units": 513,
+      "coveredUTF16Units": 509
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+      "kind": "static",
+      "parsedUTF16Units": 25879,
+      "coveredUTF16Units": 4218
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+      "kind": "static",
+      "parsedUTF16Units": 51569,
+      "coveredUTF16Units": 24184
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+      "kind": "static",
+      "parsedUTF16Units": 62258,
+      "coveredUTF16Units": 23031
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+      "kind": "static",
+      "parsedUTF16Units": 8113,
+      "coveredUTF16Units": 2283
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+      "kind": "static",
+      "parsedUTF16Units": 19083,
+      "coveredUTF16Units": 11556
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+      "kind": "static",
+      "parsedUTF16Units": 203721,
+      "coveredUTF16Units": 77863
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+      "kind": "static",
+      "parsedUTF16Units": 242564,
+      "coveredUTF16Units": 94446
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+      "kind": "static",
+      "parsedUTF16Units": 130477,
+      "coveredUTF16Units": 81357
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/844.f16a2f0504e00360.js",
+      "kind": "static",
+      "parsedUTF16Units": 12270,
+      "coveredUTF16Units": 12089
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+      "kind": "static",
+      "parsedUTF16Units": 13128,
+      "coveredUTF16Units": 8181
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+      "kind": "static",
+      "parsedUTF16Units": 146757,
+      "coveredUTF16Units": 43338
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+      "kind": "static",
+      "parsedUTF16Units": 367908,
+      "coveredUTF16Units": 229837
+    },
+    {
+      "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+      "kind": "static",
+      "parsedUTF16Units": 379578,
+      "coveredUTF16Units": 54961
+    }
+  ],
+  "parsedUTF16Units": 1791563,
+  "coveredUTF16Units": 795165
+}

@@ -1,0 +1,8 @@
+PASS 360x800: changed claims/status text fits in Work reading mode
+PASS 390x844: changed claims/status text fits in Work reading mode
+PASS 430x932: changed claims/status text fits in Work reading mode
+PASS 768x1024: changed claims/status text fits in Work reading mode
+PASS 1280x720: changed claims/status text fits in Work reading mode
+PASS 1280x800: changed claims/status text fits in Work reading mode
+PASS 1440x900: changed claims/status text fits in Work reading mode
+PASS 1728x1117: changed claims/status text fits in Work reading mode

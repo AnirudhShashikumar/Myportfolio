@@ -1,0 +1,11 @@
+{
+  "changedBaselineFiles": [
+    "src/sections/Hero.tsx",
+    "src/components/three/IntelligenceScene.tsx",
+    "src/components/three/IntelligenceField.tsx",
+    "package.json",
+    "package-lock.json"
+  ],
+  "preservedBaselineFileCount": 109,
+  "baselineFileCount": 114
+}

@@ -1,0 +1,44 @@
+ M package-lock.json
+ M package.json
+ M src/components/three/IntelligenceField.tsx
+ M src/components/three/IntelligenceScene.tsx
+ M src/sections/Hero.tsx
+?? docs/PERFORMANCE_F10_F12_REMEDIATION.md
+?? docs/qa/performance-f10-f12/README.md
+?? docs/qa/performance-f10-f12/after/
+?? docs/qa/performance-f10-f12/before/capability.json
+?? docs/qa/performance-f10-f12/before/capability.txt
+?? docs/qa/performance-f10-f12/before/dependency-tree.json
+?? docs/qa/performance-f10-f12/before/desktop-home-coverage.json
+?? docs/qa/performance-f10-f12/before/desktop-home-execution-summary.json
+?? docs/qa/performance-f10-f12/before/desktop-home-trace-summary.json
+?? docs/qa/performance-f10-f12/before/desktop-home-trace.json.gz
+?? docs/qa/performance-f10-f12/before/desktop-no-webgl-coverage.json
+?? docs/qa/performance-f10-f12/before/desktop-no-webgl-execution-summary.json
+?? docs/qa/performance-f10-f12/before/desktop-no-webgl-trace-summary.json
+?? docs/qa/performance-f10-f12/before/desktop-no-webgl-trace.json.gz
+?? docs/qa/performance-f10-f12/before/diagnostic.json
+?? docs/qa/performance-f10-f12/before/diagnostic.txt
+?? docs/qa/performance-f10-f12/before/emitted-javascript.json
+?? docs/qa/performance-f10-f12/before/environment-capability.json
+?? docs/qa/performance-f10-f12/before/environment-diagnostic.json
+?? docs/qa/performance-f10-f12/before/environment-lifecycle.json
+?? docs/qa/performance-f10-f12/before/environment-loads.json
+?? docs/qa/performance-f10-f12/before/font-hashes.json
+?? docs/qa/performance-f10-f12/before/lifecycle.json
+?? docs/qa/performance-f10-f12/before/lifecycle.txt
+?? docs/qa/performance-f10-f12/before/loads.json
+?? docs/qa/performance-f10-f12/before/loads.txt
+?? docs/qa/performance-f10-f12/before/mobile-home-coverage.json
+?? docs/qa/performance-f10-f12/before/mobile-home-execution-summary.json
+?? docs/qa/performance-f10-f12/before/mobile-home-trace-summary.json
+?? docs/qa/performance-f10-f12/before/mobile-home-trace.json.gz
+?? docs/qa/performance-f10-f12/before/resource-waterfall.csv
+?? docs/qa/performance-f10-f12/before/server.txt
+?? docs/qa/performance-f10-f12/before/source/
+?? docs/qa/performance-f10-f12/capability-regression.mjs
+?? docs/qa/performance-f10-f12/comparison.json
+?? docs/qa/performance-f10-f12/measure.mjs
+?? docs/qa/performance-f10-f12/regress.mjs
+?? docs/qa/performance-f10-f12/summarize.py
+?? docs/qa/performance-f10-f12/trials/

@@ -1,0 +1,7 @@
+PASS 1440x900/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe
+PASS 768x1024/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe
+PASS 681x800/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe
+PASS 390x844/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe
+PASS 360x800/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe
+PASS 320x800/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe
+PASS 1440x900/reduced: narrative, evidence, noninteractive status, footer layout/contrast/axe

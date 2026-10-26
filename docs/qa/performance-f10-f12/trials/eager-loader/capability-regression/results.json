@@ -1,0 +1,231 @@
+[
+  {
+    "mode": "normal",
+    "initial": {
+      "stats": {
+        "draws": 2100,
+        "legacyRequests": 0,
+        "shifts": []
+      },
+      "scripts": [
+        "/_next/static/chunks/main-app-6954a6653158385a.js",
+        "/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+        "/_next/static/chunks/50-d904d14977fc9b15.js",
+        "/_next/static/chunks/209-44beca00da938c1b.js",
+        "/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "/_next/static/chunks/794-216401842b802bd7.js",
+        "/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "/_next/static/chunks/844.f16a2f0504e00360.js"
+      ],
+      "text": "I BUILDWHAT I WANTTO EXIST.",
+      "canvases": 2,
+      "intro": "resolved",
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "mode": "unavailable",
+    "initial": {
+      "stats": {
+        "draws": 0,
+        "legacyRequests": 0,
+        "shifts": []
+      },
+      "scripts": [
+        "/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "/_next/static/chunks/794-216401842b802bd7.js",
+        "/_next/static/chunks/main-app-6954a6653158385a.js",
+        "/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+        "/_next/static/chunks/50-d904d14977fc9b15.js",
+        "/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "/_next/static/chunks/209-44beca00da938c1b.js",
+        "/_next/static/chunks/app/page-0a7259b9aa6a79cf.js"
+      ],
+      "text": "I BUILDWHAT I WANTTO EXIST.",
+      "canvases": 1,
+      "intro": "resolved",
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "mode": "webgl1-only",
+    "initial": {
+      "stats": {
+        "draws": 0,
+        "legacyRequests": 0,
+        "shifts": []
+      },
+      "scripts": [
+        "/_next/static/chunks/794-216401842b802bd7.js",
+        "/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "/_next/static/chunks/main-app-6954a6653158385a.js",
+        "/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+        "/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "/_next/static/chunks/50-d904d14977fc9b15.js",
+        "/_next/static/chunks/209-44beca00da938c1b.js",
+        "/_next/static/chunks/app/page-0a7259b9aa6a79cf.js"
+      ],
+      "text": "I BUILDWHAT I WANTTO EXIST.",
+      "canvases": 1,
+      "intro": "resolved",
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "mode": "throws",
+    "initial": {
+      "stats": {
+        "draws": 0,
+        "legacyRequests": 0,
+        "shifts": []
+      },
+      "scripts": [
+        "/_next/static/chunks/main-app-6954a6653158385a.js",
+        "/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "/_next/static/chunks/50-d904d14977fc9b15.js",
+        "/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "/_next/static/chunks/794-216401842b802bd7.js",
+        "/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+        "/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "/_next/static/chunks/209-44beca00da938c1b.js",
+        "/_next/static/chunks/app/page-0a7259b9aa6a79cf.js"
+      ],
+      "text": "I BUILDWHAT I WANTTO EXIST.",
+      "canvases": 1,
+      "intro": "resolved",
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "mode": "reduced",
+    "initial": {
+      "stats": {
+        "draws": 14,
+        "legacyRequests": 0,
+        "shifts": []
+      },
+      "scripts": [
+        "/_next/static/chunks/main-app-6954a6653158385a.js",
+        "/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+        "/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "/_next/static/chunks/50-d904d14977fc9b15.js",
+        "/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "/_next/static/chunks/794-216401842b802bd7.js",
+        "/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "/_next/static/chunks/209-44beca00da938c1b.js",
+        "/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "/_next/static/chunks/844.f16a2f0504e00360.js"
+      ],
+      "text": "I BUILDWHAT I WANTTO EXIST.",
+      "canvases": 2,
+      "intro": "resolved",
+      "overflow": 0
+    },
+    "errors": []
+  },
+  {
+    "mode": "anchor",
+    "initial": {
+      "stats": {
+        "draws": 14,
+        "legacyRequests": 0,
+        "shifts": [
+          {
+            "time": 175.40000000596046,
+            "value": 1,
+            "recentInput": false,
+            "sources": [
+              {
+                "tag": "SECTION",
+                "id": "about",
+                "className": "About_about__FV2gf",
+                "previousRect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 900,
+                  "top": 0,
+                  "right": 1440,
+                  "bottom": 900,
+                  "left": 0
+                },
+                "currentRect": {
+                  "x": 0,
+                  "y": 1.109375,
+                  "width": 1440,
+                  "height": 898.890625,
+                  "top": 1.109375,
+                  "right": 1440,
+                  "bottom": 900,
+                  "left": 0
+                }
+              },
+              {
+                "tag": "DIV",
+                "id": "",
+                "className": "WorkNavigation_workExit__NGUby",
+                "previousRect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0,
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "currentRect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 1.109375,
+                  "top": 0,
+                  "right": 1440,
+                  "bottom": 1.109375,
+                  "left": 0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "scripts": [
+        "/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "/_next/static/chunks/main-app-6954a6653158385a.js",
+        "/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+        "/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "/_next/static/chunks/50-d904d14977fc9b15.js",
+        "/_next/static/chunks/209-44beca00da938c1b.js",
+        "/_next/static/chunks/794-216401842b802bd7.js",
+        "/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "/_next/static/chunks/844.f16a2f0504e00360.js"
+      ],
+      "text": "I BUILDWHAT I WANTTO EXIST.",
+      "canvases": 2,
+      "intro": "resolved",
+      "overflow": 0
+    },
+    "errors": []
+  }
+]

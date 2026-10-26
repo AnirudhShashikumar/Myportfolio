@@ -1,0 +1,25 @@
+{
+  "initialInspectionRevision": "77eee63",
+  "measuredSourceRevision": "0706e6f1e47d1286e139a5e5a0a4d7ea04344456",
+  "closingRevision": "ea6579fc000ff724dd456f5913836ed78a6cd012",
+  "interveningCommitApplicationChanges": [],
+  "interveningCommitPaths": [
+    "docs/qa/performance-f10-f12/before/build.txt",
+    "docs/qa/performance-f10-f12/before/git-head.txt",
+    "docs/qa/performance-f10-f12/before/git-status.txt",
+    "docs/qa/performance-f10-f12/before/index-paths.txt",
+    "docs/qa/performance-f10-f12/before/source-hashes.json",
+    "docs/qa/performance-f10-f12/before/working-paths.txt"
+  ],
+  "indexPathsMatchRecordedBaseline": true,
+  "changedBaselineSources": [
+    "src/sections/Hero.tsx",
+    "src/components/three/IntelligenceScene.tsx",
+    "src/components/three/IntelligenceField.tsx",
+    "package.json",
+    "package-lock.json"
+  ],
+  "unchangedBaselineSourceCount": 109,
+  "agentCommitted": false,
+  "agentDeployed": false
+}

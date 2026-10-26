@@ -1,0 +1,41 @@
+[
+  {
+    "mode": "native",
+    "shifts": [
+      {
+        "time": 204.09999999403954,
+        "value": 1,
+        "recent": false
+      }
+    ],
+    "y": 28520,
+    "top": 0.109375,
+    "plate": "0"
+  },
+  {
+    "mode": "no-auto-anchor",
+    "shifts": [
+      {
+        "time": 177.59999999403954,
+        "value": 1,
+        "recent": false
+      }
+    ],
+    "y": 28520,
+    "top": 0.109375,
+    "plate": "0"
+  },
+  {
+    "mode": "restore-after-refresh",
+    "shifts": [
+      {
+        "time": 191.70000000298023,
+        "value": 1,
+        "recent": false
+      }
+    ],
+    "y": 28520,
+    "top": 0.109375,
+    "plate": "0"
+  }
+]

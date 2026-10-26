@@ -1,0 +1,3 @@
+after desktop-home 0: LCP 68ms, tasks 0, first draw 397ms, JS body 475086
+after mobile-home 0: LCP 1020ms, tasks 2, first draw 4056ms, JS body 475086
+after desktop-no-webgl 0: LCP 56ms, tasks 0, first draw undefinedms, JS body 230232

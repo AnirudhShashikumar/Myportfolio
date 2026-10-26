@@ -1,0 +1,3 @@
+# Eager-loader measurements before signal-buffer correction
+
+This build contains the final capability-loader policy and unused Drei removal. All 13 existing suites and six focused capability cases passed. Allocation review then found that every visibility traversal creates two fresh 12-byte signal-point attribute buffers because its typed array is constructed during render. The final build also memoizes that per-scene mutable array. This folder preserves the earlier complete measurements/regressions and the direct-anchor CLS source observation; final after evidence is collected again after the buffer correction. No GPU leak or GPU-memory amount is inferred solely from allocation-call counts.

@@ -1,0 +1,6 @@
+website@0.1.0 /Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio
+├─┬ @react-three/fiber@9.7.0
+│ └── three@0.186.0 deduped
+├── next@16.4.3
+└── three@0.186.0
+

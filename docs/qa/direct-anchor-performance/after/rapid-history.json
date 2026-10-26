@@ -1,0 +1,2213 @@
+[
+  {
+    "run": 0,
+    "before": {
+      "time": 2703.2000000029802,
+      "hash": "#contact",
+      "y": 42920,
+      "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+    },
+    "frames": [
+      {
+        "time": 2738.1000000089407,
+        "y": 20772,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2754.7999999970198,
+        "y": 24487,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2770.7000000029802,
+        "y": 27412,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2788.6000000089407,
+        "y": 30014,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2804.7999999970198,
+        "y": 32178,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2821.2999999970198,
+        "y": 33883,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2837.9000000059605,
+        "y": 35399,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2854.6000000089407,
+        "y": 36661,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2871.2999999970198,
+        "y": 37654,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2888.5,
+        "y": 38584,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2904.7000000029802,
+        "y": 39273,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2921.2999999970198,
+        "y": 39851,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2938,
+        "y": 40366,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2954.4000000059605,
+        "y": 40795,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2971,
+        "y": 41132,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2988.5,
+        "y": 41448,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3005.7000000029802,
+        "y": 41682,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3021.7000000029802,
+        "y": 41889,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3038.4000000059605,
+        "y": 42053,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3055.5,
+        "y": 42206,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3071.6000000089407,
+        "y": 42320,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3087.7000000029802,
+        "y": 42415,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3105.1000000089407,
+        "y": 42500,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3121.2999999970198,
+        "y": 42567,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3138.2000000029802,
+        "y": 42626,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3155.1000000089407,
+        "y": 42675,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3170.9000000059605,
+        "y": 42714,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3187.9000000059605,
+        "y": 42749,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3204.7999999970198,
+        "y": 42778,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3221.2000000029802,
+        "y": 42800,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3238.1000000089407,
+        "y": 42820,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3254.5,
+        "y": 42837,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3271.7000000029802,
+        "y": 42851,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3288.2999999970198,
+        "y": 42862,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3305,
+        "y": 42872,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3321.2000000029802,
+        "y": 42880,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3338.2999999970198,
+        "y": 42887,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3355.4000000059605,
+        "y": 42892,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3371.7000000029802,
+        "y": 42897,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3387.9000000059605,
+        "y": 42901,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3404.7000000029802,
+        "y": 42904,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3421.2000000029802,
+        "y": 42907,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3438.4000000059605,
+        "y": 42909,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3454,
+        "y": 42911,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3471.5,
+        "y": 42912,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3488,
+        "y": 42914,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3504.9000000059605,
+        "y": 42915,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3521.2999999970198,
+        "y": 42916,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3538.2000000029802,
+        "y": 42917,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3554.5,
+        "y": 42917,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3571.2000000029802,
+        "y": 42918,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3588,
+        "y": 42918,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3604.5,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3621.1000000089407,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3637.7999999970198,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3654.2000000029802,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3671.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3686.7999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3704.1000000089407,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3720.7999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3737.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3754,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3769.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3787.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3804,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3820.7000000029802,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3837.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3854.2000000029802,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3870.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3887.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3904.2999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3920.2999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3937.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3954.1000000089407,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3970.7999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3987.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4004.2000000029802,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4020.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4037.6000000089407,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4053.2999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4069.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4087.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4104.29999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4120.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4137.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4154.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4171,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4187.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4204,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4220.70000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4237.600000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4254.20000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4270.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4287.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4304.20000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4320.70000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4337.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4354,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4370.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4387.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4404.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4420.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4437.600000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4454.20000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4471,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4486.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4504.20000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4520.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4537.600000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4554.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4570.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4587.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4604.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4620.70000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4637.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4654.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4670.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4686.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4704.29999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4720.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      }
+    ],
+    "final": {
+      "hash": "#work",
+      "y": 42920,
+      "target": 4500
+    },
+    "accurate": false
+  },
+  {
+    "run": 1,
+    "before": {
+      "time": 2675.199999988079,
+      "hash": "#contact",
+      "y": 42920,
+      "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+    },
+    "frames": [
+      {
+        "time": 2694.5,
+        "y": 16308,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2711.199999988079,
+        "y": 20772,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2727.8999999910593,
+        "y": 24287,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2744.5999999940395,
+        "y": 27412,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2761.5999999940395,
+        "y": 30014,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2777.7999999970198,
+        "y": 32062,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2794.199999988079,
+        "y": 33883,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2812.699999988079,
+        "y": 35399,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2828.5999999940395,
+        "y": 36593,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2845.3999999910593,
+        "y": 37654,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2862,
+        "y": 38537,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2877.699999988079,
+        "y": 39233,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2894.2999999970198,
+        "y": 39851,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2911.5,
+        "y": 40366,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2927.3999999910593,
+        "y": 40772,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2945,
+        "y": 41132,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2960.7999999970198,
+        "y": 41416,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2978.2999999970198,
+        "y": 41668,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2994.699999988079,
+        "y": 41878,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3010.5999999940395,
+        "y": 42044,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3027.2999999970198,
+        "y": 42191,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3044.2999999970198,
+        "y": 42313,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3061.0999999940395,
+        "y": 42415,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3077.5,
+        "y": 42495,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3094.3999999910593,
+        "y": 42567,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3111.0999999940395,
+        "y": 42626,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3127.699999988079,
+        "y": 42673,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3144.5,
+        "y": 42714,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3161.199999988079,
+        "y": 42749,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3177.5999999940395,
+        "y": 42776,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3194.5,
+        "y": 42800,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3211.0999999940395,
+        "y": 42820,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3227.8999999910593,
+        "y": 42837,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3244.2999999970198,
+        "y": 42850,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3260.7999999970198,
+        "y": 42862,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3277.5999999940395,
+        "y": 42871,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3294.5,
+        "y": 42880,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3310.8999999910593,
+        "y": 42887,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3327.7999999970198,
+        "y": 42892,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3344.199999988079,
+        "y": 42897,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3361,
+        "y": 42901,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3377.5,
+        "y": 42904,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3394.2999999970198,
+        "y": 42907,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3411,
+        "y": 42909,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3427.7999999970198,
+        "y": 42911,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3444.199999988079,
+        "y": 42912,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3461.0999999940395,
+        "y": 42914,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3477.699999988079,
+        "y": 42915,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3494.3999999910593,
+        "y": 42916,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3511,
+        "y": 42917,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3527.5999999940395,
+        "y": 42917,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3544,
+        "y": 42918,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3561.0999999940395,
+        "y": 42918,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3577.3999999910593,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3594.2999999970198,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3610.5,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3627.199999988079,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3645.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3661.2999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3677.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3693.8999999910593,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3710.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3727.2999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3743.8999999910593,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3760.5999999940395,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3777.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3794,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3810.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3827.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3843.7999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3860.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3877.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3893.8999999910593,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3910.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3927.2999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3943.8999999910593,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3960.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3977.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3994,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4010.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4027.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4043.7999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4060.5999999940395,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4077.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4093.7999999970198,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4110.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4127.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4143.899999991059,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4160.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4177.0999999940395,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4193.899999991059,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4210.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4227.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4243.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4260.5999999940395,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4277.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4293.899999991059,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4310.399999991059,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4327.29999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4343.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4360.5999999940395,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4377.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4393.899999991059,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4410.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4427.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4443.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4460.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4477.0999999940395,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4493.899999991059,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4510.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4527.29999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4543.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4560.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4577.0999999940395,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4593.899999991059,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4610.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4627.199999988079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4643.79999999702,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4660.5999999940395,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4677.0999999940395,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      }
+    ],
+    "final": {
+      "hash": "#work",
+      "y": 42920,
+      "target": 4500
+    },
+    "accurate": false
+  },
+  {
+    "run": 2,
+    "before": {
+      "time": 2703.7000000029802,
+      "hash": "#contact",
+      "y": 16019,
+      "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+    },
+    "frames": [
+      {
+        "time": 2714,
+        "y": 20772,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2729.7000000029802,
+        "y": 24287,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2746.6000000089407,
+        "y": 27412,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2763.5,
+        "y": 30014,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2779.7000000029802,
+        "y": 32062,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2796.2000000029802,
+        "y": 33883,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2812.9000000059605,
+        "y": 35317,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2829.6000000089407,
+        "y": 36593,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2846.4000000059605,
+        "y": 37654,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2863.2000000029802,
+        "y": 38490,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2879.2000000029802,
+        "y": 39233,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2896.7000000029802,
+        "y": 39851,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2911.9000000059605,
+        "y": 40310,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2929.4000000059605,
+        "y": 40772,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2946.800000011921,
+        "y": 41132,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2962.800000011921,
+        "y": 41416,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2980.4000000059605,
+        "y": 41668,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 2996.800000011921,
+        "y": 41878,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3013.300000011921,
+        "y": 42053,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3031.4000000059605,
+        "y": 42206,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3046.4000000059605,
+        "y": 42313,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3062.6000000089407,
+        "y": 42410,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3079.7000000029802,
+        "y": 42495,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3096.2000000029802,
+        "y": 42563,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3113.2000000029802,
+        "y": 42626,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3130,
+        "y": 42673,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3146.300000011921,
+        "y": 42714,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3163.1000000089407,
+        "y": 42747,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3179.7000000029802,
+        "y": 42776,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3196.5,
+        "y": 42800,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3213.1000000089407,
+        "y": 42819,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3229.7000000029802,
+        "y": 42836,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3246.300000011921,
+        "y": 42850,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3263.2000000029802,
+        "y": 42862,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3279.5,
+        "y": 42871,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3296.5,
+        "y": 42880,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3313.6000000089407,
+        "y": 42887,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3329.9000000059605,
+        "y": 42892,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3346.4000000059605,
+        "y": 42897,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3363.1000000089407,
+        "y": 42900,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3379.7000000029802,
+        "y": 42904,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3396.4000000059605,
+        "y": 42907,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3412.9000000059605,
+        "y": 42909,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3429.7000000029802,
+        "y": 42911,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3446.2000000029802,
+        "y": 42912,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3463.1000000089407,
+        "y": 42914,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3479.6000000089407,
+        "y": 42915,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3496.300000011921,
+        "y": 42916,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3512.300000011921,
+        "y": 42917,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3529.800000011921,
+        "y": 42917,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3546.1000000089407,
+        "y": 42918,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3563,
+        "y": 42918,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3579.300000011921,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3596.2000000029802,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3612.4000000059605,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3629,
+        "y": 42919,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis lenis-scrolling lenis-smooth"
+      },
+      {
+        "time": 3647.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3662.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3678.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3695.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3712.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3729.300000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3745.1000000089407,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3762.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3779.1000000089407,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3795.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3812.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3828.7000000029802,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3845.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3862.7000000029802,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3879.1000000089407,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3895.6000000089407,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3911.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3928.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3945.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3962.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3979.1000000089407,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 3995,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4012.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4028.7000000029802,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4045.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4062.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4079,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4095.300000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4112.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4129.300000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4145.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4162.20000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4179.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4195.20000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4212.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4229.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4245.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4261.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4279.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4295.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4312.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4329.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4345.70000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4361.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4379.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4395.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4412.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4429.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4445.70000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4462.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4479.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4495.600000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4512.4000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4529.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4544.9000000059605,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4562.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4579.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4595.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4611.70000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4628.800000011921,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4645.70000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4662.20000000298,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4679.100000008941,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      },
+      {
+        "time": 4695.5,
+        "y": 42920,
+        "hash": "#work",
+        "classes": "__variable_8eaea4 __variable_8c25df lenis"
+      }
+    ],
+    "final": {
+      "hash": "#work",
+      "y": 42920,
+      "target": 4500
+    },
+    "accurate": false
+  }
+]

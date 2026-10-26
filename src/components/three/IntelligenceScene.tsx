@@ -1,7 +1,7 @@
 "use client";
 
 import { useFrame } from "@react-three/fiber";
-import { useRef, type RefObject } from "react";
+import { useMemo, useRef, type RefObject } from "react";
 import {
   BufferAttribute,
   BufferGeometry,
@@ -357,6 +357,8 @@ export default function IntelligenceScene({
   isMobile,
 }: IntelligenceSceneProps) {
   const data = isMobile ? MOBILE_DATA : DESKTOP_DATA;
+  // R3F reconstructs attributes when args change; retain this mutable buffer per scene.
+  const signalPoint = useMemo(() => new Float32Array(data.signalPath[0]), [data]);
   const core = useRef<Group>(null);
   const farAssembly = useRef<Group>(null);
   const ringAssembly = useRef<Group>(null);
@@ -665,7 +667,7 @@ export default function IntelligenceScene({
             <bufferAttribute
               ref={signalPointAttribute}
               attach="attributes-position"
-              args={[new Float32Array(data.signalPath[0]), 3]}
+              args={[signalPoint, 3]}
             />
           </bufferGeometry>
           <pointsMaterial

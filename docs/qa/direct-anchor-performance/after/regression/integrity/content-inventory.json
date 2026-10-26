@@ -1,0 +1,162 @@
+{
+  "phase": "after",
+  "projects": [
+    {
+      "number": "0",
+      "name": "SATQUERY AI",
+      "text": "SatQuery AI routes single-image, optical and SAR, and bi-temporal Earth observations to specialist models, then brings their outputs together as evidence-backed geospatial intelligence.01 / FLAGSHIPSATQUERY AIMultimodal Geospatial IntelligenceASK EARTHANYTHING.Get Evidence,Not Just Answers.EARTH OBSERVATIONOPTICAL / SAR / TIMEOBSERVATIONS / ANALYSIS CHANNELS01SINGLE IMAGE02OPTICAL + SAR03BI-TEMPORALSPECIALIST ROUTINGMODEL OUTPUT / VALIDATEDEVIDENCEPROVENANCE · CONFIDENCELIMITATIONS · VALIDATIONINTELLIGENCE / REAL SOFTWARESATQUERY AITHE ABSTRACT SYSTEM RESOLVES INTO AN EVIDENCE-FIRST INTERFACE.SMART INDIA HACKATHON 2026 / 26167EARTH OBSERVATION → INTELLIGENCESPACE TECHNOLOGY · MULTIMODAL AI · REMOTE SENSINGLIVE SYSTEM ↗No separate SatQuery AI case study is published.",
+      "actions": [
+        {
+          "tag": "A",
+          "label": "LIVE SYSTEM ↗",
+          "accessibleName": "Open the live SatQuery AI system in a new tab",
+          "destination": "https://sat-query-ai-phi.vercel.app/",
+          "target": "_blank",
+          "type": "external application"
+        }
+      ],
+      "availability": []
+    },
+    {
+      "number": "1",
+      "name": "GESTURE GLOBE",
+      "text": "02 / INTERACTIONPLANETARY INTELLIGENCEHUMAN INPUTVISION BECOMES INTERFACE.From observing the world to interpreting movement within it.02 / FEATUREDGESTURE GLOBEReal-Time Vision-Driven InteractionINTERACTWITHOUTTOUCH.Live camera tracking translates hand gestures into direct spatial interaction.Gesture Globe uses live camera input to track face and hand landmarks. A pinch gesture changes a cyan spatial object, while two-hand movement changes its scale. The supplied captures illustrate the project's pinch and scale interactions.CAMERA INPUT / LANDMARK SPACETRACKING ACTIVEFACE LANDMARKSHAND LANDMARKS01 / ACQUIRE OPEN HAND + FACE LANDMARKSGESTURE STATE / SPATIAL INPUTTRACKING ACTIVEPINCH / OBJECT RESPONSETWO HANDS / SCALE02 / INTERPRET HAND MOVEMENT → SPATIAL RESPONSEFROM LANDMARKS TO LIVE INTERACTIONGESTURE GLOBE / REAL SYSTEM01 / PINCH INTERACTION02 / TWO-HAND INPUT03 / SPATIAL SCALECAMERA → LANDMARKS → GESTURE → SPATIAL RESPONSEHUMAN MOVEMENT / DIGITAL RESPONSETHE HUMAN BECOMES THE CONTROLLER.COMPUTER VISION · HUMAN-COMPUTER INTERACTION · REAL-TIME GESTURESLIVE EXPERIENCE ↗No separate Gesture Globe case study is published.",
+      "actions": [
+        {
+          "tag": "A",
+          "label": "LIVE EXPERIENCE ↗",
+          "accessibleName": "Open the live Gesture Globe experience in a new tab",
+          "destination": "https://gestureglobe.vercel.app/",
+          "target": "_blank",
+          "type": "external application"
+        }
+      ],
+      "availability": []
+    },
+    {
+      "number": "2",
+      "name": "ALGAEOS",
+      "text": "03 / PHYSICAL SYSTEMSFROM INTERFACES TO ENVIRONMENTS.DIGITAL INTERACTIONPHYSICAL RESPONSE03 / FEATUREDALGAEOSIoT Environmental IntelligenceMEASURE.CAPTURE.RESPOND.A low-cost, dual-stage algae photobioreactor connects CO₂ capture and oxygen generation to environmental sensing, Arduino telemetry, and a monitoring dashboard.PRIMARY CONTRIBUTION / IOT + SENSOR INTEGRATIONPHYSICAL PROTOTYPE / DUAL-STAGE BIOREACTORAIRFLOW · SENSING · TELEMETRYENGINEERING THE ENVIRONMENTAIR MOVES. DATA FOLLOWS.Chlorella vulgaris in a dual-stage reactor forms the biological system; sensors and Arduino telemetry connect it to software.SYSTEM PATH / AIR TO DATAPHYSICAL FLOW + DIGITAL OBSERVATION01AMBIENT AIRInput to the system02CO₂ SENSINGInlet observation03STAGE 01Algae bioreactor04STAGE 02Algae bioreactor05TELEMETRYEnvironmental data06DASHBOARDMonitored responseCHLORELLA VULGARIS / DUAL-STAGE PHOTOBIOREACTOR / ARDUINO TELEMETRYUNDER THE SYSTEMREACTOR → SENSOR → READOUT.Physical measurements became a monitoring workflow through embedded electronics and a custom dashboard.01 / PHYSICAL INSTRUMENTATIONDocumented system: Arduino UNO · MQ-135 · DHT22SENSOR INPUT → ARDUINO TELEMETRY → DASHBOARD02 / DIGITAL OBSERVATIONCaptured interface; the source screenshot shows Arduino offline.The dashboard presents inlet and outlet readings, filtration status, and environmental telemetry.PROTOTYPE OBSERVATIONSMEASURED IN THE BUILD.Reported during prototype testing; these are project observations, not independently certified results.REPORTED CO₂ REDUCTION>40%REPORTED INITIAL READING~1500 PPMREPORTED TEST DIRECTION<900 PPMREPORTED PROTOTYPE COST<₹2,500The reported CO₂ change was observed over the prototype test period, within hours.VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)PROJECT DOCUMENTATION / CLAIMS SHOWN ARE PROJECT-REPORTEDPROJECT ACCOUNT / BMSIT · 1 SEMESTER · TEAM OF 4SOFTWARE, SENSORS, AND A LIVING SYSTEM.IOT · EMBEDDED SYSTEMS · ENVIRONMENTAL TECHNOLOGY · PHYSICAL PROTOTYPINGREPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITSCASE STUDY NOT PUBLISHEDNo separate AlgaeOS case study is published.",
+      "actions": [
+        {
+          "tag": "A",
+          "label": "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+          "accessibleName": null,
+          "destination": "/projects/algaeos/algaeos-system-infographic.jpg",
+          "target": "_blank",
+          "type": "public image evidence"
+        }
+      ],
+      "availability": [
+        {
+          "tag": "P",
+          "text": "CASE STUDY NOT PUBLISHED",
+          "role": null,
+          "tabindex": null
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "DAYFLOW",
+      "text": "04 / PRODUCT ENGINEERINGPHYSICAL SYSTEMSDIGITAL OPERATIONSFROM SIGNALS TO SYSTEMS.04 / FEATUREDDAYFLOWFull-Stack Human OperationsONE PLATFORM.TWO WORKSPACES.A role-aware HR platform that separates employee workflows from management operations inside one connected product.TEAM LEAD · FULL-STACK DEVELOPER / COLLABORATIVE PROJECTDAYFLOWEMPLOYEEHR / ADMINROLE-AWARE ENTRY CAPTURED PRODUCT INTERFACETWO PURPOSE-BUILT EXPERIENCESSAME SYSTEM. DIFFERENT RESPONSIBILITIES.Personal work on one side. Organization-wide operations on the other.EMPLOYEEDAYFLOWHR / ADMIN01 / EMPLOYEE WORKSPACETHE INDIVIDUAL VIEWCheck in, request leave, view payroll, open private documents, and follow updates.02 / HR + ADMIN COMMAND CENTERTHE ORGANIZATION VIEWManage people, approve leave, run payroll, report on operations, and review activity.ENGINEERED BENEATH THE INTERFACEACCESS FOLLOWS THE ROLE.Portal selection guides the experience. Database-backed roles and server checks determine permission.01 / SYSTEM LAYERUSERLogin and session02 / SYSTEM LAYERNEXT.JS 16Server checks · API · validation03 / SYSTEM LAYERSUPABASEAuth · Storage · signed URLs04 / SYSTEM LAYERPOSTGRESQLProfile roles · RLS · RPCAUTHORIZATION RULEPORTAL ≠ PERMISSION.The design routes sessions by database profile role, with server-side checks and Row Level Security policies. Deployed authorization is not independently verified here.PRIVATE DOCUMENTS / SHORT-LIVED SIGNED URLSONE TRANSACTIONAL WORKFLOWLEAVE APPROVAL.01Request update02Leave balance03Notification04Audit eventVERIFICATION RECORDREPORTED. NOT RE-RUN.Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.—AUTOMATED TESTSNO RUN LINKED—TYPECHECKNOT RE-RUN—LINTNOT RE-RUN—PRODUCTION BUILDNOT RE-RUNAUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESSFULL-STACK · HR TECH · SAASONE PLATFORM. TWO PURPOSE-BUILT EXPERIENCES.NEXT.JS 16 · TYPESCRIPT · SUPABASE · POSTGRESQL · RLSLIVE APP ↗No separate Dayflow case study is published.",
+      "actions": [
+        {
+          "tag": "A",
+          "label": "LIVE APP ↗",
+          "accessibleName": "Open the live Dayflow application in a new tab",
+          "destination": "https://dayflow-anirudh6.vercel.app",
+          "target": "_blank",
+          "type": "external application"
+        }
+      ],
+      "availability": []
+    },
+    {
+      "number": "4",
+      "name": "MEDITWIN",
+      "text": "05 / RAPID PRODUCT EXECUTIONORGANIZATIONAL SYSTEMSPERSONAL SYSTEMS05 / FEATUREDMEDITWINAI Healthcare Digital Twin1ST PLACEINCSEPTION 2.0A DIGITAL TWINFOR PERSONALHEALTH.An AI-driven healthcare concept combining personalized health monitoring with fitness-plan recommendations adapted to individual health conditions.PROJECT ACCOUNT / CODE BLUE · 4 MEMBERSCONCEPT MODELPERSONAL MODEL FORMATION.ACTIVITYCONTEXTROUTINEFITNESSDIGITAL TWINPERSONAL CONTEXTDIGITAL TWINCONCEPT MODEL / PERSONAL CONTEXT ↔ DIGITAL REPRESENTATIONCONCEPT PATHHEALTH CONTEXT, MADE PERSONAL.01PATIENT STATEIndividual health context02DIGITAL TWINPatient representation03HEALTH MONITORINGPersonalized context04FITNESS PLANCondition-aware recommendations01 / PROBLEMHealth information is fragmented, while generic fitness guidance may not reflect individual health conditions.02 / IDEAUse a digital-twin-inspired patient representation to organize personal health context.03 / OUTPUTProvide personalized monitoring context and fitness-plan recommendations.BUILD WINDOW8 HOURSREPORTED FIELD~130 TEAMSRESULT1ST PLACEOFFICIAL ACHIEVEMENT CERTIFICATEVIEW FULL EVIDENCE ↗CODE BLUE / TEAM + AWARD EVIDENCEEXECUTION UNDER CONSTRAINTBUILT AND PRESENTED INONE DAY.00H IDEA08H PRESENTIn the team's account, four members shaped the concept, monitoring workflows, and personalized fitness recommendation direction during the eight-hour hackathon.GDG ON CAMPUS BMSIT&MAI HEALTHCARE · DIGITAL TWIN · PERSONALIZED HEALTHA TEAM IDEA, BUILT AT HACKATHON SPEED.CASE STUDY NOT PUBLISHEDNo separate MediTwin case study is published.",
+      "actions": [
+        {
+          "tag": "A",
+          "label": "",
+          "accessibleName": "View the full MediTwin first-place certificate in a new tab",
+          "destination": "/projects/meditwin/incseption-2-certificate.jpg",
+          "target": "_blank",
+          "type": "public image evidence"
+        }
+      ],
+      "availability": [
+        {
+          "tag": "P",
+          "text": "CASE STUDY NOT PUBLISHED",
+          "role": null,
+          "tabindex": null
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "name": "MEDIFIT",
+      "text": "06 / PERSONALIZED DIRECTIONREPRESENTATIONRECOMMENDATION06 / FEATUREDMEDIFITAI Healthcare / Digital Twin / FitnessFROM HEALTHCONTEXT TOPERSONAL ACTION.MediFit explored digital-twin-driven personalization for health monitoring and fitness-plan recommendations adapted to individual health conditions.PROJECT ACCOUNT / TEAM OF 4 · FULL STACKRESULT3RD PLACEREPORTED WINDOW8 HOURSREPORTED FIELD50+ TEAMSREPORTED TEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACKCONCEPT MODELPERSONALIZATION ENGINE.INDIVIDUALHEALTHCONTEXTCONDITIONSFITNESS PLANPERSONALIZEFITNESS PLANCONCEPT / INDIVIDUAL CONTEXT → PERSONALIZATION → STRUCTURED DIRECTION01 / PROBLEMGeneric health and fitness guidance does not necessarily reflect individual health conditions.02 / SYSTEMUse digital-twin-inspired personalization to organize individual health context into structured recommendations.03 / OUTPUTPersonalized monitoring context and fitness-plan recommendations adapted to the individual.PRIMARY CONTRIBUTIONFULL STACKIn the historical project account, work spanned the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.REPORTED BUILD WINDOW00H CONCEPT08H DEMOPROTOTYPE REPORTEDOUTCOMEBUILDPRESENTRESULT3RD PLACEPUSH, PULL, COMMITREPORTED: 50+ TEAMSREPORTED: 4-PERSON TEAMREPORTED: 8-HOUR BUILDIEEE COMPUTER SOCIETY BMSIT&MOFFICIAL ACHIEVEMENT CERTIFICATEVIEW FULL EVIDENCE ↗PUSH PULL COMMIT / TEAM + EVENT EVIDENCE / 2026EXECUTION UNDER CONSTRAINTIn the team's account, four members shaped the concept, full-stack application, and personalized recommendation direction during a reported eight-hour build at the hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.AI HEALTHCARE · DIGITAL TWIN · PERSONALIZED FITNESSHEALTH CONTEXT, MADE ACTIONABLE.LIVE DEMO UNVERIFIED06 FEATURED SYSTEMSAI · VISION · IoT · FULL-STACK · HEALTHCARESix systems across multiple domains. One engineering practice.No separate MediFit case study is published.",
+      "actions": [
+        {
+          "tag": "A",
+          "label": "",
+          "accessibleName": "View the full MediFit third-place certificate in a new tab",
+          "destination": "/projects/medifit/push-pull-commit-certificate.jpg",
+          "target": "_blank",
+          "type": "public image evidence"
+        }
+      ],
+      "availability": [
+        {
+          "tag": "P",
+          "text": "LIVE DEMO UNVERIFIED",
+          "role": null,
+          "tabindex": null
+        }
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "project": "ALGAEOS",
+      "tag": "A",
+      "label": "VIEW ORIGINAL INFOGRAPHIC ↗ (opens in a new tab)",
+      "accessibleName": null,
+      "destination": "/projects/algaeos/algaeos-system-infographic.jpg",
+      "target": "_blank",
+      "type": "public image evidence",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 125324
+    },
+    {
+      "project": "MEDITWIN",
+      "tag": "A",
+      "label": "",
+      "accessibleName": "View the full MediTwin first-place certificate in a new tab",
+      "destination": "/projects/meditwin/incseption-2-certificate.jpg",
+      "target": "_blank",
+      "type": "public image evidence",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 1369880
+    },
+    {
+      "project": "MEDIFIT",
+      "tag": "A",
+      "label": "",
+      "accessibleName": "View the full MediFit third-place certificate in a new tab",
+      "destination": "/projects/medifit/push-pull-commit-certificate.jpg",
+      "target": "_blank",
+      "type": "public image evidence",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 83872
+    }
+  ],
+  "errors": [],
+  "aboutText": "About Anirudh ShashikumarRead without motion ↗02 / ABOUT · PERSON / ORIGIN2020 / FIRST WEBSITEPROGRAMMINGSOFTWAREFULL-STACKAICOMPUTER VISIONPHYSICAL + DIGITALMULTIMODAL INTELLIGENCE2026 / STILL LEARNINGMODELDATAAPILOGICINTERFACEDEPLOYMENTVALIDATIONPRODUCTIDEAUNDERSTANDRESEARCHARCHITECTUREBUILDAI-ASSISTED IMPLEMENTATIONTESTVALIDATEITERATEPROBLEMBUILDPITCH2020 / FIRST WEBSITE2026 / STILL LEARNINGTHE SYSTEMS TELLPART OF THE STORY.NOW MEETTHE PERSONBUILDING THEM.ANIRUDHSHASHIKUMARI'm a Computer Science Engineering student interested in how AI, computer vision, software and hardware connect into complete systems.COMPUTER SCIENCE ENGINEERING STUDENT · BENGALURU, INDIAIT STARTEDWITH CURIOSITY.Getting my first computer sparked the interest. Around seventh grade, during the COVID period, I started programming for fun: a few lines of logic could become something visible and interactive.ORIGIN / 20202020.FIRST WEBSITE.In 2020, I entered my first proper Computer Science competition with a personal HTML/CSS website—login interface, forms and hyperlinks. It won First Position. Formal Computer Science classes during PUC later made programming more serious.THE FIRST PORTFOLIO, BEFORE THIS PORTFOLIO.2020 / FIRST WEBSITEPRESIDENCY SCHOOL / HTML WEBSITE COMPETITION / FIRST POSITIONONE LAYEROPENED ANOTHER.What began as making a website expanded into an interest in how software, AI, data, vision, hardware and interfaces work together.A LEARNING PATH, NOT A CAREER LADDER.I WANTED TO KNOWHOW THEY CONNECT.A LEARNING PATH, NOT A CAREER LADDER.SOME PROBLEMSDON'T FITINSIDE RULES.Images, language and spatial information contain ambiguity. SAR-to-optical experiments made model architecture, training, loss functions and perceptual evaluation tangible.FROM EXPLICIT RULES TO LEARNED PATTERNS.IMAGE → DATAMOVEMENT → INTERACTIONSPACE → INTERFACEVision interested me because software could respond to the physical world. Camera input and movement became ways to learn through interaction and play.CAMERA AS INPUT.THE PART I LIKEIS CONNECTINGTHE LAYERS.An intelligent component is only part of the experience. I enjoy connecting it to data, APIs, application logic, interfaces, deployment and validation.BETWEEN MODEL AND PRODUCT.ARCHITECTURE FIRST.I want to understand the problem and the system boundaries before implementation. The goal is not just working components, but a coherent system.ONE WORKFLOW. CLEAR RESPONSIBILITY.ARCHITECTURE FIRST.I use AI tools to accelerate implementation, boilerplate, syntax, repetitive work and iteration. I own the architecture, context, technical decisions, integration, testing and validation.ONE WORKFLOW. CLEAR RESPONSIBILITY.LOCALLY CORRECTCAN STILL BEGLOBALLY FRAGILE.Generated implementation still has to be understood, integrated, tested and validated.THE SAME PROCESS.LESS TIME.Hackathons bring problem evaluation, architecture, building, testing and pitching into hours. I enjoy prioritizing with a team, integrating the work, shaping the interface and defending technical decisions.STRATEGY / ARCHITECTURE / BUILD / TEST / PITCHINCSEPTION 2.0 / 1ST PLACEPUSH PULL COMMIT / 3RD PLACESMART INDIA HACKATHON 2026 / REPORTED COLLEGE SHORTLIST FOR PROJECT SUBMISSIONCURRENT STATE:LEARNING.I'm working on Machine Learning, Deep Learning, Data Structures & Algorithms, Database Systems and Full-Stack Product Engineering—moving from using tools toward understanding the principles underneath them.FIRST WEBSITE → STILL LEARNING.UNDERSTANDINGWHAT'S UNDERNEATH.FIRST WEBSITE → STILL LEARNING.2026 / STILL LEARNINGGOOGLE AI PROFESSIONAL CERTIFICATE / COMPLETED 2026 / 7 COURSESNOT EVERYTHINGIS A PROJECT.I train regularly at the gym and enjoy cricket, basketball and football. Music is part of daily life, often while travelling or working. I spend time with friends and family, too.Movement. Music. People.BASKETBALL / INTER-HOUSE SCHOOL / FIRST PLACE (PERSONAL ACCOUNT)FOOTBALL / PUC / SECOND PLACE (PERSONAL ACCOUNT)I WANT TO BUILDSYSTEMS THATDON'T JUST LIVEON A SCREEN.I want to connect intelligence to the physical world and turn complex ideas into something useful.INTELLIGENCE → INTERACTION → PHYSICAL WORLDPLACES TO BUILD.ROOM TO LEARN.I'm interested in internships, hackathons, collaborations, startup projects, technical communities and meeting other builders—opportunities to learn and grow.LEAVE KNOWING MORE THAN WHEN I ENTERED.STILL LEARNING.STILL BUILDING.NEXT SYSTEM\nUNKNOWN.?02 / ABOUTPERSON / ORIGINTHE SYSTEMS TELL\nPART OF THE STORY.NOW MEET\nTHE PERSON\nBUILDING THEM.ANIRUDH\nSHASHIKUMARI'm a Computer Science Engineering student interested in how AI, computer vision, software and hardware connect into complete systems.COMPUTER SCIENCE ENGINEERING STUDENT · BENGALURU, INDIAIT STARTED\nWITH CURIOSITY.Getting my first computer sparked the interest. Around seventh grade, during the COVID period, I started programming for fun: a few lines of logic could become something visible and interactive.2020.\nFIRST WEBSITE.2020 / FIRST WEBSITEPRESIDENCY SCHOOL / HTML WEBSITE COMPETITION / FIRST POSITIONIn 2020, I entered my first proper Computer Science competition with a personal HTML/CSS website—login interface, forms and hyperlinks. It won First Position. Formal Computer Science classes during PUC later made programming more serious.THE FIRST PORTFOLIO, BEFORE THIS PORTFOLIO.EVOLUTION / WHY INTELLIGENCEONE LAYER\nOPENED ANOTHER.What began as making a website expanded into an interest in how software, AI, data, vision, hardware and interfaces work together.I WANTED TO KNOW\nHOW THEY CONNECT.2020 / FIRST WEBSITEPROGRAMMINGSOFTWAREFULL-STACKAICOMPUTER VISIONPHYSICAL + DIGITALMULTIMODAL INTELLIGENCE2026 / STILL LEARNINGA LEARNING PATH, NOT A CAREER LADDER.SOME PROBLEMS\nDON'T FIT\nINSIDE RULES.Images, language and spatial information contain ambiguity. SAR-to-optical experiments made model architecture, training, loss functions and perceptual evaluation tangible.FROM EXPLICIT RULES TO LEARNED PATTERNS.IMAGE → DATA\nMOVEMENT → INTERACTION\nSPACE → INTERFACEVision interested me because software could respond to the physical world. Camera input and movement became ways to learn through interaction and play.CAMERA AS INPUT.MODEL ↔ PRODUCT / HOW I BUILDMODEL ↔ PRODUCTMODELDATAAPILOGICINTERFACEDEPLOYMENTVALIDATIONPRODUCTAn intelligent component is only part of the experience. I enjoy connecting it to data, APIs, application logic, interfaces, deployment and validation.THE PART I LIKE\nIS CONNECTING\nTHE LAYERS.BETWEEN MODEL AND PRODUCT.ARCHITECTURE FIRST.IDEAUNDERSTANDRESEARCHARCHITECTUREBUILDAI-ASSISTED IMPLEMENTATIONTESTVALIDATEITERATEI want to understand the problem and the system boundaries before implementation. The goal is not just working components, but a coherent system.I use AI tools to accelerate implementation, boilerplate, syntax, repetitive work and iteration. I own the architecture, context, technical decisions, integration, testing and validation.Generated implementation still has to be understood, integrated, tested and validated.LOCALLY CORRECT\nCAN STILL BE\nGLOBALLY FRAGILE.ONE WORKFLOW. CLEAR RESPONSIBILITY.HACKATHONS / STILL LEARNINGTHE SAME PROCESS.\nLESS TIME.Hackathons bring problem evaluation, architecture, building, testing and pitching into hours. I enjoy prioritizing with a team, integrating the work, shaping the interface and defending technical decisions.PROBLEM → BUILD → PITCHINCSEPTION 2.0 / 1ST PLACEPUSH PULL COMMIT / 3RD PLACESMART INDIA HACKATHON 2026 / REPORTED COLLEGE SHORTLIST FOR PROJECT SUBMISSIONSTRATEGY / ARCHITECTURE / BUILD / TEST / PITCHCURRENT STATE:\nLEARNING.I'm working on Machine Learning, Deep Learning, Data Structures & Algorithms, Database Systems and Full-Stack Product Engineering—moving from using tools toward understanding the principles underneath them.UNDERSTANDING\nWHAT'S UNDERNEATH.2020 / FIRST WEBSITE↓2026 / STILL LEARNING2026 / STILL LEARNINGGOOGLE AI PROFESSIONAL CERTIFICATE / COMPLETED 2026 / 7 COURSESFIRST WEBSITE → STILL LEARNING.NOT EVERYTHING\nIS A PROJECT.Movement. Music. People.I train regularly at the gym and enjoy cricket, basketball and football. Music is part of daily life, often while travelling or working. I spend time with friends and family, too.BASKETBALL / INTER-HOUSE SCHOOL / FIRST PLACE (PERSONAL ACCOUNT)FOOTBALL / PUC / SECOND PLACE (PERSONAL ACCOUNT)I WANT TO BUILD\nSYSTEMS THAT\nDON'T JUST LIVE\nON A SCREEN.I want to connect intelligence to the physical world and turn complex ideas into something useful.INTELLIGENCE → INTERACTION → PHYSICAL WORLDPLACES TO BUILD.\nROOM TO LEARN.I'm interested in internships, hackathons, collaborations, startup projects, technical communities and meeting other builders—opportunities to learn and grow.STILL LEARNING.\nSTILL BUILDING.NEXT SYSTEM\nUNKNOWN.?LEAVE KNOWING MORE THAN WHEN I ENTERED."
+}

@@ -1,0 +1,1316 @@
+{
+  "phase": "after",
+  "cases": [
+    {
+      "name": "homepage-nojs-metadata-and-person",
+      "status": 200,
+      "head": {
+        "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "description",
+            "content": "I build systems across AI, vision, software, and the physical world. Portfolio of Anirudh Shashikumar — Computer Science Engineering."
+          },
+          {
+            "name": "og:title",
+            "content": "Anirudh Shashikumar — Engineering the Next Era of Intelligence"
+          },
+          {
+            "name": "og:description",
+            "content": "I build systems across AI, vision, software, and the physical world. Portfolio of Anirudh Shashikumar — Computer Science Engineering."
+          },
+          {
+            "name": "og:url",
+            "content": "https://myportfolio-alpha-one-48.vercel.app"
+          },
+          {
+            "name": "og:site_name",
+            "content": "Anirudh Shashikumar"
+          },
+          {
+            "name": "og:image",
+            "content": "https://myportfolio-alpha-one-48.vercel.app/opengraph-image.png"
+          },
+          {
+            "name": "og:image:type",
+            "content": "image/png"
+          },
+          {
+            "name": "og:image:width",
+            "content": "1200"
+          },
+          {
+            "name": "og:image:height",
+            "content": "630"
+          },
+          {
+            "name": "og:image:alt",
+            "content": "Anirudh Shashikumar — Engineering the Next Era of Intelligence. AI, vision, software and physical systems."
+          },
+          {
+            "name": "og:type",
+            "content": "website"
+          },
+          {
+            "name": "twitter:card",
+            "content": "summary_large_image"
+          },
+          {
+            "name": "twitter:title",
+            "content": "Anirudh Shashikumar — Engineering the Next Era of Intelligence"
+          },
+          {
+            "name": "twitter:description",
+            "content": "I build systems across AI, vision, software, and the physical world. Portfolio of Anirudh Shashikumar — Computer Science Engineering."
+          },
+          {
+            "name": "twitter:image",
+            "content": "https://myportfolio-alpha-one-48.vercel.app/opengraph-image.png"
+          },
+          {
+            "name": "twitter:image:alt",
+            "content": "Anirudh Shashikumar — Engineering the Next Era of Intelligence. AI, vision, software and physical systems."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "canonical",
+            "href": "https://myportfolio-alpha-one-48.vercel.app/",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "@id": "https://myportfolio-alpha-one-48.vercel.app/#person",
+            "name": "Anirudh Shashikumar",
+            "url": "https://myportfolio-alpha-one-48.vercel.app/",
+            "description": "I build systems across AI, vision, software, and the physical world.",
+            "sameAs": [
+              "https://github.com/AnirudhShashikumar",
+              "https://www.linkedin.com/in/anirudh-shashikumar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "crawler-Twitterbot/1.0",
+      "status": 200,
+      "metadataInResponseHead": true
+    },
+    {
+      "name": "crawler-facebookexternalhit/1.1",
+      "status": 200,
+      "metadataInResponseHead": true
+    },
+    {
+      "name": "crawler-Googlebot",
+      "status": 200,
+      "metadataInResponseHead": true
+    },
+    {
+      "path": "/favicon.ico",
+      "status": 200,
+      "contentType": "image/x-icon",
+      "bytes": 2748,
+      "frames": [
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          48,
+          48
+        ]
+      ]
+    },
+    {
+      "path": "/apple-touch-icon.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 4998,
+      "image": {
+        "width": 180,
+        "height": 180,
+        "format": "png",
+        "hasAlpha": false
+      }
+    },
+    {
+      "path": "/opengraph-image.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 62822,
+      "image": {
+        "width": 1200,
+        "height": 630,
+        "format": "png",
+        "hasAlpha": false
+      }
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "contentType": "text/plain",
+      "bytes": 89,
+      "body": "User-Agent: *\nAllow: /\n\nSitemap: https://myportfolio-alpha-one-48.vercel.app/sitemap.xml\n"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 179,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://myportfolio-alpha-one-48.vercel.app/</loc>\n</url>\n</urlset>\n",
+      "xml": {
+        "valid": true,
+        "namespace": "http://www.sitemaps.org/schemas/sitemap/0.9"
+      }
+    },
+    {
+      "name": "404-chrome-1440x900-no-preference",
+      "status": 404,
+      "javaScriptEnabled": true,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "font": "Geist, \"Geist Fallback\", Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 57.59375,
+          "y": 624.96875,
+          "width": 194.578125,
+          "height": 48,
+          "top": 624.96875,
+          "right": 252.171875,
+          "bottom": 672.96875,
+          "left": 57.59375
+        }
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "name": "404-chrome-390x844-no-preference",
+      "status": 404,
+      "javaScriptEnabled": true,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "font": "Geist, \"Geist Fallback\", Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 24,
+          "y": 535.03125,
+          "width": 194.578125,
+          "height": 48,
+          "top": 535.03125,
+          "right": 218.578125,
+          "bottom": 583.03125,
+          "left": 24
+        }
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "name": "404-chrome-360x800-nojs",
+      "status": 404,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 800,
+          "top": 0,
+          "right": 360,
+          "bottom": 800,
+          "left": 0
+        },
+        "font": "Geist, \"Geist Fallback\", Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 24,
+          "y": 513.03125,
+          "width": 194.578125,
+          "height": 48,
+          "top": 513.03125,
+          "right": 218.578125,
+          "bottom": 561.03125,
+          "left": 24
+        }
+      }
+    },
+    {
+      "name": "404-chrome-1440x900-nojs",
+      "status": 404,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "font": "Geist, \"Geist Fallback\", Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 57.59375,
+          "y": 624.96875,
+          "width": 194.578125,
+          "height": 48,
+          "top": 624.96875,
+          "right": 252.171875,
+          "bottom": 672.96875,
+          "left": 57.59375
+        }
+      }
+    },
+    {
+      "name": "404-chrome-430x932-reduce",
+      "status": 404,
+      "javaScriptEnabled": true,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 932,
+          "top": 0,
+          "right": 430,
+          "bottom": 932,
+          "left": 0
+        },
+        "font": "Geist, \"Geist Fallback\", Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 24,
+          "y": 579.03125,
+          "width": 194.578125,
+          "height": 48,
+          "top": 579.03125,
+          "right": 218.578125,
+          "bottom": 627.03125,
+          "left": 24
+        }
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "name": "404-webkit-1440x900-no-preference",
+      "status": 404,
+      "javaScriptEnabled": true,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "font": "Geist, Geist Fallback, Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 57.59375,
+          "y": 624.953125,
+          "width": 194.578125,
+          "height": 48,
+          "top": 624.953125,
+          "right": 252.171875,
+          "bottom": 672.953125,
+          "left": 57.59375
+        }
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "name": "404-webkit-390x844-no-preference",
+      "status": 404,
+      "javaScriptEnabled": true,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 843.984375,
+          "top": 0,
+          "right": 390,
+          "bottom": 843.984375,
+          "left": 0
+        },
+        "font": "Geist, Geist Fallback, Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 24,
+          "y": 535.015625,
+          "width": 194.578125,
+          "height": 48,
+          "top": 535.015625,
+          "right": 218.578125,
+          "bottom": 583.015625,
+          "left": 24
+        }
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "name": "404-webkit-360x800-nojs",
+      "status": 404,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 800,
+          "top": 0,
+          "right": 360,
+          "bottom": 800,
+          "left": 0
+        },
+        "font": "Geist, Geist Fallback, Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 24,
+          "y": 513.03125,
+          "width": 194.578125,
+          "height": 48,
+          "top": 513.03125,
+          "right": 218.578125,
+          "bottom": 561.03125,
+          "left": 24
+        }
+      }
+    },
+    {
+      "name": "404-webkit-1440x900-nojs",
+      "status": 404,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "font": "Geist, Geist Fallback, Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 57.59375,
+          "y": 624.953125,
+          "width": 194.578125,
+          "height": 48,
+          "top": 624.953125,
+          "right": 252.171875,
+          "bottom": 672.953125,
+          "left": 57.59375
+        }
+      }
+    },
+    {
+      "name": "404-webkit-430x932-reduce",
+      "status": 404,
+      "javaScriptEnabled": true,
+      "head": {
+        "title": "Page not found | Anirudh Shashikumar",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "This page could not be found. Return to Anirudh Shashikumar's portfolio."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/7f1cb2be662f62c0.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "icon",
+            "href": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "href": "http://127.0.0.1:3001/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+        ],
+        "person": []
+      },
+      "geometry": {
+        "overflow": 0,
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 932,
+          "top": 0,
+          "right": 430,
+          "bottom": 932,
+          "left": 0
+        },
+        "font": "Geist, Geist Fallback, Arial, Helvetica, sans-serif"
+      },
+      "focus": {
+        "outline": "solid",
+        "width": "2px",
+        "color": "rgb(169, 214, 255)",
+        "rect": {
+          "x": 24,
+          "y": 579.03125,
+          "width": 194.578125,
+          "height": 48,
+          "top": 579.03125,
+          "right": 218.578125,
+          "bottom": 627.03125,
+          "left": 24
+        }
+      },
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+}

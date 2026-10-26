@@ -1,0 +1,12 @@
+after desktop-home 0: LCP 92ms, tasks 0, first draw 388ms, JS body 475086
+after desktop-home 1: LCP 60ms, tasks 0, first draw 383ms, JS body 475086
+after desktop-home 2: LCP 56ms, tasks 0, first draw 378ms, JS body 475086
+after mobile-home 0: LCP 1024ms, tasks 2, first draw 3980ms, JS body 475086
+after mobile-home 1: LCP 1028ms, tasks 2, first draw 3965ms, JS body 475086
+after mobile-home 2: LCP 1036ms, tasks 2, first draw 3980ms, JS body 475086
+after desktop-about 0: LCP 60ms, tasks 0, first draw 418ms, JS body 475086
+after desktop-about 1: LCP 68ms, tasks 0, first draw 388ms, JS body 475086
+after desktop-about 2: LCP 60ms, tasks 0, first draw 415ms, JS body 475086
+after desktop-reduced 0: LCP 60ms, tasks 0, first draw 400ms, JS body 475086
+after desktop-reduced 1: LCP 48ms, tasks 0, first draw 400ms, JS body 475086
+after desktop-reduced 2: LCP 60ms, tasks 0, first draw 400ms, JS body 475086

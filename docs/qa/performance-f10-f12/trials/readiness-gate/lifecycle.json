@@ -1,0 +1,1662 @@
+{
+  "activity": [
+    {
+      "region": "#home",
+      "windowMs": 1000,
+      "draws": 854,
+      "clears": 0,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 13,
+        "bufferData": 13,
+        "bufferUploadBytes": 6924,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      }
+    },
+    {
+      "region": "#work",
+      "windowMs": 1000,
+      "draws": 0,
+      "clears": 0,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 14,
+        "bufferData": 14,
+        "bufferUploadBytes": 6936,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      }
+    },
+    {
+      "region": "#about",
+      "windowMs": 1000,
+      "draws": 0,
+      "clears": 0,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 14,
+        "bufferData": 14,
+        "bufferUploadBytes": 6936,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      }
+    },
+    {
+      "region": "#contact",
+      "windowMs": 1000,
+      "draws": 0,
+      "clears": 0,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 14,
+        "bufferData": 14,
+        "bufferUploadBytes": 6936,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      }
+    }
+  ],
+  "scroll": [
+    {
+      "region": "#home",
+      "count": 180,
+      "median": 16.69999999999891,
+      "p95": 16.799999999999272,
+      "max": 16.80000000000109,
+      "over33": 0,
+      "tasks": []
+    },
+    {
+      "region": "[data-work-project='0']",
+      "count": 180,
+      "median": 16.700000000000728,
+      "p95": 16.799999999999272,
+      "max": 16.80000000000291,
+      "over33": 0,
+      "tasks": []
+    },
+    {
+      "region": "[data-work-project='2']",
+      "count": 180,
+      "median": 16.69999999999709,
+      "p95": 16.799999999999272,
+      "max": 16.80000000000291,
+      "over33": 0,
+      "tasks": []
+    },
+    {
+      "region": "#about",
+      "count": 180,
+      "median": 16.700000000000728,
+      "p95": 16.700000000000728,
+      "max": 16.80000000000291,
+      "over33": 0,
+      "tasks": []
+    },
+    {
+      "region": "#contact",
+      "count": 180,
+      "median": 16.700000000000728,
+      "p95": 16.700000000000728,
+      "max": 16.80000000000291,
+      "over33": 0,
+      "tasks": []
+    }
+  ],
+  "memory": [
+    {
+      "cycle": 0,
+      "heap": {
+        "usedSize": 13988316,
+        "totalSize": 15335424,
+        "embedderHeapUsedSize": 8382920,
+        "backingStorageSize": 1714909
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 3317,
+        "jsEventListeners": 439
+      },
+      "triggers": 41,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 20,
+        "bufferData": 20,
+        "bufferUploadBytes": 7008,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      }
+    },
+    {
+      "cycle": 1,
+      "heap": {
+        "usedSize": 14075536,
+        "totalSize": 15597568,
+        "embedderHeapUsedSize": 8381992,
+        "backingStorageSize": 1714909
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 3317,
+        "jsEventListeners": 439
+      },
+      "triggers": 41,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 22,
+        "bufferData": 22,
+        "bufferUploadBytes": 7032,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      }
+    },
+    {
+      "cycle": 2,
+      "heap": {
+        "usedSize": 14099880,
+        "totalSize": 15597568,
+        "embedderHeapUsedSize": 8381952,
+        "backingStorageSize": 1714909
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 3317,
+        "jsEventListeners": 439
+      },
+      "triggers": 41,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 24,
+        "bufferData": 24,
+        "bufferUploadBytes": 7056,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      }
+    },
+    {
+      "cycle": 3,
+      "heap": {
+        "usedSize": 14119748,
+        "totalSize": 15597568,
+        "embedderHeapUsedSize": 8381936,
+        "backingStorageSize": 1714909
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 3317,
+        "jsEventListeners": 439
+      },
+      "triggers": 41,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 26,
+        "bufferData": 26,
+        "bufferUploadBytes": 7080,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      }
+    },
+    {
+      "cycle": 4,
+      "heap": {
+        "usedSize": 14147240,
+        "totalSize": 15597568,
+        "embedderHeapUsedSize": 8446456,
+        "backingStorageSize": 1714909
+      },
+      "dom": {
+        "documents": 1,
+        "nodes": 3317,
+        "jsEventListeners": 439
+      },
+      "triggers": 41,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 28,
+        "bufferData": 28,
+        "bufferUploadBytes": 7104,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      }
+    }
+  ],
+  "wheel": [
+    {
+      "region": "#home",
+      "start": {
+        "time": 30362.39999999106,
+        "y": 360
+      },
+      "firstScroll": {
+        "time": 30400.09999999404,
+        "y": 382
+      },
+      "settledY": 479
+    },
+    {
+      "region": "#work",
+      "start": {
+        "time": 31298.59999999404,
+        "y": 480
+      },
+      "firstScroll": {
+        "time": 31350,
+        "y": 501
+      },
+      "settledY": 599
+    },
+    {
+      "region": "#about",
+      "start": {
+        "time": 32248.89999999106,
+        "y": 600
+      },
+      "firstScroll": {
+        "time": 32300,
+        "y": 621
+      },
+      "settledY": 719
+    },
+    {
+      "region": "#contact",
+      "start": {
+        "time": 33198.39999999106,
+        "y": 720
+      },
+      "firstScroll": {
+        "time": 33233.19999998808,
+        "y": 740
+      },
+      "settledY": 839
+    }
+  ],
+  "events": [
+    {
+      "name": "pointerdown",
+      "time": 45736.39999999106,
+      "duration": 48,
+      "inputDelay": 1.4000000059604645,
+      "processing": 0.5,
+      "interactionId": 8569
+    },
+    {
+      "name": "pointerup",
+      "time": 45736.59999999404,
+      "duration": 48,
+      "inputDelay": 2.0999999940395355,
+      "processing": 0,
+      "interactionId": 8569
+    },
+    {
+      "name": "click",
+      "time": 45736.59999999404,
+      "duration": 48,
+      "inputDelay": 2.2000000029802322,
+      "processing": 7.200000002980232,
+      "interactionId": 8569
+    }
+  ],
+  "errors": [],
+  "final": {
+    "metrics": {
+      "tasks": [],
+      "lcp": [
+        {
+          "time": 76,
+          "size": 119556,
+          "text": "WHAT I WANT",
+          "tag": "SPAN"
+        },
+        {
+          "time": 9184,
+          "size": 141191,
+          "text": "SHASHIKUMAR",
+          "tag": "SPAN"
+        },
+        {
+          "time": 16476,
+          "size": 267029,
+          "text": "",
+          "tag": "IMG"
+        },
+        {
+          "time": 17276,
+          "size": 604048,
+          "text": "",
+          "tag": "IMG"
+        }
+      ],
+      "shifts": [
+        {
+          "time": 13635.59999999404,
+          "value": 0.0005329356084962277,
+          "recentInput": false
+        },
+        {
+          "time": 13651.79999999702,
+          "value": 0.0005065375434027777,
+          "recentInput": false
+        },
+        {
+          "time": 13668.59999999404,
+          "value": 0.000503441679526749,
+          "recentInput": false
+        },
+        {
+          "time": 13685.09999999404,
+          "value": 0.0005078595866555213,
+          "recentInput": false
+        },
+        {
+          "time": 13700.39999999106,
+          "value": 0.0004921424897119341,
+          "recentInput": false
+        },
+        {
+          "time": 13718.199999988079,
+          "value": 0.0004852754736796982,
+          "recentInput": false
+        },
+        {
+          "time": 13735.09999999404,
+          "value": 0.0005003600823045267,
+          "recentInput": false
+        },
+        {
+          "time": 13752.09999999404,
+          "value": 0.000477076903292181,
+          "recentInput": false
+        },
+        {
+          "time": 13768.39999999106,
+          "value": 0.0004720550411522633,
+          "recentInput": false
+        },
+        {
+          "time": 13934.79999999702,
+          "value": 0.0036135105211548353,
+          "recentInput": false
+        },
+        {
+          "time": 13952.09999999404,
+          "value": 0.003397338364840535,
+          "recentInput": false
+        },
+        {
+          "time": 13967.89999999106,
+          "value": 0.003286192826217421,
+          "recentInput": false
+        },
+        {
+          "time": 13984.699999988079,
+          "value": 0.0032769860789609055,
+          "recentInput": false
+        },
+        {
+          "time": 14001.59999999404,
+          "value": 0.0030565225734632204,
+          "recentInput": false
+        },
+        {
+          "time": 14018.09999999404,
+          "value": 0.002945121742112483,
+          "recentInput": false
+        },
+        {
+          "time": 14034.699999988079,
+          "value": 0.0016594391999421297,
+          "recentInput": false
+        },
+        {
+          "time": 14918.09999999404,
+          "value": 0.004452953532235939,
+          "recentInput": false
+        },
+        {
+          "time": 14935,
+          "value": 0.004718356662326389,
+          "recentInput": false
+        },
+        {
+          "time": 14951.39999999106,
+          "value": 0.004983403193051269,
+          "recentInput": false
+        },
+        {
+          "time": 14968.59999999404,
+          "value": 0.0052279938874421296,
+          "recentInput": false
+        },
+        {
+          "time": 14985.39999999106,
+          "value": 0.002227271010159465,
+          "recentInput": false
+        },
+        {
+          "time": 15066.79999999702,
+          "value": 0.00013039833233680255,
+          "recentInput": false
+        },
+        {
+          "time": 15085.5,
+          "value": 0.0007116587362825788,
+          "recentInput": false
+        },
+        {
+          "time": 15101.59999999404,
+          "value": 0.0007320980956361454,
+          "recentInput": false
+        },
+        {
+          "time": 15118.5,
+          "value": 0.0007343712491426612,
+          "recentInput": false
+        },
+        {
+          "time": 15135.39999999106,
+          "value": 0.0007476202149777093,
+          "recentInput": false
+        },
+        {
+          "time": 15151.39999999106,
+          "value": 0.0007608834474665638,
+          "recentInput": false
+        },
+        {
+          "time": 15167.89999999106,
+          "value": 0.0007800102746699245,
+          "recentInput": false
+        },
+        {
+          "time": 15318.699999988079,
+          "value": 0.00011893623233332065,
+          "recentInput": false
+        },
+        {
+          "time": 15351.5,
+          "value": 0.00037825654792524006,
+          "recentInput": false
+        },
+        {
+          "time": 15367.89999999106,
+          "value": 0.0004529091917438271,
+          "recentInput": false
+        },
+        {
+          "time": 15384.699999988079,
+          "value": 0.00044845799575617286,
+          "recentInput": false
+        },
+        {
+          "time": 15401.29999999702,
+          "value": 0.0004345194749871399,
+          "recentInput": false
+        },
+        {
+          "time": 15417.89999999106,
+          "value": 0.0004406684027777778,
+          "recentInput": false
+        },
+        {
+          "time": 15434.5,
+          "value": 0.00043621720679012346,
+          "recentInput": false
+        },
+        {
+          "time": 15451.29999999702,
+          "value": 0.0004236292625814471,
+          "recentInput": false
+        },
+        {
+          "time": 15468.29999999702,
+          "value": 0.0004284276138117284,
+          "recentInput": false
+        },
+        {
+          "time": 15485.39999999106,
+          "value": 0.00042216455279063785,
+          "recentInput": false
+        },
+        {
+          "time": 15501.89999999106,
+          "value": 0.0004008656024278764,
+          "recentInput": false
+        },
+        {
+          "time": 15518.699999988079,
+          "value": 0.0005958597568491032,
+          "recentInput": false
+        },
+        {
+          "time": 15534.89999999106,
+          "value": 0.0006188832241811869,
+          "recentInput": false
+        },
+        {
+          "time": 15551.199999988079,
+          "value": 0.0006190187950193146,
+          "recentInput": false
+        },
+        {
+          "time": 15567.89999999106,
+          "value": 0.0007190846468359028,
+          "recentInput": false
+        }
+      ],
+      "events": [
+        {
+          "name": "pointerdown",
+          "time": 45736.39999999106,
+          "duration": 48,
+          "inputDelay": 1.4000000059604645,
+          "processing": 0.5,
+          "interactionId": 8569
+        },
+        {
+          "name": "pointerup",
+          "time": 45736.59999999404,
+          "duration": 48,
+          "inputDelay": 2.0999999940395355,
+          "processing": 0,
+          "interactionId": 8569
+        },
+        {
+          "name": "click",
+          "time": 45736.59999999404,
+          "duration": 48,
+          "inputDelay": 2.2000000029802322,
+          "processing": 7.200000002980232,
+          "interactionId": 8569
+        }
+      ],
+      "contexts": [
+        {
+          "type": "webgl2",
+          "start": 109.79999999701977,
+          "end": 112.8999999910593,
+          "attached": false
+        },
+        {
+          "type": "webgl2",
+          "start": 119.09999999403954,
+          "end": 120.69999998807907,
+          "attached": false
+        },
+        {
+          "type": "webgl2",
+          "start": 488,
+          "end": 490.09999999403954,
+          "attached": true
+        }
+      ],
+      "draws": 15190,
+      "clears": 428,
+      "allocations": {
+        "createTexture": 4,
+        "createBuffer": 28,
+        "bufferData": 28,
+        "bufferUploadBytes": 7104,
+        "createProgram": 4,
+        "createShader": 8,
+        "deleteShader": 8
+      },
+      "firstDraw": 506.5
+    },
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 83,
+      "navigationId": 3658,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.3999999910593033,
+      "domainLookupStart": 0.3999999910593033,
+      "domainLookupEnd": 0.3999999910593033,
+      "connectStart": 0.3999999910593033,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.3999999910593033,
+      "requestStart": 1,
+      "responseStart": 4.699999988079071,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 4.699999988079071,
+      "responseEnd": 7.5,
+      "transferSize": 51166,
+      "encodedBodySize": 50866,
+      "decodedBodySize": 268478,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 14.599999994039536,
+      "domContentLoadedEventStart": 14.599999994039536,
+      "domContentLoadedEventEnd": 14.599999994039536,
+      "domComplete": 83,
+      "loadEventStart": 83,
+      "loadEventEnd": 83,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "start": 7.899999991059303,
+        "end": 10.199999988079071,
+        "duration": 2.2999999970197678,
+        "encodedBodyBytes": 5041,
+        "decodedBodyBytes": 18649,
+        "transferBytes": 5341
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "start": 7.899999991059303,
+        "end": 9.5,
+        "duration": 1.6000000089406967,
+        "encodedBodyBytes": 29288,
+        "decodedBodyBytes": 29288,
+        "transferBytes": 29588
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "start": 7.899999991059303,
+        "end": 10.799999997019768,
+        "duration": 2.9000000059604645,
+        "encodedBodyBytes": 23108,
+        "decodedBodyBytes": 23108,
+        "transferBytes": 23408
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "start": 8,
+        "end": 12,
+        "duration": 4,
+        "encodedBodyBytes": 11491,
+        "decodedBodyBytes": 57466,
+        "transferBytes": 11791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "start": 8,
+        "end": 13.599999994039536,
+        "duration": 5.5999999940395355,
+        "encodedBodyBytes": 17675,
+        "decodedBodyBytes": 82845,
+        "transferBytes": 17975
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "start": 8.099999994039536,
+        "end": 12.199999988079071,
+        "duration": 4.0999999940395355,
+        "encodedBodyBytes": 562,
+        "decodedBodyBytes": 1155,
+        "transferBytes": 862
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-13a300b74e33ad48.js",
+        "type": "link",
+        "start": 8.099999994039536,
+        "end": 15.899999991059303,
+        "duration": 7.799999997019768,
+        "encodedBodyBytes": 1859,
+        "decodedBodyBytes": 3559,
+        "transferBytes": 2159
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "start": 8.099999994039536,
+        "end": 16.299999997019768,
+        "duration": 8.200000002980232,
+        "encodedBodyBytes": 513,
+        "decodedBodyBytes": 513,
+        "transferBytes": 813
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "start": 8.099999994039536,
+        "end": 23.69999998807907,
+        "duration": 15.599999994039536,
+        "encodedBodyBytes": 19771,
+        "decodedBodyBytes": 51569,
+        "transferBytes": 20071
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+        "type": "script",
+        "start": 8.099999994039536,
+        "end": 24.5,
+        "duration": 16.400000005960464,
+        "encodedBodyBytes": 7713,
+        "decodedBodyBytes": 25879,
+        "transferBytes": 8013
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "start": 8.099999994039536,
+        "end": 24.799999997019768,
+        "duration": 16.700000002980232,
+        "encodedBodyBytes": 3454,
+        "decodedBodyBytes": 8113,
+        "transferBytes": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "start": 8.099999994039536,
+        "end": 25.5,
+        "duration": 17.400000005960464,
+        "encodedBodyBytes": 24875,
+        "decodedBodyBytes": 62258,
+        "transferBytes": 25175
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "start": 8.099999994039536,
+        "end": 26,
+        "duration": 17.900000005960464,
+        "encodedBodyBytes": 6643,
+        "decodedBodyBytes": 19083,
+        "transferBytes": 6943
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "start": 8.099999994039536,
+        "end": 26.69999998807907,
+        "duration": 18.599999994039536,
+        "encodedBodyBytes": 64057,
+        "decodedBodyBytes": 203721,
+        "transferBytes": 64357
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "start": 8.099999994039536,
+        "end": 26.799999997019768,
+        "duration": 18.700000002980232,
+        "encodedBodyBytes": 67415,
+        "decodedBodyBytes": 242566,
+        "transferBytes": 67715
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-a9f2c2816bf8bed7.js",
+        "type": "script",
+        "start": 8.099999994039536,
+        "end": 28.19999998807907,
+        "duration": 20.099999994039536,
+        "encodedBodyBytes": 35808,
+        "decodedBodyBytes": 130511,
+        "transferBytes": 36108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "start": 36.8999999910593,
+        "end": 37.69999998807907,
+        "duration": 0.7999999970197678,
+        "encodedBodyBytes": 16540,
+        "decodedBodyBytes": 16540,
+        "transferBytes": 16840
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "start": 55.19999998807907,
+        "end": 58,
+        "duration": 2.800000011920929,
+        "encodedBodyBytes": 12154,
+        "decodedBodyBytes": 12154,
+        "transferBytes": 12454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "start": 55.19999998807907,
+        "end": 58.099999994039536,
+        "duration": 2.9000000059604645,
+        "encodedBodyBytes": 11988,
+        "decodedBodyBytes": 11988,
+        "transferBytes": 12288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "start": 55.19999998807907,
+        "end": 58.29999999701977,
+        "duration": 3.1000000089406967,
+        "encodedBodyBytes": 34162,
+        "decodedBodyBytes": 34162,
+        "transferBytes": 34462
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "start": 55.19999998807907,
+        "end": 58.29999999701977,
+        "duration": 3.1000000089406967,
+        "encodedBodyBytes": 8974,
+        "decodedBodyBytes": 8974,
+        "transferBytes": 9274
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "start": 102,
+        "end": 103.79999999701977,
+        "duration": 1.7999999970197678,
+        "encodedBodyBytes": 2748,
+        "decodedBodyBytes": 2748,
+        "transferBytes": 3048
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "start": 114.5,
+        "end": 123.09999999403954,
+        "duration": 8.599999994039536,
+        "encodedBodyBytes": 88711,
+        "decodedBodyBytes": 367908,
+        "transferBytes": 89011
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "start": 114.59999999403954,
+        "end": 124.59999999403954,
+        "duration": 10,
+        "encodedBodyBytes": 100978,
+        "decodedBodyBytes": 379578,
+        "transferBytes": 101278
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.f16a2f0504e00360.js",
+        "type": "script",
+        "start": 114.69999998807907,
+        "end": 116.09999999403954,
+        "duration": 1.4000000059604645,
+        "encodedBodyBytes": 3738,
+        "decodedBodyBytes": 12270,
+        "transferBytes": 4038
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "start": 114.69999998807907,
+        "end": 116.19999998807907,
+        "duration": 1.5,
+        "encodedBodyBytes": 5181,
+        "decodedBodyBytes": 13128,
+        "transferBytes": 5481
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "start": 114.69999998807907,
+        "end": 120.3999999910593,
+        "duration": 5.700000002980232,
+        "encodedBodyBytes": 46230,
+        "decodedBodyBytes": 146757,
+        "transferBytes": 46530
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
+        "type": "img",
+        "start": 7644.699999988079,
+        "end": 7652.899999991059,
+        "duration": 8.200000002980232,
+        "encodedBodyBytes": 12368,
+        "decodedBodyBytes": 12368,
+        "transferBytes": 12668
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
+        "type": "img",
+        "start": 7644.79999999702,
+        "end": 7652.899999991059,
+        "duration": 8.099999994039536,
+        "encodedBodyBytes": 39974,
+        "decodedBodyBytes": 39974,
+        "transferBytes": 40274
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=1080&q=75",
+        "type": "img",
+        "start": 7645.0999999940395,
+        "end": 7653.399999991059,
+        "duration": 8.299999997019768,
+        "encodedBodyBytes": 30062,
+        "decodedBodyBytes": 30062,
+        "transferBytes": 30362
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-two-hand-tracking.jpg&w=384&q=75",
+        "type": "img",
+        "start": 7645.199999988079,
+        "end": 7653.79999999702,
+        "duration": 8.600000008940697,
+        "encodedBodyBytes": 6078,
+        "decodedBodyBytes": 6078,
+        "transferBytes": 6378
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-globe-scale.jpg&w=384&q=75",
+        "type": "img",
+        "start": 7645.29999999702,
+        "end": 7653.5,
+        "duration": 8.200000002980232,
+        "encodedBodyBytes": 6808,
+        "decodedBodyBytes": 6808,
+        "transferBytes": 7108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "start": 9176.29999999702,
+        "end": 9182.39999999106,
+        "duration": 6.0999999940395355,
+        "encodedBodyBytes": 20206,
+        "decodedBodyBytes": 20206,
+        "transferBytes": 20506
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "start": 9176.29999999702,
+        "end": 9182.5,
+        "duration": 6.200000002980232,
+        "encodedBodyBytes": 32182,
+        "decodedBodyBytes": 32182,
+        "transferBytes": 32482
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-prototype-hero.jpg&w=640&q=75",
+        "type": "img",
+        "start": 19304.89999999106,
+        "end": 19313.29999999702,
+        "duration": 8.400000005960464,
+        "encodedBodyBytes": 23912,
+        "decodedBodyBytes": 23912,
+        "transferBytes": 24212
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-iot-hardware.jpg&w=640&q=75",
+        "type": "img",
+        "start": 19305.09999999404,
+        "end": 19313.39999999106,
+        "duration": 8.299999997019768,
+        "encodedBodyBytes": 39068,
+        "decodedBodyBytes": 39068,
+        "transferBytes": 39368
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-system-infographic.jpg&w=384&q=75",
+        "type": "img",
+        "start": 19305.29999999702,
+        "end": 19313.5,
+        "duration": 8.200000002980232,
+        "encodedBodyBytes": 47684,
+        "decodedBodyBytes": 47684,
+        "transferBytes": 47984
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=1080&q=75",
+        "type": "img",
+        "start": 19305.29999999702,
+        "end": 19313.79999999702,
+        "duration": 8.5,
+        "encodedBodyBytes": 26618,
+        "decodedBodyBytes": 26618,
+        "transferBytes": 26918
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+        "type": "img",
+        "start": 22837.59999999404,
+        "end": 22840.19999998808,
+        "duration": 2.5999999940395355,
+        "encodedBodyBytes": 14976,
+        "decodedBodyBytes": 14976,
+        "transferBytes": 15276
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+        "type": "img",
+        "start": 22837.69999998808,
+        "end": 22840.29999999702,
+        "duration": 2.6000000089406967,
+        "encodedBodyBytes": 13450,
+        "decodedBodyBytes": 13450,
+        "transferBytes": 13750
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "start": 43886.09999999404,
+        "end": 43887.59999999404,
+        "duration": 1.5,
+        "encodedBodyBytes": 2748,
+        "decodedBodyBytes": 2748,
+        "transferBytes": 3048
+      }
+    ],
+    "fonts": "loaded",
+    "canvases": 2,
+    "heroActive": "false",
+    "cdpMetrics": {
+      "Timestamp": 69506.584284,
+      "AudioHandlers": 0,
+      "AudioWorkletProcessors": 0,
+      "Documents": 1,
+      "Frames": 1,
+      "JSEventListeners": 440,
+      "LayoutObjects": 2452,
+      "MediaKeySessions": 0,
+      "MediaKeys": 0,
+      "Nodes": 3339,
+      "Resources": 51,
+      "ContextLifecycleStateObservers": 19,
+      "V8PerContextDatas": 2,
+      "WorkerGlobalScopes": 0,
+      "UACSSResources": 0,
+      "RTCPeerConnections": 0,
+      "ResourceFetchers": 1,
+      "AdSubframes": 0,
+      "DetachedScriptStates": 0,
+      "ArrayBufferContents": 29,
+      "LayoutCount": 731,
+      "RecalcStyleCount": 4907,
+      "LayoutDuration": 0.11843,
+      "RecalcStyleDuration": 0.371166,
+      "DevToolsCommandDuration": 0.164572,
+      "ScriptDuration": 0.919597,
+      "V8CompileDuration": 0.000296,
+      "TaskDuration": 3.03214,
+      "TaskOtherDuration": 1.458079,
+      "ThreadTime": 3.070172,
+      "ProcessTime": 5.865656,
+      "JSHeapUsedSize": 14561556,
+      "JSHeapTotalSize": 18219008,
+      "FirstMeaningfulPaint": 69460.396061,
+      "DomContentLoaded": 69460.338445,
+      "NavigationStart": 69460.323921
+    },
+    "heap": {
+      "usedSize": 14561556,
+      "totalSize": 18219008,
+      "embedderHeapUsedSize": 7899640,
+      "backingStorageSize": 1717637
+    },
+    "dom": {
+      "documents": 1,
+      "nodes": 3339,
+      "jsEventListeners": 440
+    },
+    "errors": [],
+    "warnings": [
+      {
+        "type": "warning",
+        "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+      },
+      {
+        "type": "warning",
+        "text": "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+      },
+      {
+        "type": "warning",
+        "text": "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+      },
+      {
+        "type": "warning",
+        "text": "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+      },
+      {
+        "type": "warning",
+        "text": "The resource http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+      }
+    ],
+    "network": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "Stylesheet",
+        "start": 69460.331854,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "encoding": "gzip",
+        "response": 69460.333873,
+        "end": 69460.334025,
+        "wireBytes": 5424
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "Stylesheet",
+        "start": 69460.33194,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "encoding": "gzip",
+        "response": 69460.336342,
+        "end": 69460.335941,
+        "wireBytes": 11874
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "Stylesheet",
+        "start": 69460.332091,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "encoding": "gzip",
+        "response": 69460.336506,
+        "end": 69460.336048,
+        "wireBytes": 943
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "Font",
+        "start": 69460.331735,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "encoding": "identity",
+        "response": 69460.336582,
+        "end": 69460.333417,
+        "wireBytes": 29588
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "Font",
+        "start": 69460.331834,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "encoding": "identity",
+        "response": 69460.336629,
+        "end": 69460.334693,
+        "wireBytes": 23408
+      },
+      {
+        "url": "http://127.0.0.1:3001/?motion-audit=1",
+        "type": "Document",
+        "start": 69460.324296,
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "encoding": "gzip",
+        "response": 69460.329156,
+        "end": 69460.331357,
+        "wireBytes": 51382
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "Stylesheet",
+        "start": 69460.331915,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "encoding": "gzip",
+        "response": 69460.336548,
+        "end": 69460.337477,
+        "wireBytes": 18066
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-13a300b74e33ad48.js",
+        "type": "Script",
+        "start": 69460.331964,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.34289,
+        "end": 69460.339785,
+        "wireBytes": 2254
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "Script",
+        "start": 69460.332011,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "identity",
+        "response": 69460.342991,
+        "end": 69460.340204,
+        "wireBytes": 860
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "Font",
+        "start": 69460.360701,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "encoding": "identity",
+        "response": 69460.369581,
+        "end": 69460.361521,
+        "wireBytes": 16840
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "Script",
+        "start": 69460.332024,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.379257,
+        "end": 69460.347581,
+        "wireBytes": 20175
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-1a9715263bb68ba5.js",
+        "type": "Script",
+        "start": 69460.332047,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.379335,
+        "end": 69460.348414,
+        "wireBytes": 8110
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "Script",
+        "start": 69460.332058,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.379373,
+        "end": 69460.348667,
+        "wireBytes": 3850
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "Script",
+        "start": 69460.332035,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.379421,
+        "end": 69460.349426,
+        "wireBytes": 25282
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "Script",
+        "start": 69460.332069,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.37947,
+        "end": 69460.349894,
+        "wireBytes": 7040
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "Script",
+        "start": 69460.331984,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.379512,
+        "end": 69460.350594,
+        "wireBytes": 64494
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "Script",
+        "start": 69460.331999,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.379561,
+        "end": 69460.350691,
+        "wireBytes": 67859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-a9f2c2816bf8bed7.js",
+        "type": "Script",
+        "start": 69460.33208,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.379631,
+        "end": 69460.352024,
+        "wireBytes": 36229
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "Image",
+        "start": 69460.379138,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69460.397848,
+        "end": 69460.3819,
+        "wireBytes": 12597
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "Image",
+        "start": 69460.379157,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69460.397982,
+        "end": 69460.381997,
+        "wireBytes": 12421
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "Image",
+        "start": 69460.379092,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69460.398041,
+        "end": 69460.382225,
+        "wireBytes": 34606
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "Image",
+        "start": 69460.379171,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69460.398097,
+        "end": 69460.382255,
+        "wireBytes": 9412
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "Other",
+        "start": 69460.42592,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/x-icon",
+        "encoding": "identity",
+        "response": 69460.442104,
+        "end": 69460.427651,
+        "wireBytes": 3078
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.f16a2f0504e00360.js",
+        "type": "Script",
+        "start": 69460.438643,
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.442416,
+        "end": 69460.440008,
+        "wireBytes": 4134
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "Script",
+        "start": 69460.438593,
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.442889,
+        "end": 69460.440163,
+        "wireBytes": 5578
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "Script",
+        "start": 69460.438539,
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.454407,
+        "end": 69460.444343,
+        "wireBytes": 46652
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "Script",
+        "start": 69460.438094,
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.454512,
+        "end": 69460.446978,
+        "wireBytes": 89171
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "Script",
+        "start": 69460.43847,
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 69460.45458,
+        "end": 69460.448546,
+        "wireBytes": 101453
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
+        "type": "Image",
+        "start": 69467.968667,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69467.976872,
+        "end": 69467.976829,
+        "wireBytes": 40418
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
+        "type": "Image",
+        "start": 69467.968545,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69467.97672,
+        "end": 69467.976757,
+        "wireBytes": 12805
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=1080&q=75",
+        "type": "Image",
+        "start": 69467.969017,
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69467.977374,
+        "end": 69467.977319,
+        "wireBytes": 30505
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-globe-scale.jpg&w=384&q=75",
+        "type": "Image",
+        "start": 69467.969132,
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69467.977488,
+        "end": 69467.977398,
+        "wireBytes": 7240
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-two-hand-tracking.jpg&w=384&q=75",
+        "type": "Image",
+        "start": 69467.969082,
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69467.9777,
+        "end": 69467.977645,
+        "wireBytes": 6516
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "Image",
+        "start": 69469.50026,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69469.506419,
+        "end": 69469.506299,
+        "wireBytes": 20661
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "Image",
+        "start": 69469.500182,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69469.506612,
+        "end": 69469.506357,
+        "wireBytes": 32642
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-prototype-hero.jpg&w=640&q=75",
+        "type": "Image",
+        "start": 69479.628815,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69479.637052,
+        "end": 69479.637213,
+        "wireBytes": 24350
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-iot-hardware.jpg&w=640&q=75",
+        "type": "Image",
+        "start": 69479.62903,
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69479.637215,
+        "end": 69479.637342,
+        "wireBytes": 39504
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-system-infographic.jpg&w=384&q=75",
+        "type": "Image",
+        "start": 69479.629143,
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69479.63729,
+        "end": 69479.637393,
+        "wireBytes": 48126
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=1080&q=75",
+        "type": "Image",
+        "start": 69479.629099,
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69479.637874,
+        "end": 69479.637758,
+        "wireBytes": 27051
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+        "type": "Image",
+        "start": 69483.161515,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69483.164003,
+        "end": 69483.164084,
+        "wireBytes": 15420
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+        "type": "Image",
+        "start": 69483.161587,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 69483.164094,
+        "end": 69483.164187,
+        "wireBytes": 13893
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "Other",
+        "start": 69504.210032,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/x-icon",
+        "encoding": "identity",
+        "response": 69504.211576,
+        "end": 69504.211506,
+        "wireBytes": 3078
+      }
+    ]
+  }
+}

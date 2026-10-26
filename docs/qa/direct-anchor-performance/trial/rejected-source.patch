@@ -1,0 +1,36 @@
+diff --git a/src/components/system/ScrollMotion.tsx b/src/components/system/ScrollMotion.tsx
+index d878c17..b468445 100644
+--- a/src/components/system/ScrollMotion.tsx
++++ b/src/components/system/ScrollMotion.tsx
+@@ -65,6 +65,9 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
+     };
+ 
+     ScrollTrigger.addEventListener("refresh", settle);
++    // Child motion owners have now established their layout. Align this native
++    // fragment and its timelines together, before painting their expanded state.
++    ScrollTrigger.refresh();
+     void document.fonts.ready.then(() => { if (!interrupted) scheduleScrollRefresh(); });
+     const settleTimer = window.setTimeout(interrupt, 1200);
+     window.addEventListener("wheel", interrupt, { passive: true, once: true });
+diff --git a/src/components/system/ViewportProvider.tsx b/src/components/system/ViewportProvider.tsx
+index c282ffb..1aa745a 100644
+--- a/src/components/system/ViewportProvider.tsx
++++ b/src/components/system/ViewportProvider.tsx
+@@ -3,7 +3,7 @@
+ import {
+   createContext,
+   useContext,
+-  useEffect,
++  useLayoutEffect,
+   useState,
+   type ReactNode,
+ } from "react";
+@@ -45,7 +45,7 @@ export function useViewport() {
+ export default function ViewportProvider({ children }: { children: ReactNode }) {
+   const [viewport, setViewport] = useState(initialViewport);
+ 
+-  useEffect(() => {
++  useLayoutEffect(() => {
+     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+     const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
+     let resizeFrame = 0;

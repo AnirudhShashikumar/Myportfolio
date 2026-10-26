@@ -1,0 +1,17 @@
+{
+  "browser": "155.0.8059.85",
+  "node": "v24.14.1",
+  "platform": "darwin",
+  "arch": "arm64",
+  "cpu": "Apple M5",
+  "phase": "after",
+  "mode": "capability",
+  "base": "http://127.0.0.1:3001",
+  "observation": "six seconds after load; new browser context; browser cache disabled; warm server/filesystem/image cache",
+  "mobilePolicy": {
+    "cpuRate": 4,
+    "latency": 150,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750
+  }
+}

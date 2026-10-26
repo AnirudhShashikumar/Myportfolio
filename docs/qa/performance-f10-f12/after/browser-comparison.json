@@ -1,0 +1,28 @@
+{
+  "engines": [
+    {
+      "engine": "chrome",
+      "viewports": 8,
+      "samples": 801,
+      "errors": 0,
+      "failedRequests": 0,
+      "brokenLoadedImages": 0,
+      "overflowStates": 0,
+      "mismatches": 0,
+      "horizontalCandidates": 0,
+      "geometryAndTriggerDifferences": []
+    },
+    {
+      "engine": "webkit",
+      "viewports": 3,
+      "samples": 318,
+      "errors": 0,
+      "failedRequests": 0,
+      "brokenLoadedImages": 0,
+      "overflowStates": 0,
+      "mismatches": 0,
+      "horizontalCandidates": 0,
+      "geometryAndTriggerDifferences": []
+    }
+  ]
+}

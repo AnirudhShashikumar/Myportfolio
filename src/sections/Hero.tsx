@@ -12,13 +12,24 @@ import {
   useState,
   type PointerEvent,
 } from "react";
-import type { OpeningMotion } from "@/components/three/IntelligenceField";
+import type { IntelligenceFieldProps, OpeningMotion } from "@/components/three/IntelligenceField";
 import { useViewport } from "@/components/system/ViewportProvider";
 import HeroKineticGrid, { type HeroPointer } from "./HeroKineticGrid";
 import styles from "./Hero.module.css";
 
-const IntelligenceField = dynamic(
-  () => import("@/components/three/IntelligenceField"),
+const IntelligenceField = dynamic<IntelligenceFieldProps>(
+  () => {
+    // Keep the normal eager import; unsupported browsers need no R3F/Three code.
+    try {
+      const canvas = document.createElement("canvas");
+      const context = canvas.getContext("webgl2");
+      context?.getExtension("WEBGL_lose_context")?.loseContext();
+      if (!context) return Promise.resolve(() => null);
+    } catch {
+      return Promise.resolve(() => null);
+    }
+    return import("@/components/three/IntelligenceField");
+  },
   { ssr: false },
 );
 
