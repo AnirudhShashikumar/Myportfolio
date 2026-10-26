@@ -1,0 +1,367 @@
+{
+  "targetedRuleTargetsMatchF05": true,
+  "targetedRawFindings": [
+    {
+      "width": 390,
+      "region": "#home",
+      "rules": []
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='0']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='1']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='2']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='3']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='4']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "region": "[data-work-project='5']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "region": "#contact",
+      "rules": []
+    },
+    {
+      "width": 1440,
+      "region": "#home",
+      "rules": []
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='0']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='1']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='2']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='3']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='4']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(8)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "region": "[data-work-project='5']",
+      "rules": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(3)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(4)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(5)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(6)"
+            ],
+            [
+              ".WorkNavigation_coordinateNode__2Q_Hm[data-work-coordinate-node=\"true\"]:nth-child(7)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "region": "#contact",
+      "rules": []
+    }
+  ],
+  "heroStates": 319,
+  "heroHorizontalClips": 0,
+  "dayflowStates": 16,
+  "dayflowNodeSamples": 320,
+  "minimumDayflowNodeOpacity": 0.75,
+  "initialContrastViolations": 0,
+  "dayflowReadingViolations": [
+    0
+  ],
+  "dayflowReducedViolations": [
+    0
+  ],
+  "noJavaScriptContact": {
+    "heading": "Contact Anirudh Shashikumar",
+    "links": [
+      {
+        "name": "Email Anirudh Shashikumar",
+        "visible": true
+      },
+      {
+        "name": "Anirudh Shashikumar on LinkedIn (opens in a new tab)",
+        "visible": true
+      },
+      {
+        "name": "Anirudh Shashikumar on GitHub (opens in a new tab)",
+        "visible": true
+      }
+    ],
+    "monument": "true"
+  }
+}

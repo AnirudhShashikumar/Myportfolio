@@ -163,7 +163,7 @@ export default function DayflowFeature() {
               <div className={styles.authorization} data-df-authorization>
                 <p className={styles.eyebrow}>AUTHORIZATION RULE</p>
                 <p className={styles.detailTitle} data-df-authorization-title><span>PORTAL</span><span> ≠ PERMISSION.</span></p>
-                <p data-df-authorization-copy>A trusted database profile role routes the session to Employee or HR/Admin access. Server-side checks and Row Level Security protect the underlying data.</p>
+                <p data-df-authorization-copy>The design routes sessions by database profile role, with server-side checks and Row Level Security policies. Deployed authorization is not independently verified here.</p>
                 <p className={styles.detailMicro}>PRIVATE DOCUMENTS / SHORT-LIVED SIGNED URLS</p>
               </div>
 
@@ -191,16 +191,16 @@ export default function DayflowFeature() {
         <section className={styles.verification} aria-labelledby="dayflow-verification-heading" data-df-verification>
           <Container className={styles.verificationGrid}>
             <div>
-              <p className={styles.eyebrow}>ENGINEERING STATUS</p>
-              <h3 id="dayflow-verification-heading" data-df-verification-title><span>VERIFIED.</span> <span>STILL EVOLVING.</span></h3>
-              <p data-df-verification-copy>Repository checks, public authentication smoke tests, and protected-route redirects pass. Production hardening remains in progress.</p>
+              <p className={styles.eyebrow}>VERIFICATION RECORD</p>
+              <h3 id="dayflow-verification-heading" data-df-verification-title><span>REPORTED.</span> <span>NOT RE-RUN.</span></h3>
+              <p data-df-verification-copy>Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.</p>
             </div>
             <div>
               <dl className={styles.qualitySignals}>
-                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">✓</span><dt>AUTOMATED TESTS</dt><dd>68 PASSING</dd></div>
-                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">✓</span><dt>TYPECHECK</dt><dd>PASSING</dd></div>
-                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">✓</span><dt>LINT</dt><dd>PASSING</dd></div>
-                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">✓</span><dt>PRODUCTION BUILD</dt><dd>PASSING</dd></div>
+                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">—</span><dt>AUTOMATED TESTS</dt><dd>NO RUN LINKED</dd></div>
+                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">—</span><dt>TYPECHECK</dt><dd>NOT RE-RUN</dd></div>
+                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">—</span><dt>LINT</dt><dd>NOT RE-RUN</dd></div>
+                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">—</span><dt>PRODUCTION BUILD</dt><dd>NOT RE-RUN</dd></div>
               </dl>
               <p className={styles.pending} data-df-verification-pending>AUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS</p>
             </div>
@@ -220,7 +220,7 @@ export default function DayflowFeature() {
       </div>
 
       <div id="dayflow-detail" className={styles.detailAnchor} tabIndex={-1}>
-        <Container><p>Full Dayflow case study coming soon.</p></Container>
+        <Container><p>No separate Dayflow case study is published.</p></Container>
       </div>
     </AccessibleProject>
   );

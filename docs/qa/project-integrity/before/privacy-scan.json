@@ -1,0 +1,152 @@
+{
+  "tool": "ExifTool 13.59",
+  "files": [
+    {
+      "file": "public/achievements/google-ai-professional-certificate-2026.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/achievements/presidency-html-competition-first-place-2020.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/apple-touch-icon.png",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/opengraph-image.png",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/algaeos/algaeos-dashboard.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/algaeos/algaeos-iot-hardware.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/algaeos/algaeos-prototype-hero.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/algaeos/algaeos-system-infographic.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/dayflow/dayflow-admin-dashboard.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/dayflow/dayflow-employee-dashboard.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/dayflow/dayflow-role-based-login.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/gesture-globe/gesture-globe-pinch-control.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/gesture-globe/globe-globe-scale.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/gesture-globe/globe-two-hand-tracking.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/medifit/push-pull-commit-certificate.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/medifit/push-pull-commit-team-award-original.heic",
+      "locationFieldNames": [
+        "Composite:GPSAltitude",
+        "Composite:GPSDateTime",
+        "Composite:GPSLatitude",
+        "Composite:GPSLongitude",
+        "Composite:GPSPosition",
+        "GPS:GPSAltitude",
+        "GPS:GPSAltitudeRef",
+        "GPS:GPSDateStamp",
+        "GPS:GPSDestBearing",
+        "GPS:GPSDestBearingRef",
+        "GPS:GPSHPositioningError",
+        "GPS:GPSImgDirection",
+        "GPS:GPSImgDirectionRef",
+        "GPS:GPSLatitude",
+        "GPS:GPSLatitudeRef",
+        "GPS:GPSLongitude",
+        "GPS:GPSLongitudeRef",
+        "GPS:GPSSpeed",
+        "GPS:GPSSpeedRef",
+        "GPS:GPSTimeStamp"
+      ],
+      "gpsIFDFieldCount": 15
+    },
+    {
+      "file": "public/projects/medifit/push-pull-commit-team-event.jpg",
+      "locationFieldNames": [
+        "Composite:GPSAltitude",
+        "Composite:GPSDateTime",
+        "Composite:GPSLatitude",
+        "Composite:GPSLongitude",
+        "Composite:GPSPosition",
+        "GPS:GPSAltitude",
+        "GPS:GPSAltitudeRef",
+        "GPS:GPSDateStamp",
+        "GPS:GPSDestBearing",
+        "GPS:GPSDestBearingRef",
+        "GPS:GPSHPositioningError",
+        "GPS:GPSImgDirection",
+        "GPS:GPSImgDirectionRef",
+        "GPS:GPSLatitude",
+        "GPS:GPSLatitudeRef",
+        "GPS:GPSLongitude",
+        "GPS:GPSLongitudeRef",
+        "GPS:GPSSpeed",
+        "GPS:GPSSpeedRef",
+        "GPS:GPSTimeStamp"
+      ],
+      "gpsIFDFieldCount": 15
+    },
+    {
+      "file": "public/projects/meditwin/incseption-2-certificate.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/meditwin/incseption-2-team-award.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/satquery-ai/satquery-landing-hero.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    },
+    {
+      "file": "public/projects/satquery-ai/satquery-main-interface-dark.jpg",
+      "locationFieldNames": [],
+      "gpsIFDFieldCount": 0
+    }
+  ]
+}

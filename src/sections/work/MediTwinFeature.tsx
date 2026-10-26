@@ -64,7 +64,7 @@ export default function MediTwinFeature() {
                 An AI-driven healthcare concept combining personalized health monitoring with
                 fitness-plan recommendations adapted to individual health conditions.
               </p>
-              <p className={styles.role} data-mt-entry-role>TEAM PROJECT / CODE BLUE · 4 MEMBERS</p>
+              <p className={styles.role} data-mt-entry-role>PROJECT ACCOUNT / CODE BLUE · 4 MEMBERS</p>
             </header>
 
             <section className={styles.formation} aria-labelledby="meditwin-formation-heading" data-mt-formation-section>
@@ -155,7 +155,7 @@ export default function MediTwinFeature() {
           <aside className={styles.evidence} aria-label="MediTwin achievement evidence">
             <div className={styles.executionStrip} data-mt-achievement>
               <div data-mt-achievement-item><span>BUILD WINDOW</span><strong>8 HOURS</strong></div>
-              <div data-mt-achievement-item><span>FIELD</span><strong>~130 TEAMS</strong></div>
+              <div data-mt-achievement-item><span>REPORTED FIELD</span><strong>~130 TEAMS</strong></div>
               <div className={styles.resultSignal} data-mt-achievement-item data-mt-achievement-result>
                 <span>RESULT</span><strong>1ST PLACE</strong><i aria-hidden="true" />
               </div>
@@ -212,7 +212,7 @@ export default function MediTwinFeature() {
                   <span><strong>08H</strong> PRESENT</span>
                 </div>
                 <p data-mt-execution-copy>
-                  A four-person team shaped the concept, monitoring workflows, and personalized
+                  In the team&apos;s account, four members shaped the concept, monitoring workflows, and personalized
                   fitness recommendation direction during the eight-hour hackathon.
                 </p>
                 <p className={styles.organizer} data-mt-execution-organizer>GDG ON CAMPUS BMSIT&amp;M</p>
@@ -227,15 +227,13 @@ export default function MediTwinFeature() {
               <p className={styles.eyebrow}>AI HEALTHCARE · DIGITAL TWIN · PERSONALIZED HEALTH</p>
               <p className={styles.endcapTitle}>A TEAM IDEA, BUILT AT HACKATHON SPEED.</p>
             </div>
-            <a href="#meditwin-detail" className={styles.projectAction} data-mt-cta>
-              VIEW MEDITWIN <span aria-hidden="true">↗</span>
-            </a>
+            <p className={styles.availability} data-mt-cta data-project-availability>CASE STUDY NOT PUBLISHED</p>
           </Container>
         </div>
       </MediTwinMotion>
 
       <div id="meditwin-detail" className={styles.detailAnchor} tabIndex={-1}>
-        <Container><p>Full MediTwin case study coming soon.</p></Container>
+        <Container><p>No separate MediTwin case study is published.</p></Container>
       </div>
     </AccessibleProject>
   );

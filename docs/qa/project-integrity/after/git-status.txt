@@ -1,0 +1,29 @@
+ M README.md
+ M public/projects/medifit/push-pull-commit-team-award-original.heic
+ M public/projects/medifit/push-pull-commit-team-event.jpg
+ M scripts/accessibility-f02-qa.mjs
+ M src/app/layout.tsx
+ M src/app/page.tsx
+ M src/sections/about/aboutContent.ts
+ M src/sections/work/AlgaeOSFeature.module.css
+ M src/sections/work/AlgaeOSFeature.tsx
+ M src/sections/work/DayflowFeature.tsx
+ M src/sections/work/GestureGlobeFeature.tsx
+ M src/sections/work/MediFitFeature.tsx
+ M src/sections/work/MediTwinFeature.module.css
+ M src/sections/work/MediTwinFeature.tsx
+ M src/sections/work/SatQueryFeature.tsx
+ M src/sections/work/Work.tsx
+?? docs/PROJECT_INTEGRITY_REMEDIATION.md
+?? docs/SEO_BRANDING_REMEDIATION.md
+?? docs/qa/project-integrity/
+?? docs/qa/seo-branding/
+?? public/apple-touch-icon.png
+?? public/opengraph-image.png
+?? scripts/generate-brand-assets.mjs
+?? src/app/NotFound.module.css
+?? src/app/favicon.ico
+?? src/app/not-found.tsx
+?? src/app/robots.ts
+?? src/app/sitemap.ts
+?? src/lib/site.ts

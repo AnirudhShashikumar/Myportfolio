@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://myportfolio-alpha-one-48.vercel.app/sitemap.xml

@@ -39,8 +39,8 @@ export default function GestureGlobeFeature() {
 
             <p className="sr-only">
               Gesture Globe uses live camera input to track face and hand landmarks. A pinch gesture
-              changes a cyan spatial object, while two-hand movement changes its scale. The images
-              below show the working real-time system.
+              changes a cyan spatial object, while two-hand movement changes its scale. The supplied
+              captures illustrate the project&apos;s pinch and scale interactions.
             </p>
             <LandmarkScene />
 
@@ -107,7 +107,7 @@ export default function GestureGlobeFeature() {
 
       <div id="gesture-globe-detail" className={styles.detailAnchor} tabIndex={-1}>
         <Container>
-          <p>Full Gesture Globe case study coming soon.</p>
+          <p>No separate Gesture Globe case study is published.</p>
         </Container>
       </div>
     </AccessibleProject>

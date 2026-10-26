@@ -1,0 +1,12 @@
+
+> website@0.1.0 start
+> next start --hostname 127.0.0.1 --port 3000
+
+▲ Next.js 16.4.3
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 51ms
+⚠ Warning: Next.js ignored package-lock.json in /Users/anirudhshashikumar because it is outside the current Git repository (/Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio).
+ To use this directory, set `outputFileTracingRoot` in your Next.js config.
+
+✓ Running next.config.ts took 12ms

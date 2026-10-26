@@ -1,0 +1,127 @@
+{
+  "phase": "before",
+  "cases": [
+    {
+      "name": "homepage",
+      "status": 200,
+      "head": {
+        "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "description",
+            "content": "I build systems across AI, vision, software, and the physical world. Portfolio of Anirudh Shashikumar — Computer Science Engineering."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3000/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3000/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3000/_next/static/css/9594dcef167de3a1.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3000/_next/static/css/06b43f19f18d8e71.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3000/_next/static/css/3b010edd383b9847.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3000/_next/static/chunks/webpack-6daab5533692fb7e.js",
+            "sizes": "",
+            "type": ""
+          }
+        ],
+        "person": []
+      }
+    },
+    {
+      "name": "404",
+      "status": 404,
+      "head": {
+        "title": "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
+        "metas": [
+          {
+            "name": null,
+            "content": ""
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          },
+          {
+            "name": "robots",
+            "content": "noindex"
+          },
+          {
+            "name": "description",
+            "content": "I build systems across AI, vision, software, and the physical world. Portfolio of Anirudh Shashikumar — Computer Science Engineering."
+          },
+          {
+            "name": "next-size-adjust",
+            "content": ""
+          }
+        ],
+        "links": [
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3000/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3000/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+            "sizes": "",
+            "type": "font/woff2"
+          },
+          {
+            "rel": "stylesheet",
+            "href": "http://127.0.0.1:3000/_next/static/css/9594dcef167de3a1.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3000/_next/static/chunks/webpack-6daab5533692fb7e.js",
+            "sizes": "",
+            "type": ""
+          }
+        ],
+        "person": []
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

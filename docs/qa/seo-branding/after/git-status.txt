@@ -1,0 +1,13 @@
+ M src/app/layout.tsx
+ M src/app/page.tsx
+?? docs/SEO_BRANDING_REMEDIATION.md
+?? docs/qa/seo-branding/
+?? public/apple-touch-icon.png
+?? public/opengraph-image.png
+?? scripts/generate-brand-assets.mjs
+?? src/app/NotFound.module.css
+?? src/app/favicon.ico
+?? src/app/not-found.tsx
+?? src/app/robots.ts
+?? src/app/sitemap.ts
+?? src/lib/site.ts

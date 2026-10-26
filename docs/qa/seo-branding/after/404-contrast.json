@@ -1,0 +1,11 @@
+{
+  "background": "#070a0c",
+  "foregroundRatios": {
+    "#edf4f6": 17.84142961218476,
+    "#8d9fa7": 7.232081176885912,
+    "#b8c5ca": 11.228850563931314,
+    "#728a95": 5.468972856101201
+  },
+  "normalTextThreshold": 4.5,
+  "borderThreshold": 3
+}

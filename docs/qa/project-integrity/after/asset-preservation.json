@@ -1,0 +1,36 @@
+[
+  {
+    "SourceFile": "public/projects/medifit/push-pull-commit-team-event.jpg",
+    "ImageDataHash": "fbb460f14025584f7d7830e02758c2b68582d750e29f9bc21a8a90f11da2b0cd",
+    "ImageWidth": 4032,
+    "ImageHeight": 3024,
+    "Orientation": 1,
+    "ColorSpace": 65535,
+    "ProfileDescription": "Display P3",
+    "iccProfileSHA256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+    "fileBytes": 3379024,
+    "fileSHA256": "093b1a90a665f4407b42713b344f24d45ffe0d3eef7ea4e872f6250de927f353",
+    "decodedRGBSHA256": "036edaa0b49ae547014a1cfa3769159a67c85763edd5b20167a7e15b7b4b88dd",
+    "decodedSize": [
+      4032,
+      3024
+    ]
+  },
+  {
+    "SourceFile": "public/projects/medifit/push-pull-commit-team-award-original.heic",
+    "ImageDataHash": "bfb2a075eb03ff428ec99f4b0c728140d43d4426fb89413b41575147110f21a8",
+    "ImageWidth": 4032,
+    "ImageHeight": 3024,
+    "Orientation": 1,
+    "ColorSpace": 65535,
+    "ProfileDescription": "Display P3",
+    "iccProfileSHA256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+    "fileBytes": 2275505,
+    "fileSHA256": "59037094b577c51968f31ec9562dc50720e560abc5729238974af9fcc245f12e",
+    "decodedRGBSHA256": "40b8b83427a8e5adb4a3be2661b6ad21f9de186f1945848d966d812d5b7dc91b",
+    "decodedSize": [
+      4032,
+      3024
+    ]
+  }
+]

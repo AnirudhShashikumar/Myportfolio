@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/AnirudhShashikumar/gesture-globe",
+  "revision": "c35f980b51ede328f8d4055314b101b355bf1e89",
+  "selectedPaths": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "IMPLEMENTATION_SUMMARY.md",
+    "PROJECT_COMPLETION.md",
+    "QUICK_REFERENCE.md",
+    "README.md",
+    "package.json"
+  ],
+  "commitSHA": "c35f980b51ede328f8d4055314b101b355bf1e89",
+  "rootTreeSHA": "6ca77dec282dba382b52e9b1098e17689129d693",
+  "revisionValidatedAsCommit": true
+}

@@ -1,0 +1,1 @@
+Both production-served local originals return 200, match the sanitized files and contain no location fields.

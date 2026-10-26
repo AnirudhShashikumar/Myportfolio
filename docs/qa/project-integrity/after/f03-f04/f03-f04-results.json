@@ -1,0 +1,926 @@
+{
+  "cases": [
+    "1440x900/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe",
+    "768x1024/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe",
+    "681x800/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe",
+    "390x844/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe",
+    "360x800/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe",
+    "320x800/normal: narrative, evidence, noninteractive status, footer layout/contrast/axe",
+    "1440x900/reduced: narrative, evidence, noninteractive status, footer layout/contrast/axe"
+  ],
+  "errors": [],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "footer": [
+    {
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "color": "rgb(104, 125, 134)",
+      "bg": "rgb(7, 10, 12)",
+      "footerHeight": 97,
+      "overflow": 0,
+      "items": [
+        {
+          "text": "ANIRUDH SHASHIKUMAR",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 112,
+            "right": 528.34375,
+            "top": 843.859375,
+            "bottom": 860.359375,
+            "width": 416.34375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 112,
+              "right": 258.3125,
+              "top": 844.859375,
+              "bottom": 858.859375
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "© 2026",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 544.34375,
+            "right": 717.828125,
+            "top": 843.859375,
+            "bottom": 860.359375,
+            "width": 173.484375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 544.34375,
+              "right": 590.546875,
+              "top": 844.859375,
+              "bottom": 858.859375
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BUILT + ITERATED WITH INTENTION",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 733.828125,
+            "right": 1219.59375,
+            "top": 843.859375,
+            "bottom": 860.359375,
+            "width": 485.765625,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 733.828125,
+              "right": 972.53125,
+              "top": 844.859375,
+              "bottom": 858.859375
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BACK TO TOP ↑",
+          "color": "rgb(181, 203, 212)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 1235.59375,
+            "right": 1328,
+            "top": 830.109375,
+            "bottom": 874.109375,
+            "width": 92.40625,
+            "height": 44
+          },
+          "textRects": [
+            {
+              "left": 1235.59375,
+              "right": 1320.296875,
+              "top": 844.859375,
+              "bottom": 858.859375
+            },
+            {
+              "left": 1320.296875,
+              "right": 1328,
+              "top": 843.859375,
+              "bottom": 860.359375
+            },
+            {
+              "left": 1320.296875,
+              "right": 1328,
+              "top": 844.859375,
+              "bottom": 858.859375
+            }
+          ],
+          "transition": "0.18s"
+        }
+      ],
+      "contrast": 4.600576334384279,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reduced": false,
+      "color": "rgb(104, 125, 134)",
+      "bg": "rgb(7, 10, 12)",
+      "footerHeight": 97,
+      "overflow": 0,
+      "items": [
+        {
+          "text": "ANIRUDH SHASHIKUMAR",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 24,
+            "right": 248.34375,
+            "top": 967.5,
+            "bottom": 984,
+            "width": 224.34375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 24,
+              "right": 170.3125,
+              "top": 968.5,
+              "bottom": 982.5
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "© 2026",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 264.34375,
+            "right": 357.828125,
+            "top": 967.5,
+            "bottom": 984,
+            "width": 93.484375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 264.34375,
+              "right": 310.546875,
+              "top": 968.5,
+              "bottom": 982.5
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BUILT + ITERATED WITH INTENTION",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 373.828125,
+            "right": 635.59375,
+            "top": 967.5,
+            "bottom": 984,
+            "width": 261.765625,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 373.828125,
+              "right": 612.53125,
+              "top": 968.5,
+              "bottom": 982.5
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BACK TO TOP ↑",
+          "color": "rgb(181, 203, 212)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 651.59375,
+            "right": 744,
+            "top": 953.75,
+            "bottom": 997.75,
+            "width": 92.40625,
+            "height": 44
+          },
+          "textRects": [
+            {
+              "left": 651.59375,
+              "right": 736.296875,
+              "top": 968.5,
+              "bottom": 982.5
+            },
+            {
+              "left": 736.296875,
+              "right": 744,
+              "top": 967.5,
+              "bottom": 984
+            },
+            {
+              "left": 736.296875,
+              "right": 744,
+              "top": 968.5,
+              "bottom": 982.5
+            }
+          ],
+          "transition": "0.18s"
+        }
+      ],
+      "contrast": 4.600576334384279,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "width": 681,
+      "height": 800,
+      "reduced": false,
+      "color": "rgb(104, 125, 134)",
+      "bg": "rgb(7, 10, 12)",
+      "footerHeight": 97,
+      "overflow": 0,
+      "items": [
+        {
+          "text": "ANIRUDH SHASHIKUMAR",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 24,
+            "right": 214.671875,
+            "top": 743.5625,
+            "bottom": 760.0625,
+            "width": 190.671875,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 24,
+              "right": 170.3125,
+              "top": 744.5625,
+              "bottom": 758.5625
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "© 2026",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 230.671875,
+            "right": 310.125,
+            "top": 743.5625,
+            "bottom": 760.0625,
+            "width": 79.453125,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 230.671875,
+              "right": 276.875,
+              "top": 744.5625,
+              "bottom": 758.5625
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BUILT + ITERATED WITH INTENTION",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 326.125,
+            "right": 548.59375,
+            "top": 735.3125,
+            "bottom": 768.3125,
+            "width": 222.46875,
+            "height": 33
+          },
+          "textRects": [
+            {
+              "left": 326.125,
+              "right": 487.828125,
+              "top": 736.3125,
+              "bottom": 750.3125
+            },
+            {
+              "left": 326.125,
+              "right": 395.4375,
+              "top": 752.8125,
+              "bottom": 766.8125
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BACK TO TOP ↑",
+          "color": "rgb(181, 203, 212)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 564.59375,
+            "right": 657,
+            "top": 729.8125,
+            "bottom": 773.8125,
+            "width": 92.40625,
+            "height": 44
+          },
+          "textRects": [
+            {
+              "left": 564.59375,
+              "right": 649.296875,
+              "top": 744.5625,
+              "bottom": 758.5625
+            },
+            {
+              "left": 649.296875,
+              "right": 657,
+              "top": 743.5625,
+              "bottom": 760.0625
+            },
+            {
+              "left": 649.296875,
+              "right": 657,
+              "top": 744.5625,
+              "bottom": 758.5625
+            }
+          ],
+          "transition": "0.18s"
+        }
+      ],
+      "contrast": 4.600576334384279,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "color": "rgb(104, 125, 134)",
+      "bg": "rgb(7, 10, 12)",
+      "footerHeight": 121.5,
+      "overflow": 0,
+      "items": [
+        {
+          "text": "ANIRUDH SHASHIKUMAR",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 16,
+            "right": 265.59375,
+            "top": 747.53125,
+            "bottom": 764.03125,
+            "width": 249.59375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 16,
+              "right": 162.3125,
+              "top": 748.53125,
+              "bottom": 762.53125
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "© 2026",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 281.59375,
+            "right": 374,
+            "top": 747.53125,
+            "bottom": 764.03125,
+            "width": 92.40625,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 281.59375,
+              "right": 327.796875,
+              "top": 748.53125,
+              "bottom": 762.53125
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BUILT + ITERATED WITH INTENTION",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 16,
+            "right": 265.59375,
+            "top": 789.78125,
+            "bottom": 806.28125,
+            "width": 249.59375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 16,
+              "right": 254.703125,
+              "top": 790.78125,
+              "bottom": 804.78125
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BACK TO TOP ↑",
+          "color": "rgb(181, 203, 212)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 281.59375,
+            "right": 374,
+            "top": 776.03125,
+            "bottom": 820.03125,
+            "width": 92.40625,
+            "height": 44
+          },
+          "textRects": [
+            {
+              "left": 281.59375,
+              "right": 366.296875,
+              "top": 790.78125,
+              "bottom": 804.78125
+            },
+            {
+              "left": 366.296875,
+              "right": 374,
+              "top": 789.78125,
+              "bottom": 806.28125
+            },
+            {
+              "left": 366.296875,
+              "right": 374,
+              "top": 790.78125,
+              "bottom": 804.78125
+            }
+          ],
+          "transition": "0.18s"
+        }
+      ],
+      "contrast": 4.600576334384279,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "reduced": false,
+      "color": "rgb(104, 125, 134)",
+      "bg": "rgb(7, 10, 12)",
+      "footerHeight": 121.5,
+      "overflow": 0,
+      "items": [
+        {
+          "text": "ANIRUDH SHASHIKUMAR",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 16,
+            "right": 235.59375,
+            "top": 703.421875,
+            "bottom": 719.921875,
+            "width": 219.59375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 16,
+              "right": 162.3125,
+              "top": 704.421875,
+              "bottom": 718.421875
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "© 2026",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 251.59375,
+            "right": 344,
+            "top": 703.421875,
+            "bottom": 719.921875,
+            "width": 92.40625,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 251.59375,
+              "right": 297.796875,
+              "top": 704.421875,
+              "bottom": 718.421875
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BUILT + ITERATED WITH INTENTION",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 16,
+            "right": 235.59375,
+            "top": 737.421875,
+            "bottom": 770.421875,
+            "width": 219.59375,
+            "height": 33
+          },
+          "textRects": [
+            {
+              "left": 16,
+              "right": 177.703125,
+              "top": 738.421875,
+              "bottom": 752.421875
+            },
+            {
+              "left": 16,
+              "right": 85.3125,
+              "top": 754.921875,
+              "bottom": 768.921875
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BACK TO TOP ↑",
+          "color": "rgb(181, 203, 212)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 251.59375,
+            "right": 344,
+            "top": 731.921875,
+            "bottom": 775.921875,
+            "width": 92.40625,
+            "height": 44
+          },
+          "textRects": [
+            {
+              "left": 251.59375,
+              "right": 336.296875,
+              "top": 746.671875,
+              "bottom": 760.671875
+            },
+            {
+              "left": 336.296875,
+              "right": 344,
+              "top": 745.671875,
+              "bottom": 762.171875
+            },
+            {
+              "left": 336.296875,
+              "right": 344,
+              "top": 746.671875,
+              "bottom": 760.671875
+            }
+          ],
+          "transition": "0.18s"
+        }
+      ],
+      "contrast": 4.600576334384279,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "width": 320,
+      "height": 800,
+      "reduced": false,
+      "color": "rgb(104, 125, 134)",
+      "bg": "rgb(7, 10, 12)",
+      "footerHeight": 121.5,
+      "overflow": 0,
+      "items": [
+        {
+          "text": "ANIRUDH SHASHIKUMAR",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 16,
+            "right": 195.59375,
+            "top": 703.015625,
+            "bottom": 719.515625,
+            "width": 179.59375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 16,
+              "right": 162.3125,
+              "top": 704.015625,
+              "bottom": 718.015625
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "© 2026",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 211.59375,
+            "right": 304,
+            "top": 703.015625,
+            "bottom": 719.515625,
+            "width": 92.40625,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 211.59375,
+              "right": 257.796875,
+              "top": 704.015625,
+              "bottom": 718.015625
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BUILT + ITERATED WITH INTENTION",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 16,
+            "right": 195.59375,
+            "top": 737.015625,
+            "bottom": 770.015625,
+            "width": 179.59375,
+            "height": 33
+          },
+          "textRects": [
+            {
+              "left": 16,
+              "right": 177.703125,
+              "top": 738.015625,
+              "bottom": 752.015625
+            },
+            {
+              "left": 16,
+              "right": 85.3125,
+              "top": 754.515625,
+              "bottom": 768.515625
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BACK TO TOP ↑",
+          "color": "rgb(181, 203, 212)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 211.59375,
+            "right": 304,
+            "top": 731.515625,
+            "bottom": 775.515625,
+            "width": 92.40625,
+            "height": 44
+          },
+          "textRects": [
+            {
+              "left": 211.59375,
+              "right": 296.296875,
+              "top": 746.265625,
+              "bottom": 760.265625
+            },
+            {
+              "left": 296.296875,
+              "right": 304,
+              "top": 745.265625,
+              "bottom": 761.765625
+            },
+            {
+              "left": 296.296875,
+              "right": 304,
+              "top": 746.265625,
+              "bottom": 760.265625
+            }
+          ],
+          "transition": "0.18s"
+        }
+      ],
+      "contrast": 4.600576334384279,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reduced": true,
+      "color": "rgb(104, 125, 134)",
+      "bg": "rgb(7, 10, 12)",
+      "footerHeight": 97,
+      "overflow": 0,
+      "items": [
+        {
+          "text": "ANIRUDH SHASHIKUMAR",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 112,
+            "right": 528.34375,
+            "top": 844.03125,
+            "bottom": 860.53125,
+            "width": 416.34375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 112,
+              "right": 258.3125,
+              "top": 845.03125,
+              "bottom": 859.03125
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "© 2026",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 544.34375,
+            "right": 717.828125,
+            "top": 844.03125,
+            "bottom": 860.53125,
+            "width": 173.484375,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 544.34375,
+              "right": 590.546875,
+              "top": 845.03125,
+              "bottom": 859.03125
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BUILT + ITERATED WITH INTENTION",
+          "color": "rgb(104, 125, 134)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 733.828125,
+            "right": 1219.59375,
+            "top": 844.03125,
+            "bottom": 860.53125,
+            "width": 485.765625,
+            "height": 16.5
+          },
+          "textRects": [
+            {
+              "left": 733.828125,
+              "right": 972.53125,
+              "top": 845.03125,
+              "bottom": 859.03125
+            }
+          ],
+          "transition": "0s"
+        },
+        {
+          "text": "BACK TO TOP ↑",
+          "color": "rgb(181, 203, 212)",
+          "fontSize": "11px",
+          "lineHeight": "16.5px",
+          "rect": {
+            "left": 1235.59375,
+            "right": 1328,
+            "top": 830.28125,
+            "bottom": 874.28125,
+            "width": 92.40625,
+            "height": 44
+          },
+          "textRects": [
+            {
+              "left": 1235.59375,
+              "right": 1320.296875,
+              "top": 845.03125,
+              "bottom": 859.03125
+            },
+            {
+              "left": 1320.296875,
+              "right": 1328,
+              "top": 844.03125,
+              "bottom": 860.53125
+            },
+            {
+              "left": 1320.296875,
+              "right": 1328,
+              "top": 845.03125,
+              "bottom": 859.03125
+            }
+          ],
+          "transition": "0s"
+        }
+      ],
+      "contrast": 4.600576334384279,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ]
+      }
+    }
+  ],
+  "originalContrast": 4.105986854857199,
+  "certificate": {
+    "url": "http://127.0.0.1:3000/projects/medifit/push-pull-commit-certificate.jpg",
+    "image": {
+      "complete": true,
+      "width": 1458,
+      "height": 1031
+    }
+  },
+  "backToTop": true
+}

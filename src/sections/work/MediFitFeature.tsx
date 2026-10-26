@@ -47,7 +47,7 @@ export default function MediFitFeature() {
                 MediFit explored digital-twin-driven personalization for health monitoring
                 and fitness-plan recommendations adapted to individual health conditions.
               </p>
-              <p className={styles.role} data-mf-entry-role>TEAM PROJECT · 4 MEMBERS · PRIMARY CONTRIBUTION / FULL STACK</p>
+              <p className={styles.role} data-mf-entry-role>PROJECT ACCOUNT / TEAM OF 4 · FULL STACK</p>
             </div>
 
             <div className={styles.statsColumn} data-mf-stats>
@@ -57,15 +57,15 @@ export default function MediFitFeature() {
                   <strong>3RD PLACE</strong>
                 </div>
                 <div data-mf-stat-item>
-                  <span>BUILD WINDOW</span>
+                  <span>REPORTED WINDOW</span>
                   <strong>8 HOURS</strong>
                 </div>
                 <div data-mf-stat-item>
-                  <span>FIELD</span>
+                  <span>REPORTED FIELD</span>
                   <strong>50+ TEAMS</strong>
                 </div>
                 <div data-mf-stat-item>
-                  <span>TEAM</span>
+                  <span>REPORTED TEAM</span>
                   <strong>4 MEMBERS</strong>
                 </div>
               </div>
@@ -149,7 +149,7 @@ export default function MediFitFeature() {
                 <p className={styles.fullStackTitle} data-mf-fullstack-title>FULL STACK</p>
                 <span className={styles.fullStackRule} data-mf-fullstack-rule aria-hidden="true" />
                 <p className={styles.fullStackCopy} data-mf-fullstack-copy>
-                  Worked across the full-stack development of the MediFit platform,
+                  In the historical project account, work spanned the full-stack development of the MediFit platform,
                   helping transform the healthcare digital-twin concept into a functional
                   application with integrated workflows for personalized health monitoring
                   and fitness-plan recommendations.
@@ -159,7 +159,7 @@ export default function MediFitFeature() {
 
             <div className={styles.deliveryColumn}>
               <div className={styles.buildWindow} data-mf-build>
-                <p className={styles.eyebrow}>BUILD CONSTRAINT</p>
+                <p className={styles.eyebrow}>REPORTED BUILD WINDOW</p>
                 <div className={styles.buildTimeline} data-mf-build-timeline>
                   {Array.from({ length: 8 }, (_, i) => (
                     <div className={styles.buildSegment} key={i} data-mf-build-segment />
@@ -169,7 +169,7 @@ export default function MediFitFeature() {
                   <span><strong>00H</strong> CONCEPT</span>
                   <span><strong>08H</strong> DEMO</span>
                 </div>
-                <p className={styles.deliveredTag} data-mf-delivered>DELIVERED</p>
+                <p className={styles.deliveredTag} data-mf-delivered>PROTOTYPE REPORTED</p>
               </div>
 
               <div className={styles.achievement} data-mf-achievement>
@@ -187,9 +187,9 @@ export default function MediFitFeature() {
                   <span className={styles.achievementAccent} data-mf-achievement-accent aria-hidden="true" />
                 </div>
                 <div className={styles.achievementMeta} data-mf-achievement-meta>
-                  <span>50+ TEAMS</span>
-                  <span>4-PERSON TEAM</span>
-                  <span>8-HOUR HACKATHON</span>
+                  <span>REPORTED: 50+ TEAMS</span>
+                  <span>REPORTED: 4-PERSON TEAM</span>
+                  <span>REPORTED: 8-HOUR BUILD</span>
                   <span>IEEE COMPUTER SOCIETY BMSIT&amp;M</span>
                 </div>
               </div>
@@ -205,7 +205,7 @@ export default function MediFitFeature() {
                 >
                   <Image
                     src="/projects/medifit/push-pull-commit-certificate.jpg"
-                    alt="Official Push Pull Commit certificate awarded to Anirudh for securing third place in the eight-hour hackathon organized by IEEE Computer Society BMSIT&M"
+                    alt="Push Pull Commit certificate naming Anirudh and Third Place, dated 4 May 2026, from IEEE Computer Society BMSIT&M"
                     width={1458}
                     height={1031}
                     sizes="(max-width: 767px) 100vw, (max-width: 1200px) 50vw, 500px"
@@ -235,8 +235,8 @@ export default function MediFitFeature() {
                 <div className={styles.teamCopy} data-mf-team-copy>
                   <p className={styles.eyebrow}>EXECUTION UNDER CONSTRAINT</p>
                   <p>
-                    A four-person team shaped the concept, full-stack application, and
-                    personalized recommendation direction during the eight-hour hackathon
+                    In the team&apos;s account, four members shaped the concept, full-stack application, and
+                    personalized recommendation direction during a reported eight-hour build at the hackathon
                     organized by IEEE Computer Society at BMS Institute of Technology and Management.
                   </p>
                 </div>
@@ -271,7 +271,7 @@ export default function MediFitFeature() {
       </MediFitMotion>
 
       <div id="medifit-detail" className={styles.detailAnchor} tabIndex={-1}>
-        <Container><p>Full MediFit case study coming soon.</p></Container>
+        <Container><p>No separate MediFit case study is published.</p></Container>
       </div>
     </AccessibleProject>
   );

@@ -29,7 +29,7 @@
 .artifact figcaption,
 .endcapMeta,
 .creditLine,
-.projectAction {
+.availability {
   font-family: var(--font-geist-mono), monospace;
   letter-spacing: 0.11em;
 }
@@ -510,26 +510,14 @@
   color: #b8cbaa;
 }
 
-.projectAction {
+.availability {
   display: inline-flex;
   min-height: 3.2rem;
   flex: none;
   align-items: center;
-  gap: 1.6rem;
-  padding: 0.9rem 1rem;
-  border: 1px solid rgb(159 207 142 / 43%);
-  color: #ebf8e5;
+  margin: 0;
+  color: #b8cbaa;
   font-size: 0.68rem;
-  text-decoration: none;
-  transition: background-color 200ms ease;
-}
-
-.projectAction:hover {
-  background: rgb(74 113 65 / 19%);
-}
-
-.projectAction span {
-  font-size: 1rem;
 }
 
 .detailAnchor {
@@ -697,11 +685,5 @@
   .endcapInner {
     align-items: start;
     flex-direction: column;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .projectAction {
-    transition: none;
   }
 }

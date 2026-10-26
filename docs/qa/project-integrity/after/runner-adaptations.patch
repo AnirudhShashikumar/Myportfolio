@@ -1,0 +1,83 @@
+--- scripts/about-motion-qa.mjs
++++ scripts/.integrity-about-motion-qa.mjs
+@@ -6,7 +6,7 @@
+ import { plates } from '../src/sections/about/aboutContent.ts';
+ const require = createRequire(import.meta.url);
+ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+-const directory = 'docs/qa/about-motion';
++const directory = 'docs/qa/project-integrity/after/about';
+ mkdirSync(directory, { recursive: true });
+ const browser = await chromium.launch({ headless: true, ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}) });
+ try {
+--- scripts/scroll-discovery-qa.mjs
++++ scripts/.integrity-scroll-discovery-qa.mjs
+@@ -5,7 +5,7 @@
+ const require = createRequire(import.meta.url);
+ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || "playwright");
+ const base = process.env.PORTFOLIO_QA_URL || "http://127.0.0.1:3000";
+-const directory = "docs/qa/scroll-discovery";
++const directory = "docs/qa/project-integrity/after/scroll-discovery";
+ const caseFilter = process.env.PORTFOLIO_QA_FILTER ? new RegExp(process.env.PORTFOLIO_QA_FILTER) : null;
+ mkdirSync(directory, { recursive: true });
+ const browser = await chromium.launch({
+--- scripts/production-audit.mjs
++++ scripts/.integrity-production-audit.mjs
+@@ -5,7 +5,7 @@
+ const require = createRequire(import.meta.url);
+ const { chromium, firefox, webkit } = require(process.env.PLAYWRIGHT_MODULE || "playwright");
+ const base = process.env.PORTFOLIO_QA_URL || "http://127.0.0.1:3000";
+-const out = "docs/qa/production";
++const out = "docs/qa/project-integrity/after/production";
+ const mode = process.env.AUDIT_MODE || "matrix";
+ const axePath = process.env.AXE_MODULE || "/private/tmp/portfolio-audit-tools/node_modules/axe-core/axe.min.js";
+ mkdirSync(out, { recursive: true });
+--- docs/qa/f05-accessibility-polish/inspect.mjs
++++ docs/qa/project-integrity/.inspect-f05.mjs
+@@ -4,7 +4,7 @@
+ const require=createRequire(import.meta.url);
+ const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+ const phase=process.env.POLISH_PHASE || 'before';
+-const out=`docs/qa/f05-accessibility-polish/${phase}`;
++const out=`docs/qa/project-integrity/after/f05`;
+ mkdirSync(out,{recursive:true});
+ const result={phase,hero:[],dayflow:[],contact:[],errors:[],warnings:[]};
+ const browser=await chromium.launch({headless:true,executablePath:process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
+--- docs/qa/seo-branding/verify.mjs
++++ docs/qa/project-integrity/.verify-seo.mjs
+@@ -7,7 +7,7 @@
+ const sharp = require("sharp");
+ const base = process.env.PORTFOLIO_QA_URL || "http://127.0.0.1:3000";
+ const phase = process.env.SEO_PHASE || "after";
+-const out = `docs/qa/seo-branding/${phase}`;
++const out = `docs/qa/project-integrity/after/seo`;
+ const origin = "https://myportfolio-alpha-one-48.vercel.app";
+ mkdirSync(out, { recursive: true });
+ const results = { phase, cases: [], errors: [], warnings: [] };
+--- docs/qa/f03-f04/scroll-input.mjs
++++ docs/qa/project-integrity/.scroll-input.mjs
+@@ -36,4 +36,4 @@
+   await page.close();
+  }
+  assert.equal(result.errors.length,0);
+-} finally {writeFileSync('docs/qa/f03-f04/after/scroll-input.json',JSON.stringify(result,null,2)+'\n');await browser.close()}
++} finally {writeFileSync('docs/qa/project-integrity/after/scroll-input.json',JSON.stringify(result,null,2)+'\n');await browser.close()}
+--- docs/qa/f03-f04/verify.mjs
++++ docs/qa/project-integrity/.verify-f03-f04.mjs
+@@ -5,7 +5,7 @@
+ const require=createRequire(import.meta.url);
+ const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+ const base=process.env.PORTFOLIO_QA_URL || 'http://127.0.0.1:3000';
+-const out='docs/qa/f03-f04/after';
++const out='docs/qa/project-integrity/after/f03-f04';
+ mkdirSync(out,{recursive:true});
+ const before=JSON.parse(readFileSync('docs/qa/f03-f04/before/inspection.json','utf8'));
+ const luminance=rgb=>rgb.map(c=>c/255).map(c=>c<=.04045?c/12.92:((c+.055)/1.055)**2.4).reduce((s,c,i)=>s+c*[.2126,.7152,.0722][i],0);
+@@ -29,7 +29,7 @@
+   assert.equal(await status.textContent(),'LIVE DEMO UNVERIFIED');
+   assert.equal(await status.evaluate(e=>e.matches('a,button,[tabindex],[role="button"],[role="link"]')),false);
+   const text=await project.evaluate(e=>e.textContent.replace(/\s+/g,' ').trim());
+-  assert.equal(text,before.medifit.text.replace('LIVE APP ↗','LIVE DEMO UNVERIFIED'),'all historical project narrative and achievements unchanged');
++  assert.equal(text,readFileSync('docs/qa/project-integrity/expected-medifit.txt','utf8').trim(),'only the explicitly reviewed F08 qualifications and case-study availability wording change');
+   await page.evaluate(()=>{const e=document.querySelector('[data-mf-endcap]');scrollTo({top:e.getBoundingClientRect().top+scrollY-innerHeight*.4,behavior:'instant'});window.__motionAudit.ScrollTrigger.update()});
+   await page.waitForTimeout(100);
+   await page.screenshot({path:`${out}/medifit-${width}-${reduced?'reduced':'normal'}.jpg`,type:'jpeg',quality:90});

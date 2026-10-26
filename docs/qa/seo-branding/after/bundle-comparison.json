@@ -1,0 +1,113 @@
+{
+  "before": {
+    "count": 24,
+    "bytes": 2102466,
+    "gzipBytes": 611670
+  },
+  "after": {
+    "count": 26,
+    "bytes": 2108536,
+    "gzipBytes": 614566
+  },
+  "identicalChunkCount": 17,
+  "removedOrReplaced": [
+    {
+      "path": "app/_global-error/page-9d04ccbac636167c.js",
+      "bytes": 147,
+      "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+      "gzipBytes": 136
+    },
+    {
+      "path": "app/_not-found/page-f8f9b2c2efb796ed.js",
+      "bytes": 2667,
+      "sha256": "0bb917ea681a896e1681ab3096272189cd5c646f5689485f614fcdfd2032f675",
+      "gzipBytes": 999
+    },
+    {
+      "path": "next/dist/client/components/builtin/app-error-9d04ccbac636167c.js",
+      "bytes": 147,
+      "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+      "gzipBytes": 136
+    },
+    {
+      "path": "next/dist/client/components/builtin/forbidden-9d04ccbac636167c.js",
+      "bytes": 147,
+      "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+      "gzipBytes": 136
+    },
+    {
+      "path": "next/dist/client/components/builtin/not-found-9d04ccbac636167c.js",
+      "bytes": 147,
+      "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+      "gzipBytes": 136
+    },
+    {
+      "path": "next/dist/client/components/builtin/unauthorized-9d04ccbac636167c.js",
+      "bytes": 147,
+      "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+      "gzipBytes": 136
+    },
+    {
+      "path": "webpack-6daab5533692fb7e.js",
+      "bytes": 3549,
+      "sha256": "5457315c3119b593468cd1082ed4fa37f4cafa95103390198c72dc803967c7d6",
+      "gzipBytes": 1835
+    }
+  ],
+  "addedOrReplaced": [
+    {
+      "path": "app/_global-error/page-b18a3bee420c5b4e.js",
+      "bytes": 151,
+      "sha256": "e12e2d6b8f4c251a97fdc7a84cc723d75092ad38b78345e708279ba40e186fcf",
+      "gzipBytes": 140
+    },
+    {
+      "path": "app/_not-found/page-9e1433c0ee7bfdbc.js",
+      "bytes": 443,
+      "sha256": "89eefe7efa712dbad57d364aec080219690d9c6fbdc7b744b3c360531297f34b",
+      "gzipBytes": 299
+    },
+    {
+      "path": "app/not-found-45c63778a3e9ec44.js",
+      "bytes": 8113,
+      "sha256": "7f5460afd519b6517b1fceaa28d83defe0f49f8b50b152f85bb3dc4105bcd0d6",
+      "gzipBytes": 3429
+    },
+    {
+      "path": "app/robots.txt/route-b18a3bee420c5b4e.js",
+      "bytes": 151,
+      "sha256": "e12e2d6b8f4c251a97fdc7a84cc723d75092ad38b78345e708279ba40e186fcf",
+      "gzipBytes": 140
+    },
+    {
+      "path": "app/sitemap.xml/route-b18a3bee420c5b4e.js",
+      "bytes": 151,
+      "sha256": "e12e2d6b8f4c251a97fdc7a84cc723d75092ad38b78345e708279ba40e186fcf",
+      "gzipBytes": 140
+    },
+    {
+      "path": "next/dist/client/components/builtin/app-error-b18a3bee420c5b4e.js",
+      "bytes": 151,
+      "sha256": "e12e2d6b8f4c251a97fdc7a84cc723d75092ad38b78345e708279ba40e186fcf",
+      "gzipBytes": 140
+    },
+    {
+      "path": "next/dist/client/components/builtin/forbidden-b18a3bee420c5b4e.js",
+      "bytes": 151,
+      "sha256": "e12e2d6b8f4c251a97fdc7a84cc723d75092ad38b78345e708279ba40e186fcf",
+      "gzipBytes": 140
+    },
+    {
+      "path": "next/dist/client/components/builtin/unauthorized-b18a3bee420c5b4e.js",
+      "bytes": 151,
+      "sha256": "e12e2d6b8f4c251a97fdc7a84cc723d75092ad38b78345e708279ba40e186fcf",
+      "gzipBytes": 140
+    },
+    {
+      "path": "webpack-17ae902e1c2dae24.js",
+      "bytes": 3559,
+      "sha256": "21624f4293f89d4edba5e97a8bb43cb0a1c83c80670d93229ee98f6f98903837",
+      "gzipBytes": 1842
+    }
+  ]
+}

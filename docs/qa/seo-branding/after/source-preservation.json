@@ -1,0 +1,15 @@
+{
+  "changedBaselineFiles": [
+    "src/app/layout.tsx",
+    "src/app/page.tsx"
+  ],
+  "newApplicationFiles": [
+    "src/app/NotFound.module.css",
+    "src/app/favicon.ico",
+    "src/app/not-found.tsx",
+    "src/app/robots.ts",
+    "src/app/sitemap.ts",
+    "src/lib/site.ts"
+  ],
+  "preservedBaselineFiles": 76
+}

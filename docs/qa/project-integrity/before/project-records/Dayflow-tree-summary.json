@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/AnirudhShashikumar/Dayflow",
+  "revision": "165d11c10b3af553b5b7df52fa24e72b64674b26",
+  "selectedPaths": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CONTRIBUTING.md",
+    "README.md",
+    "docs/DAYFLOW_PRODUCTION_AUDIT.md",
+    "docs/DAYFLOW_PRODUCTION_PLAN.md",
+    "docs/architecture.md",
+    "docs/database.md",
+    "docs/demo-script.md",
+    "docs/manual-qa.md",
+    "docs/team-workflow.md",
+    "package.json",
+    "src/app/(dashboard)/reports",
+    "src/app/(dashboard)/reports/page.tsx",
+    "src/app/api/reports",
+    "src/app/api/reports/export",
+    "src/app/api/reports/export/route.ts",
+    "supabase/README.md"
+  ],
+  "commitSHA": "165d11c10b3af553b5b7df52fa24e72b64674b26",
+  "rootTreeSHA": "f500ffc983dda1de5e2b5f166edc6463a1450197",
+  "revisionValidatedAsCommit": true
+}

@@ -98,7 +98,7 @@ try {
     for (const phrase of ["specialist models", "role-aware HR platform", "personalized fitness"]) {
       assert.ok(results.initialAX.some(node => node.role === "StaticText" && node.name?.toLowerCase().includes(phrase.toLowerCase())), `description exposed: ${phrase}`);
     }
-    for (const phrase of ["live SatQuery", "live Gesture Globe", "EXPLORE ALGAEOS", "live Dayflow", "VIEW MEDITWIN", "MediFit third-place certificate"]) {
+    for (const phrase of ["live SatQuery", "live Gesture Globe", "VIEW ORIGINAL INFOGRAPHIC", "live Dayflow", "MediTwin first-place certificate", "MediFit third-place certificate"]) {
       assert.ok(results.initialAX.some(node => node.role === "link" && node.name?.includes(phrase)), `project action exposed: ${phrase}`);
     }
     for (const name of ["Email Anirudh Shashikumar", "Anirudh Shashikumar on LinkedIn (opens in a new tab)", "Anirudh Shashikumar on GitHub (opens in a new tab)"]) {

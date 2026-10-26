@@ -1,0 +1,36 @@
+{
+  "changedBaselineFiles": [
+    "src/sections/about/aboutContent.ts",
+    "src/sections/work/AlgaeOSFeature.tsx",
+    "src/sections/work/SatQueryFeature.tsx",
+    "src/sections/work/Work.tsx",
+    "src/sections/work/DayflowFeature.tsx",
+    "src/sections/work/AlgaeOSFeature.module.css",
+    "src/sections/work/MediTwinFeature.module.css",
+    "src/sections/work/MediFitFeature.tsx",
+    "src/sections/work/GestureGlobeFeature.tsx",
+    "src/sections/work/MediTwinFeature.tsx",
+    "public/projects/medifit/push-pull-commit-team-event.jpg",
+    "public/projects/medifit/push-pull-commit-team-award-original.heic",
+    "scripts/accessibility-f02-qa.mjs",
+    "README.md"
+  ],
+  "preservedBaselineFileCount": 99,
+  "baselineFileCount": 113,
+  "priorSEOFilesUnchanged": true,
+  "unchangedMotionFiles": [
+    "src/sections/about/aboutMotion.ts",
+    "src/sections/work/WorkNavigation.tsx",
+    "src/sections/work/AlgaeOSMotion.tsx",
+    "src/sections/work/SatQueryMotion.tsx",
+    "src/sections/work/GestureGlobeMotion.tsx",
+    "src/sections/work/MediTwinMotion.tsx",
+    "src/sections/work/DayflowMotion.tsx",
+    "src/sections/work/MediFitMotion.tsx",
+    "src/components/system/ScrollMotion.tsx",
+    "src/components/system/ScrollMotion.module.css",
+    "src/components/system/ScrollDiscovery.tsx",
+    "src/components/system/SmoothScroll.tsx",
+    "src/components/system/ScrollDiscovery.module.css"
+  ]
+}

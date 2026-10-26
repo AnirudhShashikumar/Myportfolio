@@ -1,0 +1,12 @@
+{
+  "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-bms-institute-of-technology-management-bengaluru-india-presents-incseption-20/",
+  "observedEvent": "InCSEption 2.0",
+  "eventDate": "2026-04-06",
+  "supports": "Event identity, date and institution only",
+  "doesNotEstablish": [
+    "team field count",
+    "winner/product identity",
+    "actual team build duration"
+  ],
+  "otherScopedSearches": "No verified matching field/shortlist record established; IEEE access unavailable to web reader"
+}

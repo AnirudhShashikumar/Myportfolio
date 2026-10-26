@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/AnirudhShashikumar/MediFit",
+  "revision": "bac6c1fdfc387a96d0d17f0fdbf74d5c0fef1c7a",
+  "selectedPaths": [
+    "README.md",
+    "mediFit-main/DESIGN.md",
+    "mediFit-main/README.md",
+    "mediFit-main/frontend/README.md",
+    "mediFit-main/frontend/package.json",
+    "mediFit-main/frontend/src/components/tabs/LabReportsTab.tsx",
+    "package.json"
+  ],
+  "commitSHA": "bac6c1fdfc387a96d0d17f0fdbf74d5c0fef1c7a",
+  "rootTreeSHA": "c1dec614c72235cd96a6a0bd1aa8ebeb0c4af550",
+  "revisionValidatedAsCommit": true
+}

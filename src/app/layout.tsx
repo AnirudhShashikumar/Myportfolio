@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import SmoothScroll from "@/components/system/SmoothScroll";
 import ScrollMotion from "@/components/system/ScrollMotion";
 import ViewportProvider from "@/components/system/ViewportProvider";
+import { site } from "@/lib/site";
 import "lenis/dist/lenis.css";
 import "./globals.css";
 
@@ -17,9 +18,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Anirudh Shashikumar — Engineering the Next Era of Intelligence",
-  description:
-    "I build systems across AI, vision, software, and the physical world. Portfolio of Anirudh Shashikumar — Computer Science Engineering.",
+  metadataBase: new URL(site.origin),
+  title: {
+    default: site.title,
+    template: `%s | ${site.name}`,
+  },
+  description: site.description,
+  icons: {
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

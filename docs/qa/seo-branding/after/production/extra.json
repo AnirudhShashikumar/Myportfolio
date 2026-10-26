@@ -1,0 +1,308 @@
+{
+  "reverse": [
+    {
+      "project": 0,
+      "equal": true,
+      "elements": 14,
+      "snapshot": {
+        "y": 5279,
+        "height": 46877,
+        "overflow": 0,
+        "visibleText": [],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 3,
+        "cue": "disabled",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "project": 1,
+      "equal": true,
+      "elements": 93,
+      "snapshot": {
+        "y": 9331,
+        "height": 46877,
+        "overflow": 0,
+        "visibleText": [
+          "02 / INTERPRET HAND MOVEMENT → SPATIAL RESPONSE"
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 3,
+        "cue": "disabled",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "project": 2,
+      "equal": true,
+      "elements": 13,
+      "snapshot": {
+        "y": 14495,
+        "height": 46878,
+        "overflow": 0,
+        "visibleText": [
+          "UNDER THE SYSTEM",
+          "REACTOR → SENSOR → READOUT.",
+          "Physical measurements became a monitoring workflow through embedded electronics and a custom dashboard.",
+          "01 / PHYSICAL INSTRUMENTATIONDocumented system: Arduino UNO · MQ-135 · DHT22",
+          "SENSOR INPUT → ARDUINO TELEMETRY → DASHBOARD",
+          "02 / DIGITAL OBSERVATIONCaptured interface; the source screenshot shows Arduino offline."
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 2,
+        "cue": "disabled",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "project": 3,
+      "equal": true,
+      "elements": 64,
+      "snapshot": {
+        "y": 19637,
+        "height": 46877,
+        "overflow": 0,
+        "visibleText": [
+          "Check in, request leave, view payroll, open private documents, and follow updates.",
+          "Manage people, approve leave, run payroll, report on operations, and review activity.",
+          "ENGINEERED BENEATH THE INTERFACE",
+          "ACCESS FOLLOWS THE ROLE.",
+          "Portal selection guides the experience. Database-backed roles and server checks determine permission.",
+          "01 / SYSTEM LAYERUSERLogin and session",
+          "AUTHORIZATION RULE",
+          "PORTAL ≠ PERMISSION.",
+          "ONE TRANSACTIONAL WORKFLOW",
+          "LEAVE APPROVAL."
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 3,
+        "cue": "disabled",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "project": 4,
+      "equal": true,
+      "elements": 71,
+      "snapshot": {
+        "y": 23546,
+        "height": 46877,
+        "overflow": 0,
+        "visibleText": [
+          "An AI-driven healthcare concept combining personalized health monitoring with fitness-plan recommendations adapted to in",
+          "TEAM PROJECT / CODE BLUE · 4 MEMBERS",
+          "CONCEPT MODEL",
+          "PERSONAL MODEL FORMATION.",
+          "CONCEPT MODEL / PERSONAL CONTEXT ↔ DIGITAL REPRESENTATION",
+          "CONCEPT PATH",
+          "HEALTH CONTEXT, MADE PERSONAL.",
+          "01PATIENT STATEIndividual health context",
+          "OFFICIAL ACHIEVEMENT CERTIFICATEVIEW FULL EVIDENCE ↗",
+          "CODE BLUE / TEAM + AWARD EVIDENCE",
+          "EXECUTION UNDER CONSTRAINT",
+          "BUILT AND PRESENTED INONE DAY."
+        ],
+        "horizontal": [],
+        "headerOverlap": [
+          {
+            "tag": "P",
+            "text": "TEAM PROJECT / CODE BLUE · 4 MEMBERS",
+            "top": 25.21875,
+            "bottom": 37.21875
+          }
+        ],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 4,
+        "cue": "disabled",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "project": 5,
+      "equal": true,
+      "elements": 72,
+      "snapshot": {
+        "y": 26769,
+        "height": 46878,
+        "overflow": 0,
+        "visibleText": [
+          "PERSONALIZATION ENGINE.",
+          "CONCEPT / INDIVIDUAL CONTEXT → PERSONALIZATION → STRUCTURED DIRECTION",
+          "01 / PROBLEM",
+          "Generic health and fitness guidance does not necessarily reflect individual health conditions.",
+          "02 / SYSTEM",
+          "Use digital-twin-inspired personalization to organize individual health context into structured recommendations.",
+          "03 / OUTPUT",
+          "Personalized monitoring context and fitness-plan recommendations adapted to the individual.",
+          "PRIMARY CONTRIBUTION",
+          "FULL STACK",
+          "Worked across the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept ",
+          "BUILD CONSTRAINT",
+          "DELIVERED",
+          "OUTCOME",
+          "PUSH, PULL, COMMIT",
+          "OFFICIAL ACHIEVEMENT CERTIFICATEVIEW FULL EVIDENCE ↗",
+          "PUSH PULL COMMIT / TEAM + EVENT EVIDENCE / 2026",
+          "EXECUTION UNDER CONSTRAINT",
+          "A four-person team shaped the concept, full-stack application, and personalized recommendation direction during the eigh"
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 3,
+        "cue": "disabled",
+        "aboutMode": "true"
+      }
+    }
+  ],
+  "wheel": [
+    {
+      "region": "#home",
+      "before": 100,
+      "wheel": 2638.39999999851,
+      "scroll": 2654.2000000029802,
+      "after": 219
+    },
+    {
+      "region": "#work",
+      "before": 220,
+      "wheel": 3406.2999999970198,
+      "scroll": 3421.10000000149,
+      "after": 339
+    },
+    {
+      "region": "#about",
+      "before": 340,
+      "wheel": 4171.20000000298,
+      "scroll": 4187.5,
+      "after": 459
+    },
+    {
+      "region": "#contact",
+      "before": 460,
+      "wheel": 4955,
+      "scroll": 4971.5,
+      "after": 579
+    }
+  ],
+  "webkit": [
+    {
+      "hash": "work",
+      "snapshot": {
+        "y": 4500,
+        "height": 46876,
+        "overflow": 0,
+        "visibleText": [
+          "SATQUERY AI / GEOSPATIAL INTELLIGENCE",
+          "01 / FLAGSHIP",
+          "SATQUERY AI",
+          "Multimodal Geospatial Intelligence",
+          "ASK EARTHANYTHING.",
+          "Get Evidence,Not Just Answers."
+        ],
+        "horizontal": [],
+        "headerOverlap": [
+          {
+            "tag": "FIGCAPTION",
+            "text": "SATQUERY AI / GEOSPATIAL INTELLIGENCE",
+            "top": 55.498046875,
+            "bottom": 66.314453125
+          }
+        ],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 1,
+        "cue": "disabled",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "hash": "about",
+      "snapshot": {
+        "y": 28509,
+        "height": 46876,
+        "overflow": 0,
+        "visibleText": [
+          "Read without motion ↗",
+          "02 / ABOUT · PERSON / ORIGIN",
+          "THE SYSTEMS TELLPART OF THE STORY."
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 1,
+        "cue": "disabled",
+        "aboutMode": "true"
+      }
+    },
+    {
+      "hash": "contact",
+      "snapshot": {
+        "y": 42909,
+        "height": 46876,
+        "overflow": 0,
+        "visibleText": [
+          "03 / CONTACT · SIGNAL / OPEN",
+          "ONE SIGNAL.WAITING FOR ANOTHER CONNECTION."
+        ],
+        "horizontal": [],
+        "headerOverlap": [],
+        "mismatches": [],
+        "triggerCount": 41,
+        "activeTriggers": 1,
+        "cue": "disabled",
+        "aboutMode": "true"
+      }
+    }
+  ],
+  "errors": [],
+  "noWebGL": {
+    "title": "I BUILDWHAT I WANTTO EXIST.",
+    "heroState": "resolved",
+    "navLinks": 4,
+    "canvases": 1
+  },
+  "webkitReader": "false",
+  "webkitReduced": {
+    "y": 28770,
+    "height": 32473,
+    "overflow": 0,
+    "visibleText": [
+      "NOT EVERYTHING IS A PROJECT.",
+      "Movement. Music. People.",
+      "I train regularly at the gym and enjoy cricket, basketball and football. Music is part of daily life, often while travel",
+      "BASKETBALL / INTER-HOUSE SCHOOL / FIRST PLACE",
+      "FOOTBALL / PUC / SECOND PLACE",
+      "I WANT TO BUILD SYSTEMS THAT DON'T JUST LIVE ON A SCREEN."
+    ],
+    "horizontal": [],
+    "headerOverlap": [
+      {
+        "tag": "H3",
+        "text": "NOT EVERYTHING IS A PROJECT.",
+        "top": 11.330078125,
+        "bottom": 203.326171875
+      }
+    ],
+    "mismatches": [],
+    "triggerCount": 0,
+    "activeTriggers": 0,
+    "cue": "disabled",
+    "aboutMode": "false"
+  }
+}

@@ -1,0 +1,622 @@
+.feature {
+  position: relative;
+  z-index: 1;
+  overflow: clip;
+  background:
+    radial-gradient(ellipse at 79% 34%, rgb(28 103 96 / 12%), transparent 42%),
+    linear-gradient(#090c11, #0b1113 48%, #0a0e10);
+}
+
+.eyebrow,
+.bridgeAxis,
+.bridgeSubline,
+.sceneTopline,
+.sceneCaption,
+.faceCallout,
+.handCallout,
+.pinchCallout,
+.twoHandCallout,
+.revealHeading,
+.revealGrid span,
+.reveal figcaption,
+.endcapMeta,
+.projectAction {
+  font-family: var(--font-geist-mono), monospace;
+  letter-spacing: 0.12em;
+}
+
+.eyebrow {
+  color: #92d1ba;
+  font-size: 0.68rem;
+}
+
+.bridge {
+  padding-block: clamp(6rem, 11vw, 10rem);
+  border-top: 1px solid rgb(147 210 196 / 14%);
+}
+
+.bridgeInner {
+  position: relative;
+}
+
+.bridgeAxis {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 44rem;
+  margin-top: 2.2rem;
+  color: #74988e;
+  font-size: 0.63rem;
+  white-space: nowrap;
+}
+
+.axisLine {
+  position: relative;
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, #537f82, #69ac8c);
+}
+
+.axisLine::after {
+  position: absolute;
+  top: -0.2rem;
+  right: 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: #9fe6ca;
+  content: "";
+}
+
+.bridgeStatement {
+  max-width: 64rem;
+  margin-top: 1.6rem;
+  color: #eaf6f1;
+  font-size: clamp(2.6rem, 6.6vw, 6.5rem);
+  font-weight: 500;
+  letter-spacing: -0.07em;
+  line-height: 1;
+}
+
+.bridgeStatement span {
+  color: #79b9ac;
+}
+
+.bridgeSubline {
+  margin-top: 1.5rem;
+  color: #9fbab2;
+  font-size: 0.67rem;
+  line-height: 1.7;
+}
+
+.sequence {
+  position: relative;
+}
+
+.stage {
+  padding-block: clamp(5rem, 9vw, 9rem);
+}
+
+.stageInner {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(3rem, 6vw, 6rem);
+}
+
+.identity,
+.statement,
+.reveal {
+  grid-column: 1 / -1;
+}
+
+.identity h2 {
+  margin-top: 1rem;
+  color: #f1fbf6;
+  font-size: clamp(2.8rem, 5.5vw, 5.3rem);
+  font-weight: 600;
+  letter-spacing: -0.065em;
+  line-height: 0.98;
+}
+
+.projectType {
+  margin-top: 0.9rem;
+  color: #b7d2c7;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+}
+
+.statementMain {
+  color: #f3fdf8;
+  font-size: clamp(3.6rem, 7.2vw, 7.2rem);
+  font-weight: 600;
+  letter-spacing: -0.085em;
+  line-height: 0.9;
+}
+
+.statementMain span {
+  display: block;
+}
+
+.statementSupport {
+  max-width: 27rem;
+  margin-top: 2rem;
+  color: #bdd5cb;
+  font-size: clamp(1rem, 1.6vw, 1.35rem);
+  line-height: 1.5;
+}
+
+.perception,
+.interaction {
+  min-width: 0;
+}
+
+.sceneTopline {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  color: #8eb5aa;
+  font-size: 0.6rem;
+}
+
+.activeSignal {
+  color: #a9e3b8;
+  white-space: nowrap;
+}
+
+.activeSignal::before {
+  display: inline-block;
+  width: 0.35rem;
+  height: 0.35rem;
+  margin-right: 0.55rem;
+  border-radius: 50%;
+  background: #9be3aa;
+  content: "";
+  vertical-align: 0.08rem;
+}
+
+.perceptionField,
+.interactionField {
+  position: relative;
+  aspect-ratio: 1.43;
+  overflow: hidden;
+  border: 1px solid rgb(130 207 180 / 25%);
+  background:
+    linear-gradient(90deg, transparent calc(50% - 0.5px), rgb(104 171 160 / 8%) 50%, transparent calc(50% + 0.5px)),
+    linear-gradient(transparent calc(50% - 0.5px), rgb(104 171 160 / 8%) 50%, transparent calc(50% + 0.5px)),
+    #0b1919;
+}
+
+.perceptionField::after,
+.interactionField::after {
+  position: absolute;
+  inset: 0.8rem;
+  border: 1px solid rgb(127 199 174 / 10%);
+  content: "";
+  pointer-events: none;
+}
+
+.reticle {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 11%;
+  aspect-ratio: 1;
+  border: 1px solid rgb(138 222 188 / 17%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.face {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  width: 42%;
+  height: 77%;
+  fill: none;
+  stroke: rgb(127 202 161 / 50%);
+  stroke-width: 0.9;
+}
+
+.face circle {
+  fill: #a5e7bc;
+  stroke: none;
+}
+
+.hand {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.openHand {
+  position: absolute;
+  top: 19%;
+  left: 8%;
+  width: 29%;
+  height: 72%;
+  transform: rotate(-9deg);
+}
+
+.handLines {
+  fill: none;
+  stroke: #9ce4ad;
+  stroke-width: 1.45;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+
+.handPoints {
+  fill: #b7f3c5;
+}
+
+.pinchTarget {
+  fill: none;
+  stroke: #68dedc;
+  stroke-width: 1.2;
+}
+
+.faceCallout,
+.handCallout,
+.pinchCallout,
+.twoHandCallout {
+  position: absolute;
+  z-index: 2;
+  color: #9dc9b7;
+  font-size: 0.58rem;
+  white-space: nowrap;
+}
+
+.faceCallout {
+  right: 9%;
+  bottom: 15%;
+}
+
+.handCallout {
+  bottom: 10%;
+  left: 9%;
+}
+
+.sceneCaption {
+  margin-top: 0.8rem;
+  color: #8bafa4;
+  font-size: 0.58rem;
+}
+
+.interactionField {
+  background: radial-gradient(circle at 67% 46%, rgb(23 105 111 / 26%), transparent 42%), #0a171a;
+}
+
+.pinchHand {
+  position: absolute;
+  z-index: 2;
+  top: 16%;
+  left: 8%;
+  width: 27%;
+  height: 73%;
+  transform: rotate(-8deg);
+}
+
+.gestureVector {
+  position: absolute;
+  z-index: 1;
+  top: 47%;
+  left: 33%;
+  width: 24%;
+  height: 1px;
+  background: linear-gradient(90deg, #9beab4, #5dd8df);
+  transform-origin: left;
+}
+
+.gestureVector::after {
+  position: absolute;
+  top: -0.2rem;
+  right: 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: #82e9e9;
+  content: "";
+}
+
+.sphere {
+  position: absolute;
+  z-index: 2;
+  top: 18%;
+  left: 47%;
+  width: 38%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle at 36% 30%, rgb(89 236 236 / 24%), rgb(13 120 135 / 13%) 49%, rgb(4 28 34 / 10%) 73%);
+  box-shadow: 0 0 4rem rgb(26 193 204 / 12%), inset -1.5rem -1rem 2rem rgb(4 24 31 / 38%);
+}
+
+.mesh {
+  width: 100%;
+  height: 100%;
+}
+
+.meshLines {
+  stroke: rgb(89 220 227 / 54%);
+  stroke-width: 0.9;
+}
+
+.meshPoints {
+  fill: #8bedee;
+}
+
+.secondHand {
+  position: absolute;
+  z-index: 2;
+  top: 17%;
+  right: 1%;
+  width: 25%;
+  height: 73%;
+  transform: scaleX(-1);
+}
+
+.pinchCallout {
+  bottom: 9%;
+  left: 7%;
+}
+
+.twoHandCallout {
+  right: 7%;
+  bottom: 9%;
+  color: #8cd8d9;
+}
+
+.reveal {
+  width: 100%;
+  margin: 0;
+}
+
+.revealHeading {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+  color: #a9d7c4;
+  font-size: 0.62rem;
+}
+
+.revealGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 2.1fr) minmax(0, 0.85fr);
+  gap: 0.75rem;
+}
+
+.mainFrame,
+.stateFrame {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgb(132 211 187 / 28%);
+  background: #101a1b;
+}
+
+.revealImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.revealGrid span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.55rem 0.75rem;
+  background: rgb(6 18 19 / 83%);
+  color: #cdf0de;
+  font-size: 0.57rem;
+}
+
+.stateFrames {
+  display: grid;
+  align-content: space-between;
+  gap: 0.75rem;
+}
+
+.reveal figcaption {
+  margin-top: 0.8rem;
+  color: #8cb6a8;
+  font-size: 0.6rem;
+}
+
+.endcap {
+  padding-block: clamp(3rem, 6vw, 5rem);
+  border-top: 1px solid rgb(150 211 188 / 17%);
+  background: #0a0e10;
+}
+
+.endcapInner {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.endcapTitle {
+  margin-top: 0.8rem;
+  color: #edf9f2;
+  font-size: clamp(1.3rem, 2.4vw, 2.25rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.endcapMeta {
+  margin-top: 1rem;
+  color: #a0c1b2;
+  font-size: 0.63rem;
+  line-height: 1.7;
+}
+
+.projectAction {
+  display: inline-flex;
+  min-height: 3.2rem;
+  flex: none;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgb(155 226 192 / 46%);
+  color: #e8fff0;
+  font-size: 0.67rem;
+  text-decoration: none;
+  transition: background-color 200ms ease;
+}
+
+.projectAction:hover {
+  background: rgb(56 130 98 / 15%);
+}
+
+.projectAction span {
+  font-size: 1rem;
+}
+
+.detailAnchor {
+  padding-block: 2.5rem 5rem;
+  color: #a7c6b7;
+  font-size: 0.875rem;
+  scroll-margin-top: 8rem;
+}
+
+.sequence[data-motion="active"] {
+  height: 190svh;
+}
+
+.sequence[data-motion="active"] .stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+  padding: 0;
+}
+
+.sequence[data-motion="active"] .stageInner {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+.sequence[data-motion="active"] .identity,
+.sequence[data-motion="active"] .statement,
+.sequence[data-motion="active"] .perception,
+.sequence[data-motion="active"] .interaction,
+.sequence[data-motion="active"] .reveal {
+  position: absolute;
+}
+
+.sequence[data-motion="active"] .identity {
+  z-index: 2;
+  top: clamp(7rem, 13vh, 9rem);
+  left: 2rem;
+}
+
+.sequence[data-motion="active"] .statement {
+  z-index: 2;
+  top: 36%;
+  left: 2rem;
+  width: 47%;
+}
+
+.sequence[data-motion="active"] .perception {
+  z-index: 1;
+  top: 22%;
+  right: 2rem;
+  width: 49%;
+}
+
+.sequence[data-motion="active"] .interaction {
+  z-index: 3;
+  top: 22%;
+  right: 2rem;
+  width: 59%;
+}
+
+.sequence[data-motion="active"] .reveal {
+  z-index: 4;
+  top: clamp(6.5rem, 13vh, 8rem);
+  right: 2rem;
+  left: 2rem;
+  width: min(calc(100% - 4rem), 72rem, 130svh);
+  margin-inline: auto;
+}
+
+@media (max-width: 767px) {
+  .bridge {
+    padding-block: 5rem 6rem;
+  }
+
+  .bridgeAxis {
+    gap: 0.65rem;
+    font-size: 0.55rem;
+  }
+
+  .bridgeStatement {
+    font-size: clamp(2.4rem, 11vw, 4rem);
+  }
+
+  .stage {
+    padding-block: 4rem 5rem;
+  }
+
+  .stageInner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 3.8rem;
+  }
+
+  .identity h2 {
+    font-size: clamp(2.6rem, 10vw, 4rem);
+  }
+
+  .statementMain {
+    font-size: clamp(3rem, 12vw, 4.8rem);
+  }
+
+  .statementSupport {
+    margin-top: 1.5rem;
+  }
+
+  .sceneTopline,
+  .revealHeading {
+    flex-wrap: wrap;
+  }
+
+  .perceptionField,
+  .interactionField {
+    aspect-ratio: 1.13;
+  }
+
+  .faceCallout,
+  .handCallout,
+  .pinchCallout,
+  .twoHandCallout {
+    font-size: 0.53rem;
+  }
+
+  .revealGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .stateFrames {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .revealGrid span {
+    padding: 0.38rem 0.45rem;
+    font-size: 0.55rem;
+  }
+
+  .endcapInner {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projectAction {
+    transition: none;
+  }
+}

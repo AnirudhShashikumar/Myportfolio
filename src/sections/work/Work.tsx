@@ -99,7 +99,7 @@ export default function Work() {
         fromTheme="meditwin"
         toTheme="medifit"
         sourceLine="DIGITAL-TWIN-INSPIRED HEALTH CONTEXT"
-        targetLine="PERSONALIZED FITNESS / WORKING BUILD"
+        targetLine="PERSONALIZED FITNESS / PROJECT ACCOUNT"
         transitionLabel="RELATED IDEA / DIFFERENT BUILD"
         restrained
       />

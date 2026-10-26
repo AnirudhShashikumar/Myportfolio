@@ -1,0 +1,11 @@
+{
+  "name": "medifit",
+  "private": true,
+  "scripts": {
+    "dev": "cd mediFit-main/frontend && npm run dev",
+    "build": "cd mediFit-main/frontend && npm ci && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

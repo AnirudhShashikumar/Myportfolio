@@ -23,7 +23,7 @@
 .certificate figcaption,
 .teamEvidence figcaption,
 .organizer,
-.projectAction {
+.availability {
   font-family: var(--font-geist-mono), monospace;
   letter-spacing: 0.09em;
 }
@@ -631,39 +631,14 @@
   letter-spacing: -0.035em;
 }
 
-.projectAction {
+.availability {
   display: inline-flex;
   min-height: 3rem;
   flex: none;
   align-items: center;
-  gap: 1.3rem;
-  padding: 0.85rem 1rem;
-  border: 1px solid rgb(145 207 221 / 45%);
-  color: #effcff;
+  margin: 0;
+  color: #aebfc9;
   font-size: 0.65rem;
-  text-decoration: none;
-  transition: border-color 180ms ease, background-color 180ms ease, color 180ms ease;
-}
-
-.projectAction:hover {
-  border-color: rgb(175 228 238 / 76%);
-  background: rgb(80 142 158 / 16%);
-}
-
-.projectAction:focus-visible {
-  border-color: #b9edf5;
-  outline: 2px solid #b9edf5;
-  outline-offset: 4px;
-}
-
-.projectAction span {
-  font-size: 0.95rem;
-  transition: transform 180ms ease;
-}
-
-.projectAction:hover span,
-.projectAction:focus-visible span {
-  transform: translate(0.14rem, -0.14rem);
 }
 
 .detailAnchor {
@@ -887,9 +862,7 @@
   .certificate a,
   .certificate .evidenceImage,
   .teamImageFrame,
-  .teamEvidence .evidenceImage,
-  .projectAction,
-  .projectAction span {
+  .teamEvidence .evidenceImage {
     transition: none;
   }
 }

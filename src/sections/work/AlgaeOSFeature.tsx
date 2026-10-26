@@ -145,7 +145,7 @@ export default function AlgaeOSFeature() {
                   <dd>&lt;900 <small>PPM</small></dd>
                 </div>
                 <div>
-                  <dt>PROTOTYPE COST</dt>
+                  <dt>REPORTED PROTOTYPE COST</dt>
                   <dd>&lt;₹2,500</dd>
                 </div>
               </dl>
@@ -173,20 +173,18 @@ export default function AlgaeOSFeature() {
       <div className={styles.endcap}>
         <Container className={styles.endcapInner}>
           <div>
-            <p className={styles.eyebrow}>BMSIT · 1 SEMESTER · TEAM OF 4</p>
+            <p className={styles.eyebrow}>PROJECT ACCOUNT / BMSIT · 1 SEMESTER · TEAM OF 4</p>
             <p className={styles.endcapTitle}>SOFTWARE, SENSORS, AND A LIVING SYSTEM.</p>
             <p className={styles.endcapMeta}>IOT · EMBEDDED SYSTEMS · ENVIRONMENTAL TECHNOLOGY · PHYSICAL PROTOTYPING</p>
-            <p className={styles.creditLine}>ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS</p>
+            <p className={styles.creditLine}>REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS</p>
           </div>
-          <a href="#algaeos-detail" className={styles.projectAction}>
-            EXPLORE ALGAEOS <span aria-hidden="true">↗</span>
-          </a>
+          <p className={styles.availability} data-project-availability>CASE STUDY NOT PUBLISHED</p>
         </Container>
       </div>
 
       <div id="algaeos-detail" className={styles.detailAnchor} tabIndex={-1}>
         <Container>
-          <p>Full AlgaeOS case study coming soon.</p>
+          <p>No separate AlgaeOS case study is published.</p>
         </Container>
       </div>
     </AccessibleProject>

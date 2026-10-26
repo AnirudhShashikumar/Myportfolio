@@ -1,0 +1,146 @@
+[
+  {
+    "path": "209-44beca00da938c1b.js",
+    "bytes": 19083,
+    "sha256": "9ef902c429425794e5d5dc98c768230aaf02f78e6a31985591631a2d7b69798b",
+    "gzipBytes": 6628
+  },
+  {
+    "path": "4bd1b696-c7408084347438ae.js",
+    "bytes": 203721,
+    "sha256": "7d5ccf185a6f85ab38ce400a7f10aa0a3496eb4e9aee1e500a85e01c4222fcec",
+    "gzipBytes": 63942
+  },
+  {
+    "path": "50-d904d14977fc9b15.js",
+    "bytes": 62258,
+    "sha256": "2730570b5756cae1557657a3c063b24e7d3518404ccc3937b2acd7b42877f768",
+    "gzipBytes": 24781
+  },
+  {
+    "path": "72c373f8.e056c33f8b8d6ede.js",
+    "bytes": 146757,
+    "sha256": "92c8cc64a5e665c7a2215f1f5c51f9054f19fbddd86839310d6caae0b99718b9",
+    "gzipBytes": 46147
+  },
+  {
+    "path": "794-216401842b802bd7.js",
+    "bytes": 242566,
+    "sha256": "d865c90697d8de39a2108c21cb922a03f7810c3e0dbcf88cd584786f6c3234c6",
+    "gzipBytes": 67170
+  },
+  {
+    "path": "844.9405b6f7111713b8.js",
+    "bytes": 12478,
+    "sha256": "168d0f0bfc046aa0a6180ab150e705fe35ed5d84a00067f08ea70a99bf78cb97",
+    "gzipBytes": 3812
+  },
+  {
+    "path": "857.ecdb3aac69b80487.js",
+    "bytes": 13128,
+    "sha256": "89d1b01a471b323a0ff922455667a7bd8de2bdedacdea6e5eff31291320c61b6",
+    "gzipBytes": 5203
+  },
+  {
+    "path": "app/_global-error/page-9d04ccbac636167c.js",
+    "bytes": 147,
+    "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+    "gzipBytes": 136
+  },
+  {
+    "path": "app/_not-found/page-f8f9b2c2efb796ed.js",
+    "bytes": 2667,
+    "sha256": "0bb917ea681a896e1681ab3096272189cd5c646f5689485f614fcdfd2032f675",
+    "gzipBytes": 999
+  },
+  {
+    "path": "app/layout-1a9715263bb68ba5.js",
+    "bytes": 25879,
+    "sha256": "f60a7d8be6eec4b020167d2224b6c6689c5c4234495c6a65cf776c8214da35af",
+    "gzipBytes": 7712
+  },
+  {
+    "path": "app/page-bcda261c2ff82a32.js",
+    "bytes": 130276,
+    "sha256": "75d25fc839587158a1dbcf2e0049ded26c309c00a8f2c79af98ce163c18b0420",
+    "gzipBytes": 35382
+  },
+  {
+    "path": "b536a0f1.8b5c649a3f5349db.js",
+    "bytes": 367908,
+    "sha256": "2e3846f7358e16b5e47cd5ac0c478845ace5300adcfa0727f02cdd2802973c61",
+    "gzipBytes": 88110
+  },
+  {
+    "path": "bd904a5c.b9f5781b322e5178.js",
+    "bytes": 379578,
+    "sha256": "6a93addad715839d425e6b5a0ae1d361a24d18cb708803539530d6ce3e7f1572",
+    "gzipBytes": 99925
+  },
+  {
+    "path": "c15bf2b0-182b384b62e205ff.js",
+    "bytes": 51569,
+    "sha256": "c7e182337a998726b81ad7230e535ab270ca06dc8590438e14de291ed9939a1d",
+    "gzipBytes": 19667
+  },
+  {
+    "path": "framework-6860ebc283a60d07.js",
+    "bytes": 189664,
+    "sha256": "099914a36cc97ca8b0dcf8ac41ebb0d9fd52d0072aa9ee24493962d6d5a8c11c",
+    "gzipBytes": 59695
+  },
+  {
+    "path": "main-5e771d4ea2a3ea31.js",
+    "bytes": 137364,
+    "sha256": "436eab95f11c9131a9f927e58df9034be58a7f525ad4b39289ff75bdc24b4fdd",
+    "gzipBytes": 40226
+  },
+  {
+    "path": "main-app-6954a6653158385a.js",
+    "bytes": 513,
+    "sha256": "98bebe75d5b247b32cb65b3c547fd9c6a6bd382d9bd1541daf0317a738983ae2",
+    "gzipBytes": 223
+  },
+  {
+    "path": "next/dist/client/components/builtin/app-error-9d04ccbac636167c.js",
+    "bytes": 147,
+    "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+    "gzipBytes": 136
+  },
+  {
+    "path": "next/dist/client/components/builtin/forbidden-9d04ccbac636167c.js",
+    "bytes": 147,
+    "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+    "gzipBytes": 136
+  },
+  {
+    "path": "next/dist/client/components/builtin/global-error-c7b9317eabf0ddd7.js",
+    "bytes": 179,
+    "sha256": "5da750d489129f201f50e13ca4c8543f94f9b0a3bab9dc2c933a531e8bcf3630",
+    "gzipBytes": 160
+  },
+  {
+    "path": "next/dist/client/components/builtin/not-found-9d04ccbac636167c.js",
+    "bytes": 147,
+    "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+    "gzipBytes": 136
+  },
+  {
+    "path": "next/dist/client/components/builtin/unauthorized-9d04ccbac636167c.js",
+    "bytes": 147,
+    "sha256": "09c54cd1f5b678f455b713b0a01b2f841219186fe31e7bb4688b11f787775671",
+    "gzipBytes": 136
+  },
+  {
+    "path": "polyfills-42372ed130431b0a.js",
+    "bytes": 112594,
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+    "gzipBytes": 39373
+  },
+  {
+    "path": "webpack-6daab5533692fb7e.js",
+    "bytes": 3549,
+    "sha256": "5457315c3119b593468cd1082ed4fa37f4cafa95103390198c72dc803967c7d6",
+    "gzipBytes": 1835
+  }
+]

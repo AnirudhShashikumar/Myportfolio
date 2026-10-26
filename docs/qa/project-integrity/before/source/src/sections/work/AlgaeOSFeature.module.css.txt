@@ -1,0 +1,707 @@
+.feature {
+  position: relative;
+  z-index: 1;
+  overflow: clip;
+  background:
+    radial-gradient(ellipse at 78% 12%, rgb(49 82 47 / 12%), transparent 33%),
+    linear-gradient(#0a0e10, #0b100d 47%, #0a0d0b);
+}
+
+.motionRoot {
+  position: relative;
+}
+
+.eyebrow,
+.bridgeAxis,
+.projectType,
+.contribution,
+.prototype figcaption,
+.flowHeader,
+.flowIndex,
+.flowDetail,
+.flowFooter,
+.signalLine,
+.hardware figcaption,
+.dashboard figcaption,
+.metrics dt,
+.metricFootnote,
+.artifactLink span,
+.artifact figcaption,
+.endcapMeta,
+.creditLine,
+.projectAction {
+  font-family: var(--font-geist-mono), monospace;
+  letter-spacing: 0.11em;
+}
+
+.eyebrow {
+  color: #a2c99a;
+  font-size: 0.68rem;
+}
+
+.bridge {
+  padding-block: clamp(6rem, 10vw, 9rem);
+  border-top: 1px solid rgb(150 195 146 / 13%);
+}
+
+.bridgeTitle {
+  max-width: 75rem;
+  margin-top: 1.5rem;
+  color: #e9f3e6;
+  font-size: clamp(2.8rem, 6.4vw, 6.1rem);
+  font-weight: 500;
+  letter-spacing: -0.07em;
+  line-height: 1;
+}
+
+.bridgeTitle span {
+  color: #9ebd92;
+}
+
+.bridgeAxis {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 42rem;
+  margin-top: 2rem;
+  color: #8ba58a;
+  font-size: 0.62rem;
+  white-space: nowrap;
+}
+
+.bridgeLine {
+  position: relative;
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, #6ba9a0, #98be88);
+}
+
+.bridgeLine::after {
+  position: absolute;
+  top: -0.2rem;
+  right: 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: #b4d698;
+  content: "";
+}
+
+.opening {
+  padding-block: clamp(3rem, 6vw, 5rem) clamp(5rem, 8vw, 8rem);
+}
+
+.openingGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(3rem, 7vw, 7rem);
+}
+
+.openingCopy h2 {
+  margin-top: 1rem;
+  color: #f0f7ed;
+  font-size: clamp(3.4rem, 6vw, 6.2rem);
+  font-weight: 600;
+  letter-spacing: -0.07em;
+  line-height: 0.96;
+}
+
+.projectType {
+  margin-top: 0.9rem;
+  color: #b0c4aa;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+}
+
+.statement {
+  margin-top: clamp(2.5rem, 5vw, 5rem);
+  color: #f0f7eb;
+  font-size: clamp(2.8rem, 5.4vw, 5.5rem);
+  font-weight: 600;
+  letter-spacing: -0.075em;
+  line-height: 0.96;
+}
+
+.statement span {
+  display: block;
+}
+
+.statement span:nth-child(2) {
+  color: #a9c693;
+}
+
+.summary {
+  max-width: 29rem;
+  margin-top: 2rem;
+  color: #b8cdb5;
+  font-size: clamp(0.98rem, 1.25vw, 1.13rem);
+  line-height: 1.65;
+}
+
+.contribution {
+  margin-top: 2rem;
+  color: #a1b59a;
+  font-size: 0.61rem;
+  line-height: 1.6;
+}
+
+.prototype {
+  min-width: 0;
+  margin: 0;
+}
+
+.prototypeFrame {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgb(142 178 133 / 13%);
+  background: #050706;
+}
+
+.prototypeFrame::after {
+  position: absolute;
+  inset: 0;
+  border: 0.75rem solid rgb(7 10 8 / 48%);
+  content: "";
+  pointer-events: none;
+}
+
+.prototypeImage,
+.hardwareImage,
+.dashboardImage,
+.artifactImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.prototype figcaption,
+.hardware figcaption,
+.dashboard figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 0.8rem;
+  color: #9bb193;
+  font-size: 0.59rem;
+  line-height: 1.6;
+}
+
+.prototype figcaption span:last-child {
+  color: #ab9779;
+}
+
+.system,
+.readout,
+.observations {
+  border-top: 1px solid rgb(141 181 133 / 14%);
+}
+
+.system {
+  padding-block: clamp(4rem, 7vw, 6rem);
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.sectionHeading h3,
+.observationCopy h3 {
+  margin-top: 0.8rem;
+  color: #eaf5e6;
+  font-size: clamp(1.7rem, 3.1vw, 3.2rem);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  line-height: 1.08;
+}
+
+.sectionHeading > p {
+  max-width: 29rem;
+  color: #aec4a9;
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.flow {
+  margin-top: clamp(2.5rem, 5vw, 4.5rem);
+}
+
+.flowHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: #90ac8b;
+  font-size: 0.61rem;
+}
+
+.flowStages {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  margin-top: 1rem;
+  padding: 0;
+  border-block: 1px solid rgb(143 190 132 / 21%);
+  list-style: none;
+}
+
+.flowStage {
+  display: flex;
+  min-width: 0;
+  min-height: 8.8rem;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1rem 0.9rem;
+  border-right: 1px solid rgb(143 190 132 / 17%);
+}
+
+.flowStage:first-child {
+  border-left: 1px solid rgb(143 190 132 / 17%);
+}
+
+.flowIndex {
+  color: #91b38a;
+  font-size: 0.61rem;
+}
+
+.flowStage strong {
+  color: #e3f0df;
+  font-size: clamp(0.73rem, 0.9vw, 0.9rem);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.flowDetail {
+  margin-top: auto;
+  color: #98b094;
+  font-size: 0.59rem;
+  line-height: 1.55;
+}
+
+.flowTrace {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  overflow: visible;
+}
+
+.flowTrace path {
+  fill: none;
+  stroke: #82b996;
+  stroke-width: 1.2;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  vector-effect: non-scaling-stroke;
+}
+
+.flowTrace circle {
+  fill: #b5dc9f;
+}
+
+.flowFooter {
+  color: #849c7e;
+  font-size: 0.6rem;
+  line-height: 1.7;
+}
+
+.readout {
+  padding-block: clamp(4rem, 7vw, 6rem);
+}
+
+.readoutGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+  align-items: start;
+  gap: clamp(2rem, 5vw, 5rem);
+  margin-top: clamp(2.5rem, 5vw, 4.5rem);
+}
+
+.hardware,
+.dashboard {
+  min-width: 0;
+  margin: 0;
+}
+
+.hardwareFrame {
+  overflow: hidden;
+  border: 1px solid rgb(177 155 129 / 24%);
+  background: #cbc4b6;
+}
+
+.hardware figcaption,
+.dashboard figcaption {
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.hardware figcaption span:last-child,
+.dashboard figcaption span:last-child {
+  color: #aab9a2;
+  letter-spacing: 0.02em;
+}
+
+.dashboardColumn {
+  min-width: 0;
+  padding-top: clamp(2rem, 6vw, 6rem);
+}
+
+.signalLine {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.9rem;
+  color: #b7c6a5;
+  font-size: 0.62rem;
+}
+
+.signalLine span {
+  color: #a0cfa7;
+  font-size: 0.85rem;
+}
+
+.telemetryTrace {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 1.4rem;
+  background: linear-gradient(90deg, #aa8d67, #91ba89 60%, #a7d2b3);
+}
+
+.dashboardFrame {
+  overflow: hidden;
+  border: 1px solid rgb(125 184 128 / 30%);
+  background: #06140c;
+  box-shadow: 0 2rem 5rem rgb(0 0 0 / 25%);
+}
+
+.dashboardNote {
+  max-width: 36rem;
+  margin-top: 1.6rem;
+  color: #a9bfa4;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.observations {
+  padding-block: clamp(4rem, 7vw, 6rem);
+}
+
+.observationsGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.3fr);
+  align-items: start;
+  gap: clamp(3rem, 7vw, 7rem);
+}
+
+.observationCaveat {
+  max-width: 37rem;
+  margin-top: 1.2rem;
+  color: #adc1a8;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: clamp(3rem, 5vw, 4.5rem);
+}
+
+.metrics > div {
+  padding-top: 1.2rem;
+  border-top: 1px solid rgb(156 201 144 / 31%);
+}
+
+.metrics dt {
+  min-height: 2.6rem;
+  color: #9cb294;
+  font-size: 0.6rem;
+  line-height: 1.5;
+}
+
+.metrics dd {
+  margin: 0.45rem 0 0;
+  color: #e7f6df;
+  font-size: clamp(1.8rem, 3.7vw, 3.6rem);
+  font-weight: 500;
+  letter-spacing: -0.065em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.metrics small {
+  color: #aac09e;
+  font-size: 0.4em;
+  letter-spacing: 0.07em;
+}
+
+.metricFootnote {
+  margin-top: 2rem;
+  color: #879c82;
+  font-size: 0.6rem;
+  line-height: 1.7;
+}
+
+.artifact {
+  width: min(100%, 17rem);
+  margin: 0;
+  justify-self: end;
+}
+
+.artifactLink {
+  display: block;
+  padding: 0.4rem;
+  border: 1px solid rgb(145 187 133 / 24%);
+  color: #d5e7ce;
+  text-decoration: none;
+}
+
+.artifactImage {
+  opacity: 0.85;
+}
+
+.artifactLink > span {
+  display: block;
+  padding: 0.75rem 0.35rem 0.35rem;
+  color: #c6debd;
+  font-size: 0.57rem;
+}
+
+.artifact figcaption {
+  margin-top: 0.8rem;
+  color: #81967c;
+  font-size: 0.55rem;
+  line-height: 1.5;
+}
+
+.endcap {
+  padding-block: clamp(3rem, 6vw, 5rem);
+  border-top: 1px solid rgb(141 185 130 / 18%);
+  background: #0a0d0b;
+}
+
+.endcapInner {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.endcapTitle {
+  margin-top: 0.8rem;
+  color: #eaf4e6;
+  font-size: clamp(1.3rem, 2.4vw, 2.3rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.endcapMeta,
+.creditLine {
+  margin-top: 0.9rem;
+  color: #9aaf93;
+  font-size: 0.61rem;
+  line-height: 1.7;
+}
+
+.creditLine {
+  color: #b8cbaa;
+}
+
+.projectAction {
+  display: inline-flex;
+  min-height: 3.2rem;
+  flex: none;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgb(159 207 142 / 43%);
+  color: #ebf8e5;
+  font-size: 0.68rem;
+  text-decoration: none;
+  transition: background-color 200ms ease;
+}
+
+.projectAction:hover {
+  background: rgb(74 113 65 / 19%);
+}
+
+.projectAction span {
+  font-size: 1rem;
+}
+
+.detailAnchor {
+  padding-block: 2.5rem 5rem;
+  color: #a4b99e;
+  font-size: 0.875rem;
+  scroll-margin-top: 8rem;
+}
+
+@media (max-width: 1100px) {
+  .flowStages {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .flowStage:nth-child(4) {
+    border-left: 1px solid rgb(143 190 132 / 17%);
+  }
+
+  .flowStage:nth-child(n + 4) {
+    border-top: 1px solid rgb(143 190 132 / 17%);
+  }
+
+  .metrics {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.2rem;
+  }
+
+  .metrics dt {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .bridge {
+    padding-block: 5rem 6rem;
+  }
+
+  .bridgeTitle {
+    font-size: clamp(2.4rem, 10vw, 4rem);
+  }
+
+  .bridgeAxis {
+    gap: 0.5rem;
+    font-size: 0.52rem;
+  }
+
+  .openingGrid,
+  .readoutGrid,
+  .observationsGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .openingGrid {
+    gap: 3.5rem;
+  }
+
+  .openingCopy h2 {
+    font-size: clamp(3rem, 13vw, 4.5rem);
+  }
+
+  .statement {
+    margin-top: 3rem;
+    font-size: clamp(2.7rem, 11vw, 4.4rem);
+  }
+
+  .prototype {
+    width: 100%;
+  }
+
+  .prototype figcaption,
+  .flowHeader,
+  .sectionHeading {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .sectionHeading {
+    gap: 1rem;
+  }
+
+  .flowStages {
+    position: relative;
+    grid-template-columns: minmax(0, 1fr);
+    border: 0;
+  }
+
+  .flowStages::before {
+    position: absolute;
+    top: 1.5rem;
+    bottom: 1.5rem;
+    left: 0.4rem;
+    width: 1px;
+    background: #6c976c;
+    content: "";
+  }
+
+  .flowStage,
+  .flowStage:first-child,
+  .flowStage:nth-child(4),
+  .flowStage:nth-child(n + 4) {
+    position: relative;
+    min-height: 0;
+    gap: 0.4rem;
+    padding: 1rem 0 1.1rem 1.8rem;
+    border: 0;
+  }
+
+  .flowStage::before {
+    position: absolute;
+    top: 1.35rem;
+    left: 0.2rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: #afd29c;
+    content: "";
+  }
+
+  .flowStage strong {
+    font-size: 0.86rem;
+  }
+
+  .flowDetail {
+    margin-top: 0;
+  }
+
+  .flowTrace {
+    display: none;
+  }
+
+  .flowFooter {
+    margin-top: 1rem;
+  }
+
+  .readoutGrid {
+    gap: 3.5rem;
+  }
+
+  .dashboardColumn {
+    padding-top: 0;
+  }
+
+  .signalLine {
+    flex-wrap: wrap;
+    font-size: 0.56rem;
+  }
+
+  .observationsGrid {
+    gap: 3.5rem;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .metrics dd {
+    font-size: clamp(1.75rem, 8vw, 3rem);
+  }
+
+  .artifact {
+    justify-self: start;
+    width: min(100%, 15rem);
+  }
+
+  .endcapInner {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projectAction {
+    transition: none;
+  }
+}

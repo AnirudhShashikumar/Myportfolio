@@ -1,0 +1,26 @@
+[
+  {
+    "source": "/Users/anirudhshashikumar/Documents/Projects/SatQuery AI/SatQuery-AI-space/models/grounding_specialist_v1_1/validation_results.json",
+    "sha256": "870ba9d7608e5f950c73e4b92b901f714d64b530eb2b2e0ed5d380aac214da7e",
+    "model": "SatQuery Grounding Specialist v1.1",
+    "summary": {
+      "samples": 16146,
+      "mean_iou": 0.23478312188203337,
+      "accuracy_at_050": 0.2505264461786201
+    },
+    "checkpoint_sha256": null,
+    "dataset_split": null
+  },
+  {
+    "source": "/Users/anirudhshashikumar/Documents/Projects/SatQuery AI/sar-colorization-app/artifacts/rsvqa_full_specialist_v1/results.json",
+    "sha256": "021d330118e62dd1c4e872e44e7dad1c5b6f5505b9f7dcb53f1d3145a27907b6",
+    "model": "RSVQA Specialist v1",
+    "summary": {
+      "total_records": 10004,
+      "exact_match_accuracy": 0.710515793682527,
+      "overflow_aware_accuracy": 0.7431027588964414
+    },
+    "checkpoint_sha256": "71c0ab56ee650813bd495e8a3bc777353b6907a097af860e417f60523efe56ad",
+    "dataset_split": "official test"
+  }
+]

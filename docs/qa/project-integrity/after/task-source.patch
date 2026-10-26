@@ -1,0 +1,514 @@
+--- a/src/sections/about/aboutContent.ts
++++ b/src/sections/about/aboutContent.ts
+@@ -4,8 +4,8 @@
+ export const workflow = ["IDEA", "UNDERSTAND", "RESEARCH", "ARCHITECTURE", "BUILD", "TEST", "VALIDATE", "ITERATE"];
+ export const productLayers = ["DATA", "API", "LOGIC", "INTERFACE", "DEPLOYMENT", "VALIDATION"];
+ export const vision = ["IMAGE → DATA", "MOVEMENT → INTERACTION", "SPACE → INTERFACE"];
+-export const competitions = ["INCSEPTION 2.0 / 1ST PLACE", "PUSH PULL COMMIT / 3RD PLACE", "SMART INDIA HACKATHON 2026 / COLLEGE SHORTLIST FOR PROJECT SUBMISSION"];
+-export const sports = ["BASKETBALL / INTER-HOUSE SCHOOL / FIRST PLACE", "FOOTBALL / PUC / SECOND PLACE"];
++export const competitions = ["INCSEPTION 2.0 / 1ST PLACE", "PUSH PULL COMMIT / 3RD PLACE", "SMART INDIA HACKATHON 2026 / REPORTED COLLEGE SHORTLIST FOR PROJECT SUBMISSION"];
++export const sports = ["BASKETBALL / INTER-HOUSE SCHOOL / FIRST PLACE (PERSONAL ACCOUNT)", "FOOTBALL / PUC / SECOND PLACE (PERSONAL ACCOUNT)"];
+ export const archives = {
+   origin: { src: "/achievements/presidency-html-competition-first-place-2020.jpg", width: 1800, height: 1277, alt: "Presidency School document awarding Anirudh First Position in its HTML website competition.", caption: "PRESIDENCY SCHOOL / HTML WEBSITE COMPETITION / FIRST POSITION", year: "2020 / FIRST WEBSITE" },
+   learning: { src: "/achievements/google-ai-professional-certificate-2026.jpg", width: 1800, height: 1387, alt: "Google AI Professional Certificate issued to Anirudh Shashikumar through Coursera.", caption: "GOOGLE AI PROFESSIONAL CERTIFICATE / COMPLETED 2026 / 7 COURSES", year: "2026 / STILL LEARNING" },
+--- a/src/sections/work/AlgaeOSFeature.tsx
++++ b/src/sections/work/AlgaeOSFeature.tsx
+@@ -145,7 +145,7 @@
+                   <dd>&lt;900 <small>PPM</small></dd>
+                 </div>
+                 <div>
+-                  <dt>PROTOTYPE COST</dt>
++                  <dt>REPORTED PROTOTYPE COST</dt>
+                   <dd>&lt;₹2,500</dd>
+                 </div>
+               </dl>
+@@ -173,20 +173,18 @@
+       <div className={styles.endcap}>
+         <Container className={styles.endcapInner}>
+           <div>
+-            <p className={styles.eyebrow}>BMSIT · 1 SEMESTER · TEAM OF 4</p>
++            <p className={styles.eyebrow}>PROJECT ACCOUNT / BMSIT · 1 SEMESTER · TEAM OF 4</p>
+             <p className={styles.endcapTitle}>SOFTWARE, SENSORS, AND A LIVING SYSTEM.</p>
+             <p className={styles.endcapMeta}>IOT · EMBEDDED SYSTEMS · ENVIRONMENTAL TECHNOLOGY · PHYSICAL PROTOTYPING</p>
+-            <p className={styles.creditLine}>ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS</p>
++            <p className={styles.creditLine}>REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS</p>
+           </div>
+-          <a href="#algaeos-detail" className={styles.projectAction}>
+-            EXPLORE ALGAEOS <span aria-hidden="true">↗</span>
+-          </a>
++          <p className={styles.availability} data-project-availability>CASE STUDY NOT PUBLISHED</p>
+         </Container>
+       </div>
+ 
+       <div id="algaeos-detail" className={styles.detailAnchor} tabIndex={-1}>
+         <Container>
+-          <p>Full AlgaeOS case study coming soon.</p>
++          <p>No separate AlgaeOS case study is published.</p>
+         </Container>
+       </div>
+     </AccessibleProject>
+--- a/src/sections/work/SatQueryFeature.tsx
++++ b/src/sections/work/SatQueryFeature.tsx
+@@ -73,7 +73,7 @@
+ 
+       <div id="satquery-detail" className={styles.detailAnchor} tabIndex={-1}>
+         <Container>
+-          <p>Full SatQuery AI case study coming soon.</p>
++          <p>No separate SatQuery AI case study is published.</p>
+         </Container>
+       </div>
+     </AccessibleProject>
+--- a/src/sections/work/Work.tsx
++++ b/src/sections/work/Work.tsx
+@@ -99,7 +99,7 @@
+         fromTheme="meditwin"
+         toTheme="medifit"
+         sourceLine="DIGITAL-TWIN-INSPIRED HEALTH CONTEXT"
+-        targetLine="PERSONALIZED FITNESS / WORKING BUILD"
++        targetLine="PERSONALIZED FITNESS / PROJECT ACCOUNT"
+         transitionLabel="RELATED IDEA / DIFFERENT BUILD"
+         restrained
+       />
+--- a/src/sections/work/DayflowFeature.tsx
++++ b/src/sections/work/DayflowFeature.tsx
+@@ -163,7 +163,7 @@
+               <div className={styles.authorization} data-df-authorization>
+                 <p className={styles.eyebrow}>AUTHORIZATION RULE</p>
+                 <p className={styles.detailTitle} data-df-authorization-title><span>PORTAL</span><span> ≠ PERMISSION.</span></p>
+-                <p data-df-authorization-copy>A trusted database profile role routes the session to Employee or HR/Admin access. Server-side checks and Row Level Security protect the underlying data.</p>
++                <p data-df-authorization-copy>The design routes sessions by database profile role, with server-side checks and Row Level Security policies. Deployed authorization is not independently verified here.</p>
+                 <p className={styles.detailMicro}>PRIVATE DOCUMENTS / SHORT-LIVED SIGNED URLS</p>
+               </div>
+ 
+@@ -191,16 +191,16 @@
+         <section className={styles.verification} aria-labelledby="dayflow-verification-heading" data-df-verification>
+           <Container className={styles.verificationGrid}>
+             <div>
+-              <p className={styles.eyebrow}>ENGINEERING STATUS</p>
+-              <h3 id="dayflow-verification-heading" data-df-verification-title><span>VERIFIED.</span> <span>STILL EVOLVING.</span></h3>
+-              <p data-df-verification-copy>Repository checks, public authentication smoke tests, and protected-route redirects pass. Production hardening remains in progress.</p>
++              <p className={styles.eyebrow}>VERIFICATION RECORD</p>
++              <h3 id="dayflow-verification-heading" data-df-verification-title><span>REPORTED.</span> <span>NOT RE-RUN.</span></h3>
++              <p data-df-verification-copy>Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.</p>
+             </div>
+             <div>
+               <dl className={styles.qualitySignals}>
+-                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">✓</span><dt>AUTOMATED TESTS</dt><dd>68 PASSING</dd></div>
+-                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">✓</span><dt>TYPECHECK</dt><dd>PASSING</dd></div>
+-                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">✓</span><dt>LINT</dt><dd>PASSING</dd></div>
+-                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">✓</span><dt>PRODUCTION BUILD</dt><dd>PASSING</dd></div>
++                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">—</span><dt>AUTOMATED TESTS</dt><dd>NO RUN LINKED</dd></div>
++                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">—</span><dt>TYPECHECK</dt><dd>NOT RE-RUN</dd></div>
++                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">—</span><dt>LINT</dt><dd>NOT RE-RUN</dd></div>
++                <div data-df-verification-check><span className={styles.verificationMark} aria-hidden="true">—</span><dt>PRODUCTION BUILD</dt><dd>NOT RE-RUN</dd></div>
+               </dl>
+               <p className={styles.pending} data-df-verification-pending>AUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS</p>
+             </div>
+@@ -220,7 +220,7 @@
+       </div>
+ 
+       <div id="dayflow-detail" className={styles.detailAnchor} tabIndex={-1}>
+-        <Container><p>Full Dayflow case study coming soon.</p></Container>
++        <Container><p>No separate Dayflow case study is published.</p></Container>
+       </div>
+     </AccessibleProject>
+   );
+--- a/src/sections/work/AlgaeOSFeature.module.css
++++ b/src/sections/work/AlgaeOSFeature.module.css
+@@ -29,7 +29,7 @@
+ .artifact figcaption,
+ .endcapMeta,
+ .creditLine,
+-.projectAction {
++.availability {
+   font-family: var(--font-geist-mono), monospace;
+   letter-spacing: 0.11em;
+ }
+@@ -510,26 +510,14 @@
+   color: #b8cbaa;
+ }
+ 
+-.projectAction {
++.availability {
+   display: inline-flex;
+   min-height: 3.2rem;
+   flex: none;
+   align-items: center;
+-  gap: 1.6rem;
+-  padding: 0.9rem 1rem;
+-  border: 1px solid rgb(159 207 142 / 43%);
+-  color: #ebf8e5;
++  margin: 0;
++  color: #b8cbaa;
+   font-size: 0.68rem;
+-  text-decoration: none;
+-  transition: background-color 200ms ease;
+-}
+-
+-.projectAction:hover {
+-  background: rgb(74 113 65 / 19%);
+-}
+-
+-.projectAction span {
+-  font-size: 1rem;
+ }
+ 
+ .detailAnchor {
+@@ -699,9 +687,3 @@
+     flex-direction: column;
+   }
+ }
+-
+-@media (prefers-reduced-motion: reduce) {
+-  .projectAction {
+-    transition: none;
+-  }
+-}
+--- a/src/sections/work/MediTwinFeature.module.css
++++ b/src/sections/work/MediTwinFeature.module.css
+@@ -23,7 +23,7 @@
+ .certificate figcaption,
+ .teamEvidence figcaption,
+ .organizer,
+-.projectAction {
++.availability {
+   font-family: var(--font-geist-mono), monospace;
+   letter-spacing: 0.09em;
+ }
+@@ -631,39 +631,14 @@
+   letter-spacing: -0.035em;
+ }
+ 
+-.projectAction {
++.availability {
+   display: inline-flex;
+   min-height: 3rem;
+   flex: none;
+   align-items: center;
+-  gap: 1.3rem;
+-  padding: 0.85rem 1rem;
+-  border: 1px solid rgb(145 207 221 / 45%);
+-  color: #effcff;
++  margin: 0;
++  color: #aebfc9;
+   font-size: 0.65rem;
+-  text-decoration: none;
+-  transition: border-color 180ms ease, background-color 180ms ease, color 180ms ease;
+-}
+-
+-.projectAction:hover {
+-  border-color: rgb(175 228 238 / 76%);
+-  background: rgb(80 142 158 / 16%);
+-}
+-
+-.projectAction:focus-visible {
+-  border-color: #b9edf5;
+-  outline: 2px solid #b9edf5;
+-  outline-offset: 4px;
+-}
+-
+-.projectAction span {
+-  font-size: 0.95rem;
+-  transition: transform 180ms ease;
+-}
+-
+-.projectAction:hover span,
+-.projectAction:focus-visible span {
+-  transform: translate(0.14rem, -0.14rem);
+ }
+ 
+ .detailAnchor {
+@@ -887,9 +862,7 @@
+   .certificate a,
+   .certificate .evidenceImage,
+   .teamImageFrame,
+-  .teamEvidence .evidenceImage,
+-  .projectAction,
+-  .projectAction span {
++  .teamEvidence .evidenceImage {
+     transition: none;
+   }
+ }
+--- a/src/sections/work/MediFitFeature.tsx
++++ b/src/sections/work/MediFitFeature.tsx
+@@ -47,7 +47,7 @@
+                 MediFit explored digital-twin-driven personalization for health monitoring
+                 and fitness-plan recommendations adapted to individual health conditions.
+               </p>
+-              <p className={styles.role} data-mf-entry-role>TEAM PROJECT · 4 MEMBERS · PRIMARY CONTRIBUTION / FULL STACK</p>
++              <p className={styles.role} data-mf-entry-role>PROJECT ACCOUNT / TEAM OF 4 · FULL STACK</p>
+             </div>
+ 
+             <div className={styles.statsColumn} data-mf-stats>
+@@ -57,15 +57,15 @@
+                   <strong>3RD PLACE</strong>
+                 </div>
+                 <div data-mf-stat-item>
+-                  <span>BUILD WINDOW</span>
++                  <span>REPORTED WINDOW</span>
+                   <strong>8 HOURS</strong>
+                 </div>
+                 <div data-mf-stat-item>
+-                  <span>FIELD</span>
++                  <span>REPORTED FIELD</span>
+                   <strong>50+ TEAMS</strong>
+                 </div>
+                 <div data-mf-stat-item>
+-                  <span>TEAM</span>
++                  <span>REPORTED TEAM</span>
+                   <strong>4 MEMBERS</strong>
+                 </div>
+               </div>
+@@ -149,7 +149,7 @@
+                 <p className={styles.fullStackTitle} data-mf-fullstack-title>FULL STACK</p>
+                 <span className={styles.fullStackRule} data-mf-fullstack-rule aria-hidden="true" />
+                 <p className={styles.fullStackCopy} data-mf-fullstack-copy>
+-                  Worked across the full-stack development of the MediFit platform,
++                  In the historical project account, work spanned the full-stack development of the MediFit platform,
+                   helping transform the healthcare digital-twin concept into a functional
+                   application with integrated workflows for personalized health monitoring
+                   and fitness-plan recommendations.
+@@ -159,7 +159,7 @@
+ 
+             <div className={styles.deliveryColumn}>
+               <div className={styles.buildWindow} data-mf-build>
+-                <p className={styles.eyebrow}>BUILD CONSTRAINT</p>
++                <p className={styles.eyebrow}>REPORTED BUILD WINDOW</p>
+                 <div className={styles.buildTimeline} data-mf-build-timeline>
+                   {Array.from({ length: 8 }, (_, i) => (
+                     <div className={styles.buildSegment} key={i} data-mf-build-segment />
+@@ -169,7 +169,7 @@
+                   <span><strong>00H</strong> CONCEPT</span>
+                   <span><strong>08H</strong> DEMO</span>
+                 </div>
+-                <p className={styles.deliveredTag} data-mf-delivered>DELIVERED</p>
++                <p className={styles.deliveredTag} data-mf-delivered>PROTOTYPE REPORTED</p>
+               </div>
+ 
+               <div className={styles.achievement} data-mf-achievement>
+@@ -187,9 +187,9 @@
+                   <span className={styles.achievementAccent} data-mf-achievement-accent aria-hidden="true" />
+                 </div>
+                 <div className={styles.achievementMeta} data-mf-achievement-meta>
+-                  <span>50+ TEAMS</span>
+-                  <span>4-PERSON TEAM</span>
+-                  <span>8-HOUR HACKATHON</span>
++                  <span>REPORTED: 50+ TEAMS</span>
++                  <span>REPORTED: 4-PERSON TEAM</span>
++                  <span>REPORTED: 8-HOUR BUILD</span>
+                   <span>IEEE COMPUTER SOCIETY BMSIT&amp;M</span>
+                 </div>
+               </div>
+@@ -205,7 +205,7 @@
+                 >
+                   <Image
+                     src="/projects/medifit/push-pull-commit-certificate.jpg"
+-                    alt="Official Push Pull Commit certificate awarded to Anirudh for securing third place in the eight-hour hackathon organized by IEEE Computer Society BMSIT&M"
++                    alt="Push Pull Commit certificate naming Anirudh and Third Place, dated 4 May 2026, from IEEE Computer Society BMSIT&M"
+                     width={1458}
+                     height={1031}
+                     sizes="(max-width: 767px) 100vw, (max-width: 1200px) 50vw, 500px"
+@@ -235,8 +235,8 @@
+                 <div className={styles.teamCopy} data-mf-team-copy>
+                   <p className={styles.eyebrow}>EXECUTION UNDER CONSTRAINT</p>
+                   <p>
+-                    A four-person team shaped the concept, full-stack application, and
+-                    personalized recommendation direction during the eight-hour hackathon
++                    In the team&apos;s account, four members shaped the concept, full-stack application, and
++                    personalized recommendation direction during a reported eight-hour build at the hackathon
+                     organized by IEEE Computer Society at BMS Institute of Technology and Management.
+                   </p>
+                 </div>
+@@ -271,7 +271,7 @@
+       </MediFitMotion>
+ 
+       <div id="medifit-detail" className={styles.detailAnchor} tabIndex={-1}>
+-        <Container><p>Full MediFit case study coming soon.</p></Container>
++        <Container><p>No separate MediFit case study is published.</p></Container>
+       </div>
+     </AccessibleProject>
+   );
+--- a/src/sections/work/GestureGlobeFeature.tsx
++++ b/src/sections/work/GestureGlobeFeature.tsx
+@@ -39,8 +39,8 @@
+ 
+             <p className="sr-only">
+               Gesture Globe uses live camera input to track face and hand landmarks. A pinch gesture
+-              changes a cyan spatial object, while two-hand movement changes its scale. The images
+-              below show the working real-time system.
++              changes a cyan spatial object, while two-hand movement changes its scale. The supplied
++              captures illustrate the project&apos;s pinch and scale interactions.
+             </p>
+             <LandmarkScene />
+ 
+@@ -107,7 +107,7 @@
+ 
+       <div id="gesture-globe-detail" className={styles.detailAnchor} tabIndex={-1}>
+         <Container>
+-          <p>Full Gesture Globe case study coming soon.</p>
++          <p>No separate Gesture Globe case study is published.</p>
+         </Container>
+       </div>
+     </AccessibleProject>
+--- a/src/sections/work/MediTwinFeature.tsx
++++ b/src/sections/work/MediTwinFeature.tsx
+@@ -64,7 +64,7 @@
+                 An AI-driven healthcare concept combining personalized health monitoring with
+                 fitness-plan recommendations adapted to individual health conditions.
+               </p>
+-              <p className={styles.role} data-mt-entry-role>TEAM PROJECT / CODE BLUE · 4 MEMBERS</p>
++              <p className={styles.role} data-mt-entry-role>PROJECT ACCOUNT / CODE BLUE · 4 MEMBERS</p>
+             </header>
+ 
+             <section className={styles.formation} aria-labelledby="meditwin-formation-heading" data-mt-formation-section>
+@@ -155,7 +155,7 @@
+           <aside className={styles.evidence} aria-label="MediTwin achievement evidence">
+             <div className={styles.executionStrip} data-mt-achievement>
+               <div data-mt-achievement-item><span>BUILD WINDOW</span><strong>8 HOURS</strong></div>
+-              <div data-mt-achievement-item><span>FIELD</span><strong>~130 TEAMS</strong></div>
++              <div data-mt-achievement-item><span>REPORTED FIELD</span><strong>~130 TEAMS</strong></div>
+               <div className={styles.resultSignal} data-mt-achievement-item data-mt-achievement-result>
+                 <span>RESULT</span><strong>1ST PLACE</strong><i aria-hidden="true" />
+               </div>
+@@ -212,7 +212,7 @@
+                   <span><strong>08H</strong> PRESENT</span>
+                 </div>
+                 <p data-mt-execution-copy>
+-                  A four-person team shaped the concept, monitoring workflows, and personalized
++                  In the team&apos;s account, four members shaped the concept, monitoring workflows, and personalized
+                   fitness recommendation direction during the eight-hour hackathon.
+                 </p>
+                 <p className={styles.organizer} data-mt-execution-organizer>GDG ON CAMPUS BMSIT&amp;M</p>
+@@ -227,15 +227,13 @@
+               <p className={styles.eyebrow}>AI HEALTHCARE · DIGITAL TWIN · PERSONALIZED HEALTH</p>
+               <p className={styles.endcapTitle}>A TEAM IDEA, BUILT AT HACKATHON SPEED.</p>
+             </div>
+-            <a href="#meditwin-detail" className={styles.projectAction} data-mt-cta>
+-              VIEW MEDITWIN <span aria-hidden="true">↗</span>
+-            </a>
++            <p className={styles.availability} data-mt-cta data-project-availability>CASE STUDY NOT PUBLISHED</p>
+           </Container>
+         </div>
+       </MediTwinMotion>
+ 
+       <div id="meditwin-detail" className={styles.detailAnchor} tabIndex={-1}>
+-        <Container><p>Full MediTwin case study coming soon.</p></Container>
++        <Container><p>No separate MediTwin case study is published.</p></Container>
+       </div>
+     </AccessibleProject>
+   );
+--- a/scripts/accessibility-f02-qa.mjs
++++ b/scripts/accessibility-f02-qa.mjs
+@@ -98,7 +98,7 @@
+     for (const phrase of ["specialist models", "role-aware HR platform", "personalized fitness"]) {
+       assert.ok(results.initialAX.some(node => node.role === "StaticText" && node.name?.toLowerCase().includes(phrase.toLowerCase())), `description exposed: ${phrase}`);
+     }
+-    for (const phrase of ["live SatQuery", "live Gesture Globe", "EXPLORE ALGAEOS", "live Dayflow", "VIEW MEDITWIN", "MediFit third-place certificate"]) {
++    for (const phrase of ["live SatQuery", "live Gesture Globe", "VIEW ORIGINAL INFOGRAPHIC", "live Dayflow", "MediTwin first-place certificate", "MediFit third-place certificate"]) {
+       assert.ok(results.initialAX.some(node => node.role === "link" && node.name?.includes(phrase)), `project action exposed: ${phrase}`);
+     }
+     for (const name of ["Email Anirudh Shashikumar", "Anirudh Shashikumar on LinkedIn (opens in a new tab)", "Anirudh Shashikumar on GitHub (opens in a new tab)"]) {
+--- a/README.md
++++ b/README.md
+@@ -249,18 +249,20 @@
+ GeoTIFF
+ Geospatial Processing
+ 
+-Evaluated components
++Evaluated components — project-record snapshots
++
++These results describe specific saved model evaluations, not independently reproduced results or a guarantee about the live deployment. Source revisions, local run-record hashes and limits are documented in [the project integrity review](docs/PROJECT_INTEGRITY_REMEDIATION.md).
+ 
+ RSVQA
+ 71.05% exact accuracy
+-74.31% overall-aware accuracy
++74.31% overflow-aware accuracy
+ 10,004 test questions
+ GROUNDING
+ 0.2348 Mean IoU
+ 25.05% Acc@0.50
+ 16,146 validation samples
+ 
+-The broader system has also undergone automated backend and frontend testing across representative workflows.
++The project includes backend and frontend tests across representative workflows. They were not re-run as part of this portfolio review.
+ 
+ The project follows a simple principle:
+ 
+@@ -329,7 +331,7 @@
+ PROTOTYPE COST
+ < ₹2,500
+ 
+-The project received all 10/10 interdisciplinary project credits.
++The project account reports 10/10 interdisciplinary project credits; the academic record is not linked. The cost, team size and one-semester duration above are also project-reported.
+ 
+ My primary contribution focused on the IoT and digital monitoring layer.
+ 
+@@ -349,7 +351,7 @@
+ 
+ Role-aware HR management built around real application boundaries.
+ 
+-Dayflow is a full-stack HRMS developed during the Odoo × NMIT Bangalore Hackathon ’26 and subsequently hardened beyond the original hackathon implementation.
++The project account describes Dayflow as a full-stack HRMS developed during the Odoo × NMIT Bangalore Hackathon ’26 and subsequently hardened beyond the original hackathon implementation. Event participation and that development history are not independently verified here.
+ 
+ The system separates employee and management workflows across:
+ 
+@@ -384,15 +386,9 @@
+ * signed document access
+ * validated application boundaries
+ 
+-Verification
+-
+-68 TESTS PASSING
+-TYPESCRIPT
+-PASS
+-LINT
+-PASS
+-PRODUCTION BUILD
+-PASS
++Verification record
++
++Earlier project notes report automated tests, type checking, lint and production builds. A dated successful run tied to a source revision is not linked here, and these checks were not re-run as part of this portfolio review. The former precise test count and current-looking PASS labels are therefore not presented as current verification results. Deployed RLS and authenticated workflows still require their own validation.
+ 
+ The project became an exercise in an important engineering lesson:
+ 
+@@ -407,10 +403,10 @@
+ 
+ MediTwin was built during IncSEption 2.0, organized through the GDG on Campus ecosystem at BMSIT&M.
+ 
+-8 HOURS
+-4-PERSON TEAM
+-~130 TEAMS
+-1ST PLACE
++8 HOURS / EVENT CERTIFICATE
++4-PERSON TEAM / PROJECT-REPORTED
++~130 TEAMS / PROJECT-REPORTED
++1ST PLACE / EVENT CERTIFICATE
+ 
+ The project explored a digital-twin-inspired approach to:
+ 
+@@ -429,10 +425,10 @@
+ 
+ MediFit was developed during Push Pull Commit, organized by the IEEE Computer Society at BMSIT&M.
+ 
+-8 HOURS
+-4-PERSON TEAM
+-50+ TEAMS
+-3RD PLACE
++8 HOURS / PROJECT-REPORTED
++4-PERSON TEAM / PROJECT-REPORTED
++50+ TEAMS / PROJECT-REPORTED
++3RD PLACE / EVENT CERTIFICATE
+ 
+ The project explored:
+ 
+@@ -1171,8 +1167,8 @@
+ QUALITY
+ RESPONSIVE DESIGN      ✓
+ REDUCED MOTION         ✓
+-ACCESSIBILITY PASS     ✓
+-PERFORMANCE HARDENING  ✓
++ACCESSIBILITY          BROWSER REMEDIATION CHECKED; AT ACCEPTANCE PENDING
++PERFORMANCE            AUDITED; FOLLOW-UP OPEN
+ TYPESCRIPT             ✓
+ ESLINT                 ✓
+ PRODUCTION BUILD       ✓

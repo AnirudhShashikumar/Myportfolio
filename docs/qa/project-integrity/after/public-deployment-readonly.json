@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://myportfolio-alpha-one-48.vercel.app/projects/medifit/push-pull-commit-team-event.jpg",
+    "status": 200,
+    "bytes": 3379343,
+    "locationFieldNames": [
+      "Composite:GPSAltitude",
+      "Composite:GPSDateTime",
+      "Composite:GPSLatitude",
+      "Composite:GPSLongitude",
+      "Composite:GPSPosition",
+      "GPS:GPSAltitude",
+      "GPS:GPSAltitudeRef",
+      "GPS:GPSDateStamp",
+      "GPS:GPSDestBearing",
+      "GPS:GPSDestBearingRef",
+      "GPS:GPSHPositioningError",
+      "GPS:GPSImgDirection",
+      "GPS:GPSImgDirectionRef",
+      "GPS:GPSLatitude",
+      "GPS:GPSLatitudeRef",
+      "GPS:GPSLongitude",
+      "GPS:GPSLongitudeRef",
+      "GPS:GPSSpeed",
+      "GPS:GPSSpeedRef",
+      "GPS:GPSTimeStamp"
+    ],
+    "gpsIFDFieldCount": 15,
+    "matchesSanitizedLocalFile": false
+  },
+  {
+    "url": "https://myportfolio-alpha-one-48.vercel.app/projects/medifit/push-pull-commit-team-award-original.heic",
+    "status": 200,
+    "bytes": 2275823,
+    "locationFieldNames": [
+      "Composite:GPSAltitude",
+      "Composite:GPSDateTime",
+      "Composite:GPSLatitude",
+      "Composite:GPSLongitude",
+      "Composite:GPSPosition",
+      "GPS:GPSAltitude",
+      "GPS:GPSAltitudeRef",
+      "GPS:GPSDateStamp",
+      "GPS:GPSDestBearing",
+      "GPS:GPSDestBearingRef",
+      "GPS:GPSHPositioningError",
+      "GPS:GPSImgDirection",
+      "GPS:GPSImgDirectionRef",
+      "GPS:GPSLatitude",
+      "GPS:GPSLatitudeRef",
+      "GPS:GPSLongitude",
+      "GPS:GPSLongitudeRef",
+      "GPS:GPSSpeed",
+      "GPS:GPSSpeedRef",
+      "GPS:GPSTimeStamp"
+    ],
+    "gpsIFDFieldCount": 15,
+    "matchesSanitizedLocalFile": false
+  }
+]

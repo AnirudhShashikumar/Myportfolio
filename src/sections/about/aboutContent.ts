@@ -4,8 +4,8 @@ export const learningPath = ["PROGRAMMING", "SOFTWARE", "FULL-STACK", "AI", "COM
 export const workflow = ["IDEA", "UNDERSTAND", "RESEARCH", "ARCHITECTURE", "BUILD", "TEST", "VALIDATE", "ITERATE"];
 export const productLayers = ["DATA", "API", "LOGIC", "INTERFACE", "DEPLOYMENT", "VALIDATION"];
 export const vision = ["IMAGE → DATA", "MOVEMENT → INTERACTION", "SPACE → INTERFACE"];
-export const competitions = ["INCSEPTION 2.0 / 1ST PLACE", "PUSH PULL COMMIT / 3RD PLACE", "SMART INDIA HACKATHON 2026 / COLLEGE SHORTLIST FOR PROJECT SUBMISSION"];
-export const sports = ["BASKETBALL / INTER-HOUSE SCHOOL / FIRST PLACE", "FOOTBALL / PUC / SECOND PLACE"];
+export const competitions = ["INCSEPTION 2.0 / 1ST PLACE", "PUSH PULL COMMIT / 3RD PLACE", "SMART INDIA HACKATHON 2026 / REPORTED COLLEGE SHORTLIST FOR PROJECT SUBMISSION"];
+export const sports = ["BASKETBALL / INTER-HOUSE SCHOOL / FIRST PLACE (PERSONAL ACCOUNT)", "FOOTBALL / PUC / SECOND PLACE (PERSONAL ACCOUNT)"];
 export const archives = {
   origin: { src: "/achievements/presidency-html-competition-first-place-2020.jpg", width: 1800, height: 1277, alt: "Presidency School document awarding Anirudh First Position in its HTML website competition.", caption: "PRESIDENCY SCHOOL / HTML WEBSITE COMPETITION / FIRST POSITION", year: "2020 / FIRST WEBSITE" },
   learning: { src: "/achievements/google-ai-professional-certificate-2026.jpg", width: 1800, height: 1387, alt: "Google AI Professional Certificate issued to Anirudh Shashikumar through Coursera.", caption: "GOOGLE AI PROFESSIONAL CERTIFICATE / COMPLETED 2026 / 7 COURSES", year: "2026 / STILL LEARNING" },

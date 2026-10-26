@@ -249,18 +249,20 @@ Rasterio
 GeoTIFF
 Geospatial Processing
 
-Evaluated components
+Evaluated components — project-record snapshots
+
+These results describe specific saved model evaluations, not independently reproduced results or a guarantee about the live deployment. Source revisions, local run-record hashes and limits are documented in [the project integrity review](docs/PROJECT_INTEGRITY_REMEDIATION.md).
 
 RSVQA
 71.05% exact accuracy
-74.31% overall-aware accuracy
+74.31% overflow-aware accuracy
 10,004 test questions
 GROUNDING
 0.2348 Mean IoU
 25.05% Acc@0.50
 16,146 validation samples
 
-The broader system has also undergone automated backend and frontend testing across representative workflows.
+The project includes backend and frontend tests across representative workflows. They were not re-run as part of this portfolio review.
 
 The project follows a simple principle:
 
@@ -329,7 +331,7 @@ within hours
 PROTOTYPE COST
 < ₹2,500
 
-The project received all 10/10 interdisciplinary project credits.
+The project account reports 10/10 interdisciplinary project credits; the academic record is not linked. The cost, team size and one-semester duration above are also project-reported.
 
 My primary contribution focused on the IoT and digital monitoring layer.
 
@@ -349,7 +351,7 @@ Prototype measurements are presented as project-reported observations rather tha
 
 Role-aware HR management built around real application boundaries.
 
-Dayflow is a full-stack HRMS developed during the Odoo × NMIT Bangalore Hackathon ’26 and subsequently hardened beyond the original hackathon implementation.
+The project account describes Dayflow as a full-stack HRMS developed during the Odoo × NMIT Bangalore Hackathon ’26 and subsequently hardened beyond the original hackathon implementation. Event participation and that development history are not independently verified here.
 
 The system separates employee and management workflows across:
 
@@ -384,15 +386,9 @@ Security and architecture include:
 * signed document access
 * validated application boundaries
 
-Verification
+Verification record
 
-68 TESTS PASSING
-TYPESCRIPT
-PASS
-LINT
-PASS
-PRODUCTION BUILD
-PASS
+Earlier project notes report automated tests, type checking, lint and production builds. A dated successful run tied to a source revision is not linked here, and these checks were not re-run as part of this portfolio review. The former precise test count and current-looking PASS labels are therefore not presented as current verification results. Deployed RLS and authenticated workflows still require their own validation.
 
 The project became an exercise in an important engineering lesson:
 
@@ -407,10 +403,10 @@ AI-driven digital-twin concept for personalized health monitoring.
 
 MediTwin was built during IncSEption 2.0, organized through the GDG on Campus ecosystem at BMSIT&M.
 
-8 HOURS
-4-PERSON TEAM
-~130 TEAMS
-1ST PLACE
+8 HOURS / EVENT CERTIFICATE
+4-PERSON TEAM / PROJECT-REPORTED
+~130 TEAMS / PROJECT-REPORTED
+1ST PLACE / EVENT CERTIFICATE
 
 The project explored a digital-twin-inspired approach to:
 
@@ -429,10 +425,10 @@ Personalized fitness through an intelligent digital-twin concept.
 
 MediFit was developed during Push Pull Commit, organized by the IEEE Computer Society at BMSIT&M.
 
-8 HOURS
-4-PERSON TEAM
-50+ TEAMS
-3RD PLACE
+8 HOURS / PROJECT-REPORTED
+4-PERSON TEAM / PROJECT-REPORTED
+50+ TEAMS / PROJECT-REPORTED
+3RD PLACE / EVENT CERTIFICATE
 
 The project explored:
 
@@ -1171,8 +1167,8 @@ FEATURED WORK
 QUALITY
 RESPONSIVE DESIGN      ✓
 REDUCED MOTION         ✓
-ACCESSIBILITY PASS     ✓
-PERFORMANCE HARDENING  ✓
+ACCESSIBILITY          BROWSER REMEDIATION CHECKED; AT ACCEPTANCE PENDING
+PERFORMANCE            AUDITED; FOLLOW-UP OPEN
 TYPESCRIPT             ✓
 ESLINT                 ✓
 PRODUCTION BUILD       ✓

@@ -73,7 +73,7 @@ export default function SatQueryFeature() {
 
       <div id="satquery-detail" className={styles.detailAnchor} tabIndex={-1}>
         <Container>
-          <p>Full SatQuery AI case study coming soon.</p>
+          <p>No separate SatQuery AI case study is published.</p>
         </Container>
       </div>
     </AccessibleProject>

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "http://127.0.0.1:3000/projects/medifit/push-pull-commit-team-event.jpg",
+    "status": 200,
+    "bytes": 3379024,
+    "sha256": "093b1a90a665f4407b42713b344f24d45ffe0d3eef7ea4e872f6250de927f353",
+    "locationFieldNames": [],
+    "matchesSanitizedFile": true
+  },
+  {
+    "url": "http://127.0.0.1:3000/projects/medifit/push-pull-commit-team-award-original.heic",
+    "status": 200,
+    "bytes": 2275505,
+    "sha256": "59037094b577c51968f31ec9562dc50720e560abc5729238974af9fcc245f12e",
+    "locationFieldNames": [],
+    "matchesSanitizedFile": true
+  }
+]

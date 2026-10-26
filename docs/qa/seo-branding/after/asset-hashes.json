@@ -1,0 +1,14 @@
+{
+  "src/app/favicon.ico": {
+    "bytes": 2748,
+    "sha256": "12eef1e3e07f8a8796fd33674e0d800b9bc5fe0d4d00c0793c9e07b1a086d883"
+  },
+  "public/apple-touch-icon.png": {
+    "bytes": 4998,
+    "sha256": "a142b69f95e8c652908e3df8cafd9a14fa0fa6d59f17f67f1d2042a4f18ab132"
+  },
+  "public/opengraph-image.png": {
+    "bytes": 62822,
+    "sha256": "fd7be39aeea61fc7bdb68cfb1aab6929609357e878b0d3084f44a8d526d0ab34"
+  }
+}
