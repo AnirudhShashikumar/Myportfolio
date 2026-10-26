@@ -1,0 +1,32 @@
+
+> website@0.1.0 build:webpack
+> next build --webpack
+
+▲ Next.js 16.4.3 (webpack)
+⚠ Warning: Next.js ignored package-lock.json in /Users/anirudhshashikumar because it is outside the current Git repository (/Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio).
+ To use this directory, set `outputFileTracingRoot` in your Next.js config.
+
+✓ Running next.config.ts took 55ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1363ms
+  Running TypeScript ...
+  Finished TypeScript in 787ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/6) ...
+  Generating static pages using 7 workers (1/6) 
+  Generating static pages using 7 workers (2/6) 
+  Generating static pages using 7 workers (4/6) 
+✓ Generating static pages using 7 workers (6/6) in 280ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+
