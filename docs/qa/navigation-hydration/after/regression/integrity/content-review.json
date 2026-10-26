@@ -1,0 +1,386 @@
+[
+  {
+    "width": 360,
+    "height": 800,
+    "rows": [
+      {
+        "selector": "[data-work-project='2'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='2'] [class*='creditLine']",
+        "text": "REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-df-verification]",
+        "text": "VERIFICATION RECORDREPORTED. NOT RE-RUN.Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.—AUTOMATED TESTSNO RUN LINKED—TYPECHECKNOT RE-RUN—LINTNOT RE-RUN—PRODUCTION BUILDNOT RE-RUNAUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='4'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-stats]",
+        "text": "RESULT3RD PLACEREPORTED WINDOW8 HOURSREPORTED FIELD50+ TEAMSREPORTED TEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACK",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-fullstack-copy]",
+        "text": "In the historical project account, work spanned the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-team-copy]",
+        "text": "EXECUTION UNDER CONSTRAINTIn the team's account, four members shaped the concept, full-stack application, and personalized recommendation direction during a reported eight-hour build at the hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.",
+        "clips": [],
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "rows": [
+      {
+        "selector": "[data-work-project='2'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='2'] [class*='creditLine']",
+        "text": "REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-df-verification]",
+        "text": "VERIFICATION RECORDREPORTED. NOT RE-RUN.Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.—AUTOMATED TESTSNO RUN LINKED—TYPECHECKNOT RE-RUN—LINTNOT RE-RUN—PRODUCTION BUILDNOT RE-RUNAUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='4'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-stats]",
+        "text": "RESULT3RD PLACEREPORTED WINDOW8 HOURSREPORTED FIELD50+ TEAMSREPORTED TEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACK",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-fullstack-copy]",
+        "text": "In the historical project account, work spanned the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-team-copy]",
+        "text": "EXECUTION UNDER CONSTRAINTIn the team's account, four members shaped the concept, full-stack application, and personalized recommendation direction during a reported eight-hour build at the hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.",
+        "clips": [],
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "width": 430,
+    "height": 932,
+    "rows": [
+      {
+        "selector": "[data-work-project='2'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='2'] [class*='creditLine']",
+        "text": "REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-df-verification]",
+        "text": "VERIFICATION RECORDREPORTED. NOT RE-RUN.Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.—AUTOMATED TESTSNO RUN LINKED—TYPECHECKNOT RE-RUN—LINTNOT RE-RUN—PRODUCTION BUILDNOT RE-RUNAUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='4'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-stats]",
+        "text": "RESULT3RD PLACEREPORTED WINDOW8 HOURSREPORTED FIELD50+ TEAMSREPORTED TEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACK",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-fullstack-copy]",
+        "text": "In the historical project account, work spanned the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-team-copy]",
+        "text": "EXECUTION UNDER CONSTRAINTIn the team's account, four members shaped the concept, full-stack application, and personalized recommendation direction during a reported eight-hour build at the hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.",
+        "clips": [],
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "rows": [
+      {
+        "selector": "[data-work-project='2'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='2'] [class*='creditLine']",
+        "text": "REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-df-verification]",
+        "text": "VERIFICATION RECORDREPORTED. NOT RE-RUN.Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.—AUTOMATED TESTSNO RUN LINKED—TYPECHECKNOT RE-RUN—LINTNOT RE-RUN—PRODUCTION BUILDNOT RE-RUNAUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='4'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-stats]",
+        "text": "RESULT3RD PLACEREPORTED WINDOW8 HOURSREPORTED FIELD50+ TEAMSREPORTED TEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACK",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-fullstack-copy]",
+        "text": "In the historical project account, work spanned the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-team-copy]",
+        "text": "EXECUTION UNDER CONSTRAINTIn the team's account, four members shaped the concept, full-stack application, and personalized recommendation direction during a reported eight-hour build at the hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.",
+        "clips": [],
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "rows": [
+      {
+        "selector": "[data-work-project='2'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='2'] [class*='creditLine']",
+        "text": "REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-df-verification]",
+        "text": "VERIFICATION RECORDREPORTED. NOT RE-RUN.Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.—AUTOMATED TESTSNO RUN LINKED—TYPECHECKNOT RE-RUN—LINTNOT RE-RUN—PRODUCTION BUILDNOT RE-RUNAUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='4'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-stats]",
+        "text": "RESULT3RD PLACEREPORTED WINDOW8 HOURSREPORTED FIELD50+ TEAMSREPORTED TEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACK",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-fullstack-copy]",
+        "text": "In the historical project account, work spanned the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-team-copy]",
+        "text": "EXECUTION UNDER CONSTRAINTIn the team's account, four members shaped the concept, full-stack application, and personalized recommendation direction during a reported eight-hour build at the hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.",
+        "clips": [],
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "rows": [
+      {
+        "selector": "[data-work-project='2'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='2'] [class*='creditLine']",
+        "text": "REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-df-verification]",
+        "text": "VERIFICATION RECORDREPORTED. NOT RE-RUN.Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.—AUTOMATED TESTSNO RUN LINKED—TYPECHECKNOT RE-RUN—LINTNOT RE-RUN—PRODUCTION BUILDNOT RE-RUNAUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='4'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-stats]",
+        "text": "RESULT3RD PLACEREPORTED WINDOW8 HOURSREPORTED FIELD50+ TEAMSREPORTED TEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACK",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-fullstack-copy]",
+        "text": "In the historical project account, work spanned the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-team-copy]",
+        "text": "EXECUTION UNDER CONSTRAINTIn the team's account, four members shaped the concept, full-stack application, and personalized recommendation direction during a reported eight-hour build at the hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.",
+        "clips": [],
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "rows": [
+      {
+        "selector": "[data-work-project='2'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='2'] [class*='creditLine']",
+        "text": "REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-df-verification]",
+        "text": "VERIFICATION RECORDREPORTED. NOT RE-RUN.Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.—AUTOMATED TESTSNO RUN LINKED—TYPECHECKNOT RE-RUN—LINTNOT RE-RUN—PRODUCTION BUILDNOT RE-RUNAUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='4'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-stats]",
+        "text": "RESULT3RD PLACEREPORTED WINDOW8 HOURSREPORTED FIELD50+ TEAMSREPORTED TEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACK",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-fullstack-copy]",
+        "text": "In the historical project account, work spanned the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-team-copy]",
+        "text": "EXECUTION UNDER CONSTRAINTIn the team's account, four members shaped the concept, full-stack application, and personalized recommendation direction during a reported eight-hour build at the hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.",
+        "clips": [],
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "width": 1728,
+    "height": 1117,
+    "rows": [
+      {
+        "selector": "[data-work-project='2'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='2'] [class*='creditLine']",
+        "text": "REPORTED ACADEMIC OUTCOME / 10 OF 10 PROJECT CREDITS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-df-verification]",
+        "text": "VERIFICATION RECORDREPORTED. NOT RE-RUN.Project notes report automated checks. Dated test output and a source revision are not linked here; these are not current verification results.—AUTOMATED TESTSNO RUN LINKED—TYPECHECKNOT RE-RUN—LINTNOT RE-RUN—PRODUCTION BUILDNOT RE-RUNAUTHENTICATED E2E · DIRECT RLS VALIDATION · MIGRATIONS · MOBILE QA · WCAG AA AUDIT STILL IN PROGRESS",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-work-project='4'] [data-project-availability]",
+        "text": "CASE STUDY NOT PUBLISHED",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-stats]",
+        "text": "RESULT3RD PLACEREPORTED WINDOW8 HOURSREPORTED FIELD50+ TEAMSREPORTED TEAM4 MEMBERSPRIMARY CONTRIBUTIONFULL STACK",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-fullstack-copy]",
+        "text": "In the historical project account, work spanned the full-stack development of the MediFit platform, helping transform the healthcare digital-twin concept into a functional application with integrated workflows for personalized health monitoring and fitness-plan recommendations.",
+        "clips": [],
+        "overflow": 0
+      },
+      {
+        "selector": "[data-mf-team-copy]",
+        "text": "EXECUTION UNDER CONSTRAINTIn the team's account, four members shaped the concept, full-stack application, and personalized recommendation direction during a reported eight-hour build at the hackathon organized by IEEE Computer Society at BMS Institute of Technology and Management.",
+        "clips": [],
+        "overflow": 0
+      }
+    ]
+  }
+]

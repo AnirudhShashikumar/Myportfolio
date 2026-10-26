@@ -1,0 +1,16 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: chrome/desktop/home/rapid-forward-0: first-frame landing 3185,3185,3185,3185,3185,3185,3185,3185,3185,3185,3185,3185
+    at capture (file:///Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio/docs/qa/navigation-hydration/history.mjs:18:12)
+    at async file:///Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio/docs/qa/navigation-hydration/history.mjs:28:25 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.14.1

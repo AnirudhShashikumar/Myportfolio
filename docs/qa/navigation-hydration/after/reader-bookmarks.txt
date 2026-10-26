@@ -1,0 +1,8 @@
+PASS deep history: chrome/work/cinematic (departure 18912px; native restoration 4500px)
+PASS deep history: chrome/work/reading (departure 15385px; native restoration 4500px)
+PASS deep history: chrome/about/cinematic (departure 37160px; native restoration 28520px)
+PASS deep history: chrome/about/reading (departure 34665px; native restoration 28520px)
+PASS deep history: webkit/work/cinematic (departure 18911px; native restoration 18911px)
+PASS deep history: webkit/work/reading (departure 15385px; native restoration 15385px)
+PASS deep history: webkit/about/cinematic (departure 37158px; native restoration 37158px)
+PASS deep history: webkit/about/reading (departure 34663px; native restoration 34663px)

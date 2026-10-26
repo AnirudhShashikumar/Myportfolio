@@ -1,0 +1,7 @@
+@media (scripting: enabled) and (min-width:1100px) and (min-height:780px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+#work [class*="SatQueryFeature_sequence"]{height:200svh}
+#work [class*="GestureGlobeFeature_sequence"]{height:190svh}
+#work [class*="WorkNavigation_handoff__"]{height:168svh;border-block:0}
+#work [class*="WorkNavigation_handoff__"][class*="restrained"]{height:148svh}
+#about{min-height:1600svh}#contact{min-height:430svh}
+}

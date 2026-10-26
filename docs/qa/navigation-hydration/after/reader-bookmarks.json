@@ -1,0 +1,930 @@
+[
+  {
+    "engine": "chrome",
+    "section": "work",
+    "reading": false,
+    "before": {
+      "y": 18912,
+      "hash": "#work",
+      "historyLength": 2
+    },
+    "after": {
+      "y": 4500,
+      "hash": "#work",
+      "historyLength": 3,
+      "frames": [
+        {
+          "time": 939.0999999940395,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 940.5,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 953.3999999910593,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 970,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 987,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1002.8999999910593,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1020.2000000029802,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1036.7000000029802,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1052.8999999910593,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1069.7000000029802,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1086.5999999940395,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1103.2000000029802,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1120,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1136.7000000029802,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1153.5999999940395,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1170.0999999940395,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1186.7999999970198,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1203.5,
+          "y": 4500,
+          "hash": "#work"
+        }
+      ],
+      "nativeRestoredY": 4500,
+      "commands": [],
+      "workReader": "false",
+      "aboutCinematic": "true"
+    }
+  },
+  {
+    "engine": "chrome",
+    "section": "work",
+    "reading": true,
+    "before": {
+      "y": 15385,
+      "hash": "#work",
+      "historyLength": 2
+    },
+    "after": {
+      "y": 4500,
+      "hash": "#work",
+      "historyLength": 3,
+      "frames": [
+        {
+          "time": 1416.1000000089407,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1417.4000000059605,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1430.5,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1447.2999999970198,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1464.7000000029802,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1481,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1497.2000000029802,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1513.9000000059605,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1530.5,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1547.2999999970198,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1563.9000000059605,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1580.5,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1597.2999999970198,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1614,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1630.6000000089407,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1647.2999999970198,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1663.9000000059605,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1681.5,
+          "y": 4500,
+          "hash": "#work"
+        },
+        {
+          "time": 1698.1000000089407,
+          "y": 4500,
+          "hash": "#work"
+        }
+      ],
+      "nativeRestoredY": 4500,
+      "commands": [],
+      "workReader": "true",
+      "aboutCinematic": "true"
+    }
+  },
+  {
+    "engine": "chrome",
+    "section": "about",
+    "reading": false,
+    "before": {
+      "y": 37160,
+      "hash": "#about",
+      "historyLength": 2
+    },
+    "after": {
+      "y": 28520,
+      "hash": "#about",
+      "historyLength": 3,
+      "frames": [
+        {
+          "time": 928.7999999970198,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 930.4000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 947.2000000029802,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 964.2999999970198,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 980.4000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 997.1000000089407,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1013.7999999970198,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1030.4000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1047,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1063.9000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1080.4000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1097.1000000089407,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1113.7000000029802,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1130.4000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1147,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1163.6000000089407,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1180.7999999970198,
+          "y": 28520,
+          "hash": "#about"
+        }
+      ],
+      "nativeRestoredY": 28520,
+      "commands": [],
+      "workReader": "false",
+      "aboutCinematic": "true"
+    }
+  },
+  {
+    "engine": "chrome",
+    "section": "about",
+    "reading": true,
+    "before": {
+      "y": 34665,
+      "hash": "#about",
+      "historyLength": 2
+    },
+    "after": {
+      "y": 28520,
+      "hash": "#about",
+      "historyLength": 3,
+      "frames": [
+        {
+          "time": 1400.7999999970198,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1409.5,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1426.2000000029802,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1443.4000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1460.1000000089407,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1476.7999999970198,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1492.9000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1509.5,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1526.2000000029802,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1542.7000000029802,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1559.5,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1576.2000000029802,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1592.9000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1609.5,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1626.2000000029802,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1642.9000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1659.4000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1676.9000000059605,
+          "y": 28520,
+          "hash": "#about"
+        },
+        {
+          "time": 1693.5,
+          "y": 28520,
+          "hash": "#about"
+        }
+      ],
+      "nativeRestoredY": 28520,
+      "commands": [],
+      "workReader": "false",
+      "aboutCinematic": "false"
+    }
+  },
+  {
+    "engine": "webkit",
+    "section": "work",
+    "reading": false,
+    "before": {
+      "y": 18911,
+      "hash": "#work",
+      "historyLength": 2
+    },
+    "after": {
+      "y": 18911,
+      "hash": "#work",
+      "historyLength": 3,
+      "frames": [
+        {
+          "time": 1006,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1011,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1017,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1034,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1051,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1066,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1084,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1101,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1117,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1134,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1150,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1167,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1184,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1199,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1217,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1234,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1251,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1267,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1284,
+          "y": 18911,
+          "hash": "#work"
+        },
+        {
+          "time": 1300,
+          "y": 18911,
+          "hash": "#work"
+        }
+      ],
+      "nativeRestoredY": 18911,
+      "commands": [],
+      "workReader": "false",
+      "aboutCinematic": "true"
+    }
+  },
+  {
+    "engine": "webkit",
+    "section": "work",
+    "reading": true,
+    "before": {
+      "y": 15385,
+      "hash": "#work",
+      "historyLength": 2
+    },
+    "after": {
+      "y": 15385,
+      "hash": "#work",
+      "historyLength": 3,
+      "frames": [
+        {
+          "time": 1438,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1443,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1451,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1468,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1484,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1501,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1518,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1535,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1551,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1567,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1585,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1601,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1617,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1635,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1651,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1668,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1685,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1702,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1718,
+          "y": 15385,
+          "hash": "#work"
+        },
+        {
+          "time": 1734,
+          "y": 15385,
+          "hash": "#work"
+        }
+      ],
+      "nativeRestoredY": 15385,
+      "commands": [],
+      "workReader": "true",
+      "aboutCinematic": "true"
+    }
+  },
+  {
+    "engine": "webkit",
+    "section": "about",
+    "reading": false,
+    "before": {
+      "y": 37158,
+      "hash": "#about",
+      "historyLength": 2
+    },
+    "after": {
+      "y": 37158,
+      "hash": "#about",
+      "historyLength": 3,
+      "frames": [
+        {
+          "time": 914,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 918,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 935,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 951,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 968,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 985,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1000,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1018,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1035,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1051,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1068,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1085,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1101,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1118,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1134,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1153,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1168,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1185,
+          "y": 37158,
+          "hash": "#about"
+        },
+        {
+          "time": 1201,
+          "y": 37158,
+          "hash": "#about"
+        }
+      ],
+      "nativeRestoredY": 37158,
+      "commands": [],
+      "workReader": "false",
+      "aboutCinematic": "true"
+    }
+  },
+  {
+    "engine": "webkit",
+    "section": "about",
+    "reading": true,
+    "before": {
+      "y": 34663,
+      "hash": "#about",
+      "historyLength": 2
+    },
+    "after": {
+      "y": 34663,
+      "hash": "#about",
+      "historyLength": 3,
+      "frames": [
+        {
+          "time": 1375,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1380,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1391,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1408,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1424,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1442,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1458,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1475,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1491,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1507,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1525,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1541,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1558,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1575,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1592,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1608,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1625,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1640,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1657,
+          "y": 34663,
+          "hash": "#about"
+        },
+        {
+          "time": 1675,
+          "y": 34663,
+          "hash": "#about"
+        }
+      ],
+      "nativeRestoredY": 34663,
+      "commands": [],
+      "workReader": "false",
+      "aboutCinematic": "false"
+    }
+  }
+]

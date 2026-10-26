@@ -48,37 +48,38 @@ export default function ScrollMotion({ children }: { children: ReactNode }) {
     try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
     const target = document.getElementById(id);
     if (!target) return;
+    const initialHash = window.location.hash;
 
     let interrupted = false;
 
     const interrupt = () => {
       interrupted = true;
       ScrollTrigger.removeEventListener("refresh", settle);
-    };
-
-    const settle = () => {
-      if (interrupted) return;
-      const margin = Number.parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
-      const top = Math.max(0, target.getBoundingClientRect().top + window.scrollY - margin);
-      window.scrollTo({ top, behavior: "auto" });
-      ScrollTrigger.update();
-    };
-
-    ScrollTrigger.addEventListener("refresh", settle);
-    void document.fonts.ready.then(() => { if (!interrupted) scheduleScrollRefresh(); });
-    const settleTimer = window.setTimeout(interrupt, 1200);
-    window.addEventListener("wheel", interrupt, { passive: true, once: true });
-    window.addEventListener("touchstart", interrupt, { passive: true, once: true });
-    window.addEventListener("keydown", interrupt, { once: true });
-
-    return () => {
-      interrupted = true;
-      clearTimeout(settleTimer);
-      ScrollTrigger.removeEventListener("refresh", settle);
+      window.removeEventListener("popstate", interrupt);
+      window.removeEventListener("hashchange", interrupt);
       window.removeEventListener("wheel", interrupt);
       window.removeEventListener("touchstart", interrupt);
       window.removeEventListener("keydown", interrupt);
     };
+
+    const settle = () => {
+      if (interrupted || window.location.hash !== initialHash) return;
+      const margin = Number.parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+      const top = Math.max(0, target.getBoundingClientRect().top + window.scrollY - margin);
+      window.scrollTo({ top, behavior: "auto" });
+      ScrollTrigger.update();
+      if (document.fonts.status === "loaded") interrupt();
+    };
+
+    ScrollTrigger.addEventListener("refresh", settle);
+    void document.fonts.ready.then(() => { if (!interrupted) scheduleScrollRefresh(); });
+    window.addEventListener("popstate", interrupt);
+    window.addEventListener("hashchange", interrupt);
+    window.addEventListener("wheel", interrupt, { passive: true, once: true });
+    window.addEventListener("touchstart", interrupt, { passive: true, once: true });
+    window.addEventListener("keydown", interrupt, { once: true });
+
+    return interrupt;
   }, [pathname, ready]);
 
   useEffect(() => {

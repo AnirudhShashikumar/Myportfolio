@@ -1,0 +1,3 @@
+AssertionError [ERR_ASSERTION]: webkit/desktop/home/rapid-forward-0: first-frame bookmark errors 3625,3625,3625,3625,3625,3625,3625,3625,3625,3625,3625,3625
+    at capture (file:///Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio/docs/qa/navigation-hydration/history.mjs:22:12)
+    at async file:///Users/anirudhshashikumar/Documents/Projects/Anirudh-Portfolio/docs/qa/navigation-hydration/history.mjs:34:25

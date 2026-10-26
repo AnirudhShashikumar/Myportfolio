@@ -1,0 +1,27 @@
+[
+  {
+    "method": "scrollIntoView",
+    "args": [
+      {
+        "behavior": "instant",
+        "block": "start"
+      }
+    ],
+    "id": "about-M01",
+    "hash": "#about",
+    "y": 28520,
+    "stack": "Error\n    at Element.<computed> [as scrollIntoView] (eval at evaluate (:311:30), <anonymous>:1:254)\n    at http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js:1:58385\n    at iC (http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js:1:93959)\n    at ua (http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js:1:104571)\n    at uk (http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js:1:118175)\n    at ua (http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js:1:105102)\n    at uk (http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js:1:118175)\n    at ua (http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js:1:106916)\n    at uk (http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js:1:118175)\n    at ua (http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js:1:106916)"
+  },
+  {
+    "method": "scrollIntoView",
+    "args": [
+      {
+        "behavior": "instant"
+      }
+    ],
+    "id": "about-M09",
+    "hash": "#about",
+    "y": 28781,
+    "stack": "Error\n    at Element.<computed> [as scrollIntoView] (eval at evaluate (:311:30), <anonymous>:1:254)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:8)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "reader": "work",
+    "state": {
+      "hash": "#about",
+      "y": 22641,
+      "target": 22641.3125,
+      "workReader": "true",
+      "aboutCinematic": "true",
+      "focus": "BODY",
+      "triggers": 5
+    }
+  },
+  {
+    "reader": "about",
+    "state": {
+      "hash": "#about",
+      "y": 28520,
+      "target": 28520.109375,
+      "workReader": "false",
+      "aboutCinematic": "false",
+      "focus": "BODY",
+      "triggers": 40
+    }
+  }
+]

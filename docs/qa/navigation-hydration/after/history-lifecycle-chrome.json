@@ -1,0 +1,92 @@
+[
+  {
+    "cycle": 0,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  },
+  {
+    "cycle": 1,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  },
+  {
+    "cycle": 2,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  },
+  {
+    "cycle": 3,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  },
+  {
+    "cycle": 4,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  },
+  {
+    "cycle": 5,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  },
+  {
+    "cycle": 6,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  },
+  {
+    "cycle": 7,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  },
+  {
+    "cycle": 8,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  },
+  {
+    "cycle": 9,
+    "triggers": 41,
+    "dom": {
+      "documents": 1,
+      "nodes": 3303,
+      "jsEventListeners": 477
+    }
+  }
+]

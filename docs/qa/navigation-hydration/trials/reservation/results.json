@@ -1,0 +1,413 @@
+[
+  {
+    "mode": "normal",
+    "hash": "about",
+    "iteration": 0,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 28520,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "normal",
+    "hash": "about",
+    "iteration": 1,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 28520,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "normal",
+    "hash": "about",
+    "iteration": 2,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 28520,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "normal",
+    "hash": "contact",
+    "iteration": 0,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 42920,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "normal",
+    "hash": "contact",
+    "iteration": 1,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 42920,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "normal",
+    "hash": "contact",
+    "iteration": 2,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 42920,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "normal",
+    "hash": "work",
+    "iteration": 0,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 4500,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": -900
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": -810
+      }
+    ]
+  },
+  {
+    "mode": "normal",
+    "hash": "work",
+    "iteration": 1,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 4500,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": -900
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": -810
+      }
+    ]
+  },
+  {
+    "mode": "normal",
+    "hash": "work",
+    "iteration": 2,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 4500,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": -900
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 900,
+        "contentPastNextSiblingPx": -810
+      }
+    ]
+  },
+  {
+    "mode": "bundles-blocked",
+    "hash": "about",
+    "iteration": 0,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 28520,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 2297.46875,
+        "contentPastNextSiblingPx": 497.46875
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 2019.71875,
+        "contentPastNextSiblingPx": 309.71875
+      }
+    ]
+  },
+  {
+    "mode": "bundles-blocked",
+    "hash": "contact",
+    "iteration": 0,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 42920,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 2297.46875,
+        "contentPastNextSiblingPx": 497.46875
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 2019.71875,
+        "contentPastNextSiblingPx": 309.71875
+      }
+    ]
+  },
+  {
+    "mode": "bundles-blocked",
+    "hash": "work",
+    "iteration": 0,
+    "initialHeight": 46887,
+    "finalHeight": 46887,
+    "y": 4500,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 1800,
+        "contentHeight": 2297.890625,
+        "contentPastNextSiblingPx": 497.890625
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 1710,
+        "contentHeight": 2019.71875,
+        "contentPastNextSiblingPx": 309.71875
+      }
+    ]
+  },
+  {
+    "mode": "blocked-original",
+    "hash": "about",
+    "iteration": 0,
+    "initialHeight": 34220,
+    "finalHeight": 34220,
+    "y": 22597,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 2297.46875,
+        "contentHeight": 2297.46875,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 2019.71875,
+        "contentHeight": 2019.71875,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "blocked-original",
+    "hash": "contact",
+    "iteration": 0,
+    "initialHeight": 34220,
+    "finalHeight": 34220,
+    "y": 32794,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 2297.46875,
+        "contentHeight": 2297.46875,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 2019.71875,
+        "contentHeight": 2019.71875,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "blocked-original",
+    "hash": "work",
+    "iteration": 0,
+    "initialHeight": 34220,
+    "finalHeight": 34221,
+    "y": 4500,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 2297.890625,
+        "contentHeight": 2297.890625,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 2019.71875,
+        "contentHeight": 2019.71875,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "no-js",
+    "hash": "about",
+    "iteration": 0,
+    "finalHeight": 34221,
+    "y": 22598,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 2297.890625,
+        "contentHeight": 2297.890625,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 2019.75,
+        "contentHeight": 2019.75,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "no-js",
+    "hash": "contact",
+    "iteration": 0,
+    "finalHeight": 34221,
+    "y": 32795,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 2297.890625,
+        "contentHeight": 2297.890625,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 2019.75,
+        "contentHeight": 2019.75,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  },
+  {
+    "mode": "no-js",
+    "hash": "work",
+    "iteration": 0,
+    "finalHeight": 34221,
+    "y": 4500,
+    "shifts": [],
+    "wrappers": [
+      {
+        "class": "SatQueryFeature_sequence__oFXIY",
+        "height": 2297.890625,
+        "contentHeight": 2297.890625,
+        "contentPastNextSiblingPx": 0
+      },
+      {
+        "class": "GestureGlobeFeature_sequence__NxI9D",
+        "height": 2019.75,
+        "contentHeight": 2019.75,
+        "contentPastNextSiblingPx": 0
+      }
+    ]
+  }
+]

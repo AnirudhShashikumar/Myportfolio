@@ -1,0 +1,6567 @@
+[
+  {
+    "profile": "desktop",
+    "hash": "",
+    "iteration": 0,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 64,
+        "size": 119556,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 393,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 64,
+        "duration": 0,
+        "navigationId": 1187,
+        "paintTime": 46.5,
+        "presentationTime": 64
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 64,
+        "duration": 0,
+        "navigationId": 1187,
+        "paintTime": 46.5,
+        "presentationTime": 64
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 76.90000000596046,
+      "navigationId": 1187,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.4000000059604645,
+      "domainLookupStart": 0.4000000059604645,
+      "domainLookupEnd": 0.4000000059604645,
+      "connectStart": 0.4000000059604645,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.4000000059604645,
+      "requestStart": 0.7999999970197678,
+      "responseStart": 4,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 4,
+      "responseEnd": 6.9000000059604645,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 12.799999997019768,
+      "domContentLoadedEventStart": 12.799999997019768,
+      "domContentLoadedEventEnd": 12.799999997019768,
+      "domComplete": 76.79999999701977,
+      "loadEventStart": 76.90000000596046,
+      "loadEventEnd": 76.90000000596046,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      }
+    ],
+    "final": {
+      "y": 0,
+      "height": 46887,
+      "target": "home",
+      "targetTop": 0,
+      "margin": 128,
+      "error": -128,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "",
+    "iteration": 0,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 72,
+        "size": 119556,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 374.79999999701977,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 5161,
+        "paintTime": 52.79999999701977,
+        "presentationTime": 72
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 5161,
+        "paintTime": 52.79999999701977,
+        "presentationTime": 72
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 65.29999999701977,
+      "navigationId": 5161,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.3999999910593033,
+      "domainLookupStart": 0.3999999910593033,
+      "domainLookupEnd": 0.3999999910593033,
+      "connectStart": 0.3999999910593033,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.3999999910593033,
+      "requestStart": 1.0999999940395355,
+      "responseStart": 7.200000002980232,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 7.200000002980232,
+      "responseEnd": 10.200000002980232,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 16.799999997019768,
+      "unloadEventEnd": 16.799999997019768,
+      "domInteractive": 53.79999999701977,
+      "domContentLoadedEventStart": 53.79999999701977,
+      "domContentLoadedEventEnd": 53.79999999701977,
+      "domComplete": 65.29999999701977,
+      "loadEventStart": 65.29999999701977,
+      "loadEventEnd": 65.29999999701977,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      }
+    ],
+    "final": {
+      "y": 0,
+      "height": 46887,
+      "target": "home",
+      "targetTop": 0,
+      "margin": 128,
+      "error": -128,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "",
+    "iteration": 1,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 60,
+        "size": 119556,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 383.6000000089407,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 2210,
+        "paintTime": 42.20000000298023,
+        "presentationTime": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 2210,
+        "paintTime": 42.20000000298023,
+        "presentationTime": 60
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 71.29999999701977,
+      "navigationId": 2210,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.20000000298023224,
+      "domainLookupStart": 0.20000000298023224,
+      "domainLookupEnd": 0.20000000298023224,
+      "connectStart": 0.20000000298023224,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.20000000298023224,
+      "requestStart": 0.4000000059604645,
+      "responseStart": 3.1000000089406967,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3.1000000089406967,
+      "responseEnd": 5.100000008940697,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 12,
+      "domContentLoadedEventStart": 12,
+      "domContentLoadedEventEnd": 12,
+      "domComplete": 71.29999999701977,
+      "loadEventStart": 71.29999999701977,
+      "loadEventEnd": 71.29999999701977,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      }
+    ],
+    "final": {
+      "y": 0,
+      "height": 46887,
+      "target": "home",
+      "targetTop": 0,
+      "margin": 128,
+      "error": -128,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "",
+    "iteration": 1,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 76,
+        "size": 119556,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 377.29999999701977,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 76,
+        "duration": 0,
+        "navigationId": 7933,
+        "paintTime": 58.3999999910593,
+        "presentationTime": 76
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 76,
+        "duration": 0,
+        "navigationId": 7933,
+        "paintTime": 58.3999999910593,
+        "presentationTime": 76
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 70.79999999701977,
+      "navigationId": 7933,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.3999999910593033,
+      "domainLookupStart": 0.3999999910593033,
+      "domainLookupEnd": 0.3999999910593033,
+      "connectStart": 0.3999999910593033,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.3999999910593033,
+      "requestStart": 0.8999999910593033,
+      "responseStart": 6.899999991059303,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 6.899999991059303,
+      "responseEnd": 10.699999988079071,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 19.5,
+      "unloadEventEnd": 19.5,
+      "domInteractive": 33,
+      "domContentLoadedEventStart": 33,
+      "domContentLoadedEventEnd": 33,
+      "domComplete": 70.79999999701977,
+      "loadEventStart": 70.79999999701977,
+      "loadEventEnd": 70.79999999701977,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      }
+    ],
+    "final": {
+      "y": 0,
+      "height": 46887,
+      "target": "home",
+      "targetTop": 0,
+      "margin": 128,
+      "error": -128,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "",
+    "iteration": 2,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 56,
+        "size": 119556,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 383.40000000596046,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 56,
+        "duration": 0,
+        "navigationId": 7702,
+        "paintTime": 42.400000005960464,
+        "presentationTime": 56
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 56,
+        "duration": 0,
+        "navigationId": 7702,
+        "paintTime": 42.400000005960464,
+        "presentationTime": 56
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 71.09999999403954,
+      "navigationId": 7702,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.20000000298023224,
+      "domainLookupStart": 0.20000000298023224,
+      "domainLookupEnd": 0.20000000298023224,
+      "connectStart": 0.20000000298023224,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.20000000298023224,
+      "requestStart": 0.4000000059604645,
+      "responseStart": 2.7999999970197678,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 2.7999999970197678,
+      "responseEnd": 4.9000000059604645,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 11.400000005960464,
+      "domContentLoadedEventStart": 11.400000005960464,
+      "domContentLoadedEventEnd": 11.400000005960464,
+      "domComplete": 71,
+      "loadEventStart": 71.09999999403954,
+      "loadEventEnd": 71.09999999403954,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      }
+    ],
+    "final": {
+      "y": 0,
+      "height": 46887,
+      "target": "home",
+      "targetTop": 0,
+      "margin": 128,
+      "error": -128,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "",
+    "iteration": 2,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 72,
+        "size": 119556,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 375.59999999403954,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 5179,
+        "paintTime": 56.20000000298023,
+        "presentationTime": 72
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 5179,
+        "paintTime": 56.20000000298023,
+        "presentationTime": 72
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 70.40000000596046,
+      "navigationId": 5179,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.29999999701976776,
+      "domainLookupStart": 0.29999999701976776,
+      "domainLookupEnd": 0.29999999701976776,
+      "connectStart": 0.29999999701976776,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.29999999701976776,
+      "requestStart": 0.9000000059604645,
+      "responseStart": 7,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 7,
+      "responseEnd": 10,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 18.200000002980232,
+      "unloadEventEnd": 18.200000002980232,
+      "domInteractive": 30.400000005960464,
+      "domContentLoadedEventStart": 30.400000005960464,
+      "domContentLoadedEventEnd": 30.5,
+      "domComplete": 70.40000000596046,
+      "loadEventStart": 70.40000000596046,
+      "loadEventEnd": 70.40000000596046,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      }
+    ],
+    "final": {
+      "y": 0,
+      "height": 46887,
+      "target": "home",
+      "targetTop": 0,
+      "margin": 128,
+      "error": -128,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#work",
+    "iteration": 0,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 64,
+        "size": 66825,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 383.90000000596046,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 64,
+        "duration": 0,
+        "navigationId": 3803,
+        "paintTime": 47.6000000089407,
+        "presentationTime": 64
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 64,
+        "duration": 0,
+        "navigationId": 3803,
+        "paintTime": 47.6000000089407,
+        "presentationTime": 64
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#work",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 77.40000000596046,
+      "navigationId": 3803,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.20000000298023224,
+      "domainLookupStart": 0.20000000298023224,
+      "domainLookupEnd": 0.20000000298023224,
+      "connectStart": 0.20000000298023224,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.20000000298023224,
+      "requestStart": 0.5,
+      "responseStart": 3,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3,
+      "responseEnd": 4.9000000059604645,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 12,
+      "domContentLoadedEventStart": 12,
+      "domContentLoadedEventEnd": 12.100000008940697,
+      "domComplete": 77.30000001192093,
+      "loadEventStart": 77.30000001192093,
+      "loadEventEnd": 77.40000000596046,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
+        "type": "img",
+        "encodedBody": 12368
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
+        "type": "img",
+        "encodedBody": 39974
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      }
+    ],
+    "final": {
+      "y": 4500,
+      "height": 46887,
+      "target": "work",
+      "targetTop": 4500,
+      "margin": 0,
+      "error": 0,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#work",
+    "iteration": 0,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 68,
+        "size": 66825,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 386.40000000596046,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 68,
+        "duration": 0,
+        "navigationId": 2547,
+        "paintTime": 58.20000000298023,
+        "presentationTime": 68
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 68,
+        "duration": 0,
+        "navigationId": 2547,
+        "paintTime": 58.20000000298023,
+        "presentationTime": 68
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#work",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 68.6000000089407,
+      "navigationId": 2547,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.6000000089406967,
+      "domainLookupStart": 0.6000000089406967,
+      "domainLookupEnd": 0.6000000089406967,
+      "connectStart": 0.6000000089406967,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.6000000089406967,
+      "requestStart": 1.300000011920929,
+      "responseStart": 7.100000008940697,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 7.100000008940697,
+      "responseEnd": 10.400000005960464,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 10.200000002980232,
+      "unloadEventEnd": 10.200000002980232,
+      "domInteractive": 24.700000002980232,
+      "domContentLoadedEventStart": 24.700000002980232,
+      "domContentLoadedEventEnd": 24.700000002980232,
+      "domComplete": 68.6000000089407,
+      "loadEventStart": 68.6000000089407,
+      "loadEventEnd": 68.6000000089407,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
+        "type": "img",
+        "encodedBody": 12368
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
+        "type": "img",
+        "encodedBody": 39974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      }
+    ],
+    "final": {
+      "y": 4500,
+      "height": 46887,
+      "target": "work",
+      "targetTop": 4500,
+      "margin": 0,
+      "error": 0,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#work",
+    "iteration": 1,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 60,
+        "size": 66825,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 382.90000000596046,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 6801,
+        "paintTime": 49.1000000089407,
+        "presentationTime": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 6801,
+        "paintTime": 49.1000000089407,
+        "presentationTime": 60
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#work",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 77.79999999701977,
+      "navigationId": 6801,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.4000000059604645,
+      "domainLookupStart": 0.4000000059604645,
+      "domainLookupEnd": 0.4000000059604645,
+      "connectStart": 0.4000000059604645,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.4000000059604645,
+      "requestStart": 0.6000000089406967,
+      "responseStart": 3.2000000029802322,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3.2000000029802322,
+      "responseEnd": 5.4000000059604645,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 12.100000008940697,
+      "domContentLoadedEventStart": 12.100000008940697,
+      "domContentLoadedEventEnd": 12.100000008940697,
+      "domComplete": 77.79999999701977,
+      "loadEventStart": 77.79999999701977,
+      "loadEventEnd": 77.79999999701977,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
+        "type": "img",
+        "encodedBody": 39974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
+        "type": "img",
+        "encodedBody": 12368
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      }
+    ],
+    "final": {
+      "y": 4500,
+      "height": 46887,
+      "target": "work",
+      "targetTop": 4500,
+      "margin": 0,
+      "error": 0,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#work",
+    "iteration": 1,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 68,
+        "size": 66825,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 385.6000000089407,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 68,
+        "duration": 0,
+        "navigationId": 6160,
+        "paintTime": 58.1000000089407,
+        "presentationTime": 68
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 68,
+        "duration": 0,
+        "navigationId": 6160,
+        "paintTime": 58.1000000089407,
+        "presentationTime": 68
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#work",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 68.30000001192093,
+      "navigationId": 6160,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5,
+      "domainLookupStart": 0.5,
+      "domainLookupEnd": 0.5,
+      "connectStart": 0.5,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5,
+      "requestStart": 1.2000000029802322,
+      "responseStart": 6.600000008940697,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 6.600000008940697,
+      "responseEnd": 10.200000002980232,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 9.600000008940697,
+      "unloadEventEnd": 9.600000008940697,
+      "domInteractive": 24.5,
+      "domContentLoadedEventStart": 24.5,
+      "domContentLoadedEventEnd": 24.5,
+      "domComplete": 68.20000000298023,
+      "loadEventStart": 68.30000001192093,
+      "loadEventEnd": 68.30000001192093,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
+        "type": "img",
+        "encodedBody": 12368
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
+        "type": "img",
+        "encodedBody": 39974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      }
+    ],
+    "final": {
+      "y": 4500,
+      "height": 46887,
+      "target": "work",
+      "targetTop": 4500,
+      "margin": 0,
+      "error": 0,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#work",
+    "iteration": 2,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 60,
+        "size": 66825,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 384.20000000298023,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 2489,
+        "paintTime": 48.1000000089407,
+        "presentationTime": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 2489,
+        "paintTime": 48.1000000089407,
+        "presentationTime": 60
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#work",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 77.40000000596046,
+      "navigationId": 2489,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.20000000298023224,
+      "domainLookupStart": 0.20000000298023224,
+      "domainLookupEnd": 0.20000000298023224,
+      "connectStart": 0.20000000298023224,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.20000000298023224,
+      "requestStart": 0.5,
+      "responseStart": 3.1000000089406967,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3.1000000089406967,
+      "responseEnd": 5.4000000059604645,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 11.900000005960464,
+      "domContentLoadedEventStart": 11.900000005960464,
+      "domContentLoadedEventEnd": 11.900000005960464,
+      "domComplete": 77.40000000596046,
+      "loadEventStart": 77.40000000596046,
+      "loadEventEnd": 77.40000000596046,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
+        "type": "img",
+        "encodedBody": 12368
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
+        "type": "img",
+        "encodedBody": 39974
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      }
+    ],
+    "final": {
+      "y": 4500,
+      "height": 46887,
+      "target": "work",
+      "targetTop": 4500,
+      "margin": 0,
+      "error": 0,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#work",
+    "iteration": 2,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 68,
+        "size": 66825,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 386,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 68,
+        "duration": 0,
+        "navigationId": 8759,
+        "paintTime": 59.400000005960464,
+        "presentationTime": 68
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 68,
+        "duration": 0,
+        "navigationId": 8759,
+        "paintTime": 59.400000005960464,
+        "presentationTime": 68
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#work",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 70.90000000596046,
+      "navigationId": 8759,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.4000000059604645,
+      "domainLookupStart": 0.4000000059604645,
+      "domainLookupEnd": 0.4000000059604645,
+      "connectStart": 0.4000000059604645,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.4000000059604645,
+      "requestStart": 1.1000000089406967,
+      "responseStart": 6.799999997019768,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 6.799999997019768,
+      "responseEnd": 10.200000002980232,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 9.799999997019768,
+      "unloadEventEnd": 9.799999997019768,
+      "domInteractive": 24.900000005960464,
+      "domContentLoadedEventStart": 24.900000005960464,
+      "domContentLoadedEventEnd": 24.900000005960464,
+      "domComplete": 70.90000000596046,
+      "loadEventStart": 70.90000000596046,
+      "loadEventEnd": 70.90000000596046,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "encodedBody": 34162
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 12154
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 11988
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 8974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
+        "type": "img",
+        "encodedBody": 12368
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
+        "type": "img",
+        "encodedBody": 39974
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      }
+    ],
+    "final": {
+      "y": 4500,
+      "height": 46887,
+      "target": "work",
+      "targetTop": 4500,
+      "margin": 0,
+      "error": 0,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#about",
+    "iteration": 0,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 164.90000000596046,
+        "value": 1,
+        "recentInput": false,
+        "y": 28519,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 1.109375,
+              "width": 1440,
+              "height": 898.890625,
+              "top": 1.109375,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          },
+          {
+            "node": "DIV.WorkNavigation_workExit__NGUby",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 1.109375,
+              "top": 0,
+              "right": 1440,
+              "bottom": 1.109375,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 60,
+        "size": 141765,
+        "node": "P.About_editorialName__g_Clu"
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 398.5,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 160,
+        "paintTime": 48.400000005960464,
+        "presentationTime": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 160,
+        "paintTime": 48.400000005960464,
+        "presentationTime": 60
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#about",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 76.70000000298023,
+      "navigationId": 160,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.10000000894069672,
+      "domainLookupStart": 0.10000000894069672,
+      "domainLookupEnd": 0.10000000894069672,
+      "connectStart": 0.10000000894069672,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.10000000894069672,
+      "requestStart": 0.5,
+      "responseStart": 2.9000000059604645,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 2.9000000059604645,
+      "responseEnd": 5.200000002980232,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 11.5,
+      "domContentLoadedEventStart": 11.5,
+      "domContentLoadedEventEnd": 11.5,
+      "domComplete": 76.70000000298023,
+      "loadEventStart": 76.70000000298023,
+      "loadEventEnd": 76.70000000298023,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 14976
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+        "type": "img",
+        "encodedBody": 13450
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 28520,
+      "height": 46887,
+      "target": "about",
+      "targetTop": 28520.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#about",
+    "iteration": 0,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 131.70000000298023,
+        "value": 1,
+        "recentInput": false,
+        "y": 28521,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 64,
+        "size": 142492,
+        "node": "P.About_editorialName__g_Clu"
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 383.6000000089407,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 64,
+        "duration": 0,
+        "navigationId": 4595,
+        "paintTime": 53.70000000298023,
+        "presentationTime": 64
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 64,
+        "duration": 0,
+        "navigationId": 4595,
+        "paintTime": 53.70000000298023,
+        "presentationTime": 64
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#about",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 68.40000000596046,
+      "navigationId": 4595,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5,
+      "domainLookupStart": 0.5,
+      "domainLookupEnd": 0.5,
+      "connectStart": 0.5,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5,
+      "requestStart": 1.2000000029802322,
+      "responseStart": 6.700000002980232,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 6.700000002980232,
+      "responseEnd": 10,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 9.400000005960464,
+      "unloadEventEnd": 9.400000005960464,
+      "domInteractive": 55.79999999701977,
+      "domContentLoadedEventStart": 55.79999999701977,
+      "domContentLoadedEventEnd": 55.79999999701977,
+      "domComplete": 68.40000000596046,
+      "loadEventStart": 68.40000000596046,
+      "loadEventEnd": 68.40000000596046,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 14976
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+        "type": "img",
+        "encodedBody": 13450
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 28520,
+      "height": 46887,
+      "target": "about",
+      "targetTop": 28520.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#about",
+    "iteration": 1,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 163.59999999403954,
+        "value": 1,
+        "recentInput": false,
+        "y": 28519,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 1.109375,
+              "width": 1440,
+              "height": 898.890625,
+              "top": 1.109375,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          },
+          {
+            "node": "DIV.WorkNavigation_workExit__NGUby",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 1.109375,
+              "top": 0,
+              "right": 1440,
+              "bottom": 1.109375,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 60,
+        "size": 141765,
+        "node": "P.About_editorialName__g_Clu"
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 401.09999999403954,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 6521,
+        "paintTime": 48.19999998807907,
+        "presentationTime": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 6521,
+        "paintTime": 48.19999998807907,
+        "presentationTime": 60
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#about",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 76.3999999910593,
+      "navigationId": 6521,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.19999998807907104,
+      "domainLookupStart": 0.19999998807907104,
+      "domainLookupEnd": 0.19999998807907104,
+      "connectStart": 0.19999998807907104,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.19999998807907104,
+      "requestStart": 0.5,
+      "responseStart": 3,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3,
+      "responseEnd": 6,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 12.699999988079071,
+      "domContentLoadedEventStart": 12.699999988079071,
+      "domContentLoadedEventEnd": 12.699999988079071,
+      "domComplete": 76.3999999910593,
+      "loadEventStart": 76.3999999910593,
+      "loadEventEnd": 76.3999999910593,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 14976
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+        "type": "img",
+        "encodedBody": 13450
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 28520,
+      "height": 46887,
+      "target": "about",
+      "targetTop": 28520.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#about",
+    "iteration": 1,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 134.29999999701977,
+        "value": 1,
+        "recentInput": false,
+        "y": 28521,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 72,
+        "size": 142492,
+        "node": "P.About_editorialName__g_Clu"
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 221.5,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 338,
+        "paintTime": 54.400000005960464,
+        "presentationTime": 72
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 338,
+        "paintTime": 54.400000005960464,
+        "presentationTime": 72
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#about",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 68.5,
+      "navigationId": 338,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.4000000059604645,
+      "domainLookupStart": 0.4000000059604645,
+      "domainLookupEnd": 0.4000000059604645,
+      "connectStart": 0.4000000059604645,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.4000000059604645,
+      "requestStart": 1,
+      "responseStart": 6.200000002980232,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 6.200000002980232,
+      "responseEnd": 9.799999997019768,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 9.099999994039536,
+      "unloadEventEnd": 9.099999994039536,
+      "domInteractive": 56.70000000298023,
+      "domContentLoadedEventStart": 56.70000000298023,
+      "domContentLoadedEventEnd": 56.70000000298023,
+      "domComplete": 68.40000000596046,
+      "loadEventStart": 68.5,
+      "loadEventEnd": 68.5,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 14976
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+        "type": "img",
+        "encodedBody": 13450
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 28520,
+      "height": 46887,
+      "target": "about",
+      "targetTop": 28520.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#about",
+    "iteration": 2,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 155.79999999701977,
+        "value": 1,
+        "recentInput": false,
+        "y": 28519,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 1.109375,
+              "width": 1440,
+              "height": 898.890625,
+              "top": 1.109375,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          },
+          {
+            "node": "DIV.WorkNavigation_workExit__NGUby",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 1.109375,
+              "top": 0,
+              "right": 1440,
+              "bottom": 1.109375,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 72,
+        "size": 141765,
+        "node": "P.About_editorialName__g_Clu"
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 396.5,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 9494,
+        "paintTime": 50.3999999910593,
+        "presentationTime": 72
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 9494,
+        "paintTime": 50.3999999910593,
+        "presentationTime": 72
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#about",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 80.09999999403954,
+      "navigationId": 9494,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.29999999701976776,
+      "domainLookupStart": 0.29999999701976776,
+      "domainLookupEnd": 0.29999999701976776,
+      "connectStart": 0.29999999701976776,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.29999999701976776,
+      "requestStart": 0.5999999940395355,
+      "responseStart": 3.5999999940395355,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3.5999999940395355,
+      "responseEnd": 6.5,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 12.099999994039536,
+      "domContentLoadedEventStart": 12.099999994039536,
+      "domContentLoadedEventEnd": 12.199999988079071,
+      "domComplete": 80.09999999403954,
+      "loadEventStart": 80.09999999403954,
+      "loadEventEnd": 80.09999999403954,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+        "type": "img",
+        "encodedBody": 13450
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 14976
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 28520,
+      "height": 46887,
+      "target": "about",
+      "targetTop": 28520.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#about",
+    "iteration": 2,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 135.29999999701977,
+        "value": 1,
+        "recentInput": false,
+        "y": 34443,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 80,
+        "size": 141765,
+        "node": "P.About_editorialName__g_Clu"
+      },
+      {
+        "time": 96,
+        "size": 145728,
+        "node": "H3#about-M07.About_display__xCzyX"
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 379.79999999701977,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 80,
+        "duration": 0,
+        "navigationId": 7056,
+        "paintTime": 59.8999999910593,
+        "presentationTime": 80
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 80,
+        "duration": 0,
+        "navigationId": 7056,
+        "paintTime": 59.8999999910593,
+        "presentationTime": 80
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#about",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 69.8999999910593,
+      "navigationId": 7056,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.3999999910593033,
+      "domainLookupStart": 0.3999999910593033,
+      "domainLookupEnd": 0.3999999910593033,
+      "connectStart": 0.3999999910593033,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.3999999910593033,
+      "requestStart": 1.199999988079071,
+      "responseStart": 7.399999991059303,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 7.399999991059303,
+      "responseEnd": 11.299999997019768,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 9.899999991059303,
+      "unloadEventEnd": 9.899999991059303,
+      "domInteractive": 26.5,
+      "domContentLoadedEventStart": 26.599999994039536,
+      "domContentLoadedEventEnd": 26.599999994039536,
+      "domComplete": 69.8999999910593,
+      "loadEventStart": 69.8999999910593,
+      "loadEventEnd": 69.8999999910593,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 14976
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
+        "type": "img",
+        "encodedBody": 13450
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      }
+    ],
+    "final": {
+      "y": 28520,
+      "height": 46887,
+      "target": "about",
+      "targetTop": 28520.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#contact",
+    "iteration": 0,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 166.70000000298023,
+        "value": 1,
+        "recentInput": false,
+        "y": 38717,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 64,
+        "size": 434130,
+        "node": "H3."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 419.6000000089407,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 64,
+        "duration": 0,
+        "navigationId": 4859,
+        "paintTime": 48.1000000089407,
+        "presentationTime": 64
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 64,
+        "duration": 0,
+        "navigationId": 4859,
+        "paintTime": 48.1000000089407,
+        "presentationTime": 64
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#contact",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 74.5,
+      "navigationId": 4859,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.20000000298023224,
+      "domainLookupStart": 0.20000000298023224,
+      "domainLookupEnd": 0.20000000298023224,
+      "connectStart": 0.20000000298023224,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.20000000298023224,
+      "requestStart": 0.5,
+      "responseStart": 2.9000000059604645,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 2.9000000059604645,
+      "responseEnd": 6,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 12.200000002980232,
+      "domContentLoadedEventStart": 12.200000002980232,
+      "domContentLoadedEventEnd": 12.200000002980232,
+      "domComplete": 74.5,
+      "loadEventStart": 74.5,
+      "loadEventEnd": 74.5,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 42920,
+      "height": 46887,
+      "target": "contact",
+      "targetTop": 42920.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#contact",
+    "iteration": 0,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 106.6000000089407,
+        "value": 1,
+        "recentInput": false,
+        "y": 39243,
+        "sources": [
+          {
+            "node": "SECTION#contact.Contact_contact__1PxFo FocusReveal_semantic__iGdNs",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 803.28125,
+              "top": 0,
+              "right": 1440,
+              "bottom": 803.28125,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          {
+            "node": "FOOTER.SiteFooter_footer__tpuYU",
+            "old": {
+              "x": 0,
+              "y": 803.28125,
+              "width": 1440,
+              "height": 96.71875,
+              "top": 803.28125,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ]
+      },
+      {
+        "time": 137.20000000298023,
+        "value": 1,
+        "recentInput": false,
+        "y": 39243,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 72,
+        "size": 434130,
+        "node": "H3."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 373.79999999701977,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 5416,
+        "paintTime": 60.6000000089407,
+        "presentationTime": 72
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 5416,
+        "paintTime": 60.6000000089407,
+        "presentationTime": 72
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#contact",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 69.29999999701977,
+      "navigationId": 5416,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5,
+      "domainLookupStart": 0.5,
+      "domainLookupEnd": 0.5,
+      "connectStart": 0.5,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5,
+      "requestStart": 1.2999999970197678,
+      "responseStart": 7.4000000059604645,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 7.4000000059604645,
+      "responseEnd": 10.600000008940697,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 9.799999997019768,
+      "unloadEventEnd": 9.799999997019768,
+      "domInteractive": 27.5,
+      "domContentLoadedEventStart": 27.5,
+      "domContentLoadedEventEnd": 27.5,
+      "domComplete": 69.29999999701977,
+      "loadEventStart": 69.29999999701977,
+      "loadEventEnd": 69.29999999701977,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 42920,
+      "height": 46887,
+      "target": "contact",
+      "targetTop": 42920.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#contact",
+    "iteration": 1,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 166.59999999403954,
+        "value": 1,
+        "recentInput": false,
+        "y": 38717,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 60,
+        "size": 434130,
+        "node": "H3."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 417.59999999403954,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 1466,
+        "paintTime": 48.099999994039536,
+        "presentationTime": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 1466,
+        "paintTime": 48.099999994039536,
+        "presentationTime": 60
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#contact",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 75.29999999701977,
+      "navigationId": 1466,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.20000000298023224,
+      "domainLookupStart": 0.20000000298023224,
+      "domainLookupEnd": 0.20000000298023224,
+      "connectStart": 0.20000000298023224,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.20000000298023224,
+      "requestStart": 0.5,
+      "responseStart": 3.0999999940395355,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3.0999999940395355,
+      "responseEnd": 5.200000002980232,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 11.5,
+      "domContentLoadedEventStart": 11.5,
+      "domContentLoadedEventEnd": 11.5,
+      "domComplete": 75.20000000298023,
+      "loadEventStart": 75.29999999701977,
+      "loadEventEnd": 75.29999999701977,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 42920,
+      "height": 46887,
+      "target": "contact",
+      "targetTop": 42920.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#contact",
+    "iteration": 1,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 115.70000000298023,
+        "value": 1,
+        "recentInput": false,
+        "y": 39243,
+        "sources": [
+          {
+            "node": "SECTION#contact.Contact_contact__1PxFo FocusReveal_semantic__iGdNs",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 803.28125,
+              "top": 0,
+              "right": 1440,
+              "bottom": 803.28125,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          {
+            "node": "FOOTER.SiteFooter_footer__tpuYU",
+            "old": {
+              "x": 0,
+              "y": 803.28125,
+              "width": 1440,
+              "height": 96.71875,
+              "top": 803.28125,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ]
+      },
+      {
+        "time": 133.29999999701977,
+        "value": 1,
+        "recentInput": false,
+        "y": 39243,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 72,
+        "size": 2704,
+        "node": "A.inline-flex min-h-11 items-center text-xs font-semibold tracking-widest"
+      },
+      {
+        "time": 120,
+        "size": 58936,
+        "node": "SPAN."
+      },
+      {
+        "time": 156,
+        "size": 75754,
+        "node": "SPAN."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 372.79999999701977,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 1228,
+        "paintTime": 59.400000005960464,
+        "presentationTime": 72
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 72,
+        "duration": 0,
+        "navigationId": 1228,
+        "paintTime": 59.400000005960464,
+        "presentationTime": 72
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#contact",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 69.79999999701977,
+      "navigationId": 1228,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.4000000059604645,
+      "domainLookupStart": 0.4000000059604645,
+      "domainLookupEnd": 0.4000000059604645,
+      "connectStart": 0.4000000059604645,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.4000000059604645,
+      "requestStart": 1.2000000029802322,
+      "responseStart": 6.9000000059604645,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 6.9000000059604645,
+      "responseEnd": 10,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 9.400000005960464,
+      "unloadEventEnd": 9.400000005960464,
+      "domInteractive": 25.299999997019768,
+      "domContentLoadedEventStart": 25.299999997019768,
+      "domContentLoadedEventEnd": 25.299999997019768,
+      "domComplete": 69.79999999701977,
+      "loadEventStart": 69.79999999701977,
+      "loadEventEnd": 69.79999999701977,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      }
+    ],
+    "final": {
+      "y": 42920,
+      "height": 46887,
+      "target": "contact",
+      "targetTop": 42920.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#contact",
+    "iteration": 2,
+    "action": "navigate",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 133,
+        "value": 1,
+        "recentInput": false,
+        "y": 38717,
+        "sources": [
+          {
+            "node": "SECTION#contact.Contact_contact__1PxFo FocusReveal_semantic__iGdNs",
+            "old": {
+              "x": 0,
+              "y": 0.328125,
+              "width": 1440,
+              "height": 899.671875,
+              "top": 0.328125,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ]
+      },
+      {
+        "time": 166.40000000596046,
+        "value": 1,
+        "recentInput": false,
+        "y": 38717,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 60,
+        "size": 434130,
+        "node": "H3."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 248.20000000298023,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 7441,
+        "paintTime": 47.400000005960464,
+        "presentationTime": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 60,
+        "duration": 0,
+        "navigationId": 7441,
+        "paintTime": 47.400000005960464,
+        "presentationTime": 60
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#contact",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 74.40000000596046,
+      "navigationId": 7441,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.10000000894069672,
+      "domainLookupStart": 0.10000000894069672,
+      "domainLookupEnd": 0.10000000894069672,
+      "connectStart": 0.10000000894069672,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.10000000894069672,
+      "requestStart": 0.4000000059604645,
+      "responseStart": 3,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3,
+      "responseEnd": 5.200000002980232,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 11.800000011920929,
+      "domContentLoadedEventStart": 11.800000011920929,
+      "domContentLoadedEventEnd": 11.800000011920929,
+      "domComplete": 74.40000000596046,
+      "loadEventStart": 74.40000000596046,
+      "loadEventEnd": 74.40000000596046,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 42920,
+      "height": 46887,
+      "target": "contact",
+      "targetTop": 42920.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  },
+  {
+    "profile": "desktop",
+    "hash": "#contact",
+    "iteration": 2,
+    "action": "refresh",
+    "errors": [],
+    "shifts": [
+      {
+        "time": 107.40000000596046,
+        "value": 1,
+        "recentInput": false,
+        "y": 39243,
+        "sources": [
+          {
+            "node": "SECTION#contact.Contact_contact__1PxFo FocusReveal_semantic__iGdNs",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 803.28125,
+              "top": 0,
+              "right": 1440,
+              "bottom": 803.28125,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          {
+            "node": "FOOTER.SiteFooter_footer__tpuYU",
+            "old": {
+              "x": 0,
+              "y": 803.28125,
+              "width": 1440,
+              "height": 96.71875,
+              "top": 803.28125,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ]
+      },
+      {
+        "time": 138.6000000089407,
+        "value": 1,
+        "recentInput": false,
+        "y": 39243,
+        "sources": [
+          {
+            "node": "SECTION#about.About_about__FV2gf",
+            "old": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "new": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "tasks": [],
+    "lcp": [
+      {
+        "time": 76,
+        "size": 434130,
+        "node": "H3."
+      }
+    ],
+    "events": [],
+    "frames": [],
+    "draw": 373.80000001192093,
+    "paints": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 76,
+        "duration": 0,
+        "navigationId": 6731,
+        "paintTime": 60.900000005960464,
+        "presentationTime": 76
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 76,
+        "duration": 0,
+        "navigationId": 6731,
+        "paintTime": 60.900000005960464,
+        "presentationTime": 76
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:3001/?motion-audit=1#contact",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 69.80000001192093,
+      "navigationId": 6731,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "gzip",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.4000000059604645,
+      "domainLookupStart": 0.4000000059604645,
+      "domainLookupEnd": 0.4000000059604645,
+      "connectStart": 0.4000000059604645,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.4000000059604645,
+      "requestStart": 0.9000000059604645,
+      "responseStart": 6.700000002980232,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 6.700000002980232,
+      "responseEnd": 10.300000011920929,
+      "transferSize": 51232,
+      "encodedBodySize": 50932,
+      "decodedBodySize": 268699,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 9.400000005960464,
+      "unloadEventEnd": 9.400000005960464,
+      "domInteractive": 27.5,
+      "domContentLoadedEventStart": 27.5,
+      "domContentLoadedEventEnd": 27.600000008940697,
+      "domComplete": 69.80000001192093,
+      "loadEventStart": 69.80000001192093,
+      "loadEventEnd": 69.80000001192093,
+      "type": "reload",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "link",
+        "encodedBody": 29288
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
+        "type": "link",
+        "encodedBody": 5041
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "encodedBody": 11491
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "encodedBody": 23108
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+        "type": "link",
+        "encodedBody": 17675
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
+        "type": "link",
+        "encodedBody": 1859
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
+        "type": "script",
+        "encodedBody": 513
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "encodedBody": 64057
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "encodedBody": 67415
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "script",
+        "encodedBody": 5607
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
+        "type": "script",
+        "encodedBody": 19771
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
+        "type": "script",
+        "encodedBody": 3020
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "encodedBody": 24875
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
+        "type": "script",
+        "encodedBody": 3454
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "encodedBody": 562
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
+        "type": "script",
+        "encodedBody": 6643
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
+        "type": "script",
+        "encodedBody": 35791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "css",
+        "encodedBody": 16540
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
+        "type": "script",
+        "encodedBody": 88711
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
+        "type": "script",
+        "encodedBody": 100978
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
+        "type": "script",
+        "encodedBody": 3754
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
+        "type": "script",
+        "encodedBody": 5181
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "encodedBody": 46230
+      },
+      {
+        "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
+        "type": "other",
+        "encodedBody": 2748
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 32182
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "encodedBody": 20206
+      }
+    ],
+    "final": {
+      "y": 42920,
+      "height": 46887,
+      "target": "contact",
+      "targetTop": 42920.109375,
+      "margin": 0,
+      "error": 0.109375,
+      "triggers": 41,
+      "pins": 0,
+      "focus": "BODY",
+      "overflow": 0
+    }
+  }
+]

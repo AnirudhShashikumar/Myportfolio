@@ -1,0 +1,374 @@
+{
+  "events": [
+    {
+      "name": "click",
+      "t": 940.8999999910593,
+      "hash": "#about",
+      "y": 28520,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      }
+    },
+    {
+      "name": "scroll",
+      "t": 952.5999999940395,
+      "hash": "#about",
+      "y": 28781,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      }
+    },
+    {
+      "name": "scroll",
+      "t": 1101.7999999970198,
+      "hash": "#about",
+      "y": 28781,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      }
+    },
+    {
+      "name": "scroll",
+      "t": 1419.2999999970198,
+      "hash": "#about",
+      "y": 36382,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      }
+    },
+    {
+      "name": "click",
+      "t": 2459.5,
+      "hash": "#about",
+      "y": 36382,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      }
+    },
+    {
+      "name": "popstate",
+      "t": 2460.5999999940395,
+      "hash": "#contact",
+      "y": 36382,
+      "restoration": "auto",
+      "state": null
+    },
+    {
+      "name": "popstate",
+      "t": 2475,
+      "hash": "#about",
+      "y": 38761,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      }
+    },
+    {
+      "name": "scroll",
+      "t": 2498.2999999970198,
+      "hash": "#about",
+      "y": 28520,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      }
+    },
+    {
+      "name": "hashchange",
+      "t": 2500,
+      "hash": "#about",
+      "y": 28520,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      }
+    },
+    {
+      "name": "hashchange",
+      "t": 2500.2000000029802,
+      "hash": "#about",
+      "y": 28520,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "t": 1077.7999999970198,
+      "hash": "#about",
+      "y": 28781,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      },
+      "args": [
+        0,
+        0
+      ],
+      "stack": "Error\n    at window.scrollTo (eval at evaluate (:311:30), <anonymous>:1:411)\n    at http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:1332\n    at r (http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:847)\n    at http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:15489\n    at Array.forEach (<anonymous>)\n    at tF (http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:15412)\n    at t2.refresh (http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:37509)\n    at http://127.0.0.1:3001/_next/static/chunks/app/layout-84aeaa121117115e.js:1:8516"
+    },
+    {
+      "t": 1083.0999999940395,
+      "hash": "#about",
+      "y": 0,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      },
+      "args": [
+        0,
+        0
+      ],
+      "stack": "Error\n    at window.scrollTo (eval at evaluate (:311:30), <anonymous>:1:411)\n    at http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:1149\n    at r (http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:847)\n    at http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:15489\n    at Array.forEach (<anonymous>)\n    at tF (http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:15412)\n    at t2.refresh (http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:37509)\n    at http://127.0.0.1:3001/_next/static/chunks/app/layout-84aeaa121117115e.js:1:8516"
+    },
+    {
+      "t": 1101.7000000029802,
+      "hash": "#about",
+      "y": 0,
+      "restoration": "auto",
+      "state": {
+        "__NA": true,
+        "__PRIVATE_NEXTJS_INTERNALS_TREE": {
+          "tree": [
+            "",
+            {
+              "children": [
+                "__PAGE__",
+                {},
+                null,
+                null,
+                512,
+                ""
+              ]
+            },
+            null,
+            null,
+            528
+          ],
+          "renderedSearch": ""
+        }
+      },
+      "args": [
+        0,
+        28781
+      ],
+      "stack": "Error\n    at window.scrollTo (eval at evaluate (:311:30), <anonymous>:1:411)\n    at http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:1332\n    at r (http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:847)\n    at http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:16139\n    at Array.forEach (<anonymous>)\n    at tF (http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:16013)\n    at t2.refresh (http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js:1:37509)\n    at http://127.0.0.1:3001/_next/static/chunks/app/layout-84aeaa121117115e.js:1:8516"
+    }
+  ]
+}
