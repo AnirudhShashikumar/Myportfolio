@@ -417,6 +417,18 @@
             "href": "http://127.0.0.1:3001/apple-touch-icon.png",
             "sizes": "180x180",
             "type": "image/png"
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
+            "sizes": "",
+            "type": ""
+          },
+          {
+            "rel": "preload",
+            "href": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+            "sizes": "",
+            "type": ""
           }
         ],
         "person": []

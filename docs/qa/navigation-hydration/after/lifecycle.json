@@ -75,7 +75,7 @@
       "region": "[data-work-project='0']",
       "count": 180,
       "median": 16.700000000000728,
-      "p95": 16.700000000000728,
+      "p95": 16.799999999999272,
       "max": 16.80000000000291,
       "over33": 0,
       "tasks": []
@@ -84,24 +84,24 @@
       "region": "[data-work-project='2']",
       "count": 180,
       "median": 16.700000000000728,
-      "p95": 16.700000000000728,
-      "max": 16.799999999999272,
+      "p95": 16.799999999999272,
+      "max": 16.80000000000291,
       "over33": 0,
       "tasks": []
     },
     {
       "region": "#about",
       "count": 180,
-      "median": 16.69999999999709,
+      "median": 16.700000000000728,
       "p95": 16.799999999999272,
-      "max": 16.799999999999272,
+      "max": 16.80000000000291,
       "over33": 0,
       "tasks": []
     },
     {
       "region": "#contact",
       "count": 180,
-      "median": 16.69999999999709,
+      "median": 16.700000000000728,
       "p95": 16.700000000000728,
       "max": 16.799999999999272,
       "over33": 0,
@@ -112,10 +112,10 @@
     {
       "cycle": 0,
       "heap": {
-        "usedSize": 13960244,
-        "totalSize": 15859712,
-        "embedderHeapUsedSize": 8403080,
-        "backingStorageSize": 1716648
+        "usedSize": 13960128,
+        "totalSize": 16121856,
+        "embedderHeapUsedSize": 8469264,
+        "backingStorageSize": 1716711
       },
       "dom": {
         "documents": 1,
@@ -136,10 +136,10 @@
     {
       "cycle": 1,
       "heap": {
-        "usedSize": 14049024,
-        "totalSize": 16121856,
-        "embedderHeapUsedSize": 8401904,
-        "backingStorageSize": 1716648
+        "usedSize": 14047908,
+        "totalSize": 15859712,
+        "embedderHeapUsedSize": 8462104,
+        "backingStorageSize": 1716711
       },
       "dom": {
         "documents": 1,
@@ -160,10 +160,10 @@
     {
       "cycle": 2,
       "heap": {
-        "usedSize": 14081300,
+        "usedSize": 14081356,
         "totalSize": 15859712,
-        "embedderHeapUsedSize": 8472992,
-        "backingStorageSize": 1716648
+        "embedderHeapUsedSize": 8382720,
+        "backingStorageSize": 1716711
       },
       "dom": {
         "documents": 1,
@@ -184,10 +184,10 @@
     {
       "cycle": 3,
       "heap": {
-        "usedSize": 14093008,
-        "totalSize": 16121856,
-        "embedderHeapUsedSize": 8401848,
-        "backingStorageSize": 1716648
+        "usedSize": 14092416,
+        "totalSize": 15859712,
+        "embedderHeapUsedSize": 8474760,
+        "backingStorageSize": 1716711
       },
       "dom": {
         "documents": 1,
@@ -208,10 +208,10 @@
     {
       "cycle": 4,
       "heap": {
-        "usedSize": 14113024,
-        "totalSize": 16121856,
-        "embedderHeapUsedSize": 8401360,
-        "backingStorageSize": 1716648
+        "usedSize": 14112960,
+        "totalSize": 15859712,
+        "embedderHeapUsedSize": 8383712,
+        "backingStorageSize": 1716711
       },
       "dom": {
         "documents": 1,
@@ -234,11 +234,11 @@
     {
       "region": "#home",
       "start": {
-        "time": 30421.20000000298,
+        "time": 30497.09999999404,
         "y": 360
       },
       "firstScroll": {
-        "time": 30467.20000000298,
+        "time": 30562.29999999702,
         "y": 384
       },
       "settledY": 479
@@ -246,11 +246,11 @@
     {
       "region": "#work",
       "start": {
-        "time": 31371.70000000298,
+        "time": 31465.59999999404,
         "y": 480
       },
       "firstScroll": {
-        "time": 31417,
+        "time": 31528.89999999106,
         "y": 500
       },
       "settledY": 599
@@ -258,24 +258,24 @@
     {
       "region": "#about",
       "start": {
-        "time": 32319.5,
+        "time": 32436.89999999106,
         "y": 600
       },
       "firstScroll": {
-        "time": 32367,
-        "y": 621
+        "time": 32495.59999999404,
+        "y": 620
       },
       "settledY": 719
     },
     {
       "region": "#contact",
       "start": {
-        "time": 33268,
+        "time": 33394.89999999106,
         "y": 720
       },
       "firstScroll": {
-        "time": 33333.70000000298,
-        "y": 739
+        "time": 33462.39999999106,
+        "y": 741
       },
       "settledY": 839
     }
@@ -283,27 +283,27 @@
   "events": [
     {
       "name": "pointerdown",
-      "time": 45870,
-      "duration": 48,
-      "inputDelay": 1.2000000029802322,
-      "processing": 0.5999999940395355,
-      "interactionId": 4633
+      "time": 46034.70000000298,
+      "duration": 56,
+      "inputDelay": 6.899999991059303,
+      "processing": 0.9000000059604645,
+      "interactionId": 2225
     },
     {
       "name": "pointerup",
-      "time": 45870.10000000894,
-      "duration": 48,
-      "inputDelay": 2.2999999970197678,
-      "processing": 0.09999999403953552,
-      "interactionId": 4633
+      "time": 46036.29999999702,
+      "duration": 56,
+      "inputDelay": 8.200000002980232,
+      "processing": 0,
+      "interactionId": 2225
     },
     {
       "name": "click",
-      "time": 45870.10000000894,
-      "duration": 48,
-      "inputDelay": 2.5,
-      "processing": 7.299999997019768,
-      "interactionId": 4633
+      "time": 46036.29999999702,
+      "duration": 56,
+      "inputDelay": 8.299999997019768,
+      "processing": 8.400000005960464,
+      "interactionId": 2225
     }
   ],
   "errors": [],
@@ -312,25 +312,25 @@
       "tasks": [],
       "lcp": [
         {
-          "time": 72,
+          "time": 128,
           "size": 119556,
           "text": "WHAT I WANT",
           "tag": "SPAN"
         },
         {
-          "time": 9204,
+          "time": 9296,
           "size": 141191,
           "text": "SHASHIKUMAR",
           "tag": "SPAN"
         },
         {
-          "time": 16492,
+          "time": 16568,
           "size": 267029,
           "text": "",
           "tag": "IMG"
         },
         {
-          "time": 17296,
+          "time": 17376,
           "size": 604048,
           "text": "",
           "tag": "IMG"
@@ -338,217 +338,217 @@
       ],
       "shifts": [
         {
-          "time": 13653.10000000894,
+          "time": 13731,
           "value": 0.0005329356084962277,
           "recentInput": false
         },
         {
-          "time": 13670.10000000894,
+          "time": 13747.79999999702,
           "value": 0.0005065375434027777,
           "recentInput": false
         },
         {
-          "time": 13685,
+          "time": 13764.39999999106,
           "value": 0.000503441679526749,
           "recentInput": false
         },
         {
-          "time": 13702,
+          "time": 13781,
           "value": 0.0005078595866555213,
           "recentInput": false
         },
         {
-          "time": 13719.70000000298,
+          "time": 13797.5,
           "value": 0.0004921424897119341,
           "recentInput": false
         },
         {
-          "time": 13735.90000000596,
+          "time": 13814.79999999702,
           "value": 0.0004852754736796982,
           "recentInput": false
         },
         {
-          "time": 13753,
+          "time": 13830.79999999702,
           "value": 0.0005003600823045267,
           "recentInput": false
         },
         {
-          "time": 13769.10000000894,
+          "time": 13848,
           "value": 0.000477076903292181,
           "recentInput": false
         },
         {
-          "time": 13786.20000000298,
+          "time": 13864.70000000298,
           "value": 0.0004720550411522633,
           "recentInput": false
         },
         {
-          "time": 13951.79999999702,
+          "time": 14030,
           "value": 0.0036135105211548353,
           "recentInput": false
         },
         {
-          "time": 13968.70000000298,
+          "time": 14046.59999999404,
           "value": 0.003397338364840535,
           "recentInput": false
         },
         {
-          "time": 13985.40000000596,
+          "time": 14063.5,
           "value": 0.003286192826217421,
           "recentInput": false
         },
         {
-          "time": 14001.79999999702,
+          "time": 14079.59999999404,
           "value": 0.0032769860789609055,
           "recentInput": false
         },
         {
-          "time": 14018.10000000894,
+          "time": 14096.29999999702,
           "value": 0.0030565225734632204,
           "recentInput": false
         },
         {
-          "time": 14034.70000000298,
+          "time": 14113.39999999106,
           "value": 0.002945121742112483,
           "recentInput": false
         },
         {
-          "time": 14052,
+          "time": 14130.20000000298,
           "value": 0.0016594391999421297,
           "recentInput": false
         },
         {
-          "time": 14934.40000000596,
+          "time": 15013,
           "value": 0.004452953532235939,
           "recentInput": false
         },
         {
-          "time": 14952.70000000298,
+          "time": 15029.39999999106,
           "value": 0.004718356662326389,
           "recentInput": false
         },
         {
-          "time": 14969.60000000894,
+          "time": 15046.20000000298,
           "value": 0.004983403193051269,
           "recentInput": false
         },
         {
-          "time": 14986.20000000298,
+          "time": 15062.89999999106,
           "value": 0.0052279938874421296,
           "recentInput": false
         },
         {
-          "time": 15002.90000000596,
+          "time": 15079.59999999404,
           "value": 0.002227271010159465,
           "recentInput": false
         },
         {
-          "time": 15086.10000000894,
+          "time": 15163.29999999702,
           "value": 0.00013039833233680255,
           "recentInput": false
         },
         {
-          "time": 15102.40000000596,
+          "time": 15180.09999999404,
           "value": 0.0007116587362825788,
           "recentInput": false
         },
         {
-          "time": 15119.60000000894,
+          "time": 15196.79999999702,
           "value": 0.0007320980956361454,
           "recentInput": false
         },
         {
-          "time": 15135.70000000298,
+          "time": 15213.79999999702,
           "value": 0.0007343712491426612,
           "recentInput": false
         },
         {
-          "time": 15152.20000000298,
+          "time": 15229.79999999702,
           "value": 0.0007476202149777093,
           "recentInput": false
         },
         {
-          "time": 15169,
+          "time": 15246.39999999106,
           "value": 0.0007608834474665638,
           "recentInput": false
         },
         {
-          "time": 15184.40000000596,
+          "time": 15263.29999999702,
           "value": 0.0007800102746699245,
           "recentInput": false
         },
         {
-          "time": 15336.90000000596,
+          "time": 15413.79999999702,
           "value": 0.00011893623233332065,
           "recentInput": false
         },
         {
-          "time": 15369.90000000596,
+          "time": 15447,
           "value": 0.00037825654792524006,
           "recentInput": false
         },
         {
-          "time": 15385.79999999702,
+          "time": 15464.09999999404,
           "value": 0.0004529091917438271,
           "recentInput": false
         },
         {
-          "time": 15403.10000000894,
+          "time": 15480.09999999404,
           "value": 0.00044845799575617286,
           "recentInput": false
         },
         {
-          "time": 15419.90000000596,
+          "time": 15496.5,
           "value": 0.0004345194749871399,
           "recentInput": false
         },
         {
-          "time": 15435.60000000894,
+          "time": 15513.09999999404,
           "value": 0.0004406684027777778,
           "recentInput": false
         },
         {
-          "time": 15451.60000000894,
+          "time": 15529.79999999702,
           "value": 0.00043621720679012346,
           "recentInput": false
         },
         {
-          "time": 15468.90000000596,
+          "time": 15546.09999999404,
           "value": 0.0004236292625814471,
           "recentInput": false
         },
         {
-          "time": 15485.5,
+          "time": 15563.09999999404,
           "value": 0.0004284276138117284,
           "recentInput": false
         },
         {
-          "time": 15503.29999999702,
+          "time": 15579.5,
           "value": 0.00042216455279063785,
           "recentInput": false
         },
         {
-          "time": 15520.70000000298,
+          "time": 15596.5,
           "value": 0.0004008656024278764,
           "recentInput": false
         },
         {
-          "time": 15534.29999999702,
+          "time": 15613.09999999404,
           "value": 0.0005958597568491032,
           "recentInput": false
         },
         {
-          "time": 15552.79999999702,
+          "time": 15629.79999999702,
           "value": 0.0006188832241811869,
           "recentInput": false
         },
         {
-          "time": 15569.40000000596,
+          "time": 15646.5,
           "value": 0.0006190187950193146,
           "recentInput": false
         },
         {
-          "time": 15586.10000000894,
+          "time": 15663.09999999404,
           "value": 0.0007190846468359028,
           "recentInput": false
         }
@@ -556,45 +556,45 @@
       "events": [
         {
           "name": "pointerdown",
-          "time": 45870,
-          "duration": 48,
-          "inputDelay": 1.2000000029802322,
-          "processing": 0.5999999940395355,
-          "interactionId": 4633
+          "time": 46034.70000000298,
+          "duration": 56,
+          "inputDelay": 6.899999991059303,
+          "processing": 0.9000000059604645,
+          "interactionId": 2225
         },
         {
           "name": "pointerup",
-          "time": 45870.10000000894,
-          "duration": 48,
-          "inputDelay": 2.2999999970197678,
-          "processing": 0.09999999403953552,
-          "interactionId": 4633
+          "time": 46036.29999999702,
+          "duration": 56,
+          "inputDelay": 8.200000002980232,
+          "processing": 0,
+          "interactionId": 2225
         },
         {
           "name": "click",
-          "time": 45870.10000000894,
-          "duration": 48,
-          "inputDelay": 2.5,
-          "processing": 7.299999997019768,
-          "interactionId": 4633
+          "time": 46036.29999999702,
+          "duration": 56,
+          "inputDelay": 8.299999997019768,
+          "processing": 8.400000005960464,
+          "interactionId": 2225
         }
       ],
       "contexts": [
         {
           "type": "webgl2",
-          "start": 112.6000000089407,
-          "end": 115.40000000596046,
+          "start": 190.09999999403954,
+          "end": 198.70000000298023,
           "attached": false
         },
         {
           "type": "webgl2",
-          "start": 372.40000000596046,
-          "end": 374.6000000089407,
+          "start": 367.79999999701977,
+          "end": 370.09999999403954,
           "attached": true
         }
       ],
-      "draws": 15344,
-      "clears": 428,
+      "draws": 15414,
+      "clears": 431,
       "allocations": {
         "createTexture": 4,
         "createBuffer": 13,
@@ -604,14 +604,14 @@
         "createShader": 8,
         "deleteShader": 8
       },
-      "firstDraw": 391.40000000596046
+      "firstDraw": 415.5
     },
     "navigation": {
       "name": "http://127.0.0.1:3001/?motion-audit=1",
       "entryType": "navigation",
       "startTime": 0,
-      "duration": 80.29999999701977,
-      "navigationId": 5276,
+      "duration": 143.29999999701977,
+      "navigationId": 6307,
       "initiatorType": "navigation",
       "deliveryType": "",
       "nextHopProtocol": "http/1.1",
@@ -625,30 +625,30 @@
       "workerFinalSourceType": "",
       "redirectStart": 0,
       "redirectEnd": 0,
-      "fetchStart": 0.29999999701976776,
-      "domainLookupStart": 0.29999999701976776,
-      "domainLookupEnd": 0.29999999701976776,
-      "connectStart": 0.29999999701976776,
+      "fetchStart": 0.3999999910593033,
+      "domainLookupStart": 0.3999999910593033,
+      "domainLookupEnd": 0.3999999910593033,
+      "connectStart": 0.3999999910593033,
       "secureConnectionStart": 0,
-      "connectEnd": 0.29999999701976776,
-      "requestStart": 0.6000000089406967,
-      "responseStart": 4.100000008940697,
+      "connectEnd": 0.3999999910593033,
+      "requestStart": 1.2999999970197678,
+      "responseStart": 15.700000002980232,
       "firstInterimResponseStart": 0,
-      "finalResponseHeadersStart": 4.100000008940697,
-      "responseEnd": 6.5,
-      "transferSize": 51232,
-      "encodedBodySize": 50932,
+      "finalResponseHeadersStart": 15.700000002980232,
+      "responseEnd": 19.399999991059303,
+      "transferSize": 51234,
+      "encodedBodySize": 50934,
       "decodedBodySize": 268699,
       "responseStatus": 200,
       "serverTiming": [],
       "unloadEventStart": 0,
       "unloadEventEnd": 0,
-      "domInteractive": 14.799999997019768,
-      "domContentLoadedEventStart": 14.799999997019768,
-      "domContentLoadedEventEnd": 14.799999997019768,
-      "domComplete": 80.20000000298023,
-      "loadEventStart": 80.29999999701977,
-      "loadEventEnd": 80.29999999701977,
+      "domInteractive": 37.5,
+      "domContentLoadedEventStart": 37.5,
+      "domContentLoadedEventEnd": 37.5,
+      "domComplete": 143.09999999403954,
+      "loadEventStart": 143.29999999701977,
+      "loadEventEnd": 143.29999999701977,
       "type": "navigate",
       "redirectCount": 0,
       "activationStart": 0,
@@ -661,71 +661,81 @@
     },
     "resources": [
       {
-        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
-        "type": "link",
-        "start": 7.5,
-        "end": 9.200000002980232,
-        "duration": 1.7000000029802322,
-        "encodedBodyBytes": 5041,
-        "decodedBodyBytes": 18649,
-        "transferBytes": 5341
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
-        "type": "link",
-        "start": 7.5,
-        "end": 9.299999997019768,
-        "duration": 1.7999999970197678,
-        "encodedBodyBytes": 23108,
-        "decodedBodyBytes": 23108,
-        "transferBytes": 23408
-      },
-      {
         "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
         "type": "link",
-        "start": 7.5,
-        "end": 8.400000005960464,
-        "duration": 0.9000000059604645,
+        "start": 24.700000002980232,
+        "end": 27.799999997019768,
+        "duration": 3.0999999940395355,
         "encodedBodyBytes": 29288,
         "decodedBodyBytes": 29288,
         "transferBytes": 29588
       },
       {
-        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
         "type": "link",
-        "start": 7.600000008940697,
-        "end": 11.600000008940697,
-        "duration": 4,
-        "encodedBodyBytes": 11491,
-        "decodedBodyBytes": 57466,
-        "transferBytes": 11791
+        "start": 24.899999991059303,
+        "end": 28.799999997019768,
+        "duration": 3.9000000059604645,
+        "encodedBodyBytes": 5041,
+        "decodedBodyBytes": 18649,
+        "transferBytes": 5341
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
         "type": "link",
-        "start": 7.600000008940697,
-        "end": 12.900000005960464,
-        "duration": 5.299999997019768,
+        "start": 24.899999991059303,
+        "end": 32.8999999910593,
+        "duration": 8,
         "encodedBodyBytes": 17675,
         "decodedBodyBytes": 82845,
         "transferBytes": 17975
       },
       {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "link",
+        "start": 24.899999991059303,
+        "end": 31.399999991059303,
+        "duration": 6.5,
+        "encodedBodyBytes": 11491,
+        "decodedBodyBytes": 57466,
+        "transferBytes": 11791
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "link",
+        "start": 24.899999991059303,
+        "end": 29.299999997019768,
+        "duration": 4.4000000059604645,
+        "encodedBodyBytes": 23108,
+        "decodedBodyBytes": 23108,
+        "transferBytes": 23408
+      },
+      {
         "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
         "type": "link",
-        "start": 7.600000008940697,
-        "end": 13.100000008940697,
-        "duration": 5.5,
+        "start": 25,
+        "end": 32.29999999701977,
+        "duration": 7.299999997019768,
         "encodedBodyBytes": 1859,
         "decodedBodyBytes": 3559,
         "transferBytes": 2159
       },
       {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
+        "type": "script",
+        "start": 25,
+        "end": 43.70000000298023,
+        "duration": 18.700000002980232,
+        "encodedBodyBytes": 64057,
+        "decodedBodyBytes": 203721,
+        "transferBytes": 64357
+      },
+      {
         "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
         "type": "script",
-        "start": 7.600000008940697,
-        "end": 12.700000002980232,
-        "duration": 5.0999999940395355,
+        "start": 25.099999994039536,
+        "end": 34.599999994039536,
+        "duration": 9.5,
         "encodedBodyBytes": 513,
         "decodedBodyBytes": 513,
         "transferBytes": 813
@@ -733,79 +743,49 @@
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
         "type": "script",
-        "start": 7.600000008940697,
-        "end": 18.100000008940697,
-        "duration": 10.5,
+        "start": 25.099999994039536,
+        "end": 37.3999999910593,
+        "duration": 12.299999997019768,
         "encodedBodyBytes": 19771,
         "decodedBodyBytes": 51569,
         "transferBytes": 20071
       },
       {
-        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
-        "type": "script",
-        "start": 7.600000008940697,
-        "end": 19.299999997019768,
-        "duration": 11.699999988079071,
-        "encodedBodyBytes": 24875,
-        "decodedBodyBytes": 62258,
-        "transferBytes": 25175
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
-        "type": "script",
-        "start": 7.600000008940697,
-        "end": 22.700000002980232,
-        "duration": 15.099999994039536,
-        "encodedBodyBytes": 64057,
-        "decodedBodyBytes": 203721,
-        "transferBytes": 64357
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
-        "type": "script",
-        "start": 7.600000008940697,
-        "end": 23.100000008940697,
-        "duration": 15.5,
-        "encodedBodyBytes": 67415,
-        "decodedBodyBytes": 242566,
-        "transferBytes": 67715
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
-        "type": "link",
-        "start": 7.700000002980232,
-        "end": 9.200000002980232,
-        "duration": 1.5,
-        "encodedBodyBytes": 562,
-        "decodedBodyBytes": 1155,
-        "transferBytes": 862
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
-        "type": "script",
-        "start": 7.700000002980232,
-        "end": 17.299999997019768,
-        "duration": 9.599999994039536,
-        "encodedBodyBytes": 3020,
-        "decodedBodyBytes": 8541,
-        "transferBytes": 3320
-      },
-      {
         "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
         "type": "script",
-        "start": 7.700000002980232,
-        "end": 17.600000008940697,
-        "duration": 9.900000005960464,
+        "start": 25.099999994039536,
+        "end": 40,
+        "duration": 14.900000005960464,
         "encodedBodyBytes": 5607,
         "decodedBodyBytes": 19078,
         "transferBytes": 5907
       },
       {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
+        "type": "script",
+        "start": 25.099999994039536,
+        "end": 40.29999999701977,
+        "duration": 15.200000002980232,
+        "encodedBodyBytes": 24875,
+        "decodedBodyBytes": 62258,
+        "transferBytes": 25175
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-84aeaa121117115e.js",
+        "type": "script",
+        "start": 25.099999994039536,
+        "end": 40.70000000298023,
+        "duration": 15.600000008940697,
+        "encodedBodyBytes": 3046,
+        "decodedBodyBytes": 8604,
+        "transferBytes": 3346
+      },
+      {
         "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
         "type": "script",
-        "start": 7.700000002980232,
-        "end": 21.600000008940697,
-        "duration": 13.900000005960464,
+        "start": 25.099999994039536,
+        "end": 42,
+        "duration": 16.900000005960464,
         "encodedBodyBytes": 3454,
         "decodedBodyBytes": 8113,
         "transferBytes": 3754
@@ -813,19 +793,39 @@
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
         "type": "script",
-        "start": 7.700000002980232,
-        "end": 22.200000002980232,
-        "duration": 14.5,
+        "start": 25.099999994039536,
+        "end": 42.599999994039536,
+        "duration": 17.5,
         "encodedBodyBytes": 6643,
         "decodedBodyBytes": 19083,
         "transferBytes": 6943
       },
       {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
+        "type": "script",
+        "start": 25.099999994039536,
+        "end": 44,
+        "duration": 18.900000005960464,
+        "encodedBodyBytes": 67415,
+        "decodedBodyBytes": 242566,
+        "transferBytes": 67715
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
+        "type": "link",
+        "start": 25.200000002980232,
+        "end": 29.799999997019768,
+        "duration": 4.5999999940395355,
+        "encodedBodyBytes": 562,
+        "decodedBodyBytes": 1155,
+        "transferBytes": 862
+      },
+      {
         "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
         "type": "script",
-        "start": 7.700000002980232,
-        "end": 24.700000002980232,
-        "duration": 17,
+        "start": 25.200000002980232,
+        "end": 45.099999994039536,
+        "duration": 19.899999991059303,
         "encodedBodyBytes": 35791,
         "decodedBodyBytes": 130523,
         "transferBytes": 36091
@@ -833,29 +833,19 @@
       {
         "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
         "type": "css",
-        "start": 39.1000000089407,
-        "end": 40,
-        "duration": 0.8999999910593033,
+        "start": 85.8999999910593,
+        "end": 87.09999999403954,
+        "duration": 1.2000000029802322,
         "encodedBodyBytes": 16540,
         "decodedBodyBytes": 16540,
         "transferBytes": 16840
       },
       {
-        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
-        "type": "img",
-        "start": 51.5,
-        "end": 53.900000005960464,
-        "duration": 2.4000000059604645,
-        "encodedBodyBytes": 34162,
-        "decodedBodyBytes": 34162,
-        "transferBytes": 34462
-      },
-      {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
         "type": "img",
-        "start": 51.6000000089407,
-        "end": 54,
-        "duration": 2.3999999910593033,
+        "start": 104,
+        "end": 108.8999999910593,
+        "duration": 4.899999991059303,
         "encodedBodyBytes": 12154,
         "decodedBodyBytes": 12154,
         "transferBytes": 12454
@@ -863,9 +853,9 @@
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
         "type": "img",
-        "start": 51.6000000089407,
-        "end": 54.1000000089407,
-        "duration": 2.5,
+        "start": 104,
+        "end": 109.20000000298023,
+        "duration": 5.200000002980232,
         "encodedBodyBytes": 11988,
         "decodedBodyBytes": 11988,
         "transferBytes": 12288
@@ -873,19 +863,29 @@
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
         "type": "img",
-        "start": 51.6000000089407,
-        "end": 54.20000000298023,
-        "duration": 2.5999999940395355,
+        "start": 104,
+        "end": 109.20000000298023,
+        "duration": 5.200000002980232,
         "encodedBodyBytes": 8974,
         "decodedBodyBytes": 8974,
         "transferBytes": 9274
       },
       {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "img",
+        "start": 104,
+        "end": 109.3999999910593,
+        "duration": 5.399999991059303,
+        "encodedBodyBytes": 34162,
+        "decodedBodyBytes": 34162,
+        "transferBytes": 34462
+      },
+      {
         "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
         "type": "other",
-        "start": 90.5,
-        "end": 91.70000000298023,
-        "duration": 1.2000000029802322,
+        "start": 156,
+        "end": 157.79999999701977,
+        "duration": 1.7999999970197678,
         "encodedBodyBytes": 2748,
         "decodedBodyBytes": 2748,
         "transferBytes": 3048
@@ -893,9 +893,9 @@
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
         "type": "script",
-        "start": 116.70000000298023,
-        "end": 124.70000000298023,
-        "duration": 8,
+        "start": 201.20000000298023,
+        "end": 210.70000000298023,
+        "duration": 9.5,
         "encodedBodyBytes": 88711,
         "decodedBodyBytes": 367908,
         "transferBytes": 89011
@@ -903,29 +903,19 @@
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
         "type": "script",
-        "start": 116.70000000298023,
-        "end": 125.5,
-        "duration": 8.799999997019768,
+        "start": 201.29999999701977,
+        "end": 211.70000000298023,
+        "duration": 10.400000005960464,
         "encodedBodyBytes": 100978,
         "decodedBodyBytes": 379578,
         "transferBytes": 101278
       },
       {
-        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
-        "type": "script",
-        "start": 116.79999999701977,
-        "end": 122.5,
-        "duration": 5.700000002980232,
-        "encodedBodyBytes": 46230,
-        "decodedBodyBytes": 146757,
-        "transferBytes": 46530
-      },
-      {
         "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
         "type": "script",
-        "start": 116.90000000596046,
-        "end": 118.40000000596046,
-        "duration": 1.5,
+        "start": 201.5,
+        "end": 203.20000000298023,
+        "duration": 1.7000000029802322,
         "encodedBodyBytes": 5181,
         "decodedBodyBytes": 13128,
         "transferBytes": 5481
@@ -933,19 +923,29 @@
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
         "type": "script",
-        "start": 117,
-        "end": 118.79999999701977,
+        "start": 201.5,
+        "end": 203.29999999701977,
         "duration": 1.7999999970197678,
         "encodedBodyBytes": 3754,
         "decodedBodyBytes": 12297,
         "transferBytes": 4054
       },
       {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
+        "type": "script",
+        "start": 201.5,
+        "end": 208.09999999403954,
+        "duration": 6.5999999940395355,
+        "encodedBodyBytes": 46230,
+        "decodedBodyBytes": 146757,
+        "transferBytes": 46530
+      },
+      {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
         "type": "img",
-        "start": 7657.600000008941,
-        "end": 7663.100000008941,
-        "duration": 5.5,
+        "start": 7748.5,
+        "end": 7766.899999991059,
+        "duration": 18.399999991059303,
         "encodedBodyBytes": 12368,
         "decodedBodyBytes": 12368,
         "transferBytes": 12668
@@ -953,9 +953,9 @@
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
         "type": "img",
-        "start": 7657.600000008941,
-        "end": 7663.20000000298,
-        "duration": 5.5999999940395355,
+        "start": 7748.5,
+        "end": 7767,
+        "duration": 18.5,
         "encodedBodyBytes": 39974,
         "decodedBodyBytes": 39974,
         "transferBytes": 40274
@@ -963,59 +963,59 @@
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=1080&q=75",
         "type": "img",
-        "start": 7658.100000008941,
-        "end": 7664,
-        "duration": 5.899999991059303,
+        "start": 7751.5,
+        "end": 7767.0999999940395,
+        "duration": 15.599999994039536,
         "encodedBodyBytes": 30062,
         "decodedBodyBytes": 30062,
         "transferBytes": 30362
       },
       {
-        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-two-hand-tracking.jpg&w=384&q=75",
-        "type": "img",
-        "start": 7658.29999999702,
-        "end": 7664.20000000298,
-        "duration": 5.9000000059604645,
-        "encodedBodyBytes": 6078,
-        "decodedBodyBytes": 6078,
-        "transferBytes": 6378
-      },
-      {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-globe-scale.jpg&w=384&q=75",
         "type": "img",
-        "start": 7658.29999999702,
-        "end": 7664.5,
-        "duration": 6.200000002980232,
+        "start": 7751.70000000298,
+        "end": 7767.29999999702,
+        "duration": 15.599999994039536,
         "encodedBodyBytes": 6808,
         "decodedBodyBytes": 6808,
         "transferBytes": 7108
       },
       {
-        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-two-hand-tracking.jpg&w=384&q=75",
         "type": "img",
-        "start": 9194.79999999702,
-        "end": 9200.40000000596,
-        "duration": 5.600000008940697,
-        "encodedBodyBytes": 20206,
-        "decodedBodyBytes": 20206,
-        "transferBytes": 20506
+        "start": 7751.70000000298,
+        "end": 7767.5,
+        "duration": 15.799999997019768,
+        "encodedBodyBytes": 6078,
+        "decodedBodyBytes": 6078,
+        "transferBytes": 6378
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
         "type": "img",
-        "start": 9194.79999999702,
-        "end": 9200.5,
-        "duration": 5.700000002980232,
+        "start": 9281,
+        "end": 9289.29999999702,
+        "duration": 8.299999997019768,
         "encodedBodyBytes": 32182,
         "decodedBodyBytes": 32182,
         "transferBytes": 32482
       },
       {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "img",
+        "start": 9281.09999999404,
+        "end": 9289.70000000298,
+        "duration": 8.600000008940697,
+        "encodedBodyBytes": 20206,
+        "decodedBodyBytes": 20206,
+        "transferBytes": 20506
+      },
+      {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-prototype-hero.jpg&w=640&q=75",
         "type": "img",
-        "start": 19323.10000000894,
-        "end": 19329.60000000894,
-        "duration": 6.5,
+        "start": 19406.79999999702,
+        "end": 19418.89999999106,
+        "duration": 12.099999994039536,
         "encodedBodyBytes": 23912,
         "decodedBodyBytes": 23912,
         "transferBytes": 24212
@@ -1023,9 +1023,9 @@
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-iot-hardware.jpg&w=640&q=75",
         "type": "img",
-        "start": 19323.40000000596,
-        "end": 19329.70000000298,
-        "duration": 6.299999997019768,
+        "start": 19407.39999999106,
+        "end": 19419.09999999404,
+        "duration": 11.700000002980232,
         "encodedBodyBytes": 39068,
         "decodedBodyBytes": 39068,
         "transferBytes": 39368
@@ -1033,9 +1033,9 @@
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=1080&q=75",
         "type": "img",
-        "start": 19323.5,
-        "end": 19330.40000000596,
-        "duration": 6.9000000059604645,
+        "start": 19407.5,
+        "end": 19419.39999999106,
+        "duration": 11.899999991059303,
         "encodedBodyBytes": 26618,
         "decodedBodyBytes": 26618,
         "transferBytes": 26918
@@ -1043,9 +1043,9 @@
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-system-infographic.jpg&w=384&q=75",
         "type": "img",
-        "start": 19323.5,
-        "end": 19330.60000000894,
-        "duration": 7.100000008940697,
+        "start": 19407.5,
+        "end": 19419.39999999106,
+        "duration": 11.899999991059303,
         "encodedBodyBytes": 47684,
         "decodedBodyBytes": 47684,
         "transferBytes": 47984
@@ -1053,9 +1053,9 @@
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
         "type": "img",
-        "start": 22859.60000000894,
-        "end": 22863.10000000894,
-        "duration": 3.5,
+        "start": 22937,
+        "end": 22941.09999999404,
+        "duration": 4.0999999940395355,
         "encodedBodyBytes": 14976,
         "decodedBodyBytes": 14976,
         "transferBytes": 15276
@@ -1063,9 +1063,9 @@
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
         "type": "img",
-        "start": 22859.70000000298,
-        "end": 22863.29999999702,
-        "duration": 3.5999999940395355,
+        "start": 22937.09999999404,
+        "end": 22941.29999999702,
+        "duration": 4.200000002980232,
         "encodedBodyBytes": 13450,
         "decodedBodyBytes": 13450,
         "transferBytes": 13750
@@ -1073,9 +1073,9 @@
       {
         "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
         "type": "other",
-        "start": 44017.90000000596,
-        "end": 44020,
-        "duration": 2.0999999940395355,
+        "start": 44196.09999999404,
+        "end": 44201,
+        "duration": 4.9000000059604645,
         "encodedBodyBytes": 2748,
         "decodedBodyBytes": 2748,
         "transferBytes": 3048
@@ -1085,16 +1085,16 @@
     "canvases": 2,
     "heroActive": "false",
     "cdpMetrics": {
-      "Timestamp": 78473.484923,
+      "Timestamp": 82353.237434,
       "AudioHandlers": 0,
       "AudioWorkletProcessors": 0,
       "Documents": 1,
       "Frames": 1,
-      "JSEventListeners": 443,
+      "JSEventListeners": 438,
       "LayoutObjects": 2452,
       "MediaKeySessions": 0,
       "MediaKeys": 0,
-      "Nodes": 3340,
+      "Nodes": 2958,
       "Resources": 52,
       "ContextLifecycleStateObservers": 20,
       "V8PerContextDatas": 2,
@@ -1105,33 +1105,33 @@
       "AdSubframes": 0,
       "DetachedScriptStates": 0,
       "ArrayBufferContents": 28,
-      "LayoutCount": 731,
-      "RecalcStyleCount": 4910,
-      "LayoutDuration": 0.140726,
-      "RecalcStyleDuration": 0.481345,
-      "DevToolsCommandDuration": 0.196393,
-      "ScriptDuration": 1.136447,
-      "V8CompileDuration": 0.00047,
-      "TaskDuration": 3.774692,
-      "TaskOtherDuration": 1.819311,
-      "ThreadTime": 3.811852,
-      "ProcessTime": 7.156432,
-      "JSHeapUsedSize": 14544932,
-      "JSHeapTotalSize": 18743296,
-      "FirstMeaningfulPaint": 78427.159039,
-      "DomContentLoaded": 78427.105146,
-      "NavigationStart": 78427.09027
+      "LayoutCount": 730,
+      "RecalcStyleCount": 4905,
+      "LayoutDuration": 0.179549,
+      "RecalcStyleDuration": 0.526981,
+      "DevToolsCommandDuration": 0.209938,
+      "ScriptDuration": 1.163927,
+      "V8CompileDuration": 0.000356,
+      "TaskDuration": 4.193435,
+      "TaskOtherDuration": 2.112684,
+      "ThreadTime": 4.105287,
+      "ProcessTime": 7.52606,
+      "JSHeapUsedSize": 14050304,
+      "JSHeapTotalSize": 18481152,
+      "FirstMeaningfulPaint": 82306.760052,
+      "DomContentLoaded": 82306.671226,
+      "NavigationStart": 82306.633733
     },
     "heap": {
-      "usedSize": 14544932,
-      "totalSize": 18743296,
-      "embedderHeapUsedSize": 7898976,
-      "backingStorageSize": 1719385
+      "usedSize": 14050304,
+      "totalSize": 18481152,
+      "embedderHeapUsedSize": 7820608,
+      "backingStorageSize": 1719153
     },
     "dom": {
       "documents": 1,
-      "nodes": 3340,
-      "jsEventListeners": 443
+      "nodes": 2958,
+      "jsEventListeners": 438
     },
     "errors": [],
     "warnings": [
@@ -1158,519 +1158,519 @@
     ],
     "network": [
       {
-        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
-        "type": "Stylesheet",
-        "start": 78427.098017,
-        "initiator": "parser",
-        "status": 200,
-        "mime": "text/css",
-        "encoding": "gzip",
-        "response": 78427.099655,
-        "end": 78427.099422,
-        "wireBytes": 943
-      },
-      {
         "url": "http://127.0.0.1:3001/_next/static/css/3f03361c30f02808.css",
         "type": "Stylesheet",
-        "start": 78427.097821,
+        "start": 82306.658617,
         "initiator": "parser",
         "status": 200,
         "mime": "text/css",
         "encoding": "gzip",
-        "response": 78427.09976,
-        "end": 78427.099529,
+        "response": 82306.665284,
+        "end": 82306.662526,
         "wireBytes": 5424
       },
       {
-        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "url": "http://127.0.0.1:3001/_next/static/css/a29d8ceb96862985.css",
         "type": "Stylesheet",
-        "start": 78427.09786,
+        "start": 82306.658886,
         "initiator": "parser",
         "status": 200,
         "mime": "text/css",
         "encoding": "gzip",
-        "response": 78427.101943,
-        "end": 78427.10188,
-        "wireBytes": 11874
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
-        "type": "Font",
-        "start": 78427.097801,
-        "initiator": "parser",
-        "status": 200,
-        "mime": "font/woff2",
-        "encoding": "identity",
-        "response": 78427.102117,
-        "end": 78427.099618,
-        "wireBytes": 23408
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
-        "type": "Font",
-        "start": 78427.097701,
-        "initiator": "parser",
-        "status": 200,
-        "mime": "font/woff2",
-        "encoding": "identity",
-        "response": 78427.102159,
-        "end": 78427.098728,
-        "wireBytes": 29588
-      },
-      {
-        "url": "http://127.0.0.1:3001/?motion-audit=1",
-        "type": "Document",
-        "start": 78427.090616,
-        "initiator": "other",
-        "status": 200,
-        "mime": "text/html",
-        "encoding": "gzip",
-        "response": 78427.094939,
-        "end": 78427.096844,
-        "wireBytes": 51449
+        "response": 82306.66749,
+        "end": 82306.663466,
+        "wireBytes": 943
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/css/d0448a562edd9c4c.css",
         "type": "Stylesheet",
-        "start": 78427.097842,
+        "start": 82306.658655,
         "initiator": "parser",
         "status": 200,
         "mime": "text/css",
         "encoding": "gzip",
-        "response": 78427.102192,
-        "end": 78427.103191,
+        "response": 82306.667567,
+        "end": 82306.666634,
         "wireBytes": 18066
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/css/7dcd57eaf59aa0d6.css",
+        "type": "Stylesheet",
+        "start": 82306.658676,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "encoding": "gzip",
+        "response": 82306.66817,
+        "end": 82306.665019,
+        "wireBytes": 11874
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "type": "Font",
+        "start": 82306.657766,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "encoding": "identity",
+        "response": 82306.668988,
+        "end": 82306.661566,
+        "wireBytes": 29588
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "type": "Font",
+        "start": 82306.658581,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "encoding": "identity",
+        "response": 82306.669059,
+        "end": 82306.662928,
+        "wireBytes": 23408
+      },
+      {
+        "url": "http://127.0.0.1:3001/?motion-audit=1",
+        "type": "Document",
+        "start": 82306.6342,
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "encoding": "gzip",
+        "response": 82306.650648,
+        "end": 82306.653054,
+        "wireBytes": 51450
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/webpack-df201a4164715fb2.js",
         "type": "Script",
-        "start": 78427.09788,
+        "start": 82306.658701,
         "initiator": "parser",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.104997,
-        "end": 78427.103403,
+        "response": 82306.670015,
+        "end": 82306.666019,
         "wireBytes": 2254
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/main-app-6954a6653158385a.js",
         "type": "Script",
-        "start": 78427.097924,
+        "start": 82306.658755,
         "initiator": "parser",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "identity",
-        "response": 78427.11393,
-        "end": 78427.102974,
+        "response": 82306.681891,
+        "end": 82306.668294,
         "wireBytes": 860
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
-        "type": "Font",
-        "start": 78427.129373,
-        "initiator": "parser",
-        "status": 200,
-        "mime": "font/woff2",
-        "encoding": "identity",
-        "response": 78427.142033,
-        "end": 78427.130376,
-        "wireBytes": 16840
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-80d9aa500a393e8e.js",
-        "type": "Script",
-        "start": 78427.097969,
-        "initiator": "parser",
-        "status": 200,
-        "mime": "application/javascript",
-        "encoding": "gzip",
-        "response": 78427.142329,
-        "end": 78427.107567,
-        "wireBytes": 3416
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
-        "type": "Script",
-        "start": 78427.097959,
-        "initiator": "parser",
-        "status": 200,
-        "mime": "application/javascript",
-        "encoding": "gzip",
-        "response": 78427.142382,
-        "end": 78427.107954,
-        "wireBytes": 6004
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/c15bf2b0-182b384b62e205ff.js",
         "type": "Script",
-        "start": 78427.097936,
+        "start": 82306.658775,
         "initiator": "parser",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.142423,
-        "end": 78427.108473,
+        "response": 82306.681982,
+        "end": 82306.671163,
         "wireBytes": 20175
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/446-9737fba211d65173.js",
+        "type": "Script",
+        "start": 82306.658813,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 82306.682039,
+        "end": 82306.673745,
+        "wireBytes": 6004
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/50-d904d14977fc9b15.js",
         "type": "Script",
-        "start": 78427.097947,
+        "start": 82306.658791,
         "initiator": "parser",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.142465,
-        "end": 78427.10958,
+        "response": 82306.682088,
+        "end": 82306.67403,
         "wireBytes": 25282
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/chunks/app/layout-84aeaa121117115e.js",
+        "type": "Script",
+        "start": 82306.658826,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "encoding": "gzip",
+        "response": 82306.682142,
+        "end": 82306.674385,
+        "wireBytes": 3442
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/app/not-found-45c63778a3e9ec44.js",
         "type": "Script",
-        "start": 78427.09798,
+        "start": 82306.658843,
         "initiator": "parser",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.142514,
-        "end": 78427.111942,
+        "response": 82306.682197,
+        "end": 82306.675743,
         "wireBytes": 3850
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/209-44beca00da938c1b.js",
         "type": "Script",
-        "start": 78427.09799,
+        "start": 82306.658855,
         "initiator": "parser",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.142557,
-        "end": 78427.112438,
+        "response": 82306.682245,
+        "end": 82306.676321,
         "wireBytes": 7040
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/static/media/aa016aab0e6d1295-s.woff2",
+        "type": "Font",
+        "start": 82306.719581,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "encoding": "identity",
+        "response": 82306.737803,
+        "end": 82306.720809,
+        "wireBytes": 16840
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/4bd1b696-c7408084347438ae.js",
         "type": "Script",
-        "start": 78427.097897,
+        "start": 82306.658723,
         "initiator": "parser",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.142783,
-        "end": 78427.113037,
+        "response": 82306.738419,
+        "end": 82306.677372,
         "wireBytes": 64494
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/794-216401842b802bd7.js",
         "type": "Script",
-        "start": 78427.097911,
+        "start": 82306.658738,
         "initiator": "parser",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.142842,
-        "end": 78427.113359,
+        "response": 82306.738519,
+        "end": 82306.677686,
         "wireBytes": 67859
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/app/page-0a7259b9aa6a79cf.js",
         "type": "Script",
-        "start": 78427.098001,
+        "start": 82306.658868,
         "initiator": "parser",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.14292,
-        "end": 78427.114989,
+        "response": 82306.73863,
+        "end": 82306.678796,
         "wireBytes": 36212
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
-        "type": "Image",
-        "start": 78427.141864,
-        "initiator": "parser",
-        "status": 200,
-        "mime": "image/webp",
-        "encoding": "identity",
-        "response": 78427.149817,
-        "end": 78427.144183,
-        "wireBytes": 34606
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=640&q=75",
         "type": "Image",
-        "start": 78427.141915,
+        "start": 82306.737655,
         "initiator": "parser",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78427.149945,
-        "end": 78427.144279,
+        "response": 82306.748107,
+        "end": 82306.742618,
         "wireBytes": 12597
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=640&q=75",
         "type": "Image",
-        "start": 78427.141933,
+        "start": 82306.737679,
         "initiator": "parser",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78427.150001,
-        "end": 78427.144433,
+        "response": 82306.748626,
+        "end": 82306.742939,
         "wireBytes": 12421
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fdayflow%2Fdayflow-admin-dashboard.jpg&w=640&q=75",
         "type": "Image",
-        "start": 78427.141947,
+        "start": 82306.737695,
         "initiator": "parser",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78427.150046,
-        "end": 78427.144554,
+        "response": 82306.748693,
+        "end": 82306.742968,
         "wireBytes": 9412
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1080&q=75",
+        "type": "Image",
+        "start": 82306.737599,
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 82306.748755,
+        "end": 82306.743086,
+        "wireBytes": 34606
       },
       {
         "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
         "type": "Other",
-        "start": 78427.180784,
+        "start": 82306.789602,
         "initiator": "other",
         "status": 200,
         "mime": "image/x-icon",
         "encoding": "identity",
-        "response": 78427.195654,
-        "end": 78427.182007,
+        "response": 82306.792551,
+        "end": 82306.791575,
         "wireBytes": 3078
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/857.ecdb3aac69b80487.js",
         "type": "Script",
-        "start": 78427.207184,
+        "start": 82306.835156,
         "initiator": "script",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.210514,
-        "end": 78427.20873,
+        "response": 82306.839687,
+        "end": 82306.836913,
         "wireBytes": 5578
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/844.c5698d7e4085fdc7.js",
         "type": "Script",
-        "start": 78427.207251,
+        "start": 82306.835228,
         "initiator": "script",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.21059,
-        "end": 78427.209068,
+        "response": 82306.839764,
+        "end": 82306.836983,
         "wireBytes": 4150
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/72c373f8.e056c33f8b8d6ede.js",
         "type": "Script",
-        "start": 78427.20712,
+        "start": 82306.835074,
         "initiator": "script",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.220123,
-        "end": 78427.212841,
+        "response": 82306.860108,
+        "end": 82306.841779,
         "wireBytes": 46652
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/b536a0f1.8b5c649a3f5349db.js",
         "type": "Script",
-        "start": 78427.206664,
+        "start": 82306.834539,
         "initiator": "script",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.22022,
-        "end": 78427.215038,
+        "response": 82306.860248,
+        "end": 82306.844411,
         "wireBytes": 89171
       },
       {
         "url": "http://127.0.0.1:3001/_next/static/chunks/bd904a5c.b9f5781b322e5178.js",
         "type": "Script",
-        "start": 78427.207047,
+        "start": 82306.834986,
         "initiator": "script",
         "status": 200,
         "mime": "application/javascript",
         "encoding": "gzip",
-        "response": 78427.220285,
-        "end": 78427.215762,
+        "response": 82306.86034,
+        "end": 82306.845322,
         "wireBytes": 101453
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-landing-hero.jpg&w=750&q=75",
         "type": "Image",
-        "start": 78434.747792,
+        "start": 82314.381774,
         "initiator": "other",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78434.753409,
-        "end": 78434.753432,
+        "response": 82314.400745,
+        "end": 82314.400597,
         "wireBytes": 12805
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fsatquery-ai%2Fsatquery-main-interface-dark.jpg&w=1200&q=75",
         "type": "Image",
-        "start": 78434.747883,
+        "start": 82314.382237,
         "initiator": "other",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78434.7536,
-        "end": 78434.753555,
+        "response": 82314.401425,
+        "end": 82314.400657,
         "wireBytes": 40418
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fgesture-globe-pinch-control.jpg&w=1080&q=75",
         "type": "Image",
-        "start": 78434.748292,
+        "start": 82314.384825,
         "initiator": "script",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78434.754168,
-        "end": 78434.75427,
+        "response": 82314.401562,
+        "end": 82314.400791,
         "wireBytes": 30505
-      },
-      {
-        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-two-hand-tracking.jpg&w=384&q=75",
-        "type": "Image",
-        "start": 78434.748528,
-        "initiator": "script",
-        "status": 200,
-        "mime": "image/webp",
-        "encoding": "identity",
-        "response": 78434.754268,
-        "end": 78434.75445,
-        "wireBytes": 6516
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-globe-scale.jpg&w=384&q=75",
         "type": "Image",
-        "start": 78434.748596,
+        "start": 82314.385382,
         "initiator": "script",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78434.754921,
-        "end": 78434.754813,
+        "response": 82314.401678,
+        "end": 82314.401014,
         "wireBytes": 7240
       },
       {
-        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fgesture-globe%2Fglobe-two-hand-tracking.jpg&w=384&q=75",
         "type": "Image",
-        "start": 78436.285152,
-        "initiator": "other",
+        "start": 82314.385311,
+        "initiator": "script",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78436.292137,
-        "end": 78436.290644,
-        "wireBytes": 20661
+        "response": 82314.401752,
+        "end": 82314.4012,
+        "wireBytes": 6516
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fpresidency-html-competition-first-place-2020.jpg&w=640&q=75",
         "type": "Image",
-        "start": 78436.285049,
+        "start": 82315.914727,
         "initiator": "other",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78436.292362,
-        "end": 78436.290776,
+        "response": 82315.92527,
+        "end": 82315.923014,
         "wireBytes": 32642
+      },
+      {
+        "url": "http://127.0.0.1:3001/_next/image?url=%2Fachievements%2Fgoogle-ai-professional-certificate-2026.jpg&w=640&q=75",
+        "type": "Image",
+        "start": 82315.914786,
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "encoding": "identity",
+        "response": 82315.925621,
+        "end": 82315.923421,
+        "wireBytes": 20661
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-prototype-hero.jpg&w=640&q=75",
         "type": "Image",
-        "start": 78446.413346,
+        "start": 82326.040408,
         "initiator": "other",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78446.419679,
-        "end": 78446.419888,
+        "response": 82326.052671,
+        "end": 82326.052684,
         "wireBytes": 24350
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-iot-hardware.jpg&w=640&q=75",
         "type": "Image",
-        "start": 78446.413641,
+        "start": 82326.041024,
         "initiator": "script",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78446.419851,
-        "end": 78446.420049,
+        "response": 82326.053126,
+        "end": 82326.052794,
         "wireBytes": 39504
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-dashboard.jpg&w=1080&q=75",
         "type": "Image",
-        "start": 78446.413728,
+        "start": 82326.041125,
         "initiator": "script",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78446.420518,
-        "end": 78446.420667,
+        "response": 82326.053318,
+        "end": 82326.053109,
         "wireBytes": 27051
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Falgaeos%2Falgaeos-system-infographic.jpg&w=384&q=75",
         "type": "Image",
-        "start": 78446.413781,
+        "start": 82326.041175,
         "initiator": "script",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78446.420602,
-        "end": 78446.420824,
+        "response": 82326.053423,
+        "end": 82326.053171,
         "wireBytes": 48126
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-certificate.jpg&w=640&q=75",
         "type": "Image",
-        "start": 78449.949796,
+        "start": 82329.570665,
         "initiator": "other",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78449.953159,
-        "end": 78449.953381,
+        "response": 82329.574708,
+        "end": 82329.574851,
         "wireBytes": 15420
       },
       {
         "url": "http://127.0.0.1:3001/_next/image?url=%2Fprojects%2Fmedifit%2Fpush-pull-commit-team-event.jpg&w=384&q=75",
         "type": "Image",
-        "start": 78449.94991,
+        "start": 82329.570756,
         "initiator": "other",
         "status": 200,
         "mime": "image/webp",
         "encoding": "identity",
-        "response": 78449.953344,
-        "end": 78449.953574,
+        "response": 82329.574983,
+        "end": 82329.575015,
         "wireBytes": 13893
       },
       {
         "url": "http://127.0.0.1:3001/favicon.ico?cfe09d7d09b3d686",
         "type": "Other",
-        "start": 78471.108117,
+        "start": 82350.829704,
         "initiator": "other",
         "status": 200,
         "mime": "image/x-icon",
         "encoding": "identity",
-        "response": 78471.110429,
-        "end": 78471.11034,
+        "response": 82350.83477,
+        "end": 82350.834651,
         "wireBytes": 3078
       }
     ]

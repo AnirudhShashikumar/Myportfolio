@@ -18,5 +18,37 @@
   {
     "name": "f03-f04",
     "exitCode": 0
+  },
+  {
+    "name": "f05",
+    "exitCode": 0
+  },
+  {
+    "name": "seo",
+    "exitCode": 0
+  },
+  {
+    "name": "integrity",
+    "exitCode": 0
+  },
+  {
+    "name": "content",
+    "exitCode": 0
+  },
+  {
+    "name": "matrix-chrome",
+    "exitCode": 0
+  },
+  {
+    "name": "matrix-webkit",
+    "exitCode": 0
+  },
+  {
+    "name": "extra",
+    "exitCode": 0
+  },
+  {
+    "name": "scroll-input",
+    "exitCode": 0
   }
 ]

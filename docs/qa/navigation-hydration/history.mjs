@@ -20,11 +20,11 @@ for(const engine of ['chrome','webkit']){
     const expected=nativeBookmark!==null&&nativeBookmark>=bounds.top-1&&nativeBookmark<bounds.bottom?nativeBookmark:bounds.top;
     const row={id,action,nativeBookmark,expected,bounds,frames};cases.push(row);
     assert.ok(frames.every(f=>Math.abs(f.y-expected)<2),`${engine}/${mode}/${id}/${action}: first-frame bookmark errors ${frames.map(f=>f.y-expected)}`);
-    assert.ok(frames.every(f=>f.hash==='#'+id));return row;
+    assert.ok(frames.every(f=>id==='home'?['','#home'].includes(f.hash):f.hash==='#'+id));return row;
    }
    for(const id of ['home','work','about','contact'])for(let run=0;run<3;run++){
     const seed=id==='home'?'work':'home';
-    await p.goto(`http://127.0.0.1:3001/?motion-audit=1#${seed}`);await p.waitForTimeout(550);
+    await p.goto(`http://127.0.0.1:3001/?motion-audit=1${seed==='home'?'':'#'+seed}`);await p.waitForTimeout(550);
     await p.locator('header').getByRole('link',{name:id[0].toUpperCase()+id.slice(1),exact:true}).click();
     if(await p.evaluate(()=>!!window.__motionAudit?.lenis))await p.waitForFunction(()=>window.__motionAudit.lenis.isScrolling==='smooth');
     await p.goBack();await capture(seed,`rapid-back-${id}-${run}`);

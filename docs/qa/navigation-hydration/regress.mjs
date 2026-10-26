@@ -1,12 +1,12 @@
 // Run existing suites with isolated output folders; keep historical evidence intact.
-import { readFileSync, writeFileSync, mkdirSync, unlinkSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, unlinkSync, existsSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 const root='docs/qa/navigation-hydration/after/regression';
 mkdirSync(root,{recursive:true});
 const env={...process.env,PORTFOLIO_QA_URL:process.env.PORTFOLIO_QA_URL||'http://127.0.0.1:3001',POLISH_PHASE:'after',SEO_PHASE:'after',INTEGRITY_PHASE:'after',F02_QA_OUT:`${root}/accessibility-f02`};
 const temporary=[];
 const specs=[];
-function copy(source,target,replacements){let text=readFileSync(source,'utf8');for(const [a,b] of replacements){if(!text.includes(a))throw new Error(`Missing expected adapter text in ${source}`);text=text.replace(a,b)}writeFileSync(target,text);temporary.push(target);return target}
+function copy(source,target,replacements){let text=readFileSync(source,'utf8');for(const [a,b] of replacements){if(!text.includes(a))throw new Error(`Missing expected adapter text in ${source}`);text=text.replace(a,b)}const previous=existsSync(target)?readFileSync(target):null;writeFileSync(target,text);temporary.push({target,previous});return target}
 const about=copy('scripts/about-motion-qa.mjs','scripts/.navigation-hydration-about.mjs',[["const directory = 'docs/qa/about-motion';",`const directory = '${root}/about';`]]);
 const discovery=copy('scripts/scroll-discovery-qa.mjs','scripts/.navigation-hydration-discovery.mjs',[["const directory = \"docs/qa/scroll-discovery\";",`const directory = "${root}/scroll-discovery";`]]);
 const production=copy('scripts/production-audit.mjs','scripts/.navigation-hydration-production.mjs',[["const out = \"docs/qa/production\";",`const out = "${root}/production";`]]);
@@ -28,4 +28,9 @@ try{
   if(run.status!==0)throw new Error(`${name} failed; inspect its saved log`);
   console.log(`PASS ${name}`);
  }
-}finally{for(const file of temporary)unlinkSync(file)}
+}finally{
+ for(const {target,previous} of temporary){
+  if(previous!==null)writeFileSync(target,previous);
+  else if(spawnSync('git',['ls-files','--error-unmatch','--',target],{stdio:'ignore'}).status!==0)unlinkSync(target);
+ }
+}

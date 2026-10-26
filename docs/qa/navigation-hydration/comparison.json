@@ -1,0 +1,562 @@
+[
+  {
+    "phase": "before",
+    "fragment": "/",
+    "action": "navigate",
+    "cls": [
+      0,
+      0,
+      0
+    ],
+    "encodedJavaScriptBodyBytes": [
+      476966,
+      476966,
+      476966
+    ],
+    "javaScriptRequests": [
+      15,
+      15,
+      15
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      -128,
+      -128,
+      -128
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "before",
+    "fragment": "/",
+    "action": "refresh",
+    "cls": [
+      0,
+      0,
+      0
+    ],
+    "encodedJavaScriptBodyBytes": [
+      476966,
+      476966,
+      476966
+    ],
+    "javaScriptRequests": [
+      15,
+      15,
+      15
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      -128,
+      -128,
+      -128
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "before",
+    "fragment": "#work",
+    "action": "navigate",
+    "cls": [
+      0,
+      0,
+      0
+    ],
+    "encodedJavaScriptBodyBytes": [
+      476966,
+      476966,
+      476966
+    ],
+    "javaScriptRequests": [
+      15,
+      15,
+      15
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0,
+      0,
+      0
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "before",
+    "fragment": "#work",
+    "action": "refresh",
+    "cls": [
+      0,
+      0,
+      0
+    ],
+    "encodedJavaScriptBodyBytes": [
+      476966,
+      476966,
+      476966
+    ],
+    "javaScriptRequests": [
+      15,
+      15,
+      15
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0,
+      0,
+      0
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "before",
+    "fragment": "#about",
+    "action": "navigate",
+    "cls": [
+      1,
+      1,
+      1
+    ],
+    "encodedJavaScriptBodyBytes": [
+      476966,
+      476966,
+      476966
+    ],
+    "javaScriptRequests": [
+      15,
+      15,
+      15
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0.109375,
+      0.109375,
+      0.109375
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "before",
+    "fragment": "#about",
+    "action": "refresh",
+    "cls": [
+      1,
+      1,
+      1
+    ],
+    "encodedJavaScriptBodyBytes": [
+      476966,
+      476966,
+      476966
+    ],
+    "javaScriptRequests": [
+      15,
+      15,
+      15
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0.109375,
+      0.109375,
+      0.109375
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "before",
+    "fragment": "#contact",
+    "action": "navigate",
+    "cls": [
+      2,
+      2,
+      2
+    ],
+    "encodedJavaScriptBodyBytes": [
+      476966,
+      476966,
+      476966
+    ],
+    "javaScriptRequests": [
+      15,
+      15,
+      15
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0.109375,
+      0.109375,
+      0.109375
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "before",
+    "fragment": "#contact",
+    "action": "refresh",
+    "cls": [
+      2,
+      2,
+      2
+    ],
+    "encodedJavaScriptBodyBytes": [
+      476966,
+      476966,
+      476966
+    ],
+    "javaScriptRequests": [
+      15,
+      15,
+      15
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0.109375,
+      0.109375,
+      0.109375
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "after",
+    "fragment": "/",
+    "action": "navigate",
+    "cls": [
+      0,
+      0,
+      0
+    ],
+    "encodedJavaScriptBodyBytes": [
+      477885,
+      477885,
+      477885
+    ],
+    "javaScriptRequests": [
+      16,
+      16,
+      16
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      -128,
+      -128,
+      -128
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "after",
+    "fragment": "/",
+    "action": "refresh",
+    "cls": [
+      0,
+      0,
+      0
+    ],
+    "encodedJavaScriptBodyBytes": [
+      477885,
+      477885,
+      477885
+    ],
+    "javaScriptRequests": [
+      16,
+      16,
+      16
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      -128,
+      -128,
+      -128
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "after",
+    "fragment": "#work",
+    "action": "navigate",
+    "cls": [
+      0,
+      0,
+      0
+    ],
+    "encodedJavaScriptBodyBytes": [
+      477885,
+      477885,
+      477885
+    ],
+    "javaScriptRequests": [
+      16,
+      16,
+      16
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0,
+      0,
+      0
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "after",
+    "fragment": "#work",
+    "action": "refresh",
+    "cls": [
+      0,
+      0,
+      0
+    ],
+    "encodedJavaScriptBodyBytes": [
+      477885,
+      477885,
+      477885
+    ],
+    "javaScriptRequests": [
+      16,
+      16,
+      16
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0,
+      0,
+      0
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "after",
+    "fragment": "#about",
+    "action": "navigate",
+    "cls": [
+      1,
+      1,
+      1
+    ],
+    "encodedJavaScriptBodyBytes": [
+      477885,
+      477885,
+      477885
+    ],
+    "javaScriptRequests": [
+      16,
+      16,
+      16
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0.109375,
+      0.109375,
+      0.109375
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "after",
+    "fragment": "#about",
+    "action": "refresh",
+    "cls": [
+      1,
+      1,
+      1
+    ],
+    "encodedJavaScriptBodyBytes": [
+      477885,
+      477885,
+      477885
+    ],
+    "javaScriptRequests": [
+      16,
+      16,
+      16
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0.109375,
+      0.109375,
+      0.109375
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "after",
+    "fragment": "#contact",
+    "action": "navigate",
+    "cls": [
+      2,
+      2,
+      2
+    ],
+    "encodedJavaScriptBodyBytes": [
+      477885,
+      477885,
+      477885
+    ],
+    "javaScriptRequests": [
+      16,
+      16,
+      16
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0.109375,
+      0.109375,
+      0.109375
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "phase": "after",
+    "fragment": "#contact",
+    "action": "refresh",
+    "cls": [
+      2,
+      2,
+      2
+    ],
+    "encodedJavaScriptBodyBytes": [
+      477885,
+      477885,
+      477885
+    ],
+    "javaScriptRequests": [
+      16,
+      16,
+      16
+    ],
+    "finalHeights": [
+      46887,
+      46887,
+      46887
+    ],
+    "finalLandingErrors": [
+      0.109375,
+      0.109375,
+      0.109375
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ]
+  }
+]

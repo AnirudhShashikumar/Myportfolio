@@ -1,0 +1,9 @@
+PASS chrome/desktop: 15 direct/refresh/history landings
+PASS chrome/mobile: 15 direct/refresh/history landings
+PASS chrome/reduced: 15 direct/refresh/history landings
+PASS chrome/no-js: 15 direct/refresh/history landings
+PASS chrome/no-webgl: 15 direct/refresh/history landings
+PASS webkit/desktop: 15 direct/refresh/history landings
+PASS webkit/mobile: 15 direct/refresh/history landings
+PASS webkit/reduced: 15 direct/refresh/history landings
+PASS webkit/no-js: 15 direct/refresh/history landings

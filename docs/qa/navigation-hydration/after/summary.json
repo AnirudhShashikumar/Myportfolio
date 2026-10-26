@@ -1,0 +1,13 @@
+{
+  "rapidBeforeFailures": 3,
+  "rapidAfterFailures": 0,
+  "historyProfiles": 9,
+  "rapidTraversals": 216,
+  "historySamples": 2592,
+  "continuousTraversalCases": 48,
+  "continuousPostPopstateFrames": 758,
+  "deepHistoryCases": 8,
+  "regressionSuites": 13,
+  "settledNavigationLandings": 135,
+  "compositorProfiles": 20
+}

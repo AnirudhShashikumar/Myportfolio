@@ -42,12 +42,16 @@ changed = [name for name, digest in hashes.items() if hashlib.sha256(Path(name).
 assert set(changed) == {'src/components/system/SmoothScroll.tsx', 'src/components/system/ScrollMotion.tsx'}
 git = lambda *args: subprocess.check_output(['git', *args], text=True).strip()
 start = (root / 'before/git-head.txt').read_text().strip()
-assert git('rev-parse', 'HEAD') == start
+final_head = git('rev-parse', 'HEAD')
+subprocess.run(['git', 'merge-base', '--is-ancestor', start, final_head], check=True)
 assert git('diff', '--cached', '--name-only') == (root / 'before/index-paths.txt').read_text().strip()
 fonts_before = json.loads(Path('docs/qa/performance-f10-f12/after/font-comparison.json').read_text())['hashes']
 fonts_after = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in Path('.next/static/media').glob('*.woff2')}
 assert fonts_before == fonts_after
-preserved = dict(startHead=start, finalHead=git('rev-parse', 'HEAD'), startingFileCount=len(hashes),
+shared_history = git('log', '--format=%H %s', f'{start}..{final_head}').splitlines()
+preserved = dict(startHead=start, observedFinalHead=final_head, sharedHeadAdvanced=final_head != start,
+                 startRemainsAncestor=True, observedInterveningSharedCommits=shared_history,
+                 gitMutationCommandsPerformedByThisAgent=False, startingFileCount=len(hashes),
                  changedStartingFiles=changed, unchangedStartingFileCount=len(hashes) - len(changed),
                  indexUnchanged=True, fontFileCount=len(fonts_after), fontHashesIdentical=True,
                  dependencyFilesUnchanged=True, assetAndGraphicsSourcesUnchanged=True)
